@@ -22,7 +22,7 @@
       'Dunne-laag-technologie verlengt de levensduur van materialen met aanzienlijk minder verf per vierkante meter.',
       'Plantaardige grondstoffen en minder gevaarlijke stoffen, ontworpen op formuleringsniveau.',
       'Gecertificeerd kwaliteits-, milieu- en veiligheidsmanagement — en productcertificeringen per merk.']],
-    ['.film-cap', 'De film — To sustain our future, rich in colour <em>· 2:52</em>'],
+    ['.film-cap .wrap-cap', 'De film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">bekijk met geluid ↗</a>'],
     // chapter A
     ['#bio .eyebrow', 'Hoofdstuk 01 · Circulaire grondstoffen'],
     ['#bio h2', 'Van vat<br>naar bio'],
@@ -92,7 +92,7 @@
       'Plantaardige grondstoffen vervangen fossiele chemie waar het ertoe doet — CO₂ vastleggen in plaats van uitstoten, zonder in te leveren op prestaties.',
       'Meer bescherming uit minder materiaal. Lagere laagdikte betekent langer meegaande objecten, minder overschilderen en een kleinere voetafdruk per beschermde m².',
       'Produceren dicht bij onze markten in Nederland, de Verenigde Staten en Polen — met emissiereductie ontworpen in het proces.']],
-    ['.renew-cap', 'Corrosiebescherming voor de energietransitie — offshore, waar coatings het zwaarst werken.'],
+    ['.renew-cap', 'Corrosiebescherming, met precisie aangebracht — dunne lagen die het zwaarste werk doen.'],
     // datasheet
     ['#data .eyebrow', 'Datasheet'],
     ['#data h2', 'De groep<br>in cijfers'],
