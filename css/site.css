@@ -138,7 +138,7 @@ strong{font-weight:600}
 @keyframes drip{0%,100%{transform:scaleY(.4);opacity:.4}50%{transform:scaleY(1);opacity:1}}
 
 /* ---------- sections ---------- */
-section{padding:130px 0;position:relative}
+section{padding:clamp(64px,9vw,110px) 0;position:relative}
 .sec-head{margin-bottom:64px;max-width:780px}
 h2{
   font-family:var(--display);font-weight:800;text-transform:uppercase;
@@ -147,7 +147,7 @@ h2{
 .sec-head p{color:var(--muted);margin-top:18px;max-width:560px}
 
 /* mission */
-#mission{padding:150px 0;border-top:1px solid var(--hairline)}
+#mission{padding:clamp(72px,10vw,120px) 0;border-top:1px solid var(--hairline)}
 .mission-quote{
   font-family:var(--display);font-weight:700;
   font-size:clamp(24px,4vw,44px);line-height:1.22;max-width:1000px;margin-top:26px;
@@ -231,10 +231,15 @@ h2{
 
 /* ---------- proof / cases ---------- */
 #proof{border-top:1px solid var(--hairline);overflow:hidden}
-.cases{
-  display:grid;grid-auto-flow:column;grid-auto-columns:min(420px,78vw);gap:20px;
-  overflow-x:auto;padding:6px 24px 26px;margin:0 -24px;
-  scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--navy-800) transparent;
+.cases{ /* two rows of cases */
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:6px 0 10px;
+}
+@media(max-width:840px){
+  .cases{
+    grid-template-columns:none;grid-auto-flow:column;grid-template-rows:repeat(2,auto);
+    grid-auto-columns:min(330px,80vw);overflow-x:auto;padding:6px 24px 22px;margin:0 -24px;
+    scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--navy-800) transparent;
+  }
 }
 .case{
   scroll-snap-align:start;border:1px solid var(--hairline);border-radius:10px;overflow:hidden;
@@ -330,8 +335,8 @@ footer{
 .chapter .sec-head{margin-bottom:30px}
 
 /* pinned scene scaffold */
-.scene{height:240vh;position:relative;--t:0}
-.scene.short{height:200vh}
+.scene{height:195vh;position:relative;--t:0}
+.scene.short{height:165vh}
 .scene-pin{
   position:sticky;top:0;height:100svh;display:flex;align-items:center;overflow:hidden;
 }
@@ -377,9 +382,11 @@ footer{
 
 /* ---------- Chapter A — The Liter ---------- */
 .liter-grid{
-  display:grid;grid-template-columns:minmax(200px,320px) 1fr;gap:clamp(28px,6vw,90px);
-  align-items:center;width:100%;
+  display:grid;grid-template-columns:minmax(200px,320px) 1fr;grid-template-rows:auto auto;
+  gap:10px clamp(28px,6vw,90px);align-items:center;width:100%;
 }
+.liter-fig{grid-row:1/3}
+.liter-grid .counters{grid-column:2;align-self:start}
 .liter-fig{margin:0}
 .liter-fig svg{width:100%;height:auto;max-height:78svh;display:block;margin:0 auto}
 .liter-shell{fill:var(--navy-900);stroke:var(--hairline);stroke-width:1.5}
@@ -431,18 +438,24 @@ footer{
   background:linear-gradient(95deg,var(--green),var(--teal));
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
 }
-.ctr .yr{font-size:.5em;font-weight:800;vertical-align:.18em}
+.ctr .yr{
+  font-size:.5em;font-weight:800;vertical-align:.18em;
+  opacity:clamp(0,calc((var(--t) - .58)/.1),1); /* appears once the counter lands */
+}
 .ctr .cl{
   font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--muted);display:block;margin-top:8px;
 }
 @media(max-width:840px){
-  .liter-grid{grid-template-columns:1fr;gap:14px;align-items:start;padding-top:8svh}
-  .liter-fig svg{max-height:26svh}
-  .cycle-fig svg{width:min(360px,96%);margin:0 auto}
-  .counters{gap:20px;margin-top:12px}
-  .ctr b{font-size:24px}
-  .ctr .cl{margin-top:5px;font-size:10px}
+  /* liter and cycle side by side: fills the phone screen */
+  .liter-grid{grid-template-columns:36% 1fr;gap:6px 12px;align-items:center;padding-top:0}
+  .liter-fig{grid-row:1}
+  .liter-fig svg{max-height:46svh}
+  .cycle-fig svg{width:100%;margin:0 auto}
+  .liter-grid .counters{grid-column:1/-1;gap:14px 22px;margin-top:18px;justify-content:space-between}
+  .cn text{font-size:19px}
+  .ctr b{font-size:23px}
+  .ctr .cl{margin-top:4px;font-size:9.5px;letter-spacing:.1em}
 }
 
 /* ---------- Chapter B — The Paint Pool ---------- */
@@ -515,18 +528,22 @@ footer{
 .air{--t:0;margin-top:10px}
 .air-fig{
   margin:0;border:1px solid var(--hairline);border-radius:12px;overflow:hidden;
+  position:relative;height:clamp(280px,42vw,520px);
   background:linear-gradient(180deg,var(--navy-900),var(--navy-950));
 }
-.air-fig svg{width:100%;height:auto;display:block}
-.particles circle{fill:var(--fossil);transform-box:fill-box;transform-origin:center}
-.particles{opacity:calc(1 - clamp(0,calc(var(--t)/.6),1)*.96)}
-@keyframes pdrift{to{transform:translate(9px,-12px)}}
-.scaffold{stroke:var(--navy-800);stroke-width:5;stroke-linecap:round}
-.psil{fill:var(--navy-800);stroke:rgba(140,161,190,.35);stroke-width:1.2}
-.parm{fill:none;stroke:var(--navy-800);stroke-width:13;stroke-linecap:round}
-.proller{
-  fill:color-mix(in srgb,var(--green) calc(clamp(0,calc((var(--t) - .3)/.4),1)*70%),var(--fossil));
+.air-fig img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 24%;
+  filter:saturate(.92);
 }
+.air-fig::after{ /* gentle tint so the particle haze reads */
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(5,13,24,calc(.5 - clamp(0,calc(var(--t)/.6),1)*.35)),rgba(5,13,24,.12));
+}
+.air-svg{position:absolute;inset:0;width:100%;height:100%;z-index:2}
+.particles circle{fill:var(--fossil);transform-box:fill-box;transform-origin:center}
+.particles{opacity:calc(1 - clamp(0,calc(var(--t)/.6),1)*.97)}
+@keyframes pdrift{to{transform:translate(9px,-12px)}}
+.chap-media.one{grid-template-columns:1fr}
 .tl{margin-top:34px}
 .tl-svg{width:100%;height:24px;display:block}
 .tl-ghost{stroke:var(--hairline);stroke-width:1.5}
@@ -581,8 +598,48 @@ footer{
   --oldp:clamp(0,calc(var(--t)/.45),1);          /* old chain retracts */
   --np:clamp(0,calc((var(--t) - .42)/.5),1);     /* new chain draws */
 }
-.chain-fig{margin:0}
-.chain-fig svg{width:100%;height:auto;max-height:68svh;display:block}
+/* vertical two-column chain comparison (replaces the old map-line SVG) */
+.chains{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,5vw,80px);margin-top:8px}
+.chain-col h5{margin-bottom:4px}
+.chain-col ul{list-style:none;position:relative;margin-top:16px;padding-left:30px}
+.chain-col ul::before{
+  content:"";position:absolute;left:9px;top:14px;bottom:14px;width:2.5px;border-radius:2px;
+}
+.cc-old ul::before{
+  background:repeating-linear-gradient(180deg,var(--fossil) 0 7px,transparent 7px 16px);
+  transform:scaleY(calc(1 - var(--oldp)*.92));transform-origin:top;
+  opacity:calc(.9 - var(--oldp)*.5);
+}
+.cc-new ul::before{
+  background:linear-gradient(180deg,var(--green),var(--teal));
+  transform:scaleY(var(--np));transform-origin:top;
+  box-shadow:0 0 14px rgba(95,201,143,.45);
+}
+.chain-col li{
+  font-family:var(--mono);font-size:clamp(13px,1.5vw,15.5px);font-weight:500;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+  padding:13px 0;position:relative;
+}
+.chain-col li::before{
+  content:"";position:absolute;left:-27px;top:50%;transform:translateY(-50%);
+  width:11px;height:11px;border-radius:50%;background:var(--navy-800);
+  border:2px solid var(--fossil);
+}
+.cc-old li{opacity:calc(.9 - var(--oldp)*.65)}
+.cc-new li{
+  --on:clamp(0,calc((var(--np) - var(--x))/.1),1);
+  opacity:calc(.25 + var(--on)*.75);color:color-mix(in srgb,var(--ink) calc(var(--on)*100%),var(--muted));
+}
+.cc-new li::before{
+  background:color-mix(in srgb,var(--green) calc(var(--on)*100%),var(--navy-800));
+  border-color:color-mix(in srgb,var(--green) calc(var(--on)*100%),var(--muted));
+  box-shadow:0 0 calc(var(--on)*12px) rgba(95,201,143,.5);
+}
+.cc-new .li-fab::after{
+  content:"";position:absolute;left:-27px;top:50%;width:11px;height:11px;border-radius:50%;
+  border:1.5px solid var(--green);transform:translateY(-50%);
+  opacity:var(--on);animation:pulse 2.2s cubic-bezier(.22,.8,.26,1) infinite;
+}
 .old-path{
   fill:none;stroke:var(--fossil);stroke-width:2.5;stroke-dasharray:3 8;stroke-linecap:round;
   opacity:calc(.85 - var(--oldp)*.55);
@@ -620,12 +677,12 @@ footer{
   100%{transform:scale(3.2);opacity:0}
 }
 .pulse-ring{transform-box:fill-box;transform-origin:center}
-.chain-labels{
-  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;
-  font-family:var(--mono);font-size:13.5px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+.cl-old,.cl-new{
+  font-family:var(--mono);font-size:clamp(11.5px,1.3vw,13.5px);font-weight:500;
+  letter-spacing:.12em;text-transform:uppercase;line-height:1.6;
 }
-.cl-old{color:var(--fossil);opacity:calc(1 - var(--oldp)*.6)}
-.cl-new{color:var(--green);opacity:calc(.25 + var(--np)*.75)}
+.cl-old{color:var(--fossil);opacity:calc(1 - var(--oldp)*.55)}
+.cl-new{color:var(--green);opacity:calc(.3 + var(--np)*.7)}
 .pulses{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .pulses span{
   font-family:var(--mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;
@@ -635,15 +692,8 @@ footer{
   opacity:var(--on);transform:translateY(calc((1 - var(--on))*10px));
 }
 @media(max-width:840px){
-  .chain-fig svg{max-height:44svh}
-  /* SVG text scales with the viewBox — bump unit size for legibility on small screens */
-  .on-nodes text,.nn text{font-size:27px;letter-spacing:.04em}
-  .on-nodes circle{stroke-width:3;r:9}
-  .nn circle{stroke-width:3.5;r:12}
-  .nn .pulse-ring{r:12}
-  .old-path{stroke-width:4}
-  .new-path{stroke-width:7}
-  .old-eraser{stroke-width:16}
+  .chains{gap:16px}
+  .chain-col li{padding:11px 0;font-size:12px}
 }
 
 /* ---------- Chapter E — Growing greener, worldwide ---------- */
@@ -686,7 +736,9 @@ footer{
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
 }
 @media(max-width:840px){
-  .map-fig svg{max-height:40svh}
+  /* oversize the map slightly: crop empty ocean margins, gain legibility */
+  .map-fig{overflow:hidden;border-radius:8px}
+  .map-fig svg{width:130%;margin-left:-15%;max-height:none}
   .map-site text{font-size:22px;stroke-width:6px}
   .map-site circle{r:9;stroke-width:3}
   .map-dot{r:4.4}

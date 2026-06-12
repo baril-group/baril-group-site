@@ -57,6 +57,8 @@
     ['#local .sec-head p:last-child', "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch, de Verenigde Staten, Polen — op eigen zonne- en windenergie, met een volledig elektrisch wagenpark en inclusief werkgeverschap als beleid, niet als project."],
     ['.cl-old', 'Lange keten — fossiel, intercontinentaal'],
     ['.cl-new', 'Korte keten — regionale akkers & reststromen'],
+    ['.cc-old li', ['Ruwe olie', 'Raffinaderij', 'Chemische fabriek', 'Bindmiddel', 'Fabriek']],
+    ['.cc-new li', ['Akker / reststroom', 'Bindmiddel', 'Fabriek Den Bosch', 'Object — zelfde regio']],
     ['.pulses span', ['Zonne- + windenergie', 'Elektrisch wagenpark', 'Inclusief werkgeverschap', 'Baril Academy']],
     // chapter E
     ['#world .eyebrow', 'Hoofdstuk 05 · Sinds 1987'],

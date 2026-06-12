@@ -17,8 +17,8 @@
     const frag = document.createDocumentFragment();
     for (let i = 0; i < 110; i++) {
       const c = document.createElementNS(NS, 'circle');
-      c.setAttribute('cx', (250 + Math.random() * 610).toFixed(1));
-      c.setAttribute('cy', (24 + Math.random() * 340).toFixed(1));
+      c.setAttribute('cx', (20 + Math.random() * 860).toFixed(1));
+      c.setAttribute('cy', (20 + Math.random() * 390).toFixed(1));
       c.setAttribute('r', (0.8 + Math.random() * 2.1).toFixed(2));
       c.setAttribute('opacity', (0.18 + Math.random() * 0.45).toFixed(2));
       if (!reduced) {
