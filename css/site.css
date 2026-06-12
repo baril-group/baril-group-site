@@ -71,10 +71,13 @@ header{
 }
 .hero-photo{
   position:absolute;inset:0;z-index:0;
-  background:url('https://www.barilcoatings.com/_cache/_public/Nature-bridge_367715195-WEB_YXJfMTkyMHg2MDBfZF8xX2pwZ18vX2Fzc2V0L19wcml2YXRlL2Nhcm91c2VsLzQ1_b8731620.jpg') center 30%/cover no-repeat;
-  opacity:.34;filter:saturate(.85);
+  background:url('../assets/img/IMG-01-hero.jpg') center 38%/cover no-repeat;
+  opacity:.42;filter:saturate(.9);
   -webkit-mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
           mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
+}
+@media(max-width:768px){
+  .hero-photo{background-image:url('../assets/img/IMG-01-hero-m.jpg')}
 }
 .hero-tint{
   position:absolute;inset:0;z-index:0;
@@ -336,12 +339,17 @@ footer{
   font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
   text-align:center;padding:0 16px;
 }
-.ph.r169{aspect-ratio:16/9}
-.ph.r11{aspect-ratio:1/1}
-.ph.r45{aspect-ratio:4/5}
+.ph.r169,.chimg.r169{aspect-ratio:16/9}
+.ph.r11,.chimg.r11{aspect-ratio:1/1}
+.ph.r45,.chimg.r45{aspect-ratio:4/5}
+.chimg{
+  margin:0;border:1px solid var(--hairline);border-radius:10px;overflow:hidden;
+  background:var(--navy-900);
+}
+.chimg img{width:100%;height:100%;object-fit:cover;display:block}
 @media(max-width:840px){
   .chap-media,.chap-media.two,.chap-media.duo-cs{grid-template-columns:1fr}
-  .ph.r11,.ph.r45{aspect-ratio:16/9}
+  .ph.r11,.ph.r45,.chimg.r11,.chimg.r45{aspect-ratio:16/9}
 }
 
 /* ---------- Chapter A — The Liter ---------- */
