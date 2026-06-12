@@ -22,6 +22,7 @@
       'Dunne-laag-technologie verlengt de levensduur van materialen met aanzienlijk minder verf per vierkante meter.',
       'Plantaardige grondstoffen en minder gevaarlijke stoffen, ontworpen op formuleringsniveau.',
       'Gecertificeerd kwaliteits-, milieu- en veiligheidsmanagement — en productcertificeringen per merk.']],
+    ['.film-cap', 'De film — To sustain our future, rich in colour <em>· 2:52</em>'],
     // chapter A
     ['#bio .eyebrow', 'Hoofdstuk 01 · Circulaire grondstoffen'],
     ['#bio h2', 'Van vat<br>naar bio'],
