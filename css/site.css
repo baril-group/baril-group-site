@@ -12,7 +12,8 @@
   --fossil:#6B7686; /* the fossil/old-world state in transitions */
   --display:'Montserrat',system-ui,sans-serif;
   --body:'Open Sans',system-ui,sans-serif;
-  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  /* label/data font — was IBM Plex Mono; now a distinctive grotesque sans */
+  --mono:'Space Grotesk','Open Sans',system-ui,sans-serif;
   --max:1240px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
