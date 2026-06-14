@@ -43,6 +43,25 @@
 .casecard h3{font-family:var(--display);font-weight:700;font-size:17px;line-height:1.2}
 .casecard .go{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-top:auto}
 
+/* ---------- markets ---------- */
+.marketsec{border-top:1px solid var(--hairline);padding-top:30px;margin-bottom:40px;scroll-margin-top:150px}
+.marketsec h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(22px,3.4vw,34px);line-height:1.05;margin-bottom:14px}
+.market-desc{color:var(--ink);font-size:clamp(16px,2vw,19px);font-weight:400;max-width:760px;margin-bottom:16px}
+.market-body{max-width:760px}
+.market-body p{color:var(--muted);font-size:15.5px;line-height:1.7;margin-bottom:12px}
+.market-cases{margin-top:22px}
+.market-cases h4{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.market-caselist{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:900px){.market-caselist{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.market-caselist{grid-template-columns:1fr}}
+.market-caselist a{display:flex;gap:12px;align-items:center;border:1px solid var(--hairline);border-radius:10px;
+  overflow:hidden;text-decoration:none;background:var(--green-900);transition:border-color .25s,transform .25s}
+.market-caselist a:hover{border-color:rgba(241,138,0,.5);transform:translateY(-2px)}
+.market-caselist .mi{width:74px;height:58px;flex:none;object-fit:cover;background:var(--green-800)}
+.market-caselist span{font-family:var(--display);font-weight:600;font-size:13.5px;line-height:1.25;padding-right:10px}
+.market-src{margin-top:16px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em}
+.market-src a{color:var(--orange);text-decoration:none}
+
 /* ---------- paint systems ---------- */
 .sysline{margin:0 0 44px;scroll-margin-top:150px}
 .sysline-head{display:flex;align-items:center;gap:14px;margin-bottom:20px;border-top:1px solid var(--hairline);padding-top:22px}
