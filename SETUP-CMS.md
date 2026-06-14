@@ -5,9 +5,9 @@ Decap-compatible, Git-based CMS). Editors log in with their **GitHub account**,
 change texts (English + Dutch) and images in a form, and on **Save** the change
 is committed to this repository — GitHub Pages then republishes automatically.
 
-> **Phase 1** covers the **Baril Coatings** one-pager
-> (`barilcoatings/content/coatings.json`). The Baril Group site can be added
-> the same way as Phase 2.
+> **Both sites are editable.** The editor has two collections:
+> **Baril Coatings** (`barilcoatings/content/coatings.json`) and
+> **Baril Group** (`content/group.json`). Same login, same workflow.
 
 The editor itself is built and committed. To make **login** work, one
 **one-time, ~10-minute** setup is needed (it can't be done from code — it needs
@@ -73,5 +73,6 @@ page from the editor. Images you upload are stored in
   to add: add the key to `barilcoatings/content/coatings.json`, map it in
   `barilcoatings/js/overrides.js` (`FIELD_MAP`), and add a field in
   `admin/config.yml`.
-- For the Group site (Phase 2) the same pattern is repeated with its own
-  content file and a second collection in `admin/config.yml`.
+- The Group site uses the same pattern: `content/group.json`,
+  `js/overrides.js` (repo root) and the `group` collection in
+  `admin/config.yml`.
