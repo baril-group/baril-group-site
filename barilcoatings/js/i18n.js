@@ -69,6 +69,7 @@
       'Zware corrosiebescherming voor staal en infrastructuur — high-build-prestaties in dunnere, slimmere lagen.',
       'Watergedragen, emissiearme coatings die beschermen zonder de oplosmiddelenlast — schoner op de klus en in de lucht.']],
     ['.ranges-note', 'Ook: <strong>Bariline</strong> bouwsystemen · <strong>FleetSpec</strong> (VS). <a href="https://www.barilcoatings.com/en/products" target="_blank" rel="noopener">Bekijk alle producten ↗</a>'],
+    ['.renew-cap', 'Bescherming, met precisie aangebracht — met technisch advies en Baril Academy-training.'],
     // proof
     ['#proof .eyebrow', 'In de praktijk'],
     ['#proof h2', 'Beschermd door Baril'],
