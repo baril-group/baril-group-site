@@ -9,7 +9,11 @@
   const FILTER_ORDER = ['Chemie', 'Glans', 'Componenten', 'Ondergrond'];
   const LANGS = [['nl', 'NL'], ['en', 'EN'], ['de', 'DE'], ['fr', 'FR'], ['pl', 'PL'], ['es', 'ES'], ['it', 'IT'], ['ro', 'RO'], ['no', 'NO']];
   const DS_BASE = 'https://data.barilcoatings.com/nl/products/datasheet/';
+  const SDS_BASE = 'https://data.barilcoatings.com/nl/products/safetysheet/';
+  const SDS_PRIO = ['nl_NL', 'en_EU', 'en_GB', 'pl_PL', 'ro_RO', 'de_DE', 'fr_FR', 'nl_BE', 'es_ES', 'it_IT'];
+  const SDS_DEFAULT = { nl: 'nl_NL', en: 'en_EU', pl: 'pl_PL', ro: 'ro_RO' };
   const CYCLE = ['nl', 'en', 'pl', 'ro'];
+  const numOf = code => { const m = (code || '').match(/\d+/); return m ? parseInt(m[0], 10) : 0; };
 
   const T = {
     nl: { eyebrow: 'Productcatalogus · Baril Coatings', h1: 'Alle <span class="paint">coatings</span>',
@@ -78,13 +82,38 @@
     return any ? wrap : null;
   }
 
+  function sdsForm(code, locales) {
+    const avail = SDS_PRIO.filter(l => locales.includes(l));
+    const list = avail.length ? avail : locales.slice(0, 8);
+    if (!list.length) return null;
+    const form = el('form', 'sds-form');
+    form.method = 'post'; form.action = SDS_BASE + encodeURIComponent(code); form.target = '_blank'; form.rel = 'noopener';
+    const li = document.createElement('input'); li.type = 'hidden'; li.name = 'language[]';
+    li.value = (SDS_DEFAULT[lang] && list.includes(SDS_DEFAULT[lang])) ? SDS_DEFAULT[lang] : list[0];
+    form.appendChild(li);
+    const sel = el('select');
+    list.forEach(l => { const o = el('option', null, l.replace('_', '-')); o.value = l; if (l === li.value) o.selected = true; sel.appendChild(o); });
+    sel.setAttribute('aria-label', 'Veiligheidsblad'); sel.addEventListener('change', () => { li.value = sel.value; });
+    const btn = el('button', 'sds-btn', 'SDS ↗'); btn.type = 'submit';
+    form.appendChild(sel); form.appendChild(btn);
+    return form;
+  }
+
   function card(p, color) {
     const c = el('div', 'pcard'); c.style.setProperty('--accent', color || '#F18A00');
-    const top = el('div', 'pcard-top'); top.appendChild(el('span', 'pcode', p.code)); top.appendChild(el('h3', null, nm(p))); c.appendChild(top);
+    const top = el('div', 'pcard-top');
+    const h = el('h3');
+    h.appendChild(el('span', 'pcode', p.code));
+    h.appendChild(document.createTextNode(' '));
+    h.appendChild(el('span', 'pname', nm(p)));
+    top.appendChild(h); c.appendChild(top);
     const d = ds(p); if (d) c.appendChild(descNode(d));
     if (p.related && p.related.length) { const r = el('div', 'prelated'); p.related.forEach(t => r.appendChild(el('span', null, t))); c.appendChild(r); }
     const specs = specsNode(p.attrs); if (specs) c.appendChild(specs);
-    const actions = el('div', 'pactions'); actions.appendChild(dsForm(p.code, color)); c.appendChild(actions);
+    const actions = el('div', 'pactions');
+    actions.appendChild(dsForm(p.code, color));
+    const sds = sdsForm(p.code, p.sds || []); if (sds) actions.appendChild(sds);
+    c.appendChild(actions);
     return c;
   }
 
@@ -105,6 +134,7 @@
       if (q) items = items.filter(p => (p.code + ' ' + nm(p) + ' ' + (ds(p) || '')).toLowerCase().includes(q));
       items = items.filter(matchesAttr);
       if (!items.length) continue;
+      items.sort((a, b) => numOf(a.code) - numOf(b.code) || (a.code > b.code ? 1 : -1));
       const sec = el('section', 'brandsec'); sec.id = 'b-' + brand.replace(/\s+/g, '-');
       const head = el('div', 'brandsec-head');
       const dot = el('span', 'bdot'); dot.style.background = meta.color; head.appendChild(dot);

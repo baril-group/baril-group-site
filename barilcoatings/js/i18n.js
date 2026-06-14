@@ -5,7 +5,7 @@
   'use strict';
   const MAP = [
     // nav
-    ['.navlinks a', ['Over ons', 'Bescherming', 'DualCure', 'Markten', 'Assortiment', 'Producten', 'In de praktijk', 'Contact']],
+    ['.navlinks a', ['Producten', 'Verfsystemen', 'Markten', 'Cases', 'Technologie', 'Contact']],
     // hero
     ['header .eyebrow', "Baril Coatings — Industriële & beschermende coatings · Sinds 1987"],
     ['header h1', 'Duurzame<br><span class="paint">coating-</span><br>oplossingen'],
@@ -84,7 +84,7 @@
     ['#proof h2', 'Beschermd door Baril'],
     ['#proof .sec-head p:last-child', 'Van nationale infrastructuur tot monumentale restauratie — objecten die onze coatings langer in leven houden.'],
     ['.case .meta span', ['Infrastructuur · 295 m overspanning', 'Bouw & infra', 'Staalconservering', 'Gebouwen & onderhoud', "Restauratie · 's-Hertogenbosch"]],
-    ['.cases-note', 'Sleep om te ontdekken · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Alle cases →</a>'],
+    ['.cases-note', 'Sleep om te ontdekken · <a href="cases/">Alle cases →</a>'],
     // datasheet
     ['#data .eyebrow', 'Datasheet'],
     ['#data h2', 'Baril Coatings<br>in cijfers'],

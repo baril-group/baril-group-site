@@ -10,9 +10,10 @@
   let activeMarket = 'all';
 
   const el = (tag, cls, txt) => { const n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; };
+  const caseSlug = url => (String(url).match(/\/praktijkcases\/([^/?#]+)/) || [])[1] || '';
 
   function card(c) {
-    const a = el('a', 'casecard'); a.href = c.url; a.target = '_blank'; a.rel = 'noopener';
+    const a = el('a', 'casecard'); a.href = 'case.html?c=' + encodeURIComponent(caseSlug(c.url));
     if (c.image) { const im = el('div', 'img'); const img = document.createElement('img'); img.loading = 'lazy'; img.src = c.image; img.alt = c.title || ''; im.appendChild(img); a.appendChild(im); }
     const ct = el('div', 'ct');
     ct.appendChild(el('h3', null, c.title || ''));

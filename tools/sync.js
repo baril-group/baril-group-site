@@ -54,7 +54,9 @@ function parseProducts(html) {
     const dm = part.match(/<div class="product-desc hide"[^>]*>([\s\S]*?)<\/div>\s*<\/div>\s*<div class="product-link-datasheet"/);
     const desc = dm ? stripTags(dm[1]) : '';
     const related = [...part.matchAll(/<span class="related">([^<]+)<\/span>/g)].map(m => dec(m[1]));
-    out.push({ code, name, brand: bm ? bm[1] : 'baril', desc, related });
+    const ss = part.match(/<div class="product-link-safetysheet"[\s\S]*?<\/form>/);
+    const sds = ss ? [...ss[0].matchAll(/name="language\[\]" value="([a-z]{2}_[A-Z]{2})"/g)].map(m => m[1]) : [];
+    out.push({ code, name, brand: bm ? bm[1] : 'baril', desc, related, sds });
   }
   return out;
 }
@@ -71,7 +73,7 @@ async function syncProducts() {
         if (!byCode[p.code]) { byCode[p.code] = { code: p.code, brand: p.brand, related: p.related, cats: [line] }; order.push(p.code); }
         else if (!byCode[p.code].cats.includes(line)) byCode[p.code].cats.push(line);
         const rec = byCode[p.code];
-        if (lang === 'nl') { rec.name = p.name; rec.desc = p.desc; }
+        if (lang === 'nl') { rec.name = p.name; rec.desc = p.desc; rec.sds = p.sds; }
         else { rec['name_' + lang] = p.name; rec['desc_' + lang] = p.desc; }
       }
       await sleep(120);
@@ -179,6 +181,18 @@ async function syncCases() {
       }
     } catch (e) { /* skip */ }
     await sleep(120);
+  }
+  // pull each case's own text + images so the shell is self-contained
+  for (const c of cases) {
+    try {
+      const h = await get(c.url);
+      c.intro = dec((h.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '');
+      const paras = [...h.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(m => stripTags(m[1])).filter(t => t.length > 40);
+      const seenP = new Set(); c.body = paras.filter(t => !seenP.has(t) && seenP.add(t)).slice(0, 14);
+      const imgs = [...h.matchAll(/src="(\/_cache\/_public\/[^"]+)"/g)].map(m => SITE + m[1]);
+      c.images = [...new Set(imgs)].slice(0, 12);
+    } catch (e) { c.body = c.body || []; c.images = c.images || []; }
+    await sleep(90);
   }
   return cases;
 }
