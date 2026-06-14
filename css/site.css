@@ -821,6 +821,14 @@ footer{
 .src li:first-child{border-top:none}
 .src li::before{content:"·";position:absolute;left:2px;color:var(--green)}
 
+/* ---------- full-bleed media bands ---------- */
+.media-band{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:clamp(300px,40vw,560px);overflow:hidden;margin-top:64px;background:var(--navy-900)}
+.media-band img{width:100%;height:100%;object-fit:cover;display:block}
+.media-band::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,var(--navy-950),transparent 7%,transparent 93%,var(--navy-950)),
+  linear-gradient(180deg,rgba(5,13,24,.35),transparent 22%,transparent 74%,rgba(5,13,24,.5))}
+.fullbleed{width:100vw!important;margin-left:calc(50% - 50vw)!important;max-width:100vw!important;border-radius:0!important;border-left:0!important;border-right:0!important}
+
 /* ---------- our story (heritage, vision & mission) ---------- */
 #story{border-top:1px solid var(--hairline)}
 .story-head{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,56px);align-items:center;margin-bottom:34px}
