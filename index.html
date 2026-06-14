@@ -37,7 +37,13 @@
     <a href="#renew">How we renew</a>
     <a href="#contact">Contact</a>
   </div>
-  <button id="langSwitch" class="lang" type="button" aria-label="Schakel naar Nederlands / Switch to English">NL</button>
+  <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
+    <button type="button" data-lang="nl" title="Nederlands" aria-label="Nederlands"><img class="flag" src="assets/img/flags/nl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="en" title="English" aria-label="English"><img class="flag" src="assets/img/flags/en.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="pl" title="Polski" aria-label="Polski"><img class="flag" src="assets/img/flags/pl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="ro" title="Română" aria-label="Română"><img class="flag" src="assets/img/flags/ro.svg" alt="" width="22" height="15"></button>
+  </div>
+  <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
 
 <header id="top">
@@ -680,6 +686,7 @@
 </footer>
 
 <script src="js/site.js"></script>
+<script src="js/nav.js"></script>
 <script src="js/chapters.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/overrides.js"></script>
