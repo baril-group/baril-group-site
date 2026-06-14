@@ -4,6 +4,7 @@
   'use strict';
   const root = document.getElementById('markets');
   const el = (tag, cls, txt) => { const n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; };
+  const caseSlug = url => (String(url).match(/\/praktijkcases\/([^/?#]+)/) || [])[1] || '';
 
   function section(m, cases) {
     const sec = el('section', 'marketsec'); sec.id = m.slug;
@@ -20,18 +21,13 @@
       cw.appendChild(el('h4', null, rel.length + ' praktijkcase' + (rel.length === 1 ? '' : 's') + ' in dit segment'));
       const list = el('div', 'market-caselist');
       rel.slice(0, 9).forEach(c => {
-        const a = el('a'); a.href = c.url; a.target = '_blank'; a.rel = 'noopener';
+        const a = el('a'); a.href = '../cases/case.html?c=' + encodeURIComponent(caseSlug(c.url));
         if (c.image) { const img = document.createElement('img'); img.className = 'mi'; img.loading = 'lazy'; img.src = c.image; img.alt = ''; a.appendChild(img); }
         a.appendChild(el('span', null, c.title || ''));
         list.appendChild(a);
       });
       cw.appendChild(list);
       sec.appendChild(cw);
-    }
-    if (m.url) {
-      const src = el('p', 'market-src');
-      const a = el('a', null, 'Lees meer op barilcoatings.com →'); a.href = m.url; a.target = '_blank'; a.rel = 'noopener';
-      src.appendChild(a); sec.appendChild(src);
     }
     return sec;
   }
