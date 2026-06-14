@@ -5,7 +5,7 @@
   'use strict';
   const MAP = [
     // nav
-    ['.navlinks a', ['Over ons', 'Bescherming', 'Markten', 'Assortiment', 'In de praktijk', 'Contact']],
+    ['.navlinks a', ['Over ons', 'Bescherming', 'DualCure', 'Markten', 'Assortiment', 'In de praktijk', 'Contact']],
     // hero
     ['header .eyebrow', "Baril Coatings — Industriële & beschermende coatings · Sinds 1987"],
     ['header h1', 'Duurzame<br><span class="paint">coating-</span><br>oplossingen'],
@@ -27,17 +27,18 @@
     ['#corrosion .eyebrow', 'Hoofdstuk 01 · Corrosiebescherming'],
     ['#corrosion h2', 'Van roest<br>naar weerbaarheid'],
     ['#corrosion .sec-head p:last-child', 'Corrosie is een langzaam vuur: onbeschermd staal verliest jaarlijks tientallen micrometers, en constructies worden ruim voor hun tijd vervangen. Een Baril-beschermingssysteem sluit het staal af van zuurstof en water — en wint decennia. Scroll om de coating aan te brengen.'],
-    ['.cr .cl', ['Tot eerste groot onderhoud', 'Tot de hoogste ISO 12944-corrosiviteitsklassen', 'Gekwalificeerde systemen voor offshore-staal']],
+    ['#corrosion .cr .cl', ['Tot eerste groot onderhoud', 'Tot de hoogste ISO 12944-corrosiviteitsklassen', 'Gekwalificeerde systemen voor offshore-staal']],
     // chapter 02
     ['#thinlayer .eyebrow', 'Hoofdstuk 02 · Dunne-laag-technologie'],
     ['#thinlayer h2', 'Meer meters,<br>minder coating'],
     ['#thinlayer .sec-head p:last-child', 'De kracht van een coating zit niet in de dikte, maar in hoe goed ze is opgebouwd. Onze dunne-laag-technologie beschermt meer vierkante meters per liter, bij een lagere laagdikte — minder materiaal op de constructie, minder blikken op de vrachtwagen, een kleinere voetafdruk per beschermde m².'],
     ['.cov-readout .cl', 'Beschermd per liter, bij de aanbevolen laagdikte'],
     ['.dft-name', ['Conventionele laagdikte', 'Baril dunne laag']],
-    // scenario notes (corrode, then thin-layer)
+    // scenario notes (corrode, thin-layer, dualcure) — in DOM order
     ['.scenario-note', [
       'Indicatieve duurzaamheid. De haalbare bescherming hangt af van systeem, ondergrondvoorbehandeling en corrosiviteitsklasse volgens ISO 12944 / ISO 12944-9 (offshore).',
-      'De droge-laagdikte is illustratief; werkelijke dekking en DLD hangen af van product, methode en specificatie.']],
+      'De droge-laagdikte is illustratief; werkelijke dekking en DLD hangen af van product, methode en specificatie.',
+      'Gepatenteerde DualCure (DCC). Prestatiecijfers volgens technische data van Baril Coatings; de haalbare bescherming hangt af van systeem, ondergrond en specificatie.']],
     // chapter 03
     ['#bio .eyebrow', 'Hoofdstuk 03 · Hernieuwbare chemie'],
     ['#bio h2', 'Van vat<br>naar bio'],
@@ -46,6 +47,14 @@
     ['#bio .ctr:nth-child(2) b', '100% in 2030'],
     ['#bio .ctr:nth-child(3) b', 'Gelijk of beter'],
     ['#bio .ctr .cl', ['Hernieuwbare & circulaire grondstoffen', 'Groepsdoel — vanaf <10% in 2022', 'Bescherming, bij lagere laagdikte']],
+    // chapter 04 — DualCure
+    ['#dualcure .eyebrow', 'Hoofdstuk 04 · DualCure-technologie'],
+    ['#dualcure h2', 'Twee uithardingen,<br>één netwerk'],
+    ['#dualcure .sec-head p:last-child', 'De meeste industriële coatings harden op één manier uit. Onze gepatenteerde <strong>DualCure (DCC)</strong> hardt tegelijk op twee manieren uit: de chemische 2K-reactie van componenten A en B, <em>én</em> een tweede uitharding die op gang komt door vocht uit de lucht. De twee netwerken weven zich tot één uitzonderlijk dichte moleculaire mesh — hechter <em>én</em> flexibeler dan regulier 2K. Het resultaat: een veelvoud aan bescherming, met aanzienlijk minder coating.'],
+    ['#dualcure .dcc-legend .lg', ['Chemische 2K-uitharding (A+B)', 'Vochtuitharding uit de lucht']],
+    ['#dualcure .cr .cl', ['Dunner dan conventioneel — bij gelijke bescherming', 'Bij 200 µm totaal · NORSOK-gecertificeerd voor offshore', 'Procestijd · uithardt in ~30 min, zonder warmte, low-VOC']],
+    ['#dualcure .net-name', ['Regulier 2K', 'DualCure']],
+    ['#dualcure .net-val', ['enkel netwerk', 'dubbel netwerk']],
     // markets
     ['#markets .eyebrow', 'Markten'],
     ['#markets h2', 'Gebouwd voor de<br>zwaarste klussen'],
