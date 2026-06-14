@@ -51,8 +51,8 @@
     footClaim:        { sel: '.foot-claim' },
 
     imgHero:          { sel: '#heroPhoto', img: 'bg' },
-    imgLab:           { sel: '#bio .chap-media img', i: 0, img: 'src' },
-    imgSolar:         { sel: '#bio .chap-media img', i: 1, img: 'src' },
+    imgLab:           { sel: '#bio .media-band img', i: 0, img: 'src' },
+    imgSolar:         { sel: '#bio .media-band img', i: 1, img: 'src' },
     imgBand:          { sel: '.paint-band img', img: 'src' },
     imgApplicator:    { sel: '.renew-hero img', img: 'src' }
   };
