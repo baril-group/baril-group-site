@@ -635,8 +635,15 @@ footer{
 .film-bleed iframe{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   width:max(100vw,178vh);height:max(56.25vw,100%);min-height:101%;
-  border:0;pointer-events:none; /* ambient: scroll passes through */
+  border:0;
 }
+/* click-to-play poster (avoids YouTube's embed bot-check on autoplay) */
+.film-play{position:absolute;inset:0;width:100%;height:100%;border:0;cursor:pointer;padding:0;
+  background-size:cover;background-position:center;display:grid;place-items:center}
+.film-playbtn{width:74px;height:74px;border-radius:50%;background:rgba(5,13,24,.5);
+  border:1px solid rgba(234,241,251,.55);color:#fff;font-size:24px;line-height:1;display:grid;place-items:center;
+  padding-left:4px;transition:transform .2s,background .2s,color .2s}
+.film-play:hover .film-playbtn{transform:scale(1.08);background:var(--green);color:var(--navy-950);border-color:var(--green)}
 /* side + top/bottom fades into the navy background */
 .film-bleed::before{
   content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
@@ -821,13 +828,14 @@ footer{
 .src li:first-child{border-top:none}
 .src li::before{content:"·";position:absolute;left:2px;color:var(--green)}
 
-/* ---------- full-bleed media bands ---------- */
-.media-band{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:clamp(300px,40vw,560px);overflow:hidden;margin-top:64px;background:var(--navy-900)}
+/* ---------- full-bleed media bands (capped at the paint-band height) ---------- */
+.media-band{position:relative;left:50%;margin-left:-50vw;width:100vw;max-width:100vw;height:clamp(220px,28vw,420px);overflow:hidden;margin-top:64px;background:var(--navy-900)}
 .media-band img{width:100%;height:100%;object-fit:cover;display:block}
 .media-band::after{content:"";position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(90deg,var(--navy-950),transparent 7%,transparent 93%,var(--navy-950)),
   linear-gradient(180deg,rgba(5,13,24,.35),transparent 22%,transparent 74%,rgba(5,13,24,.5))}
-.fullbleed{width:100vw!important;margin-left:calc(50% - 50vw)!important;max-width:100vw!important;border-radius:0!important;border-left:0!important;border-right:0!important}
+.fullbleed{position:relative!important;left:50%!important;margin-left:-50vw!important;width:100vw!important;max-width:100vw!important;border-radius:0!important;border-left:0!important;border-right:0!important}
+.air-fig.fullbleed,.renew-hero.fullbleed{height:clamp(220px,28vw,420px)!important}
 
 /* ---------- our story (heritage, vision & mission) ---------- */
 #story{border-top:1px solid var(--hairline)}
@@ -841,7 +849,7 @@ footer{
 .story-col h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:19px;margin-bottom:10px;letter-spacing:.01em}
 .story-col p{color:var(--muted)}
 .story-team{margin:36px 0 0;border:1px solid var(--hairline);border-radius:12px;overflow:hidden;background:var(--navy-900)}
-.story-team img{width:100%;height:auto;display:block}
+.story-team img{width:100%;height:clamp(220px,28vw,420px);object-fit:cover;object-position:center 15%;display:block}
 .story-team figcaption{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:12px 16px;background:var(--navy-900)}
 .timeline{list-style:none;margin-top:50px;display:grid;grid-template-columns:repeat(2,1fr);gap:0 48px}
 .timeline li{display:flex;gap:18px;padding:15px 0;border-top:1px solid var(--hairline);align-items:baseline}

@@ -48,3 +48,20 @@ addEventListener('scroll',drawRibbon,{passive:true});
 addEventListener('resize',()=>requestAnimationFrame(buildRibbon));
 addEventListener('load',buildRibbon);
 buildRibbon();
+
+/* click-to-play film — loads the YouTube embed only on user click,
+   which avoids YouTube's "confirm you're not a bot" gate on autoplay embeds */
+(function(){
+  const fp=document.getElementById('filmPlay');
+  if(!fp) return;
+  fp.addEventListener('click',function(){
+    const id=fp.dataset.yt;
+    const ifr=document.createElement('iframe');
+    ifr.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+    ifr.title='Baril — To sustain our future, rich in colour';
+    ifr.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';
+    ifr.setAttribute('allowfullscreen','');
+    ifr.referrerPolicy='strict-origin-when-cross-origin';
+    fp.replaceWith(ifr);
+  });
+})();
