@@ -51,10 +51,14 @@
     c.appendChild(table);
 
     if (s.languages && s.languages.length) {
-      const dl = el('div', 'sysdl');
-      dl.appendChild(el('span', 'sysdl-label', 'Datasheet'));
-      s.languages.forEach(l => { const a = el('a', null, (l.lang || '').toUpperCase()); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; a.title = l.label || l.lang; dl.appendChild(a); });
-      c.appendChild(dl);
+      const wrap = el('div', 'ds-form sys-ds');
+      const sel = el('select'); sel.setAttribute('aria-label', 'Datasheet-taal');
+      s.languages.forEach(l => { const o = el('option', null, (l.lang || '').toUpperCase()); o.value = l.url; if ((l.lang || '') === 'nl') o.selected = true; sel.appendChild(o); });
+      const btn = el('button', 'ds-btn', 'Datasheet ↗'); btn.type = 'button';
+      btn.style.background = `linear-gradient(95deg, ${color}, var(--amber))`;
+      btn.addEventListener('click', () => { if (sel.value) window.open(sel.value, '_blank', 'noopener'); });
+      wrap.appendChild(sel); wrap.appendChild(btn);
+      c.appendChild(wrap);
     }
     return c;
   }

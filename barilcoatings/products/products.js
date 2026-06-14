@@ -39,7 +39,7 @@
   const searchEl = document.getElementById('psearch');
   const chipsEl = document.getElementById('pchips');
   const filtersEl = document.getElementById('pfilters');
-  const langBtn = document.getElementById('langSwitch');
+  const flagBox = document.getElementById('langflags');
   let DATA = null, activeBrand = 'all';
   const activeAttr = {};
   let lang; try { lang = localStorage.getItem('baril-coatings-lang') || 'nl'; } catch (e) { lang = 'nl'; }
@@ -55,7 +55,7 @@
     const set = (id, html) => { const e = document.getElementById(id); if (e) e.innerHTML = html; };
     set('t-eyebrow', t.eyebrow); set('t-h1', t.h1); set('t-lead', t.lead);
     if (searchEl) searchEl.placeholder = t.search;
-    if (langBtn) langBtn.textContent = CYCLE[(CYCLE.indexOf(lang) + 1) % CYCLE.length].toUpperCase();
+    if (flagBox) [...flagBox.children].forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
   }
 
   function descNode(text) {
@@ -184,11 +184,11 @@
     }
   }
 
-  if (langBtn) langBtn.addEventListener('click', () => {
-    lang = CYCLE[(CYCLE.indexOf(lang) + 1) % CYCLE.length];
+  if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
+    lang = b.dataset.lang; if (!T[lang]) lang = 'nl';
     try { localStorage.setItem('baril-coatings-lang', lang); } catch (e) {}
     applyChrome(); buildChips(); render();
-  });
+  }));
 
   applyChrome();
   fetch('products.json', { cache: 'no-cache' })
