@@ -58,11 +58,11 @@
   }
   // Baril sites: [name, lon, lat, t-activation, labelDx, labelDy, anchor]
   const SITES = [
-    ["'s-Hertogenbosch · 1987", 5.3, 51.7, 0.05, 10, -26, 'start'],
-    ["Angola USA · 2004", -85.0, 41.6, 0.30, 0, 34, 'middle'],
+    ["Moerkapelle · 1982", 4.62, 52.06, 0.05, 12, -24, 'start'],
+    ["'s-Hertogenbosch · 1989", 5.3, 51.7, 0.22, 12, 32, 'start'],
     ["Gliwice · 2005", 18.7, 50.3, 0.38, 16, 2, 'start'],
-    ["Etten-Leur · 2006", 4.6, 51.6, 0.46, -16, -4, 'end'],
-    ["Bucharest · 2008", 26.1, 44.4, 0.54, 12, 32, 'start']
+    ["Baril Coatings USA · 2006", -85.0, 41.6, 0.46, 0, 34, 'middle'],
+    ["Etten-Leur · 2007", 4.6, 51.6, 0.54, -16, -6, 'end']
   ];
   // Paint-blot radius around a site as scroll progresses (map px):
   // slow local growth + gradual greening from 2008 (t=.54) + acceleration from 2021 (t=.8)
@@ -73,7 +73,7 @@
       + 420 * Math.pow(Math.max(0, (t - 0.8) / 0.2), 2.2);
   }
   // piecewise year mapping for the ticker
-  const YEARS = [[0,1987],[0.1,1987],[0.2,2002],[0.3,2004],[0.38,2005],[0.46,2006],[0.54,2008],[0.8,2021],[1,2026]];
+  const YEARS = [[0,1982],[0.1,1982],[0.22,1989],[0.38,2005],[0.46,2006],[0.54,2007],[0.8,2021],[1,2026]];
   function yearAt(t) {
     for (let i = 1; i < YEARS.length; i++) {
       if (t <= YEARS[i][0]) {
