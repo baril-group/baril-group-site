@@ -1,0 +1,898 @@
+{
+  "generated": "2026-06-14",
+  "source": "data.barilcoatings.com (Baril product database)",
+  "brands": {
+    "dualcure": {
+      "name": "DualCure",
+      "color": "#f08900"
+    },
+    "steelkote bio": {
+      "name": "SteelKote Bio",
+      "color": "#669c35"
+    },
+    "steelkote": {
+      "name": "SteelKote",
+      "color": "#f08900"
+    },
+    "baril": {
+      "name": "Baril",
+      "color": "#174c3f"
+    },
+    "aquaran": {
+      "name": "Aquaran",
+      "color": "#f08900"
+    },
+    "bariline": {
+      "name": "Bariline",
+      "color": "#f08900"
+    },
+    "baril solvents": {
+      "name": "Baril Solvents",
+      "color": "#174c3f"
+    },
+    "baril activators": {
+      "name": "Baril Activators",
+      "color": "#174c3f"
+    }
+  },
+  "products": [
+    {
+      "code": "306X",
+      "name": "Dualcure ZRU Primer",
+      "brand": "dualcure",
+      "desc": "DualCure ZRU Primer is een high-build zinkrijke primer voor gestraald staal, gebaseerd op de DCC technologie, die een extreme corrosieweerstand verschaft. De 306X DualCure ZRU Primer is geformuleerd voor eenvoudige applicatie. De DCC-kenmerken maken uitharding bij lage temperaturen mogelijk en geven weerstand tegen scheuren bij een hoge laagdikte. DualCure ZRU Primer biedt extreme mechanische eigenschappen.\n\nMengverhouding:\n\n306X DualCure ZRU Primer basiscomponent, 8 volumedelen.\n\r\nActivator 399X, 0,4 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "348",
+      "name": "DualCure RX Primer",
+      "brand": "dualcure",
+      "desc": "Sneldrogende roestwerende vochthardende primer, versterkt met aluminium. Vier seizoenentoepassing. Uitharding bij lage temperaturen en onder vochtige omstandigheden (vochtige ondergrond). Uitstekende beschermende prestaties, hoge flexibiliteit. Met DualCure technologie versterkte kwaliteitsprimer voor de bescherming van diverse metalen ondergronden in combinatie met DualCure en Hybrid toplagen. Primer op Sa 2½ gestraald staal, ST2 en ST3 (hand ontroest) voorbehandeld staal met uitstekende indring- en afdichtingseigenschappen. Voor een versnelde droging kan de accelerator 399 worden toegevoegd.\n\nThinner\nActivator 399",
+      "related": [
+        "Thinner",
+        "Activator 399"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "604",
+      "name": "DualCure Iso Primer",
+      "brand": "dualcure",
+      "desc": "Een roestwerende met aluminium versterkte tweecomponenten heavy duty primer op basis van Dual Cure Chemistry. Een universele hechtprimer voor Sa 2½ gestraald staal, thermisch gegalvaniseerd staal, aluminium en roestvrij stalen constructies in scheepvaart- en offshore-omstandigheden.\n\nMengverhouding:\n\n604 DualCure Iso Primer Basiscomponent, 1 volumedeel.\n\r\nActivator 915V, 1 volumedeel.\n\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "171i2",
+      "name": "DualCure SX DTM Finish 60",
+      "brand": "dualcure",
+      "desc": "Een high solids tweecomponenten coating op basis van Dual Cure Chemistry met extreme mechanische prestaties en een verhoogde bestendigheid tegen weersinvloeden. 171i2 DualCure SX DTM Finish 60 is ontwikkeld als snel uithardende coating voor industriële toepassing waarvoor geen verwarming nodig is. De extreme mechanische eigenschappen en bestendigheid tegen weersinvloeden bieden een breed scala aan toepassingen en zorgen ervoor dat deze coating de kwaliteit van poedercoatings overstijgt.\n\nMengverhouding:\n\n171i2 DualCure SX DTM Finish 60\n\r\nActivator 986V (3 : 2) per volume (± 16% biobased gehalte)\n\r\nActivator 901V (2 : 1) per volume (± 23,5% biobased gehalte)*\n\r\nActivator 904V (2 : 1) per volume (± 21% biobased gehalte)*\n\r\n*Versnelde uitharding; 901V+, 904V++.\n\nActivator\nThinner\nActivator",
+      "related": [
+        "Activator",
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "172i2",
+      "name": "Dualcure RX Finish 60",
+      "brand": "dualcure",
+      "desc": "Tweecomponenten high solids kwast/roller coating voor onderhoudsprojecten op basis van Dual Cure Chemistry met een extreme mechanische slagvastheid, hoge flexibiliteit en een verhoogde bestendigheid tegen weersinvloeden. Snelle uitharding voor snelle verwerking en handelbaarheid.\n\nMengverhouding:\n\n172i2 DualCure RX Finish 60 Basiscomponent, 3 volumedelen.\n\r\nActivator 924V, 2 volumedelen.\n\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "173i2",
+      "name": "DualCure LX DTM Finish 60",
+      "brand": "dualcure",
+      "desc": "Een high solids tweecomponenten lange potlife coating op basis van Dual Cure Chemistry met extreme mechanische prestaties en een verhoogde bestendigheid tegen weersinvloeden. 173i2 DualCure LX DTM Finish 60 is ontwikkeld als snel hardende coating voor industriële toepassing waarvoor geen verwarming nodig is. De extreme mechanische eigenschappen en bestendigheid tegen weersinvloeden bieden een breed scala aan toepassingen en zorgen ervoor dat deze coating de kwaliteit van poedercoatings overstijgt.\n\nMengverhouding:\n\n173i2 DualCure LX DTM Finish 60 Basiscomponent, 2 volumedelen.\n\r\nActivator 902V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "179i2",
+      "name": "DualCure SX DTM Finish 90",
+      "brand": "dualcure",
+      "desc": "Een high solids tweecomponenten heavy duty coating op basis van Dual Cure Chemistry met extreme mechanische prestaties en een verhoogde bestendigheid tegen weersinvloeden. 179i2 DualCure SX DTM Finish 90 is ontwikkeld als snel hardende coating voor industriële toepassing waarvoor geen verwarming nodig is. De extreme mechanische eigenschappen en bestendigheid tegen weersinvloeden bieden een breed scala aan toepassingen en zorgen ervoor dat deze coating de kwaliteit van poedercoatings overstijgt.\n\nMengverhouding:\n\n179i2 DualCure SX DTM Finish 90 basiscomponent, 2 volumedelen.\n\r\nActivator 904V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "174i2",
+      "name": "DualCure SX Finish 90",
+      "brand": "dualcure",
+      "desc": "Een high solids tweecomponenten heavy duty coating op basis van Dual Cure Chemistry met extreme mechanische prestaties en een verhoogde bestendigheid tegen weersinvloeden. 174i2 DualCure SX Finish 90 is ontwikkeld als snel hardende coating voor industriële toepassing waarvoor geen verwarming nodig is. De extreme mechanische eigenschappen en bestendigheid tegen weersinvloeden bieden een breed scala aan toepassingen en zorgen ervoor dat deze coating de kwaliteit van poedercoatings overstijgt.\n\nMengverhouding:\n\n174i2 DualCure SX Finish 90 basiscomponent, 2 volumedelen.\n\r\nActivator 902V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "178i2DTMLG",
+      "name": "DualCure DTM LG Finish 30",
+      "brand": "dualcure",
+      "desc": "Tweecomponenten high solids roestwerende direct-to-metal coating op basis van Dual Cure Chemistry met zeer snelle uitharding. Coating voor gestraald staal en diverse ferro en non-ferro ondergronden. Ontwikkeld voor een snelle toepassing bij zeer duurzame coatingsystemen voor OEM, ACE en aanverwante processen.\n\nMengverhouding:\n\n178i2 DualCure DTM Finish 60 Basiscomponent, 3 volumedelen.\n\r\nActivator 901V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "178i2DTM",
+      "name": "DualCure DTM Finish 60",
+      "brand": "dualcure",
+      "desc": "Tweecomponenten high solids roestwerende direct-to-metal coating op basis van Dual Cure Chemistry met zeer snelle uitharding. Coating voor gestraald staal en diverse ferro en non-ferro ondergronden. Ontwikkeld voor een snelle toepassing bij zeer duurzame coatingsystemen voor OEM, ACE en aanverwante processen.\n\nMengverhouding:\n\n178i2 DualCure DTM Finish 60 Basiscomponent, 3 volumedelen.\n\r\nActivator 901V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "180i2",
+      "name": "DualCure LX Finish 90",
+      "brand": "dualcure",
+      "desc": "Duurzame tweecomponenten hoogglans afwerking. Speciaal ontwikkeld als voordelige toplaag van een hoge kwaliteit voor industriële productafwerking. Voldoet aan alle eisen voor de automobielsector en industriële afwerking. Hoog aandeel vaste stoffen, dus verminderde emissie van oplosmiddelen en een betere doelmatigheid.\n\nMengverhouding:\n\n180i2 DualCure LX Finish 90 Basiscomponent, 2 volumedelen.\n\r\nActivator 985V, 1 volumedeel.\n\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "dualcure"
+      ]
+    },
+    {
+      "code": "802BIO",
+      "name": "SteelKote EP",
+      "brand": "steelkote bio",
+      "desc": "Een economische, universele, biobased, tweecomponenten, actieve, corrosiewerende, gepigmenteerde epoxycoating met een hoog gehalte aan vaste stoffen. Als primer of coating voor gestraald staal of gegalvaniseerd staal. 802BIO SteelKote EP is speciaal ontwikkeld om de CO₂-voetafdruk van conserveringsprojecten te verkleinen en tegelijkertijd een snelle droging en sterke corrosiebescherming te behouden. Het verlaagt ook de blootstellingsindex aan oplosmiddelen.\n\nMengverhouding:\n\n802BIO Steelkote EP\n\r\nActivator 911V BIO (3 : 1) per volume (± 23% biobased gehalte)\n\r\nActivator 940V (4 : 1) per volume (± 20% biobased gehalte).\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote",
+        "biobased"
+      ]
+    },
+    {
+      "code": "803BIO",
+      "name": "SteelKote EP AC+",
+      "brand": "steelkote bio",
+      "desc": "De 803BIO SteelKote EP AC+ is een DTM-epoxycoating met een hoog gehalte aan vaste stoffen, samengesteld uit hernieuwbare bindmiddelen en oplosmiddelen. Het is een biobased, universeel en roestwerend product. Daarnaast vermindert het de CO₂-voetafdruk met 1,1 kg per liter*. Het is geschikt als multifunctionele epoxyprimer/afwerking met een extreme corrosiebestendigheid.\n\nMengverhouding:\n\n803BIO SteelKote EP AC\n\r\nActivator 969V BIO (3 : 1) per volume (± 27% biobased gehalte)\n\r\nActivator 958V (4 : 1) per volume (± 25% biobased gehalte).\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote",
+        "biobased"
+      ]
+    },
+    {
+      "code": "860",
+      "name": "SteelKote EP Primer/Coating",
+      "brand": "steelkote",
+      "desc": "Een economische high solids universele twee componenten actief roestwerend gepigmenteerde epoxy coating. Als primer of coating voor gestraald staal of verzinkt staal.\n\nMengverhouding:\n\n860 SteelKote Mastic 70, 4 parts by volume.\n\r\nActivator 959V, 1 part by volume.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "801",
+      "name": "SteelKote TC Primer",
+      "brand": "steelkote",
+      "desc": "Deze universele high solid epoxyprimer biedt een krachtige, duurzame bescherming voor uiteenlopende staalconstructies. Dankzij hoogwaardige anti-corrosiepigmenten en inerte vulstoffen levert dit product een uitstekende roestwering, perfecte kantendekking en is het eenvoudig aan te brengen in hoge laagdiktes. De primer is ook ideaal voor OEM-laklijnen waar consistente kwaliteit, snelle verwerking en langdurige bescherming vereist zijn.\n\nMengverhouding:\n\n801 SteelKote TC Primer, 3 volumedelen.\n\r\nActivator 959V, 1 volumedeel\n\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "801RTU_M",
+      "name": "SteelKote TC Primer (RTU_M)",
+      "brand": "steelkote",
+      "desc": "Deze gebruiksklare, universele epoxyprimer met een hoog vastestofgehalte biedt krachtige, langdurige bescherming voor een breed scala aan staalconstructies. Dankzij hoogwaardige anticorrosiepigmenten en inerte vulstoffen biedt dit product uitstekende roestpreventie, een perfecte randafdekking en is het eenvoudig aan te brengen in hoge laagdiktes. De primer is ook ideaal voor OEM-laklijnen waar consistente kwaliteit, snelle verwerking en langdurige bescherming vereist zijn.\n\nMengverhouding:\n\n801RTU_M SteelKote TC Primer, 2,5 volumedelen.\n\r\nActivator 959VA, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "802 Grey",
+      "name": "SteelKote EP",
+      "brand": "steelkote",
+      "desc": "Een economische high solids epoxy primer met actief roestwerende pigmentering. Eenvoudig aan te brengen in hoge laagdikte. Ontwikkeld als primer voor gestraald staal of verzinkt staal.\n\nMengverhouding:\n\n802 Grey SteelKote EP, 3 volumedelen.\n\r\nActivator 911V (911W/959VTD), 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "802",
+      "name": "SteelKote EP",
+      "brand": "steelkote",
+      "desc": "Een economische high solids universele twee componenten actief roestwerend gepigmenteerde epoxy coating. Als primer of coating voor gestraald staal of verzinkt staal.\n\nMengverhouding:\n\n802 SteelKote EP, 3 delen per volume.\n\r\nStandaard: Activator 911V, 1 deel per volume. (± 14% biobased gehalte).\n\r\nVersnelde uitharding: Activator 940V, 1 deel per volume. (± 13% biobased gehalte).\n\nActivator\nThinner\nActivator",
+      "related": [
+        "Activator",
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "803",
+      "name": "SteelKote EP AC+",
+      "brand": "steelkote",
+      "desc": "Een universele roestwerende high solids epoxy coating, op basis van anticorrosie pigmenten en inerte vulstoffen. Gepigmenteerd met aluminium heeft 803 SteelKote EP AC+ extra barrière en mastiek eigenschappen (kleur SK9007). Eenvoudig aan te brengen in een hoge laagdikte met een uitstekende kantendekking op scherpe randen. 803 SteelKote EP AC+ is speciaal ontwikkeld voor toepassing op nieuwe staalconstructies waar een hoogwaardige bescherming moet worden gecombineerd met een snelle doorharding en vermindering van oplosmiddelemissies. Toepasbaar als een multifunctionele epoxy primer/finish met een extreme corrosieweerstand.\n\nMengverhouding:\n\n803 SteelKote EP AC+, 4 volumedelen.\n\r\nStandaard: Activator 969V, 1 volumedeel.\n\r\nVersnelde uitharding: Activator 958V, 1 volumedeel\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "804",
+      "name": "SteelKote EP Universal",
+      "brand": "steelkote",
+      "desc": "Een universele roestwerende high solids epoxy primer/coating, op basis van anti-corrosie pigmenten en inerte vulstoffen. Eenvoudig aan te brengen in hoge laagdikte en met een uitstekende kantendekking. De 804 SteelKote EP Universal is speciaal ontwikkeld voor toepassing op nieuwe staalconstructies waarbij een hoogwaardige bescherming moet worden gecombineerd met een snelle doorharding en vermindering van oplosmiddelemissies. Toegepast als een multifunctionele epoxy primer/finish met een extreme weerstand tegen corrosie (6 maanden zoutsproeitest), waarbij zeer hoge eisen worden gesteld.\n\nMengverhouding:\n\n804 SteelKote EP Universal\n\r\nActivator 911V - (4 : 1) in volume, Standaardactivator (± 16% biobased gehalte).\n\r\nActivator 940V - (4 : 1) in volume, Versnelde uitharding (± 15% biobased gehalte).\n\r\nActivator 804V CRT - (4 : 1) in volume, Chemische bestendigheid (biogebased gehalte, nader te bepalen)\n\nActivator\nThinner\nActivator",
+      "related": [
+        "Activator",
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "805",
+      "name": "SteelKote EP ZN HS",
+      "brand": "steelkote",
+      "desc": "Een high solids zinkrijke hoog laagdiktebereik epoxy primer met een extreme corrosiebescherming. Duurzame bescherming tegen corrosie van Sa 2-2½ gestraald staal bij tweecomponenten verfsystemen. Economische oplossingen: geformuleerd voor een snelle verwerking en handelbaarheid. Toepassing tot 125 μm droge laagdikte zonder enig risico op scheuren of de gebruikelijk zinkrijke primer gerelateerde defecten.\n\nMengverhouding:\n\n805 SteelKote EP ZN HS, 4 volumedelen.\n\r\nActivator 805V, 1 volumedeel\n\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "806",
+      "name": "SteelKote EP Miox",
+      "brand": "steelkote",
+      "desc": "Een universele roestwerende aromaatarme high solids epoxycoating, versterkt met ijzerglimmer. Voldoet aan EPA-richtlijnen. Toegepast als een eenlaagssysteem combineert het een hoogwaardige bescherming met een eenvoudige applicatie. Zeer goede corrosiebestendige en extreme afdichtende eigenschappen en mechanische sterkte. Het product kan worden toegepast als primer of coating op staalconstructies in agressieve atmosferische en industriële omgevingen. Omwille van het aromaatarme karakter, hoog vlampunt en vaste stofgehalte, het ideale product om oplosmiddelemissies te reduceren en arbeidsomstandigheden te optimaliseren. Zéér lage geurbelasting.\n\nMengverhouding:\n\n806 SteelKote EP Miox, 5 volumedelen.\n\r\nActivator 806V, 1 volumedeel\n\nActivator\nThinner Aromaat Vrij",
+      "related": [
+        "Activator",
+        "Thinner Aromaat Vrij"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "807",
+      "name": "SteelKote PC HS",
+      "brand": "steelkote",
+      "desc": "Tweecomponenten high solids polyester versterkte polyurethaan coating van hoge kwaliteit met roestwerende eigenschappen. Eveneens toepasbaar als toplaag voor coatingsystemen waarbij hoge eisen worden gesteld ten aanzien van kleurbehoud en mechanische sterkte. Bij uitstek geschikt voor toepassing op constructies in diverse atmosferische omgevingen (t/m C5). Direct op metaal aan te brengen op geselecteerde ondergronden, onder diverse omstandigheden (t/m C3).\n\nMengverhouding:\n\n807 SteelKote PC HS\n\r\nActivator 924V - (4 : 1) bij volume (Standard droging)\n\r\nActivator 903V - (3 : 1) bij volume\n\nActivator\nThinner\nActivator",
+      "related": [
+        "Activator",
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "807P",
+      "name": "SteelKote PC HS Premium",
+      "brand": "steelkote",
+      "desc": "Tweecomponenten high solids polyester versterkte polyurethaan coating van hoge kwaliteit met roestwerende eigenschappen. Eveneens toepasbaar als toplaag voor coatingsystemen waarbij hoge eisen worden gesteld ten aanzien van kleurbehoud en mechanische sterkte. Bij uitstek geschikt voor toepassing op constructies in diverse atmosferische omgevingen (t/m C5). Direct op metaal aan te brengen.\n\nMengverhouding:\n\n807P SteelKote PC HS Premium\n\r\nActivator 928V - (4 : 1) bij volume (Standard droging)\n\r\nActivator 903V - (3 : 1) bij volume (Tragere droging)\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "888",
+      "name": "SteelKote PC HS 80 UV+",
+      "brand": "steelkote",
+      "desc": "Een tweecomponenten high solids polyurethaan dekverf op basis van een hydroxy acrylaat en alifatisch isocyanaat gecombineerd met de DualCure technologie.\r\nToepasbaar als een krasvaste glanzende toplaag in coatingsystemen waarbij hoge eisen worden gesteld ten aanzien van kleurbehoud, lichtvastheid, chemicaliënbestendigheid en mechanische sterkte. Bij uitstek geschikt voor toepassing in chemische fabrieken, offshore installaties, raffinaderijen, trailerbouw, containers en agrarische cultuurtechnische machines en constructies in diverse atmosferische en industriële omgevingen (tot en met C5).\n\nMengverhouding:\n\n888 SteelKote PC HS 80 UV+\n\r\n923VM (2 : 1) Volumedelen\n\nThinner\nActivator\nActivator",
+      "related": [
+        "Thinner",
+        "Activator",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "808",
+      "name": "SteelKote PC HS UV+",
+      "brand": "steelkote",
+      "desc": "Tweecomponenten high solids polyester versterkte polyurethaan coating van hoge kwaliteit op basis van DualCure technologie met uitstekende roestwerende eigenschappen. Eveneens toepasbaar als deklaag in coatingsystemen waarbij hoge eisen worden gesteld ten aanzien van kleurbehoud en mechanische sterkte. Bij uitstek geschikt voor toepassing in chemische fabrieken, offshore installaties, raffinaderijen, containers en constructies in diverse atmosferische en industriële omgevingen (tot en met C5). Direct op metaal aan te brengen op geselecteerde ondergronden, onder diverse omstandigheden.\n\nMengverhouding:\n\n808 SteelKote PC HS UV+, 3 volumedelen.\n\r\nActivator 975V, 1 volumedeel.\n\nThinner\nActivator\nActivator",
+      "related": [
+        "Thinner",
+        "Activator",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "810",
+      "name": "SteelKote PU Finish",
+      "brand": "steelkote",
+      "desc": "Een halfglans high-solid twee-componenten polyurethaan dekverf op basis van hydroxy-acrylaat en alifatisch isocyanaat.\n\nMengverhouding:\n\n810 SteelKote PU Finish, 4 volumedelen.\n\r\nStandaard: Activator 903V, 1 volumedeel.\n\r\nVersnelde doorharding: Activator 973V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "811",
+      "name": "SteelKote PU Finish 30 UV+",
+      "brand": "steelkote",
+      "desc": "Een zijdeglans high-solid twee-componenten polyurethaan dekverf op basis van hydroxyacrylaat en alifatisch isocyanaat. Als deklaag in epoxy en polyurethaan verfsystemen. Vanwege de actief corrosie werende eigenschappen is de 811 SteelKote PU Finish 30 UV+ ook als DTM te gebruiken.\n\nMengverhouding:\n\n811 SteelKote PU Finish 30 UV+, 4 volumedelen.\n\r\nStandaard: Activator 903V, 1 volumedeel.\n\r\nVersnelde doorharding: Activator 973V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "812",
+      "name": "SteelKote PU Finish 60 UV+",
+      "brand": "steelkote",
+      "desc": "Een zijdeglans high-solid twee-componenten polyurethaan dekverf op basis van hydroxy-acrylaat en alifatisch isocyanaat. De 812 SteelKote PU Finish 60 UV+ is ook binnen te gebruiken als DTM in C2/C3 omgeving.\n\nMengverhouding:\n\n812 SteelKote PU Finish 60 UV+, 4 volumedelen.\n\r\nStandaard: Activator 903V, 1 volumedeel.\n\r\nVersnelde doorharding: Activator 973V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "813",
+      "name": "SteelKote PU Finish 90 UV+",
+      "brand": "steelkote",
+      "desc": "Een hoogglans high-solid twee-componenten polyurethaan dekverf op basis van hydroxy-acrylaat en alifatisch isocyanaat. Duurzame toplaag voor vrachtwagens en aanhangwagens, landbouw-, bouw- en grondverzetmachines (ACE). Voor toepassingen waarbij hoge eisen worden gesteld aan kleur- en glansbehoud.\n\nMengverhouding:\n\n813 SteelKote PU Finish 90 UV+, 3 volumedelen.\n\r\nStandaard: Activator 903V, 1 volumedeel.\n\r\nVersnelde doorharding: Activator 973V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "814",
+      "name": "SteelKote IM TR",
+      "brand": "steelkote",
+      "desc": "Een universele roestwerende, teer vervangende high solids epoxycoating, versterkt met ijzerglimmer. Combineert een hoge kwaliteit aan bescherming met een eenvoudige applicatie. 814 SteelKote IM TR is een universele primer/coating voor duurzame bescherming van staalconstructies in agressieve atmosferische en industriële omgevingen, evenals voor immersie in bodem en (zee-)water (Im 1, 2, 3).\n\nMengverhouding:\n\n814 SteelKote IM TR, 4 volumedelen.\n\r\nActivator 910V, 1 volumedeel.\n\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "815",
+      "name": "SteelKote IM Mastic AL",
+      "brand": "steelkote",
+      "desc": "Oppervlakte tolerante, biobased, roestwerende aluminium mastiek tweecomponenten primer/coating, op basis van speciale epoxyharsen en gemodificeerde phenalkamines. De 815 SteelKote IM Mastic AL is speciaal ontwikkeld als oppervlakte tolerante onderhoudsprimer/coating voor ST-2 oppervlakken, met de hand voorbehandeld staal en oude verfsystemen, alsmede Sa2½ gestraalde ondergronden. Vroege waterbestendigheid en goede benattingseigenschappen maken toepassing bij hoge R.V. mogelijk (90%, vochtige ondergrond). Overschilderbaar met zichzelf, epoxy en polyurethaan coatings, vinyl- en alkydproducten. Een zeer dichte, ondoordringbare coating, bestand tegen slijtage, chemische invloeden en immersie in water, zelfs als een enkellaagssysteem.\n\nMengverhouding:\n\n815 SteelKote IM Mastic AL, 1 volumedeel.\n\r\nActivator 815V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "816",
+      "name": "SteelKote IM Mastic Miox",
+      "brand": "steelkote",
+      "desc": "Een oppervlakte tolerante, biobased, roestwerende tweecomponenten coating, op basis van speciale epoxyharsen en gemodificeerde phenalkamines. De 816 SteelKote IM Mastic Miox is speciaal ontwikkeld als oppervlakte tolerante afdichting/onderhoudscoating voor ST-2 oppervlakken, met de hand voorbehandeld staal en oude verfsystemen, alsmede Sa2½ gestraalde ondergronden. Vroege waterbestendigheid en goede benattingseigenschappen maakt toepassing bij hoge R.V. mogelijk (90%, vochtige ondergrond). Overschilderbaar met zichzelf, epoxy en polyurethaan coatings, vinyl- en alkydproducten. Een zeer dichte, ondoordringbare coating, bestand tegen slijtage, chemische invloeden en immersie in water, zelfs als een enkellaagssysteem.\n\nMengverhouding:\n\n816 SteelKote IM Mastic Miox, 1 volumedeel.\n\r\nActivator 816V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "817",
+      "name": "SteelKote PU Primer Surfacer HS",
+      "brand": "steelkote",
+      "desc": "Corrosiewerende twee componenten matte high solid vullende primer/surfacer op basis van polyurethaan. Voor de metaalverwerkende industrie, welke in hoge laagdikten kan worden verwerkt.\n\nMengverhouding:\n\n817 SteelKote PU Primer Surfacer HS, 3 volumedelen.\n\r\nStandaard: Activator 903V, 1 volumedeel.\n\r\nVersnelde doorharding: Activator 973V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "818",
+      "name": "SteelKote Pacific 90 UV+",
+      "brand": "steelkote",
+      "desc": "Een tweecomponenten hoogglanzende, geavanceerde polyurethaan topcoat met hoge opbouw, op basis van hydroxylacrylaat en alifatisch isocyanaat. Duurzame afwerking, speciaal ontwikkeld voor bescherming onder kritieke klimatologische en maritieme omstandigheden. Duurzame topcoat voor bussen en bedrijfsvoertuigen, vrachtwagens en trailers, landbouw-, bouw- en grondverzetmachines (ACE). Voor toepassingen waar hoge eisen worden gesteld aan kleur- en glansbehoud en lange onderhoudsintervallen.\n\nMengverhouding:\n\n818 SteelKote Pacific 90 UV+, 3 volumedelen.\n\r\n924V Activator 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "818HSi",
+      "name": "SteelKote Pacific HSi 90 UV+",
+      "brand": "steelkote",
+      "desc": "Een medium-solid ready-for-use tweecomponenten hoogglans polyurethaan topcoat op basis van hydroxylacrylaat en alifatisch isocyanaat. Duurzame afwerking, speciaal ontwikkeld voor bescherming onder kritieke klimatologische en maritieme omstandigheden. In combinatie met de 801RTU_M is de SteelKote TC Primer een uitstekende keuze voor diverse OEM-toepassingen zoals voor bussen en bedrijfsvoertuigen, vrachtwagens en trailers, landbouw-, bouw- en grondverzetmachines (ACE), en vele andere industriële toepassingen waar een snelle doorlooptijd en duurzame bescherming van hoge kwaliteit nodig zijn.\n\nMengverhouding:\n\n818HSI SteelKote Pacific 90 UV+ Basis component 2 volumedelen.\n\r\nActivator 923VM, 1 volumedeel.\n\nFast Thinner PU 5801\nActivator",
+      "related": [
+        "Fast Thinner PU 5801",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "818TR",
+      "name": "SteelKote Pacific 90 UV+ Transparant",
+      "brand": "steelkote",
+      "desc": "Medium-solid “state of the art” twee-componenten transparante ‘high build’ hoogglans polyurethaan dekverf op basis van hydroxy-acrylaat en alifatisch isocyanaat. Speciaal geformuleerd als duurzame afwerking in kritische klimatologische en maritieme omstandigheden.\n\nMengverhouding:\n\n818 SteelKote Pacific 90 UV+ Transparant basis component, 3 volumedelen.\n\r\nActivator 901V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "819P",
+      "name": "SteelKote PU AC Premium",
+      "brand": "steelkote",
+      "desc": "Tweecomponenten economische high solids coating van hoge kwaliteit met roestwerende eigenschappen. Toepasbaar als toplaag voor coatingsystemen waarbij hoge eisen worden gesteld ten aanzien van kleurbehoud en mechanische sterkte. Geschikt voor toepassing op constructies in diverse atmosferische omgevingen (tot en inclusief C5. Direct op metaal aan te brengen op geselecteerde ondergronden, onder diverse omstandigheden.\n\nMengverhouding:\n\n819P SteelKote PU AC Premium, 4 volumedelen.\n\r\nStandaard: Activator 903V, 1 volumedeel.\n\r\nVersnelde doorharding: Activator 928V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "819",
+      "name": "SteelKote PU AC",
+      "brand": "steelkote",
+      "desc": "Tweecomponenten economische high solids coating van hoge kwaliteit met roestwerende eigenschappen. Toepasbaar als toplaag voor coatingsystemen waarbij hoge eisen worden gesteld ten aanzien van kleurbehoud en mechanische sterkte. Geschikt voor toepassing op constructies in diverse atmosferische omgevingen (tot en inclusief C5. Direct op metaal aan te brengen op geselecteerde ondergronden, onder diverse omstandigheden (t/m C3).\n\nMengverhouding:\n\n819 SteelKote PU AC, 4 volumedelen.\n\r\nActivator 903V, 1 volumedeel. (Standaard)\n\r\nActivator 924V, 1 volumedeel.\n\nActivator\nActivator\nThinner",
+      "related": [
+        "Activator",
+        "Activator",
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "820",
+      "name": "SteelKote TC Express HB",
+      "brand": "steelkote",
+      "desc": "Een medium-solid twee-componenten hoogglans polyurethaan dekverf op basis van hydroxy-acrylaat en alifatisch isocyanaat. De 820 SteelKote TC Express HB is een duurzame afwerking, speciaal samengesteld voor de bescherming onder kritieke klimaat- en marine omstandigheden.\n\nMengverhouding:\n\n820 SteelKote TC Express HB Basiscomponent, 17 volumedelen.\n\r\nActivator 901V, 3 volumedelen.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "827",
+      "name": "SteelKote Duroplast HS",
+      "brand": "steelkote",
+      "desc": "Een twee-componenten glanzende elastische polyurethaan deklaag met een laag VOS-gehalte. Gepigmenteerd met hoogwaardige kleur- en vulstoffen. De 827 SteelKote Duroplast HS heeft een excellente weers– en kleurvastheid.\n\nMengverhouding:\n\n827 SteelKote Duroplast HS basiscomponent, 4 volumedelen.\n\r\nActivator 902V, 1 volumedeel.\n\nThinner\nActivator",
+      "related": [
+        "Thinner",
+        "Activator"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "846",
+      "name": "SteelKote MC HS Zinc Primer",
+      "brand": "steelkote",
+      "desc": "SteelKote MC HS Zinc is een high-build zinkrijke primer voor gestraald staal, die een extreme corrosieweerstand verschaft. 846 SteelKote MC HS Zinc is geformuleerd voor eenvoudige applicatie. De specifieke kenmerken maken uitharding bij lage temperaturen mogelijk en geven weerstand tegen scheuren bij een hoge laagdikte. Biedt extreme mechanische eigenschappen.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "847",
+      "name": "SteelKote MC AL Primer",
+      "brand": "steelkote",
+      "desc": "Eén component vochthardende aluminium primer op basis van polyurethaan voor toepassingbij hoge luchtvochtigheid en lage temperaturen. Hoge prestaties/dunne lagen technologie. Ideale coating voor onderhoudswerkzaamheden bij extreme weersomstandigheden. Als intermediate/sealer op voorbehandeld staal.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "848",
+      "name": "SteelKote MC HB Primer",
+      "brand": "steelkote",
+      "desc": "Eén component vochthardende high build primer op basis van polyurethaan voor toepassing bij hoge luchtvochtigheid en lage temperaturen. Hoge prestaties / dunne lagen technologie. Ideale primer voor onderhoudswerkzaamheden bij extreme weersomstandigheden. High build actief roestwerende polyurethaan primer voor gestraald staal, ontroest geborsteld staal en oude opgeruwde verflagen.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "849",
+      "name": "SteelKote MC HB Midcoat",
+      "brand": "steelkote",
+      "desc": "Eén component vochthardende high build coating op basis van polyurethaan voor toepassing bij hoge luchtvochtigheid en lage temperaturen. Hoge prestaties/dunne lagen technologie. Ideale coating voor onderhoudswerkzaamheden bij extreme weersomstandigheden. High build polyurethaan intermediate/sealer op voorbehandeld staal.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "850",
+      "name": "SteelKote MC Barrier Black",
+      "brand": "steelkote",
+      "desc": "Eéncomponent, vochthardende high‑build coating voor duurzame bescherming van metalen oppervlakken in zelfs de meest veeleisende omstandigheden zoals hoge luchtvochtigheid (vochtig oppervlak) en lage temperaturen. Dankzij de geavanceerde vochtuithardingstechnologie is deze coating ideaal voor onderhoudswerkzaamheden en projecten waarbij betrouwbaarheid, snelheid en veelzijdigheid centraal staan.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "220",
+      "name": "PoluRan MC Zimox",
+      "brand": "baril",
+      "desc": "SteelKote MC HS Zinc is een high-build zinkrijke primer voor gestraald staal, die een extreme corrosieweerstand verschaft. 846 SteelKote MC HS Zinc is geformuleerd voor eenvoudige applicatie. De specifieke kenmerken maken uitharding bij lage temperaturen mogelijk en geven weerstand tegen scheuren bij een hoge laagdikte. Biedt extreme mechanische eigenschappen.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "steelkote"
+      ]
+    },
+    {
+      "code": "31411",
+      "name": "Aquaran AK Primer",
+      "brand": "aquaran",
+      "desc": "Aquaran AK Primer is een hoogwaardige, watergedragen industriële primer op basis van alkydemulsie. Deze veelzijdige primer biedt een uitstekende hechting op metalen én houten ondergronden en is daarmee ideaal voor een breed scala aan toepassingen, zowel binnen als buiten. Met zijn sterke dekvermogen, goede vulkracht en snelle droging biedt Aquaran AK Primer een efficiënte en duurzame grondlaag voor professionele gebruikers die betrouwbaarheid en gemak verwachten.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "31841",
+      "name": "Aquaran AK Finish 20",
+      "brand": "aquaran",
+      "desc": "Aquaran AK Finish 20 is een hoogwaardige, watergedragen matte aflak op basis van alkydemulsietechnologie. Deze afwerking biedt een duurzame, weerbestendige bescherming voor voorbehandeld hout en staal, zowel binnen als buiten. Met zijn sterke dekkracht, mooie matte uitstraling en betrouwbare buitenduurzaamheid is dit de perfecte toplaag voor professionele verwerkers die kiezen voor kwaliteit en gemak.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "31842",
+      "name": "Aquaran AK Finish 40",
+      "brand": "aquaran",
+      "desc": "Aquaran AK Finish 40 is een hoogwaardige, watergedragen zijdeglans aflak die uitstekende weerbestendigheid combineert met een professionele, duurzame uitstraling. Deze afwerking biedt een sterke en langdurige bescherming op voorbehandeld hout en staal. Ideaal voor zowel binnen- als buitentoepassingen. Met zijn mooie zijdeglans, betrouwbare dekking en bewezen technologie binnen de Aquaran lijn is dit de favoriete keuze voor professionals die op zoek zijn naar kwaliteit, efficiëntie en een strak eindresultaat.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "31843",
+      "name": "Aquaran AK Finish 60",
+      "brand": "aquaran",
+      "desc": "Aquaran AK Finish 60 is een hoogwaardige, watergedragen halfglans aflak die duurzaamheid, uitstraling en gebruiksgemak perfect combineert. Deze toplaag biedt een professionele en weerbestendige bescherming voor voorbehandeld hout en staal — ideaal voor industriële projecten waar een strakke, halfglanzende finish gewenst is. Met zijn sterke dekvermogen, soepele verwerking en bewezen alkydemulsietechnologie levert deze afwerking jarenlang betrouwbare performance, zowel binnen als buiten.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "31851",
+      "name": "Aquaran AK Finish 90",
+      "brand": "aquaran",
+      "desc": "Aquaran AK Finish 90 is de premium keuze binnen onze watergedragen industriële aflakken. Deze hoogglans toplaag biedt een intens glanzende, professionele uitstraling én een duurzame, weerbestendige bescherming voor voorbehandeld hout en staal. Perfect geschikt voor industriële toepassingen waar kwaliteit, uitstraling en levensduur centraal staan zowel binnen als buiten. Met zijn sterke dekvermogen en soepele verwerking levert deze afwerking een hoogwaardige eindlaag die elk project naar een hoger niveau tilt.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "36411",
+      "name": "Aquaran 2K EP Primer",
+      "brand": "aquaran",
+      "desc": "2 component watergedragen epoxyprimer – voor krachtige, duurzame staalbescherming, biedt een extreem duurzame, corrosiewerende bescherming van staal in middelzware tot zware omgevingen (C3–C5). Dankzij de watergedragen formule is het product milieuvriendelijk, zonder concessies te doen aan prestaties. Perfect voor professioneel gebruik in industriële projecten, werkplaatsen en buitentoepassingen waar staal langdurig beschermd moet worden tegen weer, vocht en chemische belasting.\n\nMengverhouding:\n\n36411 Aquaran 2K EP Primer, 5 delen per volume.\n\r\nActivator 840V, 1 deel per volume.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "37842",
+      "name": "Aquaran PU Finish 40",
+      "brand": "aquaran",
+      "desc": "Aquaran PU Finish 40 is een hoogwaardige, watergedragen 2 componenten zijdeglans polyurethaantoplaag voor industriële toepassingen waar maximale duurzaamheid, kleurechtheid en chemische bestendigheid vereist zijn. Dankzij de moderne PU technologie levert deze toplaag een strak, professioneel en langdurig resultaat.\n\nMengverhouding:\n\n37842 AquaRan PU Finish 30 Basiscomponent, 6 volumedelen.\n\r\n37901V AquaRan PU Part B, 1 volumedeel.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "37411",
+      "name": "Aquaran PU DTM",
+      "brand": "aquaran",
+      "desc": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nMengverhouding:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.\n\nActivator 885",
+      "related": [
+        "Activator 885"
+      ],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "37843",
+      "name": "Aquaran PU Finish 60",
+      "brand": "aquaran",
+      "desc": "Aquaran PU Finish 60 is een premium watergedragen 2 componenten halfglans polyurethaantoplaag voor industriële projecten waar hoge duurzaamheid, uitstekend glansbehoud en sterke chemische resistentie gevraagd worden. Deze toplaag levert een strak, professioneel resultaat en maximale performance binnen epoxy/PU systemen.\n\nMengverhouding:\n\n37843 AquaRan PU Finish 60 Basiscomponent, 6 volumedelen.\n\r\n37901V AquaRan PU Part B, 1 volumedeel.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "37851",
+      "name": "Aquaran PU Finish 90",
+      "brand": "aquaran",
+      "desc": "Aquaran PU Finish 90 is onze meest hoogwaardige watergedragen 2 componenten hoogglans polyurethaantoplaag. Deze premium afwerking levert een uitzonderlijk strakke, diepe glans, extreem glans- en kleurbehoud en maximale chemische en mechanische weerstand ideaal voor projecten waar uitstraling én duurzaamheid onmisbaar zijn.\n\nMengverhouding:\n\n37851 AquaRan PU Finish 90 Basiscomponent, 6 volumedelen.\n\r\n37901V AquaRan PU Part B, 1 volumedeel.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "38012",
+      "name": "Aquaran AC Welding Primer",
+      "brand": "aquaran",
+      "desc": "Aquaran AC Welding Primer is een sneldrogende, watergedragen ééncomponent las- en transportprimer die ideale bescherming biedt voor gestraald staal tijdens fabricage en montage. De primer is lasbaar tot 25 μm, chroom- en loodvrij, en speciaal ontwikkeld voor automatische spuitlijnen, waardoor hij perfect aansluit op moderne productieprocessen. Dankzij de snelle droging en soepele verwerking kunnen onderdelen snel door naar de volgende stap, inclusief overschilderen met conventionele coatings.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "38442",
+      "name": "Aquaran AC Primer/Finish",
+      "brand": "aquaran",
+      "desc": "Aquaran AC Primer/Finish is een snelle, watergedragen 1 component acrylaatprimer en aflak in één. Deze roestwerende, chroom- en loodvrije coating biedt betrouwbare bescherming op gestraald of ontvet staal en is ideaal voor binnentoepassingen en licht industriële omgevingen. Dankzij de snelle droging en soepele verwerking is het product perfect voor efficiënte productie en onderhoudsprocessen.",
+      "related": [],
+      "cats": [
+        "aquaran"
+      ]
+    },
+    {
+      "code": "10841",
+      "name": "Bariline HB Finish",
+      "brand": "bariline",
+      "desc": "Sneldrogende, ééncomponentige alkyd‑aflak met hoge dekkracht voor een duurzame eindafwerking op geprimed staal. In combinatie met 10411 Bariline Primer HB vormt dit product een betrouwbaar corrosiewerend systeem. Geschikt voor machines, containers, kleine tanks en staalconstructies in landelijke en licht industriële omgevingen.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "10411",
+      "name": "Bariline Primer HB",
+      "brand": "bariline",
+      "desc": "Bariline Primer HB is een hoogwaardige één component alkydhars primer die uitstekende corrosiebescherming combineert met snelle droging en eenvoudige verwerking. Deze primer is speciaal ontwikkeld voor professioneel gebruik in constructiewerkplaatsen en industriële omgevingen waar betrouwbaarheid en efficiëntie tellen. Dankzij de high build eigenschappen wordt met één laag al een effectieve bescherming gerealiseerd, wat zorgt voor tijd- en kostenbesparing in het applicatieproces.\n\nThinner",
+      "related": [
+        "Thinner"
+      ],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "10011",
+      "name": "Bariline Welding Primer",
+      "brand": "bariline",
+      "desc": "Zeer sneldrogende alkydhars las- en transportprimer, voor tijdelijke conservering van gestraald staal. De primer is uitstekend lasbaar tot 25 μm laagdikte en speciaal ontwikkeld voor efficiënte verwerking, ook in automatische spuitinstallaties. Na volledige doorharding is de laag probleemloos overschilderbaar met conventionele verfsystemen.",
+      "related": [],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "10851",
+      "name": "Bariline Express",
+      "brand": "bariline",
+      "desc": "Sneldrogende één-component high build alkydhars dekverf.",
+      "related": [],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "10443",
+      "name": "Bariline Coating Semi-Gloss",
+      "brand": "bariline",
+      "desc": "Snel drogende, roestwerende ééncomponentige halfglans high build alkydcoating. Ontwikkeld voor een duurzame en strak halfglanzende afwerking van gestraald staal. Ideaal voor éénlaags applicatie op staalconstructies in droge, milde omgevingen en biedt bij voldoende laagdikte uitstekende corrosiebescherming tijdens de bouwfase. Zeer geschikt als renovatiecoating voor (afval)containers. In combinatie met een corrosiewerende primer inzetbaar voor langdurige bescherming van staalconstructies in lichte industriële omgevingen.",
+      "related": [],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "10444",
+      "name": "Bariline TC Coating",
+      "brand": "bariline",
+      "desc": "Bariline TC Coating is een sneldrogende, ééncomponentige high build alkydcoating met een duurzame zijdeglansafwerking en uitstekende corrosiewerende eigenschappen. Toepasbaar in uiteenlopende industriële toepassingen zoals (afval)containers en industriële renovatieprojecten, machines, chassis en landbouwmechanisatie.",
+      "related": [],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "10442",
+      "name": "Bariline Coating",
+      "brand": "bariline",
+      "desc": "Sneldrogende, ééncomponentige, high build anticorrosieve alkydcoating. Als afwerking in kleur op stalen oppervlakken. Als éénlaags systeem voor de bescherming van gestraalde staalconstructies in droge, milde omgevingen. Het product biedt een goede bescherming tijdens de bouwperiode, mits er voldoende laagdikte wordt aangebracht. Toepasbaar als 1-laag systeem voor het renoveren van containers. Wanneer er hogere eisen worden gesteld aan duurzame bescherming, wordt het aanbrengen van een anticorrosieve primer op alkydbasis aanbevolen.",
+      "related": [],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "20411",
+      "name": "Bariline Uniprimer",
+      "brand": "bariline",
+      "desc": "Sneldrogende universeel overschilderbare één component high build zinkfosfaat primer. Als een corrosiewerende primer op gestraald stalen ondergronden. min Sa 2½. Tevens uitstekend geschikt voor toepassing op geschoopeerde ondergronden. Het product kan na een korte ontluchttijd worden afgewerkt met alkydhars lakverven. Na voldoende droging kunnen tevens afwerklagen op basis van epoxy- en polyurethaanharsen worden aangebracht.",
+      "related": [],
+      "cats": [
+        "bariline"
+      ]
+    },
+    {
+      "code": "5800BIO",
+      "name": "Thinner",
+      "brand": "baril solvents",
+      "desc": "",
+      "related": [],
+      "cats": [
+        "biobased"
+      ]
+    },
+    {
+      "code": "911VBIO",
+      "name": "Activator",
+      "brand": "baril activators",
+      "desc": "",
+      "related": [],
+      "cats": [
+        "biobased"
+      ]
+    },
+    {
+      "code": "969VBIO",
+      "name": "Activator",
+      "brand": "baril activators",
+      "desc": "",
+      "related": [],
+      "cats": [
+        "biobased"
+      ]
+    }
+  ]
+}

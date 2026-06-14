@@ -5,7 +5,7 @@
   'use strict';
   const MAP = [
     // nav
-    ['.navlinks a', ['Over ons', 'Bescherming', 'DualCure', 'Markten', 'Assortiment', 'In de praktijk', 'Contact']],
+    ['.navlinks a', ['Over ons', 'Bescherming', 'DualCure', 'Markten', 'Assortiment', 'Producten', 'In de praktijk', 'Contact']],
     // hero
     ['header .eyebrow', "Baril Coatings — Industriële & beschermende coatings · Sinds 1987"],
     ['header h1', 'Duurzame<br><span class="paint">coating-</span><br>oplossingen'],
@@ -77,7 +77,7 @@
       'Dual-cure-technologie voor OEM en metaalindustrie: snelle doorharding en een taaie, duurzame afwerking, sneller klaar voor verwerking.',
       'Zware corrosiebescherming voor staal en infrastructuur — high-build-prestaties in dunnere, slimmere lagen.',
       'Watergedragen, emissiearme coatings die beschermen zonder de oplosmiddelenlast — schoner op de klus en in de lucht.']],
-    ['.ranges-note', 'Ook: <strong>Bariline</strong> bouwsystemen · <strong>FleetSpec</strong> (VS). <a href="https://www.barilcoatings.com/en/products" target="_blank" rel="noopener">Bekijk alle producten ↗</a>'],
+    ['.ranges-note', 'Ook: <strong>Bariline</strong> bouwsystemen · <strong>FleetSpec</strong> (VS). <a href="products/">Bekijk alle producten →</a>'],
     ['.renew-cap', 'Bescherming, met precisie aangebracht — met technisch advies en Baril Academy-training.'],
     // proof
     ['#proof .eyebrow', 'In de praktijk'],
