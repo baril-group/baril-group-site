@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /* Baril Coatings data sync.
-   Pulls product, paint-system and case data from the live Baril database
-   (data.barilcoatings.com + barilcoatings.com) and writes JSON snapshots the
-   modern shell renders from. Run: `node tools/sync.js`. Also run automatically
-   by .github/workflows/sync-baril-data.yml. Keeps the original site as the
-   source of truth while the shell stays fully restylable. */
+   Pulls product, paint-system, market and case data from the live Baril site
+   (data.barilcoatings.com + barilcoatings.com) into JSON snapshots the modern
+   shell renders from. Run: `node tools/sync.js`. Also run by
+   .github/workflows/sync-baril-data.yml. The original site stays the source of
+   truth; the shell stays fully restylable. */
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -13,7 +13,14 @@ const ROOT = path.resolve(__dirname, '..', 'barilcoatings');
 const DATA_BASE = 'https://data.barilcoatings.com';
 const SITE = 'https://www.barilcoatings.com';
 const LINES = ['dualcure', 'steelkote', 'aquaran', 'bariline', 'biobased'];
+const PROD_LANGS = ['nl', 'en', 'pl', 'ro'];
 const PS_LINES = ['dualcure', 'steelkote', 'aquaran', 'bariline', 'biobased', 'marine', 'onderhoud'];
+const SEGMENTS = [
+  { slug: 'constructie-infra', caseSlug: 'constructie-infra', label: 'Constructie & Infra' },
+  { slug: 'gebouwen-onderhoud', caseSlug: 'gebouw-onderhoud', label: 'Gebouwen & Onderhoud' },
+  { slug: 'industrie-machinebouw', caseSlug: 'industrie-machinebouw', label: 'Industrie & Machinebouw' },
+  { slug: 'marine-offshore', caseSlug: 'marine-offshore', label: 'Marine & Offshore' }
+];
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function get(url, opts) {
@@ -21,7 +28,7 @@ async function get(url, opts) {
   if (!res.ok) { const e = new Error('HTTP ' + res.status + ' ' + url); e.status = res.status; throw e; }
   return res.text();
 }
-const dec = s => (s || '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&euml;/g, 'ë').replace(/&eacute;/g, 'é').trim();
+const dec = s => (s || '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&euml;/g, 'ë').replace(/&eacute;/g, 'é').replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();
 function stripTags(html) {
   return (html || '')
     .replace(/<div class="product-related[\s\S]*?<\/div>/gi, '')
@@ -29,15 +36,14 @@ function stripTags(html) {
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ')
     .replace(/[ \t]+/g, ' ').replace(/\n[ \t]+/g, '\n').replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }
+const lineSlug = line => line === 'biobased' ? 'biobased-coatings' : line + '-products';
 
-/* ---------------- products ---------------- */
+/* ---------------- products (multilingual) ---------------- */
 function parseProducts(html) {
   const out = [];
-  const parts = html.split(/<div class="product" rel="/).slice(1);
-  for (const part of parts) {
+  for (const part of html.split(/<div class="product" rel="/).slice(1)) {
     const code = part.slice(0, part.indexOf('"'));
     const bm = part.match(/data-brand="([^"]+)"/);
-    const brand = bm ? bm[1] : 'baril';
     let name = code;
     const pd = part.match(/<div class="product-data">([\s\S]*?)<\/div>/);
     if (pd) {
@@ -48,30 +54,28 @@ function parseProducts(html) {
     const dm = part.match(/<div class="product-desc hide"[^>]*>([\s\S]*?)<\/div>\s*<\/div>\s*<div class="product-link-datasheet"/);
     const desc = dm ? stripTags(dm[1]) : '';
     const related = [...part.matchAll(/<span class="related">([^<]+)<\/span>/g)].map(m => dec(m[1]));
-    out.push({ code, name, brand, desc, related });
+    out.push({ code, name, brand: bm ? bm[1] : 'baril', desc, related });
   }
   return out;
 }
 
 async function syncProducts() {
-  const byCode = {};
-  const order = [];
-  const brands = {};
+  const byCode = {}, order = [], brands = {};
   for (const line of LINES) {
-    let nl = '';
-    try { nl = await get(`${DATA_BASE}/nl/products/baril/${line === 'biobased' ? 'biobased-coatings' : line + '-products'}`); }
-    catch (e) { console.warn('  products nl', line, e.message); continue; }
-    let en = '';
-    try { en = await get(`${DATA_BASE}/en/products/baril/${line === 'biobased' ? 'biobased-coatings' : line + '-products'}`); } catch (e) { /* en optional */ }
-    for (const m of nl.matchAll(/<h3 class="brand" data-brand="([^"]+)" data-color="([^"]+)">([^<]+)<\/h3>/g)) brands[m[1]] = { name: dec(m[3]), color: m[2].trim() };
-    const enMap = {}; if (en) parseProducts(en).forEach(p => enMap[p.code] = p);
-    for (const p of parseProducts(nl)) {
-      if (!byCode[p.code]) { byCode[p.code] = { code: p.code, name: p.name, brand: p.brand, desc: p.desc, related: p.related, cats: [line] }; order.push(p.code); }
-      else if (!byCode[p.code].cats.includes(line)) byCode[p.code].cats.push(line);
-      const e = enMap[p.code];
-      if (e) { byCode[p.code].name_en = e.name; byCode[p.code].desc_en = e.desc; }
+    for (const lang of PROD_LANGS) {
+      let html;
+      try { html = await get(`${DATA_BASE}/${lang}/products/baril/${lineSlug(line)}`); }
+      catch (e) { if (lang === 'nl') console.warn('  products', line, e.message); continue; }
+      if (lang === 'nl') for (const m of html.matchAll(/<h3 class="brand" data-brand="([^"]+)" data-color="([^"]+)">([^<]+)<\/h3>/g)) brands[m[1]] = { name: dec(m[3]), color: m[2].trim() };
+      for (const p of parseProducts(html)) {
+        if (!byCode[p.code]) { byCode[p.code] = { code: p.code, brand: p.brand, related: p.related, cats: [line] }; order.push(p.code); }
+        else if (!byCode[p.code].cats.includes(line)) byCode[p.code].cats.push(line);
+        const rec = byCode[p.code];
+        if (lang === 'nl') { rec.name = p.name; rec.desc = p.desc; }
+        else { rec['name_' + lang] = p.name; rec['desc_' + lang] = p.desc; }
+      }
+      await sleep(120);
     }
-    await sleep(150);
   }
   // attributes via server-side filters on all-products
   try {
@@ -80,7 +84,7 @@ async function syncProducts() {
     for (const b of all.split(/<div class="filter">/).slice(1)) {
       const g = b.match(/<h3 class="filter-label">([^<]+)<\/h3>/); if (!g) continue;
       const group = dec(g[1]);
-      for (const m of b.matchAll(/value="(\d+)" data-filter="(\d+)">\s*<label[^>]*>([^<]+)<\/label>/g)) opts.push({ group, value: m[1], label: dec(m[2] ? m[3] : m[3]) });
+      for (const m of b.matchAll(/value="(\d+)" data-filter="(\d+)">\s*<label[^>]*>([^<]+)<\/label>/g)) opts.push({ group, value: m[1], label: dec(m[3]) });
     }
     for (const o of opts) {
       if (o.group === 'Merken') continue;
@@ -91,11 +95,10 @@ async function syncProducts() {
           (byCode[c].attrs ||= {}); (byCode[c].attrs[o.group] ||= []);
           if (!byCode[c].attrs[o.group].includes(o.label)) byCode[c].attrs[o.group].push(o.label);
         }
-      } catch (e) { console.warn('  filter', o.label, e.message); }
-      await sleep(200);
+      } catch (e) { /* skip */ }
+      await sleep(180);
     }
   } catch (e) { console.warn('  attributes:', e.message); }
-
   const products = order.map(c => byCode[c]);
   products.forEach(p => { if (!p.attrs) p.attrs = {}; });
   return { brands, products };
@@ -111,14 +114,12 @@ function parsePaintsystems(html) {
     const langs = [...part.matchAll(/<a href="(https:\/\/data\.barilcoatings\.com\/([a-z]{2})\/paintsystems\/datasheet\/\d+)"[^>]*>([^<]+)<\/a>/g)].map(m => ({ lang: m[2], label: dec(m[3]), url: m[1] }));
     const steps = [];
     const psBlock = part.match(/<div class="paintsystem-products">([\s\S]*?)<div class="paintsystem-summary">/);
-    if (psBlock) {
-      for (const sp of psBlock[1].split(/<div class="product">/).slice(1)) {
-        const layer = (sp.match(/<span class="index">([^<]+)<\/span>/) || [])[1];
-        const prod = (sp.match(/<span class="product-name">([^<]+)<\/span>/) || [])[1];
-        const thick = (sp.match(/<div class="thickness">([\s\S]*?)<\/div>/) || [])[1];
-        const dry = (sp.match(/<div class="drytime">([\s\S]*?)<\/div>/) || [])[1];
-        if (prod) steps.push({ layer: dec(layer), product: dec(prod), thickness: dec(thick), drytime: dec(dry) });
-      }
+    if (psBlock) for (const sp of psBlock[1].split(/<div class="product">/).slice(1)) {
+      const layer = (sp.match(/<span class="index">([^<]+)<\/span>/) || [])[1];
+      const prod = (sp.match(/<span class="product-name">([^<]+)<\/span>/) || [])[1];
+      const thick = (sp.match(/<div class="thickness">([\s\S]*?)<\/div>/) || [])[1];
+      const dry = (sp.match(/<div class="drytime">([\s\S]*?)<\/div>/) || [])[1];
+      if (prod) steps.push({ layer: dec(layer), product: dec(prod), thickness: dec(thick), drytime: dec(dry) });
     }
     const totT = part.match(/<div class="summary-thickness">([\s\S]*?)<\/div>/);
     const totD = part.match(/<div class="summary-drytime">([\s\S]*?)<\/div>/);
@@ -126,32 +127,58 @@ function parsePaintsystems(html) {
   }
   return systems;
 }
-
 async function syncPaintsystems() {
   const out = {};
   for (const line of PS_LINES) {
-    try {
-      const html = await get(`${DATA_BASE}/nl/paintsystems/baril/${line}-paintsystems`);
-      const systems = parsePaintsystems(html);
-      if (systems.length) out[line] = systems;
-      console.log('  paintsystems', line + ':', systems.length);
-    } catch (e) { /* line may not exist */ }
-    await sleep(150);
+    try { const html = await get(`${DATA_BASE}/nl/paintsystems/baril/${line}-paintsystems`); const s = parsePaintsystems(html); if (s.length) { out[line] = s; console.log('  paintsystems', line + ':', s.length); } }
+    catch (e) { /* none */ }
+    await sleep(120);
   }
   return out;
 }
 
-/* ---------------- cases ---------------- */
+/* ---------------- markets ---------------- */
+async function syncMarkets() {
+  const markets = [];
+  for (const seg of SEGMENTS) {
+    try {
+      const html = await get(`${SITE}/nl/markten/${seg.slug}`);
+      const title = dec((html.match(/<title>([^<]+)<\/title>/) || [])[1] || seg.label).replace(/\s*[|–-]\s*Baril.*$/i, '');
+      const description = dec((html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '');
+      const image = (html.match(/<meta property="og:image" content="([^"]*)"/) || [])[1] || '';
+      const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(m => stripTags(m[1])).filter(t => t.length > 50);
+      const seen = new Set(); const body = paras.filter(t => !seen.has(t) && seen.add(t)).slice(0, 8);
+      markets.push({ slug: seg.slug, label: seg.label, title, description, image: image.startsWith('http') ? image : (image ? SITE + image : ''), body, url: `${SITE}/nl/markten/${seg.slug}` });
+      console.log('  market', seg.slug + ':', body.length, 'paragrafen');
+    } catch (e) { console.warn('  market', seg.slug, e.message); }
+    await sleep(120);
+  }
+  return markets;
+}
+
+/* ---------------- cases (+ market tags) ---------------- */
+const caseSlug = url => (url.match(/\/praktijkcases\/([^/?#]+)/) || [])[1] || '';
 async function syncCases() {
   const html = await get(`${SITE}/nl/praktijkcases`);
-  const cases = [];
-  const seen = new Set();
+  const cases = []; const bySlug = {}; const seen = new Set();
   for (const block of html.split(/<a class="news-item"/).slice(1)) {
     const href = (block.match(/href="([^"]+)"/) || [])[1];
     const title = dec((block.match(/title="([^"]*)"/) || [])[1] || (block.match(/<h2>([\s\S]*?)<\/h2>/) || [])[1] || '');
     const img = (block.match(/<img[^>]+src="([^"]+)"/) || [])[1];
     if (!href || seen.has(href)) continue; seen.add(href);
-    cases.push({ title, url: href.startsWith('http') ? href : SITE + href, image: img ? (img.startsWith('http') ? img : SITE + img) : '' });
+    const c = { title, url: href.startsWith('http') ? href : SITE + href, image: img ? (img.startsWith('http') ? img : SITE + img) : '', markets: [] };
+    cases.push(c); bySlug[caseSlug(c.url)] = c;
+  }
+  // tag each case with the market segment(s) that list it
+  for (const seg of SEGMENTS) {
+    try {
+      const segHtml = await get(`${SITE}/nl/praktijkcases/${seg.caseSlug}`);
+      for (const m of segHtml.matchAll(/<a class="news-item"[^>]*href="([^"]+)"/g)) {
+        const c = bySlug[caseSlug(m[1])];
+        if (c && !c.markets.includes(seg.label)) c.markets.push(seg.label);
+      }
+    } catch (e) { /* skip */ }
+    await sleep(120);
   }
   return cases;
 }
@@ -160,19 +187,19 @@ async function syncCases() {
 (async () => {
   console.log('Syncing Baril Coatings data…');
   const products = await syncProducts();
-  console.log('  products:', products.products.length, '· with EN:', products.products.filter(p => p.name_en).length, '· with attrs:', products.products.filter(p => Object.keys(p.attrs).length).length);
+  console.log('  products:', products.products.length, '· EN:', products.products.filter(p => p.name_en).length, '· PL:', products.products.filter(p => p.name_pl).length, '· RO:', products.products.filter(p => p.name_ro).length, '· attrs:', products.products.filter(p => Object.keys(p.attrs).length).length);
   const paintsystems = await syncPaintsystems();
+  const markets = await syncMarkets();
   const cases = await syncCases();
-  console.log('  cases:', cases.length);
+  console.log('  cases:', cases.length, '· tagged:', cases.filter(c => c.markets.length).length);
 
   const stamp = new Date().toISOString().slice(0, 10);
   fs.mkdirSync(path.join(ROOT, 'products'), { recursive: true });
   fs.mkdirSync(path.join(ROOT, 'data'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'products', 'products.json'),
-    JSON.stringify({ generated: stamp, source: 'data.barilcoatings.com', brands: products.brands, attributeGroups: ['Chemie', 'Componenten', 'Glans', 'Ondergrond', 'Productsoort'], products: products.products }, null, 2));
-  fs.writeFileSync(path.join(ROOT, 'data', 'paintsystems.json'),
-    JSON.stringify({ generated: stamp, source: 'data.barilcoatings.com', systems: paintsystems }, null, 2));
-  fs.writeFileSync(path.join(ROOT, 'data', 'cases.json'),
-    JSON.stringify({ generated: stamp, source: 'barilcoatings.com', cases }, null, 2));
+    JSON.stringify({ generated: stamp, source: 'data.barilcoatings.com', languages: PROD_LANGS, brands: products.brands, attributeGroups: ['Chemie', 'Componenten', 'Glans', 'Ondergrond', 'Productsoort'], products: products.products }, null, 2));
+  fs.writeFileSync(path.join(ROOT, 'data', 'paintsystems.json'), JSON.stringify({ generated: stamp, source: 'data.barilcoatings.com', systems: paintsystems }, null, 2));
+  fs.writeFileSync(path.join(ROOT, 'data', 'markets.json'), JSON.stringify({ generated: stamp, source: 'barilcoatings.com', markets }, null, 2));
+  fs.writeFileSync(path.join(ROOT, 'data', 'cases.json'), JSON.stringify({ generated: stamp, source: 'barilcoatings.com', cases }, null, 2));
   console.log('Done →', stamp);
 })().catch(e => { console.error(e); process.exit(1); });

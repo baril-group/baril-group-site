@@ -1,0 +1,50 @@
+{
+  "generated": "2026-06-14",
+  "source": "barilcoatings.com",
+  "markets": [
+    {
+      "slug": "constructie-infra",
+      "label": "Constructie & Infra",
+      "title": "Constructie & Infra",
+      "description": "Speciaal voor constructie en infra staalwerk biedt Baril de DualCure, SteelKote & Bariline coatings aan. Duurzaam, uitstekende hechting en corrosiewerend.",
+      "image": "",
+      "body": [
+        "Aan de buitenlucht blootgesteld staalwerk vereist een kosteneffectieve en duurzame bescherming tegen corrosie (t/m C5). De DualCure en SteelKote-coatings van Baril blinken uit door hun duurzaamheid, flexibiliteit, hechting, gemak van aanbrengen, weerstand tegen corrosie en chemische en mechanische bestendigheid. Dit alles is het resultaat van onze grote vakbekwaamheid op het terrein van coating-chemie in combinatie met veel aandacht voor de behoeften en wensen van onze klanten."
+      ],
+      "url": "https://www.barilcoatings.com/nl/markten/constructie-infra"
+    },
+    {
+      "slug": "gebouwen-onderhoud",
+      "label": "Gebouwen & Onderhoud",
+      "title": "Gebouwen & onderhoud",
+      "description": "Speciaal voor gebouwen & onderhoud biedt Baril milieuvriendelijke biobased schildersverf Copperant en oplosmiddelvrije en watergedragen vloercoatings Roboton.",
+      "image": "",
+      "body": [
+        "Met onze milieuvriendelijke biobased schildersverf Copperant beschermt de vakschilders objectende duurzaam en draagt bij aan een gezonde en veilige leefomgeving. De oplosmiddelvrije en watergedragen vloercoatings van Roboton beschermt betonnen vloeren, wanden, balkons, trappen en houten vloeren duurzaam. Deze coatings worden volledig geproduceerd op door ons zelf opgewekte zonne-energie."
+      ],
+      "url": "https://www.barilcoatings.com/nl/markten/gebouwen-onderhoud"
+    },
+    {
+      "slug": "industrie-machinebouw",
+      "label": "Industrie & Machinebouw",
+      "title": "Industrie & Machinebouw",
+      "description": "Speciaal voor de industrie en machinebouw biedt Baril de DualCure, Steelkote & Aquaran coatings aan. Voor een duurzame afwerking en optimale bescherming.",
+      "image": "",
+      "body": [
+        "Voor de industrie en machinebouw hebben wij productlijnen die aan iedere industri&euml;le eis voor een duurzame afwerking voldoet. De technologie van deze coatings maakt het tevens mogelijk om uw VOS-uitstoot aanzienlijk te verkleinen. Baril biedt hiermee milieuverantwoorde oplossingen voor de metaalverwerkende industrie. De coatings beschermen machines en apparaten optimaal tegen beschadigingen. Door de snelle droging en nat-in-nat applicatie in maximaal twee lagen is veel tijdwinst te behalen in het productieproces."
+      ],
+      "url": "https://www.barilcoatings.com/nl/markten/industrie-machinebouw"
+    },
+    {
+      "slug": "marine-offshore",
+      "label": "Marine & Offshore",
+      "title": "Marine & Offshore",
+      "description": "Voor Marine & Offshore biedt Baril een breed scala aan high solids en oplosmiddelvrije coatings voor duurzame bescherming van staal onder zware belasting.",
+      "image": "",
+      "body": [
+        "Onze vooruitstrevende positie op het gebied van coating-chemie heeft geresulteerd in een reeks high solids en oplosmiddelvrije coatings voor de bescherming van on- en offshore industrie, de scheepsbouw en -reparatie sector. Onze productlijn voor marine & offshore biedt een breed scala aan onovertroffen producten/systemen voor de duurzame bescherming van staal onder zware belasting."
+      ],
+      "url": "https://www.barilcoatings.com/nl/markten/marine-offshore"
+    }
+  ]
+}
