@@ -61,7 +61,24 @@ nav{gap:18px}
   padding:7px 12px;transition:color .2s,border-color .2s;
 }
 .lang:hover,.lang:focus-visible{color:var(--ink);border-color:var(--teal)}
-@media(max-width:720px){.navlinks{display:none}.logo img{height:32px}.lang{margin-left:auto}}
+.langflags{display:flex;gap:5px;align-items:center}
+.langflags button{background:none;border:1px solid transparent;border-radius:4px;padding:3px;cursor:pointer;opacity:.5;transition:opacity .2s,border-color .2s;line-height:0}
+.langflags button:hover{opacity:.9}
+.langflags button.active{opacity:1;border-color:var(--green)}
+.langflags .flag{width:22px;height:15px;object-fit:cover;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+.navtoggle{display:none;background:none;border:1px solid var(--hairline);border-radius:6px;color:var(--ink);font-size:18px;line-height:1;padding:6px 11px;cursor:pointer}
+@media(max-width:860px){
+  .navtoggle{display:block}
+  .navlinks{
+    display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;margin:0;
+    background:rgba(5,13,24,.97);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--hairline);padding:4px 24px 14px;
+  }
+  nav.open .navlinks{display:flex}
+  .navlinks a{padding:13px 2px;font-size:14px;border-top:1px solid var(--hairline)}
+  .navlinks a:first-child{border-top:none}
+  .logo img{height:32px}
+}
 
 /* ---------- paint ribbon ---------- */
 #ribbonHost{position:absolute;inset:0 0 auto 0;z-index:1;pointer-events:none}
