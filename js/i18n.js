@@ -43,12 +43,25 @@
       'DCC gepatenteerd in de EU, VS en Canada · Best Managed Company',
       "Zonnedaken in Etten-Leur en 's-Hertogenbosch",
       'Start Baril Academy',
-      'Wagenpark volledig elektrisch · plantaardige consumentenmerken in eigen beheer']],
+      'Wagenpark volledig elektrisch · plantaardige consumentenmerken in eigen beheer',
+      'Start van de transitie naar 100% hernieuwbare grondstoffen',
+      '802 BIO & 803 BIO — de eerste biobased epoxycoatings van industriële kwaliteit',
+      'Winnaar Brabantse Innovatie Award',
+      'B Corp-gecertificeerd — een van de eerste protective-coatingsbedrijven ter wereld · KVK Circulaire Innovatie Award (Chemie)']],
     ['.vm-k', ['Missie', 'Visie', 'Hoe']],
     ['.vm p:not(.vm-k)', [
       'Duurzame coatingoplossingen bieden aan klanten en stakeholders — op weg naar het groenste verfbedrijf van Nederland.',
       "Een 'one-planet'-gedachtegoed, verankerd in ons DNA: wat we erin stoppen, willen we er ook weer uithalen. Elke productlijn gaat over naar biobased grondstoffen — 100% herwinbaar is het doel.",
       'Dunne-laag-technologie, biobased en watergedragen chemie, emissiearme fabrieken en actief werk aan de UN Sustainable Development Goals — bewezen in projecten als Bright Coatings.']],
+    // B Corp highlight
+    ['#bcorp .eyebrow', 'B Corp-gecertificeerd · 2025'],
+    ['#bcorp h2', "Een van 's werelds eerste<br>B Corp-protective-coatingsmakers"],
+    ['#bcorp .bc-desc', 'In 2025 werd Baril een Certified B Corporation — een van de eerste protective-coatingsbedrijven ter wereld die voldoet aan de geverifieerde B Corp-normen voor sociale en milieuprestaties, transparantie en verantwoording.'],
+    // certifications & SDGs
+    ['#certs .eyebrow', 'Certificeringen & doelen'],
+    ['#certs h2', 'Bewezen, gecertificeerd,<br>aanspreekbaar'],
+    ['#certs .sec-head p:last-child', "Kwaliteits-, milieu- en veiligheidsmanagement, offshore-kwalificatie — en sinds 2025 de status van Certified B Corporation. Ondersteund door een actief programma op de duurzame-ontwikkelingsdoelen (SDG's) van de VN."],
+    ['.sdg-title', "Actief op de duurzame-ontwikkelingsdoelen (SDG's) van de VN"],
     // chapter A
     ['#bio .eyebrow', 'Hoofdstuk 01 · Circulaire grondstoffen'],
     ['#bio h2', 'Van vat<br>naar bio'],
@@ -88,11 +101,11 @@
     ['.cc-new li', ['Akker / reststroom', 'Bindmiddel', 'Fabriek Den Bosch', 'Object — zelfde regio']],
     ['.pulses span', ['Zonne- + windenergie', 'Elektrisch wagenpark', 'Inclusief werkgeverschap', 'Baril Academy']],
     // chapter E
-    ['#world .eyebrow', 'Hoofdstuk 05 · Sinds 1987'],
+    ['#world .eyebrow', 'Hoofdstuk 05 · Sinds 1982'],
     ['#world h2', 'Steeds groener,<br>wereldwijd'],
-    ['#world .sec-head p:last-child', "Van één fabriek in 's-Hertogenbosch naar vijf vestigingen op twee continenten. De eerste MVO-stappen in 2002 zetten de richting; sinds 2021 versnelt de vergroening jaar op jaar. Zie de voetafdruk zich verspreiden."],
+    ['#world .sec-head p:last-child', "Vanuit een schuurtje in Moerkapelle in 1982 naar vijf vestigingen op twee continenten. Sinds 2021 versnelt de transitie naar 100% hernieuwbare grondstoffen jaar op jaar. Zie de voetafdruk zich verspreiden."],
     ['.map-cap', 'De groene voetafdruk van de groep'],
-    ['#mapTl li span', ["'s-Hertogenbosch, NL", 'Eerste MVO-stappen', 'Angola, VS', 'Gliwice, PL', 'Etten-Leur, NL', 'Boekarest, RO', 'De vergroening versnelt']],
+    ['#mapTl li span', ['Opgericht in Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transitie naar 100% hernieuwbaar']],
     // brands
     ['#brands .eyebrow', 'Portfolio'],
     ['#brands h2', 'Eén missie,<br>drie merken'],
