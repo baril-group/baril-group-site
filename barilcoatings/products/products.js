@@ -1,8 +1,7 @@
-/* Renders the Baril Coatings product catalogue from products.json.
-   Shows full specs (chemistry, components, gloss, substrate) and supports
-   search, brand filter and attribute filters. Datasheets are fetched live
-   from the Baril product database via a POST form (same as the official
-   site), with a language selector. */
+/* Baril Coatings product catalogue — renders from products.json.
+   Bilingual (NL/EN), full specs, search + brand + attribute filters.
+   Datasheets are fetched live from the Baril database via a POST form
+   (same as the official site), with a language selector. */
 (() => {
   'use strict';
   const BRAND_ORDER = ['dualcure', 'steelkote', 'steelkote bio', 'aquaran', 'bariline', 'baril', 'baril activators', 'baril solvents'];
@@ -11,88 +10,82 @@
   const LANGS = [['nl', 'NL'], ['en', 'EN'], ['de', 'DE'], ['fr', 'FR'], ['pl', 'PL'], ['es', 'ES'], ['it', 'IT'], ['ro', 'RO'], ['no', 'NO']];
   const DS_BASE = 'https://data.barilcoatings.com/nl/products/datasheet/';
 
+  const T = {
+    nl: { eyebrow: 'Productcatalogus · Baril Coatings', h1: 'Alle <span class="paint">coatings</span>',
+      lead: 'Het volledige assortiment industriële en beschermende coatings van Baril Coatings — per productlijn, met omschrijving, eigenschappen en een directe link naar de datasheet.',
+      search: 'Zoek op productnaam, code of eigenschap…', allLines: 'Alle lijnen', clear: 'Wis filters',
+      count: (s, t, f) => `${s} van ${t} producten${f ? ' (gefilterd)' : ''}`, none: 'Geen producten gevonden. Pas je zoekopdracht of filters aan.', updated: 'bijgewerkt' },
+    en: { eyebrow: 'Product catalogue · Baril Coatings', h1: 'All <span class="paint">coatings</span>',
+      lead: 'The complete range of industrial and protective coatings from Baril Coatings — per product line, with description, properties and a direct link to the datasheet.',
+      search: 'Search by product name, code or property…', allLines: 'All lines', clear: 'Clear filters',
+      count: (s, t, f) => `${s} of ${t} products${f ? ' (filtered)' : ''}`, none: 'No products found. Adjust your search or filters.', updated: 'updated' }
+  };
+
   const root = document.getElementById('catalogue');
   const countEl = document.getElementById('pcount');
   const searchEl = document.getElementById('psearch');
   const chipsEl = document.getElementById('pchips');
   const filtersEl = document.getElementById('pfilters');
+  const langBtn = document.getElementById('langSwitch');
   let DATA = null;
   let activeBrand = 'all';
-  const activeAttr = {}; // group -> Set(labels)
+  const activeAttr = {};
+  let lang; try { lang = localStorage.getItem('baril-coatings-lang') || 'nl'; } catch (e) { lang = 'nl'; }
 
   const el = (tag, cls, txt) => { const n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; };
+  const nm = p => (lang === 'en' && p.name_en) ? p.name_en : p.name;
+  const ds = p => (lang === 'en' && p.desc_en != null) ? p.desc_en : p.desc;
 
-  function descNode(desc) {
+  function applyChrome() {
+    const t = T[lang];
+    document.documentElement.lang = lang;
+    const set = (id, html) => { const e = document.getElementById(id); if (e) e.innerHTML = html; };
+    set('t-eyebrow', t.eyebrow); set('t-h1', t.h1); set('t-lead', t.lead);
+    if (searchEl) searchEl.placeholder = t.search;
+    if (langBtn) langBtn.textContent = lang === 'nl' ? 'EN' : 'NL';
+  }
+
+  function descNode(text) {
     const wrap = el('div', 'pdesc');
-    (desc || '').split('\n').forEach((line, i) => {
-      if (i) wrap.appendChild(document.createElement('br'));
-      wrap.appendChild(document.createTextNode(line));
-    });
+    (text || '').split('\n').forEach((line, i) => { if (i) wrap.appendChild(document.createElement('br')); wrap.appendChild(document.createTextNode(line)); });
     return wrap;
   }
 
   function dsForm(code, color) {
     const form = el('form', 'ds-form');
-    form.method = 'post';
-    form.action = DS_BASE + encodeURIComponent(code);
-    form.target = '_blank';
-    form.rel = 'noopener';
-    const lang = document.createElement('input');
-    lang.type = 'hidden'; lang.name = 'language[]'; lang.value = 'nl';
-    form.appendChild(lang);
-    const sel = el('select');
-    LANGS.forEach(([v, t]) => { const o = el('option', null, t); o.value = v; sel.appendChild(o); });
-    sel.setAttribute('aria-label', 'Datasheet-taal');
-    sel.addEventListener('change', () => { lang.value = sel.value; });
-    const btn = el('button', 'ds-btn', 'Datasheet ↗');
-    btn.type = 'submit';
+    form.method = 'post'; form.action = DS_BASE + encodeURIComponent(code); form.target = '_blank'; form.rel = 'noopener';
+    const li = document.createElement('input'); li.type = 'hidden'; li.name = 'language[]'; li.value = lang === 'en' ? 'en' : 'nl'; form.appendChild(li);
+    const sel = el('select'); LANGS.forEach(([v, t]) => { const o = el('option', null, t); o.value = v; if (v === li.value) o.selected = true; sel.appendChild(o); });
+    sel.setAttribute('aria-label', 'Datasheet'); sel.addEventListener('change', () => { li.value = sel.value; });
+    const btn = el('button', 'ds-btn', 'Datasheet ↗'); btn.type = 'submit';
     if (color) btn.style.background = `linear-gradient(95deg, ${color}, var(--amber))`;
     form.appendChild(sel); form.appendChild(btn);
     return form;
   }
 
   function specsNode(attrs) {
-    const wrap = el('div', 'pspecs');
-    let any = false;
+    const wrap = el('div', 'pspecs'); let any = false;
     for (const g of SPEC_ORDER) {
-      const vals = attrs && attrs[g];
-      if (!vals || !vals.length) continue;
-      any = true;
-      const s = el('div', 'pspec');
-      s.appendChild(el('span', null, g));
-      s.appendChild(el('b', null, vals.join(', ')));
-      wrap.appendChild(s);
+      const vals = attrs && attrs[g]; if (!vals || !vals.length) continue; any = true;
+      const s = el('div', 'pspec'); s.appendChild(el('span', null, g)); s.appendChild(el('b', null, vals.join(', '))); wrap.appendChild(s);
     }
     return any ? wrap : null;
   }
 
   function card(p, color) {
-    const c = el('div', 'pcard');
-    c.style.setProperty('--accent', color || '#F18A00');
-    const top = el('div', 'pcard-top');
-    top.appendChild(el('span', 'pcode', p.code));
-    top.appendChild(el('h3', null, p.name));
-    c.appendChild(top);
-    if (p.desc) c.appendChild(descNode(p.desc));
-    if (p.related && p.related.length) {
-      const r = el('div', 'prelated');
-      p.related.forEach(t => r.appendChild(el('span', null, t)));
-      c.appendChild(r);
-    }
-    const specs = specsNode(p.attrs);
-    if (specs) c.appendChild(specs);
-    const actions = el('div', 'pactions');
-    actions.appendChild(dsForm(p.code, color));
-    c.appendChild(actions);
+    const c = el('div', 'pcard'); c.style.setProperty('--accent', color || '#F18A00');
+    const top = el('div', 'pcard-top'); top.appendChild(el('span', 'pcode', p.code)); top.appendChild(el('h3', null, nm(p))); c.appendChild(top);
+    const d = ds(p); if (d) c.appendChild(descNode(d));
+    if (p.related && p.related.length) { const r = el('div', 'prelated'); p.related.forEach(t => r.appendChild(el('span', null, t))); c.appendChild(r); }
+    const specs = specsNode(p.attrs); if (specs) c.appendChild(specs);
+    const actions = el('div', 'pactions'); actions.appendChild(dsForm(p.code, color)); c.appendChild(actions);
     return c;
   }
 
   function matchesAttr(p) {
     for (const g of Object.keys(activeAttr)) {
-      const want = activeAttr[g];
-      if (!want.size) continue;
-      const have = (p.attrs && p.attrs[g]) || [];
-      if (!have.some(v => want.has(v))) return false;
+      const want = activeAttr[g]; if (!want.size) continue;
+      const have = (p.attrs && p.attrs[g]) || []; if (!have.some(v => want.has(v))) return false;
     }
     return true;
   }
@@ -101,47 +94,37 @@
     root.innerHTML = '';
     const q = (searchEl.value || '').trim().toLowerCase();
     let shown = 0;
-    const brandsPresent = BRAND_ORDER.filter(b => DATA.products.some(p => p.brand === b))
+    const brands = BRAND_ORDER.filter(b => DATA.products.some(p => p.brand === b))
       .concat([...new Set(DATA.products.map(p => p.brand))].filter(b => !BRAND_ORDER.includes(b)));
-
-    for (const brand of brandsPresent) {
+    for (const brand of brands) {
       if (activeBrand !== 'all' && activeBrand !== brand) continue;
       const meta = DATA.brands[brand] || { name: brand, color: '#F18A00' };
       let items = DATA.products.filter(p => p.brand === brand);
-      if (q) items = items.filter(p => (p.code + ' ' + p.name + ' ' + (p.desc || '')).toLowerCase().includes(q));
+      if (q) items = items.filter(p => (p.code + ' ' + nm(p) + ' ' + (ds(p) || '')).toLowerCase().includes(q));
       items = items.filter(matchesAttr);
       if (!items.length) continue;
-
-      const sec = el('section', 'brandsec');
-      sec.id = 'b-' + brand.replace(/\s+/g, '-');
+      const sec = el('section', 'brandsec'); sec.id = 'b-' + brand.replace(/\s+/g, '-');
       const head = el('div', 'brandsec-head');
       const dot = el('span', 'bdot'); dot.style.background = meta.color; head.appendChild(dot);
       head.appendChild(el('h2', null, meta.name));
-      head.appendChild(el('span', 'bn', items.length + (items.length === 1 ? ' product' : ' producten')));
+      head.appendChild(el('span', 'bn', items.length + ' ' + (items.length === 1 ? 'product' : (lang === 'en' ? 'products' : 'producten'))));
       sec.appendChild(head);
-      const grid = el('div', 'pgrid');
-      items.forEach(p => grid.appendChild(card(p, meta.color)));
-      sec.appendChild(grid);
-      root.appendChild(sec);
-      shown += items.length;
+      const grid = el('div', 'pgrid'); items.forEach(p => grid.appendChild(card(p, meta.color))); sec.appendChild(grid);
+      root.appendChild(sec); shown += items.length;
     }
-    if (!shown) root.appendChild(el('p', 'pempty', 'Geen producten gevonden. Pas je zoekopdracht of filters aan.'));
+    if (!shown) root.appendChild(el('p', 'pempty', T[lang].none));
     renderCount(shown);
   }
 
-  function isFiltering() {
-    if (activeBrand !== 'all' || (searchEl.value || '').trim()) return true;
-    return Object.values(activeAttr).some(s => s.size);
-  }
+  const isFiltering = () => activeBrand !== 'all' || (searchEl.value || '').trim() || Object.values(activeAttr).some(s => s.size);
 
   function renderCount(shown) {
     countEl.innerHTML = '';
-    countEl.appendChild(el('span', null, shown + ' van ' + DATA.products.length + ' producten' + (isFiltering() ? ' (gefilterd)' : '')));
+    countEl.appendChild(el('span', null, T[lang].count(shown, DATA.products.length, isFiltering())));
     if (isFiltering()) {
-      const clr = el('button', 'pclear', 'Wis filters');
+      const clr = el('button', 'pclear', T[lang].clear);
       clr.addEventListener('click', () => {
-        activeBrand = 'all'; searchEl.value = '';
-        Object.keys(activeAttr).forEach(g => activeAttr[g].clear());
+        activeBrand = 'all'; searchEl.value = ''; Object.keys(activeAttr).forEach(g => activeAttr[g].clear());
         [...chipsEl.children].forEach((c, i) => c.classList.toggle('active', i === 0));
         [...filtersEl.querySelectorAll('.fopt')].forEach(o => o.classList.remove('active'));
         render();
@@ -151,50 +134,45 @@
   }
 
   function buildChips() {
+    chipsEl.innerHTML = '';
     const mk = (key, label) => {
       const b = el('button', 'pchip' + (key === activeBrand ? ' active' : ''), label);
-      b.addEventListener('click', () => {
-        activeBrand = key;
-        [...chipsEl.children].forEach(c => c.classList.remove('active'));
-        b.classList.add('active');
-        render();
-      });
+      b.addEventListener('click', () => { activeBrand = key; [...chipsEl.children].forEach(c => c.classList.remove('active')); b.classList.add('active'); render(); });
       return b;
     };
-    chipsEl.appendChild(mk('all', 'Alle lijnen'));
-    BRAND_ORDER.filter(b => DATA.products.some(p => p.brand === b))
-      .forEach(b => { const m = DATA.brands[b] || { name: b }; chipsEl.appendChild(mk(b, m.name)); });
+    chipsEl.appendChild(mk('all', T[lang].allLines));
+    BRAND_ORDER.filter(b => DATA.products.some(p => p.brand === b)).forEach(b => { const m = DATA.brands[b] || { name: b }; chipsEl.appendChild(mk(b, m.name)); });
   }
 
   function buildFilters() {
+    filtersEl.innerHTML = '';
     for (const g of FILTER_ORDER) {
       const values = [...new Set(DATA.products.flatMap(p => (p.attrs && p.attrs[g]) || []))];
       if (!values.length) continue;
-      activeAttr[g] = new Set();
-      const grp = el('div', 'fgroup');
-      grp.appendChild(el('span', 'fglabel', g));
+      activeAttr[g] = activeAttr[g] || new Set();
+      const grp = el('div', 'fgroup'); grp.appendChild(el('span', 'fglabel', g));
       values.forEach(v => {
-        const o = el('button', 'fopt', v);
-        o.addEventListener('click', () => {
-          o.classList.toggle('active');
-          if (activeAttr[g].has(v)) activeAttr[g].delete(v); else activeAttr[g].add(v);
-          render();
-        });
+        const o = el('button', 'fopt' + (activeAttr[g].has(v) ? ' active' : ''), v);
+        o.addEventListener('click', () => { o.classList.toggle('active'); if (activeAttr[g].has(v)) activeAttr[g].delete(v); else activeAttr[g].add(v); render(); });
         grp.appendChild(o);
       });
       filtersEl.appendChild(grp);
     }
   }
 
+  if (langBtn) langBtn.addEventListener('click', () => {
+    lang = lang === 'nl' ? 'en' : 'nl';
+    try { localStorage.setItem('baril-coatings-lang', lang); } catch (e) {}
+    applyChrome(); buildChips(); render();
+  });
+
+  applyChrome();
   fetch('products.json', { cache: 'no-cache' })
     .then(r => r.json())
     .then(d => {
       DATA = d;
-      const gen = document.getElementById('genDate');
-      if (gen && d.generated) gen.textContent = d.generated;
-      buildChips();
-      buildFilters();
-      render();
+      const gen = document.getElementById('genDate'); if (gen && d.generated) gen.textContent = d.generated;
+      buildChips(); buildFilters(); render();
       searchEl.addEventListener('input', render);
     })
     .catch(() => { root.appendChild(el('p', 'pempty', 'Kon de productdata niet laden.')); });

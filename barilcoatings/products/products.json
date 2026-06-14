@@ -1,6 +1,6 @@
 {
   "generated": "2026-06-14",
-  "source": "data.barilcoatings.com (Baril product database)",
+  "source": "data.barilcoatings.com",
   "brands": {
     "dualcure": {
       "name": "DualCure",
@@ -35,6 +35,13 @@
       "color": "#174c3f"
     }
   },
+  "attributeGroups": [
+    "Chemie",
+    "Componenten",
+    "Glans",
+    "Ondergrond",
+    "Productsoort"
+  ],
   "products": [
     {
       "code": "306X",
@@ -48,6 +55,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "Dualcure ZRU Primer",
+      "desc_en": "DualCure ZRU Primer is a high zinc content primer for blast-cleaned steel, based on DCC technology, providing extreme corrosion resistance and corrosion undercutting. 306X DualCure ZRU primer is formulated for easy application. DCC properties allow for low temperature curing and resistance to mud cracking at high film thicknesses. DualCure ZRU Primer offers extreme mechanical properties.\n\nMixture:\n\n306X DualCure ZRU Primer, 8 parts by volume.\n\r\nActivator 399X, 0.4 parts by volume.\n\nThinner PU 5801\nActivator 399X",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -78,6 +87,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure RX Primer",
+      "desc_en": "Two component fast curing anticorrosive primer, reinforced with aluminum. Four seasons application. Curing at low temperatures and under humid conditions (damp surface). Excellent protective performances, high flexibility. Enhanced DualCure powered quality primer for the protection of various metal substrates in combination with DualCure and Hybrid top coats. Primer on Sa2½ blasted steel, ST2 and ST3 pre-treated and hand derusted steel with excellent penetrating and sealing properties.\r\nAccelerator 399 can be added for accelerated drying.\n\nThinner PU 5801\nActivator 399",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -108,6 +119,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure Iso Primer",
+      "desc_en": "A two component anti corrosive aluminum reinforced heavy duty primer based on Dual Cure Chemistry. A universal adhesion primer for Sa2½ blasted steel, hot dip galvanised steel, aluminum and stainless steel structures in marine and offshore environments.\n\nMixture:\n\n604 DualCure Iso primer, 1 part by volume.\n\r\nActivator 915V, 1 part by volume.\n\nActivator 915\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Verzinkt staal"
@@ -139,6 +152,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure SX DTM Finish 60",
+      "desc_en": "A two-component, high-solids, heavy-duty coating based on Dual Cure Chemistry technology with extreme mechanical properties and enhanced weathering performance. 171i2 DualCure SX DTM Finish 60 is formulated for industrial applications with rapid cure without heat. The extreme mechanical properties and weathering resistance offer a wide range of applications and outperform powder coatings.\n\nMixture:\n\n171i2 DualCure SX DTM Finish 60\n\r\nActivator 986V (3 : 2) by volume (± 16% Biobased content)\n\r\nActivator 901V (2 : 1) by volume (± 23,5% Biobased content)*\n\r\nActivator 904V (2 : 1) by volume (± 21% Biobased content)*\n\r\n*Accelerated curing; 901V+, 904V++.\n\nActivator 986\nThinner PU 5801\nActivator 904V",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -169,6 +184,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "Dualcure RX Finish 60",
+      "desc_en": "Two component high solids heavy duty brush/roller coating for maintenance projects, based on Dual Cure Chemistry with extreme mechanical impact performance, high flexibility and elevated weathering properties. Fast curing for speed of application and handling.\n\nMixture:\n\n172i2 DualCure RX Finish 60, 3 parts by volume.\n\r\nActivator 924V, 2 parts by volume.\n\nActivator 924\nThinner PU 5801",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -196,6 +213,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure LX DTM Finish 60",
+      "desc_en": "Two component high solids long potlife heavy duty coating based on Dual Cure Chemistry with extreme mechanical performance and elevated weathering properties. The 173i2 DualCure LX DTM Finish 60 has been developed for fast curing industrial application with fast curing without heating. The extreme mechanical performance and weathering properties offer a wide range of applications and outperform powder coatings.\n\nMixture:\n\n173i2 DualCure LX DTM Finish 60, 2 parts by volume.\n\r\nActivator 902V, 1 part by volume.\n\nThinner PU 5801\nActivator 902",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -223,6 +242,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure SX DTM Finish Gloss",
+      "desc_en": "A high-solids, two-component, heavy-duty coating based on Dual Cure Chemistry, offering exceptional mechanical performance and enhanced weather resistance. 179i2 DualCure SX DTM Finish 90 has been developed as a fast-curing coating for industrial applications that do not require heating. The exceptional mechanical properties and weather resistance offer a wide range of applications and ensure that this coating surpasses the quality of powder coatings.\n\nMixture:\n\n179i2 DualCure SX DTM Finish Gloss, 2 parts by volume.\n\r\nActivator 904V, 1 part by volume.\n\nThinner PU 5801\nActivator 902",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -250,6 +271,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure SX Finish 90",
+      "desc_en": "DualCure products are unique patented high performance finishes, engineered to provide excellent exterior durability, flexibility and superior adhesion to blasted, primed or e-coated surfaces. This fast curing coating system is designed to provide superior performance and enhanced productivity without the need for heat for drying. 174i2 offers excellent long term protection in moderate to severe environments. Resistant to fresh water, salt water, most chemicals, fumes and spills of mild acids and alkalies. Abrasion and moisture resistant, DualCure finishes are our longest lasting most durable topcoats.\n\nMixture:\n\n174i2 DualCure SX Finish 90, 2 parts by volume.\n\r\nActivator 902V, 1 parts by volume.\n\nThinner PU 5801\nActivator 902",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -277,6 +300,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure DTM LG Finish 30",
+      "desc_en": "Two component high solids anticorrosive direct-to-metal coating based on Dual Cure Chemistry with very fast curing. Coating on blasted steel and various ferrous and non-ferrous substrates. Developed for speed of application in high durable coating systems for OEM, ACE and related processes.\n\nMixture:\n\n178i2 DualCure DTM Finish 30, 3 parts by volume.\n\r\nActivator 901V, 1 part by volume.\n\nThinner PU 5801\nActivator 901",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -304,6 +329,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure DTM Finish 60",
+      "desc_en": "Two component high solids anticorrosive direct-to-metal coating based on Dual Cure Chemistry with very fast curing. Coating on blasted steel and various ferrous and non-ferrous substrates. Developed for speed of application in high durable coating systems for OEM, ACE and related processes.\n\nMixture:\n\n178i2 DualCure DTM Finish 60, 3 parts by volume.\n\r\nActivator 901V, 1 part by volume.\n\nThinner PU 5801\nActivator 901",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -331,6 +358,8 @@
       "cats": [
         "dualcure"
       ],
+      "name_en": "DualCure LX Finish 90",
+      "desc_en": "Durable two component high gloss finish based on Dual Cure Chemistry. Specially developed as economical high quality top coat for industrial product finishing. Complies with all requirements of the automotive and industrial finishing markets. High solids, so reduced solvent emissions and better efficiency.\n\nMixture:\n\n180i2 DualCure LX Finish 90, 2 parts by volume.\n\r\nActivator 985V, 1 part by volume.\n\nActivator 985\nThinner PU 5801",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -359,6 +388,8 @@
         "steelkote",
         "biobased"
       ],
+      "name_en": "SteelKote EP",
+      "desc_en": "An economical, universal, biobased, two-component, active, anti-corrosive, pigmented epoxy coating with a high solids content. As a primer or coating for blasted steel or galvanised steel. 802BIO SteelKote EP has been specially developed to reduce the carbon footprint of preservation projects while maintaining fast drying and strong corrosion protection. It also lowers the solvent exposure index.\n\nMixture:\n\n802BIO Steelkote EP\n\r\nActivator 911V BIO (3 : 1) by volume (± 23% Biobased content)\n\r\nActivator 940V (4 : 1) by volume (± 20% Biobased content).\n\nThinner\nActivator",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -392,6 +423,8 @@
         "steelkote",
         "biobased"
       ],
+      "name_en": "SteelKote EP AC+",
+      "desc_en": "The 803BIO SteelKote EP AC+ is a high-solids DTM epoxy coating, formulated with renewable binders and solvents. It&#039;s biobased, universal and rust-preventing. Next to that it reduces the CO₂, footprint by 1.1 kg per litre*. . It is suitable as a multi-purpose epoxy primer/finish offering extreme corrosion resistance.\n\nMixture:\n\n803BIO SteelKote EP AC\n\r\nActivator 969V BIO (3 : 1) by volume (± 27% Biobased content)\n\r\nActivator 958V (4 : 1) by volume (± 25% Biobased content).\n\nThinner\nActivator",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -421,6 +454,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote Mastic 70",
+      "desc_en": "A surface tolerant, two component, anticorrosive high solids modified epoxy based aluminium mastic. Acts as a protective layer, guarding against corrosion caused by environmental factors like moisture, chemicals, and atmospheric conditions.\n\nMixture:\n\n860 SteelKote Mastic 70, 4 parts by volume.\n\r\nActivator 959V, 1 part by volume.\n\nActivator 910\nActivator 958\nThinner EP 5800",
       "attrs": {
         "Glans": [
           "Zijdeglans 30-60 GU"
@@ -439,6 +474,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote TC Primer",
+      "desc_en": "This universal high-solid epoxy primer provides powerful, long-lasting protection for a wide range of steel structures. Thanks to high-quality anti-corrosion pigments and inert fillers, this product delivers excellent rust prevention, perfect edge coverage and is easy to apply in high film thicknesses. The primer is also ideal for OEM paint lines where consistent quality, fast application and long-lasting protection are required.\n\nMixture:\n\n801 SteelKote TC Primer , 3 parts by volume.\n\r\nActivator 959V, 1 part by volume.\n\nActivator 959\nThinner EP 5800",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -466,6 +503,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote TC Primer (RTU_M)",
+      "desc_en": "This ready to use universal high-solid epoxy primer provides powerful, long-lasting protection for a wide range of steel structures. Thanks to high-quality anti-corrosion pigments and inert fillers, this product delivers excellent rust prevention, perfect edge coverage and is easy to apply in high film thicknesses. The primer is also ideal for OEM paint lines where consistent quality, fast application and long-lasting protection are required.\n\nMixture:\n\n801RTU-M SteelKote TC Primer, 2.5 parts by volume.\n\r\nActivator 959VA, 1 part by volume.\n\nThinner EP 5800\nActivator",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -493,6 +532,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote EP",
+      "desc_en": "An economic high solids epoxy primer based on anti corrosive pigments. Easy to apply in high film thickness. Developed as a primer on steel and galvanised structures.\n\nMixture:\n\n802 Grey SteelKote EP, 3 parts by volume.\n\r\nActivator 911V (911W/959VTD), 1 part by volume.\n\nThinner EP 5800\nActivator",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -521,6 +562,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote EP",
+      "desc_en": "A high solids epoxy coating based on anti corrosive pigments. Easy to apply in high film thickness with excellent hiding power. Developed as a primer or coating on steel, galvanised and aluminum structures.\n\nMixture:\n\n802 SteelKote EP, 3 parts by volume.\n\r\nStandard: Activator 911V, 1 part by volume. (± 14% Biobased content).\n\r\nAccelerated curing: Activator 940V, 1 part by volume. (± 13% Biobased content).\n\nActivator 940\nThinner EP 5800\nActivator 911",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -549,6 +592,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote EP AC+",
+      "desc_en": "A universal anti corrosion high solids epoxy coating, based on anti-corrosion pigments and inert fillers. Pigmented with aluminum, SteelKote EP AC+ has extra barrier and mastic properties (colour SK9007). Easy to apply in high film thickness with excellent build-on on sharp edges. The 803 SteelKote EP AC+ is specially developed for applications on new steel structures, where high-grade protection has to be combined with fast curing and reduction of solvent emissions. Also applicable on ST3 hand pretreated surfaces. It is a multipurpose epoxy primer/finish with extreme corrosion resistance.\n\nMixture:\n\n803 SteelKote EP AC+, 4 parts by volume.\n\r\nStandard: Activator 969V, 1 part by volume.\n\r\nAccelerated curing: Activator 958V, 1 part by volume.\n\nActivator 969\nActivator 958\nThinner EP 5800",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -577,6 +622,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote EP Universal",
+      "desc_en": "A universal anti corrosive high solids epoxy primer/coating, based on anti-corrosion pigments and inert fillers. Easy to apply in high film thickness with excellent build-on on sharp edges. The 804 SteelKote EP Universal is specially developed for application on new steel structures, under aggressive atmospheric circumstances and marine and offshore, where high-grade protection has to be combined with fast curing and reduction of solvent emissions. It is a multipurpose epoxy primer/finish with extreme corrosion resistance (6 months salt spray), where extremely high demands are set.\n\nMixture:\n\n804 SteelKote EP Universal\n\r\nActivator 911V - (4 : 1) by volume, Standard activator (± 16% Biobased content).\n\r\nActivator 940V - (4 : 1) by volume, Accelerated curing (± 15% Biobased content).\n\r\nActivator 804V CRT - (4 : 1) by volume, Chemical Resistance (Biobased content, t.b.a.)\n\nActivator 940\nThinner EP 5800\nActivator 911",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -604,6 +651,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote EP ZN HS",
+      "desc_en": "A high solids high build zinc rich epoxy primer with extreme corrosion control. Durable anticorrosive protection of Sa 2-2½ blasted steel in two component coating systems. Economical solutions: formulated for speed of application and handling. Application up to 125 μm dry film thickness without any risk on cracking or common zinc rich primer related defects.\n\nMixture:\n\n805 SteelKote EP ZN HS, 4 parts by volume.\n\r\nActivator 805V, 1 part by volume.\n\nActivator 805\nThinner EP 5800",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -631,6 +680,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote EP Miox",
+      "desc_en": "A universal anti corrosive high solids low aromatic EPA compliant epoxy coating, reinforced with micaceous iron ore. Applied as a single coat system it combines a high quality protection with easy application. Very good corrosion control and extreme sealing properties and mechanical strength. The product can be applied as a primer or coating on steel structures in aggressive atmospherical and industrial environments. Due to its high solids and low aromatic content it is highly recommended where emission of solvents need to be reduced and labour circumstances to be optimized. Very low odour impact.\n\nMixture:\n\n806 SteelKote EP Miox, 5 parts by volume.\n\r\nActivator 806V, 1 part by volume.\n\nActivator 806\nThinner Aromate Free",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -663,6 +714,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PC HS",
+      "desc_en": "A high quality two component high solids polyester reinforced polyurethanecoating with anti corrosive properties. Top coat in epoxy/polyurethane coating systems where high demands are set with regard to colour retention andmechanical strength. Pre-eminently suitable for application at chemical plants, offshore rigs, refineries, containers and constructions in various atmospherical and industrial environments (up to and including C5). As DTM coating applicable up to and including C3 conditions.\n\nMixture:\n\n807 SteelKote PC HS\n\r\nActivator 924V - (4 : 1) by volume (Standard curing)\n\r\nActivator 903V - (3 : 1) by volume\n\nActivator 924\nThinner PU 5801\nActivator 975",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -693,6 +746,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PC HS Premium",
+      "desc_en": "A high quality two component high solids polyester reinforced polyurethanecoating with anti corrosive properties. Top coat in epoxy/polyurethane coating systems where high demands are set with regard to colour retention andmechanical strength. Pre-eminently suitable for application at chemical plants, offshore rigs, refineries, containers and constructions in various atmospherical and industrial environments (up to and including C5). As DTM coating applicable.\n\nMixture:\n\n807P SteelKote PC HS Premium\n\r\nActivator 928V - (4 : 1) by volume (Standard curing)\n\r\nActivator 903V - (3 : 1) by volume (Slow curing)\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -725,6 +780,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PC HS UV+",
+      "desc_en": "A two-component, high-solids polyurethane topcoat based on hydroxy acrylate and aliphatic isocyanate combined with DualCure technology.\r\nUsed as a scratch-resistant, glossy topcoat in coating systems requiring high standards for color retention, lightfastness, chemical resistance, and mechanical strength. Ideally suited for use in chemical plants, offshore installations, refineries, trailer construction, containers, and agricultural machinery and structures in various atmospheric and industrial environments (up to and including C5).\n\nMixture:\n\n888 SteelKote PC HS 80 UV+\n\r\n923VM (2 : 1) Volume parts\n\nThinner PU 5801\nActivator 975\nActivator 913",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -757,6 +814,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PC HS UV+",
+      "desc_en": "A high quality two component high solids polyester reinforced polyurethane coating with excellent anti corrosive properties. Top coat in epoxy/polyurethane coating systems where high demands are set with regard to colour retention and mechanical strength. Pre-eminently suitable for application at chemical plants, offshore rigs, refineries, containers and constructions in various atmospherical and industrial environments (up to and including C5). Suitable as DTM coating.\n\nMixture:\n\n808 SteelKote PC HS UV+ 3 parts by volume.\n\r\nActivator 975V, 1 part by volume.\n\nThinner PU 5801\nActivator 975\nActivator 913",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -789,6 +848,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU Finish",
+      "desc_en": "A semi gloss high solids two component polyurethane finish based on hydroxy acrylate and aliphatic isocyanate.\n\nMixture:\n\n810 SteelKote PU Finish, 4 parts by volume.\n\r\nStandard: Activator 903V, 1 part by volume.\n\r\nAccelerated curing: Activator 973V, 1 part by volume.\n\nActivator 903\nActivator 973\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -821,6 +882,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU Finish 30 UV+",
+      "desc_en": "A satin-gloss high-solid two-component polyurethane topcoat based on hydroxyacrylate and aliphatic isocyanate. As a topcoat in epoxy and polyurethane paint systems. Due to its active anti-corrosive properties, 811 SteelKote PU Finish 30 UV+ can also be used as a DTM.\n\nMixture:\n\n811 SteelKote PU Finish 30 UV+, 4 parts by volume.\n\r\nStandard: Activator 903V, 1 part by volume.\n\r\nAccelerated curing: Activator 973V, 1 part by volume.\n\nActivator 903\nActivator 973\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -853,6 +916,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU Finish 60 UV+",
+      "desc_en": "A silky gloss high solids two component polyurethane finish based on hydroxy acrylate and aliphatic isocyanate. The 812 SteelKote PU Finish 60 UV+ can also be used inside as DTM in a C2/C3 environment.\n\nMixture:\n\n812 SteelKote PU Finish 60 UV+, 4 parts by volume.\n\r\nStandard: Activator 903V, 1 part by volume.\n\r\nAccelerated curing: Activator 973V, 1 part by volume.\n\nActivator 903\nActivator 973\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -885,6 +950,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU Finish 90 UV+",
+      "desc_en": "A high gloss high solids two component polyurethane finish based on hydroxy acrylate and aliphatic isocyanate. Durable topcoat for trucks and trailers, agricultural, construction and earthmoving equipment (ACE). For applications where high requirements are set for colour and gloss retention.\n\nMixture:\n\n813 SteelKote PU Finish 90 UV+, 3 parts by volume.\n\r\nStandard: Activator 903V, 1 part by volume.\n\r\nAccelerated curing: Activator 973V, 1 part by volume.\n\nActivator 903\nActivator 973\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -916,6 +983,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote IM TR",
+      "desc_en": "A universal anti corrosive high solids tar replacement epoxy coating, reinforced with micaceous iron oxide. Combines high quality protection and easy application. 814 SteelKote IM TR is a universal primer/coating for durable protection of steel structures in aggressive atmospherical and industrial environments, as well as for immersion in soil and (sea-) water (Im 1, 2, 3).\n\nMixture:\n\n814 SteelKote IM TR, 4 parts by volume.\n\r\nActivator 910V, 1 part by volume.\n\nActivator 910\nThinner EP 5800",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -947,6 +1016,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote IM Mastic AL",
+      "desc_en": "A surface tolerant, biobased two component, EPA compliant anti corrosive aluminum mastic primer/coating, based on special epoxy resins and a modified phenalkamine curing agent. The 815 SteelKote IM Mastic AL is specially developed as a surface tolerant maintenance primer/coating on ST-2 cleaned surfaces, hand prepared steel and old paint systems, as well as Sa2½ blasted substrates. Early water resistance and good wetting properties enables application at high relative humidity (90%, damp surface). Recoatable with itself, epoxy and polyurethane coatings, vinyl and alkyd products. A very tight, impenetrable coating, resistant to abrasion, chemical impact and water immersion, even as a single coat system.\n\nMixture:\n\n815 SteelKote IM Mastic AL, 1 part by volume.\n\r\nActivator 815V, 1 part by volume.\n\nThinner EP 5800\nActivator 815",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -978,6 +1049,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote IM Mastic Miox",
+      "desc_en": "A surface tolerant anti corrosive biobased two component coating based on special epoxy resins and a modified phenalkamine curing agent. The 816 SteelKote IM Mastic Miox is specially developed as a surface tolerant maintenance sealer/coating on ST-2 cleaned surfaces, hand prepared steel and old paint systems, as well as Sa2½ blasted substrates. Early water resistance and good wetting enables application at high relative humidity (90%, damp surface). Recoatable with itself, epoxy and polyurethane coatings, vinyl and alkyd products. A very tight, impenetrable coating, resistant to abrasion, chemical impact and water immersion, even as a single coat system.\n\nMixture:\n\n816 SteelKote IM Mastic Miox, 1 part by volume.\n\r\nActivator 816V, 1 part by volume.\n\nThinner EP 5800\nActivator 816",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1010,6 +1083,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU Primer Surfacer HS",
+      "desc_en": "Anti-corrosive two-component matt high solid filling primer/surfacer based on polyurethane. For the metalworking industry, which can be applied in high layer thicknesses.\n\nMixture:\n\n817 SteelKote PU Primer Surfacer HS, 3 parts by volume.\n\r\nStandard: Activator 903V, 1 part by volume.\n\r\nAccelerated curing: Activator 973V, 1 part by volume.\n\nActivator 903\nActivator 973\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1042,6 +1117,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote Pacific 90 UV+",
+      "desc_en": "A two-component high-gloss, advanced polyurethane topcoat with high build, based on hydroxyl acrylate and aliphatic isocyanate. Durable finish, specially developed for protection under critical climatic and maritime conditions. Durable topcoat for buses and commercial vehicles, lorries and trailers, agricultural, construction and earth-moving machinery (ACE). For applications where high requirements are set for colour and gloss retention and long maintenance intervals.\n\nMixture:\n\n818 SteelKote Pacific 90 UV+, 3 parts by volume\n\r\nActivator 924V, 1 part by volume.\n\nActivator 924\nActivator 913\nThinner",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1073,6 +1150,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote Pacific HSi 90 UV+",
+      "desc_en": "A medium-solid ready-to-use two-component high-gloss polyurethane topcoat based on hydroxyl acrylate and aliphatic isocyanate. Durable finish, specially developed for protection under critical climatic and maritime conditions. In combination with the 801RTU_M, the SteelKote TC Primer is an excellent choice for various OEM applications such as buses and commercial vehicles, lorries and trailers, agricultural, construction and earth-moving machinery (ACE), and many other industrial applications where fast turnaround and durable, high-quality protection are required.\n\nMixture:\n\n818HSi SteelKote Pacific 90 UV+, 2 parts by volume.\n\r\nActivator 923VM, 1 part by volume.\n\nFast Thinner PU 5801\nActivator 923VM",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1104,6 +1183,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote Pacific 90 UV+ Transparant",
+      "desc_en": "Medium-solid, state-of-the-art, two-component, transparent, high-build, high-gloss polyurethane topcoat based on hydroxy acrylate and aliphatic isocyanate. Specially formulated as a durable finish in critical climatic and maritime conditions.\n\nMixture:\n\n818TR SteelKote Pacific 90 UV+ Transparant, 3 parts by volume.\n\r\nActivator 901V, 1 part by volume.\n\nThinner EP 5800\nActivator 901",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -1132,6 +1213,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU AC Premium",
+      "desc_en": "A high quality economic two component high solids polyurethane coating with anti corrosive properties. Top coat in epoxy/polyurethane coating systems where high demands are set with regard to colour retention and mechanical strength. Pre-eminently suitable for application at constructions in various atmospherical and industrial environments (up to and including C5). As DTM coating applicable.\n\nMixture:\n\n819P SteelKote PU AC Premium\n\r\nActivator 903V - (4 : 1) by volume (Standard curing)\n\r\nActivator 928V - (4 : 1) by volume (Fast curing)\n\nActivator 903\nActivator 924\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1164,6 +1247,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote PU AC",
+      "desc_en": "A high quality economic two component high solids polyurethane coating with anti corrosive properties. Top coat in epoxy/polyurethane coating systems where high demands are set with regard to colour retention and mechanical strength. Pre-eminently suitable for application at constructions in various atmospherical and industrial environments (up to and including C5). As DTM coating applicable up to and including C3 conditions.\n\nMixture:\n\n819 SteelKote PU AC\n\r\nActivator 903V - (4 : 1) by volume (Standard curing)\n\r\nActivator 924V - (4 : 1) by volume\n\nActivator 903\nActivator 924\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1195,6 +1280,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote TC Express HB",
+      "desc_en": "A medium solids two component high gloss polyurethane topcoat based on hydroxy acrylate and aliphatic isocyanate. Sustainable finish, formulated specifically for protection under critical climate and marine circumstances.\n\nMixture:\n\n820 SteelKote TC Express HB, 17 parts by volume.\n\r\nActivator 901V, 3 parts by volume.\n\nThinner PU 5801\nActivator 901",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1226,6 +1313,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote Duroplast HS",
+      "desc_en": "A high quality two component glossy polyurethane finish with excellent flexibility and low VOC content. Pigmented with durable pigments and fillers. Topcoat in epoxy/polyurethane coating systems where high demands are set with regard to colour and gloss retention and mechanical properties.\n\nMixture:\n\n827 SteelKote Duroplast HS, 4 parts by volume.\n\r\nActivator 902V, 1 part by volume.\n\nThinner PU 5801\nActivator 902",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -1252,6 +1341,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote MC HS Zinc Primer",
+      "desc_en": "846 SteelKote MC HS Zinc Primer is a high build zinc rich primer on blasted steel, based on the DCC technology, providing extreme corrosion resistance and corrosion undercutting. The 846 SteelKote MC HS Zinc Primer is formulated for ease of application. The characteristics enable low temperature cure and resistance to mud cracking at high film thickness. The 846 SteelKote MC HS Zinc Primer offers extreme mechanical properties.\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1281,6 +1372,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote MC AL Primer",
+      "desc_en": "One component moisture cure polyurethane primer/sealer and coating on various metal substrates. Primer/sealer for anti corrosive protection of blasted steel (Sa 2-2½) cold rolled steel, pre-treated aluminum and galvanised substrates. Primer on ST 2-3 and hand derusted steel surfaces and sealer on old one and two component coating systems.\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1310,6 +1403,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote MC HB Primer",
+      "desc_en": "One component anti corrosion moisture cure polyurethane primer for application in high humidity (damp surface) and at low temperatures. High performance/thin film technology. High flexibility.\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1339,6 +1434,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote MC HB Midcoat",
+      "desc_en": "One component moisture cure high solids polyurethane coating, reinforced withmicaceous iron oxide for application in high humidity (damp surface) and at low temperatures. High performance/thin film technology. High quality mio pigmented intermediate/sealer and coating on pre-treated steel. In combination with 848 SteelKote MC HB Primer Ideal coating for maintenance jobs under humid and/or cold weather conditions.\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1369,6 +1466,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "SteelKote MC Barrier Black",
+      "desc_en": "Single-component, moisture-curing high-build coating for durable protection of metal surfaces in even the most demanding conditions, such as high humidity (damp surfaces) and low temperatures. Thanks to its advanced moisture-curing technology, this coating is ideal for maintenance work and projects where reliability, speed and versatility are key.\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal",
@@ -1399,6 +1498,8 @@
       "cats": [
         "steelkote"
       ],
+      "name_en": "PoluRan MC Zimox",
+      "desc_en": "One component anti corrosion moisture cure polyurethane zinc/mio primer at low temperatures. Scratch, impact and wear resistant. High solid primer on SA2½ blasted steel, ST2 pre-treated and hand derusted steel substrates with excellent\r\ncorrosion control. Perfect first coat in marine applications under and above waterline.\n\nThinner PU 5801",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1426,6 +1527,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AK Primer",
+      "desc_en": "Aquaran AK Primer is a high-quality, water-based industrial primer formulated with an alkyd emulsion. This versatile primer offers excellent adhesion to both metal and wooden substrates, making it ideal for a wide range of applications, both indoors and outdoors. With its high coverage, good filling power and fast drying time, Aquaran AK Primer provides an efficient and durable base coat for professional users who expect reliability and convenience.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1454,6 +1557,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AK Finish 20",
+      "desc_en": "Aquaran AK Finish 20 is a high-quality, water-based matt topcoat based on alkyd emulsion technology. This finish provides durable, weather-resistant protection for pre-treated wood and steel, both indoors and outdoors. With its excellent coverage, attractive matt finish and reliable outdoor durability, this is the perfect topcoat for professional applicators who prioritise quality and convenience.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1482,6 +1587,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AK Finish 40",
+      "desc_en": "Aquaran AK Finish 40 is a high-quality, water-based satin gloss topcoat that combines excellent weather resistance with a professional, durable finish. This finish provides strong and long-lasting protection on pre-treated wood and steel. Ideal for both indoor and outdoor applications. With its attractive satin sheen, reliable coverage and proven technology within the Aquaran range, this is the preferred choice for professionals seeking quality, efficiency and a sleek finish.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1510,6 +1617,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AK Finish 60",
+      "desc_en": "Aquaran AK Finish 60 is a high-quality, water-based semi-gloss topcoat that perfectly combines durability, appearance and ease of use. This topcoat offers professional and weather-resistant protection for pre-treated wood and steel — ideal for industrial projects where a sleek, semi-gloss finish is required. With its high hiding power, smooth application and proven alkyd emulsion technology, this finish delivers years of reliable performance, both indoors and outdoors.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1538,6 +1647,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AK Finish 90",
+      "desc_en": "Aquaran AK Finish 90 is the premium choice among our water-based industrial topcoats. This high-gloss topcoat offers an intensely glossy, professional finish and durable, weather-resistant protection for pre-treated wood and steel. Perfectly suited to industrial applications where quality, appearance and durability are key, both indoors and outdoors. With its excellent coverage and smooth application, this finish delivers a high-quality topcoat that takes any project to the next level.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1566,6 +1677,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran 2K EP Primer",
+      "desc_en": "2-component water-based epoxy primer – for powerful, durable steel protection, provides extremely durable, corrosion-resistant protection for steel in medium to heavy environments (C3–C5). Thanks to its water-based formula, the product is environmentally friendly without compromising on performance. Perfect for professional use in industrial projects, workshops and outdoor applications where steel needs long-term protection against weather, moisture and chemical exposure.\n\nMixture:\n\n36411 Aquaran 2K EP Primer, 5 parts by volume.\n\r\nActivator 840V, 1 part by volume.",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -1590,6 +1703,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran PU Finish 40",
+      "desc_en": "Aquaran PU Finish 40 is a high-quality, water-based, two-component satin-finish polyurethane topcoat for industrial applications where maximum durability, colour fastness and chemical resistance are required. Thanks to modern PU technology, this topcoat delivers a smooth, professional and long-lasting finish.\n\nMixture:\n\n37842 AquaRan PU Finish 40 Base component, 6 parts by volume.\n\r\n37901V AquaRan PU Part B, 1 part by volume.",
       "attrs": {
         "Componenten": [
           "2 component coating"
@@ -1617,6 +1732,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran PU DTM",
+      "desc_en": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nMixture:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.\n\nActivator 885",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1645,6 +1762,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran PU Finish 60",
+      "desc_en": "Aquaran PU Finish 60 is a premium water-based, two-component, semi-gloss polyurethane topcoat for industrial projects where high durability, excellent gloss retention and strong chemical resistance are required. This topcoat delivers a smooth, professional finish and maximum performance within epoxy/PU systems.\n\nMixture:\n\n37843 AquaRan PU Finish 60 Base component, 6 parts by volume.\n\r\n37901V AquaRan PU Part B, 1 part by volume.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1673,6 +1792,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran PU Finish 90",
+      "desc_en": "A high quality water based industrial two component full gloss polyurethane coating. Topcoat in epoxy/polyurethane coating systems where high demands are set with regard to colour retention, chemical resistance, gloss retention and mechanical properties.\n\nMixture:\n\n37851 AquaRan PU Finish 90 Base component, 6 parts by volume.\n\r\n37901V AquaRan PU Part B, 1 part by volume.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1701,6 +1822,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AC Welding Primer",
+      "desc_en": "Aquaran AC Welding Primer is a fast-drying, water-based, single-component welding and transport primer that provides ideal protection for blasted steel during fabrication and assembly. The primer is weldable up to 25 μm, chrome- and lead-free, and has been specially developed for automatic spray lines, making it perfectly suited to modern production processes. Thanks to its fast drying and smooth application, components can quickly move on to the next stage, including overcoating with conventional coatings.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1728,6 +1851,8 @@
       "cats": [
         "aquaran"
       ],
+      "name_en": "Aquaran AC Primer/Finish",
+      "desc_en": "Aquaran AC Primer/Finish is a fast-drying, water-based, single-component acrylic primer and topcoat in one. This rust-inhibiting, chrome- and lead-free coating provides reliable protection on blasted or degreased steel and is ideal for indoor applications and light industrial environments. Thanks to its fast drying and smooth application, the product is perfect for efficient production and maintenance processes.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1757,6 +1882,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline HB Finish",
+      "desc_en": "Fast-drying, single-component alkyd topcoat with high hiding power for a durable finish on primed steel. When used in combination with 10411 Bariline Primer HB, this product forms a reliable anti-corrosion system. Suitable for machinery, containers, small tanks and steel structures in rural and light industrial environments.\n\nThinner X 5100",
       "attrs": {
         "Componenten": [
           "1 component coating"
@@ -1783,6 +1910,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline Primer HB",
+      "desc_en": "Bariline Primer HB is a high-quality, single-component alkyd resin primer that combines excellent corrosion protection with fast drying and easy application. This primer has been specially developed for professional use in construction workshops and industrial environments where reliability and efficiency are paramount. Thanks to its high-build properties, effective protection is achieved with just one coat, resulting in time and cost savings during the application process.\n\nThinner X 5100",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1810,6 +1939,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline Welding Primer",
+      "desc_en": "Very fast-drying alkyd resin welding and transport primer, for temporary protection of blasted steel. The primer offers excellent weldability up to a film thickness of 25 μm and has been specially developed for efficient application, including in automatic spray systems. Once fully cured, the coating can be easily overpainted with conventional paint systems.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1834,6 +1965,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline Express",
+      "desc_en": "Fast drying, high gloss one component alkyd based topcoat. Durable high gloss topcoat on primed steel surfaces. Recommended as an industrial finishing for objects in ACE, OEM and other machinery industry.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1858,6 +1991,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline Coating Semi-Gloss",
+      "desc_en": "Fast-drying, anti-corrosive, single-component, semi-gloss, high-build alkyd coating. Developed to provide a durable and smooth semi-gloss finish on blasted steel. Ideal for single-coat application on steel structures in dry, mild environments and, when applied to a sufficient thickness, offers excellent corrosion protection during the construction phase. Highly suitable as a refurbishment coating for (waste) containers. When used in combination with an anti-corrosive primer, it can be used for long-term protection of steel structures in light industrial environments.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1882,6 +2017,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline TC Coating",
+      "desc_en": "Bariline TC Coating is a fast-drying, single-component, high-build alkyd coating with a durable satin finish and excellent anti-corrosion properties. Suitable for a wide range of industrial applications, such as (waste) containers and industrial refurbishment projects, machinery, chassis and agricultural machinery.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
@@ -1903,6 +2040,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Bariline Coating",
+      "desc_en": "Fast drying one component high build anticorrosion alkyd coating. As finishing in colour on steel surfaces. As a single coat system for the protection of blasted steel structures in dry, mild environments. The product offers a good protection during the construction period, provided that sufficient film thickness is applied. Applicable as a one coat system for refurbishing of new containers. When higher demands are set for durable protection, the application of an anti-corrosion alkyd based primer is recommended.",
       "attrs": {}
     },
     {
@@ -1914,6 +2053,8 @@
       "cats": [
         "bariline"
       ],
+      "name_en": "Uniprimer",
+      "desc_en": "Fast-drying, universally paintable, single-component, high-build zinc phosphate primer. Used as an anti-corrosive primer on blast-cleaned steel substrates (min. Sa 2½). Also excellent for use on metallized substrates. After a short flash-off time, the product can be finished with alkyd resin topcoats. After sufficient drying, topcoats based on epoxy and polyurethane resins can also be applied.",
       "attrs": {
         "Chemie": [
           "Alkyd"
@@ -1932,6 +2073,8 @@
       "cats": [
         "biobased"
       ],
+      "name_en": "Thinner",
+      "desc_en": "",
       "attrs": {
         "Chemie": [
           "Biobased"
@@ -1950,6 +2093,8 @@
       "cats": [
         "biobased"
       ],
+      "name_en": "Activator",
+      "desc_en": "",
       "attrs": {
         "Chemie": [
           "Biobased"
@@ -1968,6 +2113,8 @@
       "cats": [
         "biobased"
       ],
+      "name_en": "Activator",
+      "desc_en": "",
       "attrs": {
         "Chemie": [
           "Biobased"
@@ -1977,12 +2124,5 @@
         ]
       }
     }
-  ],
-  "attributeGroups": [
-    "Chemie",
-    "Componenten",
-    "Glans",
-    "Ondergrond",
-    "Productsoort"
   ]
 }
