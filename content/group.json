@@ -1,0 +1,97 @@
+{
+  "_comment": "Editable content for the Baril Group one-pager (root site). Managed via /admin. Each text field has English (en) and Dutch (nl); HTML like <br>, <strong>, <em> is allowed. Images are paths relative to the repo root. Only the curated fields below are overridden; anything else keeps the site's built-in text.",
+
+  "heroEyebrow": {
+    "en": "Baril Group — 's-Hertogenbosch, NL · Production EU / US / PL",
+    "nl": "Baril Group — 's-Hertogenbosch, NL · Productie EU / VS / PL"
+  },
+  "heroTitle": {
+    "en": "Painting a<br><span class=\"paint\">renewable</span><br>future",
+    "nl": "Verf voor een<br><span class=\"paint\">hernieuwbare</span><br>toekomst"
+  },
+  "heroSub": {
+    "en": "One group. Three brands. A single mission: <strong>protect more, with less</strong> — renewing the coatings and paint industry from the chemistry up.",
+    "nl": "Eén groep. Drie merken. Eén missie: <strong>meer beschermen, met minder</strong> — de verf- en coatingsindustrie vernieuwen vanaf de chemie."
+  },
+  "heroCtaPrimary": { "en": "Explore the brands", "nl": "Ontdek de merken" },
+  "heroCtaSecondary": { "en": "Our mission", "nl": "Onze missie" },
+  "heroFoot": {
+    "en": "Industrial coatings · Biobased trade paint · Plant-based paint for the home",
+    "nl": "Industriële coatings · Biobased vakverf · Plantaardige verf voor thuis"
+  },
+
+  "missionQuote": {
+    "en": "We believe nobody should have to choose between <em>sustainable, price and quality</em>. So we are converting every product line, phase by phase, to renewable raw materials — and proving along the way that thinner, cleaner coatings protect longer.",
+    "nl": "Wij vinden dat niemand hoeft te kiezen tussen <em>duurzaam, prijs en kwaliteit</em>. Daarom zetten we elke productlijn, stap voor stap, om naar hernieuwbare grondstoffen — en bewijzen we onderweg dat dunnere, schonere coatings langer beschermen."
+  },
+
+  "bioH2": { "en": "From barrel<br>to bio", "nl": "Van vat<br>naar bio" },
+  "bioIntro": {
+    "en": "Every liter of paint is chemistry: binder, solvent, pigment, additives. For a century that chemistry was crude-oil based — the binder, and more often than not the solvent too. We are converting both to renewable and circular raw materials: from less than 10% in 2022 to 55% today, on our way to 100% in 2030.",
+    "nl": "Elke liter verf is chemie: bindmiddel, oplosmiddel, pigment, additieven. Een eeuw lang was die chemie gebaseerd op ruwe olie — het bindmiddel, en vaak ook het oplosmiddel. Wij zetten beide om naar hernieuwbare en circulaire grondstoffen: van minder dan 10% in 2022 naar 55% vandaag, op weg naar 100% in 2030."
+  },
+
+  "globeH2": { "en": "If the world's paint<br>went with us", "nl": "Als de verf van de wereld<br>met ons meeging" },
+  "globeIntro": {
+    "en": "The world produces ≈ 50+ million tonnes of paints and coatings every year — still overwhelmingly fossil chemistry. This is what changes direction when that volume moves to renewable raw materials and thin-layer application, the way we are doing it.",
+    "nl": "De wereld produceert ≈ 50+ miljoen ton verf en coatings per jaar — nog altijd overwegend fossiele chemie. Dit verandert er van richting wanneer dat volume overgaat op hernieuwbare grondstoffen en dunne-laag-applicatie, zoals wij dat doen."
+  },
+
+  "safetyH2": { "en": "Paint that doesn't<br>cost the painter", "nl": "Verf die de schilder<br>niet zijn gezondheid kost" },
+  "safetyIntro": {
+    "en": "In the Netherlands, chronic solvent exposure had its own name: <em lang=\"nl\">schildersziekte</em> — painter's disease (CSE/OPS). Irreversible damage to the nervous system, recognized as an occupational disease. Then the industry reformulated — waterborne, low-VOC — and the numbers collapsed. Proof that chemistry chosen in the factory protects people on the scaffold. We carry that further than the can: current safety information, trained applicators, and personal-safety advice come with the paint.",
+    "nl": "In Nederland had chronische blootstelling aan oplosmiddelen een eigen naam: <em>schildersziekte</em> (CSE/OPS). Onomkeerbare schade aan het zenuwstelsel, erkend als beroepsziekte. Toen herformuleerde de industrie — watergedragen, laag-VOS — en stortten de aantallen in. Het bewijs dat chemie die in de fabriek wordt gekozen, mensen op de steiger beschermt. Wij trekken dat verder dan het blik: actuele veiligheidsinformatie, getrainde applicateurs en persoonlijk veiligheidsadvies horen bij de verf."
+  },
+
+  "localH2": { "en": "Made close<br>to home", "nl": "Dichtbij huis<br>gemaakt" },
+  "localIntro": {
+    "en": "Crude-derived chemistry crosses the planet before it reaches a paint can. Plant-based and residual-stream feedstocks shorten the chain: grown, processed and applied in the same region. We produce close to our markets — 's-Hertogenbosch, the United States, Poland — on our own solar and wind power, with a fully electric fleet and inclusive hiring as policy, not project.",
+    "nl": "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch, de Verenigde Staten, Polen — op eigen zonne- en windenergie, met een volledig elektrisch wagenpark en inclusief werkgeverschap als beleid, niet als project."
+  },
+
+  "worldH2": { "en": "Growing greener,<br>worldwide", "nl": "Steeds groener,<br>wereldwijd" },
+  "worldIntro": {
+    "en": "From one plant in 's-Hertogenbosch to five sites on two continents. The first CSR steps in 2002 set a direction; since 2021 the greening accelerates year on year. Watch the footprint spread.",
+    "nl": "Van één fabriek in 's-Hertogenbosch naar vijf vestigingen op twee continenten. De eerste MVO-stappen in 2002 zetten de richting; sinds 2021 versnelt de vergroening jaar op jaar. Zie de voetafdruk zich verspreiden."
+  },
+
+  "brandsH2": { "en": "One mission,<br>three brands", "nl": "Eén missie,<br>drie merken" },
+  "brandsIntro": {
+    "en": "Each brand carries the same chemistry-first philosophy to a different audience — from offshore steel to your living-room wall.",
+    "nl": "Elk merk brengt dezelfde chemie-eerst-filosofie naar een ander publiek — van offshore-staal tot de muur in je woonkamer."
+  },
+  "brand1Tag": { "en": "For industry", "nl": "Voor de industrie" },
+  "brand1Desc": {
+    "en": "High-performance industrial coatings and construction paints. Thin-layer protection for steel and infrastructure, OEM and metal industry, marine & offshore — engineered to extend material life with less coating.",
+    "nl": "Hoogwaardige industriële coatings en bouwverven. Dunne-laag-bescherming voor staal en infrastructuur, OEM en metaalindustrie, marine & offshore — ontwikkeld om materialen langer te laten meegaan met minder verf."
+  },
+  "brand2Tag": { "en": "For the trade", "nl": "Voor de vakschilder" },
+  "brand2Desc": {
+    "en": "A complete biobased paint system for the professional painter. Plant-based chemistry with EU Ecolabel and Cradle to Cradle certification — the greenest paint, mixable in every colour.",
+    "nl": "Een compleet biobased verfsysteem voor de professionele schilder. Plantaardige chemie met EU Ecolabel en Cradle to Cradle-certificering — de groenste verf, mengbaar in elke kleur."
+  },
+  "brand3Tag": { "en": "For the home", "nl": "Voor thuis" },
+  "brand3Desc": {
+    "en": "Plant-based wall and lacquer paint for everyone. Colour collections designed by experts, mixed in every colour of the rainbow — online and on the shelf at Karwei.",
+    "nl": "Plantaardige muur- en lakverf voor iedereen. Kleurcollecties samengesteld door experts, mengbaar in elke kleur van de regenboog — online en in het schap bij Karwei."
+  },
+
+  "proofH2": { "en": "Protected by Baril", "nl": "Beschermd door Baril" },
+  "proofIntro": {
+    "en": "From national infrastructure to monumental restoration — objects our coatings keep alive, longer.",
+    "nl": "Van nationale infrastructuur tot monumentale restauratie — objecten die onze coatings langer in leven houden."
+  },
+
+  "renewH2": { "en": "How we renew<br>an old industry", "nl": "Hoe we een oude<br>industrie vernieuwen" },
+  "dataH2": { "en": "The group<br>in numbers", "nl": "De groep<br>in cijfers" },
+
+  "footClaim": { "en": "Painting a renewable future.", "nl": "Wij verven een hernieuwbare toekomst." },
+
+  "imgHero": "assets/img/IMG-01-hero.jpg",
+  "imgPaintBand": "assets/img/OWN-paint-wide.jpg",
+  "imgGlobeLab": "assets/img/OWN-lab.jpg",
+  "imgSafetyPainter": "assets/img/OWN-painter.jpg",
+  "imgLocalField": "assets/img/IMG-08-field.jpg",
+  "imgLocalSolar": "assets/img/OWN-solar.jpg",
+  "imgRenewAirmix": "assets/img/OWN-airmix.jpg"
+}

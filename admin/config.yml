@@ -1,0 +1,415 @@
+# Baril content editor — Sveltia CMS (Decap-compatible) configuration.
+# Editors log in with their GitHub account; saving commits to the repo and
+# GitHub Pages republishes automatically.
+#
+# AUTH: GitHub backend needs a small OAuth relay. See SETUP-CMS.md at the repo
+# root for the 10-minute, one-time setup, then put its URL in `base_url` below.
+
+backend:
+  name: github
+  repo: tduijghuisen/baril-group-site
+  branch: main
+  # base_url: https://<your-oauth-relay>   # <-- set this once (see SETUP-CMS.md)
+
+# Where uploaded images are stored in the repo, and the path written into content.
+media_folder: "barilcoatings/assets/img"
+public_folder: "assets/img"
+
+# A short editorial note shown above the editor.
+site_url: https://tduijghuisen.github.io/baril-group-site/barilcoatings/
+display_url: https://tduijghuisen.github.io/baril-group-site/barilcoatings/
+
+collections:
+  - name: coatings
+    label: "Baril Coatings — one-pager"
+    description: "Bewerk de teksten (Engels + Nederlands) en de beelden van de Baril Coatings-site. Laat je een veld leeg, dan blijft de standaardtekst van de site staan."
+    files:
+      - name: content
+        label: "Teksten & beelden"
+        file: "barilcoatings/content/coatings.json"
+        fields:
+          - { label: "Interne notitie", name: "_comment", widget: hidden }
+
+          # ---------- Hero ----------
+          - label: "Hero — bovenregel"
+            name: heroEyebrow
+            widget: object
+            collapsed: true
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: Nederlands, name: nl, widget: text }
+          - label: "Hero — titel (HTML toegestaan)"
+            name: heroTitle
+            widget: object
+            collapsed: true
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: Nederlands, name: nl, widget: text }
+          - label: "Hero — subtekst"
+            name: heroSub
+            widget: object
+            collapsed: true
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: Nederlands, name: nl, widget: text }
+          - label: "Hero — knop 1"
+            name: heroCtaPrimary
+            widget: object
+            collapsed: true
+            fields:
+              - { label: English, name: en, widget: string }
+              - { label: Nederlands, name: nl, widget: string }
+          - label: "Hero — knop 2"
+            name: heroCtaSecondary
+            widget: object
+            collapsed: true
+            fields:
+              - { label: English, name: en, widget: string }
+              - { label: Nederlands, name: nl, widget: string }
+
+          # ---------- Over ons ----------
+          - label: "Over ons — quote"
+            name: aboutQuote
+            widget: object
+            collapsed: true
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: Nederlands, name: nl, widget: text }
+
+          # ---------- Hoofdstukken (kop + intro) ----------
+          - label: "Hoofdstuk Corrosie — kop"
+            name: corrosionH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk Corrosie — intro"
+            name: corrosionIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk Dunne laag — kop"
+            name: thinlayerH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk Dunne laag — intro"
+            name: thinlayerIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk Bio — kop"
+            name: bioH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk Bio — intro"
+            name: bioIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk DualCure — kop"
+            name: dualcureH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk DualCure — intro"
+            name: dualcureIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Markten ----------
+          - label: "Markten — kop"
+            name: marketsH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Markten — intro"
+            name: marketsIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Markt 1 — titel"
+            name: market1Title
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Markt 1 — tekst"
+            name: market1Text
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Markt 2 — titel"
+            name: market2Title
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Markt 2 — tekst"
+            name: market2Text
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Markt 3 — titel"
+            name: market3Title
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Markt 3 — tekst"
+            name: market3Text
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Markt 4 — titel"
+            name: market4Title
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Markt 4 — tekst"
+            name: market4Text
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Assortiment ----------
+          - label: "Assortiment — kop"
+            name: rangesH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Assortiment — intro"
+            name: rangesIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Assortiment 1 (Biobased) — tekst"
+            name: range1Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Assortiment 2 (DualCure) — tekst"
+            name: range2Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Assortiment 3 (SteelKote) — tekst"
+            name: range3Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Assortiment 4 (Aquaran) — tekst"
+            name: range4Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Praktijk + datasheet ----------
+          - label: "Praktijk — kop"
+            name: proofH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Praktijk — intro"
+            name: proofIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Datasheet — kop"
+            name: dataH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Footer ----------
+          - label: "Footer — claim"
+            name: footClaim
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+
+          # ---------- Beelden ----------
+          - { label: "Hero-afbeelding", name: imgHero, widget: image, required: false }
+          - { label: "Lab-afbeelding (hoofdstuk Bio)", name: imgLab, widget: image, required: false }
+          - { label: "Zonne-energie-afbeelding (hoofdstuk Bio)", name: imgSolar, widget: image, required: false }
+          - { label: "Coating-band (full-bleed)", name: imgBand, widget: image, required: false }
+          - { label: "Applicateur-afbeelding (assortiment)", name: imgApplicator, widget: image, required: false }
+
+  - name: group
+    label: "Baril Group — one-pager"
+    description: "Bewerk de teksten (Engels + Nederlands) en de beelden van de Baril Group-site. Laat je een veld leeg, dan blijft de standaardtekst van de site staan."
+    files:
+      - name: content
+        label: "Teksten & beelden"
+        file: "content/group.json"
+        fields:
+          - { label: "Interne notitie", name: "_comment", widget: hidden }
+
+          # ---------- Hero ----------
+          - label: "Hero — bovenregel"
+            name: heroEyebrow
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hero — titel (HTML toegestaan)"
+            name: heroTitle
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hero — subtekst"
+            name: heroSub
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hero — knop 1"
+            name: heroCtaPrimary
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Hero — knop 2"
+            name: heroCtaSecondary
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Hero — onderregel"
+            name: heroFoot
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Missie ----------
+          - label: "Missie — quote"
+            name: missionQuote
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Hoofdstukken ----------
+          - label: "Hoofdstuk 'Van vat naar bio' — kop"
+            name: bioH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Van vat naar bio' — intro"
+            name: bioIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Wat-als' — kop"
+            name: globeH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Wat-als' — intro"
+            name: globeIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Schilder' — kop"
+            name: safetyH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Schilder' — intro"
+            name: safetyIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Dichtbij huis' — kop"
+            name: localH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Dichtbij huis' — intro"
+            name: localIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Wereldwijd' — kop"
+            name: worldH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Hoofdstuk 'Wereldwijd' — intro"
+            name: worldIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Merken ----------
+          - label: "Merken — kop"
+            name: brandsH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Merken — intro"
+            name: brandsIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Merk 1 (Baril Coatings) — label"
+            name: brand1Tag
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Merk 1 (Baril Coatings) — tekst"
+            name: brand1Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Merk 2 (Copperant) — label"
+            name: brand2Tag
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Merk 2 (Copperant) — tekst"
+            name: brand2Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Merk 3 (Fairf) — label"
+            name: brand3Tag
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+          - label: "Merk 3 (Fairf) — tekst"
+            name: brand3Desc
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Praktijk / technologie / datasheet ----------
+          - label: "Praktijk — kop"
+            name: proofH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Praktijk — intro"
+            name: proofIntro
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Technologie — kop"
+            name: renewH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+          - label: "Datasheet — kop"
+            name: dataH2
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: text }, { label: Nederlands, name: nl, widget: text }]
+
+          # ---------- Footer ----------
+          - label: "Footer — claim"
+            name: footClaim
+            widget: object
+            collapsed: true
+            fields: [{ label: English, name: en, widget: string }, { label: Nederlands, name: nl, widget: string }]
+
+          # ---------- Beelden ----------
+          - { label: "Hero-afbeelding", name: imgHero, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }
+          - { label: "Coating-band (hoofdstuk bio)", name: imgPaintBand, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }
+          - { label: "Lab-afbeelding (wat-als)", name: imgGlobeLab, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }
+          - { label: "Schilder-afbeelding (schilder)", name: imgSafetyPainter, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }
+          - { label: "Akker-afbeelding (dichtbij huis)", name: imgLocalField, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }
+          - { label: "Zonne-energie-afbeelding (dichtbij huis)", name: imgLocalSolar, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }
+          - { label: "Airmix-afbeelding (technologie)", name: imgRenewAirmix, widget: image, required: false, media_folder: "/assets/img", public_folder: "assets/img" }

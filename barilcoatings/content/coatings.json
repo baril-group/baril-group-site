@@ -1,0 +1,111 @@
+{
+  "_comment": "Editable content for the Baril Coatings one-pager. Managed via /admin. Each text field has an English (en) and Dutch (nl) value; HTML tags like <br>, <strong>, <em> are allowed. Images are paths relative to the barilcoatings/ folder. This file only OVERRIDES the curated fields below — anything not here keeps the site's built-in text.",
+
+  "heroEyebrow": {
+    "en": "Baril Coatings — Industrial & protective coatings · Since 1987",
+    "nl": "Baril Coatings — Industriële & beschermende coatings · Sinds 1987"
+  },
+  "heroTitle": {
+    "en": "Sustainable<br><span class=\"paint\">coating</span><br>solutions",
+    "nl": "Duurzame<br><span class=\"paint\">coating-</span><br>oplossingen"
+  },
+  "heroSub": {
+    "en": "Developer and producer of premium, highly durable industrial coatings and construction paints — <strong>protecting steel longer, with thinner, cleaner layers</strong>.",
+    "nl": "Ontwikkelaar en producent van hoogwaardige, zeer duurzame industriële coatings en bouwverven — <strong>staal langer beschermen, met dunnere, schonere lagen</strong>."
+  },
+  "heroCtaPrimary": { "en": "Explore the markets", "nl": "Bekijk de markten" },
+  "heroCtaSecondary": { "en": "How protection works", "nl": "Hoe bescherming werkt" },
+
+  "aboutQuote": {
+    "en": "We make coatings that let steel and structures <em>last longer with less</em> — premium corrosion protection, engineered at the chemistry level and applied in thinner films. The performance you expect from industrial coatings, on a renewable path.",
+    "nl": "Wij maken coatings waarmee staal en constructies <em>langer meegaan met minder</em> — hoogwaardige corrosiebescherming, ontwikkeld op chemisch niveau en aangebracht in dunnere lagen. De prestaties die je van industriële coatings verwacht, op een hernieuwbaar pad."
+  },
+
+  "corrosionH2": { "en": "From rust<br>to resilience", "nl": "Van roest<br>naar weerbaarheid" },
+  "corrosionIntro": {
+    "en": "Corrosion is a slow fire: unprotected steel loses tens of microns a year, and structures are replaced long before their time. A Baril protective system seals the steel from oxygen and water — and buys decades. Scroll to apply the coating.",
+    "nl": "Corrosie is een langzaam vuur: onbeschermd staal verliest jaarlijks tientallen micrometers, en constructies worden ruim voor hun tijd vervangen. Een Baril-beschermingssysteem sluit het staal af van zuurstof en water — en wint decennia. Scroll om de coating aan te brengen."
+  },
+
+  "thinlayerH2": { "en": "More metres,<br>less coating", "nl": "Meer meters,<br>minder coating" },
+  "thinlayerIntro": {
+    "en": "The strength of a coating is not in how thick it is, but in how well it is built. Our thin-layer technology protects more square metres from every litre, at a lower dry-film thickness — less material on the structure, fewer cans on the truck, a smaller footprint per protected m².",
+    "nl": "De kracht van een coating zit niet in de dikte, maar in hoe goed ze is opgebouwd. Onze dunne-laag-technologie beschermt meer vierkante meters per liter, bij een lagere laagdikte — minder materiaal op de constructie, minder blikken op de vrachtwagen, een kleinere voetafdruk per beschermde m²."
+  },
+
+  "bioH2": { "en": "From barrel<br>to bio", "nl": "Van vat<br>naar bio" },
+  "bioIntro": {
+    "en": "Every litre of coating is chemistry: binder, solvent, pigment, additives — for a century, crude-oil based. We are converting our industrial coatings to renewable and circular raw materials, from less than 10% in 2022 to 55% today, on the way to 100% in 2030. Same protection. Lower impact.",
+    "nl": "Elke liter coating is chemie: bindmiddel, oplosmiddel, pigment, additieven — een eeuw lang gebaseerd op ruwe olie. Wij zetten onze industriële coatings om naar hernieuwbare en circulaire grondstoffen, van minder dan 10% in 2022 naar 55% vandaag, op weg naar 100% in 2030. Dezelfde bescherming. Lagere impact."
+  },
+
+  "dualcureH2": { "en": "Two cures,<br>one network", "nl": "Twee uithardingen,<br>één netwerk" },
+  "dualcureIntro": {
+    "en": "Most industrial coatings cure one way. Our patented <strong>DualCure (DCC)</strong> cures two ways at once: the chemical 2K reaction of components A and B, <em>plus</em> a second cure driven by moisture from the air. The two networks interlace into one exceptionally dense molecular mesh — bonding tighter <em>and</em> staying more flexible than regular 2K. The result: a multiple of the protection, with far less coating.",
+    "nl": "De meeste industriële coatings harden op één manier uit. Onze gepatenteerde <strong>DualCure (DCC)</strong> hardt tegelijk op twee manieren uit: de chemische 2K-reactie van componenten A en B, <em>én</em> een tweede uitharding die op gang komt door vocht uit de lucht. De twee netwerken weven zich tot één uitzonderlijk dichte moleculaire mesh — hechter <em>én</em> flexibeler dan regulier 2K. Het resultaat: een veelvoud aan bescherming, met aanzienlijk minder coating."
+  },
+
+  "marketsH2": { "en": "Built for the<br>hardest jobs", "nl": "Gebouwd voor de<br>zwaarste klussen" },
+  "marketsIntro": {
+    "en": "From national infrastructure to offshore platforms — wherever steel has to last, our coatings are specified.",
+    "nl": "Van nationale infrastructuur tot offshore-platforms — overal waar staal lang mee moet, worden onze coatings voorgeschreven."
+  },
+  "market1Title": { "en": "Steel & infra", "nl": "Staal & infra" },
+  "market1Text": {
+    "en": "Bridges, locks, stadiums and utility construction. Heavy-duty corrosion protection that keeps load-bearing steel in service for decades, with maintenance windows measured in tens of years.",
+    "nl": "Bruggen, sluizen, stadions en utiliteitsbouw. Zware corrosiebescherming die dragend staal decennialang in dienst houdt, met onderhoudsintervallen van tientallen jaren."
+  },
+  "market2Title": { "en": "OEM & metal", "nl": "OEM & metaal" },
+  "market2Text": {
+    "en": "Coating systems for machine building, equipment and serial metal production — fast-curing, durable finishes engineered for the line and for the field that follows.",
+    "nl": "Coatingsystemen voor machinebouw, installaties en seriematige metaalproductie — snel uithardende, duurzame afwerkingen, ontwikkeld voor de lijn én voor het veld erna."
+  },
+  "market3Title": { "en": "Marine & offshore", "nl": "Marine & offshore" },
+  "market3Text": {
+    "en": "Protection for the most aggressive environment there is: salt, spray and immersion. Qualified systems that meet offshore standards and keep working where coatings usually fail.",
+    "nl": "Bescherming voor de meest agressieve omgeving die er is: zout, nevel en onderdompeling. Gekwalificeerde systemen die voldoen aan offshore-normen en blijven werken waar coatings normaal falen."
+  },
+  "market4Title": { "en": "Construction paints", "nl": "Bouwverven" },
+  "market4Text": {
+    "en": "A complete range of construction and maintenance paints for professional painting companies — backed by technical advice, applicator training through Baril Academy, and always-current safety information.",
+    "nl": "Een compleet assortiment bouw- en onderhoudsverven voor professionele schildersbedrijven — met technisch advies, applicateurstraining via Baril Academy en altijd actuele veiligheidsinformatie."
+  },
+
+  "rangesH2": { "en": "One philosophy,<br>many systems", "nl": "Eén filosofie,<br>vele systemen" },
+  "rangesIntro": {
+    "en": "Each range carries the same chemistry-first approach to a different job — engineered to protect longer with less.",
+    "nl": "Elk assortiment brengt dezelfde chemie-eerst-aanpak naar een andere klus — ontwikkeld om langer te beschermen met minder."
+  },
+  "range1Desc": {
+    "en": "Industrial coatings built on plant-based and residual-stream raw materials — fossil chemistry designed out, protection kept in.",
+    "nl": "Industriële coatings op basis van plantaardige en reststroom-grondstoffen — fossiele chemie eruit ontworpen, de bescherming erin gehouden."
+  },
+  "range2Desc": {
+    "en": "Dual-curing technology for OEM and metal industry: rapid through-cure and a tough, durable finish, ready for handling sooner.",
+    "nl": "Dual-cure-technologie voor OEM en metaalindustrie: snelle doorharding en een taaie, duurzame afwerking, sneller klaar voor verwerking."
+  },
+  "range3Desc": {
+    "en": "Heavy-duty corrosion protection for steel and infrastructure — high-build performance in thinner, smarter layers.",
+    "nl": "Zware corrosiebescherming voor staal en infrastructuur — high-build-prestaties in dunnere, slimmere lagen."
+  },
+  "range4Desc": {
+    "en": "Waterborne, low-emission coatings that protect without the solvent load — cleaner on the job and in the air.",
+    "nl": "Watergedragen, emissiearme coatings die beschermen zonder de oplosmiddelenlast — schoner op de klus en in de lucht."
+  },
+
+  "proofH2": { "en": "Protected by Baril", "nl": "Beschermd door Baril" },
+  "proofIntro": {
+    "en": "From national infrastructure to monumental restoration — objects our coatings keep alive, longer.",
+    "nl": "Van nationale infrastructuur tot monumentale restauratie — objecten die onze coatings langer in leven houden."
+  },
+
+  "dataH2": { "en": "Baril Coatings<br>in numbers", "nl": "Baril Coatings<br>in cijfers" },
+
+  "footClaim": { "en": "Sustainable coating solutions.", "nl": "Duurzame coatingoplossingen." },
+
+  "imgHero": "assets/img/OWN-airmix.jpg",
+  "imgLab": "assets/img/OWN-lab.jpg",
+  "imgSolar": "assets/img/OWN-solar.jpg",
+  "imgBand": "assets/img/OWN-paint-wide.jpg",
+  "imgApplicator": "assets/img/OWN-painter.jpg"
+}
