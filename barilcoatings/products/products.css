@@ -36,7 +36,25 @@
 }
 .pchip:hover{color:var(--ink)}
 .pchip.active{color:var(--green-950);background:var(--orange);border-color:var(--orange);font-weight:600}
-.pcount{font-family:var(--mono);font-size:12px;color:var(--muted);margin:6px 0 26px;letter-spacing:.06em}
+.pfilters{display:flex;flex-wrap:wrap;gap:14px 24px;margin-top:14px}
+.fgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.fglabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.fopt{
+  font-family:var(--mono);font-size:11px;letter-spacing:.04em;cursor:pointer;
+  border:1px solid var(--hairline);border-radius:99px;padding:6px 12px;color:var(--muted);
+  background:none;transition:border-color .2s,color .2s,background .2s;
+}
+.fopt:hover{color:var(--ink)}
+.fopt.active{color:var(--green-950);background:var(--green);border-color:var(--green);font-weight:600}
+.pcount{font-family:var(--mono);font-size:12px;color:var(--muted);margin:6px 0 26px;letter-spacing:.06em;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.pclear{font-family:var(--mono);font-size:11px;color:var(--orange);background:none;border:none;cursor:pointer;text-decoration:underline}
+
+/* spec rows on cards */
+.pspecs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 18px;margin-top:2px;
+  border-top:1px solid var(--hairline);padding-top:14px}
+.pspec{display:flex;flex-direction:column;gap:2px}
+.pspec span{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.pspec b{font-size:13px;color:var(--ink);font-weight:500}
 
 /* brand section */
 .brandsec{margin:0 0 46px;scroll-margin-top:150px}
