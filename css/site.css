@@ -833,12 +833,12 @@ footer{
 /* ---------- B Corp highlight ---------- */
 #bcorp{border-top:1px solid var(--hairline);background:radial-gradient(900px 420px at 82% 0%,rgba(95,201,143,.10),transparent 60%)}
 .bcorp-inner{display:grid;grid-template-columns:auto 1fr;gap:clamp(28px,5vw,64px);align-items:center;padding:clamp(50px,7vw,96px) 24px}
-.bc-mark{width:clamp(112px,14vw,150px);height:auto;color:var(--ink);border:1px solid var(--hairline);
-  border-radius:16px;padding:16px;background:var(--navy-900);flex:none}
+/* official Certified B Corporation logo (white/reversed) — clear space kept, no box, no effects */
+.bc-logo{width:clamp(104px,13vw,132px);height:auto;display:block;flex:none;padding:8px}
 .bcorp-text h2{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.005em;
   font-size:clamp(26px,4vw,46px);line-height:1.04;margin:14px 0 16px}
 .bcorp-text .bc-desc{color:var(--muted);max-width:640px;font-size:clamp(16px,2vw,18px)}
-@media(max-width:760px){.bcorp-inner{grid-template-columns:1fr;gap:24px}.bc-mark{width:120px}}
+@media(max-width:760px){.bcorp-inner{grid-template-columns:1fr;gap:24px}.bc-logo{width:118px}}
 
 /* ---------- certifications & SDGs ---------- */
 #certs{border-top:1px solid var(--hairline)}
