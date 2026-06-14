@@ -557,14 +557,15 @@ footer{
   .mesh-fig svg{max-height:44svh}
 }
 
-/* ---------- full-bleed media bands ---------- */
-.media-band{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:clamp(300px,40vw,560px);overflow:hidden;margin-top:18px;background:var(--green-900)}
+/* ---------- full-bleed media bands (capped at the paint-band height) ---------- */
+.media-band{position:relative;left:50%;margin-left:-50vw;width:100vw;max-width:100vw;height:clamp(220px,28vw,420px);overflow:hidden;margin-top:18px;background:var(--green-900)}
 #bio .media-band:first-of-type{margin-top:64px}
 .media-band img{width:100%;height:100%;object-fit:cover;display:block}
 .media-band::after{content:"";position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(90deg,var(--green-950),transparent 7%,transparent 93%,var(--green-950)),
   linear-gradient(180deg,rgba(3,21,15,.35),transparent 22%,transparent 74%,rgba(3,21,15,.5))}
-.fullbleed{width:100vw!important;margin-left:calc(50% - 50vw)!important;max-width:100vw!important;border-radius:0!important;border-left:0!important;border-right:0!important}
+.fullbleed{position:relative!important;left:50%!important;margin-left:-50vw!important;width:100vw!important;max-width:100vw!important;border-radius:0!important;border-left:0!important;border-right:0!important}
+.renew-hero.fullbleed{height:clamp(220px,28vw,420px)!important}
 
 /* ---------- own photography: bands & media ---------- */
 .chap-media{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
