@@ -36,7 +36,13 @@
     <a href="#dualcure">Technology</a>
     <a href="#contact">Contact</a>
   </div>
-  <button id="langSwitch" class="lang" type="button" aria-label="Schakel naar Nederlands / Switch to English">NL</button>
+  <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
+    <button type="button" data-lang="nl" title="Nederlands" aria-label="Nederlands">🇳🇱</button>
+    <button type="button" data-lang="en" title="English" aria-label="English">🇬🇧</button>
+    <button type="button" data-lang="pl" title="Polski" aria-label="Polski">🇵🇱</button>
+    <button type="button" data-lang="ro" title="Română" aria-label="Română">🇷🇴</button>
+  </div>
+  <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
 
 <header id="top">
@@ -92,98 +98,72 @@
   </div>
 </section>
 
-<!-- ════════ CHAPTER 01 — From rust to resilience (corrosion) ════════ -->
-<section id="corrosion" class="chapter">
+<!-- ════════ CHAPTER 01 — DualCure: two cures, one network ════════ -->
+<section id="dualcure" class="chapter">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow rv">Chapter 01 · Corrosion protection</p>
-      <h2 class="rv">From rust<br>to resilience</h2>
-      <p class="rv">Corrosion is a slow fire: unprotected steel loses tens of microns a year, and structures are replaced long before their time. A Baril protective system seals the steel from oxygen and water — and buys decades. Scroll to apply the coating.</p>
+      <p class="eyebrow rv">Chapter 01 · DualCure technology</p>
+      <h2 class="rv">Two cures,<br>one network</h2>
+      <p class="rv">Most industrial coatings cure one way. Our patented <strong>DualCure (DCC)</strong> cures two ways at once: the chemical 2K reaction of components A and B, <em>plus</em> a second cure driven by moisture from the air. The two networks interlace into one exceptionally dense molecular mesh — bonding tighter <em>and</em> staying more flexible than regular 2K. The result: a multiple of the protection, with far less coating.</p>
     </div>
   </div>
 
-  <div class="scene" data-scene="corrode">
+  <div class="scene" data-scene="dcc">
     <div class="scene-pin">
-      <div class="wrap corrode-grid">
+      <div class="wrap dcc-grid">
 
-        <figure class="steel-fig">
-          <svg viewBox="0 0 420 300" role="img" aria-labelledby="steelTitle">
-            <title id="steelTitle">A steel surface where rust recedes and a protective coating sweeps across as the page scrolls</title>
+        <figure class="mesh-fig">
+          <svg viewBox="0 0 420 340" role="img" aria-labelledby="dccTitle">
+            <title id="dccTitle">A molecular network forming two interlacing crosslink systems — chemical 2K and moisture cure — into one dense, flexible mesh</title>
             <defs>
-              <linearGradient id="coatGrad" x1="0" y1="0" x2="1" y2="1">
+              <linearGradient id="dccChemGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#FFB873"/><stop offset="1" stop-color="#F18A00"/>
+              </linearGradient>
+              <linearGradient id="dccMoistGrad" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0" stop-color="#4FB78E"/><stop offset="1" stop-color="#2E8C9E"/>
               </linearGradient>
-              <linearGradient id="steelGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#5A6670"/><stop offset="1" stop-color="#3A444C"/>
-              </linearGradient>
-              <clipPath id="panelClip"><rect x="24" y="24" width="372" height="252" rx="10"/></clipPath>
             </defs>
-            <rect x="22" y="22" width="376" height="256" rx="12" class="steel-shell"/>
-            <g clip-path="url(#panelClip)">
-              <rect x="24" y="24" width="372" height="252" fill="url(#steelGrad)"/>
-              <!-- brushed metal lines -->
-              <g class="steel-brush">
-                <line x1="24" y1="60" x2="396" y2="60"/><line x1="24" y1="96" x2="396" y2="96"/>
-                <line x1="24" y1="132" x2="396" y2="132"/><line x1="24" y1="168" x2="396" y2="168"/>
-                <line x1="24" y1="204" x2="396" y2="204"/><line x1="24" y1="240" x2="396" y2="240"/>
-              </g>
-              <!-- rust blooms (fade out as protection is applied) -->
-              <g class="rust-layer">
-                <circle cx="96" cy="86" r="40"/><circle cx="150" cy="150" r="58"/>
-                <circle cx="300" cy="110" r="48"/><circle cx="250" cy="220" r="52"/>
-                <circle cx="80" cy="210" r="34"/><circle cx="350" cy="210" r="36"/>
-              </g>
-              <!-- protective coating sweep (grows L→R with --t) -->
-              <rect class="coat-layer" x="24" y="24" width="372" height="252" fill="url(#coatGrad)"/>
-              <rect class="coat-sheen" x="24" y="24" width="372" height="252"/>
+            <g class="dcc-drops" aria-hidden="true">
+              <g class="drop" style="--d:0"><circle cx="120" cy="24" r="5"/><text x="120" y="13">H₂O</text></g>
+              <g class="drop" style="--d:1"><circle cx="240" cy="18" r="5"/><text x="240" y="7">H₂O</text></g>
+              <g class="drop" style="--d:2"><circle cx="330" cy="26" r="5"/><text x="330" y="15">H₂O</text></g>
             </g>
-            <rect x="22" y="22" width="376" height="256" rx="12" class="steel-edge"/>
+            <g id="dccMoist"></g>
+            <g id="dccChem"></g>
+            <g id="dccNodes"></g>
           </svg>
-          <figcaption class="vh">A rusting steel panel. As you scroll, a green-teal protective coating sweeps from left to right, the rust dissolves beneath it, and a counter of protected years rises.</figcaption>
+          <figcaption class="vh">As you scroll, an amber chemical (A+B) network draws first, then a green moisture-cure network weaves between the same molecules, densifying the mesh; the molecule nodes light up as they are fully wetted and bonded.</figcaption>
         </figure>
 
         <div class="corrode-side">
+          <div class="dcc-legend" aria-hidden="true">
+            <span class="lg lg-chem">Chemical 2K cure (A+B)</span>
+            <span class="lg lg-moist">Moisture cure from the air</span>
+          </div>
           <div class="corrode-readout">
             <div class="cr">
-              <b><span class="tick" data-count="25" data-suffix="+ yr">0</span></b>
-              <span class="cl">To first major maintenance</span>
+              <b><span class="tick" data-count="60" data-suffix="%">0%</span></b>
+              <span class="cl">Thinner than conventional — at the same protection</span>
             </div>
             <div class="cr">
-              <b>C5-M · Im3</b>
-              <span class="cl">Up to the highest ISO 12944 corrosivity categories</span>
+              <b>C5 · 25+ yr</b>
+              <span class="cl">At 200 µm total · NORSOK certified for offshore</span>
             </div>
             <div class="cr">
-              <b>NORSOK M-501</b>
-              <span class="cl">Qualified systems for offshore steel</span>
+              <b>−50%</b>
+              <span class="cl">Process time · cures in ~30 min, no heat, low VOC</span>
             </div>
           </div>
-
-          <figure class="creep-fig">
-            <svg viewBox="0 0 380 150" role="img" aria-labelledby="creepTitle">
-              <title id="creepTitle">Two corrosion-creep curves: unprotected steel fails early, Baril-protected steel holds for decades</title>
-              <line x1="20" y1="120" x2="364" y2="120" class="creep-axis"/>
-              <line x1="20" y1="120" x2="20" y2="14" class="creep-axis"/>
-              <path class="creep-bad" d="M20 118 C 90 110, 130 60, 200 26 S 320 18, 360 16"/>
-              <path class="creep-good" d="M20 119 C 140 118, 250 116, 360 108" pathLength="1"/>
-              <text x="200" y="44" class="creep-lab lab-bad">Unprotected · pitting &amp; section loss</text>
-              <text x="220" y="100" class="creep-lab lab-good">Baril-protected · stays intact</text>
-              <text x="20" y="138" class="creep-tick">yr 1</text>
-              <text x="180" y="138" class="creep-tick" text-anchor="middle">yr 10</text>
-              <text x="360" y="138" class="creep-tick" text-anchor="end">yr 25+</text>
-            </svg>
-            <figcaption class="vh">A graph contrasting rapid corrosion of unprotected steel with the slow, near-flat degradation of Baril-protected steel over 25+ years.</figcaption>
-          </figure>
-
-          <p class="scenario-note">Indicative durability. Achievable protection depends on system, substrate preparation and corrosivity category per ISO 12944 / ISO 12944-9 (offshore).</p>
+          <div class="dcc-compare" aria-hidden="true">
+            <div class="dft-row"><span class="net-name">Regular 2K</span><div class="dft-bar"><div class="dft-fill net-single"></div></div><span class="net-val">single network</span></div>
+            <div class="dft-row"><span class="net-name">DualCure</span><div class="dft-bar"><div class="dft-fill net-dual"></div></div><span class="net-val">dual network</span></div>
+          </div>
+          <p class="scenario-note">Patented DualCure (DCC). Performance figures per Baril Coatings technical data; achievable protection depends on system, substrate and specification.</p>
         </div>
 
       </div>
     </div>
   </div>
-
-  <figure class="paint-band">
-    <img loading="lazy" src="assets/img/OWN-paint-wide.jpg" srcset="assets/img/OWN-paint-wide-m.jpg 1024w, assets/img/OWN-paint-wide.jpg 2560w" sizes="100vw" alt="Protective coating inside the can — deep pigment swirling together, stretched across the full width">
-  </figure>
 </section>
 
 <!-- ════════ CHAPTER 02 — More metres, less coating (thin-layer) ════════ -->
@@ -305,72 +285,98 @@
   </div>
 </section>
 
-<!-- ════════ CHAPTER 04 — DualCure: two cures, one network ════════ -->
-<section id="dualcure" class="chapter">
+<!-- ════════ CHAPTER 04 — From rust to resilience (corrosion) ════════ -->
+<section id="corrosion" class="chapter">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow rv">Chapter 04 · DualCure technology</p>
-      <h2 class="rv">Two cures,<br>one network</h2>
-      <p class="rv">Most industrial coatings cure one way. Our patented <strong>DualCure (DCC)</strong> cures two ways at once: the chemical 2K reaction of components A and B, <em>plus</em> a second cure driven by moisture from the air. The two networks interlace into one exceptionally dense molecular mesh — bonding tighter <em>and</em> staying more flexible than regular 2K. The result: a multiple of the protection, with far less coating.</p>
+      <p class="eyebrow rv">Chapter 04 · Corrosion protection</p>
+      <h2 class="rv">From rust<br>to resilience</h2>
+      <p class="rv">Corrosion is a slow fire: unprotected steel loses tens of microns a year, and structures are replaced long before their time. A Baril protective system seals the steel from oxygen and water — and buys decades. Scroll to apply the coating.</p>
     </div>
   </div>
 
-  <div class="scene" data-scene="dcc">
+  <div class="scene" data-scene="corrode">
     <div class="scene-pin">
-      <div class="wrap dcc-grid">
+      <div class="wrap corrode-grid">
 
-        <figure class="mesh-fig">
-          <svg viewBox="0 0 420 340" role="img" aria-labelledby="dccTitle">
-            <title id="dccTitle">A molecular network forming two interlacing crosslink systems — chemical 2K and moisture cure — into one dense, flexible mesh</title>
+        <figure class="steel-fig">
+          <svg viewBox="0 0 420 300" role="img" aria-labelledby="steelTitle">
+            <title id="steelTitle">A steel surface where rust recedes and a protective coating sweeps across as the page scrolls</title>
             <defs>
-              <linearGradient id="dccChemGrad" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#FFB873"/><stop offset="1" stop-color="#F18A00"/>
-              </linearGradient>
-              <linearGradient id="dccMoistGrad" x1="0" y1="0" x2="1" y2="1">
+              <linearGradient id="coatGrad" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0" stop-color="#4FB78E"/><stop offset="1" stop-color="#2E8C9E"/>
               </linearGradient>
+              <linearGradient id="steelGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#5A6670"/><stop offset="1" stop-color="#3A444C"/>
+              </linearGradient>
+              <clipPath id="panelClip"><rect x="24" y="24" width="372" height="252" rx="10"/></clipPath>
             </defs>
-            <g class="dcc-drops" aria-hidden="true">
-              <g class="drop" style="--d:0"><circle cx="120" cy="24" r="5"/><text x="120" y="13">H₂O</text></g>
-              <g class="drop" style="--d:1"><circle cx="240" cy="18" r="5"/><text x="240" y="7">H₂O</text></g>
-              <g class="drop" style="--d:2"><circle cx="330" cy="26" r="5"/><text x="330" y="15">H₂O</text></g>
+            <rect x="22" y="22" width="376" height="256" rx="12" class="steel-shell"/>
+            <g clip-path="url(#panelClip)">
+              <rect x="24" y="24" width="372" height="252" fill="url(#steelGrad)"/>
+              <!-- brushed metal lines -->
+              <g class="steel-brush">
+                <line x1="24" y1="60" x2="396" y2="60"/><line x1="24" y1="96" x2="396" y2="96"/>
+                <line x1="24" y1="132" x2="396" y2="132"/><line x1="24" y1="168" x2="396" y2="168"/>
+                <line x1="24" y1="204" x2="396" y2="204"/><line x1="24" y1="240" x2="396" y2="240"/>
+              </g>
+              <!-- rust blooms (fade out as protection is applied) -->
+              <g class="rust-layer">
+                <circle cx="96" cy="86" r="40"/><circle cx="150" cy="150" r="58"/>
+                <circle cx="300" cy="110" r="48"/><circle cx="250" cy="220" r="52"/>
+                <circle cx="80" cy="210" r="34"/><circle cx="350" cy="210" r="36"/>
+              </g>
+              <!-- protective coating sweep (grows L→R with --t) -->
+              <rect class="coat-layer" x="24" y="24" width="372" height="252" fill="url(#coatGrad)"/>
+              <rect class="coat-sheen" x="24" y="24" width="372" height="252"/>
             </g>
-            <g id="dccMoist"></g>
-            <g id="dccChem"></g>
-            <g id="dccNodes"></g>
+            <rect x="22" y="22" width="376" height="256" rx="12" class="steel-edge"/>
           </svg>
-          <figcaption class="vh">As you scroll, an amber chemical (A+B) network draws first, then a green moisture-cure network weaves between the same molecules, densifying the mesh; the molecule nodes light up as they are fully wetted and bonded.</figcaption>
+          <figcaption class="vh">A rusting steel panel. As you scroll, a green-teal protective coating sweeps from left to right, the rust dissolves beneath it, and a counter of protected years rises.</figcaption>
         </figure>
 
         <div class="corrode-side">
-          <div class="dcc-legend" aria-hidden="true">
-            <span class="lg lg-chem">Chemical 2K cure (A+B)</span>
-            <span class="lg lg-moist">Moisture cure from the air</span>
-          </div>
           <div class="corrode-readout">
             <div class="cr">
-              <b><span class="tick" data-count="60" data-suffix="%">0%</span></b>
-              <span class="cl">Thinner than conventional — at the same protection</span>
+              <b><span class="tick" data-count="25" data-suffix="+ yr">0</span></b>
+              <span class="cl">To first major maintenance</span>
             </div>
             <div class="cr">
-              <b>C5 · 25+ yr</b>
-              <span class="cl">At 200 µm total · NORSOK certified for offshore</span>
+              <b>C5-M · Im3</b>
+              <span class="cl">Up to the highest ISO 12944 corrosivity categories</span>
             </div>
             <div class="cr">
-              <b>−50%</b>
-              <span class="cl">Process time · cures in ~30 min, no heat, low VOC</span>
+              <b>NORSOK M-501</b>
+              <span class="cl">Qualified systems for offshore steel</span>
             </div>
           </div>
-          <div class="dcc-compare" aria-hidden="true">
-            <div class="dft-row"><span class="net-name">Regular 2K</span><div class="dft-bar"><div class="dft-fill net-single"></div></div><span class="net-val">single network</span></div>
-            <div class="dft-row"><span class="net-name">DualCure</span><div class="dft-bar"><div class="dft-fill net-dual"></div></div><span class="net-val">dual network</span></div>
-          </div>
-          <p class="scenario-note">Patented DualCure (DCC). Performance figures per Baril Coatings technical data; achievable protection depends on system, substrate and specification.</p>
+
+          <figure class="creep-fig">
+            <svg viewBox="0 0 380 150" role="img" aria-labelledby="creepTitle">
+              <title id="creepTitle">Two corrosion-creep curves: unprotected steel fails early, Baril-protected steel holds for decades</title>
+              <line x1="20" y1="120" x2="364" y2="120" class="creep-axis"/>
+              <line x1="20" y1="120" x2="20" y2="14" class="creep-axis"/>
+              <path class="creep-bad" d="M20 118 C 90 110, 130 60, 200 26 S 320 18, 360 16"/>
+              <path class="creep-good" d="M20 119 C 140 118, 250 116, 360 108" pathLength="1"/>
+              <text x="200" y="44" class="creep-lab lab-bad">Unprotected · pitting &amp; section loss</text>
+              <text x="220" y="100" class="creep-lab lab-good">Baril-protected · stays intact</text>
+              <text x="20" y="138" class="creep-tick">yr 1</text>
+              <text x="180" y="138" class="creep-tick" text-anchor="middle">yr 10</text>
+              <text x="360" y="138" class="creep-tick" text-anchor="end">yr 25+</text>
+            </svg>
+            <figcaption class="vh">A graph contrasting rapid corrosion of unprotected steel with the slow, near-flat degradation of Baril-protected steel over 25+ years.</figcaption>
+          </figure>
+
+          <p class="scenario-note">Indicative durability. Achievable protection depends on system, substrate preparation and corrosivity category per ISO 12944 / ISO 12944-9 (offshore).</p>
         </div>
 
       </div>
     </div>
   </div>
+
+  <figure class="paint-band">
+    <img loading="lazy" src="assets/img/OWN-paint-wide.jpg" srcset="assets/img/OWN-paint-wide-m.jpg 1024w, assets/img/OWN-paint-wide.jpg 2560w" sizes="100vw" alt="Protective coating inside the can — deep pigment swirling together, stretched across the full width">
+  </figure>
 </section>
 
 <!-- ════════ MARKETS ════════ -->
@@ -551,7 +557,7 @@
         <div class="iso"><span>ISO 9001</span><span>ISO 14001</span><span>ISO 45001</span><span>NORSOK M-501</span></div>
       </div>
       <div>
-        <h5>Catalogus</h5>
+        <h5>Catalogue</h5>
         <a href="products/">All products →</a>
         <a href="systems/">Paint systems →</a>
         <a href="markten/">Markets →</a>
@@ -573,6 +579,7 @@
 </footer>
 
 <script src="js/site.js"></script>
+<script src="js/nav.js"></script>
 <script src="js/chapters.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/overrides.js"></script>
