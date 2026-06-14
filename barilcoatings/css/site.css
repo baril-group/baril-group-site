@@ -580,6 +580,21 @@ footer{
 }
 @media(max-width:840px){.renew-hero{height:clamp(220px,56vw,340px)!important}}
 
+/* ---------- B Corp & SDG commitment band ---------- */
+#commit{border-top:1px solid var(--hairline);background:radial-gradient(800px 360px at 85% 0%,rgba(79,183,142,.10),transparent 60%)}
+.commit-grid{display:grid;grid-template-columns:1.2fr .9fr;gap:clamp(28px,5vw,56px);align-items:center}
+.commit-main{display:flex;gap:24px;align-items:center}
+#commit .bc-mark{width:118px;height:auto;flex:none;color:var(--ink);border:1px solid var(--hairline);border-radius:14px;padding:14px;background:var(--green-900)}
+#commit h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(20px,2.6vw,28px);margin:12px 0 12px;letter-spacing:.005em}
+.commit-desc{color:var(--muted);font-size:15.5px;max-width:46ch}
+.commit-link{display:inline-block;margin-top:16px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);text-decoration:none}
+.commit-link:hover{color:var(--amber)}
+.commit-sdg-k{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.commit-sdg-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.commit-sdg-grid img{width:100%;height:auto;border-radius:6px;display:block}
+@media(max-width:900px){.commit-grid{grid-template-columns:1fr;gap:30px}}
+@media(max-width:520px){.commit-main{flex-direction:column;align-items:flex-start}.commit-sdg-grid{grid-template-columns:repeat(6,1fr)}}
+
 /* ---------- sources ---------- */
 .sources{border-top:1px solid var(--hairline);padding:64px 0}
 .src{list-style:none;max-width:820px;margin-top:22px}
