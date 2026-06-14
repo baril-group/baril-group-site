@@ -20,7 +20,7 @@ function buildRibbon(){
   svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
   const x=f=>W*f;
   // weave the paint line through every section
-  const ids=['about','dualcure','thinlayer','bio','corrosion','markets','ranges','proof','data'];
+  const ids=['about','dualcure','thinlayer','bio','corrosion','markets','ranges','proof','data','commit'];
   const pts=ids.map(id=>document.getElementById(id)).filter(Boolean).map(el=>el.offsetTop);
   let d=`M ${x(.82)} ${innerHeight*.18}`;
   let prevY=innerHeight*.18;

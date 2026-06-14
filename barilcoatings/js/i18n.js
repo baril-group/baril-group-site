@@ -229,6 +229,14 @@
         '100% materii prime circulare până în 2030 <em>— 55% astăzi, de la &lt;10% în 2022</em>',
         'Consultanță tehnică · ajutor la specificații · instruire aplicatori Baril Academy · date de siguranță mereu actuale',
         'Baril Group <em>— cu Copperant și Fairf</em>'] }],
+    ['#commit .eyebrow', { nl: 'Gecertificeerd & betrokken', pl: 'Certyfikowani i zaangażowani', ro: 'Certificați și implicați' }],
+    ['#commit h3', { nl: 'Een Certified B Corporation', pl: 'Certyfikowana B Corporation', ro: 'O corporație B certificată' }],
+    ['#commit .commit-desc', {
+      nl: "Sinds 2025 — een van de eerste protective-coatingsmakers ter wereld die voldoet aan de geverifieerde B Corp-normen, en actief op 12 duurzame-ontwikkelingsdoelen (SDG's) van de VN als onderdeel van Baril Group.",
+      pl: 'Od 2025 — jeden z pierwszych producentów powłok ochronnych na świecie spełniający zweryfikowane standardy B Corp, aktywny w 12 Celach Zrównoważonego Rozwoju ONZ w ramach Baril Group.',
+      ro: 'Din 2025 — printre primii producători de acoperiri de protecție din lume care îndeplinesc standardele verificate B Corp, activ în 12 Obiective de Dezvoltare Durabilă ONU, ca parte din Baril Group.' }],
+    ['#commit .commit-link', { nl: 'Bekijk het bij Baril Group →', pl: 'Zobacz w Baril Group →', ro: 'Vezi pe Baril Group →' }],
+    ['#commit .commit-sdg-k', { nl: "Duurzame-ontwikkelingsdoelen van de VN", pl: 'Cele Zrównoważonego Rozwoju ONZ', ro: 'Obiectivele de Dezvoltare Durabilă ONU' }],
     ['#sources .eyebrow', { nl: 'Bronnen & onderbouwing', pl: 'Źródła i uzasadnienie', ro: 'Surse și fundamentare' }],
     ['.src li', {
       nl: [
