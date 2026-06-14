@@ -5,7 +5,7 @@
   'use strict';
   const MAP = [
     // nav
-    ['.navlinks a', ['Missie', 'Impact', 'Merken', 'In de praktijk', 'Hoe we vernieuwen', 'Contact']],
+    ['.navlinks a', ['Missie', 'Ons verhaal', 'Impact', 'Merken', 'In de praktijk', 'Hoe we vernieuwen', 'Contact']],
     // hero
     ['header .eyebrow', "Baril Group — 's-Hertogenbosch, NL · Productie EU / VS / PL"],
     ['header h1', 'Verf voor een<br><span class="paint">hernieuwbare</span><br>toekomst'],
@@ -23,6 +23,32 @@
       'Plantaardige grondstoffen en minder gevaarlijke stoffen, ontworpen op formuleringsniveau.',
       'Gecertificeerd kwaliteits-, milieu- en veiligheidsmanagement — en productcertificeringen per merk.']],
     ['.film-cap .wrap-cap', 'De film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">bekijk met geluid ↗</a>'],
+    // our story
+    ['#story .eyebrow', 'Ons verhaal · Sinds 1982'],
+    ['#story h2', 'Vanuit een schuurtje<br>in Moerkapelle'],
+    ['#story .sec-head p:last-child', 'Baril begon in 1982 als kleine verfmaker in Moerkapelle — een handvol betrokken mensen vanuit een schuurtje. Vier decennia later is het een internationaal opererende coatingsproducent met fabrieken in Nederland, de Verenigde Staten en Polen, nog altijd geleid door de familie Duijghuisen. De constante: de durf om andere keuzes te maken, met maatschappelijk verantwoord ondernemen als kern.'],
+    ['.story-col h3', ['Familiebedrijf, uit overtuiging', 'Wereldspeler, dicht bij huis']],
+    ['.story-col p', [
+      'De familie Duijghuisen durft andere keuzes te maken — en waar het financieel verantwoord is, kiezen we voor duurzaam: schonere fabrieken, veilige werkplekken, een elektrisch en hybride wagenpark. Ons grootste kapitaal is een betrokken, gedreven team — toegankelijk, eerlijk en betrokken.',
+      'Van één schuurtje naar productie in Nederland, de VS en Polen — wereldwijd uitgedragen door lokale distributeurs in Europa en Noord-Amerika. We helpen klanten hun objecten duurzaam te beschermen én hun global footprint te verkleinen.']],
+    ['.timeline li span', [
+      'Opgericht op 12 november in Moerkapelle',
+      "Verhuizing naar nieuwbouw in 's-Hertogenbosch",
+      'Management buy-out',
+      'Oprichting Baril Coatings Polska',
+      'Oprichting Baril Coatings USA · start CO₂-footprintmonitoring',
+      'Nederlands patent voor DCC- (DualCure-)technologie',
+      'Biobased grondstoffen als kernwaarde aangenomen',
+      'Introductie biobased schilderverven · overname door Geert Duijghuisen',
+      'DCC gepatenteerd in de EU, VS en Canada · Best Managed Company',
+      "Zonnedaken in Etten-Leur en 's-Hertogenbosch",
+      'Start Baril Academy',
+      'Wagenpark volledig elektrisch · plantaardige consumentenmerken in eigen beheer']],
+    ['.vm-k', ['Missie', 'Visie', 'Hoe']],
+    ['.vm p:not(.vm-k)', [
+      'Duurzame coatingoplossingen bieden aan klanten en stakeholders — op weg naar het groenste verfbedrijf van Nederland.',
+      "Een 'one-planet'-gedachtegoed, verankerd in ons DNA: wat we erin stoppen, willen we er ook weer uithalen. Elke productlijn gaat over naar biobased grondstoffen — 100% herwinbaar is het doel.",
+      'Dunne-laag-technologie, biobased en watergedragen chemie, emissiearme fabrieken en actief werk aan de UN Sustainable Development Goals — bewezen in projecten als Bright Coatings.']],
     // chapter A
     ['#bio .eyebrow', 'Hoofdstuk 01 · Circulaire grondstoffen'],
     ['#bio h2', 'Van vat<br>naar bio'],
