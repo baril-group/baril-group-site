@@ -61,6 +61,7 @@
       pl: 'Baril zaczął w 1982 roku jako mały wytwórca farb w Moerkapelle — garstka zaangażowanych ludzi w szopie. Cztery dekady później to międzynarodowy producent powłok z zakładami w Holandii, USA i Polsce, wciąż prowadzony przez rodzinę Duijghuisen. Stała wartość: odwaga, by dokonywać innych wyborów, ze społeczną odpowiedzialnością biznesu jako rdzeniem.',
       ro: 'Baril a început în 1982 ca un mic producător de vopsea în Moerkapelle — un grup restrâns de oameni dedicați, într-o magazie. Patru decenii mai târziu este un producător internațional de acoperiri, cu fabrici în Țările de Jos, SUA și Polonia, condus în continuare de familia Duijghuisen. Constanta: curajul de a face alegeri diferite, cu responsabilitatea socială în centru.' }],
     ['.story-drawing figcaption', { nl: 'De oorspronkelijke fabriek — de begindagen', pl: 'Pierwotna fabryka — początki', ro: 'Fabrica originală — primii ani' }],
+    ['.story-team figcaption', { nl: 'Ons grootste kapitaal — een betrokken, gedreven team', pl: 'Nasz największy kapitał — zaangażowany, zmotywowany zespół', ro: 'Cel mai mare capital al nostru — o echipă dedicată și motivată' }],
     ['.story-col h3', {
       nl: ['Familiebedrijf, uit overtuiging', 'Wereldspeler, dicht bij huis'],
       pl: ['Firma rodzinna, z przekonania', 'Gracz światowy, blisko domu'],
