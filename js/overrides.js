@@ -47,10 +47,9 @@
 
     imgHero:          { sel: '#heroPhoto', img: 'bg' },
     imgPaintBand:     { sel: '.paint-band img', img: 'src' },
-    imgGlobeLab:      { sel: '#globe .chap-media img', i: 0, img: 'src' },
+    imgGlobeLab:      { sel: '#globe .media-band img', img: 'src' },
     imgSafetyPainter: { sel: '.air-fig img', img: 'src' },
-    imgLocalField:    { sel: '#local .chap-media img', i: 0, img: 'src' },
-    imgLocalSolar:    { sel: '#local .chap-media img', i: 1, img: 'src' },
+    imgLocalSolar:    { sel: '#local .media-band img', img: 'src' },
     imgRenewAirmix:   { sel: '.renew-hero img', img: 'src' }
   };
 
