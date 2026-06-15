@@ -5,9 +5,11 @@ Decap-compatible, Git-based CMS). Editors log in with their **GitHub account**,
 change texts (English + Dutch) and images in a form, and on **Save** the change
 is committed to this repository — GitHub Pages then republishes automatically.
 
-> **Both sites are editable.** The editor has two collections:
-> **Baril Coatings** (`barilcoatings/content/coatings.json`) and
-> **Baril Group** (`content/group.json`). Same login, same workflow.
+> **One admin for all Baril brands.** Every brand/site is a collection in the
+> same sidebar, behind one login:
+> - **Baril Group** — `content/group.json`
+> - **Baril Coatings** — `barilcoatings/content/coatings.json`
+> - *future sub-brands* — added the same way (see "Add a new brand" below).
 
 The editor itself is built and committed. To make **login** work, one
 **one-time, ~10-minute** setup is needed (it can't be done from code — it needs
@@ -57,7 +59,7 @@ password system is involved.
 
 ## How editing works day-to-day
 1. Open `/admin`, sign in with GitHub.
-2. Pick **Baril Coatings — one-pager → Teksten & beelden**.
+2. Pick a brand in the sidebar (**Baril Group**, **Baril Coatings**, …) **→ Teksten & beelden**.
 3. Edit any English/Dutch text, or upload a new image.
 4. **Save** (publish). A commit lands on `main`; the live page updates in ~1–2
    minutes at `…/baril-group-site/barilcoatings/`.
@@ -76,3 +78,20 @@ page from the editor. Images you upload are stored in
 - The Group site uses the same pattern: `content/group.json`,
   `js/overrides.js` (repo root) and the `group` collection in
   `admin/config.yml`.
+
+## Add a new brand (e.g. a future sub-brand under Group)
+Every brand is just another collection — no new admin, no new login.
+
+1. **Site** — give the brand its own folder/site (e.g. `copperant/index.html`),
+   in the brand's own design language.
+2. **Content file** — create `copperant/content/copperant.json` with the
+   editable texts/images (same shape as `coatings.json`: `{ "key": {"en","nl",…} }`
+   for text, plain paths for images).
+3. **Apply layer** — add `copperant/js/overrides.js` (copy an existing one),
+   set its `FILE` to the new JSON and map each key to a CSS selector in
+   `FIELD_MAP`; include it from the brand's `index.html`.
+4. **Collection** — add a `- name: copperant` collection in `admin/config.yml`
+   pointing at `copperant/content/copperant.json`, with labelled fields.
+
+It then shows up automatically in the same `/admin` sidebar. (Happy to scaffold
+this for each new brand when it's ready.)
