@@ -213,26 +213,29 @@
       pl: ['Założona w Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transformacja w kierunku 100% odnawialnych'],
       ro: ['Înființată în Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Tranziție către 100% regenerabil'] }],
     ['#brands .eyebrow', { nl: 'Portfolio', pl: 'Portfolio', ro: 'Portofoliu' }],
-    ['#brands h2', { nl: 'Eén missie,<br>drie merken', pl: 'Jedna misja,<br>trzy marki', ro: 'O misiune,<br>trei mărci' }],
+    ['#brands h2', { nl: 'Eén missie,<br>vier merken', pl: 'Jedna misja,<br>cztery marki', ro: 'O misiune,<br>patru mărci' }],
     ['#brands .sec-head p:last-child', {
       nl: 'Elk merk brengt dezelfde chemie-eerst-filosofie naar een ander publiek — van offshore-staal tot de muur in je woonkamer.',
       pl: 'Każda marka niesie tę samą filozofię „chemia przede wszystkim” do innej grupy odbiorców — od stali offshore po ścianę w Twoim salonie.',
       ro: 'Fiecare marcă duce aceeași filozofie „chimia mai întâi” către un public diferit — de la oțelul offshore la peretele din livingul tău.' }],
-    ['.brand .tag', { nl: ['Voor de industrie', 'Voor de vakschilder', 'Voor thuis'], pl: ['Dla przemysłu', 'Dla profesjonalnego malarza', 'Do domu'], ro: ['Pentru industrie', 'Pentru zugravul profesionist', 'Pentru casă'] }],
+    ['.brand .tag', { nl: ['Voor de industrie', 'Voor de vakschilder', 'Voor thuis', 'Voor de tuinbouw'], pl: ['Dla przemysłu', 'Dla profesjonalnego malarza', 'Do domu', 'Dla ogrodnictwa'], ro: ['Pentru industrie', 'Pentru zugravul profesionist', 'Pentru casă', 'Pentru horticultură'] }],
     ['.brand > div:first-child > p:not(.tag)', {
       nl: [
         'Hoogwaardige industriële coatings en bouwverven. Dunne-laag-bescherming voor staal en infrastructuur, OEM en metaalindustrie, marine & offshore — ontwikkeld om materialen langer te laten meegaan met minder verf.',
         'Een compleet biobased verfsysteem voor de professionele schilder. Plantaardige chemie met EU Ecolabel en Cradle to Cradle-certificering — de groenste verf, mengbaar in elke kleur.',
-        'Plantaardige muur- en lakverf voor iedereen. Kleurcollecties samengesteld door experts, mengbaar in elke kleur van de regenboog — online en in het schap bij Karwei.'],
+        'Plantaardige muur- en lakverf voor iedereen. Kleurcollecties samengesteld door experts, mengbaar in elke kleur van de regenboog — online en in het schap bij Karwei.',
+        'Een tijdelijke schaduwcoating voor kassen die jonge gewassen beschermt tegen de felle zon. Optimale lichtregulatie op glas en polycarbonaat, gemaakt van circulair krijt — en volledig verwijderbaar.'],
       pl: [
         'Wysokiej jakości powłoki przemysłowe i farby budowlane. Cienkowarstwowa ochrona stali i infrastruktury, OEM i przemysłu metalowego, morskie i offshore — opracowane, by materiały służyły dłużej przy mniejszej ilości farby.',
         'Kompletny biobazowy system malarski dla profesjonalnego malarza. Chemia roślinna z EU Ecolabel i certyfikatem Cradle to Cradle — najbardziej zielona farba, mieszalna w każdym kolorze.',
-        'Roślinna farba ścienna i lakierowa dla każdego. Kolekcje kolorów tworzone przez ekspertów, mieszane w każdym kolorze tęczy — online i na półce w Karwei.'],
+        'Roślinna farba ścienna i lakierowa dla każdego. Kolekcje kolorów tworzone przez ekspertów, mieszane w każdym kolorze tęczy — online i na półce w Karwei.',
+        'Tymczasowa powłoka cieniująca do szklarni, która chroni młode uprawy przed ostrym słońcem. Optymalna regulacja światła na szkle i poliwęglanie, wykonana z obiegowej kredy — i całkowicie usuwalna.'],
       ro: [
         'Acoperiri industriale și vopsele pentru construcții de înaltă performanță. Protecție în strat subțire pentru oțel și infrastructură, OEM și industria metalică, maritim și offshore — concepute pentru a prelungi viața materialelor cu mai puțină vopsea.',
         'Un sistem complet de vopsea biobazată pentru zugravul profesionist. Chimie vegetală cu EU Ecolabel și certificare Cradle to Cradle — cea mai verde vopsea, nuanțabilă în orice culoare.',
-        'Vopsea vegetală pentru pereți și lac pentru toți. Colecții de culori create de experți, nuanțate în orice culoare a curcubeului — online și pe raft la Karwei.'] }],
-    ['.spec b', { nl: ['Assortiment', 'Assortiment', 'Assortiment'], pl: ['Asortyment', 'Asortyment', 'Asortyment'], ro: ['Gamă', 'Gamă', 'Gamă'] }],
+        'Vopsea vegetală pentru pereți și lac pentru toți. Colecții de culori create de experți, nuanțate în orice culoare a curcubeului — online și pe raft la Karwei.',
+        'O acoperire temporară de umbrire pentru sere care protejează culturile tinere de soarele puternic. Reglare optimă a luminii pe sticlă și policarbonat, fabricată din cretă circulară — și complet detașabilă.'] }],
+    ['.spec b', { nl: ['Assortiment', 'Assortiment', 'Assortiment', 'Assortiment'], pl: ['Asortyment', 'Asortyment', 'Asortyment', 'Asortyment'], ro: ['Gamă', 'Gamă', 'Gamă', 'Gamă'] }],
     ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică' }],
     ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril' }],
     ['#proof .sec-head p:last-child', {
