@@ -96,7 +96,7 @@ header{
   position:relative;padding:120px 0 80px;overflow:hidden;
 }
 .hero-photo{
-  position:fixed;inset:0;z-index:0;
+  position:fixed;inset:0;z-index:0;display:none; /* fallback only; video is the visible layer */
   background:url('../assets/img/IMG-01-hero.jpg') center 38%/cover no-repeat;
   opacity:.42;filter:saturate(.9);
   -webkit-mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
@@ -109,7 +109,7 @@ header{
   -webkit-mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
           mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
 }
-@media(prefers-reduced-motion:reduce){.hero-video{display:none}}
+@media(prefers-reduced-motion:reduce){.hero-video{display:none}.hero-photo{display:block}}
 @media(max-width:768px){
   .hero-photo{background-image:url('../assets/img/IMG-01-hero-m.jpg')}
 }
