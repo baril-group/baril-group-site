@@ -19,19 +19,19 @@
     nl: { eyebrow: 'Productcatalogus · Baril Coatings', h1: 'Alle <span class="paint">coatings</span>',
       lead: 'Het volledige assortiment industriële en beschermende coatings van Baril Coatings — per productlijn, met omschrijving, eigenschappen en een directe link naar de datasheet.',
       search: 'Zoek op productnaam, code of eigenschap…', allLines: 'Alle lijnen', clear: 'Wis filters',
-      count: (s, t, f) => `${s} van ${t} producten${f ? ' (gefilterd)' : ''}`, none: 'Geen producten gevonden. Pas je zoekopdracht of filters aan.', products: n => n === 1 ? 'product' : 'producten' },
+      count: (s, t, f) => `${s} van ${t} producten${f ? ' (gefilterd)' : ''}`, none: 'Geen producten gevonden. Pas je zoekopdracht of filters aan.', products: n => n === 1 ? 'product' : 'producten', filters: 'Filters' },
     en: { eyebrow: 'Product catalogue · Baril Coatings', h1: 'All <span class="paint">coatings</span>',
       lead: 'The complete range of industrial and protective coatings from Baril Coatings — per product line, with description, properties and a direct link to the datasheet.',
       search: 'Search by product name, code or property…', allLines: 'All lines', clear: 'Clear filters',
-      count: (s, t, f) => `${s} of ${t} products${f ? ' (filtered)' : ''}`, none: 'No products found. Adjust your search or filters.', products: n => n === 1 ? 'product' : 'products' },
+      count: (s, t, f) => `${s} of ${t} products${f ? ' (filtered)' : ''}`, none: 'No products found. Adjust your search or filters.', products: n => n === 1 ? 'product' : 'products', filters: 'Filters' },
     pl: { eyebrow: 'Katalog produktów · Baril Coatings', h1: 'Wszystkie <span class="paint">powłoki</span>',
       lead: 'Pełny asortyment przemysłowych i ochronnych powłok Baril Coatings — według linii produktowej, z opisem, właściwościami i bezpośrednim linkiem do karty technicznej.',
       search: 'Szukaj po nazwie, kodzie lub właściwości…', allLines: 'Wszystkie linie', clear: 'Wyczyść filtry',
-      count: (s, t, f) => `${s} z ${t} produktów${f ? ' (filtrowane)' : ''}`, none: 'Nie znaleziono produktów. Zmień wyszukiwanie lub filtry.', products: () => 'produktów' },
+      count: (s, t, f) => `${s} z ${t} produktów${f ? ' (filtrowane)' : ''}`, none: 'Nie znaleziono produktów. Zmień wyszukiwanie lub filtry.', products: () => 'produktów', filters: 'Filtry' },
     ro: { eyebrow: 'Catalog de produse · Baril Coatings', h1: 'Toate <span class="paint">acoperirile</span>',
       lead: 'Gama completă de acoperiri industriale și de protecție Baril Coatings — pe linii de produse, cu descriere, proprietăți și link direct către fișa tehnică.',
       search: 'Caută după nume, cod sau proprietate…', allLines: 'Toate liniile', clear: 'Șterge filtrele',
-      count: (s, t, f) => `${s} din ${t} produse${f ? ' (filtrate)' : ''}`, none: 'Niciun produs găsit. Ajustează căutarea sau filtrele.', products: () => 'produse' }
+      count: (s, t, f) => `${s} din ${t} produse${f ? ' (filtrate)' : ''}`, none: 'Niciun produs găsit. Ajustează căutarea sau filtrele.', products: () => 'produse', filters: 'Filtre' }
   };
 
   const root = document.getElementById('catalogue');
@@ -146,6 +146,7 @@
     }
     if (!shown) root.appendChild(el('p', 'pempty', T[lang].none));
     renderCount(shown);
+    updateFilterToggle();
   }
 
   const isFiltering = () => activeBrand !== 'all' || (searchEl.value || '').trim() || Object.values(activeAttr).some(s => s.size);
@@ -172,8 +173,29 @@
     BRAND_ORDER.filter(b => DATA.products.some(p => p.brand === b)).forEach(b => { const m = DATA.brands[b] || { name: b }; chipsEl.appendChild(mk(b, m.name)); });
   }
 
+  function ensureFilterToggle() {
+    if (document.getElementById('pftoggle')) return;
+    const tg = el('button', 'pftoggle'); tg.id = 'pftoggle'; tg.type = 'button';
+    tg.setAttribute('aria-controls', 'pfilters'); tg.setAttribute('aria-expanded', 'false');
+    tg.appendChild(el('span', 'pftoggle-label', T[lang].filters));
+    tg.appendChild(el('span', 'pftoggle-ar', '▾'));
+    tg.addEventListener('click', () => {
+      const open = filtersEl.classList.toggle('open');
+      tg.setAttribute('aria-expanded', open ? 'true' : 'false');
+      tg.querySelector('.pftoggle-ar').textContent = open ? '▴' : '▾';
+    });
+    filtersEl.parentNode.insertBefore(tg, filtersEl);
+  }
+  function updateFilterToggle() {
+    const tg = document.getElementById('pftoggle'); if (!tg) return;
+    const n = Object.values(activeAttr).reduce((a, s) => a + s.size, 0);
+    const lbl = tg.querySelector('.pftoggle-label');
+    if (lbl) lbl.textContent = T[lang].filters + (n ? ' (' + n + ')' : '');
+  }
+
   function buildFilters() {
     filtersEl.innerHTML = '';
+    ensureFilterToggle();
     for (const g of FILTER_ORDER) {
       const values = [...new Set(DATA.products.flatMap(p => (p.attrs && p.attrs[g]) || []))];
       if (!values.length) continue;
