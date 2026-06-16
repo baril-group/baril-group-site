@@ -236,6 +236,20 @@
         'Vopsea vegetală pentru pereți și lac pentru toți. Colecții de culori create de experți, nuanțate în orice culoare a curcubeului — online și pe raft la Karwei.',
         'O acoperire temporară de umbrire pentru sere care protejează culturile tinere de soarele puternic. Reglare optimă a luminii pe sticlă și policarbonat, fabricată din cretă circulară — și complet detașabilă.'] }],
     ['.spec b', { nl: ['Assortiment', 'Assortiment', 'Assortiment', 'Assortiment'], pl: ['Asortyment', 'Asortyment', 'Asortyment', 'Asortyment'], ro: ['Gamă', 'Gamă', 'Gamă', 'Gamă'] }],
+    ['#contact .eyebrow', { nl: 'Contact', pl: 'Kontakt', ro: 'Contact' }],
+    ['#contact h2', { nl: 'Vind je<br>dichtstbijzijnde vestiging', pl: 'Znajdź<br>najbliższe biuro', ro: 'Găsește<br>cel mai apropiat birou' }],
+    ['#contact .sec-head p:last-child', {
+      nl: 'Baril Group ontwikkelt en produceert in Europa en Noord-Amerika. Neem rechtstreeks contact op met het team — voor producten, technische ondersteuning of een monster.',
+      pl: 'Baril Group opracowuje i produkuje w Europie i Ameryce Północnej. Skontaktuj się bezpośrednio z zespołem — w sprawie produktów, wsparcia technicznego lub próbki.',
+      ro: 'Baril Group dezvoltă și produce în Europa și America de Nord. Contactează direct echipa — pentru produse, asistență tehnică sau o mostră.' }],
+    ['.loc-tag', {
+      nl: ['Hoofdkantoor · NL','Productie · NL','Baril Coatings Polska · PL','Baril Coatings USA · Noord-Amerika','Baril Coatings România · RO','Baril Caucasia · GE'],
+      pl: ['Siedziba · NL','Produkcja · NL','Baril Coatings Polska · PL','Baril Coatings USA · Ameryka Płn.','Baril Coatings România · RO','Baril Caucasia · GE'],
+      ro: ['Sediu central · NL','Producție · NL','Baril Coatings Polska · PL','Baril Coatings USA · America de Nord','Baril Coatings România · RO','Baril Caucasia · GE'] }],
+    ['.loc-note', {
+      nl: ['Biobased &amp; watergedragen verven','Distributeur — Baril Coatings BV'],
+      pl: ['Farby biobazowe i wodorozcieńczalne','Dystrybutor — Baril Coatings BV'],
+      ro: ['Vopsele biobazate și pe bază de apă','Distribuitor — Baril Coatings BV'] }],
     ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică' }],
     ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril' }],
     ['#proof .sec-head p:last-child', {

@@ -127,7 +127,7 @@
       nl: 'Ontvang meer informatie, technische ondersteuning of een gratis monster van Nixol Transparant. Ons team helpt je graag het beste klimaat voor je gewassen te creëren.',
       pl: 'Otrzymaj więcej informacji, wsparcie techniczne lub darmową próbkę Nixol Transparant. Nasz zespół chętnie pomoże stworzyć najlepszy klimat dla Twoich upraw.',
       ro: 'Primește mai multe informații, asistență tehnică sau o mostră gratuită de Nixol Transparant. Echipa noastră te ajută cu plăcere să creezi cel mai bun climat pentru culturile tale.' }],
-    ['.cta-card .btn-solid', { nl: 'Neem contact op', pl: 'Skontaktuj się', ro: 'Contactează echipa' }],
+    ['.cta-card .btn-solid', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri' }],
     ['.cta-card .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group' }],
 
     ['.foot-claim', {
