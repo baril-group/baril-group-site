@@ -96,17 +96,27 @@ header{
   position:relative;padding:120px 0 80px;overflow:hidden;
 }
 .hero-photo{
-  position:absolute;inset:0;z-index:0;
+  position:fixed;inset:0;z-index:0;
   background:url('../assets/img/IMG-01-hero.jpg') center 38%/cover no-repeat;
   opacity:.42;filter:saturate(.9);
   -webkit-mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
           mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
 }
+.hero-video{
+  position:fixed;inset:0;z-index:0;
+  width:100%;height:100%;object-fit:cover;object-position:center 38%;
+  opacity:.42;filter:saturate(.9);
+  -webkit-mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
+          mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
+}
+@media(prefers-reduced-motion:reduce){.hero-video{display:none}}
 @media(max-width:768px){
   .hero-photo{background-image:url('../assets/img/IMG-01-hero-m.jpg')}
 }
+/* opaque scrolling layer that slides up over the pinned hero backdrop */
+.page-flow{position:relative;z-index:1;background:var(--navy-950)}
 .hero-tint{
-  position:absolute;inset:0;z-index:0;
+  position:fixed;inset:0;z-index:0;
   background:
     linear-gradient(180deg,rgba(5,13,24,.82) 0%,rgba(5,13,24,.55) 45%,var(--navy-950) 96%),
     radial-gradient(900px 520px at 80% 6%,rgba(47,183,206,.16),transparent 65%),
