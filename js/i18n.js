@@ -243,13 +243,13 @@
       pl: 'Baril Group opracowuje i produkuje w Europie i Ameryce Północnej. Skontaktuj się bezpośrednio z zespołem — w sprawie produktów, wsparcia technicznego lub próbki.',
       ro: 'Baril Group dezvoltă și produce în Europa și America de Nord. Contactează direct echipa — pentru produse, asistență tehnică sau o mostră.' }],
     ['.loc-tag', {
-      nl: ['Hoofdkantoor · NL','Productie · NL','Baril Coatings Polska · PL','Baril Coatings USA · Noord-Amerika','Baril Coatings România · RO','Baril Caucasia · GE'],
-      pl: ['Siedziba · NL','Produkcja · NL','Baril Coatings Polska · PL','Baril Coatings USA · Ameryka Płn.','Baril Coatings România · RO','Baril Caucasia · GE'],
-      ro: ['Sediu central · NL','Producție · NL','Baril Coatings Polska · PL','Baril Coatings USA · America de Nord','Baril Coatings România · RO','Baril Caucasia · GE'] }],
+      nl: ['Hoofdkantoor · NL','Productie · NL','Baril Polska · PL','Baril USA · Noord-Amerika','Baril România · RO','Baril Caucasia · GE'],
+      pl: ['Siedziba · NL','Produkcja · NL','Baril Polska · PL','Baril USA · Ameryka Płn.','Baril România · RO','Baril Caucasia · GE'],
+      ro: ['Sediu central · NL','Producție · NL','Baril Polska · PL','Baril USA · America de Nord','Baril România · RO','Baril Caucasia · GE'] }],
     ['.loc-note', {
-      nl: ['Biobased &amp; watergedragen verven','Distributeur — Baril Coatings BV'],
-      pl: ['Farby biobazowe i wodorozcieńczalne','Dystrybutor — Baril Coatings BV'],
-      ro: ['Vopsele biobazate și pe bază de apă','Distribuitor — Baril Coatings BV'] }],
+      nl: ['Biobased &amp; watergedragen verven','Officiële distributeur'],
+      pl: ['Farby biobazowe i wodorozcieńczalne','Oficjalny dystrybutor'],
+      ro: ['Vopsele biobazate și pe bază de apă','Distribuitor oficial'] }],
     ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică' }],
     ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril' }],
     ['#proof .sec-head p:last-child', {
