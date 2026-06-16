@@ -153,19 +153,19 @@
     ['.pillar .pn', { nl: ['Hernieuwbaar', 'Snelle uitharding', 'Heavy-duty', 'Watergedragen', 'Enkelpak'], pl: ['Odnawialne', 'Szybkie utwardzanie', 'Wytrzymałe', 'Wodorozcieńczalne', 'Jednoskładnikowy'], ro: ['Regenerabil', 'Întărire rapidă', 'Rezistență mare', 'Pe bază de apă', 'Monocomponent'] }],
     ['.pillar h4 + p', {
       nl: [
-        'Industriële coatings op basis van plantaardige en reststroom-grondstoffen — fossiele chemie eruit ontworpen, de bescherming erin gehouden.',
+        'De circulaire filosofie van Baril Group vindt steeds meer haar weg over alle onderstaande productlijnen — fossiele chemie eruit ontworpen, de bescherming erin gehouden.',
         'Dual-cure-technologie voor OEM en metaalindustrie: snelle doorharding en een taaie, duurzame afwerking, sneller klaar voor verwerking.',
         'Zware corrosiebescherming voor staal en infrastructuur — high-build-prestaties in dunnere, slimmere lagen.',
         'Watergedragen, emissiearme coatings die beschermen zonder de oplosmiddelenlast — schoner op de klus en in de lucht.',
         'Eencomponent biobased alkydcoatings — anticorrosieve bescherming in kleur voor staalconstructie, eenvoudig en snel aan te brengen.'],
       pl: [
-        'Powłoki przemysłowe na bazie surowców roślinnych i ze strumieni odpadowych — chemia kopalna wyeliminowana, ochrona zachowana.',
+        'Cyrkularna filozofia Baril Group coraz częściej znajduje swoje miejsce we wszystkich poniższych liniach produktowych — chemia kopalna wyeliminowana, ochrona zachowana.',
         'Technologia podwójnego utwardzania dla OEM i przemysłu metalowego: szybkie utwardzanie na wskroś i twarde, trwałe wykończenie, szybciej gotowe do obróbki.',
         'Wytrzymała ochrona antykorozyjna dla stali i infrastruktury — wysoka wydajność w cieńszych, inteligentniejszych warstwach.',
         'Wodorozcieńczalne powłoki o niskiej emisji, które chronią bez obciążenia rozpuszczalnikami — czyściej w pracy i w powietrzu.',
         'Jednoskładnikowe biobazowe powłoki alkidowe — antykorozyjna ochrona w kolorze dla konstrukcji stalowych, łatwa i szybka w aplikacji.'],
       ro: [
-        'Acoperiri industriale pe bază de materii prime vegetale și fluxuri reziduale — chimia fosilă eliminată, protecția păstrată.',
+        'Filozofia circulară a Baril Group își găsește tot mai mult locul în toate liniile de produse de mai jos — chimia fosilă eliminată, protecția păstrată.',
         'Tehnologie cu întărire dublă pentru OEM și industria metalică: întărire rapidă în profunzime și un finisaj dur, durabil, gata de manipulare mai devreme.',
         'Protecție anticorozivă de mare rezistență pentru oțel și infrastructură — performanță high-build în straturi mai subțiri și mai inteligente.',
         'Acoperiri pe bază de apă, cu emisii reduse, care protejează fără încărcătura de solvenți — mai curate la lucru și în aer.',
