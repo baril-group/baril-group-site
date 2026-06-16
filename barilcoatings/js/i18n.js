@@ -150,27 +150,30 @@
       nl: 'Elk assortiment brengt dezelfde chemie-eerst-aanpak naar een andere klus — ontwikkeld om langer te beschermen met minder.',
       pl: 'Każda gama przenosi to samo podejście „chemia przede wszystkim" na inne zadanie — zaprojektowana, by chronić dłużej przy mniejszym zużyciu.',
       ro: 'Fiecare gamă duce aceeași abordare „chimia mai întâi" către o altă aplicație — concepută să protejeze mai mult cu mai puțin.' }],
-    ['.pillar .pn', { nl: ['Hernieuwbaar', 'Snelle uitharding', 'Heavy-duty', 'Watergedragen'], pl: ['Odnawialne', 'Szybkie utwardzanie', 'Wytrzymałe', 'Wodorozcieńczalne'], ro: ['Regenerabil', 'Întărire rapidă', 'Rezistență mare', 'Pe bază de apă'] }],
+    ['.pillar .pn', { nl: ['Hernieuwbaar', 'Snelle uitharding', 'Heavy-duty', 'Watergedragen', 'Enkelpak'], pl: ['Odnawialne', 'Szybkie utwardzanie', 'Wytrzymałe', 'Wodorozcieńczalne', 'Jednoskładnikowy'], ro: ['Regenerabil', 'Întărire rapidă', 'Rezistență mare', 'Pe bază de apă', 'Monocomponent'] }],
     ['.pillar h4 + p', {
       nl: [
         'Industriële coatings op basis van plantaardige en reststroom-grondstoffen — fossiele chemie eruit ontworpen, de bescherming erin gehouden.',
         'Dual-cure-technologie voor OEM en metaalindustrie: snelle doorharding en een taaie, duurzame afwerking, sneller klaar voor verwerking.',
         'Zware corrosiebescherming voor staal en infrastructuur — high-build-prestaties in dunnere, slimmere lagen.',
-        'Watergedragen, emissiearme coatings die beschermen zonder de oplosmiddelenlast — schoner op de klus en in de lucht.'],
+        'Watergedragen, emissiearme coatings die beschermen zonder de oplosmiddelenlast — schoner op de klus en in de lucht.',
+        'Eencomponent biobased alkydcoatings — anticorrosieve bescherming in kleur voor staalconstructie, eenvoudig en snel aan te brengen.'],
       pl: [
         'Powłoki przemysłowe na bazie surowców roślinnych i ze strumieni odpadowych — chemia kopalna wyeliminowana, ochrona zachowana.',
         'Technologia podwójnego utwardzania dla OEM i przemysłu metalowego: szybkie utwardzanie na wskroś i twarde, trwałe wykończenie, szybciej gotowe do obróbki.',
         'Wytrzymała ochrona antykorozyjna dla stali i infrastruktury — wysoka wydajność w cieńszych, inteligentniejszych warstwach.',
-        'Wodorozcieńczalne powłoki o niskiej emisji, które chronią bez obciążenia rozpuszczalnikami — czyściej w pracy i w powietrzu.'],
+        'Wodorozcieńczalne powłoki o niskiej emisji, które chronią bez obciążenia rozpuszczalnikami — czyściej w pracy i w powietrzu.',
+        'Jednoskładnikowe biobazowe powłoki alkidowe — antykorozyjna ochrona w kolorze dla konstrukcji stalowych, łatwa i szybka w aplikacji.'],
       ro: [
         'Acoperiri industriale pe bază de materii prime vegetale și fluxuri reziduale — chimia fosilă eliminată, protecția păstrată.',
         'Tehnologie cu întărire dublă pentru OEM și industria metalică: întărire rapidă în profunzime și un finisaj dur, durabil, gata de manipulare mai devreme.',
         'Protecție anticorozivă de mare rezistență pentru oțel și infrastructură — performanță high-build în straturi mai subțiri și mai inteligente.',
-        'Acoperiri pe bază de apă, cu emisii reduse, care protejează fără încărcătura de solvenți — mai curate la lucru și în aer.'] }],
+        'Acoperiri pe bază de apă, cu emisii reduse, care protejează fără încărcătura de solvenți — mai curate la lucru și în aer.',
+        'Acoperiri alchidice biobazate monocomponent — protecție anticorozivă în culoare pentru construcții din oțel, ușor și rapid de aplicat.'] }],
     ['.ranges-note', {
-      nl: 'Ook: <strong>Bariline</strong> bouwsystemen · <strong>FleetSpec</strong> (VS). <a href="products/">Bekijk alle producten →</a>',
-      pl: 'Również: systemy budowlane <strong>Bariline</strong> · <strong>FleetSpec</strong> (USA). <a href="products/">Zobacz wszystkie produkty →</a>',
-      ro: 'De asemenea: sisteme de construcție <strong>Bariline</strong> · <strong>FleetSpec</strong> (SUA). <a href="products/">Vezi toate produsele →</a>' }],
+      nl: 'Ook: <strong>FleetSpec</strong> (VS). <a href="products/">Bekijk alle producten →</a>',
+      pl: 'Również: <strong>FleetSpec</strong> (USA). <a href="products/">Zobacz wszystkie produkty →</a>',
+      ro: 'De asemenea: <strong>FleetSpec</strong> (SUA). <a href="products/">Vezi toate produsele →</a>' }],
     ['.renew-cap', {
       nl: 'Bescherming, met precisie aangebracht — met technisch advies en Baril Academy-training.',
       pl: 'Ochrona nakładana z precyzją — ze wsparciem technicznym i szkoleniami Baril Academy.',
