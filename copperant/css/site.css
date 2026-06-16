@@ -66,12 +66,17 @@ a{color:inherit}
 .ribbon{fill:none;stroke:url(#coGrad);stroke-width:3;stroke-linecap:round;opacity:.6;filter:drop-shadow(0 2px 8px rgba(176,103,59,.25))}
 
 /* hero (gradient + botanical art; no photo) */
-header#top{min-height:94svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;padding:150px 0 70px;overflow:hidden;
+header#top{min-height:94svh;display:flex;flex-direction:column;justify-content:center;position:relative;padding:150px 0 70px;overflow:hidden;
   background:radial-gradient(1100px 680px at 82% -8%,rgba(176,103,59,.20),transparent 58%),radial-gradient(900px 600px at 0% 100%,rgba(47,107,67,.16),transparent 60%),linear-gradient(180deg,#FBFAF4 0%,var(--paper) 70%)}
 .hero-art{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
 .leaf-art{position:absolute;top:6%;right:4%;width:min(40vw,520px);opacity:.85;animation:floaty 16s ease-in-out infinite}
 @keyframes floaty{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-16px) rotate(-2deg)}}
 header#top .wrap{display:flex;flex-direction:column}
+header#top .wrap.hero-split{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(28px,5vw,60px);align-items:center}
+.hero-copy{display:flex;flex-direction:column}
+.hero-figure{justify-self:end}
+.hero-figure img{width:100%;max-width:520px;aspect-ratio:1;object-fit:cover;border-radius:24px;box-shadow:var(--shadow);border:1px solid var(--line-2)}
+@media(max-width:860px){header#top .wrap.hero-split{grid-template-columns:1fr}.hero-figure{display:none}}
 h1{font-family:var(--head);font-weight:900;letter-spacing:-.02em;line-height:.95;font-size:clamp(46px,8.6vw,112px);margin:6px 0 0;color:var(--ink)}
 h1 .copper{color:var(--copper-600)}
 h1 .green{color:var(--green)}
