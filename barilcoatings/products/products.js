@@ -193,6 +193,9 @@
   applyChrome();
   fetch('products.json', { cache: 'no-cache' })
     .then(r => r.json())
-    .then(d => { DATA = d; const g = document.getElementById('genDate'); if (g && d.generated) g.textContent = d.generated; buildChips(); buildFilters(); render(); searchEl.addEventListener('input', render); })
+    .then(d => { DATA = d; const g = document.getElementById('genDate'); if (g && d.generated) g.textContent = d.generated;
+      try { const lp = (new URLSearchParams(location.search).get('line') || '').toLowerCase().trim();
+        if (lp && DATA.products.some(p => p.brand === lp)) activeBrand = lp; } catch (e) {}
+      buildChips(); buildFilters(); render(); searchEl.addEventListener('input', render); })
     .catch(() => { root.appendChild(el('p', 'pempty', 'Kon de productdata niet laden.')); });
 })();

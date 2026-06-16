@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../css/site.css">
 <link rel="stylesheet" href="../css/brand.css">
 </head>
-<body style="--accent:#2E8C9E">
+<body data-brand="aquaran" style="--accent:#2E8C9E">
 
 <nav id="nav" class="scrolled">
   <a class="logo" href="../" aria-label="Baril Coatings"><img src="../assets/img/logo-baril-coatings.svg" alt="Baril Coatings"></a>
@@ -21,6 +21,12 @@
     <a href="../steelkote/">SteelKote</a>
     <a href="../bariline/">Bariline</a>
     <a href="../products/">All products</a>
+  </div>
+  <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
+    <button type="button" data-lang="nl" title="Nederlands" aria-label="Nederlands"><img class="flag" src="../assets/img/flags/nl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="en" title="English" aria-label="English"><img class="flag" src="../assets/img/flags/en.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="pl" title="Polski" aria-label="Polski"><img class="flag" src="../assets/img/flags/pl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="ro" title="Română" aria-label="Română"><img class="flag" src="../assets/img/flags/ro.svg" alt="" width="22" height="15"></button>
   </div>
   <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
@@ -33,12 +39,12 @@
     <h1>Aquaran</h1>
     <p class="bp-sub">Water-based 1K &amp; 2K protective coatings for industrial finishing and steel — <strong>the protection of solvent systems, with far fewer emissions</strong>.</p>
     <div class="bp-cta">
-      <a class="btn btn-accent" href="../products/">View products</a>
+      <a class="btn btn-accent" href="../products/?line=aquaran">View products</a>
       <a class="btn btn-ghost" href="../#contact">Talk to an expert</a>
     </div>
     <div class="bp-quick">
       <span><b>1K &amp; 2K</b> systems</span>
-      <span><b>C1–C3</b> corrosivity</span>
+      <span><b>C1–C5</b> corrosivity</span>
       <span><b>Low-VOC</b> waterborne</span>
       <span>Steel · aluminium · galvanised</span>
     </div>
@@ -53,7 +59,7 @@
       <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><path d="M18 4C12 12 9 16 9 22a9 9 0 0 0 18 0c0-6-3-10-9-18Z"/></svg><b>Low VOC emissions</b><span>Water-based formulation drastically cuts volatile organic compounds versus solvent coatings.</span></div>
       <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><path d="M7 25l7-7 5 5 10-10"/><path d="M7 11h6M7 25h22"/></svg><b>1K &amp; 2K options</b><span>One- and two-component systems to match the job — from product finishing to steel protection.</span></div>
       <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><rect x="6" y="6" width="24" height="24" rx="3"/><path d="M6 15h24M15 6v24"/></svg><b>Multi-substrate</b><span>Reliable adhesion on steel, aluminium and galvanised surfaces.</span></div>
-      <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><circle cx="18" cy="18" r="12"/><path d="M18 6a12 12 0 0 1 0 24"/></svg><b>C1–C3 corrosivity</b><span>Engineered for low to medium atmospheric corrosivity classes.</span></div>
+      <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><circle cx="18" cy="18" r="12"/><path d="M18 6a12 12 0 0 1 0 24"/></svg><b>C1–C5 corrosivity</b><span>Engineered across atmospheric corrosivity classes C1 to C5.</span></div>
       <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><path d="M7 24l8-12 4 6 3-4 7 10Z"/><path d="M5 29h26"/></svg><b>Industrial finishing</b><span>A clean, consistent finish for OEM and industrial product lines.</span></div>
       <div class="bp-card rv"><svg class="ic" viewBox="0 0 36 36"><path d="M9 19a7 7 0 0 1 .5-13.5A8 8 0 0 1 26 9a6 6 0 0 1 1 12H9Z"/></svg><b>Cleaner on the job</b><span>Less solvent load means a healthier workplace and a lighter footprint.</span></div>
     </div>
@@ -79,7 +85,7 @@
   <div class="wrap">
     <div class="bp-stats">
       <div class="bp-stat rv"><div class="n"><em>Low</em></div><div class="l">VOC emissions vs. solvent-based</div></div>
-      <div class="bp-stat rv"><div class="n">C1<em>–</em>C3</div><div class="l">Atmospheric corrosivity classes</div></div>
+      <div class="bp-stat rv"><div class="n">C1<em>–</em>C5</div><div class="l">Atmospheric corrosivity classes</div></div>
       <div class="bp-stat rv"><div class="n">1K<em>/</em>2K</div><div class="l">One- and two-component systems</div></div>
       <div class="bp-stat rv"><div class="n"><em>H₂O</em></div><div class="l">Water-based by design</div></div>
     </div>
@@ -92,7 +98,7 @@
       <h2>Find the right Aquaran system</h2>
       <p>Explore the full Aquaran range in the Baril Coatings catalogue — with datasheets and safety sheets — or talk to our coating experts.</p>
       <div class="bp-cta">
-        <a class="btn btn-accent" href="../products/">Browse the catalogue</a>
+        <a class="btn btn-accent" href="../products/?line=aquaran">Browse the catalogue</a>
         <a class="btn btn-ghost" href="../#contact">Talk to an expert</a>
       </div>
     </div>
@@ -131,5 +137,6 @@
 
 <script src="../js/nav.js"></script>
 <script src="../js/brand.js"></script>
+<script src="../js/brand-i18n.js"></script>
 </body>
 </html>

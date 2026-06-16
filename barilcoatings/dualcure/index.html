@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../css/site.css">
 <link rel="stylesheet" href="../css/brand.css">
 </head>
-<body style="--accent:#F18A00">
+<body data-brand="dualcure" style="--accent:#F18A00">
 
 <nav id="nav" class="scrolled">
   <a class="logo" href="../" aria-label="Baril Coatings"><img src="../assets/img/logo-baril-coatings.svg" alt="Baril Coatings"></a>
@@ -21,6 +21,12 @@
     <a href="../steelkote/">SteelKote</a>
     <a href="../bariline/">Bariline</a>
     <a href="../products/">All products</a>
+  </div>
+  <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
+    <button type="button" data-lang="nl" title="Nederlands" aria-label="Nederlands"><img class="flag" src="../assets/img/flags/nl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="en" title="English" aria-label="English"><img class="flag" src="../assets/img/flags/en.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="pl" title="Polski" aria-label="Polski"><img class="flag" src="../assets/img/flags/pl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="ro" title="Română" aria-label="Română"><img class="flag" src="../assets/img/flags/ro.svg" alt="" width="22" height="15"></button>
   </div>
   <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
@@ -33,7 +39,7 @@
     <h1>DualCure</h1>
     <p class="bp-sub">A patented dual-curing technology — the chemical 2K reaction <strong>plus</strong> a moisture-driven cure, interlaced into one dense molecular mesh. Life-long protection, applied in a single day.</p>
     <div class="bp-cta">
-      <a class="btn btn-accent" href="../products/">View products</a>
+      <a class="btn btn-accent" href="../products/?line=dualcure">View products</a>
       <a class="btn btn-ghost" href="../#contact">Talk to an expert</a>
     </div>
     <div class="bp-quick">
@@ -92,7 +98,7 @@
       <h2>Specify DualCure</h2>
       <p>Explore the DualCure range in the Baril Coatings catalogue — with datasheets and safety sheets — or talk to our coating experts about your specification.</p>
       <div class="bp-cta">
-        <a class="btn btn-accent" href="../products/">Browse the catalogue</a>
+        <a class="btn btn-accent" href="../products/?line=dualcure">Browse the catalogue</a>
         <a class="btn btn-ghost" href="../#contact">Talk to an expert</a>
       </div>
     </div>
@@ -131,5 +137,6 @@
 
 <script src="../js/nav.js"></script>
 <script src="../js/brand.js"></script>
+<script src="../js/brand-i18n.js"></script>
 </body>
 </html>
