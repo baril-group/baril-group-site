@@ -110,6 +110,14 @@ header{
           mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
 }
 @media(prefers-reduced-motion:reduce){.hero-video{display:none}.hero-photo{display:block}}
+/* subtle interlace/scanlines over the hero to mask video compression */
+.hero-scan{
+  position:fixed;inset:0;z-index:1;pointer-events:none;
+  background:repeating-linear-gradient(to bottom,rgba(0,0,0,0) 0px,rgba(0,0,0,0) 2px,rgba(0,0,0,.14) 2px,rgba(0,0,0,.14) 3px);
+  -webkit-mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
+          mask-image:linear-gradient(180deg,black 0%,black 55%,transparent 95%);
+}
+@media(prefers-reduced-motion:reduce){.hero-scan{display:none}}
 @media(max-width:768px){
   .hero-photo{background-image:url('../assets/img/IMG-01-hero-m.jpg')}
 }

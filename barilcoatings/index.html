@@ -47,7 +47,11 @@
 
 <header id="top">
   <div class="hero-photo" id="heroPhoto"></div>
+  <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="assets/img/OWN-airmix.jpg" aria-hidden="true">
+    <source src="assets/video/hero-loop.mp4" type="video/mp4">
+  </video>
   <div class="hero-tint"></div>
+  <div class="hero-scan" aria-hidden="true"></div>
   <div class="hero-art" aria-hidden="true">
     <svg class="hero-emblem" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
       <defs>
@@ -77,6 +81,7 @@
   </div>
 </header>
 
+<div class="page-flow">
 <section id="about">
   <div class="wrap">
     <p class="eyebrow rv">Who we are</p>
@@ -607,6 +612,7 @@
     </div>
   </div>
 </footer>
+</div>
 
 <script src="js/site.js"></script>
 <script src="js/nav.js"></script>
