@@ -83,7 +83,11 @@
 
   <figure class="film rv" aria-label="Baril Coatings — To sustain our future, rich in colour">
     <div class="film-bleed">
-      <button type="button" class="film-play" id="filmPlay" data-yt="CYG3N-b-Dzk" aria-label="Play the film" style="background-image:url('assets/img/film-poster.jpg')">
+      <img class="film-poster-img" src="assets/img/film-poster.jpg" alt="" aria-hidden="true">
+      <video class="film-loop" autoplay muted loop playsinline preload="metadata" poster="assets/img/film-poster.jpg" aria-hidden="true">
+        <source src="assets/video/bridge-loop.mp4" type="video/mp4">
+      </video>
+      <button type="button" class="film-play" id="filmPlay" data-yt="CYG3N-b-Dzk" aria-label="Play the film">
         <span class="film-playbtn" aria-hidden="true">▶</span>
       </button>
     </div>

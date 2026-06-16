@@ -638,8 +638,10 @@ footer{
   border:0;
 }
 /* click-to-play poster (avoids YouTube's embed bot-check on autoplay) */
+.film-poster-img,.film-loop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .film-play{position:absolute;inset:0;width:100%;height:100%;border:0;cursor:pointer;padding:0;
-  background-size:cover;background-position:center;display:grid;place-items:center}
+  background:transparent;display:grid;place-items:center}
+@media(prefers-reduced-motion:reduce){.film-loop{display:none}}
 .film-playbtn{width:74px;height:74px;border-radius:50%;background:rgba(5,13,24,.5);
   border:1px solid rgba(234,241,251,.55);color:#fff;font-size:24px;line-height:1;display:grid;place-items:center;
   padding-left:4px;transition:transform .2s,background .2s,color .2s}
