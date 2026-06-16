@@ -114,7 +114,7 @@ header{
   .hero-photo{background-image:url('../assets/img/IMG-01-hero-m.jpg')}
 }
 /* opaque scrolling layer that slides up over the pinned hero backdrop */
-.page-flow{position:relative;z-index:1;background:var(--navy-950)}
+.page-flow{position:relative;z-index:1;background:rgba(5,13,24,.6)}
 .hero-tint{
   position:fixed;inset:0;z-index:0;
   background:
