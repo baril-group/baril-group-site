@@ -250,9 +250,9 @@
       pl: ['Siedziba · NL','Produkcja · NL','Baril Polska · PL','Baril USA · Ameryka Płn.','Baril România · RO','Baril Caucasia · GE'],
       ro: ['Sediu central · NL','Producție · NL','Baril Polska · PL','Baril USA · America de Nord','Baril România · RO','Baril Caucasia · GE'] }],
     ['.loc-note', {
-      nl: ['Biobased &amp; watergedragen verven','Officiële distributeur'],
-      pl: ['Farby biobazowe i wodorozcieńczalne','Oficjalny dystrybutor'],
-      ro: ['Vopsele biobazate și pe bază de apă','Distribuitor oficial'] }],
+      nl: ['Protective coatings &amp; R&amp;D','Watergedragen coatings &amp; verven','Officiële distributeur','Protective coatings &amp; R&amp;D','Officiële distributeur','Officiële distributeur'],
+      pl: ['Powłoki ochronne i B+R','Powłoki i farby wodorozcieńczalne','Oficjalny dystrybutor','Powłoki ochronne i B+R','Oficjalny dystrybutor','Oficjalny dystrybutor'],
+      ro: ['Acoperiri de protecție și C&amp;D','Acoperiri și vopsele pe bază de apă','Distribuitor oficial','Acoperiri de protecție și C&amp;D','Distribuitor oficial','Distribuitor oficial'] }],
     ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică' }],
     ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril' }],
     ['#proof .sec-head p:last-child', {
