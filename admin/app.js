@@ -106,7 +106,7 @@
   }
 
   // ---------- state ----------
-  const store={}; let filterCat='all', q='', extOnly=false;
+  const store={}; let filterCat='all', q='', extOnly=false, loaded=false;
   const $=s=>document.querySelector(s);
   const content=$('#content'), pageNav=$('#pageNav'), summary=$('#summary');
 
@@ -308,7 +308,7 @@
       if(p.i18n){ const r2=await fetch(SITE_BASE+p.i18n,{cache:'no-cache'}); if(r2.ok){ const i18nText=await r2.text(); fields=buildFields(p,i18nText,html); fields.forEach(f=>f.page=p); } }
       store[p.key]={page:p,items,fields};
     }catch(err){ store[p.key]={page:p,error:err.message,items:[],fields:[]}; } }));
-    buildNav(); render();
+    buildNav(); render(); loaded=true;
   }
 
   // ---------- controls ----------
@@ -322,17 +322,20 @@
   const openModal=m=>{ const mm=$('#tokenMsg'); mm.textContent=m||''; mm.className='msg'; $('#tokenInput').value=get(ghKey); const ak=$('#anthropicInput'); if(ak) ak.value=get(clKey); modal.hidden=false; };
   $('#authBtn').addEventListener('click',()=>openModal());
   $('#tokenCancel').addEventListener('click',()=>modal.hidden=true);
-  $('#logoutBtn').addEventListener('click',()=>{ set(ghKey,''); set(clKey,''); reflectAuth(); modal.hidden=true; });
+  $('#logoutBtn').addEventListener('click',()=>{ set(ghKey,''); set(clKey,''); loaded=false; reflectAuth(); content.innerHTML='<p class="hint" style="padding:48px 4px">🔒 Log in met je GitHub-token om het CMS te openen.</p>'; pageNav.innerHTML=''; summary.textContent=''; openModal('Log in met je GitHub-token om te beginnen.'); });
   $('#tokenSave').addEventListener('click', async ()=>{
     const t=$('#tokenInput').value.trim(); const ak=$('#anthropicInput'); if(ak) set(clKey, ak.value.trim());
     const msg=$('#tokenMsg');
     if(t){ set(ghKey,t); msg.textContent='Token controleren…'; msg.className='msg';
       try{ const r=await fetch(`https://api.github.com/repos/${REPO}`,{headers:ghHeaders()}); if(!r.ok) throw new Error('geen toegang ('+r.status+')'); const j=await r.json(); const ok=j.permissions&&j.permissions.push;
-        msg.textContent=ok?'Gelukt ✓':'Token zonder schrijfrechten — opslaan zal falen.'; msg.className=ok?'msg ok':'msg err'; reflectAuth(); if(ok) setTimeout(()=>modal.hidden=true,700);
+        msg.textContent=ok?'Gelukt ✓':'Token zonder schrijfrechten — opslaan zal falen.'; msg.className=ok?'msg ok':'msg err'; reflectAuth();
+        if(ok){ setTimeout(()=>modal.hidden=true,700); if(!loaded) loadAll(); }
       }catch(err){ msg.textContent='Token werkt niet: '+err.message; msg.className='msg err'; set(ghKey,''); reflectAuth(); }
     } else { reflectAuth(); msg.textContent='Sleutels opgeslagen.'; msg.className='msg ok'; }
   });
-  function reflectAuth(){ const on=!!get(ghKey); const s=$('#authState'); const cl=get(clKey)?' · Claude ✓':''; s.textContent=(on?'Ingelogd · kan bewerken':'Niet ingelogd · alleen-lezen')+cl; s.classList.toggle('ok',on); $('#authBtn').textContent=on?'Sleutels wijzigen':'Inloggen met GitHub-token'; }
+  function reflectAuth(){ const on=!!get(ghKey); const s=$('#authState'); const cl=get(clKey)?' · Claude ✓':''; s.textContent=(on?'Ingelogd · kan bewerken':'Niet ingelogd')+cl; s.classList.toggle('ok',on); $('#authBtn').textContent=on?'Sleutels wijzigen':'Inloggen met GitHub-token'; }
 
-  reflectAuth(); loadAll();
+  reflectAuth();
+  if(get(ghKey)){ loadAll(); }
+  else { content.innerHTML='<p class="hint" style="padding:48px 4px">🔒 Log in met je GitHub-token om het CMS te openen.</p>'; openModal('Log in met je GitHub-token om te beginnen.'); }
 })();
