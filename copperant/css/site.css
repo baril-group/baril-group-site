@@ -66,9 +66,11 @@ a{color:inherit}
 .ribbon{fill:none;stroke:url(#coGrad);stroke-width:3;stroke-linecap:round;opacity:.6;filter:drop-shadow(0 2px 8px rgba(176,103,59,.25))}
 
 /* hero (gradient + botanical art; no photo) */
-header#top{min-height:94svh;display:flex;flex-direction:column;justify-content:center;position:relative;padding:150px 0 70px;overflow:hidden;
+header#top{min-height:94svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;padding:150px 0 70px;overflow:hidden;
   background:radial-gradient(1100px 680px at 82% -8%,rgba(176,103,59,.20),transparent 58%),radial-gradient(900px 600px at 0% 100%,rgba(47,107,67,.16),transparent 60%),linear-gradient(180deg,#FBFAF4 0%,var(--paper) 70%)}
 .hero-art{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.hero-photo{position:absolute;inset:0;z-index:0;background:url('../assets/img/hero-pura.jpg') center 32%/cover no-repeat}
+.hero-tint{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(244,241,232,.06) 0%,rgba(244,241,232,0) 30%,rgba(244,241,232,.72) 68%,var(--paper) 100%)}
 .leaf-art{position:absolute;top:6%;right:4%;width:min(40vw,520px);opacity:.85;animation:floaty 16s ease-in-out infinite}
 @keyframes floaty{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-16px) rotate(-2deg)}}
 header#top .wrap{display:flex;flex-direction:column}
