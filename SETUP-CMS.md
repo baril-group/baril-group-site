@@ -1,97 +1,65 @@
-# Content editor (CMS) — setup
+# Content overview & editor (`/admin`)
 
-The sites have a simple web editor at **`/admin`** (Sveltia CMS, a modern
-Decap-compatible, Git-based CMS). Editors log in with their **GitHub account**,
-change texts (English + Dutch) and images in a form, and on **Save** the change
-is committed to this repository — GitHub Pages then republishes automatically.
+A single tool at **`/admin/`** shows **every text, image and link** across the
+whole Baril Group umbrella — the Group site, Baril Coatings (incl. the Aquaran,
+DualCure, SteelKote, Bariline product lines and the product catalogue), Nixol,
+TintLab, Copperant and Fairf — each item with a **badge**:
 
-> **One admin for all Baril brands.** Every brand/site is a collection in the
-> same sidebar, behind one login:
-> - **Baril Group** — `content/group.json`
-> - **Baril Coatings** — `barilcoatings/content/coatings.json`
-> - *future sub-brands* — added the same way (see "Add a new brand" below).
+- **Bewerkbaar** — editable content that lives in this repository.
+- **Externe bron: …** — an image mirrored from a brand's own website
+  (e.g. `fairf.eu`, `copperant.com`).
+- **Externe link: …** — a link that points to an external site.
+- **Interne link** — a link within the umbrella.
 
-The editor itself is built and committed. To make **login** work, one
-**one-time, ~10-minute** setup is needed (it can't be done from code — it needs
-your GitHub/Cloudflare dashboards).
+Open `https://tduijghuisen.github.io/baril-group-site/admin/`. **Browsing works
+without logging in** (read-only). To **edit**, sign in with a GitHub token.
 
-## 1. Create a GitHub OAuth App
-GitHub → **Settings → Developer settings → OAuth Apps → New OAuth App**
-- **Application name:** `Baril CMS`
-- **Homepage URL:** `https://tduijghuisen.github.io/baril-group-site/admin/`
-- **Authorization callback URL:** `https://<your-relay>/callback` *(from step 2)*
+## Logging in (GitHub token)
 
-Note the **Client ID** and generate a **Client secret**.
+No server or OAuth app is needed — you paste a personal access token that stays
+only in your browser (localStorage).
 
-## 2. Deploy the tiny OAuth relay (free)
-A Git-based CMS needs a small relay to complete the GitHub login. Use the
-ready-made **`sveltia-cms-auth`** worker on Cloudflare (free):
+1. GitHub → **Settings → Developer settings → Fine-grained personal access
+   tokens → Generate new token** (<https://github.com/settings/tokens?type=beta>).
+2. **Resource owner:** your account · **Repository access:** only
+   `tduijghuisen/baril-group-site`.
+3. **Permissions → Repository permissions → Contents: Read and write.**
+4. Generate, copy the token (`github_pat_…`).
+5. In `/admin`, click **Inloggen met GitHub-token**, paste it, **Opslaan**.
 
-1. Go to <https://github.com/sveltia/sveltia-cms-auth> and follow its
-   "Deploy to Cloudflare Workers" steps.
-2. Set the worker's environment variables to your **Client ID** and
-   **Client secret** from step 1.
-3. Copy the worker URL, e.g. `https://baril-cms-auth.<you>.workers.dev`.
-4. Put `https://<your-relay>/callback` back into the OAuth App's callback URL
-   (step 1).
+Anyone who should edit needs **Write access** to the repo (Settings →
+Collaborators) and their own token.
 
-## 3. Point the CMS at the relay
-In **`admin/config.yml`**, uncomment and set:
+## Editing
 
-```yaml
-backend:
-  name: github
-  repo: tduijghuisen/baril-group-site
-  branch: main
-  base_url: https://baril-cms-auth.<you>.workers.dev
-```
+1. Find an item (search box, the category / "alleen externe bronnen" filters, or
+   the page chips).
+2. Click **Bewerken**, change the text or image path, **Opslaan**.
+3. Save commits straight to the source file on `main`; GitHub Pages republishes
+   in ~1–2 minutes.
 
-Commit that one-line change (or ask me to).
+### What v1 edits
+- **Text** is edited in the page's **base (English)** HTML. The Dutch / Polish /
+  Romanian variants live in each page's `js/i18n.js` and are not yet exposed
+  here — so a base-text change shows in English; translations are managed in the
+  i18n files (next iteration).
+- **Images** are edited as a **path/URL** (point to another asset or URL).
+  Uploading a brand-new image file from the tool is a planned next step.
+- The product **catalogue** items come from `barilcoatings/products/products.json`
+  (a separate data file) and are not listed here.
 
-## 4. Add editors
-For each colleague who should edit the sites:
-- GitHub → repo **Settings → Collaborators → Add people** → give **Write** access.
-- They open `https://tduijghuisen.github.io/baril-group-site/admin/`,
-  click **Sign in with GitHub**, and can edit.
+## How it works (for maintainers)
+- `admin/index.html` + `admin/app.css` + `admin/app.js` — a dependency-free
+  dashboard. It fetches each page from the live site to build the inventory, and
+  uses the GitHub **Contents API** to read a file (for its SHA) and commit an
+  edit. Edits are exact, targeted substring replacements in the source — no
+  reformatting of the rest of the file.
+- External-source images are flagged via a small registry in `app.js`
+  (`EXTERNAL_ASSETS`) plus external-domain detection (`EXT_DOMAINS`); extend
+  these as brands/assets change.
+- Adding a brand/page to the tool = add one entry to the `PAGES` array in
+  `app.js`.
 
-Each editor needs a (free) GitHub account, as chosen. No other service or
-password system is involved.
-
-## How editing works day-to-day
-1. Open `/admin`, sign in with GitHub.
-2. Pick a brand in the sidebar (**Baril Group**, **Baril Coatings**, …) **→ Teksten & beelden**.
-3. Edit any English/Dutch text, or upload a new image.
-4. **Save** (publish). A commit lands on `main`; the live page updates in ~1–2
-   minutes at `…/baril-group-site/barilcoatings/`.
-
-Leaving a field empty keeps the site's built-in text — you can never blank the
-page from the editor. Images you upload are stored in
-`barilcoatings/assets/img/`.
-
-## Notes & limits
-- The `/admin` page is public but **read-only without GitHub write access** —
-  only collaborators can save. (It's marked `noindex`.)
-- Phase 1 exposes a curated set of the most-edited fields. More fields are easy
-  to add: add the key to `barilcoatings/content/coatings.json`, map it in
-  `barilcoatings/js/overrides.js` (`FIELD_MAP`), and add a field in
-  `admin/config.yml`.
-- The Group site uses the same pattern: `content/group.json`,
-  `js/overrides.js` (repo root) and the `group` collection in
-  `admin/config.yml`.
-
-## Add a new brand (e.g. a future sub-brand under Group)
-Every brand is just another collection — no new admin, no new login.
-
-1. **Site** — give the brand its own folder/site (e.g. `copperant/index.html`),
-   in the brand's own design language.
-2. **Content file** — create `copperant/content/copperant.json` with the
-   editable texts/images (same shape as `coatings.json`: `{ "key": {"en","nl",…} }`
-   for text, plain paths for images).
-3. **Apply layer** — add `copperant/js/overrides.js` (copy an existing one),
-   set its `FILE` to the new JSON and map each key to a CSS selector in
-   `FIELD_MAP`; include it from the brand's `index.html`.
-4. **Collection** — add a `- name: copperant` collection in `admin/config.yml`
-   pointing at `copperant/content/copperant.json`, with labelled fields.
-
-It then shows up automatically in the same `/admin` sidebar. (Happy to scaffold
-this for each new brand when it's ready.)
+> Note: the earlier Sveltia/Decap (OAuth) setup has been replaced by this
+> token-based dashboard. The per-page `content/*.json` + `js/overrides.js`
+> runtime layer remains in place and harmless (empty overrides change nothing).
