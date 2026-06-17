@@ -1,14 +1,46 @@
 <!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex">
-  <title>Baril — Content editor</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Baril Group — Content overzicht & editor</title>
+<link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <!-- Sveltia CMS: a modern, Decap-compatible Git-based CMS.
-       Reads ./config.yml, edits content files and commits to GitHub. -->
-  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+<header class="top">
+  <div class="brand">Baril&nbsp;Group <span>· Content</span></div>
+  <div class="top-right">
+    <span id="authState" class="auth-state">Niet ingelogd · alleen-lezen</span>
+    <button id="authBtn" class="btn">Inloggen met GitHub-token</button>
+  </div>
+</header>
+
+<div class="controls">
+  <input id="search" class="search" type="search" placeholder="Zoek in alle teksten, beelden en links…">
+  <div class="filters" id="catFilters"></div>
+  <label class="extonly"><input type="checkbox" id="extOnly"> Alleen externe bronnen</label>
+  <span id="summary" class="summary"></span>
+</div>
+
+<nav id="pageNav" class="pagenav"></nav>
+<main id="content" class="content"><p class="hint">Bezig met laden van de hele paraplu…</p></main>
+
+<div id="authModal" class="modal" hidden>
+  <div class="modal-card">
+    <h2>Inloggen met GitHub-token</h2>
+    <p>Plak een <b>fine-grained personal access token</b> met <b>Contents: Read &amp; write</b> op <code>tduijghuisen/baril-group-site</code>. Het token blijft alleen in deze browser.</p>
+    <p class="how"><a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">Token aanmaken op GitHub ↗</a></p>
+    <input id="tokenInput" type="password" placeholder="github_pat_…" autocomplete="off">
+    <div class="modal-actions">
+      <button id="tokenCancel" class="btn ghost">Annuleren</button>
+      <button id="tokenSave" class="btn">Opslaan</button>
+    </div>
+    <p id="tokenMsg" class="msg"></p>
+    <p class="logout"><button id="logoutBtn" class="linkbtn">Token verwijderen</button></p>
+  </div>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
