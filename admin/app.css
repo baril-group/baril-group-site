@@ -80,3 +80,16 @@ a{color:var(--accent)}
 .msg{min-height:18px}.msg.err{color:var(--red)}.msg.ok{color:var(--green)}
 .logout{margin-top:6px}
 @media(max-width:640px){.item{grid-template-columns:1fr;}.item .thumb{width:100%;height:120px}.actions{flex-direction:row}}
+
+/* translation field */
+.item.field .enbox{width:100%;background:var(--panel-2);border:1px solid var(--line);border-radius:8px;color:var(--ink);font:inherit;padding:9px 11px;min-height:54px;resize:vertical}
+.item.field .ennote{font-size:11px;color:var(--muted)}
+.xpand{margin-top:8px}
+.langpanel{margin-top:10px;border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:8px}
+.langrow{display:grid;grid-template-columns:34px 1fr;gap:8px;align-items:start}
+.langrow .lcode{font-family:var(--mono);font-size:11px;color:var(--muted);padding-top:9px}
+.langrow textarea{width:100%;background:var(--panel-2);border:1px solid var(--line);border-radius:8px;color:var(--ink);font-family:var(--mono);font-size:12.5px;padding:8px 10px;min-height:46px;resize:vertical}
+.langrow textarea[data-empty]{border-style:dashed;border-color:var(--amber)}
+.langactions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.bulk{margin:0 0 14px}
+.item.field.editing .val{opacity:1}

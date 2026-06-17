@@ -155,7 +155,7 @@
       els.forEach((el, i) => {
         if (el.dataset.en == null) el.dataset.en = el.innerHTML;
         let v;
-        if (l === 'en') { v = el.dataset.en; }
+        if (l === 'en') { v = (dict && dict.en != null) ? dict.en : el.dataset.en; }
         else { const d = dict ? dict[l] : null; v = Array.isArray(d) ? d[i] : (i === 0 ? d : null); }
         if (v == null) return;
         if (el.innerHTML !== v) el.innerHTML = v;
