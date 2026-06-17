@@ -18,7 +18,7 @@
       pl: 'Farba dla<br><span class="paint">odnawialnej</span><br>przyszłości',
       ro: 'Vopsea pentru un<br><span class="paint">viitor</span><br>regenerabil' }],
     ['.hero-sub', {
-      nl: 'Eén groep. Drie merken. Eén missie: <strong>meer beschermen, met minder</strong> — de verf- en coatingsindustrie vernieuwen vanaf de chemie.',
+      nl: 'Eén groep. Vijf merken. Eén missie: <strong>meer beschermen, met minder</strong> — de verf- en coatingsindustrie vernieuwen vanaf de chemie.',
       pl: 'Jedna grupa. Trzy marki. Jedna misja: <strong>chronić więcej, używając mniej</strong> — odnawiamy branżę farb i powłok od poziomu chemii.',
       ro: 'Un grup. Trei mărci. O misiune: <strong>protejăm mai mult, cu mai puțin</strong> — reînnoim industria vopselelor și acoperirilor de la nivelul chimiei.' }],
     ['.hero-cta .btn-solid', { nl: 'Ontdek de merken', pl: 'Poznaj marki', ro: 'Descoperă mărcile' }],
