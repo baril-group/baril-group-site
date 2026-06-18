@@ -2,9 +2,21 @@
   var stage = document.getElementById('stage');
   var body = document.body;
 
-  // play this slide's single video
+  // play this slide's single video — be aggressive so kiosk/cast autoplay works
   var v = stage.querySelector('video');
-  if(v){ var p = v.play(); if(p && p.catch) p.catch(function(){}); }
+  function kick(){
+    if(!v) return;
+    try{ v.muted = true; v.defaultMuted = true; v.playsInline = true; }catch(e){}
+    var p = v.play(); if(p && p.catch) p.catch(function(){});
+  }
+  if(v){
+    kick();
+    ['loadeddata','canplay','canplaythrough','stalled','suspend'].forEach(function(ev){ v.addEventListener(ev, kick); });
+    // retry for a few seconds in case the source isn't ready yet
+    var tries = 0; var iv = setInterval(function(){ if(!v.paused || tries++ > 25){ clearInterval(iv); } else { kick(); } }, 400);
+    // any interaction (incl. the fullscreen click) also starts playback
+    ['click','pointerdown','touchstart','keydown'].forEach(function(ev){ document.addEventListener(ev, kick); });
+  }
 
   // accent colour
   if(body.dataset.accent){ stage.style.setProperty('--accent', body.dataset.accent); }
@@ -53,6 +65,6 @@
 
   // keep playing after visibility/cast changes
   document.addEventListener('visibilitychange', function(){
-    if(!document.hidden && v){ var q=v.play(); if(q && q.catch) q.catch(function(){}); }
+    if(!document.hidden) kick();
   });
 })();

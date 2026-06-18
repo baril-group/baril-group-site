@@ -74,9 +74,9 @@ body.go .d3{transition-delay:.75s}
 body.go .d4{transition-delay:.9s}
 
 /* footer brand bar + progress */
-.botbar{position:absolute;left:0;right:0;bottom:0;z-index:5;height:9cqh;
-  display:flex;align-items:center;justify-content:space-between;padding:0 9cqw;
-  background:linear-gradient(0deg,rgba(5,8,12,.6),transparent)}
+.botbar{position:absolute;left:0;right:0;bottom:0;z-index:5;height:14cqh;
+  display:flex;align-items:flex-end;justify-content:space-between;padding:0 9cqw 4cqh;
+  background:linear-gradient(0deg,rgba(5,8,12,.62),transparent)}
 .botbar .gp{display:flex;align-items:center;gap:1.4cqw;font-family:var(--mono);font-size:1.1cqw;letter-spacing:.2em;text-transform:uppercase;color:#9FB0C4}
 .botbar .gp img{height:3.4cqh;width:auto;opacity:.9}
 .dots{display:flex;gap:1cqw}
