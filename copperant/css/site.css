@@ -177,3 +177,18 @@ footer a:hover{opacity:1;color:var(--copper)}
   .foot-grid{grid-template-columns:1fr 1fr}
 }
 @media(max-width:600px){.mission-meta,.feat-grid,.stat-row,.foot-grid{grid-template-columns:1fr}.hero-foot{flex-direction:column;align-items:flex-start;gap:10px}}
+
+
+/* language dropdown (added for 8-language selector) */
+.langflags{position:relative}
+.langflags .lang-toggle{display:inline-flex;align-items:center;gap:6px;background:none;border:0;cursor:pointer;padding:3px 4px;line-height:0;color:inherit;opacity:1}
+.langflags .lang-toggle .flag-current{width:24px;height:16px;border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
+.langflags .lang-toggle .lang-caret{font-size:11px;line-height:1;opacity:.7;transition:transform .25s}
+.langflags .lang-toggle[aria-expanded="true"] .lang-caret{transform:rotate(180deg)}
+.langflags .lang-menu{position:absolute;top:calc(100% + 10px);right:0;display:none;flex-direction:column;gap:2px;min-width:170px;padding:7px;background:rgba(17,21,28,.97);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.12);border-radius:12px;box-shadow:0 18px 44px -18px rgba(0,0,0,.6);z-index:70}
+.langflags .lang-menu.open{display:flex}
+.langflags .lang-menu button{display:flex;align-items:center;gap:11px;width:100%;text-align:left;background:none;border:0;border-radius:8px;padding:8px 11px;cursor:pointer;font-family:inherit;font-size:13.5px;color:#EAEEF5;opacity:.9;transform:none}
+.langflags .lang-menu button .flag{width:22px;height:15px;border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,.16)}
+.langflags .lang-menu button:hover{background:rgba(255,255,255,.08);opacity:1;transform:none}
+.langflags .lang-menu button.active{background:rgba(255,255,255,.12);opacity:1;font-weight:600}
+@media(max-width:900px){.langflags .lang-menu{right:auto;left:0}}
