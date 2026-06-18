@@ -11,7 +11,7 @@ TintLab, Copperant and Fairf — each item with a **badge**:
 - **Externe link: …** — a link that points to an external site.
 - **Interne link** — a link within the umbrella.
 
-Open `https://tduijghuisen.github.io/baril-group-site/admin/`. **Browsing works
+Open `https://baril-group.github.io/baril-group-site/admin/`. **Browsing works
 without logging in** (read-only). To **edit**, sign in with a GitHub token.
 
 ## Logging in (GitHub token)
@@ -22,7 +22,7 @@ only in your browser (localStorage).
 1. GitHub → **Settings → Developer settings → Fine-grained personal access
    tokens → Generate new token** (<https://github.com/settings/tokens?type=beta>).
 2. **Resource owner:** your account · **Repository access:** only
-   `tduijghuisen/baril-group-site`.
+   `baril-group/baril-group-site`.
 3. **Permissions → Repository permissions → Contents: Read and write.**
 4. Generate, copy the token (`github_pat_…`).
 5. In `/admin`, click **Inloggen met GitHub-token**, paste it, **Opslaan**.

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baril Group — Websites: introductie & handleiding voor Marketing</title>
+<link rel="icon" href="../favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1B2430; --soft:#5A6677; --line:#E3E8EF; --paper:#fff;
+    --navy:#0E2A23; --green:#2F8E6A; --green-700:#1E6B4E;
+    --c-coatings:#E07E0C; --c-copperant:#2F6B43; --c-fairf:#DA5C56; --c-nixol:#3F9D52; --c-tintlab:#E0251B; --c-group:#2F8E6A;
+    --display:'Montserrat',system-ui,sans-serif; --body:'Open Sans',system-ui,sans-serif; --mono:'Space Grotesk',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#f4f6f9;color:var(--ink);font-family:var(--body);font-size:11pt;line-height:1.6}
+  .page{background:var(--paper);width:210mm;min-height:297mm;margin:14px auto;padding:20mm 18mm;box-shadow:0 6px 30px rgba(0,0,0,.12);position:relative}
+
+  h1,h2,h3,h4{font-family:var(--display);line-height:1.15;color:var(--ink);margin:0}
+  h2{font-size:21pt;font-weight:800;margin:0 0 4px;letter-spacing:-.01em}
+  h3{font-size:14pt;font-weight:800;margin:22px 0 8px}
+  h4{font-size:11.5pt;font-weight:700;margin:14px 0 4px}
+  p{margin:0 0 10px}
+  a{color:var(--green-700)}
+  strong{font-weight:700}
+  .eyebrow{font-family:var(--mono);font-size:9pt;letter-spacing:.22em;text-transform:uppercase;color:var(--green);font-weight:600;margin-bottom:6px}
+  .lead{font-size:12pt;color:var(--soft)}
+  ul,ol{margin:0 0 12px;padding-left:20px}
+  li{margin:0 0 6px}
+  code{font-family:var(--mono);background:#eef2f6;padding:1px 6px;border-radius:5px;font-size:9.5pt;color:#243}
+  hr{border:0;border-top:1px solid var(--line);margin:18px 0}
+
+  /* cover */
+  .cover{background:linear-gradient(155deg,#0E2A23 0%,#103A2C 55%,#0B1F1A 100%);color:#EAF6F0;display:flex;flex-direction:column;justify-content:space-between;padding:24mm 18mm}
+  .cover .top img{height:42px}
+  .cover h1{font-family:var(--display);font-weight:900;font-size:34pt;line-height:1.05;letter-spacing:-.02em;color:#fff;margin:0 0 12px}
+  .cover .sub{font-size:13pt;color:#B9D8CC;max-width:130mm}
+  .cover .meta{font-family:var(--mono);font-size:9.5pt;letter-spacing:.06em;color:#7FB8A0;border-top:1px solid rgba(255,255,255,.18);padding-top:14px}
+  .cover .pill{display:inline-block;font-family:var(--mono);font-size:9pt;letter-spacing:.18em;text-transform:uppercase;background:rgba(79,183,142,.18);color:#9FE6C6;border:1px solid rgba(79,183,142,.35);border-radius:99px;padding:5px 12px;margin-bottom:18px}
+
+  /* callouts */
+  .note{background:#F1F7F3;border-left:4px solid var(--green);border-radius:0 8px 8px 0;padding:12px 16px;margin:14px 0}
+  .warn{background:#FEF6EE;border-left:4px solid var(--c-coatings);border-radius:0 8px 8px 0;padding:12px 16px;margin:14px 0}
+  .note .t,.warn .t{font-family:var(--mono);font-size:8.5pt;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin-bottom:4px;color:var(--green-700)}
+  .warn .t{color:#B5650C}
+
+  /* brand cards */
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+  .card{border:1px solid var(--line);border-radius:12px;overflow:hidden;break-inside:avoid}
+  .card .bar{padding:8px 14px;color:#fff;font-family:var(--display);font-weight:800;font-size:12pt;display:flex;justify-content:space-between;align-items:center}
+  .card .bar .for{font-family:var(--mono);font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;font-weight:500;opacity:.92}
+  .card .thumb{height:74px;width:100%;object-fit:cover;display:block;background:#eee}
+  .card .b{padding:10px 14px}
+  .card .b p{margin:0 0 6px;font-size:9.7pt;color:var(--soft);line-height:1.5}
+  .card .b .path{font-family:var(--mono);font-size:8.5pt;color:var(--ink)}
+
+  /* comparison table */
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:10pt}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-family:var(--mono);font-size:8.5pt;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);font-weight:600}
+  .yes{color:var(--green-700);font-weight:700}
+  .no{color:#B0392F;font-weight:700}
+
+  /* steps */
+  ol.steps{counter-reset:s;list-style:none;padding:0;margin:14px 0}
+  ol.steps>li{position:relative;padding:0 0 14px 40px;margin:0}
+  ol.steps>li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:-2px;width:27px;height:27px;
+    background:var(--green);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:var(--display);font-weight:800;font-size:11pt}
+  ol.steps>li .h{font-weight:700}
+
+  /* fake UI mock */
+  .mock{border:1px solid #cfd6df;border-radius:10px;overflow:hidden;margin:14px 0;box-shadow:0 4px 16px rgba(0,0,0,.06);break-inside:avoid}
+  .mock .tb{background:#e9edf2;padding:7px 12px;display:flex;align-items:center;gap:6px;border-bottom:1px solid #d7dee6}
+  .mock .tb i{width:10px;height:10px;border-radius:50%;background:#c4ccd6;display:inline-block}
+  .mock .tb .url{margin-left:10px;font-family:var(--mono);font-size:8.5pt;color:#6b7785;background:#fff;border:1px solid #d7dee6;border-radius:6px;padding:3px 10px;flex:1}
+  .mock .body{padding:18px;background:#0E1116;color:#EAEEF5}
+  .mock.lightbody .body{background:#fff;color:var(--ink)}
+  .mock .field{display:block;background:#1C212B;border:1px solid #2c3340;border-radius:7px;color:#9AA6B6;font-family:var(--mono);font-size:9pt;padding:9px 11px;margin:8px 0}
+  .mock .btn{display:inline-block;background:#2FB7CE;color:#04141a;font-weight:700;border-radius:7px;padding:8px 16px;font-size:9.5pt;margin-top:6px}
+  .mock .ghbtn{display:inline-block;background:#1f883d;color:#fff;font-weight:700;border-radius:7px;padding:7px 14px;font-size:9.5pt}
+  .mock h5{margin:0 0 8px;font-family:var(--display);font-size:12pt}
+  .callout-row{display:flex;gap:10px;align-items:flex-start;margin:6px 0;font-size:9.5pt}
+  .callout-row .num{flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:var(--c-coatings);color:#fff;font-family:var(--display);font-weight:800;font-size:9pt;display:flex;align-items:center;justify-content:center}
+
+  .foot{position:absolute;bottom:10mm;left:18mm;right:18mm;display:flex;justify-content:space-between;font-family:var(--mono);font-size:8pt;color:#9AA6B6;border-top:1px solid var(--line);padding-top:6px}
+
+  @media print{
+    html,body{background:#fff}
+    .page{margin:0;box-shadow:none;width:auto;min-height:auto;padding:16mm 15mm}
+    .section{break-before:page}
+    a{color:var(--ink);text-decoration:none}
+    .noprint{display:none}
+  }
+  @page{size:A4;margin:0}
+  .tip{font-size:9.5pt;color:var(--soft)}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="page cover">
+  <div class="top"><img src="../assets/img/logo-baril-group.png" alt="Baril Group"></div>
+  <div>
+    <span class="pill">Overdracht · Marketing</span>
+    <h1>De Baril Group<br>websites</h1>
+    <p class="sub">Introductie & praktische handleiding — hoe je de Group- en merkwebsites beheert, met Claude nieuwe pagina's en designs maakt, en het ingebouwde CMS gebruikt.</p>
+  </div>
+  <div class="meta">Baril Group · Painting a renewable future &nbsp;·&nbsp; Versie 1 — voor het marketingteam</div>
+</section>
+
+<!-- 1. INTRO + OVERZICHT -->
+<section class="page section">
+  <p class="eyebrow">Welkom</p>
+  <h2>Waar dit over gaat</h2>
+  <p class="lead">Jullie nemen het beheer over van de Baril Group-website én de losse merk-websites. Je hoeft geen programmeur te zijn: er zijn <strong>twee manieren</strong> om wijzigingen te maken — een eenvoudig <strong>CMS</strong> voor teksten en beelden, en <strong>Claude</strong> (AI) voor design en complete nieuwe pagina's.</p>
+
+  <div class="note">
+    <div class="t">In het kort</div>
+    <strong>CMS</strong> = snel teksten/afbeeldingen/vertalingen aanpassen zonder code. &nbsp;•&nbsp;
+    <strong>Claude</strong> = grotere klussen: nieuwe pagina's, nieuwe secties, designwijzigingen. &nbsp;•&nbsp;
+    Alles wordt <strong>automatisch bewaard in GitHub</strong> en is <strong>terug te draaien</strong>.
+  </div>
+
+  <h3>De websites in het kort</h3>
+  <p>Er is één overkoepelende <strong>Baril Group</strong>-site, met daaronder vijf zelfstandige merk-onepagers. Elk merk heeft een eigen huisstijl (kleur, sfeer), maar ze delen dezelfde opbouw en techniek.</p>
+
+  <div class="cards">
+    <div class="card">
+      <div class="bar" style="background:var(--c-group)">Baril Group <span class="for">Paraplu</span></div>
+      <img class="thumb" src="../copperant/assets/img/hero-pura.jpg" alt="">
+      <div class="b"><p>De overkoepelende site: missie, het verhaal, de vijf merken, vestigingen en duurzaamheid.</p><div class="path">/ (startpagina)</div></div>
+    </div>
+    <div class="card">
+      <div class="bar" style="background:var(--c-coatings)">Baril Coatings <span class="for">Voor industrie</span></div>
+      <img class="thumb" src="../barilcoatings/assets/img/OWN-airmix.jpg" alt="">
+      <div class="b"><p>Industriële & beschermende coatings voor staal, infra, OEM en offshore.</p><div class="path">/barilcoatings/</div></div>
+    </div>
+    <div class="card">
+      <div class="bar" style="background:var(--c-copperant)">Copperant <span class="for">Voor de vakman</span></div>
+      <img class="thumb" src="../copperant/assets/img/hero-pura.jpg" alt="">
+      <div class="b"><p>De groenste verf: biobased verfsysteem voor de professionele schilder.</p><div class="path">/copperant/</div></div>
+    </div>
+    <div class="card">
+      <div class="bar" style="background:var(--c-fairf)">Fairf <span class="for">Voor thuis</span></div>
+      <img class="thumb" src="../fairf/assets/img/hero.jpg" alt="">
+      <div class="b"><p>Plantaardige muur- en lakverf voor consumenten, in elke kleur.</p><div class="path">/fairf/</div></div>
+    </div>
+    <div class="card">
+      <div class="bar" style="background:var(--c-nixol)">Nixol <span class="for">Voor de tuinbouw</span></div>
+      <img class="thumb" src="../nixol/assets/img/hero-greenhouse.jpg" alt="">
+      <div class="b"><p>Tijdelijke kasdekwitting die jonge gewassen tegen felle zon beschermt.</p><div class="path">/nixol/</div></div>
+    </div>
+    <div class="card">
+      <div class="bar" style="background:var(--c-tintlab)">TintLab <span class="for">Voor kleur</span></div>
+      <img class="thumb" src="../tintlab/assets/img/hero-colour.jpg" alt="">
+      <div class="b"><p>Industrieel inkleursysteem met hoogwaardige kleurpasta's (RedLike™).</p><div class="path">/tintlab/</div></div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Baril Group — Websites handleiding</span><span>1 · Introductie & overzicht</span></div>
+</section>
+
+<!-- 2. TWEE MANIEREN -->
+<section class="page section">
+  <p class="eyebrow">Werkwijze</p>
+  <h2>Twee manieren om iets te wijzigen</h2>
+  <p class="lead">Kies de juiste tool bij de klus. Voor de meeste dagelijkse aanpassingen is het CMS genoeg; Claude zet je in voor het grotere werk.</p>
+
+  <table>
+    <tr><th>Wat wil je doen?</th><th>CMS</th><th>Claude</th></tr>
+    <tr><td>Een tekst of kop aanpassen</td><td class="yes">✓ ideaal</td><td>kan ook</td></tr>
+    <tr><td>Een afbeelding vervangen</td><td class="yes">✓ ideaal</td><td>kan ook</td></tr>
+    <tr><td>Vertalingen (NL/EN/PL/RO) bijwerken</td><td class="yes">✓ ideaal</td><td>kan ook</td></tr>
+    <tr><td>Een nieuwe sectie of blok toevoegen</td><td class="no">✗</td><td class="yes">✓</td></tr>
+    <tr><td>Een volledige nieuwe pagina maken</td><td class="no">✗</td><td class="yes">✓</td></tr>
+    <tr><td>Het design / de opmaak aanpassen</td><td class="no">✗</td><td class="yes">✓</td></tr>
+    <tr><td>Een nieuwe campagne-landingspagina</td><td class="no">✗</td><td class="yes">✓</td></tr>
+  </table>
+
+  <div class="note">
+    <div class="t">Vuistregel</div>
+    Bestaande tekst of beeld wijzigen → <strong>CMS</strong>. Iets nieuws maken of het uiterlijk veranderen → <strong>Claude</strong>.
+  </div>
+
+  <h3>Wat er met je wijziging gebeurt (belangrijk)</h3>
+  <p>Beide manieren slaan je wijziging op als een "commit" in <strong>GitHub</strong> — het systeem dat alle versies bewaart. Daardoor:</p>
+  <ul>
+    <li>is <strong>elke wijziging terug te draaien</strong> naar een vorige versie;</li>
+    <li>zie je <strong>wie wat wanneer</strong> heeft aangepast;</li>
+    <li>gaat de live website pas mee nadat de wijziging is samengevoegd (zie hoofdstuk 5 — spelregels).</li>
+  </ul>
+
+  <div class="foot"><span>Baril Group — Websites handleiding</span><span>2 · Twee manieren</span></div>
+</section>
+
+<!-- 3. CMS -->
+<section class="page section">
+  <p class="eyebrow">No-code</p>
+  <h2>Het CMS gebruiken</h2>
+  <p class="lead">Het CMS is een afgeschermde beheerpagina waarop je alle teksten, beelden en vertalingen van de hele site ziet en kunt aanpassen — zonder code.</p>
+
+  <h3>Eenmalig: toegang regelen</h3>
+  <p>Je logt in met een persoonlijk <strong>GitHub-token</strong> (een soort sleutel). Dat maak je één keer aan; daarna onthoudt je browser het. Hoe je dat token maakt staat in <strong>hoofdstuk 6</strong>.</p>
+
+  <div class="mock">
+    <div class="tb"><i></i><i></i><i></i><span class="url">…/admin/</span></div>
+    <div class="body">
+      <h5>Inloggen met GitHub-token</h5>
+      <p style="color:#9AA6B6;font-size:9.5pt;margin:0 0 6px">Plak je token. Het blijft alleen in deze browser.</p>
+      <span class="field">github_pat_•••••••••••••••••••••</span>
+      <span class="field" style="color:#6b7785">sk-ant-•••  (optioneel — Anthropic-sleutel voor automatisch vertalen)</span>
+      <span class="btn">Opslaan</span>
+    </div>
+  </div>
+
+  <h3>Een wijziging maken</h3>
+  <ol class="steps">
+    <li><span class="h">Open de beheerpagina.</span> Ga naar het webadres van de site, gevolgd door <code>/admin/</code>.</li>
+    <li><span class="h">Log in</span> met je token (de eerste keer). Daarna zie je alle pagina's met hun teksten, beelden en links.</li>
+    <li><span class="h">Zoek wat je wilt aanpassen</span> met het zoekveld bovenaan, of blader naar de juiste pagina.</li>
+    <li><span class="h">Klik op "Bewerken"</span> bij het item, pas de tekst aan of upload een nieuwe afbeelding.</li>
+    <li><span class="h">Vertalen (optioneel).</span> Vouw de vertaalvelden uit (NL/EN/PL/RO). Met de knop <em>"Vertaal met Claude"</em> vul je ze automatisch; controleer en pas aan waar nodig.</li>
+    <li><span class="h">Klik op "Opslaan".</span> De wijziging wordt vastgelegd in GitHub en verschijnt na verwerking op de site.</li>
+  </ol>
+
+  <div class="note">
+    <div class="t">Goed om te weten</div>
+    Het CMS toont <strong>Engels als hoofdtaal</strong>; de andere talen klap je per item uit. Externe beelden (van een andere site) zijn herkenbaar gemarkeerd en kun je niet via het CMS vervangen — vraag daarvoor Claude.
+  </div>
+
+  <div class="foot"><span>Baril Group — Websites handleiding</span><span>3 · Het CMS</span></div>
+</section>
+
+<!-- 4. CLAUDE -->
+<section class="page section">
+  <p class="eyebrow">AI · Het grotere werk</p>
+  <h2>Claude gebruiken voor design & nieuwe pagina's</h2>
+  <p class="lead">Claude is een AI-assistent die de hele website begrijpt en zelf aanpassingen kan maken: nieuwe pagina's, nieuwe secties, andere opmaak. Je stuurt het in gewone taal aan — geen code nodig.</p>
+
+  <h3>Waar je Claude voor inzet</h3>
+  <ul>
+    <li>Een <strong>nieuwe pagina</strong> (bijv. een campagne- of productlanding) in de juiste huisstijl.</li>
+    <li>Een <strong>nieuwe sectie of blok</strong> op een bestaande pagina.</li>
+    <li><strong>Designwijzigingen</strong>: kleuren, koppen, indeling, beeldgebruik.</li>
+    <li>Grotere <strong>tekst- en structuurwijzigingen</strong> die het CMS niet aankan.</li>
+  </ul>
+
+  <h3>Zo werkt het (in 4 stappen)</h3>
+  <ol class="steps">
+    <li><span class="h">Open Claude.</span> Via <code>claude.ai/code</code> (in de browser) of de Claude-app, gekoppeld aan jullie GitHub (zie hoofdstuk 6).</li>
+    <li><span class="h">Geef je opdracht in gewone taal.</span> Beschrijf wat je wilt, voor welk merk/pagina, en waarom. Voeg eventueel een voorbeeld of afbeelding toe.</li>
+    <li><span class="h">Claude maakt de wijziging</span> op een aparte werk-versie ("branch") en laat zien wat er verandert.</li>
+    <li><span class="h">Jij of een collega keurt het goed</span> (de "Pull Request"), waarna het live gaat. Niet goed? Niets gaat live, of je draait het in één klik terug.</li>
+  </ol>
+
+  <h4>Tips voor een goede opdracht</h4>
+  <ul>
+    <li><strong>Wees concreet:</strong> "Maak op de Fairf-site een nieuwe sectie <em>'Veelgestelde vragen'</em> met 5 vragen over plantaardige verf, in de Fairf-huisstijl (koraal)."</li>
+    <li><strong>Noem het merk en de pagina</strong> zodat de juiste huisstijl wordt gebruikt.</li>
+    <li><strong>Verwijs naar bestaand werk:</strong> "in dezelfde stijl als de sectie 'Producten'".</li>
+    <li><strong>Vraag eerst om een voorstel</strong> als je twijfelt: "laat eerst een opzet zien voordat je het doorvoert".</li>
+  </ul>
+
+  <div class="warn">
+    <div class="t">Let op</div>
+    Claude werkt altijd op een aparte versie en zet niets ongevraagd live. Vraag bij grote wijzigingen om <strong>"eerst een voorstel"</strong> en laat een tweede persoon meekijken voordat je samenvoegt.
+  </div>
+
+  <div class="foot"><span>Baril Group — Websites handleiding</span><span>4 · Claude</span></div>
+</section>
+
+<!-- 5. GITHUB ACCESS -->
+<section class="page section">
+  <p class="eyebrow">Toegang</p>
+  <h2>Je GitHub-account & Claude toegang geven</h2>
+  <p class="lead">GitHub is de plek waar de websites en alle versies worden bewaard. Je hebt een (gratis) GitHub-account nodig, lidmaatschap van de Baril Group-organisatie, en een token waarmee het CMS en Claude namens jou mogen werken.</p>
+
+  <h3>Stap 1 — Account & uitnodiging</h3>
+  <ol class="steps">
+    <li><span class="h">Maak een GitHub-account</span> aan op <code>github.com</code> (gebruik je Baril-mailadres).</li>
+    <li><span class="h">Vraag om een uitnodiging</span> voor de <strong>Baril Group-organisatie</strong> (de beheerder nodigt je uit). Accepteer de uitnodiging in je mail.</li>
+  </ol>
+
+  <h3>Stap 2 — Een token maken (de "sleutel")</h3>
+  <p>Een token geeft het CMS (en Claude) toestemming om namens jou wijzigingen op te slaan. Maak een <strong>fine-grained token</strong>:</p>
+  <ol class="steps">
+    <li>Ga op GitHub naar <span class="h">Settings → Developer settings → Personal access tokens → Fine-grained tokens</span>.</li>
+    <li>Klik <span class="h">Generate new token</span>. Geef een naam (bijv. <code>CMS marketing</code>) en een vervaldatum.</li>
+    <li>Bij <span class="h">Repository access</span>: kies de website-repo van de organisatie.</li>
+    <li>Bij <span class="h">Permissions → Contents</span>: zet op <strong>Read &amp; write</strong>.</li>
+    <li>Klik <span class="h">Generate</span> en <strong>kopieer het token meteen</strong> (je ziet het maar één keer).</li>
+  </ol>
+
+  <div class="mock lightbody">
+    <div class="tb"><i></i><i></i><i></i><span class="url">github.com/settings/tokens</span></div>
+    <div class="body">
+      <h5 style="color:var(--ink)">Fine-grained personal access token</h5>
+      <div class="callout-row"><span class="num">1</span><div><strong>Token name:</strong> CMS marketing</div></div>
+      <div class="callout-row"><span class="num">2</span><div><strong>Repository access:</strong> Only select repositories → <em>baril-group-site</em></div></div>
+      <div class="callout-row"><span class="num">3</span><div><strong>Permissions → Contents:</strong> Read and write</div></div>
+      <div style="margin-top:10px"><span class="ghbtn">Generate token</span></div>
+    </div>
+  </div>
+
+  <h3>Stap 3 — Token gebruiken</h3>
+  <ul>
+    <li><strong>Voor het CMS:</strong> plak het token één keer op de <code>/admin/</code>-pagina.</li>
+    <li><strong>Voor Claude:</strong> log in Claude in met je GitHub-account en geef toegang tot de organisatie; Claude werkt dan via jouw account binnen de afgesproken spelregels.</li>
+  </ul>
+
+  <div class="warn">
+    <div class="t">Veilig met je token</div>
+    Behandel een token als een wachtwoord. <strong>Deel het nooit</strong> en zet het niet in e-mail of documenten. Geef het een <strong>vervaldatum</strong> en verwijder tokens die je niet meer gebruikt (Settings → Tokens → Revoke). Kwijt of gelekt? Direct intrekken en een nieuwe maken.
+  </div>
+
+  <div class="foot"><span>Baril Group — Websites handleiding</span><span>5 · GitHub & toegang</span></div>
+</section>
+
+<!-- 6. SPELREGELS + CHECKLIST -->
+<section class="page section">
+  <p class="eyebrow">Beheer</p>
+  <h2>Spelregels, versiebeheer & checklist</h2>
+
+  <h3>Hoe wijzigingen veilig live gaan</h3>
+  <ul>
+    <li>Wijzigingen komen binnen als een <strong>voorstel (Pull Request)</strong> en gaan pas live na goedkeuring.</li>
+    <li>Houd de afspraak: <strong>een tweede persoon kijkt mee</strong> bij grotere wijzigingen.</li>
+    <li>Elke versie blijft bewaard. <strong>Terugdraaien</strong> kan altijd — via "Revert" op de wijziging, of vraag Claude "zet de vorige versie terug".</li>
+    <li>De eigenaar/beheerder kan alles <strong>monitoren</strong> en desnoods terugzetten.</li>
+  </ul>
+
+  <h3>Do's &amp; don'ts</h3>
+  <table>
+    <tr><th>Wel doen</th><th>Niet doen</th></tr>
+    <tr><td>Kleine tekst/beeld-wijzigingen via het CMS.</td><td>Tokens delen of in e-mail/chat plakken.</td></tr>
+    <tr><td>Bij twijfel: Claude eerst om een voorstel vragen.</td><td>Grote wijzigingen ongezien live zetten.</td></tr>
+    <tr><td>Per merk de juiste huisstijl aanhouden.</td><td>Externe (gekoppelde) data handmatig forceren.</td></tr>
+    <tr><td>Vragen of laten meekijken bij onzekerheid.</td><td>In paniek raken — alles is terug te draaien.</td></tr>
+  </table>
+
+  <h3>Snelchecklist om te starten</h3>
+  <ol class="steps">
+    <li>GitHub-account aangemaakt met Baril-mailadres.</li>
+    <li>Uitnodiging voor de Baril Group-organisatie geaccepteerd.</li>
+    <li>Fine-grained token gemaakt (Contents: Read &amp; write) en veilig bewaard.</li>
+    <li>Token geplakt in <code>/admin/</code> → CMS werkt.</li>
+    <li>Eén testwijziging gedaan in het CMS en teruggedraaid om het te oefenen.</li>
+    <li>Claude geprobeerd met een kleine opdracht (bijv. een tekstwijziging) als kennismaking.</li>
+  </ol>
+
+  <hr>
+  <p class="tip"><strong>Woordenlijst.</strong> <em>Repository (repo)</em> = de map met alle websitebestanden. <em>Commit</em> = één opgeslagen wijziging. <em>Branch</em> = een aparte werk-versie. <em>Pull Request (PR)</em> = een voorstel om een wijziging samen te voegen. <em>Pages</em> = de GitHub-dienst die de site online zet. <em>Token</em> = persoonlijke sleutel voor toegang.</p>
+
+  <div class="note">
+    <div class="t">Hulp nodig?</div>
+    Kom je er niet uit, of twijfel je over een wijziging? Vraag het de beheerder, of leg je vraag gewoon aan Claude voor — in gewone taal. Niets is onomkeerbaar.
+  </div>
+
+  <div class="foot"><span>Baril Group — Websites handleiding</span><span>6 · Spelregels & checklist</span></div>
+</section>
+
+</body>
+</html>
