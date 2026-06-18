@@ -146,7 +146,7 @@
     ['.timeline li span', {
       nl: [
         'Opgericht op 12 november in Moerkapelle', "Verhuizing naar nieuwbouw in 's-Hertogenbosch", 'Management buy-out door Geert Duijghuisen en Hans Broeders †',
-        'Baril Polska opgericht met de broers Ryszard en Krzysztof Tkacz en Krzysztof Krupa', 'Baril USA opgericht samen met de familie Harmon — vandaag geleid door Dave Harmon en zijn kinderen · start CO₂-footprintmonitoring',
+        'Runner-up BOV-Trofee (Beste Ondernemers Visie) — categorie People Planet Profit', 'Baril Polska opgericht met de broers Ryszard en Krzysztof Tkacz en Krzysztof Krupa', 'Baril USA opgericht samen met de familie Harmon — vandaag geleid door Dave Harmon en zijn kinderen · start CO₂-footprintmonitoring',
         'Overname Farball Coatings · uitbreiding productie met watergedragen fabriek in Etten-Leur', 'Baril Romania opgericht met George Gramaticu en Iulian Pastia', 'Nederlands patent voor DCC- (DualCure-)technologie',
         'Biobased grondstoffen als kernwaarde aangenomen · biobased schilderverven · overname door Baril Group', 'DCC gepatenteerd in de EU, VS en Canada · Best Managed Company',
         'Eerste USDA- & EU Ecolabel-gecertificeerde biobased decoratieve verven', "Geert Duijghuisen opgevolgd door zijn zoons Teun en Jeroen Duijghuisen als DGA's · nieuw laboratorium in 's-Hertogenbosch · zonnedaken in Etten-Leur en 's-Hertogenbosch",
@@ -155,7 +155,7 @@
         'B Corp-gecertificeerd — een van de eerste protective-coatingsbedrijven ter wereld · KVK Circulaire Innovatie Award (Chemie) · Groene Pluim'],
       pl: [
         'Założona 12 listopada w Moerkapelle', "Przeprowadzka do nowego zakładu w 's-Hertogenbosch", 'Wykup menedżerski przez Geerta Duijghuisena i Hansa Broedersa †',
-        'Założenie Baril Polska z braćmi Ryszardem i Krzysztofem Tkacz oraz Krzysztofem Krupą', 'Baril USA założona wspólnie z rodziną Harmon — dziś prowadzona przez Dave\'a Harmona i jego dzieci · start monitoringu śladu CO₂',
+        'Wicemistrz BOV Trophy (Beste Ondernemers Visie) — kategoria People Planet Profit', 'Założenie Baril Polska z braćmi Ryszardem i Krzysztofem Tkacz oraz Krzysztofem Krupą', 'Baril USA założona wspólnie z rodziną Harmon — dziś prowadzona przez Dave\'a Harmona i jego dzieci · start monitoringu śladu CO₂',
         'Przejęcie Farball Coatings · rozbudowa produkcji o zakład farb wodorozcieńczalnych w Etten-Leur', 'Założenie Baril Romania z George\'em Gramaticu i Iulianem Pastią', 'Holenderski patent na technologię DCC (DualCure)',
         'Surowce biobazowe przyjęte jako wartość podstawowa · biobazowe farby malarskie · przejęcie przez Baril Group', 'DCC opatentowane w UE, USA i Kanadzie · Best Managed Company',
         'Pierwsze biobazowe farby budowlane z certyfikatem USDA i EU Ecolabel', "Geerta Duijghuisena zastąpili synowie Teun i Jeroen Duijghuisen jako właściciele-zarządzający · nowe laboratorium w 's-Hertogenbosch · dachy słoneczne w Etten-Leur i 's-Hertogenbosch",
@@ -164,7 +164,7 @@
         'Certyfikat B Corp — jeden z pierwszych producentów powłok ochronnych na świecie · KVK Circular Innovation Award (chemia) · nagroda Groene Pluim'],
       ro: [
         'Înființată pe 12 noiembrie în Moerkapelle', "Mutare într-o clădire nouă în 's-Hertogenbosch", 'Preluare prin management de către Geert Duijghuisen și Hans Broeders †',
-        'Baril Polska înființată împreună cu frații Ryszard și Krzysztof Tkacz și Krzysztof Krupa', 'Baril USA înființată împreună cu familia Harmon — astăzi condusă de Dave Harmon și copiii săi · începe monitorizarea amprentei CO₂',
+        'Locul secund la BOV Trophy (Beste Ondernemers Visie) — categoria People Planet Profit', 'Baril Polska înființată împreună cu frații Ryszard și Krzysztof Tkacz și Krzysztof Krupa', 'Baril USA înființată împreună cu familia Harmon — astăzi condusă de Dave Harmon și copiii săi · începe monitorizarea amprentei CO₂',
         'Preluarea Farball Coatings · extinderea producției cu o fabrică pe bază de apă în Etten-Leur', 'Baril Romania înființată împreună cu George Gramaticu și Iulian Pastia', 'Brevet olandez pentru tehnologia DCC (DualCure)',
         'Materiile prime biobazate adoptate ca valoare centrală · vopsele biobazate de larg consum · preluare de către Baril Group', 'DCC brevetată în UE, SUA și Canada · Best Managed Company',
         'Primele vopsele decorative biobazate certificate USDA și EU Ecolabel', "Geert Duijghuisen succedat de fiii săi Teun și Jeroen Duijghuisen ca proprietari-administratori · laborator nou în 's-Hertogenbosch · acoperișuri solare în Etten-Leur și 's-Hertogenbosch",
@@ -173,7 +173,7 @@
         'Certificat B Corp — printre primii producători de acoperiri de protecție din lume · KVK Circular Innovation Award (Chimie) · premiul Groene Pluim'],
       de: [
         'Gegründet am 12. November in Moerkapelle', "Umzug in einen Neubau in 's-Hertogenbosch", 'Management-Buy-out durch Geert Duijghuisen und Hans Broeders †',
-        'Baril Polska gegründet mit den Brüdern Ryszard und Krzysztof Tkacz und Krzysztof Krupa', 'Baril USA gegründet gemeinsam mit der Familie Harmon — heute geführt von Dave Harmon und seinen Kindern · Start des CO₂-Fußabdruck-Monitorings',
+        'Zweiter Platz bei der BOV-Trophy (Beste Ondernemers Visie) — Kategorie People Planet Profit', 'Baril Polska gegründet mit den Brüdern Ryszard und Krzysztof Tkacz und Krzysztof Krupa', 'Baril USA gegründet gemeinsam mit der Familie Harmon — heute geführt von Dave Harmon und seinen Kindern · Start des CO₂-Fußabdruck-Monitorings',
         'Übernahme von Farball Coatings · Produktionserweiterung mit einem Wasserbasis-Werk in Etten-Leur', 'Baril Romania gegründet mit George Gramaticu und Iulian Pastia', 'Niederländisches Patent für die DCC- (DualCure-)Technologie',
         'Biobasierte Rohstoffe als Kernwert verankert · biobasierte Anstrichfarben · Übernahme durch Baril Group', 'DCC patentiert in der EU, USA und Kanada · Best Managed Company',
         'Erste USDA- und EU-Ecolabel-zertifizierte biobasierte Bautenfarben', "Geert Duijghuisen von seinen Söhnen Teun und Jeroen Duijghuisen als Eigentümer-Geschäftsführer abgelöst · neues Labor in 's-Hertogenbosch · Solardächer in Etten-Leur und 's-Hertogenbosch",
@@ -182,7 +182,7 @@
         'B-Corp-zertifiziert — einer der ersten Hersteller von Schutzbeschichtungen weltweit · KVK Circular Innovation Award (Chemie) · Groene-Pluim-Award'],
       fr: [
         'Fondée le 12 novembre à Moerkapelle', "Déménagement vers un nouveau site à 's-Hertogenbosch", 'Rachat par les cadres par Geert Duijghuisen et Hans Broeders †',
-        'Création de Baril Polska avec les frères Ryszard et Krzysztof Tkacz et Krzysztof Krupa', 'Baril USA fondée avec la famille Harmon — aujourd\'hui dirigée par Dave Harmon et ses enfants · début du suivi de l\'empreinte CO₂',
+        'Finaliste du BOV Trophy (Beste Ondernemers Visie) — catégorie People Planet Profit', 'Création de Baril Polska avec les frères Ryszard et Krzysztof Tkacz et Krzysztof Krupa', 'Baril USA fondée avec la famille Harmon — aujourd\'hui dirigée par Dave Harmon et ses enfants · début du suivi de l\'empreinte CO₂',
         'Reprise de Farball Coatings · extension de la production avec une usine hydrodiluable à Etten-Leur', 'Création de Baril Romania avec George Gramaticu et Iulian Pastia', 'Brevet néerlandais pour la technologie DCC (DualCure)',
         'Matières premières biosourcées adoptées comme valeur centrale · peintures biosourcées pour le bâtiment · reprise par Baril Group', 'DCC brevetée dans l\'UE, aux USA et au Canada · Best Managed Company',
         'Premières peintures décoratives biosourcées certifiées USDA et Écolabel UE', "Geert Duijghuisen remplacé par ses fils Teun et Jeroen Duijghuisen comme dirigeants-propriétaires · nouveau laboratoire à 's-Hertogenbosch · toitures solaires à Etten-Leur et 's-Hertogenbosch",
@@ -191,7 +191,7 @@
         'Certifiée B Corp — l\'un des premiers fabricants de revêtements de protection au monde · KVK Circular Innovation Award (Chimie) · prix Groene Pluim'],
       es: [
         'Fundada el 12 de noviembre en Moerkapelle', "Traslado a una nueva planta en 's-Hertogenbosch", 'Compra por la dirección por Geert Duijghuisen y Hans Broeders †',
-        'Fundación de Baril Polska con los hermanos Ryszard y Krzysztof Tkacz y Krzysztof Krupa', 'Baril USA fundada junto con la familia Harmon — hoy dirigida por Dave Harmon y sus hijos · comienza el seguimiento de la huella de CO₂',
+        'Finalista del BOV Trophy (Beste Ondernemers Visie) — categoría People Planet Profit', 'Fundación de Baril Polska con los hermanos Ryszard y Krzysztof Tkacz y Krzysztof Krupa', 'Baril USA fundada junto con la familia Harmon — hoy dirigida por Dave Harmon y sus hijos · comienza el seguimiento de la huella de CO₂',
         'Adquisición de Farball Coatings · ampliación de la producción con una planta al agua en Etten-Leur', 'Fundación de Baril Romania con George Gramaticu e Iulian Pastia', 'Patente neerlandesa de la tecnología DCC (DualCure)',
         'Materias primas biobasadas adoptadas como valor central · pinturas biobasadas para construcción · adquisición por Baril Group', 'DCC patentada en la UE, EE. UU. y Canadá · Best Managed Company',
         'Primeras pinturas decorativas biobasadas certificadas USDA y Ecolabel UE', "Geert Duijghuisen sucedido por sus hijos Teun y Jeroen Duijghuisen como propietarios-directores · nuevo laboratorio en 's-Hertogenbosch · cubiertas solares en Etten-Leur y 's-Hertogenbosch",
@@ -200,7 +200,7 @@
         'Certificada B Corp — uno de los primeros fabricantes de recubrimientos de protección del mundo · KVK Circular Innovation Award (Química) · premio Groene Pluim'],
       it: [
         'Fondata il 12 novembre a Moerkapelle', "Trasferimento in un nuovo stabilimento a 's-Hertogenbosch", 'Management buy-out da parte di Geert Duijghuisen e Hans Broeders †',
-        'Fondazione di Baril Polska con i fratelli Ryszard e Krzysztof Tkacz e Krzysztof Krupa', 'Baril USA fondata insieme alla famiglia Harmon — oggi guidata da Dave Harmon e dai suoi figli · inizia il monitoraggio dell\'impronta di CO₂',
+        'Secondo classificato al BOV Trophy (Beste Ondernemers Visie) — categoria People Planet Profit', 'Fondazione di Baril Polska con i fratelli Ryszard e Krzysztof Tkacz e Krzysztof Krupa', 'Baril USA fondata insieme alla famiglia Harmon — oggi guidata da Dave Harmon e dai suoi figli · inizia il monitoraggio dell\'impronta di CO₂',
         'Acquisizione di Farball Coatings · ampliamento della produzione con uno stabilimento a base acqua a Etten-Leur', 'Fondazione di Baril Romania con George Gramaticu e Iulian Pastia', 'Brevetto olandese per la tecnologia DCC (DualCure)',
         'Materie prime biobased adottate come valore centrale · pitture biobased per l\'edilizia · acquisizione da parte di Baril Group', 'DCC brevettata in UE, USA e Canada · Best Managed Company',
         'Prime pitture decorative biobased certificate USDA ed Ecolabel UE', "Geert Duijghuisen succeduto dai figli Teun e Jeroen Duijghuisen come proprietari-amministratori · nuovo laboratorio a 's-Hertogenbosch · tetti solari a Etten-Leur e 's-Hertogenbosch",
