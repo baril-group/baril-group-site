@@ -71,8 +71,8 @@ header#top{min-height:94svh;display:flex;flex-direction:column;justify-content:f
 .hero-art{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
 .hero-photo{position:absolute;inset:0;z-index:0;background:url('../assets/img/hero-pura.jpg') center 32%/cover no-repeat}
 .hero-tint{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(244,241,232,.06) 0%,rgba(244,241,232,0) 30%,rgba(244,241,232,.72) 68%,var(--paper) 100%)}
-.hero-logo{display:block;height:42px;width:auto;max-width:92%;margin:0 0 22px}
-@media(max-width:768px){.hero-logo{height:30px;margin-bottom:16px}}
+.hero-logo{display:block;height:auto;max-height:72px;width:auto;max-width:min(100%,520px);margin:0 0 22px}
+@media(max-width:768px){.hero-logo{max-height:54px;margin-bottom:16px}}
 .leaf-art{position:absolute;top:6%;right:4%;width:min(40vw,520px);opacity:.85;animation:floaty 16s ease-in-out infinite}
 @keyframes floaty{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-16px) rotate(-2deg)}}
 header#top .wrap{display:flex;flex-direction:column}
