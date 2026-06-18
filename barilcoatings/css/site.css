@@ -144,8 +144,8 @@ header{
     radial-gradient(900px 520px at 80% 8%,rgba(241,138,0,.12),transparent 62%),
     radial-gradient(800px 480px at 8% 92%,rgba(79,183,142,.10),transparent 65%);
 }
-.hero-logo{display:block;height:46px;width:auto;margin:0 0 22px -1px}
-@media(max-width:768px){.hero-logo{height:34px;margin-bottom:16px}}
+.hero-logo{display:block;height:auto;max-height:72px;width:auto;max-width:min(100%,520px);margin:0 0 22px}
+@media(max-width:768px){.hero-logo{max-height:54px;margin-bottom:16px}}
 h1{
   font-family:var(--display);font-weight:900;text-transform:uppercase;
   font-size:clamp(42px,8.4vw,112px);line-height:.98;letter-spacing:.005em;
