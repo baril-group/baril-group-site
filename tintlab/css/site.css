@@ -73,6 +73,11 @@ a{color:inherit}
 header#top{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;padding:140px 0 70px;overflow:hidden}
 .hero-photo{position:absolute;inset:0;z-index:0;background:url('../assets/img/hero-colour.jpg') center/cover no-repeat}
 .hero-video{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover}
+.hero-logo{display:flex;align-items:center;gap:14px;margin:0 0 22px}
+.hero-logo svg{height:54px;width:auto;display:block}
+.hero-logo .wordmark{font-family:var(--head);font-weight:800;font-size:40px;letter-spacing:-.01em;color:#fff;line-height:1}
+.hero-logo .wordmark b{color:var(--red);font-weight:800}
+@media(max-width:768px){.hero-logo{margin-bottom:16px}.hero-logo svg{height:42px}.hero-logo .wordmark{font-size:30px}}
 @media(prefers-reduced-motion:reduce){.hero-video{display:none}}
 @media(max-width:768px){.hero-photo{background-image:url('../assets/img/hero-colour-m.jpg')}}
 .hero-tint{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(14,16,19,.55) 0%,rgba(14,16,19,.2) 32%,rgba(14,16,19,.72) 72%,var(--bg) 99%)}
