@@ -72,8 +72,7 @@ a{color:inherit}
 
 /* hero */
 header#top{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;padding:140px 0 70px;overflow:hidden}
-.hero-photo{position:absolute;inset:0;z-index:0;background:url('../../assets/img/OWN-airmix.jpg') center/cover no-repeat}
-@media(max-width:768px){.hero-photo{background-image:url('../../assets/img/OWN-airmix-m.jpg')}}
+.hero-photo{position:absolute;inset:0;z-index:0;background:url('../assets/img/hero.jpg') center/cover no-repeat}
 .hero-logo{display:flex;align-items:center;gap:14px;margin:0 0 22px}
 .hero-logo img{height:58px;width:auto;display:block}
 @media(max-width:768px){.hero-logo{margin-bottom:16px}.hero-logo img{height:44px}}
