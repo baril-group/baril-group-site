@@ -7,7 +7,7 @@
 (() => {
   'use strict';
 
-  const REPO = 'tduijghuisen/baril-group-site';
+  const REPO = 'baril-group/baril-group-site';
   const BRANCH = 'main';
   const SITE_BASE = location.href.replace(/\/admin\/[^/]*$/, '/');
   const MEDIA = /\.(jpe?g|png|webp|gif|svg|mp4|webm|avif)(\?.*)?$/i;
