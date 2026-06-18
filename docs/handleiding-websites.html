@@ -34,7 +34,7 @@
   hr{border:0;border-top:1px solid var(--line);margin:18px 0}
 
   /* cover */
-  .cover{background:linear-gradient(155deg,#0E2A23 0%,#103A2C 55%,#0B1F1A 100%);color:#EAF6F0;display:flex;flex-direction:column;justify-content:space-between;padding:24mm 18mm}
+  .cover{background:linear-gradient(155deg,rgba(14,42,35,.88) 0%,rgba(16,58,44,.78) 52%,rgba(11,31,26,.94) 100%),url(../assets/img/IMG-01-hero.jpg) center/cover no-repeat;color:#EAF6F0;display:flex;flex-direction:column;justify-content:space-between;padding:24mm 18mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .cover .top img{height:42px}
   .cover h1{font-family:var(--display);font-weight:900;font-size:34pt;line-height:1.05;letter-spacing:-.02em;color:#fff;margin:0 0 12px}
   .cover .sub{font-size:13pt;color:#B9D8CC;max-width:130mm}
@@ -97,9 +97,37 @@
   }
   @page{size:A4;margin:0}
   .tip{font-size:9.5pt;color:var(--soft)}
+
+  /* access gate (lichte drempel, geen echte beveiliging) */
+  #gate{position:fixed;inset:0;z-index:9999;background:linear-gradient(155deg,#0E2A23,#0B1F1A);display:flex;align-items:center;justify-content:center;font-family:var(--body)}
+  #gate.hide{display:none}
+  #gate .box{width:min(92vw,360px);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:30px 26px;text-align:center;box-shadow:0 18px 50px rgba(0,0,0,.45)}
+  #gate img{height:34px;margin-bottom:18px}
+  #gate h2{color:#fff;font-size:16pt;margin:0 0 6px}
+  #gate p{color:#9FE6C6;font-size:10pt;margin:0 0 16px}
+  #gate input{width:100%;padding:11px 13px;border-radius:9px;border:1px solid rgba(255,255,255,.22);background:rgba(0,0,0,.28);color:#fff;font-family:var(--mono);font-size:11pt;text-align:center;letter-spacing:.04em}
+  #gate input:focus{outline:none;border-color:#4FB78E}
+  #gate button{margin-top:12px;width:100%;padding:11px 14px;border:0;border-radius:9px;background:#2F8E6A;color:#fff;font-family:var(--display);font-weight:800;font-size:11pt;cursor:pointer}
+  #gate button:hover{background:#1E6B4E}
+  #gate .err{color:#FF9B8E;font-size:9.5pt;min-height:16px;margin-top:10px;visibility:hidden}
+  #gate .err.show{visibility:visible}
+  body.locked{overflow:hidden}
+  @media print{#gate{display:none!important}}
 </style>
 </head>
 <body>
+
+<!-- ACCESS GATE -->
+<div id="gate" aria-hidden="false">
+  <div class="box">
+    <img src="../assets/img/logo-baril-group.png" alt="Baril Group">
+    <h2>Beveiligde handleiding</h2>
+    <p>Voer het wachtwoord in om verder te gaan.</p>
+    <input id="gpw" type="password" autocomplete="off" placeholder="Wachtwoord" aria-label="Wachtwoord">
+    <button id="gbtn" type="button">Toegang</button>
+    <div class="err" id="gerr">Onjuist wachtwoord. Probeer opnieuw.</div>
+  </div>
+</div>
 
 <!-- COVER -->
 <section class="page cover">
@@ -131,7 +159,7 @@
   <div class="cards">
     <div class="card">
       <div class="bar" style="background:var(--c-group)">Baril Group <span class="for">Paraplu</span></div>
-      <img class="thumb" src="../copperant/assets/img/hero-pura.jpg" alt="">
+      <img class="thumb" src="../assets/img/IMG-01-hero.jpg" alt="">
       <div class="b"><p>De overkoepelende site: missie, het verhaal, de vijf merken, vestigingen en duurzaamheid.</p><div class="path">/ (startpagina)</div></div>
     </div>
     <div class="card">
@@ -362,6 +390,27 @@
 
   <div class="foot"><span>Baril Group — Websites handleiding</span><span>6 · Spelregels & checklist</span></div>
 </section>
+
+<script>
+(function(){
+  var KEY="bg_guide_ok", PW="NTIzNE1AcmtldGluZw==";
+  var gate=document.getElementById('gate'),
+      inp=document.getElementById('gpw'),
+      btn=document.getElementById('gbtn'),
+      err=document.getElementById('gerr');
+  function unlock(){ gate.classList.add('hide'); gate.setAttribute('aria-hidden','true'); document.body.classList.remove('locked'); }
+  function lock(){ document.body.classList.add('locked'); setTimeout(function(){ inp.focus(); },50); }
+  function tryPw(){
+    if(inp.value===atob(PW)){ try{ sessionStorage.setItem(KEY,'1'); }catch(e){} unlock(); }
+    else { err.classList.add('show'); inp.select(); }
+  }
+  var ok=false; try{ ok=sessionStorage.getItem(KEY)==='1'; }catch(e){}
+  if(ok){ unlock(); } else { lock(); }
+  btn.addEventListener('click',tryPw);
+  inp.addEventListener('keydown',function(e){ if(e.key==='Enter'){ tryPw(); } });
+  inp.addEventListener('input',function(){ err.classList.remove('show'); });
+})();
+</script>
 
 </body>
 </html>
