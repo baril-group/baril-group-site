@@ -276,7 +276,7 @@
   const flagBox = document.getElementById('langflags');
   let lang = 'en';
   try { lang = localStorage.getItem('baril-coatings-lang') || 'en'; } catch (e) {}
-  if (!['en', 'nl', 'pl', 'ro'].includes(lang)) lang = 'en';
+  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr'].includes(lang)) lang = 'en';
 
   function apply(l) {
     for (const [sel, dict] of MAP) {
@@ -297,7 +297,7 @@
   }
 
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
-    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro'].includes(lang)) lang = 'en';
+    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr'].includes(lang)) lang = 'en';
     apply(lang);
   }));
 
