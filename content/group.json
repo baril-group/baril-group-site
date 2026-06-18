@@ -2,16 +2,16 @@
   "_comment": "Editable content for the Baril Group one-pager (root site). Managed via /admin. Each text field has English (en) and Dutch (nl); HTML like <br>, <strong>, <em> is allowed. Images are paths relative to the repo root. Only the curated fields below are overridden; anything else keeps the site's built-in text.",
 
   "heroEyebrow": {
-    "en": "Baril Group — 's-Hertogenbosch, NL · Production EU / US / PL",
-    "nl": "Baril Group — 's-Hertogenbosch, NL · Productie EU / VS / PL"
+    "en": "Baril Group — 's-Hertogenbosch, NL · Production NL & US",
+    "nl": "Baril Group — 's-Hertogenbosch, NL · Productie NL & VS"
   },
   "heroTitle": {
     "en": "Painting a<br><span class=\"paint\">renewable</span><br>future",
     "nl": "Verf voor een<br><span class=\"paint\">hernieuwbare</span><br>toekomst"
   },
   "heroSub": {
-    "en": "One group. Three brands. A single mission: <strong>protect more, with less</strong> — renewing the coatings and paint industry from the chemistry up.",
-    "nl": "Eén groep. Drie merken. Eén missie: <strong>meer beschermen, met minder</strong> — de verf- en coatingsindustrie vernieuwen vanaf de chemie."
+    "en": "One group, one philosophy, multiple brands. A single mission: <strong>protect more, with less</strong> — renewing the coatings and paint industry from the chemistry up.",
+    "nl": "Eén groep, één filosofie, meerdere merken. Eén missie: <strong>meer beschermen, met minder</strong> — de verf- en coatingsindustrie vernieuwen vanaf de chemie."
   },
   "heroCtaPrimary": { "en": "Explore the brands", "nl": "Ontdek de merken" },
   "heroCtaSecondary": { "en": "Our mission", "nl": "Onze missie" },
@@ -45,8 +45,8 @@
 
   "localH2": { "en": "Made close<br>to home", "nl": "Dichtbij huis<br>gemaakt" },
   "localIntro": {
-    "en": "Crude-derived chemistry crosses the planet before it reaches a paint can. Plant-based and residual-stream feedstocks shorten the chain: grown, processed and applied in the same region. We produce close to our markets — 's-Hertogenbosch, the United States, Poland — on our own solar and wind power, with a fully electric fleet and inclusive hiring as policy, not project.",
-    "nl": "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch, de Verenigde Staten, Polen — op eigen zonne- en windenergie, met een volledig elektrisch wagenpark en inclusief werkgeverschap als beleid, niet als project."
+    "en": "Crude-derived chemistry crosses the planet before it reaches a paint can. Plant-based and residual-stream feedstocks shorten the chain: grown, processed and applied in the same region. We produce close to our markets — 's-Hertogenbosch and the United States — on our own solar and wind power, with a fully electric fleet and inclusive hiring as policy, not project.",
+    "nl": "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch en de Verenigde Staten — op eigen zonne- en windenergie, met een volledig elektrisch wagenpark en inclusief werkgeverschap als beleid, niet als project."
   },
 
   "worldH2": { "en": "Growing greener,<br>worldwide", "nl": "Steeds groener,<br>wereldwijd" },
@@ -55,10 +55,10 @@
     "nl": "Van één fabriek in 's-Hertogenbosch naar vijf vestigingen op twee continenten. De eerste MVO-stappen in 2002 zetten de richting; sinds 2021 versnelt de vergroening jaar op jaar. Zie de voetafdruk zich verspreiden."
   },
 
-  "brandsH2": { "en": "One mission,<br>three brands", "nl": "Eén missie,<br>drie merken" },
+  "brandsH2": { "en": "One philosophy,<br>multiple brands", "nl": "Eén filosofie,<br>meerdere merken" },
   "brandsIntro": {
-    "en": "Each brand carries the same chemistry-first philosophy to a different audience — from offshore steel to your living-room wall.",
-    "nl": "Elk merk brengt dezelfde chemie-eerst-filosofie naar een ander publiek — van offshore-staal tot de muur in je woonkamer."
+    "en": "Each brand carries the same chemistry-first philosophy to a different audience — from offshore steel and the metalworking line to your living-room wall.",
+    "nl": "Elk merk brengt dezelfde chemie-eerst-filosofie naar een ander publiek — van offshore-staal en de metaallakstraat tot de muur in je woonkamer."
   },
   "brand1Tag": { "en": "For industry", "nl": "Voor de industrie" },
   "brand1Desc": {
