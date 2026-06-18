@@ -239,6 +239,7 @@ h2{
 .brand.pink{--accent:var(--pink)}
 .brand.sun{--accent:#E89A3C}
 .brand.red{--accent:#F0473A}
+.brand.steel{--accent:#4A86C9}
 
 /* contact / locations */
 .loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
