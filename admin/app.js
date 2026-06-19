@@ -150,9 +150,10 @@
       <div class="body">
         <div class="badges"><span class="badge edit">Bewerkbaar</span><span class="badge kind">tekst · EN</span>${enNote}</div>
         ${enField}
+        ${fld.enEditable?'<span class="row-msg en-msg"></span>':''}
         <button class="tinybtn xpand">Andere talen ▸</button>
         <div class="langpanel" hidden>${langRows}
-          <div class="langactions"><button class="tinybtn translate">Vertaal met Claude</button><button class="tinybtn save savefield">Opslaan</button><span class="row-msg"></span></div>
+          <div class="langactions"><button class="tinybtn translate">Vertaal met Claude</button><button class="tinybtn save savefield">Alles opslaan</button><span class="row-msg"></span></div>
         </div>
       </div>
       <div class="actions">${fld.enEditable?'<button class="tinybtn save saveen" hidden>EN opslaan</button><button class="tinybtn edit-en">EN bewerken</button>':''}</div></div>`;
@@ -292,7 +293,16 @@
       if(e.target.classList.contains('savefield')){
         const msg=item.querySelector('.row-msg'); if(!get(ghKey)){ openModal('Log in om op te slaan.'); return; }
         e.target.disabled=true; msg.textContent='Opslaan…'; msg.className='row-msg';
-        try{ const changes={};
+        try{
+          // 1) English source (if editable and changed) — goes to HTML or i18n
+          const box=item.querySelector('.enbox');
+          if(box && box.value!==fld.en){
+            if(fld.enSource==='dom') await withRetry(()=>saveDomEn(fld.page, fld.selector, fld.jdx, box.value));
+            else await withRetry(()=>saveLang(fld.page, sel, fld.jdx, 'en', box.value));
+            fld.en=box.value;
+          }
+          // 2) Translations — all changed languages in one commit
+          const changes={};
           for(const [code] of LANGS){ const ta=item.querySelector(`.langrow[data-lang="${code}"] textarea`); if(fld[code]==null) continue; if(ta.value!==fld[code]) changes[code]=ta.value; }
           if(Object.keys(changes).length){ await withRetry(()=>saveLangs(fld.page, sel, fld.jdx, changes)); for(const c in changes) fld[c]=changes[c]; }
           msg.textContent='Opgeslagen ✓ — live over ~1–2 min.'; msg.className='row-msg ok';
@@ -300,14 +310,16 @@
         e.target.disabled=false; return;
       }
       if(e.target.classList.contains('saveen')){
-        const msg=item.querySelector('.row-msg')||item.querySelector('.langpanel .row-msg'); const box=item.querySelector('.enbox');
-        e.target.disabled=true;
+        const msg=item.querySelector('.en-msg'); const box=item.querySelector('.enbox');
+        if(!get(ghKey)){ openModal('Log in om op te slaan.'); return; }
+        e.target.disabled=true; if(msg){ msg.textContent='Opslaan…'; msg.className='row-msg en-msg'; }
         try{ if(box.value!==fld.en){
             if(fld.enSource==='dom') await withRetry(()=>saveDomEn(fld.page, fld.selector, fld.jdx, box.value));
             else await withRetry(()=>saveLang(fld.page, sel, fld.jdx, 'en', box.value));
             fld.en=box.value;
-          } item.classList.remove('editing'); e.target.hidden=true; item.querySelector('.edit-en').hidden=false; }
-        catch(err){ alert(err.message); }
+          } item.classList.remove('editing'); e.target.hidden=true; item.querySelector('.edit-en').hidden=false;
+          if(msg){ msg.textContent='Opgeslagen ✓ — live over ~1–2 min.'; msg.className='row-msg en-msg ok'; } }
+        catch(err){ if(msg){ msg.textContent=err.message; msg.className='row-msg en-msg err'; } else alert(err.message); }
         e.target.disabled=false; return;
       }
       return;
