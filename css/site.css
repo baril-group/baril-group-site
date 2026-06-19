@@ -244,6 +244,9 @@ h2{
 .brand.resin{--accent:#27C2E6}
 .brand.fleet{--accent:#FF7A1A}
 .brand.auto{--accent:#E23A45}
+.region-flags{position:absolute;top:20px;right:22px;z-index:2;display:flex;gap:6px}
+.region-flags img{width:22px;height:15px;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+@media(max-width:900px){.region-flags{top:16px;right:18px}}
 
 /* contact / locations */
 .loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
