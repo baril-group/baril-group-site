@@ -12,8 +12,8 @@
   const SITE_BASE = location.href.replace(/\/admin\/[^/]*$/, '/');
   const MEDIA = /\.(jpe?g|png|webp|gif|svg|mp4|webm|avif)(\?.*)?$/i;
   const CLAUDE_MODEL = 'claude-sonnet-4-6';
-  const LANGS = [['nl','Nederlands'],['de','Deutsch'],['fr','Français'],['es','Español'],['it','Italiano'],['pl','Polski'],['ro','Română']];
-  const LANG_EN_NAME = {nl:'Dutch',de:'German',fr:'French',es:'Spanish',it:'Italian',pl:'Polish',ro:'Romanian'};
+  const LANGS = [['nl','Nederlands'],['de','Deutsch'],['fr','Français'],['es','Español'],['it','Italiano'],['pl','Polski'],['ro','Română'],['tr','Türkçe']];
+  const LANG_EN_NAME = {nl:'Dutch',de:'German',fr:'French',es:'Spanish',it:'Italian',pl:'Polish',ro:'Romanian',tr:'Turkish'};
 
   const PAGES = [
     { key:'group',     label:'Baril Group (home)',          path:'index.html',                         dir:'',                     i18n:'js/i18n.js' },
@@ -100,7 +100,7 @@
         if(c==='{'){ depth++; i++; continue; }
         if(depth===1){
           const km=/^([a-zA-Z_]+)\s*:\s*/.exec(js.slice(i,i+30));
-          if(km && /^(en|nl|de|fr|es|it|pl|ro)$/.test(km[1])){ const key=km[1]; i+=km[0].length;
+          if(km && /^(en|nl|de|fr|es|it|pl|ro|tr)$/.test(km[1])){ const key=km[1]; i+=km[0].length;
             if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); if(r){ langs[key]={kind:'string',items:[{value:jsUnescape(r.value),start:r.innerStart,end:r.innerEnd}]}; i=r.end; continue; } }
             else if(js[i]==='['){ i++; const its=[]; while(i<js.length){ while(i<js.length&&/[\s,]/.test(js[i])) i++; if(js[i]===']'){ i++; break; } if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); its.push({value:jsUnescape(r.value),start:r.innerStart,end:r.innerEnd}); i=r.end; } else i++; } langs[key]={kind:'array',items:its}; continue; }
           }

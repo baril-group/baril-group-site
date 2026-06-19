@@ -11,7 +11,8 @@
       de: ['Mission', 'Unsere Geschichte', 'Wirkung', 'Marken', 'In der Praxis', 'Wie wir erneuern', 'Kontakt'],
       fr: ['Mission', 'Notre histoire', 'Impact', 'Marques', 'Sur le terrain', 'Comment nous renouvelons', 'Contact'],
       es: ['Misión', 'Nuestra historia', 'Impacto', 'Marcas', 'Sobre el terreno', 'Cómo renovamos', 'Contacto'],
-      it: ['Missione', 'La nostra storia', 'Impatto', 'Marchi', 'Sul campo', 'Come rinnoviamo', 'Contatto'] }],
+      it: ['Missione', 'La nostra storia', 'Impatto', 'Marchi', 'Sul campo', 'Come rinnoviamo', 'Contatto'],
+      tr: ['Misyon', 'Hikâyemiz', 'Etki', 'Markalar', 'Sahada', 'Nasıl yeniliyoruz', 'İletişim'] }],
     ['header .eyebrow', {
       nl: "Baril Group — 's-Hertogenbosch, NL · Productie NL & VS",
       pl: "Baril Group — 's-Hertogenbosch, NL · Produkcja NL i USA",
@@ -19,7 +20,8 @@
       de: "Baril Group — 's-Hertogenbosch, NL · Produktion NL & USA",
       fr: "Baril Group — 's-Hertogenbosch, NL · Production NL et USA",
       es: "Baril Group — 's-Hertogenbosch, NL · Producción NL y EE. UU.",
-      it: "Baril Group — 's-Hertogenbosch, NL · Produzione NL e USA" }],
+      it: "Baril Group — 's-Hertogenbosch, NL · Produzione NL e USA",
+      tr: "Baril Group — 's-Hertogenbosch, NL · Üretim NL ve ABD" }],
     ['header h1', {
       nl: 'Verf voor een<br><span class="paint">hernieuwbare</span><br>toekomst',
       pl: 'Farba dla<br><span class="paint">odnawialnej</span><br>przyszłości',
@@ -27,7 +29,8 @@
       de: 'Farbe für eine<br><span class="paint">erneuerbare</span><br>Zukunft',
       fr: 'De la peinture pour un<br><span class="paint">avenir</span><br>renouvelable',
       es: 'Pintura para un<br><span class="paint">futuro</span><br>renovable',
-      it: 'Vernice per un<br><span class="paint">futuro</span><br>rinnovabile' }],
+      it: 'Vernice per un<br><span class="paint">futuro</span><br>rinnovabile',
+      tr: 'Yenilenebilir bir<br><span class="paint">gelecek</span><br>için boya' }],
     ['.hero-sub', {
       nl: 'Eén groep, één filosofie, meerdere merken. Eén missie: <strong>meer beschermen, met minder</strong> — de verf- en coatingsindustrie vernieuwen vanaf de chemie.',
       pl: 'Jedna grupa, jedna filozofia, wiele marek. Jedna misja: <strong>chronić więcej, używając mniej</strong> — odnawiamy branżę farb i powłok od poziomu chemii.',
@@ -35,9 +38,10 @@
       de: 'Eine Gruppe, eine Philosophie, mehrere Marken. Eine Mission: <strong>mehr schützen, mit weniger</strong> — die Farben- und Beschichtungsindustrie von der Chemie an erneuern.',
       fr: 'Un groupe, une philosophie, plusieurs marques. Une mission : <strong>protéger plus, avec moins</strong> — renouveler l\'industrie de la peinture et des revêtements dès la chimie.',
       es: 'Un grupo, una filosofía, varias marcas. Una misión: <strong>proteger más, con menos</strong> — renovar la industria de la pintura y los recubrimientos desde la química.',
-      it: 'Un gruppo, una filosofia, più marchi. Una missione: <strong>proteggere di più, con meno</strong> — rinnovare l\'industria di vernici e rivestimenti dalla chimica.' }],
-    ['.hero-cta .btn-solid', { nl: 'Ontdek de merken', pl: 'Poznaj marki', ro: 'Descoperă mărcile', de: 'Marken entdecken', fr: 'Découvrir les marques', es: 'Descubrir las marcas', it: 'Scopri i marchi' }],
-    ['.hero-cta .btn-ghost', { nl: 'Onze missie', pl: 'Nasza misja', ro: 'Misiunea noastră', de: 'Unsere Mission', fr: 'Notre mission', es: 'Nuestra misión', it: 'La nostra missione' }],
+      it: 'Un gruppo, una filosofia, più marchi. Una missione: <strong>proteggere di più, con meno</strong> — rinnovare l\'industria di vernici e rivestimenti dalla chimica.',
+      tr: 'Tek grup, tek felsefe, birden çok marka. Tek misyon: <strong>daha azıyla daha çok koruma</strong> — boya ve kaplama sektörünü kimyadan başlayarak yenilemek.' }],
+    ['.hero-cta .btn-solid', { nl: 'Ontdek de merken', pl: 'Poznaj marki', ro: 'Descoperă mărcile', de: 'Marken entdecken', fr: 'Découvrir les marques', es: 'Descubrir las marcas', it: 'Scopri i marchi', tr: 'Markaları keşfedin' }],
+    ['.hero-cta .btn-ghost', { nl: 'Onze missie', pl: 'Nasza misja', ro: 'Misiunea noastră', de: 'Unsere Mission', fr: 'Notre mission', es: 'Nuestra misión', it: 'La nostra missione', tr: 'Misyonumuz' }],
     ['.hero-foot span:first-child', {
       nl: 'Industriële coatings · Biobased vakverf · Plantaardige verf voor thuis',
       pl: 'Powłoki przemysłowe · Biobazowa farba profesjonalna · Roślinna farba do domu',
@@ -45,9 +49,10 @@
       de: 'Industriebeschichtungen · Biobasierte Profifarbe · Pflanzliche Farbe für zu Hause',
       fr: 'Revêtements industriels · Peinture pro biosourcée · Peinture végétale pour la maison',
       es: 'Recubrimientos industriales · Pintura profesional biobasada · Pintura vegetal para el hogar',
-      it: 'Rivestimenti industriali · Vernice professionale biobased · Pittura vegetale per la casa' }],
-    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri' }],
-    ['#mission .eyebrow', { nl: 'Missie', pl: 'Misja', ro: 'Misiune', de: 'Mission', fr: 'Mission', es: 'Misión', it: 'Missione' }],
+      it: 'Rivestimenti industriali · Vernice professionale biobased · Pittura vegetale per la casa',
+      tr: 'Endüstriyel kaplamalar · Biyobazlı profesyonel boya · Ev için bitkisel boya' }],
+    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır' }],
+    ['#mission .eyebrow', { nl: 'Missie', pl: 'Misja', ro: 'Misiune', de: 'Mission', fr: 'Mission', es: 'Misión', it: 'Missione', tr: 'Misyon' }],
     ['.mission-quote', {
       nl: 'Wij vinden dat niemand hoeft te kiezen tussen <em>duurzaam, prijs en kwaliteit</em>. Daarom zetten we elke productlijn, stap voor stap, om naar hernieuwbare grondstoffen — en bewijzen we onderweg dat dunnere, schonere coatings langer beschermen.',
       pl: 'Uważamy, że nikt nie powinien wybierać między <em>zrównoważonością, ceną a jakością</em>. Dlatego przestawiamy każdą linię produktów, krok po kroku, na surowce odnawialne — udowadniając po drodze, że cieńsze, czystsze powłoki chronią dłużej.',
@@ -55,7 +60,8 @@
       de: 'Wir finden, dass niemand zwischen <em>Nachhaltigkeit, Preis und Qualität</em> wählen müssen sollte. Deshalb stellen wir jede Produktlinie Schritt für Schritt auf erneuerbare Rohstoffe um — und beweisen unterwegs, dass dünnere, sauberere Beschichtungen länger schützen.',
       fr: 'Nous pensons que personne ne devrait avoir à choisir entre <em>durabilité, prix et qualité</em>. C\'est pourquoi nous convertissons chaque ligne de produits, étape par étape, vers des matières premières renouvelables — en prouvant au passage que des revêtements plus fins et plus propres protègent plus longtemps.',
       es: 'Creemos que nadie debería tener que elegir entre <em>sostenibilidad, precio y calidad</em>. Por eso convertimos cada línea de producto, paso a paso, hacia materias primas renovables — demostrando por el camino que los recubrimientos más finos y limpios protegen más tiempo.',
-      it: 'Crediamo che nessuno debba scegliere tra <em>sostenibilità, prezzo e qualità</em>. Per questo convertiamo ogni linea di prodotto, passo dopo passo, verso materie prime rinnovabili — dimostrando lungo il percorso che rivestimenti più sottili e puliti proteggono più a lungo.' }],
+      it: 'Crediamo che nessuno debba scegliere tra <em>sostenibilità, prezzo e qualità</em>. Per questo convertiamo ogni linea di prodotto, passo dopo passo, verso materie prime rinnovabili — dimostrando lungo il percorso che rivestimenti più sottili e puliti proteggono più a lungo.',
+      tr: 'Kimsenin <em>sürdürülebilirlik, fiyat ve kalite</em> arasında seçim yapmak zorunda kalmaması gerektiğine inanıyoruz. Bu yüzden her ürün hattını adım adım yenilenebilir hammaddelere dönüştürüyoruz — bu yolda daha ince, daha temiz kaplamaların daha uzun süre koruduğunu da kanıtlıyoruz.' }],
     ['#mission .mm b', {
       nl: ['Langer beschermen', 'Minder vervuilen', 'Bewijzen'],
       pl: ['Dłuższa ochrona', 'Mniej zanieczyszczeń', 'Udowadniamy'],
@@ -63,7 +69,8 @@
       de: ['Länger schützen', 'Weniger verschmutzen', 'Beweisen'],
       fr: ['Protéger plus longtemps', 'Polluer moins', 'Le prouver'],
       es: ['Proteger más tiempo', 'Contaminar menos', 'Demostrarlo'],
-      it: ['Proteggere più a lungo', 'Inquinare meno', 'Dimostrarlo'] }],
+      it: ['Proteggere più a lungo', 'Inquinare meno', 'Dimostrarlo'],
+      tr: ['Daha uzun koruma', 'Daha az kirletme', 'Kanıtlama'] }],
     ['#mission .mm span', {
       nl: [
         'Dunne-laag-technologie verlengt de levensduur van materialen met aanzienlijk minder verf per vierkante meter.',
@@ -92,7 +99,11 @@
       it: [
         'La tecnologia a strato sottile prolunga la vita dei materiali con molta meno vernice per metro quadro.',
         'Materie prime vegetali e meno sostanze pericolose, progettate a livello di formulazione.',
-        'Gestione certificata di qualità, ambiente e sicurezza — e certificazioni di prodotto per ogni marchio.'] }],
+        'Gestione certificata di qualità, ambiente e sicurezza — e certificazioni di prodotto per ogni marchio.'],
+      tr: [
+        'İnce katman teknolojisi, metrekare başına çok daha az boya ile malzemelerin ömrünü uzatır.',
+        'Formülasyon düzeyinde tasarlanan bitkisel hammaddeler ve daha az tehlikeli madde.',
+        'Sertifikalı kalite, çevre ve güvenlik yönetimi — ve her marka için ürün sertifikaları.'] }],
     ['.film-cap .wrap-cap', {
       nl: 'De film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">bekijk met geluid ↗</a>',
       pl: 'Film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">obejrzyj z dźwiękiem ↗</a>',
@@ -100,9 +111,10 @@
       de: 'Der Film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">mit Ton ansehen ↗</a>',
       fr: 'Le film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">regarder avec le son ↗</a>',
       es: 'La película — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">ver con sonido ↗</a>',
-      it: 'Il film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">guarda con audio ↗</a>' }],
-    ['#story .eyebrow', { nl: 'Ons verhaal · Sinds 1982', pl: 'Nasza historia · Od 1982', ro: 'Povestea noastră · Din 1982', de: 'Unsere Geschichte · Seit 1982', fr: 'Notre histoire · Depuis 1982', es: 'Nuestra historia · Desde 1982', it: 'La nostra storia · Dal 1982' }],
-    ['#story h2', { nl: 'Vanuit een schuurtje<br>in Moerkapelle', pl: 'Z szopy<br>w Moerkapelle', ro: 'Dintr-o magazie<br>din Moerkapelle', de: 'Aus einem Schuppen<br>in Moerkapelle', fr: 'D\'une remise<br>à Moerkapelle', es: 'Desde un cobertizo<br>en Moerkapelle', it: 'Da un capanno<br>a Moerkapelle' }],
+      it: 'Il film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">guarda con audio ↗</a>',
+      tr: 'Film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">sesli izleyin ↗</a>' }],
+    ['#story .eyebrow', { nl: 'Ons verhaal · Sinds 1982', pl: 'Nasza historia · Od 1982', ro: 'Povestea noastră · Din 1982', de: 'Unsere Geschichte · Seit 1982', fr: 'Notre histoire · Depuis 1982', es: 'Nuestra historia · Desde 1982', it: 'La nostra storia · Dal 1982', tr: 'Hikâyemiz · 1982\'den beri' }],
+    ['#story h2', { nl: 'Vanuit een schuurtje<br>in Moerkapelle', pl: 'Z szopy<br>w Moerkapelle', ro: 'Dintr-o magazie<br>din Moerkapelle', de: 'Aus einem Schuppen<br>in Moerkapelle', fr: 'D\'une remise<br>à Moerkapelle', es: 'Desde un cobertizo<br>en Moerkapelle', it: 'Da un capanno<br>a Moerkapelle', tr: 'Moerkapelle\'deki<br>bir baraktan' }],
     ['#story .sec-head p:last-child', {
       nl: 'Baril begon in 1982 als kleine verfmaker in Moerkapelle — een handvol gedreven mensen in een loods. Vier decennia later is het een internationale coatingsproducent met vestigingen in Nederland en de Verenigde Staten, nog steeds geleid door de families Duijghuisen & Harmon. De constante: de moed om andere keuzes te maken, met verantwoord ondernemen als fundament.',
       pl: 'Baril powstał w 1982 roku jako mały producent farb w Moerkapelle — garstka zaangażowanych ludzi w magazynie. Cztery dekady później jest to międzynarodowy producent powłok z zakładami w Holandii i Stanach Zjednoczonych, nadal prowadzony przez rodziny Duijghuisen & Harmon. Niezmiennie: odwaga podejmowania innych wyborów, z odpowiedzialnym przedsiębiorczością u podstaw.',
@@ -110,9 +122,10 @@
       de: 'Baril begann 1982 als kleiner Farbenhersteller in Moerkapelle — eine Handvoll engagierter Menschen in einer Lagerhalle. Vier Jahrzehnte später ist es ein internationaler Beschichtungshersteller mit Werken in den Niederlanden und den Vereinigten Staaten, noch immer geführt von den Familien Duijghuisen & Harmon. Die Konstante: der Mut, andere Entscheidungen zu treffen, mit verantwortungsvollem Unternehmertum als Kern.',
       fr: 'Baril a débuté en 1982 comme petit fabricant de peinture à Moerkapelle — une poignée de personnes engagées dans un hangar. Quatre décennies plus tard, c\'est un producteur international de revêtements avec des usines aux Pays-Bas et aux États-Unis, toujours dirigé par les familles Duijghuisen & Harmon. La constante : le courage de faire des choix différents, avec une entreprise responsable au cœur de tout.',
       es: 'Baril comenzó en 1982 como un pequeño fabricante de pinturas en Moerkapelle — un puñado de personas comprometidas en un cobertizo. Cuatro décadas después, es un productor internacional de recubrimientos con plantas en los Países Bajos y los Estados Unidos, aún liderado por las familias Duijghuisen & Harmon. La constante: el coraje de tomar decisiones diferentes, con la empresa responsable como eje central.',
-      it: 'Baril è nata nel 1982 come piccolo produttore di vernici a Moerkapelle — una manciata di persone determinate in un capannone. Quattro decenni dopo, è un produttore internazionale di rivestimenti con stabilimenti nei Paesi Bassi e negli Stati Uniti, ancora guidato dalle famiglie Duijghuisen & Harmon. La costante: il coraggio di fare scelte diverse, con l\'impresa responsabile al centro di tutto.' }],
-    ['.story-drawing figcaption', { nl: 'De oorspronkelijke fabriek — de begindagen', pl: 'Pierwotna fabryka — początki', ro: 'Fabrica originală — primii ani', de: 'Die ursprüngliche Fabrik — die Anfangstage', fr: 'L\'usine d\'origine — les débuts', es: 'La fábrica original — los inicios', it: 'La fabbrica originale — gli inizi' }],
-    ['.story-team figcaption', { nl: 'Ons grootste kapitaal — een betrokken, gedreven team', pl: 'Nasz największy kapitał — zaangażowany, zmotywowany zespół', ro: 'Cel mai mare capital al nostru — o echipă dedicată și motivată', de: 'Unser größtes Kapital — ein engagiertes, motiviertes Team', fr: 'Notre plus grand capital — une équipe engagée et motivée', es: 'Nuestro mayor capital — un equipo comprometido y motivado', it: 'Il nostro capitale più grande — un team dedito e motivato' }],
+      it: 'Baril è nata nel 1982 come piccolo produttore di vernici a Moerkapelle — una manciata di persone determinate in un capannone. Quattro decenni dopo, è un produttore internazionale di rivestimenti con stabilimenti nei Paesi Bassi e negli Stati Uniti, ancora guidato dalle famiglie Duijghuisen & Harmon. La costante: il coraggio di fare scelte diverse, con l\'impresa responsabile al centro di tutto.',
+      tr: 'Baril, 1982\'de Moerkapelle\'de küçük bir boya üreticisi olarak yola çıktı — bir depoda bir avuç tutkulu insan. Kırk yıl sonra, hâlâ Duijghuisen & Harmon ailelerinin yönettiği, Hollanda ve Amerika Birleşik Devletleri\'nde tesisleri bulunan uluslararası bir kaplama üreticisi. Değişmeyen yan: farklı tercihler yapma cesareti ve temelinde sorumlu girişimcilik.' }],
+    ['.story-drawing figcaption', { nl: 'De oorspronkelijke fabriek — de begindagen', pl: 'Pierwotna fabryka — początki', ro: 'Fabrica originală — primii ani', de: 'Die ursprüngliche Fabrik — die Anfangstage', fr: 'L\'usine d\'origine — les débuts', es: 'La fábrica original — los inicios', it: 'La fabbrica originale — gli inizi', tr: 'İlk fabrika — başlangıç günleri' }],
+    ['.story-team figcaption', { nl: 'Ons grootste kapitaal — een betrokken, gedreven team', pl: 'Nasz największy kapitał — zaangażowany, zmotywowany zespół', ro: 'Cel mai mare capital al nostru — o echipă dedicată și motivată', de: 'Unser größtes Kapital — ein engagiertes, motiviertes Team', fr: 'Notre plus grand capital — une équipe engagée et motivée', es: 'Nuestro mayor capital — un equipo comprometido y motivado', it: 'Il nostro capitale più grande — un team dedito e motivato', tr: 'En büyük sermayemiz — bağlı, tutkulu bir ekip' }],
     ['.story-col h3', {
       nl: ['Familiebedrijf, uit overtuiging', 'Wereldspeler, dicht bij huis'],
       pl: ['Firma rodzinna, z przekonania', 'Gracz światowy, blisko domu'],
@@ -120,7 +133,8 @@
       de: ['Familienunternehmen, aus Überzeugung', 'Global Player, nah am Zuhause'],
       fr: ['Entreprise familiale, par conviction', 'Acteur mondial, proche de chez soi'],
       es: ['Empresa familiar, por convicción', 'Actor global, cerca de casa'],
-      it: ['Azienda familiare, per convinzione', 'Attore globale, vicino a casa'] }],
+      it: ['Azienda familiare, per convinzione', 'Attore globale, vicino a casa'],
+      tr: ['İnançla, aile şirketi', 'Küresel oyuncu, eve yakın'] }],
     ['.story-col p', {
       nl: [
         'De families Duijghuisen & Harmon durven anders te kiezen — en waar het financieel verantwoord is, kiest het duurzaam: schonere fabrieken, veiligere werkplekken, een elektrisch en hybride wagenpark. Ons grootste kapitaal is een betrokken, gedreven team — toegankelijk, eerlijk en betrokken.',
@@ -142,7 +156,10 @@
         'De un simple cobertizo a la producción en los Países Bajos y EE. UU. — llevada por todo el mundo por distribuidores locales en Europa y Norteamérica. Ayudamos a los clientes a proteger sus objetos de forma duradera y a reducir su huella global.'],
       it: [
         'Le famiglie Duijghuisen & Harmon osano scegliere diversamente — e dove è finanziariamente sensato, scelgono il sostenibile: fabbriche più pulite, luoghi di lavoro più sicuri, una flotta elettrica e ibrida. Il nostro capitale più grande è un team impegnato e motivato — accessibile, onesto e coinvolto.',
-        'Da un semplice capanno alla produzione nei Paesi Bassi e negli USA — portata in tutto il mondo da distributori locali in Europa e Nord America. Aiutiamo i clienti a proteggere durevolmente i loro oggetti e a ridurre la loro impronta globale.'] }],
+        'Da un semplice capanno alla produzione nei Paesi Bassi e negli USA — portata in tutto il mondo da distributori locali in Europa e Nord America. Aiutiamo i clienti a proteggere durevolmente i loro oggetti e a ridurre la loro impronta globale.'],
+      tr: [
+        'Duijghuisen & Harmon aileleri farklı seçimler yapma cesaretini gösterir — ve finansal açıdan mantıklı olduğu yerde sürdürülebilir olanı seçer: daha temiz fabrikalar, daha güvenli iş yerleri, elektrikli ve hibrit bir araç filosu. En büyük sermayemiz bağlı ve tutkulu bir ekip — erişilebilir, dürüst ve içten.',
+        'Tek bir baraktan Hollanda ve ABD\'deki üretime — Avrupa ve Kuzey Amerika\'daki yerel distribütörler aracılığıyla dünyaya taşındı. Müşterilerimizin nesnelerini kalıcı biçimde korumalarına ve küresel ayak izlerini küçültmelerine yardımcı oluyoruz.'] }],
     ['.timeline li span', {
       nl: [
         'Opgericht op 12 november in Moerkapelle', "Verhuizing naar nieuwbouw in 's-Hertogenbosch", 'Management buy-out door Geert Duijghuisen en Hans Broeders †',
@@ -206,8 +223,17 @@
         'Prime pitture decorative biobased certificate USDA ed Ecolabel UE', "Geert Duijghuisen succeduto dai figli Teun e Jeroen Duijghuisen come proprietari-amministratori · nuovo laboratorio a 's-Hertogenbosch · tetti solari a Etten-Leur e 's-Hertogenbosch",
         'Lancio della Baril Academy · SGA Innovation Award per la pittura murale senza TiO₂', 'Inizio della transizione verso il 100% di materie prime rinnovabili · vincitore del Golden Circle Award',
         '802 BIO e 803 BIO — i primi rivestimenti epossidici biobased di qualità industriale', 'Vincitore del Brabant Innovation Award · ospite dell\'evento Barinewables — riunire l\'intera catena internazionale di colleghi del settore per accelerare la transizione verso le materie prime rinnovabili<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Guarda l\'aftermovie ↗</em></a>',
-        'Certificata B Corp — tra i primi produttori di rivestimenti protettivi al mondo · KVK Circular Innovation Award (Chimica) · premio Groene Pluim'] }],
-    ['.vm-k', { nl: ['Missie', 'Visie', 'Hoe'], pl: ['Misja', 'Wizja', 'Jak'], ro: ['Misiune', 'Viziune', 'Cum'], de: ['Mission', 'Vision', 'Wie'], fr: ['Mission', 'Vision', 'Comment'], es: ['Misión', 'Visión', 'Cómo'], it: ['Missione', 'Visione', 'Come'] }],
+        'Certificata B Corp — tra i primi produttori di rivestimenti protettivi al mondo · KVK Circular Innovation Award (Chimica) · premio Groene Pluim'],
+      tr: [
+        '12 Kasım\'da Moerkapelle\'de kuruldu', "'s-Hertogenbosch\'ta yeni binaya taşınma", 'Geert Duijghuisen ve Hans Broeders † tarafından yönetici satın alımı',
+        'BOV Trophy (Beste Ondernemers Visie) ikincisi — People Planet Profit kategorisi', 'Baril Polska, Ryszard ve Krzysztof Tkacz kardeşler ile Krzysztof Krupa ile birlikte kuruldu', 'Baril USA, Harmon ailesiyle birlikte kuruldu — bugün Dave Harmon ve çocukları tarafından yönetiliyor · CO₂ ayak izi takibi başladı',
+        'Farball Coatings\'in devralınması · Etten-Leur\'deki su bazlı fabrika ile üretimin genişletilmesi', 'Baril Romania, George Gramaticu ve Iulian Pastia ile kuruldu', 'DCC (DualCure) teknolojisi için Hollanda patenti',
+        'Biyobazlı hammaddeler temel değer olarak benimsendi · biyobazlı dekoratif boyalar · Baril Group tarafından devralınma', 'DCC, AB, ABD ve Kanada\'da patentlendi · Best Managed Company',
+        'USDA ve EU Ecolabel sertifikalı ilk biyobazlı dekoratif boyalar', "Geert Duijghuisen\'in yerini oğulları Teun ve Jeroen Duijghuisen sahip-yönetici olarak aldı · 's-Hertogenbosch\'ta yeni laboratuvar · Etten-Leur ve 's-Hertogenbosch\'ta güneş çatıları",
+        'Baril Academy\'nin başlangıcı · TiO₂\'siz duvar boyası için SGA Innovation Award', '%100 yenilenebilir hammaddelere geçişin başlangıcı · Golden Circle Award kazananı',
+        '802 BIO & 803 BIO — endüstriyel kalitede ilk biyobazlı epoksi kaplamalar', 'Brabant Innovation Award kazananı · Barinewables etkinliğine ev sahipliği — yenilenebilir hammaddelere geçişi hızlandırmak için tüm uluslararası sektör meslektaşları zincirini bir araya getirdi<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Aftermovie\'yi izleyin ↗</em></a>',
+        'B Corp sertifikalı — dünyadaki ilk koruyucu kaplama şirketlerinden biri · KVK Circular Innovation Award (Kimya) · Groene Pluim ödülü'] }],
+    ['.vm-k', { nl: ['Missie', 'Visie', 'Hoe'], pl: ['Misja', 'Wizja', 'Jak'], ro: ['Misiune', 'Viziune', 'Cum'], de: ['Mission', 'Vision', 'Wie'], fr: ['Mission', 'Vision', 'Comment'], es: ['Misión', 'Visión', 'Cómo'], it: ['Missione', 'Visione', 'Come'], tr: ['Misyon', 'Vizyon', 'Nasıl'] }],
     ['.vm p:not(.vm-k)', {
       nl: [
         'Duurzame coatingoplossingen bieden aan klanten en stakeholders — op weg naar het groenste verfbedrijf van Nederland.',
@@ -236,8 +262,12 @@
       it: [
         'Offrire soluzioni di rivestimento sostenibili a clienti e stakeholder — verso l\'obiettivo di essere l\'azienda di vernici più verde dei Paesi Bassi.',
         "Una filosofia «un solo pianeta», radicata nel nostro DNA: ciò che mettiamo dentro vogliamo anche recuperarlo. Ogni linea di prodotto passa a materie prime biobased — 100% recuperabile è l\'obiettivo.",
-        'Tecnologia a strato sottile, chimica biobased e a base acqua, fabbriche a basse emissioni e impegno attivo sugli Obiettivi di Sviluppo Sostenibile dell\'ONU — dimostrati in progetti come Bright Coatings.'] }],
-    ['#bcorp .eyebrow', { nl: 'B Corp-gecertificeerd · 2025', pl: 'Certyfikat B Corp · 2025', ro: 'Certificat B Corp · 2025', de: 'B-Corp-zertifiziert · 2025', fr: 'Certifiée B Corp · 2025', es: 'Certificada B Corp · 2025', it: 'Certificata B Corp · 2025' }],
+        'Tecnologia a strato sottile, chimica biobased e a base acqua, fabbriche a basse emissioni e impegno attivo sugli Obiettivi di Sviluppo Sostenibile dell\'ONU — dimostrati in progetti come Bright Coatings.'],
+      tr: [
+        'Müşterilere ve paydaşlara sürdürülebilir kaplama çözümleri sunmak — Hollanda\'nın en yeşil boya şirketi olma yolunda.',
+        "DNA\'mıza işlemiş bir 'tek gezegen' düşüncesi: içine koyduğumuzu yeniden geri almak istiyoruz. Her ürün hattı biyobazlı hammaddelere geçiyor — hedef %100 geri kazanılabilirlik.",
+        'İnce katman teknolojisi, biyobazlı ve su bazlı kimya, düşük emisyonlu fabrikalar ve BM Sürdürülebilir Kalkınma Hedefleri üzerine etkin çalışma — Bright Coatings gibi projelerde kanıtlandı.'] }],
+    ['#bcorp .eyebrow', { nl: 'B Corp-gecertificeerd · 2025', pl: 'Certyfikat B Corp · 2025', ro: 'Certificat B Corp · 2025', de: 'B-Corp-zertifiziert · 2025', fr: 'Certifiée B Corp · 2025', es: 'Certificada B Corp · 2025', it: 'Certificata B Corp · 2025', tr: 'B Corp sertifikalı · 2025' }],
     ['#bcorp h2', {
       nl: "Een van 's werelds eerste<br>B Corp-protective-coatingsmakers",
       pl: 'Jeden z pierwszych na świecie<br>producentów powłok ochronnych B Corp',
@@ -245,7 +275,8 @@
       de: 'Einer der weltweit ersten<br>B-Corp-Hersteller von Schutzbeschichtungen',
       fr: 'L\'un des premiers fabricants<br>de revêtements de protection B Corp au monde',
       es: 'Uno de los primeros fabricantes<br>de recubrimientos de protección B Corp del mundo',
-      it: 'Tra i primi produttori al mondo<br>di rivestimenti protettivi B Corp' }],
+      it: 'Tra i primi produttori al mondo<br>di rivestimenti protettivi B Corp',
+      tr: 'Dünyanın ilk B Corp koruyucu<br>kaplama üreticilerinden biri' }],
     ['#bcorp .bc-desc', {
       nl: 'In 2025 werd Baril een Certified B Corporation — een van de eerste protective-coatingsbedrijven ter wereld die voldoet aan de geverifieerde B Corp-normen voor sociale en milieuprestaties, transparantie en verantwoording.',
       pl: 'W 2025 roku Baril został Certyfikowaną B Corporation — jednym z pierwszych producentów powłok ochronnych na świecie spełniającym zweryfikowane standardy B Corp w zakresie wyników społecznych i środowiskowych, transparentności i odpowiedzialności.',
@@ -253,9 +284,10 @@
       de: 'Im Jahr 2025 wurde Baril eine Certified B Corporation — eines der ersten Unternehmen für Schutzbeschichtungen weltweit, das die verifizierten B-Corp-Normen für soziale und ökologische Leistung, Transparenz und Rechenschaft erfüllt.',
       fr: 'En 2025, Baril est devenue une Certified B Corporation — l\'une des premières entreprises de revêtements de protection au monde à répondre aux normes vérifiées B Corp en matière de performance sociale et environnementale, de transparence et de responsabilité.',
       es: 'En 2025, Baril se convirtió en una Certified B Corporation — una de las primeras empresas de recubrimientos de protección del mundo en cumplir las normas verificadas B Corp de desempeño social y ambiental, transparencia y responsabilidad.',
-      it: 'Nel 2025 Baril è diventata una Certified B Corporation — una delle prime aziende di rivestimenti protettivi al mondo a soddisfare gli standard verificati B Corp di performance sociale e ambientale, trasparenza e responsabilità.' }],
-    ['#certs .eyebrow', { nl: 'Certificeringen & doelen', pl: 'Certyfikaty i cele', ro: 'Certificări și obiective', de: 'Zertifizierungen & Ziele', fr: 'Certifications et objectifs', es: 'Certificaciones y objetivos', it: 'Certificazioni e obiettivi' }],
-    ['#certs h2', { nl: 'Bewezen, gecertificeerd,<br>aanspreekbaar', pl: 'Sprawdzone, certyfikowane,<br>odpowiedzialne', ro: 'Dovedit, certificat,<br>responsabil', de: 'Bewährt, zertifiziert,<br>verantwortlich', fr: 'Éprouvé, certifié,<br>responsable', es: 'Probado, certificado,<br>responsable', it: 'Provato, certificato,<br>responsabile' }],
+      it: 'Nel 2025 Baril è diventata una Certified B Corporation — una delle prime aziende di rivestimenti protettivi al mondo a soddisfare gli standard verificati B Corp di performance sociale e ambientale, trasparenza e responsabilità.',
+      tr: '2025\'te Baril, bir Certified B Corporation oldu — sosyal ve çevresel performans, şeffaflık ve hesap verebilirlik konusunda doğrulanmış B Corp standartlarını karşılayan, dünyadaki ilk koruyucu kaplama şirketlerinden biri.' }],
+    ['#certs .eyebrow', { nl: 'Certificeringen & doelen', pl: 'Certyfikaty i cele', ro: 'Certificări și obiective', de: 'Zertifizierungen & Ziele', fr: 'Certifications et objectifs', es: 'Certificaciones y objetivos', it: 'Certificazioni e obiettivi', tr: 'Sertifikalar ve hedefler' }],
+    ['#certs h2', { nl: 'Bewezen, gecertificeerd,<br>aanspreekbaar', pl: 'Sprawdzone, certyfikowane,<br>odpowiedzialne', ro: 'Dovedit, certificat,<br>responsabil', de: 'Bewährt, zertifiziert,<br>verantwortlich', fr: 'Éprouvé, certifié,<br>responsable', es: 'Probado, certificado,<br>responsable', it: 'Provato, certificato,<br>responsabile', tr: 'Kanıtlanmış, sertifikalı,<br>hesap verebilir' }],
     ['#certs .sec-head p:last-child', {
       nl: "Kwaliteits-, milieu- en veiligheidsmanagement, offshore-kwalificatie — en sinds 2025 de status van Certified B Corporation. Ondersteund door een actief programma op de duurzame-ontwikkelingsdoelen (SDG's) van de VN.",
       pl: 'Zarządzanie jakością, środowiskiem i bezpieczeństwem, kwalifikacja offshore — a od 2025 roku status Certyfikowanej B Corporation. Wsparte aktywnym programem na rzecz Celów Zrównoważonego Rozwoju ONZ.',
@@ -263,7 +295,8 @@
       de: "Qualitäts-, Umwelt- und Sicherheitsmanagement, Offshore-Qualifikation — und seit 2025 der Status einer Certified B Corporation. Unterstützt durch ein aktives Programm zu den Zielen für nachhaltige Entwicklung (SDGs) der UN.",
       fr: 'Management qualité, environnement et sécurité, qualification offshore — et depuis 2025 le statut de Certified B Corporation. Soutenu par un programme actif sur les objectifs de développement durable (ODD) de l\'ONU.',
       es: 'Gestión de calidad, medio ambiente y seguridad, cualificación offshore — y desde 2025 el estatus de Certified B Corporation. Respaldado por un programa activo en los Objetivos de Desarrollo Sostenible (ODS) de la ONU.',
-      it: 'Gestione di qualità, ambiente e sicurezza, qualifica offshore — e dal 2025 lo status di Certified B Corporation. Sostenuto da un programma attivo sugli Obiettivi di Sviluppo Sostenibile (SDG) dell\'ONU.' }],
+      it: 'Gestione di qualità, ambiente e sicurezza, qualifica offshore — e dal 2025 lo status di Certified B Corporation. Sostenuto da un programma attivo sugli Obiettivi di Sviluppo Sostenibile (SDG) dell\'ONU.',
+      tr: 'Kalite, çevre ve güvenlik yönetimi, offshore yeterliliği — ve 2025\'ten beri Certified B Corporation statüsü. BM Sürdürülebilir Kalkınma Hedefleri (SDG) üzerine etkin bir programla destekleniyor.' }],
     ['.sdg-title', {
       nl: "Actief op de duurzame-ontwikkelingsdoelen (SDG's) van de VN",
       pl: 'Aktywni w Celach Zrównoważonego Rozwoju ONZ',
@@ -271,9 +304,10 @@
       de: 'Aktiv bei den Zielen für nachhaltige Entwicklung (SDGs) der UN',
       fr: 'Actifs sur les objectifs de développement durable (ODD) de l\'ONU',
       es: 'Activos en los Objetivos de Desarrollo Sostenible (ODS) de la ONU',
-      it: 'Attivi sugli Obiettivi di Sviluppo Sostenibile (SDG) dell\'ONU' }],
-    ['#bio .eyebrow', { nl: 'Hoofdstuk 01 · Circulaire grondstoffen', pl: 'Rozdział 01 · Surowce w obiegu zamkniętym', ro: 'Capitolul 01 · Materii prime circulare', de: 'Kapitel 01 · Zirkuläre Rohstoffe', fr: 'Chapitre 01 · Matières premières circulaires', es: 'Capítulo 01 · Materias primas circulares', it: 'Capitolo 01 · Materie prime circolari' }],
-    ['#bio h2', { nl: 'Van vat<br>naar bio', pl: 'Z beczki<br>do bio', ro: 'De la baril<br>la bio', de: 'Vom Fass<br>zu Bio', fr: 'Du baril<br>au bio', es: 'Del barril<br>al bio', it: 'Dal barile<br>al bio' }],
+      it: 'Attivi sugli Obiettivi di Sviluppo Sostenibile (SDG) dell\'ONU',
+      tr: 'BM Sürdürülebilir Kalkınma Hedefleri (SDG) üzerinde etkin' }],
+    ['#bio .eyebrow', { nl: 'Hoofdstuk 01 · Circulaire grondstoffen', pl: 'Rozdział 01 · Surowce w obiegu zamkniętym', ro: 'Capitolul 01 · Materii prime circulare', de: 'Kapitel 01 · Zirkuläre Rohstoffe', fr: 'Chapitre 01 · Matières premières circulaires', es: 'Capítulo 01 · Materias primas circulares', it: 'Capitolo 01 · Materie prime circolari', tr: 'Bölüm 01 · Döngüsel hammaddeler' }],
+    ['#bio h2', { nl: 'Van vat<br>naar bio', pl: 'Z beczki<br>do bio', ro: 'De la baril<br>la bio', de: 'Vom Fass<br>zu Bio', fr: 'Du baril<br>au bio', es: 'Del barril<br>al bio', it: 'Dal barile<br>al bio', tr: 'Varilden<br>biyoya' }],
     ['#bio .sec-head p:last-child', {
       nl: 'Elke liter verf is chemie: bindmiddel, oplosmiddel, pigment, additieven. Een eeuw lang was die chemie gebaseerd op ruwe olie — het bindmiddel, en vaak ook het oplosmiddel. Wij zetten beide om naar hernieuwbare en circulaire grondstoffen: van minder dan 10% in 2022 naar 55% vandaag, op weg naar 100% in 2030.',
       pl: 'Każdy litr farby to chemia: spoiwo, rozpuszczalnik, pigment, dodatki. Przez stulecie ta chemia opierała się na ropie naftowej — spoiwo, a często też rozpuszczalnik. Przestawiamy oba na surowce odnawialne i w obiegu zamkniętym: z mniej niż 10% w 2022 do 55% dziś, w drodze do 100% w 2030.',
@@ -281,9 +315,10 @@
       de: 'Jeder Liter Farbe ist Chemie: Bindemittel, Lösemittel, Pigment, Additive. Ein Jahrhundert lang basierte diese Chemie auf Erdöl — das Bindemittel und oft auch das Lösemittel. Wir stellen beide auf erneuerbare und zirkuläre Rohstoffe um: von weniger als 10% im Jahr 2022 auf 55% heute, auf dem Weg zu 100% bis 2030.',
       fr: 'Chaque litre de peinture est de la chimie : liant, solvant, pigment, additifs. Pendant un siècle, cette chimie reposait sur le pétrole — le liant, et souvent le solvant aussi. Nous convertissons les deux vers des matières premières renouvelables et circulaires : de moins de 10% en 2022 à 55% aujourd\'hui, en route vers 100% en 2030.',
       es: 'Cada litro de pintura es química: aglutinante, disolvente, pigmento, aditivos. Durante un siglo esa química se basó en el petróleo — el aglutinante, y a menudo también el disolvente. Convertimos ambos hacia materias primas renovables y circulares: de menos del 10% en 2022 al 55% hoy, camino del 100% en 2030.',
-      it: 'Ogni litro di vernice è chimica: legante, solvente, pigmento, additivi. Per un secolo questa chimica si è basata sul petrolio — il legante e, spesso, anche il solvente. Convertiamo entrambi verso materie prime rinnovabili e circolari: da meno del 10% nel 2022 al 55% oggi, verso il 100% nel 2030.' }],
-    ['#bio .ctr:nth-child(2) b', { nl: '100% in 2030', pl: '100% w 2030', ro: '100% în 2030', de: '100% bis 2030', fr: '100% en 2030', es: '100% en 2030', it: '100% nel 2030' }],
-    ['#bio .ctr:nth-child(3) b', { nl: 'Gelijk of beter', pl: 'Tak samo lub lepiej', ro: 'La fel sau mai bine', de: 'Gleich oder besser', fr: 'Égal ou meilleur', es: 'Igual o mejor', it: 'Uguale o migliore' }],
+      it: 'Ogni litro di vernice è chimica: legante, solvente, pigmento, additivi. Per un secolo questa chimica si è basata sul petrolio — il legante e, spesso, anche il solvente. Convertiamo entrambi verso materie prime rinnovabili e circolari: da meno del 10% nel 2022 al 55% oggi, verso il 100% nel 2030.',
+      tr: 'Her litre boya kimyadır: bağlayıcı, çözücü, pigment, katkı maddeleri. Bir yüzyıl boyunca bu kimya ham petrole dayandı — bağlayıcı ve çoğu zaman çözücü de. İkisini de yenilenebilir ve döngüsel hammaddelere dönüştürüyoruz: 2022\'de %10\'un altından bugün %55\'e, 2030\'da %100\'e doğru.' }],
+    ['#bio .ctr:nth-child(2) b', { nl: '100% in 2030', pl: '100% w 2030', ro: '100% în 2030', de: '100% bis 2030', fr: '100% en 2030', es: '100% en 2030', it: '100% nel 2030', tr: '2030\'da %100' }],
+    ['#bio .ctr:nth-child(3) b', { nl: 'Gelijk of beter', pl: 'Tak samo lub lepiej', ro: 'La fel sau mai bine', de: 'Gleich oder besser', fr: 'Égal ou meilleur', es: 'Igual o mejor', it: 'Uguale o migliore', tr: 'Aynı ya da daha iyi' }],
     ['#bio .ctr .cl', {
       nl: ['Hernieuwbare & circulaire grondstoffen — vandaag', 'Groepsdoel — vanaf &lt;10% in 2022', 'Prestaties, bij lagere laagdikte'],
       pl: ['Surowce odnawialne i w obiegu zamkniętym — dziś', 'Cel grupy — z &lt;10% w 2022', 'Wydajność, przy niższej grubości powłoki'],
@@ -291,9 +326,10 @@
       de: ['Erneuerbare & zirkuläre Rohstoffe — heute', 'Gruppenziel — ab &lt;10% im Jahr 2022', 'Leistung, bei geringerer Schichtdicke'],
       fr: ['Matières premières renouvelables et circulaires — aujourd\'hui', 'Objectif du groupe — depuis &lt;10% en 2022', 'Performance, à une épaisseur réduite'],
       es: ['Materias primas renovables y circulares — hoy', 'Objetivo del grupo — desde &lt;10% en 2022', 'Rendimiento, con menor espesor'],
-      it: ['Materie prime rinnovabili e circolari — oggi', 'Obiettivo del gruppo — da &lt;10% nel 2022', 'Prestazioni, a spessore ridotto'] }],
-    ['#globe .eyebrow', { nl: 'Hoofdstuk 02 · Een wat-als-scenario', pl: 'Rozdział 02 · Scenariusz „co gdyby”', ro: 'Capitolul 02 · Un scenariu „ce-ar fi dacă”', de: 'Kapitel 02 · Ein Was-wäre-wenn-Szenario', fr: 'Chapitre 02 · Un scénario hypothétique', es: 'Capítulo 02 · Un escenario hipotético', it: 'Capitolo 02 · Uno scenario ipotetico' }],
-    ['#globe h2', { nl: 'Als de verf van de wereld<br>met ons meeging', pl: 'Gdyby farba świata<br>poszła z nami', ro: 'Dacă vopseaua lumii<br>ar merge cu noi', de: 'Wenn die Farbe der Welt<br>mit uns ginge', fr: 'Si la peinture du monde<br>nous suivait', es: 'Si la pintura del mundo<br>nos siguiera', it: 'Se la vernice del mondo<br>venisse con noi' }],
+      it: ['Materie prime rinnovabili e circolari — oggi', 'Obiettivo del gruppo — da &lt;10% nel 2022', 'Prestazioni, a spessore ridotto'],
+      tr: ['Yenilenebilir ve döngüsel hammaddeler — bugün', 'Grup hedefi — 2022\'de &lt;%10\'dan', 'Performans, daha düşük katman kalınlığında'] }],
+    ['#globe .eyebrow', { nl: 'Hoofdstuk 02 · Een wat-als-scenario', pl: 'Rozdział 02 · Scenariusz „co gdyby”', ro: 'Capitolul 02 · Un scenariu „ce-ar fi dacă”', de: 'Kapitel 02 · Ein Was-wäre-wenn-Szenario', fr: 'Chapitre 02 · Un scénario hypothétique', es: 'Capítulo 02 · Un escenario hipotético', it: 'Capitolo 02 · Uno scenario ipotetico', tr: 'Bölüm 02 · Bir ya-olsaydı senaryosu' }],
+    ['#globe h2', { nl: 'Als de verf van de wereld<br>met ons meeging', pl: 'Gdyby farba świata<br>poszła z nami', ro: 'Dacă vopseaua lumii<br>ar merge cu noi', de: 'Wenn die Farbe der Welt<br>mit uns ginge', fr: 'Si la peinture du monde<br>nous suivait', es: 'Si la pintura del mundo<br>nos siguiera', it: 'Se la vernice del mondo<br>venisse con noi', tr: 'Dünyanın boyası<br>bizimle gelseydi' }],
     ['#globe .sec-head p:last-child', {
       nl: 'De wereld produceert ≈ 50+ miljoen ton verf en coatings per jaar — nog altijd overwegend fossiele chemie. Dit verandert er van richting wanneer dat volume overgaat op hernieuwbare grondstoffen en dunne-laag-applicatie, zoals wij dat doen.',
       pl: 'Świat produkuje ≈ 50+ milionów ton farb i powłok rocznie — wciąż w przeważającej mierze chemia kopalna. Oto co zmienia kierunek, gdy ta ilość przechodzi na surowce odnawialne i aplikację cienkowarstwową, tak jak robimy to my.',
@@ -301,9 +337,10 @@
       de: 'Die Welt produziert ≈ 50+ Millionen Tonnen Farben und Beschichtungen pro Jahr — noch immer überwiegend fossile Chemie. Das ändert die Richtung, wenn dieses Volumen auf erneuerbare Rohstoffe und Dünnschicht-Applikation umgestellt wird, so wie wir es tun.',
       fr: 'Le monde produit ≈ 50+ millions de tonnes de peintures et de revêtements par an — toujours majoritairement de la chimie fossile. Voilà ce qui change de cap lorsque ce volume passe aux matières premières renouvelables et à l\'application en couche mince, comme nous le faisons.',
       es: 'El mundo produce ≈ 50+ millones de toneladas de pinturas y recubrimientos al año — todavía mayoritariamente química fósil. Esto cambia de rumbo cuando ese volumen pasa a materias primas renovables y a la aplicación en capa fina, como hacemos nosotros.',
-      it: 'Il mondo produce ≈ 50+ milioni di tonnellate di vernici e rivestimenti all\'anno — ancora in gran parte chimica fossile. Ecco cosa cambia direzione quando quel volume passa a materie prime rinnovabili e all\'applicazione a strato sottile, come facciamo noi.' }],
-    ['.fr-slider span', { nl: ['Fossiel', null, 'Hernieuwbaar'], pl: ['Kopalne', null, 'Odnawialne'], ro: ['Fosil', null, 'Regenerabil'], de: ['Fossil', null, 'Erneuerbar'], fr: ['Fossile', null, 'Renouvelable'], es: ['Fósil', null, 'Renovable'], it: ['Fossile', null, 'Rinnovabile'] }],
-    ['.dial b', { nl: ['Grondstof', 'CO₂-richting', 'Materiaallevensduur'], pl: ['Surowiec', 'Kierunek CO₂', 'Żywotność materiału'], ro: ['Materie primă', 'Direcția CO₂', 'Durata de viață a materialului'], de: ['Rohstoff', 'CO₂-Richtung', 'Materiallebensdauer'], fr: ['Matière première', 'Direction CO₂', 'Durée de vie du matériau'], es: ['Materia prima', 'Dirección CO₂', 'Vida útil del material'], it: ['Materia prima', 'Direzione CO₂', 'Durata del materiale'] }],
+      it: 'Il mondo produce ≈ 50+ milioni di tonnellate di vernici e rivestimenti all\'anno — ancora in gran parte chimica fossile. Ecco cosa cambia direzione quando quel volume passa a materie prime rinnovabili e all\'applicazione a strato sottile, come facciamo noi.',
+      tr: 'Dünya yılda ≈ 50+ milyon ton boya ve kaplama üretiyor — hâlâ ağırlıklı olarak fosil kimya. Bu hacim, bizim yaptığımız gibi yenilenebilir hammaddelere ve ince katman uygulamasına geçtiğinde yön işte böyle değişiyor.' }],
+    ['.fr-slider span', { nl: ['Fossiel', null, 'Hernieuwbaar'], pl: ['Kopalne', null, 'Odnawialne'], ro: ['Fosil', null, 'Regenerabil'], de: ['Fossil', null, 'Erneuerbar'], fr: ['Fossile', null, 'Renouvelable'], es: ['Fósil', null, 'Renovable'], it: ['Fossile', null, 'Rinnovabile'], tr: ['Fosil', null, 'Yenilenebilir'] }],
+    ['.dial b', { nl: ['Grondstof', 'CO₂-richting', 'Materiaallevensduur'], pl: ['Surowiec', 'Kierunek CO₂', 'Żywotność materiału'], ro: ['Materie primă', 'Direcția CO₂', 'Durata de viață a materialului'], de: ['Rohstoff', 'CO₂-Richtung', 'Materiallebensdauer'], fr: ['Matière première', 'Direction CO₂', 'Durée de vie du matériau'], es: ['Materia prima', 'Dirección CO₂', 'Vida útil del material'], it: ['Materia prima', 'Direzione CO₂', 'Durata del materiale'], tr: ['Hammadde', 'CO₂ yönü', 'Malzeme ömrü'] }],
     ['.dial b + span', {
       nl: ['Van ruwe olie naar planten & reststromen', 'Van uitstoten naar vastleggen', 'Dunne lagen: meer m² beschermd per liter, minder overschilderen'],
       pl: ['Z ropy naftowej do roślin i strumieni odpadowych', 'Z emitowania do wiązania', 'Cienkie warstwy: więcej m² chronionych na litr, mniej przemalowań'],
@@ -311,7 +348,8 @@
       de: ['Von Erdöl zu Pflanzen & Reststoffen', 'Von Ausstoßen zu Binden', 'Dünne Schichten: mehr m² pro Liter geschützt, weniger Überstreichen'],
       fr: ['Du pétrole aux plantes et flux résiduels', 'D\'émettre à capter', 'Couches fines : plus de m² protégés par litre, moins de reprises'],
       es: ['Del petróleo a plantas y flujos residuales', 'De emitir a captar', 'Capas finas: más m² protegidos por litro, menos repintados'],
-      it: ['Dal petrolio a piante e flussi residui', 'Da emettere a catturare', 'Strati sottili: più m² protetti per litro, meno riverniciature'] }],
+      it: ['Dal petrolio a piante e flussi residui', 'Da emettere a catturare', 'Strati sottili: più m² protetti per litro, meno riverniciature'],
+      tr: ['Ham petrolden bitkilere ve atık akışlarına', 'Salımdan tutmaya', 'İnce katmanlar: litre başına daha fazla korunan m², daha az yeniden boyama'] }],
     ['.pool-side .scenario-note', {
       nl: 'Illustratief scenario op basis van Barils producttransitie. Wereldvolume: marktramingen 2022–2024, zie bronnen.',
       pl: 'Scenariusz ilustracyjny oparty na transformacji produktów Baril. Wolumen światowy: szacunki rynkowe 2022–2024, zob. źródła.',
@@ -319,9 +357,10 @@
       de: 'Illustratives Szenario auf Basis der Produkttransition von Baril. Weltvolumen: Marktschätzungen 2022–2024, siehe Quellen.',
       fr: 'Scénario illustratif basé sur la transition produits de Baril. Volume mondial : estimations de marché 2022–2024, voir les sources.',
       es: 'Escenario ilustrativo basado en la transición de productos de Baril. Volumen mundial: estimaciones de mercado 2022–2024, ver fuentes.',
-      it: 'Scenario illustrativo basato sulla transizione dei prodotti Baril. Volume mondiale: stime di mercato 2022–2024, vedi fonti.' }],
-    ['#safety .eyebrow', { nl: 'Hoofdstuk 03 · Mens & veiligheid', pl: 'Rozdział 03 · Człowiek i bezpieczeństwo', ro: 'Capitolul 03 · Om și siguranță', de: 'Kapitel 03 · Mensch & Sicherheit', fr: 'Chapitre 03 · L\'humain et la sécurité', es: 'Capítulo 03 · Personas y seguridad', it: 'Capitolo 03 · Persone e sicurezza' }],
-    ['#safety h2', { nl: 'Verf die de schilder<br>niet zijn gezondheid kost', pl: 'Farba, która nie kosztuje<br>malarza zdrowia', ro: 'Vopsea care nu costă<br>zugravul sănătatea', de: 'Farbe, die den Maler<br>nicht die Gesundheit kostet', fr: 'Une peinture qui ne coûte pas<br>la santé au peintre', es: 'Pintura que no le cuesta<br>la salud al pintor', it: 'Una vernice che non costa<br>la salute all\'imbianchino' }],
+      it: 'Scenario illustrativo basato sulla transizione dei prodotti Baril. Volume mondiale: stime di mercato 2022–2024, vedi fonti.',
+      tr: 'Baril\'in ürün dönüşümüne dayalı açıklayıcı senaryo. Dünya hacmi: 2022–2024 pazar tahminleri, kaynaklara bakın.' }],
+    ['#safety .eyebrow', { nl: 'Hoofdstuk 03 · Mens & veiligheid', pl: 'Rozdział 03 · Człowiek i bezpieczeństwo', ro: 'Capitolul 03 · Om și siguranță', de: 'Kapitel 03 · Mensch & Sicherheit', fr: 'Chapitre 03 · L\'humain et la sécurité', es: 'Capítulo 03 · Personas y seguridad', it: 'Capitolo 03 · Persone e sicurezza', tr: 'Bölüm 03 · İnsan ve güvenlik' }],
+    ['#safety h2', { nl: 'Verf die de schilder<br>niet zijn gezondheid kost', pl: 'Farba, która nie kosztuje<br>malarza zdrowia', ro: 'Vopsea care nu costă<br>zugravul sănătatea', de: 'Farbe, die den Maler<br>nicht die Gesundheit kostet', fr: 'Une peinture qui ne coûte pas<br>la santé au peintre', es: 'Pintura que no le cuesta<br>la salud al pintor', it: 'Una vernice che non costa<br>la salute all\'imbianchino', tr: 'Boyacıya sağlığını<br>mal etmeyen boya' }],
     ['#safety .sec-head p:last-child', {
       nl: 'In Nederland had chronische blootstelling aan oplosmiddelen een eigen naam: <em>schildersziekte</em> (CSE/OPS). Onomkeerbare schade aan het zenuwstelsel, erkend als beroepsziekte. Toen herformuleerde de industrie — watergedragen, laag-VOS — en stortten de aantallen in. Het bewijs dat chemie die in de fabriek wordt gekozen, mensen op de steiger beschermt. Wij trekken dat verder dan het blik: actuele veiligheidsinformatie, getrainde applicateurs en persoonlijk veiligheidsadvies horen bij de verf.',
       pl: 'W Holandii przewlekłe narażenie na rozpuszczalniki miało własną nazwę: <em>schildersziekte</em> — choroba malarzy (CSE/OPS). Nieodwracalne uszkodzenie układu nerwowego, uznane za chorobę zawodową. Potem branża zmieniła receptury — wodorozcieńczalne, niskie LZO — i liczby się załamały. Dowód, że chemia wybrana w fabryce chroni ludzi na rusztowaniu. Idziemy dalej niż puszka: aktualne informacje o bezpieczeństwie, przeszkoleni wykonawcy i doradztwo w zakresie ochrony osobistej są częścią farby.',
@@ -329,12 +368,13 @@
       de: 'In den Niederlanden hatte die chronische Lösemittelexposition einen eigenen Namen: <em>schildersziekte</em> — Malerkrankheit (CSE/OPS). Irreversible Schäden am Nervensystem, anerkannt als Berufskrankheit. Dann formulierte die Industrie um — wasserbasiert, low-VOC — und die Zahlen brachen ein. Der Beweis, dass in der Fabrik gewählte Chemie Menschen auf dem Gerüst schützt. Wir gehen weiter als die Dose: aktuelle Sicherheitsinformationen, geschulte Applikatoren und persönliche Sicherheitsberatung gehören zur Farbe.',
       fr: 'Aux Pays-Bas, l\'exposition chronique aux solvants avait son propre nom : <em>schildersziekte</em> — la maladie du peintre (CSE/OPS). Des dommages irréversibles au système nerveux, reconnus comme maladie professionnelle. Puis l\'industrie a reformulé — hydrodiluable, faible COV — et les chiffres se sont effondrés. La preuve qu\'une chimie choisie en usine protège les gens sur l\'échafaudage. Nous allons plus loin que le pot : informations de sécurité à jour, applicateurs formés et conseils de protection individuelle accompagnent la peinture.',
       es: 'En los Países Bajos, la exposición crónica a disolventes tenía su propio nombre: <em>schildersziekte</em> — la enfermedad del pintor (CSE/OPS). Daños irreversibles al sistema nervioso, reconocidos como enfermedad profesional. Entonces la industria reformuló — al agua, bajo COV — y las cifras se desplomaron. La prueba de que la química elegida en la fábrica protege a las personas en el andamio. Vamos más allá del bote: información de seguridad actualizada, aplicadores formados y asesoramiento de protección personal acompañan a la pintura.',
-      it: 'Nei Paesi Bassi, l\'esposizione cronica ai solventi aveva un nome proprio: <em>schildersziekte</em> — la malattia dell\'imbianchino (CSE/OPS). Danni irreversibili al sistema nervoso, riconosciuti come malattia professionale. Poi l\'industria ha riformulato — a base acqua, basso COV — e i numeri sono crollati. La prova che una chimica scelta in fabbrica protegge le persone sul ponteggio. Andiamo oltre il barattolo: informazioni di sicurezza aggiornate, applicatori formati e consulenza sulla protezione personale fanno parte della vernice.' }],
-    ['.tl-nodes li b', { nl: ['Jaren 70', '≈ 2000', '2004', '2014', 'Vandaag'], pl: ['Lata 70.', '≈ 2000', '2004', '2014', 'Dziś'], ro: ['Anii 70', '≈ 2000', '2004', '2014', 'Astăzi'], de: ['70er Jahre', '≈ 2000', '2004', '2014', 'Heute'], fr: ['Années 70', '≈ 2000', '2004', '2014', 'Aujourd\'hui'], es: ['Años 70', '≈ 2000', '2004', '2014', 'Hoy'], it: ['Anni 70', '≈ 2000', '2004', '2014', 'Oggi'] }],
-    ['.tl-nodes li:nth-child(1) span', { nl: 'Het oplosmiddelentijdperk', pl: 'Era rozpuszczalników', ro: 'Era solvenților', de: 'Das Lösemittel-Zeitalter', fr: 'L\'ère des solvants', es: 'La era de los disolventes', it: 'L\'era dei solventi' }],
-    ['.tl-nodes li:nth-child(3) span', { nl: 'EU-verfrichtlijn begrenst VOS-gehalte', pl: 'Dyrektywa UE ogranicza zawartość LZO', ro: 'Directiva UE limitează conținutul de COV', de: 'EU-Farbrichtlinie begrenzt VOC-Gehalt', fr: 'La directive UE limite la teneur en COV', es: 'La directiva UE limita el contenido de COV', it: 'La direttiva UE limita il contenuto di COV' }],
-    ['.tl-nodes li:nth-child(4) span', { nl: '&lt; 10 nieuwe gevallen / jr', pl: '&lt; 10 nowych przypadków / rok', ro: '&lt; 10 cazuri noi / an', de: '&lt; 10 neue Fälle / Jahr', fr: '&lt; 10 nouveaux cas / an', es: '&lt; 10 casos nuevos / año', it: '&lt; 10 nuovi casi / anno' }],
-    ['.tl-nodes li:nth-child(5) span', { nl: 'Gevaar wegformuleren — emissiegetest, kindveilig gecertificeerd', pl: 'Wyeliminować zagrożenie w recepturze — testowane na emisje, certyfikowane jako bezpieczne dla dzieci', ro: 'Eliminarea pericolului din rețetă — testat la emisii, certificat sigur pentru copii', de: 'Gefahr herausformulieren — emissionsgeprüft, kindersicher zertifiziert', fr: 'Éliminer le danger par la formulation — testé en émissions, certifié sans danger pour les enfants', es: 'Eliminar el peligro por formulación — probado en emisiones, certificado seguro para niños', it: 'Eliminare il pericolo dalla formula — testato per le emissioni, certificato sicuro per i bambini' }],
+      it: 'Nei Paesi Bassi, l\'esposizione cronica ai solventi aveva un nome proprio: <em>schildersziekte</em> — la malattia dell\'imbianchino (CSE/OPS). Danni irreversibili al sistema nervoso, riconosciuti come malattia professionale. Poi l\'industria ha riformulato — a base acqua, basso COV — e i numeri sono crollati. La prova che una chimica scelta in fabbrica protegge le persone sul ponteggio. Andiamo oltre il barattolo: informazioni di sicurezza aggiornate, applicatori formati e consulenza sulla protezione personale fanno parte della vernice.',
+      tr: 'Hollanda\'da çözücülere kronik maruziyetin kendine ait bir adı vardı: <em>schildersziekte</em> — boyacı hastalığı (CSE/OPS). Sinir sisteminde geri dönüşü olmayan, meslek hastalığı olarak kabul edilen hasar. Sonra sektör formülleri yeniledi — su bazlı, düşük VOC — ve rakamlar çöktü. Fabrikada seçilen kimyanın iskeledeki insanları koruduğunun kanıtı. Biz kutudan öteye geçiyoruz: güncel güvenlik bilgileri, eğitimli uygulayıcılar ve kişisel güvenlik danışmanlığı boyanın bir parçası.' }],
+    ['.tl-nodes li b', { nl: ['Jaren 70', '≈ 2000', '2004', '2014', 'Vandaag'], pl: ['Lata 70.', '≈ 2000', '2004', '2014', 'Dziś'], ro: ['Anii 70', '≈ 2000', '2004', '2014', 'Astăzi'], de: ['70er Jahre', '≈ 2000', '2004', '2014', 'Heute'], fr: ['Années 70', '≈ 2000', '2004', '2014', 'Aujourd\'hui'], es: ['Años 70', '≈ 2000', '2004', '2014', 'Hoy'], it: ['Anni 70', '≈ 2000', '2004', '2014', 'Oggi'], tr: ['70\'ler', '≈ 2000', '2004', '2014', 'Bugün'] }],
+    ['.tl-nodes li:nth-child(1) span', { nl: 'Het oplosmiddelentijdperk', pl: 'Era rozpuszczalników', ro: 'Era solvenților', de: 'Das Lösemittel-Zeitalter', fr: 'L\'ère des solvants', es: 'La era de los disolventes', it: 'L\'era dei solventi', tr: 'Çözücü çağı' }],
+    ['.tl-nodes li:nth-child(3) span', { nl: 'EU-verfrichtlijn begrenst VOS-gehalte', pl: 'Dyrektywa UE ogranicza zawartość LZO', ro: 'Directiva UE limitează conținutul de COV', de: 'EU-Farbrichtlinie begrenzt VOC-Gehalt', fr: 'La directive UE limite la teneur en COV', es: 'La directiva UE limita el contenido de COV', it: 'La direttiva UE limita il contenuto di COV', tr: 'AB boya direktifi VOC içeriğini sınırlar' }],
+    ['.tl-nodes li:nth-child(4) span', { nl: '&lt; 10 nieuwe gevallen / jr', pl: '&lt; 10 nowych przypadków / rok', ro: '&lt; 10 cazuri noi / an', de: '&lt; 10 neue Fälle / Jahr', fr: '&lt; 10 nouveaux cas / an', es: '&lt; 10 casos nuevos / año', it: '&lt; 10 nuovi casi / anno', tr: 'yılda &lt; 10 yeni vaka' }],
+    ['.tl-nodes li:nth-child(5) span', { nl: 'Gevaar wegformuleren — emissiegetest, kindveilig gecertificeerd', pl: 'Wyeliminować zagrożenie w recepturze — testowane na emisje, certyfikowane jako bezpieczne dla dzieci', ro: 'Eliminarea pericolului din rețetă — testat la emisii, certificat sigur pentru copii', de: 'Gefahr herausformulieren — emissionsgeprüft, kindersicher zertifiziert', fr: 'Éliminer le danger par la formulation — testé en émissions, certifié sans danger pour les enfants', es: 'Eliminar el peligro por formulación — probado en emisiones, certificado seguro para niños', it: 'Eliminare il pericolo dalla formula — testato per le emissioni, certificato sicuro per i bambini', tr: 'Tehlikeyi formülden çıkarmak — emisyon testli, çocuklar için güvenli sertifikalı' }],
     ['.safety-services .ss b', {
       nl: ['Altijd actuele veiligheidsinformatie', 'Training van applicateurs', 'Persoonlijk veiligheidsadvies'],
       pl: ['Zawsze aktualne informacje o bezpieczeństwie', 'Szkolenie wykonawców', 'Indywidualne doradztwo bezpieczeństwa'],
@@ -342,7 +382,8 @@
       de: ['Stets aktuelle Sicherheitsinformationen', 'Schulung von Applikatoren', 'Persönliche Sicherheitsberatung'],
       fr: ['Informations de sécurité toujours à jour', 'Formation des applicateurs', 'Conseil de sécurité personnalisé'],
       es: ['Información de seguridad siempre actualizada', 'Formación de aplicadores', 'Asesoramiento de seguridad personal'],
-      it: ['Informazioni di sicurezza sempre aggiornate', 'Formazione degli applicatori', 'Consulenza personale sulla sicurezza'] }],
+      it: ['Informazioni di sicurezza sempre aggiornate', 'Formazione degli applicatori', 'Consulenza personale sulla sicurezza'],
+      tr: ['Her zaman güncel güvenlik bilgileri', 'Uygulayıcıların eğitimi', 'Kişisel güvenlik danışmanlığı'] }],
     ['.safety-services .ss span', {
       nl: [
         'Actuele veiligheidsbladen en productveiligheidsdocumentatie — voor elk product, elke revisie.',
@@ -371,9 +412,13 @@
       it: [
         'Schede di sicurezza e documentazione di sicurezza prodotto sempre aggiornate — per ogni prodotto, ogni revisione.',
         'Formazione pratica per applicatori professionisti tramite la Baril Academy: lavorare in sicurezza, applicare in modo intelligente.',
-        'Consigli pratici sulla protezione personale — in cantiere, sul ponteggio, al banco.'] }],
-    ['#local .eyebrow', { nl: 'Hoofdstuk 04 · Korte ketens', pl: 'Rozdział 04 · Krótkie łańcuchy', ro: 'Capitolul 04 · Lanțuri scurte', de: 'Kapitel 04 · Kurze Lieferketten', fr: 'Chapitre 04 · Circuits courts', es: 'Capítulo 04 · Cadenas cortas', it: 'Capitolo 04 · Filiere corte' }],
-    ['#local h2', { nl: 'Dichtbij huis<br>gemaakt', pl: 'Wyprodukowane<br>blisko domu', ro: 'Fabricat<br>aproape de casă', de: 'Nah am Zuhause<br>gemacht', fr: 'Fabriqué<br>près de chez soi', es: 'Hecho<br>cerca de casa', it: 'Fatto<br>vicino a casa' }],
+        'Consigli pratici sulla protezione personale — in cantiere, sul ponteggio, al banco.'],
+      tr: [
+        'Güncel güvenlik bilgi formları ve ürün güvenlik dokümantasyonu — her ürün, her revizyon için.',
+        'Baril Academy aracılığıyla profesyonel uygulayıcılar için uygulamalı eğitim: güvenli çalışma, akıllı uygulama.',
+        'Kişisel koruma konusunda pratik tavsiyeler — şantiyede, iskelede, tezgâhta.'] }],
+    ['#local .eyebrow', { nl: 'Hoofdstuk 04 · Korte ketens', pl: 'Rozdział 04 · Krótkie łańcuchy', ro: 'Capitolul 04 · Lanțuri scurte', de: 'Kapitel 04 · Kurze Lieferketten', fr: 'Chapitre 04 · Circuits courts', es: 'Capítulo 04 · Cadenas cortas', it: 'Capitolo 04 · Filiere corte', tr: 'Bölüm 04 · Kısa tedarik zincirleri' }],
+    ['#local h2', { nl: 'Dichtbij huis<br>gemaakt', pl: 'Wyprodukowane<br>blisko domu', ro: 'Fabricat<br>aproape de casă', de: 'Nah am Zuhause<br>gemacht', fr: 'Fabriqué<br>près de chez soi', es: 'Hecho<br>cerca de casa', it: 'Fatto<br>vicino a casa', tr: 'Eve yakın<br>üretildi' }],
     ['#local .sec-head p:last-child', {
       nl: "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch en de Verenigde Staten — op eigen zonne- en windenergie, met een volledig elektrisch wagenpark en inclusief werkgeverschap als beleid, niet als project.",
       pl: "Chemia kopalna podróżuje przez pół świata, zanim trafi do puszki farby. Surowce roślinne i ze strumieni odpadowych skracają łańcuch: uprawiane, przetwarzane i stosowane w tym samym regionie. Produkujemy blisko naszych rynków — 's-Hertogenbosch i USA — na własnej energii słonecznej i wiatrowej, z w pełni elektryczną flotą i inkluzywnym zatrudnieniem jako polityką, nie projektem.",
@@ -381,14 +426,15 @@
       de: "Fossile Chemie reist um die halbe Welt, bevor sie in einer Farbdose landet. Pflanzliche und Reststrom-Rohstoffe verkürzen die Kette: angebaut, verarbeitet und angewendet in derselben Region. Wir produzieren nah an unseren Märkten — 's-Hertogenbosch und die Vereinigten Staaten — mit eigener Solar- und Windenergie, einem vollelektrischen Fuhrpark und inklusivem Arbeitgebertum als Politik, nicht als Projekt.",
       fr: "La chimie fossile traverse la moitié du globe avant d\'arriver dans un pot de peinture. Les matières premières végétales et issues de flux résiduels raccourcissent la chaîne : cultivées, transformées et appliquées dans la même région. Nous produisons près de nos marchés — 's-Hertogenbosch et les États-Unis — avec notre propre énergie solaire et éolienne, une flotte 100% électrique et un emploi inclusif comme politique, pas comme projet.",
       es: "La química fósil cruza medio mundo antes de llegar a un bote de pintura. Las materias primas vegetales y de flujos residuales acortan la cadena: cultivadas, procesadas y aplicadas en la misma región. Producimos cerca de nuestros mercados — 's-Hertogenbosch y los Estados Unidos — con energía solar y eólica propia, una flota totalmente eléctrica y el empleo inclusivo como política, no como proyecto.",
-      it: "La chimica fossile attraversa mezzo mondo prima di finire in un barattolo di vernice. Le materie prime vegetali e da flussi residui accorciano la filiera: coltivate, lavorate e applicate nella stessa regione. Produciamo vicino ai nostri mercati — 's-Hertogenbosch e gli Stati Uniti — con energia solare ed eolica propria, una flotta completamente elettrica e l\'occupazione inclusiva come politica, non come progetto." }],
-    ['.cl-old', { nl: 'Lange keten — fossiel, intercontinentaal', pl: 'Długi łańcuch — kopalny, międzykontynentalny', ro: 'Lanț lung — fosil, intercontinental', de: 'Lange Kette — fossil, interkontinental', fr: 'Chaîne longue — fossile, intercontinentale', es: 'Cadena larga — fósil, intercontinental', it: 'Filiera lunga — fossile, intercontinentale' }],
-    ['.cl-new', { nl: 'Korte keten — regionale akkers & reststromen', pl: 'Krótki łańcuch — regionalne pola i strumienie odpadowe', ro: 'Lanț scurt — câmpuri regionale și fluxuri reziduale', de: 'Kurze Kette — regionale Felder & Reststoffe', fr: 'Chaîne courte — champs régionaux et flux résiduels', es: 'Cadena corta — campos regionales y flujos residuales', it: 'Filiera corta — campi regionali e flussi residui' }],
-    ['.cc-old li', { nl: ['Ruwe olie', 'Raffinaderij', 'Chemische fabriek', 'Bindmiddel', 'Fabriek'], pl: ['Ropa naftowa', 'Rafineria', 'Zakład chemiczny', 'Spoiwo', 'Fabryka'], ro: ['Petrol', 'Rafinărie', 'Uzină chimică', 'Liant', 'Fabrică'], de: ['Rohöl', 'Raffinerie', 'Chemiefabrik', 'Bindemittel', 'Fabrik'], fr: ['Pétrole brut', 'Raffinerie', 'Usine chimique', 'Liant', 'Usine'], es: ['Petróleo crudo', 'Refinería', 'Planta química', 'Aglutinante', 'Fábrica'], it: ['Petrolio greggio', 'Raffineria', 'Impianto chimico', 'Legante', 'Fabbrica'] }],
-    ['.cc-new li', { nl: ['Akker / reststroom', 'Bindmiddel', 'Fabriek Den Bosch', 'Object — zelfde regio'], pl: ['Pole / strumień odpadowy', 'Spoiwo', 'Fabryka Den Bosch', 'Obiekt — ten sam region'], ro: ['Câmp / flux rezidual', 'Liant', 'Fabrica Den Bosch', 'Obiect — aceeași regiune'], de: ['Feld / Reststoff', 'Bindemittel', 'Fabrik Den Bosch', 'Objekt — selbe Region'], fr: ['Champ / flux résiduel', 'Liant', 'Usine de Den Bosch', 'Objet — même région'], es: ['Campo / flujo residual', 'Aglutinante', 'Fábrica de Den Bosch', 'Objeto — misma región'], it: ['Campo / flusso residuo', 'Legante', 'Fabbrica di Den Bosch', 'Oggetto — stessa regione'] }],
-    ['.pulses span', { nl: ['Zonne- + windenergie', 'Elektrisch wagenpark', 'Inclusief werkgeverschap', 'Baril Academy'], pl: ['Energia słoneczna + wiatrowa', 'Flota elektryczna', 'Inkluzywne zatrudnienie', 'Baril Academy'], ro: ['Energie solară + eoliană', 'Flotă electrică', 'Angajare incluzivă', 'Baril Academy'], de: ['Solar- + Windenergie', 'Elektrischer Fuhrpark', 'Inklusives Arbeitgebertum', 'Baril Academy'], fr: ['Énergie solaire + éolienne', 'Flotte électrique', 'Emploi inclusif', 'Baril Academy'], es: ['Energía solar + eólica', 'Flota eléctrica', 'Empleo inclusivo', 'Baril Academy'], it: ['Energia solare + eolica', 'Flotta elettrica', 'Occupazione inclusiva', 'Baril Academy'] }],
-    ['#world .eyebrow', { nl: 'Hoofdstuk 05 · Sinds 1982', pl: 'Rozdział 05 · Od 1982', ro: 'Capitolul 05 · Din 1982', de: 'Kapitel 05 · Seit 1982', fr: 'Chapitre 05 · Depuis 1982', es: 'Capítulo 05 · Desde 1982', it: 'Capitolo 05 · Dal 1982' }],
-    ['#world h2', { nl: 'Steeds groener,<br>wereldwijd', pl: 'Coraz bardziej zielono,<br>na całym świecie', ro: 'Tot mai verde,<br>în întreaga lume', de: 'Immer grüner,<br>weltweit', fr: 'De plus en plus vert,<br>partout dans le monde', es: 'Cada vez más verde,<br>en todo el mundo', it: 'Sempre più verde,<br>in tutto il mondo' }],
+      it: "La chimica fossile attraversa mezzo mondo prima di finire in un barattolo di vernice. Le materie prime vegetali e da flussi residui accorciano la filiera: coltivate, lavorate e applicate nella stessa regione. Produciamo vicino ai nostri mercati — 's-Hertogenbosch e gli Stati Uniti — con energia solare ed eolica propria, una flotta completamente elettrica e l\'occupazione inclusiva come politica, non come progetto.",
+      tr: "Fosil kimya, bir boya kutusuna girmeden önce dünyanın yarısını dolaşır. Bitkisel ve atık akışı hammaddeleri zinciri kısaltır: aynı bölgede yetiştirilir, işlenir ve uygulanır. Pazarlarımıza yakın üretiyoruz — 's-Hertogenbosch ve Amerika Birleşik Devletleri — kendi güneş ve rüzgâr enerjimizle, tamamen elektrikli bir filoyla ve bir proje olarak değil, bir politika olarak kapsayıcı işverenlikle." }],
+    ['.cl-old', { nl: 'Lange keten — fossiel, intercontinentaal', pl: 'Długi łańcuch — kopalny, międzykontynentalny', ro: 'Lanț lung — fosil, intercontinental', de: 'Lange Kette — fossil, interkontinental', fr: 'Chaîne longue — fossile, intercontinentale', es: 'Cadena larga — fósil, intercontinental', it: 'Filiera lunga — fossile, intercontinentale', tr: 'Uzun zincir — fosil, kıtalararası' }],
+    ['.cl-new', { nl: 'Korte keten — regionale akkers & reststromen', pl: 'Krótki łańcuch — regionalne pola i strumienie odpadowe', ro: 'Lanț scurt — câmpuri regionale și fluxuri reziduale', de: 'Kurze Kette — regionale Felder & Reststoffe', fr: 'Chaîne courte — champs régionaux et flux résiduels', es: 'Cadena corta — campos regionales y flujos residuales', it: 'Filiera corta — campi regionali e flussi residui', tr: 'Kısa zincir — bölgesel tarlalar & atık akışları' }],
+    ['.cc-old li', { nl: ['Ruwe olie', 'Raffinaderij', 'Chemische fabriek', 'Bindmiddel', 'Fabriek'], pl: ['Ropa naftowa', 'Rafineria', 'Zakład chemiczny', 'Spoiwo', 'Fabryka'], ro: ['Petrol', 'Rafinărie', 'Uzină chimică', 'Liant', 'Fabrică'], de: ['Rohöl', 'Raffinerie', 'Chemiefabrik', 'Bindemittel', 'Fabrik'], fr: ['Pétrole brut', 'Raffinerie', 'Usine chimique', 'Liant', 'Usine'], es: ['Petróleo crudo', 'Refinería', 'Planta química', 'Aglutinante', 'Fábrica'], it: ['Petrolio greggio', 'Raffineria', 'Impianto chimico', 'Legante', 'Fabbrica'], tr: ['Ham petrol', 'Rafineri', 'Kimya tesisi', 'Bağlayıcı', 'Fabrika'] }],
+    ['.cc-new li', { nl: ['Akker / reststroom', 'Bindmiddel', 'Fabriek Den Bosch', 'Object — zelfde regio'], pl: ['Pole / strumień odpadowy', 'Spoiwo', 'Fabryka Den Bosch', 'Obiekt — ten sam region'], ro: ['Câmp / flux rezidual', 'Liant', 'Fabrica Den Bosch', 'Obiect — aceeași regiune'], de: ['Feld / Reststoff', 'Bindemittel', 'Fabrik Den Bosch', 'Objekt — selbe Region'], fr: ['Champ / flux résiduel', 'Liant', 'Usine de Den Bosch', 'Objet — même région'], es: ['Campo / flujo residual', 'Aglutinante', 'Fábrica de Den Bosch', 'Objeto — misma región'], it: ['Campo / flusso residuo', 'Legante', 'Fabbrica di Den Bosch', 'Oggetto — stessa regione'], tr: ['Tarla / atık akışı', 'Bağlayıcı', 'Den Bosch fabrikası', 'Nesne — aynı bölge'] }],
+    ['.pulses span', { nl: ['Zonne- + windenergie', 'Elektrisch wagenpark', 'Inclusief werkgeverschap', 'Baril Academy'], pl: ['Energia słoneczna + wiatrowa', 'Flota elektryczna', 'Inkluzywne zatrudnienie', 'Baril Academy'], ro: ['Energie solară + eoliană', 'Flotă electrică', 'Angajare incluzivă', 'Baril Academy'], de: ['Solar- + Windenergie', 'Elektrischer Fuhrpark', 'Inklusives Arbeitgebertum', 'Baril Academy'], fr: ['Énergie solaire + éolienne', 'Flotte électrique', 'Emploi inclusif', 'Baril Academy'], es: ['Energía solar + eólica', 'Flota eléctrica', 'Empleo inclusivo', 'Baril Academy'], it: ['Energia solare + eolica', 'Flotta elettrica', 'Occupazione inclusiva', 'Baril Academy'], tr: ['Güneş + rüzgâr enerjisi', 'Elektrikli filo', 'Kapsayıcı işverenlik', 'Baril Academy'] }],
+    ['#world .eyebrow', { nl: 'Hoofdstuk 05 · Sinds 1982', pl: 'Rozdział 05 · Od 1982', ro: 'Capitolul 05 · Din 1982', de: 'Kapitel 05 · Seit 1982', fr: 'Chapitre 05 · Depuis 1982', es: 'Capítulo 05 · Desde 1982', it: 'Capitolo 05 · Dal 1982', tr: 'Bölüm 05 · 1982\'den beri' }],
+    ['#world h2', { nl: 'Steeds groener,<br>wereldwijd', pl: 'Coraz bardziej zielono,<br>na całym świecie', ro: 'Tot mai verde,<br>în întreaga lume', de: 'Immer grüner,<br>weltweit', fr: 'De plus en plus vert,<br>partout dans le monde', es: 'Cada vez más verde,<br>en todo el mundo', it: 'Sempre più verde,<br>in tutto il mondo', tr: 'Giderek daha yeşil,<br>dünya çapında' }],
     ['#world .sec-head p:last-child', {
       nl: "Vanuit een schuurtje in Moerkapelle in 1982 naar vijf vestigingen op twee continenten. Sinds 2021 versnelt de transitie naar 100% hernieuwbare grondstoffen jaar op jaar. Zie de voetafdruk zich verspreiden.",
       pl: 'Z szopy w Moerkapelle w 1982 do pięciu zakładów na dwóch kontynentach. Od 2021 transformacja w kierunku 100% surowców odnawialnych przyspiesza z roku na rok. Zobacz, jak rozprzestrzenia się ślad.',
@@ -396,8 +442,9 @@
       de: 'Von einem Schuppen in Moerkapelle im Jahr 1982 zu fünf Standorten auf zwei Kontinenten. Seit 2021 beschleunigt sich der Übergang zu 100% erneuerbaren Rohstoffen Jahr für Jahr. Sehen Sie, wie sich der Fußabdruck ausbreitet.',
       fr: 'D\'une remise à Moerkapelle en 1982 à cinq sites sur deux continents. Depuis 2021, la transition vers 100% de matières premières renouvelables s\'accélère d\'année en année. Regardez l\'empreinte se déployer.',
       es: 'De un cobertizo en Moerkapelle en 1982 a cinco sedes en dos continentes. Desde 2021, la transición al 100% de materias primas renovables se acelera año tras año. Mira cómo se extiende la huella.',
-      it: 'Da un capanno a Moerkapelle nel 1982 a cinque sedi in due continenti. Dal 2021 la transizione verso il 100% di materie prime rinnovabili accelera di anno in anno. Guarda l\'impronta diffondersi.' }],
-    ['.map-cap', { nl: 'De groene voetafdruk van de groep', pl: 'Zielony ślad grupy', ro: 'Amprenta verde a grupului', de: 'Der grüne Fußabdruck der Gruppe', fr: 'L\'empreinte verte du groupe', es: 'La huella verde del grupo', it: 'L\'impronta verde del gruppo' }],
+      it: 'Da un capanno a Moerkapelle nel 1982 a cinque sedi in due continenti. Dal 2021 la transizione verso il 100% di materie prime rinnovabili accelera di anno in anno. Guarda l\'impronta diffondersi.',
+      tr: '1982\'de Moerkapelle\'deki bir baraktan iki kıtada beş tesise. 2021\'den beri %100 yenilenebilir hammaddelere geçiş yıldan yıla hızlanıyor. Ayak izinin yayılışını izleyin.' }],
+    ['.map-cap', { nl: 'De groene voetafdruk van de groep', pl: 'Zielony ślad grupy', ro: 'Amprenta verde a grupului', de: 'Der grüne Fußabdruck der Gruppe', fr: 'L\'empreinte verte du groupe', es: 'La huella verde del grupo', it: 'L\'impronta verde del gruppo', tr: 'Grubun yeşil ayak izi' }],
     ['#mapTl li span', {
       nl: ['Opgericht in Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transitie naar 100% hernieuwbaar'],
       pl: ['Założona w Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transformacja w kierunku 100% odnawialnych'],
@@ -405,9 +452,10 @@
       de: ['Gegründet in Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Übergang zu 100% erneuerbar'],
       fr: ['Fondée à Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transition vers 100% renouvelable'],
       es: ['Fundada en Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transición al 100% renovable'],
-      it: ['Fondata a Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transizione al 100% rinnovabile'] }],
-    ['#brands .eyebrow', { nl: 'Portfolio', pl: 'Portfolio', ro: 'Portofoliu', de: 'Portfolio', fr: 'Portefeuille', es: 'Portafolio', it: 'Portfolio' }],
-    ['#brands h2', { nl: 'Eén filosofie,<br>meerdere merken', pl: 'Jedna filozofia,<br>wiele marek', ro: 'O filozofie,<br>mai multe mărci', de: 'Eine Philosophie,<br>mehrere Marken', fr: 'Une philosophie,<br>plusieurs marques', es: 'Una filosofía,<br>varias marcas', it: 'Una filosofia,<br>più marchi' }],
+      it: ['Fondata a Moerkapelle', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', 'Transizione al 100% rinnovabile'],
+      tr: ['Moerkapelle\'de kuruldu', "'s-Hertogenbosch, NL", 'Baril Coatings Polska', 'Baril Coatings USA', 'Etten-Leur, NL', '%100 yenilenebilire geçiş'] }],
+    ['#brands .eyebrow', { nl: 'Portfolio', pl: 'Portfolio', ro: 'Portofoliu', de: 'Portfolio', fr: 'Portefeuille', es: 'Portafolio', it: 'Portfolio', tr: 'Portföy' }],
+    ['#brands h2', { nl: 'Eén filosofie,<br>meerdere merken', pl: 'Jedna filozofia,<br>wiele marek', ro: 'O filozofie,<br>mai multe mărci', de: 'Eine Philosophie,<br>mehrere Marken', fr: 'Une philosophie,<br>plusieurs marques', es: 'Una filosofía,<br>varias marcas', it: 'Una filosofia,<br>più marchi', tr: 'Tek felsefe,<br>birden çok marka' }],
     ['#brands .sec-head p:last-child', {
       nl: 'Elk merk brengt dezelfde chemie-eerst-filosofie naar een ander publiek — van offshore-staal en de metaallakstraat tot de muur in je woonkamer.',
       pl: 'Każda marka niesie tę samą filozofię „chemia przede wszystkim” do innej grupy odbiorców — od stali offshore i linii lakierniczej po ścianę w Twoim salonie.',
@@ -415,8 +463,9 @@
       de: 'Jede Marke bringt dieselbe Chemie-zuerst-Philosophie zu einem anderen Publikum — von Offshore-Stahl und der Metall-Lackierstraße bis zur Wand in deinem Wohnzimmer.',
       fr: 'Chaque marque porte la même philosophie « la chimie d\'abord » vers un public différent — de l\'acier offshore et de la ligne de peinture du métal au mur de votre salon.',
       es: 'Cada marca lleva la misma filosofía «la química primero» a un público distinto — del acero offshore y la línea de pintado del metal a la pared de tu salón.',
-      it: 'Ogni marchio porta la stessa filosofia «la chimica prima di tutto» a un pubblico diverso — dall\'acciaio offshore e dalla linea di verniciatura del metallo alla parete del tuo soggiorno.' }],
-    ['.brand .tag', { nl: ['Voor de industrie', 'Voor de vakschilder', 'Voor thuis', 'Voor de tuinbouw', 'Voor kleur'], pl: ['Dla przemysłu', 'Dla profesjonalnego malarza', 'Do domu', 'Dla ogrodnictwa', 'Dla koloru'], ro: ['Pentru industrie', 'Pentru zugravul profesionist', 'Pentru casă', 'Pentru horticultură', 'Pentru culoare'], de: ['Für die Industrie', 'Für den Profimaler', 'Für zu Hause', 'Für den Gartenbau', 'Für Farbe'], fr: ['Pour l\'industrie', 'Pour le peintre pro', 'Pour la maison', 'Pour l\'horticulture', 'Pour la couleur'], es: ['Para la industria', 'Para el pintor pro', 'Para el hogar', 'Para la horticultura', 'Para el color'], it: ['Per l\'industria', 'Per l\'imbianchino pro', 'Per la casa', 'Per l\'orticoltura', 'Per il colore'] }],
+      it: 'Ogni marchio porta la stessa filosofia «la chimica prima di tutto» a un pubblico diverso — dall\'acciaio offshore e dalla linea di verniciatura del metallo alla parete del tuo soggiorno.',
+      tr: 'Her marka aynı «önce kimya» felsefesini farklı bir kitleye taşır — offshore çelikten ve metal boyama hattından oturma odanızdaki duvara kadar.' }],
+    ['.brand .tag', { nl: ['Voor de industrie', 'Voor de vakschilder', 'Voor thuis', 'Voor de tuinbouw', 'Voor kleur'], pl: ['Dla przemysłu', 'Dla profesjonalnego malarza', 'Do domu', 'Dla ogrodnictwa', 'Dla koloru'], ro: ['Pentru industrie', 'Pentru zugravul profesionist', 'Pentru casă', 'Pentru horticultură', 'Pentru culoare'], de: ['Für die Industrie', 'Für den Profimaler', 'Für zu Hause', 'Für den Gartenbau', 'Für Farbe'], fr: ['Pour l\'industrie', 'Pour le peintre pro', 'Pour la maison', 'Pour l\'horticulture', 'Pour la couleur'], es: ['Para la industria', 'Para el pintor pro', 'Para el hogar', 'Para la horticultura', 'Para el color'], it: ['Per l\'industria', 'Per l\'imbianchino pro', 'Per la casa', 'Per l\'orticoltura', 'Per il colore'], tr: ['Sanayi için', 'Profesyonel boyacı için', 'Ev için', 'Bahçecilik için', 'Renk için'] }],
     ['.brand > div:first-child > p:not(.tag)', {
       nl: [
         'Hoogwaardige industriële coatings en bouwverven. Dunne-laag-bescherming voor staal en infrastructuur, OEM en metaalindustrie, marine & offshore — ontwikkeld om materialen langer te laten meegaan met minder verf.',
@@ -459,10 +508,16 @@
         'Un sistema di pittura biobased completo per l\'imbianchino professionista. Chimica vegetale con EU Ecolabel e certificazione Cradle to Cradle — la vernice più verde, colorabile in ogni colore.',
         'Pittura murale e smalto vegetali per tutti. Collezioni di colori curate da esperti, miscelabili in ogni colore dell\'arcobaleno — online e a scaffale da Karwei.',
         'Un rivestimento ombreggiante temporaneo per serre che protegge le giovani colture dal sole intenso. Regolazione ottimale della luce su vetro e policarbonato, in gesso circolare — e completamente rimovibile.',
-        'Un sistema di tintometria industriale con paste coloranti ad alte prestazioni per rivestimenti industriali, protettivi e per pavimenti. Colore costante e riproducibile per sistemi a base solvente, supportato dal software RedLike™.'] }],
-    ['.spec b', { nl: ['Assortiment', 'Assortiment', 'Assortiment', 'Assortiment', 'Assortiment'], pl: ['Asortyment', 'Asortyment', 'Asortyment', 'Asortyment', 'Asortyment'], ro: ['Gamă', 'Gamă', 'Gamă', 'Gamă', 'Gamă'], de: ['Sortiment', 'Sortiment', 'Sortiment', 'Sortiment', 'Sortiment'], fr: ['Gamme', 'Gamme', 'Gamme', 'Gamme', 'Gamme'], es: ['Gama', 'Gama', 'Gama', 'Gama', 'Gama'], it: ['Gamma', 'Gamma', 'Gamma', 'Gamma', 'Gamma'] }],
-    ['#contact .eyebrow', { nl: 'Contact', pl: 'Kontakt', ro: 'Contact', de: 'Kontakt', fr: 'Contact', es: 'Contacto', it: 'Contatto' }],
-    ['#contact h2', { nl: 'Vind je<br>dichtstbijzijnde vestiging', pl: 'Znajdź<br>najbliższe biuro', ro: 'Găsește<br>cel mai apropiat birou', de: 'Finde deinen<br>nächsten Standort', fr: 'Trouvez votre<br>site le plus proche', es: 'Encuentra tu<br>sede más cercana', it: 'Trova la<br>sede più vicina' }],
+        'Un sistema di tintometria industriale con paste coloranti ad alte prestazioni per rivestimenti industriali, protettivi e per pavimenti. Colore costante e riproducibile per sistemi a base solvente, supportato dal software RedLike™.'],
+      tr: [
+        'Yüksek kaliteli endüstriyel kaplamalar ve yapı boyaları. Çelik ve altyapı, OEM ve metal sanayisi, denizcilik ve offshore için ince katman koruması — malzemeleri daha az boyayla daha uzun süre dayanıklı kılmak için geliştirildi.',
+        'Profesyonel boyacı için eksiksiz bir biyobazlı boya sistemi. EU Ecolabel ve Cradle to Cradle sertifikalı bitkisel kimya — en yeşil boya, her renge boyanabilir.',
+        'Herkes için bitkisel duvar ve lake boya. Uzmanlarca derlenen renk koleksiyonları, gökkuşağının her renginde karıştırılabilir — çevrimiçi ve Karwei raflarında.',
+        'Genç bitkileri sert güneşten koruyan, seralar için geçici bir gölgeleme kaplaması. Cam ve polikarbonatta en uygun ışık düzenlemesi, döngüsel tebeşirden üretilir — ve tamamen çıkarılabilir.',
+        'Endüstriyel, koruyucu ve zemin kaplamaları için yüksek performanslı renk pastaları sunan endüstriyel bir renklendirme sistemi. Solvent bazlı sistemler için tutarlı, tekrarlanabilir renk, RedLike™ yazılımıyla desteklenir.'] }],
+    ['.spec b', { nl: ['Assortiment', 'Assortiment', 'Assortiment', 'Assortiment', 'Assortiment'], pl: ['Asortyment', 'Asortyment', 'Asortyment', 'Asortyment', 'Asortyment'], ro: ['Gamă', 'Gamă', 'Gamă', 'Gamă', 'Gamă'], de: ['Sortiment', 'Sortiment', 'Sortiment', 'Sortiment', 'Sortiment'], fr: ['Gamme', 'Gamme', 'Gamme', 'Gamme', 'Gamme'], es: ['Gama', 'Gama', 'Gama', 'Gama', 'Gama'], it: ['Gamma', 'Gamma', 'Gamma', 'Gamma', 'Gamma'], tr: ['Ürün gamı', 'Ürün gamı', 'Ürün gamı', 'Ürün gamı', 'Ürün gamı'] }],
+    ['#contact .eyebrow', { nl: 'Contact', pl: 'Kontakt', ro: 'Contact', de: 'Kontakt', fr: 'Contact', es: 'Contacto', it: 'Contatto', tr: 'İletişim' }],
+    ['#contact h2', { nl: 'Vind je<br>dichtstbijzijnde vestiging', pl: 'Znajdź<br>najbliższe biuro', ro: 'Găsește<br>cel mai apropiat birou', de: 'Finde deinen<br>nächsten Standort', fr: 'Trouvez votre<br>site le plus proche', es: 'Encuentra tu<br>sede más cercana', it: 'Trova la<br>sede più vicina', tr: 'Size en yakın<br>tesisi bulun' }],
     ['#contact .sec-head p:last-child', {
       nl: 'Baril Group ontwikkelt en produceert in Europa en Noord-Amerika. Neem rechtstreeks contact op met het team — voor producten, technische ondersteuning of een monster.',
       pl: 'Baril Group opracowuje i produkuje w Europie i Ameryce Północnej. Skontaktuj się bezpośrednio z zespołem — w sprawie produktów, wsparcia technicznego lub próbki.',
@@ -470,7 +525,8 @@
       de: 'Baril Group entwickelt und produziert in Europa und Nordamerika. Wenden Sie sich direkt an das Team — für Produkte, technische Unterstützung oder ein Muster.',
       fr: 'Baril Group développe et produit en Europe et en Amérique du Nord. Contactez directement l\'équipe — pour des produits, un support technique ou un échantillon.',
       es: 'Baril Group desarrolla y produce en Europa y Norteamérica. Ponte en contacto directo con el equipo — para productos, soporte técnico o una muestra.',
-      it: 'Baril Group sviluppa e produce in Europa e Nord America. Contatta direttamente il team — per prodotti, supporto tecnico o un campione.' }],
+      it: 'Baril Group sviluppa e produce in Europa e Nord America. Contatta direttamente il team — per prodotti, supporto tecnico o un campione.',
+      tr: 'Baril Group, Avrupa ve Kuzey Amerika\'da geliştirir ve üretir. Ürünler, teknik destek veya bir numune için doğrudan ekiple iletişime geçin.' }],
     ['.loc-tag', {
       nl: ['Hoofdkantoor · NL','Productie · NL','Baril Polska · PL','Baril USA · Noord-Amerika','Baril România · RO','Baril Caucasia · GE'],
       pl: ['Siedziba · NL','Produkcja · NL','Baril Polska · PL','Baril USA · Ameryka Płn.','Baril România · RO','Baril Caucasia · GE'],
@@ -478,7 +534,8 @@
       de: ['Hauptsitz · NL','Produktion · NL','Baril Polska · PL','Baril USA · Nordamerika','Baril România · RO','Baril Caucasia · GE'],
       fr: ['Siège · NL','Production · NL','Baril Polska · PL','Baril USA · Amérique du Nord','Baril România · RO','Baril Caucasia · GE'],
       es: ['Sede central · NL','Producción · NL','Baril Polska · PL','Baril USA · Norteamérica','Baril România · RO','Baril Caucasia · GE'],
-      it: ['Sede centrale · NL','Produzione · NL','Baril Polska · PL','Baril USA · Nord America','Baril România · RO','Baril Caucasia · GE'] }],
+      it: ['Sede centrale · NL','Produzione · NL','Baril Polska · PL','Baril USA · Nord America','Baril România · RO','Baril Caucasia · GE'],
+      tr: ['Merkez · NL','Üretim · NL','Baril Polska · PL','Baril USA · Kuzey Amerika','Baril România · RO','Baril Caucasia · GE'] }],
     ['.loc-note', {
       nl: ['Protective coatings &amp; R&amp;D','Watergedragen coatings &amp; verven','Officiële distributeur','Protective coatings &amp; R&amp;D','Officiële distributeur','Officiële distributeur'],
       pl: ['Powłoki ochronne i B+R','Powłoki i farby wodorozcieńczalne','Oficjalny dystrybutor','Powłoki ochronne i B+R','Oficjalny dystrybutor','Oficjalny dystrybutor'],
@@ -486,9 +543,10 @@
       de: ['Schutzbeschichtungen &amp; F&amp;E','Wasserbasierte Beschichtungen &amp; Farben','Offizieller Distributor','Schutzbeschichtungen &amp; F&amp;E','Offizieller Distributor','Offizieller Distributor'],
       fr: ['Revêtements de protection et R&amp;D','Revêtements et peintures hydrodiluables','Distributeur officiel','Revêtements de protection et R&amp;D','Distributeur officiel','Distributeur officiel'],
       es: ['Recubrimientos de protección y I+D','Recubrimientos y pinturas al agua','Distribuidor oficial','Recubrimientos de protección y I+D','Distribuidor oficial','Distribuidor oficial'],
-      it: ['Rivestimenti protettivi e R&amp;S','Rivestimenti e pitture a base acqua','Distributore ufficiale','Rivestimenti protettivi e R&amp;S','Distributore ufficiale','Distributore ufficiale'] }],
-    ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică', de: 'In der Praxis', fr: 'Sur le terrain', es: 'Sobre el terreno', it: 'Sul campo' }],
-    ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril', de: 'Geschützt von Baril', fr: 'Protégé par Baril', es: 'Protegido por Baril', it: 'Protetto da Baril' }],
+      it: ['Rivestimenti protettivi e R&amp;S','Rivestimenti e pitture a base acqua','Distributore ufficiale','Rivestimenti protettivi e R&amp;S','Distributore ufficiale','Distributore ufficiale'],
+      tr: ['Koruyucu kaplamalar &amp; Ar-Ge','Su bazlı kaplamalar &amp; boyalar','Resmî distribütör','Koruyucu kaplamalar &amp; Ar-Ge','Resmî distribütör','Resmî distribütör'] }],
+    ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică', de: 'In der Praxis', fr: 'Sur le terrain', es: 'Sobre el terreno', it: 'Sul campo', tr: 'Sahada' }],
+    ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril', de: 'Geschützt von Baril', fr: 'Protégé par Baril', es: 'Protegido por Baril', it: 'Protetto da Baril', tr: 'Baril ile korunuyor' }],
     ['#proof .sec-head p:last-child', {
       nl: 'Van nationale infrastructuur tot monumentale restauratie — objecten die onze coatings langer in leven houden.',
       pl: 'Od infrastruktury krajowej po renowacje zabytków — obiekty, które nasze powłoki utrzymują przy życiu dłużej.',
@@ -496,7 +554,8 @@
       de: 'Von nationaler Infrastruktur bis zur Denkmalrestaurierung — Objekte, die unsere Beschichtungen länger am Leben halten.',
       fr: 'De l\'infrastructure nationale à la restauration de monuments — des objets que nos revêtements maintiennent en vie plus longtemps.',
       es: 'De la infraestructura nacional a la restauración de monumentos — objetos que nuestros recubrimientos mantienen vivos más tiempo.',
-      it: 'Dall\'infrastruttura nazionale al restauro di monumenti — oggetti che i nostri rivestimenti mantengono in vita più a lungo.' }],
+      it: 'Dall\'infrastruttura nazionale al restauro di monumenti — oggetti che i nostri rivestimenti mantengono in vita più a lungo.',
+      tr: 'Ulusal altyapıdan anıt restorasyonuna — kaplamalarımızın daha uzun süre hayatta tuttuğu nesneler.' }],
     ['.case .meta span', {
       nl: ['Infrastructuur · 295 m overspanning', 'Bouw & infra', 'Staalconservering', 'Gebouwen & onderhoud', "Restauratie · 's-Hertogenbosch"],
       pl: ['Infrastruktura · rozpiętość 295 m', 'Budownictwo i infrastruktura', 'Konserwacja stali', 'Budynki i konserwacja', "Renowacja · 's-Hertogenbosch"],
@@ -504,7 +563,8 @@
       de: ['Infrastruktur · 295 m Spannweite', 'Bau & Infra', 'Stahlkonservierung', 'Gebäude & Wartung', "Restaurierung · 's-Hertogenbosch"],
       fr: ['Infrastructure · portée de 295 m', 'Construction et infra', 'Conservation de l\'acier', 'Bâtiments et entretien', "Restauration · 's-Hertogenbosch"],
       es: ['Infraestructura · vano de 295 m', 'Construcción e infra', 'Conservación del acero', 'Edificios y mantenimiento', "Restauración · 's-Hertogenbosch"],
-      it: ['Infrastruttura · campata di 295 m', 'Costruzione e infra', 'Conservazione dell\'acciaio', 'Edifici e manutenzione', "Restauro · 's-Hertogenbosch"] }],
+      it: ['Infrastruttura · campata di 295 m', 'Costruzione e infra', 'Conservazione dell\'acciaio', 'Edifici e manutenzione', "Restauro · 's-Hertogenbosch"],
+      tr: ['Altyapı · 295 m açıklık', 'Yapı ve altyapı', 'Çelik koruma', 'Binalar ve bakım', "Restorasyon · 's-Hertogenbosch"] }],
     ['.cases-note', {
       nl: 'Sleep om te ontdekken · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Alle cases →</a>',
       pl: 'Przeciągnij, aby przeglądać · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Wszystkie realizacje →</a>',
@@ -512,11 +572,12 @@
       de: 'Ziehen zum Entdecken · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Alle Referenzen →</a>',
       fr: 'Faites glisser pour découvrir · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Toutes les études de cas →</a>',
       es: 'Arrastra para descubrir · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Todos los casos →</a>',
-      it: 'Trascina per scoprire · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Tutti i case study →</a>' }],
-    ['#renew .eyebrow', { nl: 'Technologie', pl: 'Technologia', ro: 'Tehnologie', de: 'Technologie', fr: 'Technologie', es: 'Tecnología', it: 'Tecnologia' }],
-    ['#renew h2', { nl: 'Hoe we een oude<br>industrie vernieuwen', pl: 'Jak odnawiamy<br>starą branżę', ro: 'Cum reînnoim o<br>industrie veche', de: 'Wie wir eine alte<br>Industrie erneuern', fr: 'Comment nous renouvelons<br>une vieille industrie', es: 'Cómo renovamos una<br>vieja industria', it: 'Come rinnoviamo una<br>vecchia industria' }],
-    ['.pillar .pn', { nl: ['Chemie', 'Applicatie', 'Productie'], pl: ['Chemia', 'Aplikacja', 'Produkcja'], ro: ['Chimie', 'Aplicare', 'Producție'], de: ['Chemie', 'Applikation', 'Produktion'], fr: ['Chimie', 'Application', 'Production'], es: ['Química', 'Aplicación', 'Producción'], it: ['Chimica', 'Applicazione', 'Produzione'] }],
-    ['.pillar h4', { nl: ['Biobased formuleren', 'Dunne-laag-technologie', 'Emissiearme fabrieken'], pl: ['Receptury biobazowe', 'Technologia cienkowarstwowa', 'Niskoemisyjne fabryki'], ro: ['Formulare biobazată', 'Tehnologie în strat subțire', 'Fabrici cu emisii reduse'], de: ['Biobasiert formulieren', 'Dünnschicht-Technologie', 'Emissionsarme Fabriken'], fr: ['Formulation biosourcée', 'Technologie en couche mince', 'Usines à faibles émissions'], es: ['Formular biobasado', 'Tecnología de capa fina', 'Fábricas de bajas emisiones'], it: ['Formulazione biobased', 'Tecnologia a strato sottile', 'Fabbriche a basse emissioni'] }],
+      it: 'Trascina per scoprire · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Tutti i case study →</a>',
+      tr: 'Keşfetmek için sürükleyin · <a href="https://www.barilcoatings.com/nl/praktijkcases" target="_blank" rel="noopener">Tüm vaka çalışmaları →</a>' }],
+    ['#renew .eyebrow', { nl: 'Technologie', pl: 'Technologia', ro: 'Tehnologie', de: 'Technologie', fr: 'Technologie', es: 'Tecnología', it: 'Tecnologia', tr: 'Teknoloji' }],
+    ['#renew h2', { nl: 'Hoe we een oude<br>industrie vernieuwen', pl: 'Jak odnawiamy<br>starą branżę', ro: 'Cum reînnoim o<br>industrie veche', de: 'Wie wir eine alte<br>Industrie erneuern', fr: 'Comment nous renouvelons<br>une vieille industrie', es: 'Cómo renovamos una<br>vieja industria', it: 'Come rinnoviamo una<br>vecchia industria', tr: 'Eski bir sektörü<br>nasıl yeniliyoruz' }],
+    ['.pillar .pn', { nl: ['Chemie', 'Applicatie', 'Productie'], pl: ['Chemia', 'Aplikacja', 'Produkcja'], ro: ['Chimie', 'Aplicare', 'Producție'], de: ['Chemie', 'Applikation', 'Produktion'], fr: ['Chimie', 'Application', 'Production'], es: ['Química', 'Aplicación', 'Producción'], it: ['Chimica', 'Applicazione', 'Produzione'], tr: ['Kimya', 'Uygulama', 'Üretim'] }],
+    ['.pillar h4', { nl: ['Biobased formuleren', 'Dunne-laag-technologie', 'Emissiearme fabrieken'], pl: ['Receptury biobazowe', 'Technologia cienkowarstwowa', 'Niskoemisyjne fabryki'], ro: ['Formulare biobazată', 'Tehnologie în strat subțire', 'Fabrici cu emisii reduse'], de: ['Biobasiert formulieren', 'Dünnschicht-Technologie', 'Emissionsarme Fabriken'], fr: ['Formulation biosourcée', 'Technologie en couche mince', 'Usines à faibles émissions'], es: ['Formular biobasado', 'Tecnología de capa fina', 'Fábricas de bajas emisiones'], it: ['Formulazione biobased', 'Tecnologia a strato sottile', 'Fabbriche a basse emissioni'], tr: ['Biyobazlı formülasyon', 'İnce katman teknolojisi', 'Düşük emisyonlu fabrikalar'] }],
     ['.pillar h4 + p', {
       nl: [
         'Plantaardige grondstoffen vervangen fossiele chemie waar het ertoe doet — CO₂ vastleggen in plaats van uitstoten, zonder in te leveren op prestaties.',
@@ -545,7 +606,11 @@
       it: [
         'Le materie prime vegetali sostituiscono la chimica fossile dove conta — catturare la CO₂ invece di emetterla, senza compromessi sulle prestazioni.',
         'Più protezione con meno materiale. Uno spessore ridotto significa oggetti che durano di più, meno riverniciature e un\'impronta minore per m² protetto.',
-        'Produrre vicino ai nostri mercati nei Paesi Bassi e negli Stati Uniti — con la riduzione delle emissioni integrata nel processo.'] }],
+        'Produrre vicino ai nostri mercati nei Paesi Bassi e negli Stati Uniti — con la riduzione delle emissioni integrata nel processo.'],
+      tr: [
+        'Bitkisel hammaddeler, önemli olan yerde fosil kimyanın yerini alır — performanstan ödün vermeden, CO₂\'yi salmak yerine tutmak.',
+        'Daha az malzemeyle daha çok koruma. Daha düşük katman kalınlığı, daha uzun ömürlü nesneler, daha az yeniden boyama ve korunan m² başına daha küçük ayak izi demektir.',
+        'Hollanda ve Amerika Birleşik Devletleri\'ndeki pazarlarımıza yakın üretim — emisyon azaltımı sürecin içine tasarlanmış olarak.'] }],
     ['.renew-cap', {
       nl: 'Corrosiebescherming, met precisie aangebracht — dunne lagen die het zwaarste werk doen.',
       pl: 'Ochrona antykorozyjna nakładana z precyzją — cienkie warstwy, które wykonują najcięższą pracę.',
@@ -553,9 +618,10 @@
       de: 'Korrosionsschutz, mit Präzision aufgetragen — dünne Schichten, die die schwerste Arbeit leisten.',
       fr: 'Protection anticorrosion appliquée avec précision — des couches fines qui font le travail le plus dur.',
       es: 'Protección anticorrosión aplicada con precisión — capas finas que hacen el trabajo más duro.',
-      it: 'Protezione anticorrosione applicata con precisione — strati sottili che fanno il lavoro più duro.' }],
-    ['#data .eyebrow', { nl: 'Datasheet', pl: 'Karta danych', ro: 'Fișă tehnică', de: 'Datenblatt', fr: 'Fiche technique', es: 'Ficha técnica', it: 'Scheda tecnica' }],
-    ['#data h2', { nl: 'De groep<br>in cijfers', pl: 'Grupa<br>w liczbach', ro: 'Grupul<br>în cifre', de: 'Die Gruppe<br>in Zahlen', fr: 'Le groupe<br>en chiffres', es: 'El grupo<br>en cifras', it: 'Il gruppo<br>in cifre' }],
+      it: 'Protezione anticorrosione applicata con precisione — strati sottili che fanno il lavoro più duro.',
+      tr: 'Hassasiyetle uygulanan korozyon koruması — en zorlu işi yapan ince katmanlar.' }],
+    ['#data .eyebrow', { nl: 'Datasheet', pl: 'Karta danych', ro: 'Fișă tehnică', de: 'Datenblatt', fr: 'Fiche technique', es: 'Ficha técnica', it: 'Scheda tecnica', tr: 'Teknik föy' }],
+    ['#data h2', { nl: 'De groep<br>in cijfers', pl: 'Grupa<br>w liczbach', ro: 'Grupul<br>în cifre', de: 'Die Gruppe<br>in Zahlen', fr: 'Le groupe<br>en chiffres', es: 'El grupo<br>en cifras', it: 'Il gruppo<br>in cifre', tr: 'Grup<br>rakamlarla' }],
     ['.sheet-row b', {
       nl: ['Hoofdkantoor', 'Productie', 'Bereik', 'Markten', 'Managementsystemen', 'Circulaire doelstelling', 'Energie', 'Mensen', 'UN SDG’s', 'Merken'],
       pl: ['Siedziba', 'Produkcja', 'Zasięg', 'Rynki', 'Systemy zarządzania', 'Cel obiegu zamkniętego', 'Energia', 'Ludzie', 'Cele ONZ (SDG)', 'Marki'],
@@ -563,7 +629,8 @@
       de: ['Hauptsitz', 'Produktion', 'Reichweite', 'Märkte', 'Managementsysteme', 'Zirkuläres Ziel', 'Energie', 'Menschen', 'UN-SDGs', 'Marken'],
       fr: ['Siège', 'Production', 'Portée', 'Marchés', 'Systèmes de management', 'Objectif circulaire', 'Énergie', 'Personnes', 'ODD de l\'ONU', 'Marques'],
       es: ['Sede', 'Producción', 'Alcance', 'Mercados', 'Sistemas de gestión', 'Objetivo circular', 'Energía', 'Personas', 'ODS de la ONU', 'Marcas'],
-      it: ['Sede', 'Produzione', 'Copertura', 'Mercati', 'Sistemi di gestione', 'Obiettivo circolare', 'Energia', 'Persone', 'SDG ONU', 'Marchi'] }],
+      it: ['Sede', 'Produzione', 'Copertura', 'Mercati', 'Sistemi di gestione', 'Obiettivo circolare', 'Energia', 'Persone', 'SDG ONU', 'Marchi'],
+      tr: ['Merkez', 'Üretim', 'Kapsam', 'Pazarlar', 'Yönetim sistemleri', 'Döngüsel hedef', 'Enerji', 'İnsanlar', 'BM SDG\'leri', 'Markalar'] }],
     ['.sheet-row span', {
       nl: [
         "'s-Hertogenbosch, Nederland <em>— familiebedrijf</em>",
@@ -641,8 +708,19 @@
         'Produzione con pannelli solari propri + energia eolica <em>·</em> flotta completamente elettrica',
         'Occupazione inclusiva <em>(distanza dal mercato del lavoro)</em> · sorveglianza sanitaria preventiva ogni 4 anni · Baril Academy',
         'Programma attivo sugli obiettivi 1 · 2 · 3 · 4 · 7 · 8 · 9 · 11 · 12 · 13 · 14 · 15',
+        'Baril Coatings · Copperant · Fairf · Nixol · TintLab · Fortis'],
+      tr: [
+        "'s-Hertogenbosch, Hollanda <em>— aile şirketi</em>",
+        'Hollanda · Amerika Birleşik Devletleri',
+        '20\'den fazla ülkede kullanılan sürdürülebilir koruma markaları',
+        'Çelik & altyapı · OEM & metal · Denizcilik & offshore · Profesyonel boyacılık · Tüketici',
+        'ISO 9001 <em>kalite</em> · ISO 14001 <em>çevre</em> · ISO 45001 <em>güvenlik</em>',
+        '2030\'da %100 döngüsel hammadde <em>— bugün %55, 2022\'de &lt;%10\'dan</em>',
+        'Kendi güneş panelleri + rüzgâr enerjisiyle üretim <em>·</em> tamamen elektrikli filo',
+        'Kapsayıcı işverenlik <em>(işgücü piyasasına uzaklık)</em> · 4 yılda bir önleyici sağlık muayenesi · Baril Academy',
+        '1 · 2 · 3 · 4 · 7 · 8 · 9 · 11 · 12 · 13 · 14 · 15 hedefleri üzerine etkin program',
         'Baril Coatings · Copperant · Fairf · Nixol · TintLab · Fortis'] }],
-    ['#sources .eyebrow', { nl: 'Bronnen & onderbouwing', pl: 'Źródła i uzasadnienie', ro: 'Surse și fundamentare', de: 'Quellen & Belege', fr: 'Sources et justification', es: 'Fuentes y justificación', it: 'Fonti e riferimenti' }],
+    ['#sources .eyebrow', { nl: 'Bronnen & onderbouwing', pl: 'Źródła i uzasadnienie', ro: 'Surse și fundamentare', de: 'Quellen & Belege', fr: 'Sources et justification', es: 'Fuentes y justificación', it: 'Fonti e riferimenti', tr: 'Kaynaklar ve dayanak' }],
     ['.src li', {
       nl: [
         'Wereldvolume verf & coatings — marktramingen 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Getoond als "≈ 50+ miljoen ton per jaar".',
@@ -685,10 +763,16 @@
         'Direttiva UE 2004/42/CE — limiti di COV per pitture decorative e riparazione di veicoli (EUR-Lex).',
         'CSE/OPS (malattia dell\'imbianchino), malattia professionale riconosciuta, NL: ≈ 50 nuovi casi/anno verso il 2000 → &lt; 10/anno nel 2014, calo attribuito alla sostituzione, tra cui la vernice a base acqua — ops-loket.nl · beroepsziekten.nl.',
         'Programmi di transizione, energia e persone di Baril Group — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Stato delle materie prime circolari (55% oggi, &lt; 10% nel 2022, obiettivo 100% nel 2030): Baril Group, 2026.',
-        'Il capitolo «Se la vernice del mondo venisse con noi» è uno scenario illustrativo basato sulla transizione dei prodotti Baril — non una proiezione globale misurata.'] }],
-    ['.foot-claim', { nl: 'Wij verven een hernieuwbare toekomst.', pl: 'Malujemy odnawialną przyszłość.', ro: 'Vopsim un viitor regenerabil.', de: 'Wir streichen eine erneuerbare Zukunft.', fr: 'Nous peignons un avenir renouvelable.', es: 'Pintamos un futuro renovable.', it: 'Dipingiamo un futuro rinnovabile.' }],
-    ['.foot-grid h5', { nl: ['Merken', 'Groep'], pl: ['Marki', 'Grupa'], ro: ['Mărci', 'Grup'], de: ['Marken', 'Gruppe'], fr: ['Marques', 'Groupe'], es: ['Marcas', 'Grupo'], it: ['Marchi', 'Gruppo'] }],
-    ['.foot-grid div:nth-child(3) a', { nl: ['Missie', 'Technologie', 'Werken bij ↗', 'Contact ↗'], pl: ['Misja', 'Technologia', 'Kariera ↗', 'Kontakt ↗'], ro: ['Misiune', 'Tehnologie', 'Cariere ↗', 'Contact ↗'], de: ['Mission', 'Technologie', 'Karriere ↗', 'Kontakt ↗'], fr: ['Mission', 'Technologie', 'Carrières ↗', 'Contact ↗'], es: ['Misión', 'Tecnología', 'Empleo ↗', 'Contacto ↗'], it: ['Missione', 'Tecnologia', 'Lavora con noi ↗', 'Contatto ↗'] }],
+        'Il capitolo «Se la vernice del mondo venisse con noi» è uno scenario illustrativo basato sulla transizione dei prodotti Baril — non una proiezione globale misurata.'],
+      tr: [
+        'Dünya boya ve kaplama hacmi — 2022–2024 pazar tahminleri: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). "≈ yılda 50+ milyon ton" olarak gösterilmiştir.',
+        'AB direktifi 2004/42/EC — dekoratif boyalar ve araç tamir boyaları için VOC sınır değerleri (EUR-Lex).',
+        'CSE/OPS (boyacı hastalığı), tanınmış meslek hastalığı, NL: 2000 dolaylarında yılda ≈ 50 yeni vaka → 2014\'te yılda &lt; 10, düşüş ikameye atfedilir, başta su bazlı boya — ops-loket.nl · beroepsziekten.nl.',
+        'Baril Group\'un dönüşüm, enerji ve insan programı — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Döngüsel hammadde durumu (bugün %55, 2022\'de &lt; %10, hedef 2030\'da %100): Baril Group, 2026.',
+        '"Dünyanın boyası bizimle gelseydi" bölümü, Baril\'in kendi ürün dönüşümüne dayalı açıklayıcı bir senaryodur — ölçülmüş bir küresel projeksiyon değildir.'] }],
+    ['.foot-claim', { nl: 'Wij verven een hernieuwbare toekomst.', pl: 'Malujemy odnawialną przyszłość.', ro: 'Vopsim un viitor regenerabil.', de: 'Wir streichen eine erneuerbare Zukunft.', fr: 'Nous peignons un avenir renouvelable.', es: 'Pintamos un futuro renovable.', it: 'Dipingiamo un futuro rinnovabile.', tr: 'Yenilenebilir bir geleceği boyuyoruz.' }],
+    ['.foot-grid h5', { nl: ['Merken', 'Groep'], pl: ['Marki', 'Grupa'], ro: ['Mărci', 'Grup'], de: ['Marken', 'Gruppe'], fr: ['Marques', 'Groupe'], es: ['Marcas', 'Grupo'], it: ['Marchi', 'Gruppo'], tr: ['Markalar', 'Grup'] }],
+    ['.foot-grid div:nth-child(3) a', { nl: ['Missie', 'Technologie', 'Werken bij ↗', 'Contact ↗'], pl: ['Misja', 'Technologia', 'Kariera ↗', 'Kontakt ↗'], ro: ['Misiune', 'Tehnologie', 'Cariere ↗', 'Contact ↗'], de: ['Mission', 'Technologie', 'Karriere ↗', 'Kontakt ↗'], fr: ['Mission', 'Technologie', 'Carrières ↗', 'Contact ↗'], es: ['Misión', 'Tecnología', 'Empleo ↗', 'Contacto ↗'], it: ['Missione', 'Tecnologia', 'Lavora con noi ↗', 'Contatto ↗'], tr: ['Misyon', 'Teknoloji', 'Kariyer ↗', 'İletişim ↗'] }],
     ['.foot-bottom span', {
       nl: ["© Baril Group · 's-Hertogenbosch NL", 'Minder verf. Langere levensduur. Lagere impact.'],
       pl: ["© Baril Group · 's-Hertogenbosch NL", 'Mniej farby. Dłuższa żywotność. Mniejszy wpływ.'],
@@ -696,13 +780,14 @@
       de: ["© Baril Group · 's-Hertogenbosch NL", 'Weniger Farbe. Längere Lebensdauer. Geringere Auswirkung.'],
       fr: ["© Baril Group · 's-Hertogenbosch NL", 'Moins de peinture. Une durée de vie plus longue. Un impact moindre.'],
       es: ["© Baril Group · 's-Hertogenbosch NL", 'Menos pintura. Mayor vida útil. Menor impacto.'],
-      it: ["© Baril Group · 's-Hertogenbosch NL", 'Meno vernice. Vita più lunga. Minore impatto.'] }]
+      it: ["© Baril Group · 's-Hertogenbosch NL", 'Meno vernice. Vita più lunga. Minore impatto.'],
+      tr: ["© Baril Group · 's-Hertogenbosch NL", 'Daha az boya. Daha uzun ömür. Daha az etki.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');
   let lang = 'en';
   try { lang = localStorage.getItem('baril-lang') || 'en'; } catch (e) {}
-  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it'].includes(lang)) lang = 'en';
+  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
 
   function apply(l) {
     for (const [sel, dict] of MAP) {
@@ -723,7 +808,7 @@
   }
 
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
-    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it'].includes(lang)) lang = 'en';
+    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
     apply(lang);
   }));
 

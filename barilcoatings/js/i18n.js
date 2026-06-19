@@ -12,7 +12,8 @@
       de: ['Produkte', 'Lacksysteme', 'Märkte', 'Referenzen', 'Technologie', 'Kontakt'],
       fr: ['Produits', 'Systèmes de peinture', 'Marchés', 'Études de cas', 'Technologie', 'Contact'],
       es: ['Productos', 'Sistemas de pintura', 'Mercados', 'Casos', 'Tecnología', 'Contacto'],
-      it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Tecnologia', 'Contatto'] }],
+      it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Tecnologia', 'Contatto'],
+      tr: ['Ürünler', 'Boya sistemleri', 'Pazarlar', 'Vaka çalışmaları', 'Teknoloji', 'İletişim'] }],
     ['header .eyebrow', {
       nl: "Baril Coatings — Industriële & beschermende coatings · Sinds 1987",
       pl: "Baril Coatings — Powłoki przemysłowe i ochronne · Od 1987",
@@ -20,7 +21,8 @@
       de: "Baril Coatings — Industrie- & Schutzbeschichtungen · Seit 1987",
       fr: "Baril Coatings — Revêtements industriels et de protection · Depuis 1987",
       es: "Baril Coatings — Recubrimientos industriales y de protección · Desde 1987",
-      it: "Baril Coatings — Rivestimenti industriali e protettivi · Dal 1987" }],
+      it: "Baril Coatings — Rivestimenti industriali e protettivi · Dal 1987",
+      tr: "Baril Coatings — Endüstriyel ve koruyucu kaplamalar · 1987'den beri" }],
     ['header h1', {
       nl: 'Duurzame<br><span class="paint">coating-</span><br>oplossingen',
       pl: 'Zrównoważone<br><span class="paint">rozwiązania</span><br>powłokowe',
@@ -28,7 +30,8 @@
       de: 'Nachhaltige<br><span class="paint">Beschichtungs-</span><br>lösungen',
       fr: 'Des solutions de<br><span class="paint">revêtement</span><br>durables',
       es: 'Soluciones de<br><span class="paint">recubrimiento</span><br>sostenibles',
-      it: 'Soluzioni di<br><span class="paint">rivestimento</span><br>sostenibili' }],
+      it: 'Soluzioni di<br><span class="paint">rivestimento</span><br>sostenibili',
+      tr: 'Sürdürülebilir<br><span class="paint">kaplama</span><br>çözümleri' }],
     ['.hero-sub', {
       nl: 'Ontwikkelaar en producent van hoogwaardige, zeer duurzame industriële coatings en bouwverven — <strong>staal langer beschermen, met dunnere, schonere lagen</strong>.',
       pl: 'Twórca i producent najwyższej jakości, wyjątkowo trwałych powłok przemysłowych i farb budowlanych — <strong>chronimy stal dłużej, cieńszymi i czystszymi warstwami</strong>.',
@@ -36,9 +39,10 @@
       de: 'Entwickler und Hersteller hochwertiger, äußerst langlebiger Industriebeschichtungen und Bautenfarben — <strong>Stahl länger schützen, mit dünneren, saubereren Schichten</strong>.',
       fr: 'Concepteur et fabricant de revêtements industriels et de peintures du bâtiment haut de gamme et très durables — <strong>protéger l\'acier plus longtemps, avec des couches plus fines et plus propres</strong>.',
       es: 'Desarrollador y fabricante de recubrimientos industriales y pinturas de construcción de alta calidad y muy duraderos — <strong>proteger el acero más tiempo, con capas más finas y más limpias</strong>.',
-      it: 'Sviluppatore e produttore di rivestimenti industriali e pitture per l\'edilizia di alta qualità e molto durevoli — <strong>proteggere l\'acciaio più a lungo, con strati più sottili e più puliti</strong>.' }],
-    ['.hero-cta .btn-solid', { nl: 'Bekijk de markten', pl: 'Zobacz rynki', ro: 'Explorează piețele', de: 'Märkte ansehen', fr: 'Voir les marchés', es: 'Ver los mercados', it: 'Scopri i mercati' }],
-    ['.hero-cta .btn-ghost', { nl: 'Hoe bescherming werkt', pl: 'Jak działa ochrona', ro: 'Cum funcționează protecția', de: 'Wie Schutz funktioniert', fr: 'Comment fonctionne la protection', es: 'Cómo funciona la protección', it: 'Come funziona la protezione' }],
+      it: 'Sviluppatore e produttore di rivestimenti industriali e pitture per l\'edilizia di alta qualità e molto durevoli — <strong>proteggere l\'acciaio più a lungo, con strati più sottili e più puliti</strong>.',
+      tr: 'Yüksek kaliteli, son derece dayanıklı endüstriyel kaplamaların ve yapı boyalarının geliştiricisi ve üreticisi — <strong>çeliği daha ince, daha temiz katmanlarla daha uzun süre koruyun</strong>.' }],
+    ['.hero-cta .btn-solid', { nl: 'Bekijk de markten', pl: 'Zobacz rynki', ro: 'Explorează piețele', de: 'Märkte ansehen', fr: 'Voir les marchés', es: 'Ver los mercados', it: 'Scopri i mercati', tr: 'Pazarları keşfedin' }],
+    ['.hero-cta .btn-ghost', { nl: 'Hoe bescherming werkt', pl: 'Jak działa ochrona', ro: 'Cum funcționează protecția', de: 'Wie Schutz funktioniert', fr: 'Comment fonctionne la protection', es: 'Cómo funciona la protección', it: 'Come funziona la protezione', tr: 'Koruma nasıl çalışır' }],
     ['.hero-foot span:first-child', {
       nl: 'Staal & infrastructuur · OEM & metaal · Marine & offshore · Schildersbedrijven',
       pl: 'Stal i infrastruktura · OEM i metal · Morskie i offshore · Firmy malarskie',
@@ -46,9 +50,10 @@
       de: 'Stahl & Infrastruktur · OEM & Metall · Marine & Offshore · Malerbetriebe',
       fr: 'Acier et infrastructure · OEM et métal · Marine et offshore · Entreprises de peinture',
       es: 'Acero e infraestructura · OEM y metal · Marina y offshore · Empresas de pintura',
-      it: 'Acciaio e infrastrutture · OEM e metallo · Marina e offshore · Imprese di verniciatura' }],
-    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri' }],
-    ['#about .eyebrow', { nl: 'Wie we zijn', pl: 'Kim jesteśmy', ro: 'Cine suntem', de: 'Wer wir sind', fr: 'Qui nous sommes', es: 'Quiénes somos', it: 'Chi siamo' }],
+      it: 'Acciaio e infrastrutture · OEM e metallo · Marina e offshore · Imprese di verniciatura',
+      tr: 'Çelik ve altyapı · OEM ve metal · Denizcilik ve açık deniz · Boya firmaları' }],
+    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır' }],
+    ['#about .eyebrow', { nl: 'Wie we zijn', pl: 'Kim jesteśmy', ro: 'Cine suntem', de: 'Wer wir sind', fr: 'Qui nous sommes', es: 'Quiénes somos', it: 'Chi siamo', tr: 'Biz kimiz' }],
     ['.mission-quote', {
       nl: 'Wij maken coatings waarmee staal en constructies <em>langer meegaan met minder</em> — hoogwaardige corrosiebescherming, ontwikkeld op chemisch niveau en aangebracht in dunnere lagen. De prestaties die je van industriële coatings verwacht, op een hernieuwbaar pad.',
       pl: 'Tworzymy powłoki, dzięki którym stal i konstrukcje <em>służą dłużej przy mniejszym zużyciu</em> — najwyższej klasy ochrona antykorozyjna, zaprojektowana na poziomie chemii i nakładana w cieńszych warstwach. Wydajność, jakiej oczekujesz od powłok przemysłowych, na drodze ku odnawialności.',
@@ -56,7 +61,8 @@
       de: 'Wir machen Beschichtungen, mit denen Stahl und Konstruktionen <em>länger halten mit weniger</em> — hochwertiger Korrosionsschutz, auf chemischer Ebene entwickelt und in dünneren Schichten aufgetragen. Die Leistung, die man von Industriebeschichtungen erwartet, auf einem erneuerbaren Weg.',
       fr: 'Nous fabriquons des revêtements qui font <em>durer l\'acier et les structures plus longtemps avec moins</em> — une protection anticorrosion haut de gamme, conçue au niveau de la chimie et appliquée en couches plus fines. Les performances attendues des revêtements industriels, sur une voie renouvelable.',
       es: 'Fabricamos recubrimientos que hacen que el acero y las estructuras <em>duren más con menos</em> — protección anticorrosión de alta gama, diseñada a nivel químico y aplicada en capas más finas. El rendimiento que esperas de los recubrimientos industriales, por una vía renovable.',
-      it: 'Realizziamo rivestimenti che fanno <em>durare di più acciaio e strutture, con meno</em> — protezione anticorrosione di alta gamma, progettata a livello chimico e applicata in strati più sottili. Le prestazioni che ti aspetti dai rivestimenti industriali, su una via rinnovabile.' }],
+      it: 'Realizziamo rivestimenti che fanno <em>durare di più acciaio e strutture, con meno</em> — protezione anticorrosione di alta gamma, progettata a livello chimico e applicata in strati più sottili. Le prestazioni che ti aspetti dai rivestimenti industriali, su una via rinnovabile.',
+      tr: 'Çeliğin ve yapıların <em>daha azıyla daha uzun süre dayanmasını</em> sağlayan kaplamalar üretiyoruz — kimyasal düzeyde geliştirilen ve daha ince katmanlarda uygulanan üst düzey korozyon koruması. Endüstriyel kaplamalardan beklediğiniz performans, yenilenebilir bir yolda.' }],
     ['#about .mm b', {
       nl: ['Langer beschermen', 'Minder coating', 'Hernieuwbare chemie', 'Gecertificeerd'],
       pl: ['Dłuższa ochrona', 'Mniej powłoki', 'Odnawialna chemia', 'Certyfikowane'],
@@ -64,7 +70,8 @@
       de: ['Länger schützen', 'Weniger Beschichtung', 'Erneuerbare Chemie', 'Zertifiziert'],
       fr: ['Protéger plus longtemps', 'Moins de revêtement', 'Chimie renouvelable', 'Certifié'],
       es: ['Proteger más tiempo', 'Menos recubrimiento', 'Química renovable', 'Certificado'],
-      it: ['Proteggere più a lungo', 'Meno rivestimento', 'Chimica rinnovabile', 'Certificato'] }],
+      it: ['Proteggere più a lungo', 'Meno rivestimento', 'Chimica rinnovabile', 'Certificato'],
+      tr: ['Daha uzun koruma', 'Daha az kaplama', 'Yenilenebilir kimya', 'Sertifikalı'] }],
     ['#about .mm span', {
       nl: [
         'Dunne-laag-corrosiebescherming verlengt de levensduur van staal, infrastructuur en installaties — tot de hoogste ISO 12944-klassen.',
@@ -100,9 +107,14 @@
         'La protezione anticorrosione in strato sottile prolunga la vita di acciaio, infrastrutture e impianti — fino alle più alte classi ISO 12944.',
         'Maggiore copertura per litro a uno spessore di film ridotto — meno cicli di manutenzione, un\'impronta minore per m² protetto.',
         'Materie prime biobased e circolari sostituiscono la chimica fossile, passo dopo passo — da &lt;10% nel 2022 al 100% nel 2030.',
-        'ISO 9001, 14001 e 45001. Approvazioni di prodotto fino a NORSOK M-501 per l\'offshore — provate negli ambienti più severi.'] }],
-    ['#corrosion .eyebrow', { nl: 'Hoofdstuk 04 · Corrosiebescherming', pl: 'Rozdział 04 · Ochrona antykorozyjna', ro: 'Capitolul 04 · Protecție anticorozivă', de: 'Kapitel 04 · Korrosionsschutz', fr: 'Chapitre 04 · Protection anticorrosion', es: 'Capítulo 04 · Protección anticorrosión', it: 'Capitolo 04 · Protezione anticorrosione' }],
-    ['#corrosion h2', { nl: 'Van roest<br>naar weerbaarheid', pl: 'Od rdzy<br>do odporności', ro: 'De la rugină<br>la reziliență', de: 'Von Rost<br>zu Widerstandskraft', fr: 'De la rouille<br>à la résilience', es: 'Del óxido<br>a la resiliencia', it: 'Dalla ruggine<br>alla resilienza' }],
+        'ISO 9001, 14001 e 45001. Approvazioni di prodotto fino a NORSOK M-501 per l\'offshore — provate negli ambienti più severi.'],
+      tr: [
+        'İnce katmanlı korozyon koruması çeliğin, altyapının ve tesislerin ömrünü uzatır — en yüksek ISO 12944 sınıflarına kadar.',
+        'Daha düşük katman kalınlığında litre başına daha fazla kaplama — daha az bakım döngüsü, korunan m² başına daha küçük ayak izi.',
+        'Biyobazlı ve döngüsel hammaddeler fosil kimyanın yerini alıyor, adım adım — 2022\'de &lt;%10\'dan 2030\'da %100\'e.',
+        'ISO 9001, 14001 ve 45001. Açık deniz için NORSOK M-501\'e kadar ürün onayları — en zorlu ortamlarda kanıtlanmış.'] }],
+    ['#corrosion .eyebrow', { nl: 'Hoofdstuk 04 · Corrosiebescherming', pl: 'Rozdział 04 · Ochrona antykorozyjna', ro: 'Capitolul 04 · Protecție anticorozivă', de: 'Kapitel 04 · Korrosionsschutz', fr: 'Chapitre 04 · Protection anticorrosion', es: 'Capítulo 04 · Protección anticorrosión', it: 'Capitolo 04 · Protezione anticorrosione', tr: 'Bölüm 04 · Korozyon koruması' }],
+    ['#corrosion h2', { nl: 'Van roest<br>naar weerbaarheid', pl: 'Od rdzy<br>do odporności', ro: 'De la rugină<br>la reziliență', de: 'Von Rost<br>zu Widerstandskraft', fr: 'De la rouille<br>à la résilience', es: 'Del óxido<br>a la resiliencia', it: 'Dalla ruggine<br>alla resilienza', tr: 'Pastan<br>dayanıklılığa' }],
     ['#corrosion .sec-head p:last-child', {
       nl: 'Corrosie is een langzaam vuur: onbeschermd staal verliest jaarlijks tientallen micrometers, en constructies worden ruim voor hun tijd vervangen. Een Baril-beschermingssysteem sluit het staal af van zuurstof en water — en wint decennia. Scroll om de coating aan te brengen.',
       pl: 'Korozja to powolny ogień: niezabezpieczona stal traci dziesiątki mikronów rocznie, a konstrukcje wymienia się na długo przed czasem. System ochronny Baril odcina stal od tlenu i wody — i zyskuje dziesięciolecia. Przewiń, aby nałożyć powłokę.',
@@ -110,7 +122,8 @@
       de: 'Korrosion ist ein langsames Feuer: ungeschützter Stahl verliert jährlich Dutzende Mikrometer, und Konstruktionen werden lange vor ihrer Zeit ersetzt. Ein Baril-Schutzsystem schließt den Stahl von Sauerstoff und Wasser ab — und gewinnt Jahrzehnte. Scrolle, um die Beschichtung aufzutragen.',
       fr: 'La corrosion est un feu lent : l\'acier non protégé perd des dizaines de micromètres par an, et les structures sont remplacées bien avant l\'heure. Un système de protection Baril isole l\'acier de l\'oxygène et de l\'eau — et gagne des décennies. Faites défiler pour appliquer le revêtement.',
       es: 'La corrosión es un fuego lento: el acero sin proteger pierde decenas de micrómetros al año, y las estructuras se sustituyen mucho antes de tiempo. Un sistema de protección Baril aísla el acero del oxígeno y el agua — y gana décadas. Desliza para aplicar el recubrimiento.',
-      it: 'La corrosione è un fuoco lento: l\'acciaio non protetto perde decine di micrometri all\'anno e le strutture vengono sostituite ben prima del tempo. Un sistema di protezione Baril isola l\'acciaio da ossigeno e acqua — e guadagna decenni. Scorri per applicare il rivestimento.' }],
+      it: 'La corrosione è un fuoco lento: l\'acciaio non protetto perde decine di micrometri all\'anno e le strutture vengono sostituite ben prima del tempo. Un sistema di protezione Baril isola l\'acciaio da ossigeno e acqua — e guadagna decenni. Scorri per applicare il rivestimento.',
+      tr: 'Korozyon yavaş bir yangındır: korunmayan çelik yılda onlarca mikrometre kaybeder ve yapılar vaktinden çok önce değiştirilir. Bir Baril koruma sistemi çeliği oksijen ve sudan yalıtır — ve onlarca yıl kazandırır. Kaplamayı uygulamak için kaydırın.' }],
     ['#corrosion .cr .cl', {
       nl: ['Tot eerste groot onderhoud', 'Tot de hoogste ISO 12944-corrosiviteitsklassen', 'Gekwalificeerde systemen voor offshore-staal'],
       pl: ['Do pierwszej dużej konserwacji', 'Aż do najwyższych klas korozyjności ISO 12944', 'Kwalifikowane systemy do stali offshore'],
@@ -118,9 +131,10 @@
       de: ['Bis zur ersten großen Wartung', 'Bis zu den höchsten ISO-12944-Korrosivitätsklassen', 'Qualifizierte Systeme für Offshore-Stahl'],
       fr: ['Jusqu\'à la première maintenance majeure', 'Jusqu\'aux plus hautes classes de corrosivité ISO 12944', 'Systèmes qualifiés pour l\'acier offshore'],
       es: ['Hasta el primer mantenimiento mayor', 'Hasta las clases de corrosividad ISO 12944 más altas', 'Sistemas cualificados para acero offshore'],
-      it: ['Fino alla prima grande manutenzione', 'Fino alle più alte classi di corrosività ISO 12944', 'Sistemi qualificati per acciaio offshore'] }],
-    ['#thinlayer .eyebrow', { nl: 'Hoofdstuk 02 · Dunne-laag-technologie', pl: 'Rozdział 02 · Technologia cienkowarstwowa', ro: 'Capitolul 02 · Tehnologie în strat subțire', de: 'Kapitel 02 · Dünnschicht-Technologie', fr: 'Chapitre 02 · Technologie en couche mince', es: 'Capítulo 02 · Tecnología de capa fina', it: 'Capitolo 02 · Tecnologia a strato sottile' }],
-    ['#thinlayer h2', { nl: 'Meer meters,<br>minder coating', pl: 'Więcej metrów,<br>mniej powłoki', ro: 'Mai mulți metri,<br>mai puțină acoperire', de: 'Mehr Meter,<br>weniger Beschichtung', fr: 'Plus de mètres,<br>moins de revêtement', es: 'Más metros,<br>menos recubrimiento', it: 'Più metri,<br>meno rivestimento' }],
+      it: ['Fino alla prima grande manutenzione', 'Fino alle più alte classi di corrosività ISO 12944', 'Sistemi qualificati per acciaio offshore'],
+      tr: ['İlk büyük bakıma kadar', 'En yüksek ISO 12944 korozyon sınıflarına kadar', 'Açık deniz çeliği için nitelikli sistemler'] }],
+    ['#thinlayer .eyebrow', { nl: 'Hoofdstuk 02 · Dunne-laag-technologie', pl: 'Rozdział 02 · Technologia cienkowarstwowa', ro: 'Capitolul 02 · Tehnologie în strat subțire', de: 'Kapitel 02 · Dünnschicht-Technologie', fr: 'Chapitre 02 · Technologie en couche mince', es: 'Capítulo 02 · Tecnología de capa fina', it: 'Capitolo 02 · Tecnologia a strato sottile', tr: 'Bölüm 02 · İnce katman teknolojisi' }],
+    ['#thinlayer h2', { nl: 'Meer meters,<br>minder coating', pl: 'Więcej metrów,<br>mniej powłoki', ro: 'Mai mulți metri,<br>mai puțină acoperire', de: 'Mehr Meter,<br>weniger Beschichtung', fr: 'Plus de mètres,<br>moins de revêtement', es: 'Más metros,<br>menos recubrimiento', it: 'Più metri,<br>meno rivestimento', tr: 'Daha çok metre,<br>daha az kaplama' }],
     ['#thinlayer .sec-head p:last-child', {
       nl: 'De kracht van een coating zit niet in de dikte, maar in hoe goed ze is opgebouwd. Onze dunne-laag-technologie beschermt meer vierkante meters per liter, bij een lagere laagdikte — minder materiaal op de constructie, minder blikken op de vrachtwagen, een kleinere voetafdruk per beschermde m².',
       pl: 'Siła powłoki nie tkwi w jej grubości, lecz w tym, jak dobrze jest zbudowana. Nasza technologia cienkowarstwowa chroni więcej metrów kwadratowych z każdego litra, przy niższej grubości suchej powłoki — mniej materiału na konstrukcji, mniej puszek na ciężarówce, mniejszy ślad na chroniony m².',
@@ -128,9 +142,10 @@
       de: 'Die Stärke einer Beschichtung liegt nicht in der Dicke, sondern darin, wie gut sie aufgebaut ist. Unsere Dünnschicht-Technologie schützt mehr Quadratmeter pro Liter bei geringerer Schichtdicke — weniger Material auf der Konstruktion, weniger Dosen auf dem Lkw, ein kleinerer Fußabdruck pro geschütztem m².',
       fr: 'La force d\'un revêtement ne tient pas à son épaisseur, mais à la qualité de sa construction. Notre technologie en couche mince protège plus de mètres carrés par litre, à une épaisseur de film réduite — moins de matière sur la structure, moins de bidons dans le camion, une empreinte plus faible par m² protégé.',
       es: 'La fuerza de un recubrimiento no está en su espesor, sino en lo bien que está construido. Nuestra tecnología de capa fina protege más metros cuadrados por litro, con un menor espesor de película — menos material en la estructura, menos botes en el camión, una huella menor por m² protegido.',
-      it: 'La forza di un rivestimento non sta nello spessore, ma in quanto bene è costruito. La nostra tecnologia a strato sottile protegge più metri quadri per litro, a uno spessore di film ridotto — meno materiale sulla struttura, meno latte sul camion, un\'impronta minore per m² protetto.' }],
-    ['.cov-readout .cl', { nl: 'Beschermd per liter, bij de aanbevolen laagdikte', pl: 'Ochrona na litr, przy zalecanej grubości powłoki', ro: 'Protecție pe litru, la grosimea recomandată a peliculei', de: 'Geschützt pro Liter, bei empfohlener Schichtdicke', fr: 'Protégé par litre, à l\'épaisseur de film recommandée', es: 'Protegido por litro, al espesor de película recomendado', it: 'Protetto per litro, allo spessore di film consigliato' }],
-    ['.dft-name', { nl: ['Conventionele laagdikte', 'Baril dunne laag'], pl: ['Powłoka konwencjonalna', 'Baril cienka warstwa'], ro: ['Strat convențional', 'Baril strat subțire'], de: ['Konventionelle Schichtdicke', 'Baril Dünnschicht'], fr: ['Épaisseur conventionnelle', 'Baril couche mince'], es: ['Espesor convencional', 'Baril capa fina'], it: ['Spessore convenzionale', 'Baril strato sottile'] }],
+      it: 'La forza di un rivestimento non sta nello spessore, ma in quanto bene è costruito. La nostra tecnologia a strato sottile protegge più metri quadri per litro, a uno spessore di film ridotto — meno materiale sulla struttura, meno latte sul camion, un\'impronta minore per m² protetto.',
+      tr: 'Bir kaplamanın gücü kalınlığında değil, ne kadar iyi yapılandırıldığındadır. İnce katman teknolojimiz, daha düşük katman kalınlığında litre başına daha fazla metrekareyi korur — yapıda daha az malzeme, kamyonda daha az teneke, korunan m² başına daha küçük ayak izi.' }],
+    ['.cov-readout .cl', { nl: 'Beschermd per liter, bij de aanbevolen laagdikte', pl: 'Ochrona na litr, przy zalecanej grubości powłoki', ro: 'Protecție pe litru, la grosimea recomandată a peliculei', de: 'Geschützt pro Liter, bei empfohlener Schichtdicke', fr: 'Protégé par litre, à l\'épaisseur de film recommandée', es: 'Protegido por litro, al espesor de película recomendado', it: 'Protetto per litro, allo spessore di film consigliato', tr: 'Önerilen katman kalınlığında litre başına korunan alan' }],
+    ['.dft-name', { nl: ['Conventionele laagdikte', 'Baril dunne laag'], pl: ['Powłoka konwencjonalna', 'Baril cienka warstwa'], ro: ['Strat convențional', 'Baril strat subțire'], de: ['Konventionelle Schichtdicke', 'Baril Dünnschicht'], fr: ['Épaisseur conventionnelle', 'Baril couche mince'], es: ['Espesor convencional', 'Baril capa fina'], it: ['Spessore convenzionale', 'Baril strato sottile'], tr: ['Konvansiyonel katman kalınlığı', 'Baril ince katman'] }],
     ['.scenario-note', {
       nl: [
         'Indicatieve duurzaamheid. De haalbare bescherming hangt af van systeem, ondergrondvoorbehandeling en corrosiviteitsklasse volgens ISO 12944 / ISO 12944-9 (offshore).',
@@ -159,9 +174,13 @@
       it: [
         'Durabilità indicativa. La protezione ottenibile dipende dal sistema, dalla preparazione del supporto e dalla classe di corrosività secondo ISO 12944 / ISO 12944-9 (offshore).',
         'Lo spessore del film secco è illustrativo; la copertura reale e lo SFS dipendono da prodotto, metodo e specifica.',
-        'DualCure (DCC) brevettato. Dati di performance secondo i dati tecnici di Baril Coatings; la protezione ottenibile dipende da sistema, supporto e specifica.'] }],
-    ['#bio .eyebrow', { nl: 'Hoofdstuk 03 · Hernieuwbare chemie', pl: 'Rozdział 03 · Odnawialna chemia', ro: 'Capitolul 03 · Chimie regenerabilă', de: 'Kapitel 03 · Erneuerbare Chemie', fr: 'Chapitre 03 · Chimie renouvelable', es: 'Capítulo 03 · Química renovable', it: 'Capitolo 03 · Chimica rinnovabile' }],
-    ['#bio h2', { nl: 'Van vat<br>naar bio', pl: 'Z beczki<br>do bio', ro: 'De la baril<br>la bio', de: 'Vom Fass<br>zu Bio', fr: 'Du baril<br>au bio', es: 'Del barril<br>al bio', it: 'Dal barile<br>al bio' }],
+        'DualCure (DCC) brevettato. Dati di performance secondo i dati tecnici di Baril Coatings; la protezione ottenibile dipende da sistema, supporto e specifica.'],
+      tr: [
+        'Gösterge niteliğinde dayanıklılık. Ulaşılabilir koruma; sisteme, zemin ön hazırlığına ve ISO 12944 / ISO 12944-9 (açık deniz) korozyon sınıfına bağlıdır.',
+        'Kuru katman kalınlığı örnek niteliğindedir; gerçek kaplama ve KKK ürüne, yönteme ve şartnameye bağlıdır.',
+        'Patentli DualCure (DCC). Performans değerleri Baril Coatings teknik verilerine göredir; ulaşılabilir koruma sisteme, zemine ve şartnameye bağlıdır.'] }],
+    ['#bio .eyebrow', { nl: 'Hoofdstuk 03 · Hernieuwbare chemie', pl: 'Rozdział 03 · Odnawialna chemia', ro: 'Capitolul 03 · Chimie regenerabilă', de: 'Kapitel 03 · Erneuerbare Chemie', fr: 'Chapitre 03 · Chimie renouvelable', es: 'Capítulo 03 · Química renovable', it: 'Capitolo 03 · Chimica rinnovabile', tr: 'Bölüm 03 · Yenilenebilir kimya' }],
+    ['#bio h2', { nl: 'Van vat<br>naar bio', pl: 'Z beczki<br>do bio', ro: 'De la baril<br>la bio', de: 'Vom Fass<br>zu Bio', fr: 'Du baril<br>au bio', es: 'Del barril<br>al bio', it: 'Dal barile<br>al bio', tr: 'Varilden<br>biyoya' }],
     ['#bio .sec-head p:last-child', {
       nl: 'Elke liter coating is chemie: bindmiddel, oplosmiddel, pigment, additieven — een eeuw lang gebaseerd op ruwe olie. Wij zetten onze industriële coatings om naar hernieuwbare en circulaire grondstoffen, van minder dan 10% in 2022 naar 55% vandaag, op weg naar 100% in 2030. Dezelfde bescherming. Lagere impact.',
       pl: 'Każdy litr powłoki to chemia: spoiwo, rozpuszczalnik, pigment, dodatki — przez stulecie na bazie ropy naftowej. Przekształcamy nasze powłoki przemysłowe na surowce odnawialne i w obiegu zamkniętym, z mniej niż 10% w 2022 do 55% dziś, w drodze do 100% w 2030. Ta sama ochrona. Mniejszy wpływ.',
@@ -169,10 +188,11 @@
       de: 'Jeder Liter Beschichtung ist Chemie: Bindemittel, Lösemittel, Pigment, Additive — ein Jahrhundert lang auf Erdölbasis. Wir stellen unsere Industriebeschichtungen auf erneuerbare und zirkuläre Rohstoffe um, von weniger als 10% im Jahr 2022 auf 55% heute, auf dem Weg zu 100% bis 2030. Gleicher Schutz. Geringere Auswirkung.',
       fr: 'Chaque litre de revêtement est de la chimie : liant, solvant, pigment, additifs — pendant un siècle, à base de pétrole. Nous convertissons nos revêtements industriels vers des matières premières renouvelables et circulaires, de moins de 10% en 2022 à 55% aujourd\'hui, en route vers 100% en 2030. La même protection. Un impact moindre.',
       es: 'Cada litro de recubrimiento es química: aglutinante, disolvente, pigmento, aditivos — durante un siglo, a base de petróleo. Convertimos nuestros recubrimientos industriales hacia materias primas renovables y circulares, de menos del 10% en 2022 al 55% hoy, camino del 100% en 2030. La misma protección. Menor impacto.',
-      it: 'Ogni litro di rivestimento è chimica: legante, solvente, pigmento, additivi — per un secolo a base di petrolio. Convertiamo i nostri rivestimenti industriali verso materie prime rinnovabili e circolari, da meno del 10% nel 2022 al 55% oggi, verso il 100% nel 2030. La stessa protezione. Minore impatto.' }],
-    ['#bio .ctr .yr', { nl: 'vandaag', pl: 'dziś', ro: 'astăzi', de: 'heute', fr: 'aujourd\'hui', es: 'hoy', it: 'oggi' }],
-    ['#bio .ctr:nth-child(2) b', { nl: '100% in 2030', pl: '100% do 2030', ro: '100% până în 2030', de: '100% bis 2030', fr: '100% en 2030', es: '100% en 2030', it: '100% nel 2030' }],
-    ['#bio .ctr:nth-child(3) b', { nl: 'Gelijk of beter', pl: 'Tak samo lub lepiej', ro: 'La fel sau mai bine', de: 'Gleich oder besser', fr: 'Égal ou meilleur', es: 'Igual o mejor', it: 'Uguale o migliore' }],
+      it: 'Ogni litro di rivestimento è chimica: legante, solvente, pigmento, additivi — per un secolo a base di petrolio. Convertiamo i nostri rivestimenti industriali verso materie prime rinnovabili e circolari, da meno del 10% nel 2022 al 55% oggi, verso il 100% nel 2030. La stessa protezione. Minore impatto.',
+      tr: 'Her litre kaplama kimyadır: bağlayıcı, çözücü, pigment, katkı maddeleri — bir yüzyıl boyunca ham petrole dayalı. Endüstriyel kaplamalarımızı yenilenebilir ve döngüsel hammaddelere dönüştürüyoruz, 2022\'de %10\'un altından bugün %55\'e, 2030\'da %100\'e doğru. Aynı koruma. Daha az etki.' }],
+    ['#bio .ctr .yr', { nl: 'vandaag', pl: 'dziś', ro: 'astăzi', de: 'heute', fr: 'aujourd\'hui', es: 'hoy', it: 'oggi', tr: 'bugün' }],
+    ['#bio .ctr:nth-child(2) b', { nl: '100% in 2030', pl: '100% do 2030', ro: '100% până în 2030', de: '100% bis 2030', fr: '100% en 2030', es: '100% en 2030', it: '100% nel 2030', tr: '2030\'da %100' }],
+    ['#bio .ctr:nth-child(3) b', { nl: 'Gelijk of beter', pl: 'Tak samo lub lepiej', ro: 'La fel sau mai bine', de: 'Gleich oder besser', fr: 'Égal ou meilleur', es: 'Igual o mejor', it: 'Uguale o migliore', tr: 'Aynı veya daha iyi' }],
     ['#bio .ctr .cl', {
       nl: ['Hernieuwbare & circulaire grondstoffen', 'Groepsdoel — vanaf &lt;10% in 2022', 'Bescherming, bij lagere laagdikte'],
       pl: ['Surowce odnawialne i w obiegu zamkniętym', 'Cel grupy — z &lt;10% w 2022', 'Ochrona, przy niższej grubości powłoki'],
@@ -180,9 +200,10 @@
       de: ['Erneuerbare & zirkuläre Rohstoffe', 'Gruppenziel — ab &lt;10% im Jahr 2022', 'Schutz, bei geringerer Schichtdicke'],
       fr: ['Matières premières renouvelables et circulaires', 'Objectif du groupe — depuis &lt;10% en 2022', 'Protection, à une épaisseur réduite'],
       es: ['Materias primas renovables y circulares', 'Objetivo del grupo — desde &lt;10% en 2022', 'Protección, con menor espesor'],
-      it: ['Materie prime rinnovabili e circolari', 'Obiettivo del gruppo — da &lt;10% nel 2022', 'Protezione, a spessore ridotto'] }],
-    ['#dualcure .eyebrow', { nl: 'Hoofdstuk 01 · DualCure-technologie', pl: 'Rozdział 01 · Technologia DualCure', ro: 'Capitolul 01 · Tehnologia DualCure', de: 'Kapitel 01 · DualCure-Technologie', fr: 'Chapitre 01 · Technologie DualCure', es: 'Capítulo 01 · Tecnología DualCure', it: 'Capitolo 01 · Tecnologia DualCure' }],
-    ['#dualcure h2', { nl: 'Twee uithardingen,<br>één netwerk', pl: 'Dwa utwardzania,<br>jedna sieć', ro: 'Două întăriri,<br>o singură rețea', de: 'Zwei Aushärtungen,<br>ein Netzwerk', fr: 'Deux durcissements,<br>un seul réseau', es: 'Dos curados,<br>una sola red', it: 'Due indurimenti,<br>una sola rete' }],
+      it: ['Materie prime rinnovabili e circolari', 'Obiettivo del gruppo — da &lt;10% nel 2022', 'Protezione, a spessore ridotto'],
+      tr: ['Yenilenebilir ve döngüsel hammaddeler', 'Grup hedefi — 2022\'de &lt;%10\'dan', 'Daha düşük katman kalınlığında koruma'] }],
+    ['#dualcure .eyebrow', { nl: 'Hoofdstuk 01 · DualCure-technologie', pl: 'Rozdział 01 · Technologia DualCure', ro: 'Capitolul 01 · Tehnologia DualCure', de: 'Kapitel 01 · DualCure-Technologie', fr: 'Chapitre 01 · Technologie DualCure', es: 'Capítulo 01 · Tecnología DualCure', it: 'Capitolo 01 · Tecnologia DualCure', tr: 'Bölüm 01 · DualCure teknolojisi' }],
+    ['#dualcure h2', { nl: 'Twee uithardingen,<br>één netwerk', pl: 'Dwa utwardzania,<br>jedna sieć', ro: 'Două întăriri,<br>o singură rețea', de: 'Zwei Aushärtungen,<br>ein Netzwerk', fr: 'Deux durcissements,<br>un seul réseau', es: 'Dos curados,<br>una sola red', it: 'Due indurimenti,<br>una sola rete', tr: 'İki kürlenme,<br>tek ağ' }],
     ['#dualcure .sec-head p:last-child', {
       nl: 'De meeste industriële coatings harden op één manier uit. Onze gepatenteerde <strong>DualCure (DCC)</strong> hardt tegelijk op twee manieren uit: de chemische 2K-reactie van componenten A en B, <em>én</em> een tweede uitharding die op gang komt door vocht uit de lucht. De twee netwerken weven zich tot één uitzonderlijk dichte moleculaire mesh — hechter <em>én</em> flexibeler dan regulier 2K. Het resultaat: een veelvoud aan bescherming, met aanzienlijk minder coating.',
       pl: 'Większość powłok przemysłowych utwardza się w jeden sposób. Nasza opatentowana <strong>DualCure (DCC)</strong> utwardza się jednocześnie na dwa sposoby: chemiczna reakcja 2K komponentów A i B, <em>oraz</em> drugie utwardzanie wywołane wilgocią z powietrza. Obie sieci splatają się w jedną wyjątkowo gęstą molekularną siatkę — wiążąc mocniej <em>i</em> pozostając bardziej elastyczne niż zwykłe 2K. Rezultat: wielokrotnie większa ochrona przy znacznie mniejszej ilości powłoki.',
@@ -190,7 +211,8 @@
       de: 'Die meisten Industriebeschichtungen härten auf eine Art aus. Unser patentiertes <strong>DualCure (DCC)</strong> härtet gleichzeitig auf zwei Arten aus: die chemische 2K-Reaktion der Komponenten A und B, <em>und</em> eine zweite Aushärtung, die durch Luftfeuchtigkeit ausgelöst wird. Die beiden Netzwerke verweben sich zu einem außergewöhnlich dichten molekularen Geflecht — fester <em>und</em> flexibler als reguläres 2K. Das Ergebnis: ein Vielfaches an Schutz, mit deutlich weniger Beschichtung.',
       fr: 'La plupart des revêtements industriels durcissent d\'une seule manière. Notre <strong>DualCure (DCC)</strong> breveté durcit simultanément de deux manières : la réaction chimique 2K des composants A et B, <em>et</em> un second durcissement déclenché par l\'humidité de l\'air. Les deux réseaux se tissent en un maillage moléculaire exceptionnellement dense — plus cohésif <em>et</em> plus souple qu\'un 2K classique. Résultat : une protection démultipliée, avec nettement moins de revêtement.',
       es: 'La mayoría de los recubrimientos industriales curan de una sola manera. Nuestro <strong>DualCure (DCC)</strong> patentado cura de dos maneras a la vez: la reacción química 2K de los componentes A y B, <em>y</em> un segundo curado que se desencadena por la humedad del aire. Las dos redes se entretejen en una malla molecular excepcionalmente densa — más cohesionada <em>y</em> más flexible que un 2K convencional. El resultado: una protección multiplicada, con mucho menos recubrimiento.',
-      it: 'La maggior parte dei rivestimenti industriali indurisce in un solo modo. Il nostro <strong>DualCure (DCC)</strong> brevettato indurisce in due modi contemporaneamente: la reazione chimica 2K dei componenti A e B, <em>e</em> un secondo indurimento innescato dall\'umidità dell\'aria. Le due reti si intrecciano in una maglia molecolare eccezionalmente densa — più coesa <em>e</em> più flessibile di un 2K tradizionale. Il risultato: una protezione moltiplicata, con molto meno rivestimento.' }],
+      it: 'La maggior parte dei rivestimenti industriali indurisce in un solo modo. Il nostro <strong>DualCure (DCC)</strong> brevettato indurisce in due modi contemporaneamente: la reazione chimica 2K dei componenti A e B, <em>e</em> un secondo indurimento innescato dall\'umidità dell\'aria. Le due reti si intrecciano in una maglia molecolare eccezionalmente densa — più coesa <em>e</em> più flessibile di un 2K tradizionale. Il risultato: una protezione moltiplicata, con molto meno rivestimento.',
+      tr: 'Çoğu endüstriyel kaplama tek bir şekilde kürlenir. Patentli <strong>DualCure (DCC)</strong> teknolojimiz aynı anda iki şekilde kürlenir: A ve B bileşenlerinin kimyasal 2K reaksiyonu, <em>ve</em> havadaki nemle tetiklenen ikinci bir kürlenme. İki ağ, olağanüstü yoğun tek bir moleküler örgüye dokunur — sıradan 2K\'dan hem daha sıkı bağlanan <em>hem</em> daha esnek. Sonuç: çok daha az kaplamayla kat kat fazla koruma.' }],
     ['#dualcure .dcc-legend .lg', {
       nl: ['Chemische 2K-uitharding (A+B)', 'Vochtuitharding uit de lucht'],
       pl: ['Chemiczne utwardzanie 2K (A+B)', 'Utwardzanie wilgocią z powietrza'],
@@ -198,7 +220,8 @@
       de: ['Chemische 2K-Aushärtung (A+B)', 'Feuchtigkeitsaushärtung aus der Luft'],
       fr: ['Durcissement chimique 2K (A+B)', 'Durcissement par l\'humidité de l\'air'],
       es: ['Curado químico 2K (A+B)', 'Curado por humedad del aire'],
-      it: ['Indurimento chimico 2K (A+B)', 'Indurimento con l\'umidità dell\'aria'] }],
+      it: ['Indurimento chimico 2K (A+B)', 'Indurimento con l\'umidità dell\'aria'],
+      tr: ['Kimyasal 2K kürlenme (A+B)', 'Havadaki nemle kürlenme'] }],
     ['#dualcure .cr .cl', {
       nl: ['Dunner dan conventioneel — bij gelijke bescherming', 'Bij 200 µm totaal · NORSOK-gecertificeerd voor offshore', 'Procestijd · uithardt in ~30 min, zonder warmte, low-VOC'],
       pl: ['Cieńsza niż konwencjonalna — przy tej samej ochronie', 'Przy 200 µm łącznie · certyfikat NORSOK dla offshore', 'Czas procesu · utwardza w ~30 min, bez ciepła, niska LZO'],
@@ -206,11 +229,12 @@
       de: ['Dünner als konventionell — bei gleichem Schutz', 'Bei 200 µm gesamt · NORSOK-zertifiziert für Offshore', 'Prozesszeit · härtet in ~30 Min., ohne Wärme, low-VOC'],
       fr: ['Plus mince que le conventionnel — à protection égale', 'À 200 µm au total · certifié NORSOK pour l\'offshore', 'Temps de process · durcit en ~30 min, sans chaleur, faible COV'],
       es: ['Más fino que el convencional — a igual protección', 'A 200 µm en total · certificado NORSOK para offshore', 'Tiempo de proceso · cura en ~30 min, sin calor, bajo COV'],
-      it: ['Più sottile del convenzionale — a parità di protezione', 'A 200 µm totali · certificato NORSOK per offshore', 'Tempo di processo · indurisce in ~30 min, senza calore, basso COV'] }],
-    ['#dualcure .net-name', { nl: ['Regulier 2K', 'DualCure'], pl: ['Zwykłe 2K', 'DualCure'], ro: ['2K obișnuit', 'DualCure'], de: ['Reguläres 2K', 'DualCure'], fr: ['2K classique', 'DualCure'], es: ['2K convencional', 'DualCure'], it: ['2K tradizionale', 'DualCure'] }],
-    ['#dualcure .net-val', { nl: ['enkel netwerk', 'dubbel netwerk'], pl: ['pojedyncza sieć', 'podwójna sieć'], ro: ['rețea simplă', 'rețea dublă'], de: ['einfaches Netzwerk', 'doppeltes Netzwerk'], fr: ['réseau simple', 'réseau double'], es: ['red simple', 'red doble'], it: ['rete singola', 'rete doppia'] }],
-    ['#markets .eyebrow', { nl: 'Markten', pl: 'Rynki', ro: 'Piețe', de: 'Märkte', fr: 'Marchés', es: 'Mercados', it: 'Mercati' }],
-    ['#markets h2', { nl: 'Gebouwd voor de<br>zwaarste klussen', pl: 'Stworzone do<br>najtrudniejszych zadań', ro: 'Construite pentru<br>cele mai grele lucrări', de: 'Gebaut für die<br>härtesten Aufgaben', fr: 'Conçus pour les<br>travaux les plus durs', es: 'Diseñados para los<br>trabajos más duros', it: 'Costruiti per i<br>lavori più impegnativi' }],
+      it: ['Più sottile del convenzionale — a parità di protezione', 'A 200 µm totali · certificato NORSOK per offshore', 'Tempo di processo · indurisce in ~30 min, senza calore, basso COV'],
+      tr: ['Konvansiyonelden daha ince — eşit korumayla', 'Toplam 200 µm\'de · açık deniz için NORSOK sertifikalı', 'Süreç süresi · ~30 dakikada kürlenir, ısı gerektirmez, düşük VOC'] }],
+    ['#dualcure .net-name', { nl: ['Regulier 2K', 'DualCure'], pl: ['Zwykłe 2K', 'DualCure'], ro: ['2K obișnuit', 'DualCure'], de: ['Reguläres 2K', 'DualCure'], fr: ['2K classique', 'DualCure'], es: ['2K convencional', 'DualCure'], it: ['2K tradizionale', 'DualCure'], tr: ['Sıradan 2K', 'DualCure'] }],
+    ['#dualcure .net-val', { nl: ['enkel netwerk', 'dubbel netwerk'], pl: ['pojedyncza sieć', 'podwójna sieć'], ro: ['rețea simplă', 'rețea dublă'], de: ['einfaches Netzwerk', 'doppeltes Netzwerk'], fr: ['réseau simple', 'réseau double'], es: ['red simple', 'red doble'], it: ['rete singola', 'rete doppia'], tr: ['tek ağ', 'çift ağ'] }],
+    ['#markets .eyebrow', { nl: 'Markten', pl: 'Rynki', ro: 'Piețe', de: 'Märkte', fr: 'Marchés', es: 'Mercados', it: 'Mercati', tr: 'Pazarlar' }],
+    ['#markets h2', { nl: 'Gebouwd voor de<br>zwaarste klussen', pl: 'Stworzone do<br>najtrudniejszych zadań', ro: 'Construite pentru<br>cele mai grele lucrări', de: 'Gebaut für die<br>härtesten Aufgaben', fr: 'Conçus pour les<br>travaux les plus durs', es: 'Diseñados para los<br>trabajos más duros', it: 'Costruiti per i<br>lavori più impegnativi', tr: 'En zorlu işler<br>için tasarlandı' }],
     ['#markets .sec-head p:last-child', {
       nl: 'Van nationale infrastructuur tot offshore-platforms — overal waar staal lang mee moet, worden onze coatings voorgeschreven.',
       pl: 'Od infrastruktury krajowej po platformy offshore — wszędzie tam, gdzie stal musi przetrwać, stosuje się nasze powłoki.',
@@ -218,7 +242,8 @@
       de: 'Von nationaler Infrastruktur bis zu Offshore-Plattformen — überall, wo Stahl lange halten muss, werden unsere Beschichtungen vorgeschrieben.',
       fr: 'De l\'infrastructure nationale aux plateformes offshore — partout où l\'acier doit durer, nos revêtements sont prescrits.',
       es: 'De la infraestructura nacional a las plataformas offshore — allí donde el acero debe durar, se prescriben nuestros recubrimientos.',
-      it: 'Dall\'infrastruttura nazionale alle piattaforme offshore — ovunque l\'acciaio debba durare, i nostri rivestimenti vengono prescritti.' }],
+      it: 'Dall\'infrastruttura nazionale alle piattaforme offshore — ovunque l\'acciaio debba durare, i nostri rivestimenti vengono prescritti.',
+      tr: 'Ulusal altyapıdan açık deniz platformlarına kadar — çeliğin uzun ömürlü olması gereken her yerde kaplamalarımız şartnamelerde yer alıyor.' }],
     ['.brand .tag', {
       nl: ['Staal & infrastructuur', 'OEM & metaalindustrie', 'Marine & offshore', 'Schildersbedrijven'],
       pl: ['Stal i infrastruktura', 'Przemysł OEM i metalowy', 'Morskie i offshore', 'Firmy malarskie'],
@@ -226,7 +251,8 @@
       de: ['Stahl & Infrastruktur', 'OEM & Metallindustrie', 'Marine & Offshore', 'Malerbetriebe'],
       fr: ['Acier et infrastructure', 'Industrie OEM et métal', 'Marine et offshore', 'Entreprises de peinture'],
       es: ['Acero e infraestructura', 'Industria OEM y metal', 'Marina y offshore', 'Empresas de pintura'],
-      it: ['Acciaio e infrastrutture', 'Industria OEM e metallo', 'Marina e offshore', 'Imprese di verniciatura'] }],
+      it: ['Acciaio e infrastrutture', 'Industria OEM e metallo', 'Marina e offshore', 'Imprese di verniciatura'],
+      tr: ['Çelik ve altyapı', 'OEM ve metal endüstrisi', 'Denizcilik ve açık deniz', 'Boya firmaları'] }],
     ['.brand h3', {
       nl: ['Staal & infra', 'OEM & metaal', 'Marine & offshore', 'Bouwverven'],
       pl: ['Stal i infra', 'OEM i metal', 'Morskie i offshore', 'Farby budowlane'],
@@ -234,7 +260,8 @@
       de: ['Stahl & Infra', 'OEM & Metall', 'Marine & Offshore', 'Bautenfarben'],
       fr: ['Acier et infra', 'OEM et métal', 'Marine et offshore', 'Peintures du bâtiment'],
       es: ['Acero e infra', 'OEM y metal', 'Marina y offshore', 'Pinturas de construcción'],
-      it: ['Acciaio e infra', 'OEM e metallo', 'Marina e offshore', 'Pitture per edilizia'] }],
+      it: ['Acciaio e infra', 'OEM e metallo', 'Marina e offshore', 'Pitture per edilizia'],
+      tr: ['Çelik ve altyapı', 'OEM ve metal', 'Denizcilik ve açık deniz', 'Yapı boyaları'] }],
     ['.brand p:not(.tag)', {
       nl: [
         'Bruggen, sluizen, stadions en utiliteitsbouw. Zware corrosiebescherming die dragend staal decennialang in dienst houdt, met onderhoudsintervallen van tientallen jaren.',
@@ -270,10 +297,15 @@
         'Ponti, chiuse, stadi ed edilizia non residenziale. Protezione anticorrosione pesante che mantiene l\'acciaio portante in servizio per decenni, con intervalli di manutenzione misurati in decine di anni.',
         'Sistemi di rivestimento per la costruzione di macchine, impianti e produzione metallica in serie — finiture durevoli a indurimento rapido, progettate per la linea e per il campo successivo.',
         'Protezione per l\'ambiente più aggressivo che esista: sale, nebbia salina e immersione. Sistemi qualificati conformi agli standard offshore, che continuano a funzionare dove i rivestimenti di solito cedono.',
-        'Una gamma completa di pitture per edilizia e manutenzione per imprese di verniciatura professionali — con consulenza tecnica, formazione degli applicatori tramite la Baril Academy e informazioni di sicurezza sempre aggiornate.'] }],
-    ['.spec b', { nl: ['Systemen', 'Systemen', 'Systemen', 'Ondersteuning'], pl: ['Systemy', 'Systemy', 'Systemy', 'Wsparcie'], ro: ['Sisteme', 'Sisteme', 'Sisteme', 'Suport'], de: ['Systeme', 'Systeme', 'Systeme', 'Unterstützung'], fr: ['Systèmes', 'Systèmes', 'Systèmes', 'Support'], es: ['Sistemas', 'Sistemas', 'Sistemas', 'Soporte'], it: ['Sistemi', 'Sistemi', 'Sistemi', 'Supporto'] }],
-    ['#ranges .eyebrow', { nl: 'Assortiment', pl: 'Gama produktów', ro: 'Game de produse', de: 'Sortiment', fr: 'Gamme de produits', es: 'Gama', it: 'Gamma prodotti' }],
-    ['#ranges h2', { nl: 'Eén filosofie,<br>vele systemen', pl: 'Jedna filozofia,<br>wiele systemów', ro: 'O filozofie,<br>multe sisteme', de: 'Eine Philosophie,<br>viele Systeme', fr: 'Une philosophie,<br>de nombreux systèmes', es: 'Una filosofía,<br>muchos sistemas', it: 'Una filosofia,<br>molti sistemi' }],
+        'Una gamma completa di pitture per edilizia e manutenzione per imprese di verniciatura professionali — con consulenza tecnica, formazione degli applicatori tramite la Baril Academy e informazioni di sicurezza sempre aggiornate.'],
+      tr: [
+        'Köprüler, su bentleri, stadyumlar ve endüstriyel yapılar. Taşıyıcı çeliği onlarca yıl hizmette tutan, on yıllarla ölçülen bakım aralıklarına sahip ağır hizmet korozyon koruması.',
+        'Makine imalatı, tesisler ve seri metal üretimi için kaplama sistemleri — hattaki üretim ve sonrasındaki saha için geliştirilen, hızlı kürlenen, dayanıklı son katlar.',
+        'Var olan en agresif ortam için koruma: tuz, tuzlu su serpintisi ve daldırma. Açık deniz standartlarını karşılayan ve kaplamaların normalde başarısız olduğu yerlerde çalışmaya devam eden nitelikli sistemler.',
+        'Profesyonel boya firmaları için eksiksiz bir yapı ve bakım boyaları yelpazesi — teknik danışmanlık, Baril Academy aracılığıyla uygulayıcı eğitimi ve her zaman güncel güvenlik bilgileriyle.'] }],
+    ['.spec b', { nl: ['Systemen', 'Systemen', 'Systemen', 'Ondersteuning'], pl: ['Systemy', 'Systemy', 'Systemy', 'Wsparcie'], ro: ['Sisteme', 'Sisteme', 'Sisteme', 'Suport'], de: ['Systeme', 'Systeme', 'Systeme', 'Unterstützung'], fr: ['Systèmes', 'Systèmes', 'Systèmes', 'Support'], es: ['Sistemas', 'Sistemas', 'Sistemas', 'Soporte'], it: ['Sistemi', 'Sistemi', 'Sistemi', 'Supporto'], tr: ['Sistemler', 'Sistemler', 'Sistemler', 'Destek'] }],
+    ['#ranges .eyebrow', { nl: 'Assortiment', pl: 'Gama produktów', ro: 'Game de produse', de: 'Sortiment', fr: 'Gamme de produits', es: 'Gama', it: 'Gamma prodotti', tr: 'Ürün yelpazesi' }],
+    ['#ranges h2', { nl: 'Eén filosofie,<br>vele systemen', pl: 'Jedna filozofia,<br>wiele systemów', ro: 'O filozofie,<br>multe sisteme', de: 'Eine Philosophie,<br>viele Systeme', fr: 'Une philosophie,<br>de nombreux systèmes', es: 'Una filosofía,<br>muchos sistemas', it: 'Una filosofia,<br>molti sistemi', tr: 'Tek felsefe,<br>çok sayıda sistem' }],
     ['#ranges .sec-head p:last-child', {
       nl: 'Elk assortiment brengt dezelfde chemie-eerst-aanpak naar een andere klus — ontwikkeld om langer te beschermen met minder.',
       pl: 'Każda gama przenosi to samo podejście „chemia przede wszystkim" na inne zadanie — zaprojektowana, by chronić dłużej przy mniejszym zużyciu.',
@@ -281,8 +313,9 @@
       de: 'Jedes Sortiment bringt denselben Chemie-zuerst-Ansatz zu einer anderen Aufgabe — entwickelt, um länger zu schützen mit weniger.',
       fr: 'Chaque gamme applique la même approche « la chimie d\'abord » à un autre usage — conçue pour protéger plus longtemps avec moins.',
       es: 'Cada gama lleva el mismo enfoque «la química primero» a un trabajo distinto — diseñada para proteger más tiempo con menos.',
-      it: 'Ogni gamma porta lo stesso approccio «la chimica prima di tutto» a un lavoro diverso — progettata per proteggere più a lungo con meno.' }],
-    ['.pillar .pn', { nl: ['Hernieuwbaar', 'Snelle uitharding', 'Heavy-duty', 'Watergedragen', 'Enkelpak'], pl: ['Odnawialne', 'Szybkie utwardzanie', 'Wytrzymałe', 'Wodorozcieńczalne', 'Jednoskładnikowy'], ro: ['Regenerabil', 'Întărire rapidă', 'Rezistență mare', 'Pe bază de apă', 'Monocomponent'], de: ['Erneuerbar', 'Schnelle Aushärtung', 'Heavy-Duty', 'Wasserbasiert', 'Einkomponentig'], fr: ['Renouvelable', 'Durcissement rapide', 'Heavy-duty', 'Hydrodiluable', 'Monocomposant'], es: ['Renovable', 'Curado rápido', 'Heavy-duty', 'Al agua', 'Monocomponente'], it: ['Rinnovabile', 'Indurimento rapido', 'Heavy-duty', 'A base acqua', 'Monocomponente'] }],
+      it: 'Ogni gamma porta lo stesso approccio «la chimica prima di tutto» a un lavoro diverso — progettata per proteggere più a lungo con meno.',
+      tr: 'Her ürün yelpazesi aynı «önce kimya» yaklaşımını farklı bir işe taşır — daha azıyla daha uzun süre korumak için tasarlandı.' }],
+    ['.pillar .pn', { nl: ['Hernieuwbaar', 'Snelle uitharding', 'Heavy-duty', 'Watergedragen', 'Enkelpak'], pl: ['Odnawialne', 'Szybkie utwardzanie', 'Wytrzymałe', 'Wodorozcieńczalne', 'Jednoskładnikowy'], ro: ['Regenerabil', 'Întărire rapidă', 'Rezistență mare', 'Pe bază de apă', 'Monocomponent'], de: ['Erneuerbar', 'Schnelle Aushärtung', 'Heavy-Duty', 'Wasserbasiert', 'Einkomponentig'], fr: ['Renouvelable', 'Durcissement rapide', 'Heavy-duty', 'Hydrodiluable', 'Monocomposant'], es: ['Renovable', 'Curado rápido', 'Heavy-duty', 'Al agua', 'Monocomponente'], it: ['Rinnovabile', 'Indurimento rapido', 'Heavy-duty', 'A base acqua', 'Monocomponente'], tr: ['Yenilenebilir', 'Hızlı kürlenme', 'Ağır hizmet', 'Su bazlı', 'Tek bileşenli'] }],
     ['.pillar h4 + p', {
       nl: [
         'De circulaire filosofie van Baril Group vindt steeds meer haar weg over alle onderstaande productlijnen — fossiele chemie eruit ontworpen, de bescherming erin gehouden.',
@@ -325,7 +358,13 @@
         'Tecnologia dual-cure per OEM e industria del metallo: indurimento in profondità rapido e una finitura tenace e durevole, pronta alla movimentazione prima.',
         'Protezione anticorrosione pesante per acciaio e infrastrutture — prestazioni high-build in strati più sottili e intelligenti.',
         'Rivestimenti a base acqua a basse emissioni che proteggono senza il carico di solventi — più puliti in cantiere e nell\'aria.',
-        'Rivestimenti alchidici biobased monocomponente — protezione anticorrosione in colore per costruzioni in acciaio, facili e rapidi da applicare.'] }],
+        'Rivestimenti alchidici biobased monocomponente — protezione anticorrosione in colore per costruzioni in acciaio, facili e rapidi da applicare.'],
+      tr: [
+        'Baril Group\'un döngüsel felsefesi aşağıdaki tüm ürün hatlarına giderek daha fazla yansıyor — fosil kimya tasarımdan çıkarıldı, koruma korundu.',
+        'OEM ve metal endüstrisi için dual-cure teknolojisi: hızlı tam kürlenme ve sağlam, dayanıklı bir son kat, işleme için daha erken hazır.',
+        'Çelik ve altyapı için ağır hizmet korozyon koruması — daha ince, daha akıllı katmanlarda high-build performansı.',
+        'Çözücü yükü olmadan koruyan, düşük emisyonlu su bazlı kaplamalar — sahada ve havada daha temiz.',
+        'Tek bileşenli biyobazlı alkid kaplamalar — çelik konstrüksiyon için renkli antikorozif koruma, kolay ve hızlı uygulanır.'] }],
     ['.ranges-note', {
       nl: 'Ook: <strong>FleetSpec</strong> (VS). <a href="products/">Bekijk alle producten →</a>',
       pl: 'Również: <strong>FleetSpec</strong> (USA). <a href="products/">Zobacz wszystkie produkty →</a>',
@@ -333,7 +372,8 @@
       de: 'Auch: <strong>FleetSpec</strong> (USA). <a href="products/">Alle Produkte ansehen →</a>',
       fr: 'Aussi : <strong>FleetSpec</strong> (USA). <a href="products/">Voir tous les produits →</a>',
       es: 'También: <strong>FleetSpec</strong> (EE. UU.). <a href="products/">Ver todos los productos →</a>',
-      it: 'Anche: <strong>FleetSpec</strong> (USA). <a href="products/">Vedi tutti i prodotti →</a>' }],
+      it: 'Anche: <strong>FleetSpec</strong> (USA). <a href="products/">Vedi tutti i prodotti →</a>',
+      tr: 'Ayrıca: <strong>FleetSpec</strong> (ABD). <a href="products/">Tüm ürünleri görün →</a>' }],
     ['.renew-cap', {
       nl: 'Bescherming, met precisie aangebracht — met technisch advies en Baril Academy-training.',
       pl: 'Ochrona nakładana z precyzją — ze wsparciem technicznym i szkoleniami Baril Academy.',
@@ -341,9 +381,10 @@
       de: 'Schutz, mit Präzision aufgetragen — mit technischer Beratung und Baril-Academy-Schulung.',
       fr: 'Une protection appliquée avec précision — avec conseil technique et formation Baril Academy.',
       es: 'Protección aplicada con precisión — con asesoramiento técnico y formación de Baril Academy.',
-      it: 'Protezione applicata con precisione — con consulenza tecnica e formazione Baril Academy.' }],
-    ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică', de: 'In der Praxis', fr: 'Sur le terrain', es: 'Sobre el terreno', it: 'Sul campo' }],
-    ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril', de: 'Geschützt von Baril', fr: 'Protégé par Baril', es: 'Protegido por Baril', it: 'Protetto da Baril' }],
+      it: 'Protezione applicata con precisione — con consulenza tecnica e formazione Baril Academy.',
+      tr: 'Hassasiyetle uygulanan koruma — teknik danışmanlık ve Baril Academy eğitimiyle.' }],
+    ['#proof .eyebrow', { nl: 'In de praktijk', pl: 'W praktyce', ro: 'În practică', de: 'In der Praxis', fr: 'Sur le terrain', es: 'Sobre el terreno', it: 'Sul campo', tr: 'Sahada' }],
+    ['#proof h2', { nl: 'Beschermd door Baril', pl: 'Chronione przez Baril', ro: 'Protejat de Baril', de: 'Geschützt von Baril', fr: 'Protégé par Baril', es: 'Protegido por Baril', it: 'Protetto da Baril', tr: 'Baril tarafından korunuyor' }],
     ['#proof .sec-head p:last-child', {
       nl: 'Van nationale infrastructuur tot monumentale restauratie — objecten die onze coatings langer in leven houden.',
       pl: 'Od infrastruktury krajowej po renowacje zabytków — obiekty, które nasze powłoki utrzymują przy życiu dłużej.',
@@ -351,7 +392,8 @@
       de: 'Von nationaler Infrastruktur bis zur Denkmalrestaurierung — Objekte, die unsere Beschichtungen länger am Leben halten.',
       fr: 'De l\'infrastructure nationale à la restauration de monuments — des objets que nos revêtements maintiennent en vie plus longtemps.',
       es: 'De la infraestructura nacional a la restauración de monumentos — objetos que nuestros recubrimientos mantienen vivos más tiempo.',
-      it: 'Dall\'infrastruttura nazionale al restauro di monumenti — oggetti che i nostri rivestimenti mantengono in vita più a lungo.' }],
+      it: 'Dall\'infrastruttura nazionale al restauro di monumenti — oggetti che i nostri rivestimenti mantengono in vita più a lungo.',
+      tr: 'Ulusal altyapıdan anıt restorasyonuna — kaplamalarımızın daha uzun süre ayakta tuttuğu yapılar.' }],
     ['.case .meta span', {
       nl: ['Infrastructuur · 295 m overspanning', 'Bouw & infra', 'Staalconservering', 'Gebouwen & onderhoud', "Restauratie · 's-Hertogenbosch"],
       pl: ['Infrastruktura · rozpiętość 295 m', 'Budownictwo i infrastruktura', 'Konserwacja stali', 'Budynki i konserwacja', "Renowacja · 's-Hertogenbosch"],
@@ -359,7 +401,8 @@
       de: ['Infrastruktur · 295 m Spannweite', 'Bau & Infra', 'Stahlkonservierung', 'Gebäude & Wartung', "Restaurierung · 's-Hertogenbosch"],
       fr: ['Infrastructure · portée de 295 m', 'Construction et infra', 'Conservation de l\'acier', 'Bâtiments et entretien', "Restauration · 's-Hertogenbosch"],
       es: ['Infraestructura · vano de 295 m', 'Construcción e infra', 'Conservación del acero', 'Edificios y mantenimiento', "Restauración · 's-Hertogenbosch"],
-      it: ['Infrastruttura · campata di 295 m', 'Costruzione e infra', 'Conservazione dell\'acciaio', 'Edifici e manutenzione', "Restauro · 's-Hertogenbosch"] }],
+      it: ['Infrastruttura · campata di 295 m', 'Costruzione e infra', 'Conservazione dell\'acciaio', 'Edifici e manutenzione', "Restauro · 's-Hertogenbosch"],
+      tr: ['Altyapı · 295 m açıklık', 'Yapı ve altyapı', 'Çelik koruması', 'Binalar ve bakım', 'Restorasyon · \'s-Hertogenbosch'] }],
     ['.cases-note', {
       nl: 'Sleep om te ontdekken · <a href="cases/">Alle cases →</a>',
       pl: 'Przeciągnij, aby przeglądać · <a href="cases/">Wszystkie realizacje →</a>',
@@ -367,9 +410,10 @@
       de: 'Ziehen zum Entdecken · <a href="cases/">Alle Referenzen →</a>',
       fr: 'Faites glisser pour découvrir · <a href="cases/">Toutes les études de cas →</a>',
       es: 'Arrastra para descubrir · <a href="cases/">Todos los casos →</a>',
-      it: 'Trascina per scoprire · <a href="cases/">Tutti i case study →</a>' }],
-    ['#data .eyebrow', { nl: 'Datasheet', pl: 'Karta danych', ro: 'Fișă tehnică', de: 'Datenblatt', fr: 'Fiche technique', es: 'Ficha técnica', it: 'Scheda tecnica' }],
-    ['#data h2', { nl: 'Baril Coatings<br>in cijfers', pl: 'Baril Coatings<br>w liczbach', ro: 'Baril Coatings<br>în cifre', de: 'Baril Coatings<br>in Zahlen', fr: 'Baril Coatings<br>en chiffres', es: 'Baril Coatings<br>en cifras', it: 'Baril Coatings<br>in cifre' }],
+      it: 'Trascina per scoprire · <a href="cases/">Tutti i case study →</a>',
+      tr: 'Keşfetmek için sürükleyin · <a href="cases/">Tüm vaka çalışmaları →</a>' }],
+    ['#data .eyebrow', { nl: 'Datasheet', pl: 'Karta danych', ro: 'Fișă tehnică', de: 'Datenblatt', fr: 'Fiche technique', es: 'Ficha técnica', it: 'Scheda tecnica', tr: 'Teknik föy' }],
+    ['#data h2', { nl: 'Baril Coatings<br>in cijfers', pl: 'Baril Coatings<br>w liczbach', ro: 'Baril Coatings<br>în cifre', de: 'Baril Coatings<br>in Zahlen', fr: 'Baril Coatings<br>en chiffres', es: 'Baril Coatings<br>en cifras', it: 'Baril Coatings<br>in cifre', tr: 'Baril Coatings<br>rakamlarla' }],
     ['.sheet-row b', {
       nl: ['Opgericht', 'Productie', 'Bereik', 'Markten', 'Assortiment', 'Normen', 'Managementsystemen', 'Circulaire doelstelling', 'Ondersteuning', 'Onderdeel van'],
       pl: ['Założona', 'Produkcja', 'Zasięg', 'Rynki', 'Gamy', 'Normy', 'Systemy zarządzania', 'Cel obiegu zamkniętego', 'Wsparcie', 'Część'],
@@ -377,7 +421,8 @@
       de: ['Gegründet', 'Produktion', 'Reichweite', 'Märkte', 'Sortiment', 'Normen', 'Managementsysteme', 'Zirkuläres Ziel', 'Unterstützung', 'Teil von'],
       fr: ['Fondée', 'Production', 'Portée', 'Marchés', 'Gammes', 'Normes', 'Systèmes de management', 'Objectif circulaire', 'Support', 'Fait partie de'],
       es: ['Fundada', 'Producción', 'Alcance', 'Mercados', 'Gamas', 'Normas', 'Sistemas de gestión', 'Objetivo circular', 'Soporte', 'Parte de'],
-      it: ['Fondata', 'Produzione', 'Copertura', 'Mercati', 'Gamme', 'Norme', 'Sistemi di gestione', 'Obiettivo circolare', 'Supporto', 'Parte di'] }],
+      it: ['Fondata', 'Produzione', 'Copertura', 'Mercati', 'Gamme', 'Norme', 'Sistemi di gestione', 'Obiettivo circolare', 'Supporto', 'Parte di'],
+      tr: ['Kuruluş', 'Üretim', 'Erişim', 'Pazarlar', 'Ürün yelpazesi', 'Standartlar', 'Yönetim sistemleri', 'Döngüsel hedef', 'Destek', 'Bir parçası'] }],
     ['.sheet-row span', {
       nl: [
         "1987 · 's-Hertogenbosch, Nederland <em>— onderdeel van Baril Group</em>",
@@ -455,9 +500,20 @@
         'ISO 9001 <em>qualità</em> · ISO 14001 <em>ambiente</em> · ISO 45001 <em>sicurezza</em>',
         '100% di materie prime circolari nel 2030 <em>— 55% oggi, da &lt;10% nel 2022</em>',
         'Consulenza tecnica · supporto alla specifica · formazione applicatori tramite Baril Academy · informazioni di sicurezza sempre aggiornate',
-        'Baril Group <em>— con Copperant e Fairf</em>'] }],
-    ['#commit .eyebrow', { nl: 'Gecertificeerd & betrokken', pl: 'Certyfikowani i zaangażowani', ro: 'Certificați și implicați', de: 'Zertifiziert & engagiert', fr: 'Certifiés et engagés', es: 'Certificados y comprometidos', it: 'Certificati e impegnati' }],
-    ['#commit h3', { nl: 'Een Certified B Corporation', pl: 'Certyfikowana B Corporation', ro: 'O corporație B certificată', de: 'Eine zertifizierte B Corporation', fr: 'Une société B Corp certifiée', es: 'Una Certified B Corporation', it: 'Una Certified B Corporation' }],
+        'Baril Group <em>— con Copperant e Fairf</em>'],
+      tr: [
+        '1987 · \'s-Hertogenbosch, Hollanda <em>— Baril Group\'un bir parçası</em>',
+        'Hollanda · ABD · Polonya',
+        'Yerel distribütörler aracılığıyla 20\'den fazla ülkede kullanılıyor',
+        'Çelik ve altyapı · OEM ve metal endüstrisi · Denizcilik ve açık deniz · Boya firmaları',
+        'Biobased · DualCure · SteelKote · Aquaran · Bariline · FleetSpec (ABD)',
+        'ISO 12944 korozyon sınıfları · NORSOK M-501 <em>açık deniz</em>',
+        'ISO 9001 <em>kalite</em> · ISO 14001 <em>çevre</em> · ISO 45001 <em>güvenlik</em>',
+        '2030\'da %100 döngüsel hammadde <em>— bugün %55, 2022\'de &lt;%10\'dan</em>',
+        'Teknik danışmanlık · şartname desteği · Baril Academy aracılığıyla uygulayıcı eğitimi · her zaman güncel güvenlik bilgileri',
+        'Baril Group <em>— Copperant ve Fairf ile</em>'] }],
+    ['#commit .eyebrow', { nl: 'Gecertificeerd & betrokken', pl: 'Certyfikowani i zaangażowani', ro: 'Certificați și implicați', de: 'Zertifiziert & engagiert', fr: 'Certifiés et engagés', es: 'Certificados y comprometidos', it: 'Certificati e impegnati', tr: 'Sertifikalı ve bağlı' }],
+    ['#commit h3', { nl: 'Een Certified B Corporation', pl: 'Certyfikowana B Corporation', ro: 'O corporație B certificată', de: 'Eine zertifizierte B Corporation', fr: 'Une société B Corp certifiée', es: 'Una Certified B Corporation', it: 'Una Certified B Corporation', tr: 'Certified B Corporation' }],
     ['#commit .commit-desc', {
       nl: "Sinds 2025 — een van de eerste protective-coatingsmakers ter wereld die voldoet aan de geverifieerde B Corp-normen, en actief op 12 duurzame-ontwikkelingsdoelen (SDG's) van de VN als onderdeel van Baril Group.",
       pl: 'Od 2025 — jeden z pierwszych producentów powłok ochronnych na świecie spełniający zweryfikowane standardy B Corp, aktywny w 12 Celach Zrównoważonego Rozwoju ONZ w ramach Baril Group.',
@@ -465,10 +521,11 @@
       de: "Seit 2025 — einer der ersten Hersteller von Schutzbeschichtungen weltweit, der die verifizierten B-Corp-Normen erfüllt, und aktiv bei 12 UN-Zielen für nachhaltige Entwicklung (SDGs) als Teil der Baril Group.",
       fr: 'Depuis 2025 — l\'un des premiers fabricants de revêtements de protection au monde à répondre aux normes vérifiées B Corp, actif sur 12 objectifs de développement durable (ODD) de l\'ONU au sein du groupe Baril.',
       es: 'Desde 2025 — uno de los primeros fabricantes de recubrimientos de protección del mundo en cumplir las normas verificadas B Corp, y activo en 12 Objetivos de Desarrollo Sostenible (ODS) de la ONU como parte de Baril Group.',
-      it: 'Dal 2025 — uno dei primi produttori di rivestimenti protettivi al mondo a soddisfare gli standard verificati B Corp, e attivo su 12 Obiettivi di Sviluppo Sostenibile (SDG) dell\'ONU come parte di Baril Group.' }],
-    ['#commit .commit-link', { nl: 'Bekijk het bij Baril Group →', pl: 'Zobacz w Baril Group →', ro: 'Vezi pe Baril Group →', de: 'Bei Baril Group ansehen →', fr: 'Voir sur Baril Group →', es: 'Verlo en Baril Group →', it: 'Vedi su Baril Group →' }],
-    ['#commit .commit-sdg-k', { nl: "Duurzame-ontwikkelingsdoelen van de VN", pl: 'Cele Zrównoważonego Rozwoju ONZ', ro: 'Obiectivele de Dezvoltare Durabilă ONU', de: 'Ziele für nachhaltige Entwicklung der UN', fr: 'Objectifs de développement durable de l\'ONU', es: 'Objetivos de Desarrollo Sostenible de la ONU', it: 'Obiettivi di Sviluppo Sostenibile dell\'ONU' }],
-    ['#sources .eyebrow', { nl: 'Bronnen & onderbouwing', pl: 'Źródła i uzasadnienie', ro: 'Surse și fundamentare', de: 'Quellen & Belege', fr: 'Sources et justification', es: 'Fuentes y justificación', it: 'Fonti e riferimenti' }],
+      it: 'Dal 2025 — uno dei primi produttori di rivestimenti protettivi al mondo a soddisfare gli standard verificati B Corp, e attivo su 12 Obiettivi di Sviluppo Sostenibile (SDG) dell\'ONU come parte di Baril Group.',
+      tr: '2025\'ten beri — dünyada doğrulanmış B Corp standartlarını karşılayan ilk koruyucu kaplama üreticilerinden biri ve Baril Group\'un bir parçası olarak BM\'nin 12 Sürdürülebilir Kalkınma Amacı (SDG) üzerinde aktif.' }],
+    ['#commit .commit-link', { nl: 'Bekijk het bij Baril Group →', pl: 'Zobacz w Baril Group →', ro: 'Vezi pe Baril Group →', de: 'Bei Baril Group ansehen →', fr: 'Voir sur Baril Group →', es: 'Verlo en Baril Group →', it: 'Vedi su Baril Group →', tr: 'Baril Group\'ta görün →' }],
+    ['#commit .commit-sdg-k', { nl: "Duurzame-ontwikkelingsdoelen van de VN", pl: 'Cele Zrównoważonego Rozwoju ONZ', ro: 'Obiectivele de Dezvoltare Durabilă ONU', de: 'Ziele für nachhaltige Entwicklung der UN', fr: 'Objectifs de développement durable de l\'ONU', es: 'Objetivos de Desarrollo Sostenible de la ONU', it: 'Obiettivi di Sviluppo Sostenibile dell\'ONU', tr: 'BM Sürdürülebilir Kalkınma Amaçları' }],
+    ['#sources .eyebrow', { nl: 'Bronnen & onderbouwing', pl: 'Źródła i uzasadnienie', ro: 'Surse și fundamentare', de: 'Quellen & Belege', fr: 'Sources et justification', es: 'Fuentes y justificación', it: 'Fonti e riferimenti', tr: 'Kaynaklar ve dayanaklar' }],
     ['.src li', {
       nl: [
         'Duurzaamheid van corrosiebescherming en corrosiviteitsklassen (C1–C5, Im1–Im3): ISO 12944-serie; offshore: ISO 12944-9 / NORSOK M-501.',
@@ -504,9 +561,14 @@
         'Durabilità della protezione anticorrosione e classi di corrosività (C1–C5, Im1–Im3): serie ISO 12944; offshore: ISO 12944-9 / NORSOK M-501.',
         'Mercati, stabilimenti di produzione e gamme — barilcoatings.com · barilcoatings.us.',
         'Stato delle materie prime circolari (55% oggi, &lt;10% nel 2022, obiettivo 100% nel 2030): Baril Group, 2026.',
-        'Le cifre di copertura e spessore del film secco sono illustrative; i valori reali dipendono da prodotto, supporto, metodo e specifica.'] }],
-    ['.foot-claim', { nl: 'Duurzame coatingoplossingen.', pl: 'Zrównoważone rozwiązania powłokowe.', ro: 'Soluții de acoperire durabile.', de: 'Nachhaltige Beschichtungslösungen.', fr: 'Des solutions de revêtement durables.', es: 'Soluciones de recubrimiento sostenibles.', it: 'Soluzioni di rivestimento sostenibili.' }],
-    ['.foot-grid h5', { nl: ['Catalogus', 'Baril Coatings'], pl: ['Katalog', 'Baril Coatings'], ro: ['Catalog', 'Baril Coatings'], de: ['Katalog', 'Baril Coatings'], fr: ['Catalogue', 'Baril Coatings'], es: ['Catálogo', 'Baril Coatings'], it: ['Catalogo', 'Baril Coatings'] }],
+        'Le cifre di copertura e spessore del film secco sono illustrative; i valori reali dipendono da prodotto, supporto, metodo e specifica.'],
+      tr: [
+        'Korozyon korumasının dayanıklılığı ve korozyon sınıfları (C1–C5, Im1–Im3): ISO 12944 serisi; açık deniz: ISO 12944-9 / NORSOK M-501.',
+        'Pazarlar, üretim tesisleri ve ürün yelpazeleri — barilcoatings.com · barilcoatings.us.',
+        'Döngüsel hammadde durumu (bugün %55, 2022\'de &lt;%10, hedef 2030\'da %100): Baril Group, 2026.',
+        'Kaplama ve kuru katman kalınlığı rakamları örnek niteliğindedir; gerçek değerler ürüne, zemine, yönteme ve şartnameye bağlıdır.'] }],
+    ['.foot-claim', { nl: 'Duurzame coatingoplossingen.', pl: 'Zrównoważone rozwiązania powłokowe.', ro: 'Soluții de acoperire durabile.', de: 'Nachhaltige Beschichtungslösungen.', fr: 'Des solutions de revêtement durables.', es: 'Soluciones de recubrimiento sostenibles.', it: 'Soluzioni di rivestimento sostenibili.', tr: 'Sürdürülebilir kaplama çözümleri.' }],
+    ['.foot-grid h5', { nl: ['Catalogus', 'Baril Coatings'], pl: ['Katalog', 'Baril Coatings'], ro: ['Catalog', 'Baril Coatings'], de: ['Katalog', 'Baril Coatings'], fr: ['Catalogue', 'Baril Coatings'], es: ['Catálogo', 'Baril Coatings'], it: ['Catalogo', 'Baril Coatings'], tr: ['Katalog', 'Baril Coatings'] }],
     ['.foot-grid div:nth-child(2) a', {
       nl: ['Alle producten →', 'Verfsystemen →', 'Markten →', 'Cases →'],
       pl: ['Wszystkie produkty →', 'Systemy malarskie →', 'Rynki →', 'Realizacje →'],
@@ -514,7 +576,8 @@
       de: ['Alle Produkte →', 'Lacksysteme →', 'Märkte →', 'Referenzen →'],
       fr: ['Tous les produits →', 'Systèmes de peinture →', 'Marchés →', 'Études de cas →'],
       es: ['Todos los productos →', 'Sistemas de pintura →', 'Mercados →', 'Casos →'],
-      it: ['Tutti i prodotti →', 'Sistemi di verniciatura →', 'Mercati →', 'Case study →'] }],
+      it: ['Tutti i prodotti →', 'Sistemi di verniciatura →', 'Mercati →', 'Case study →'],
+      tr: ['Tüm ürünler →', 'Boya sistemleri →', 'Pazarlar →', 'Vaka çalışmaları →'] }],
     ['.foot-grid div:nth-child(3) a', {
       nl: ['Over ons', 'Bescherming', 'DualCure-technologie', 'Contact'],
       pl: ['O nas', 'Ochrona', 'Technologia DualCure', 'Kontakt'],
@@ -522,7 +585,8 @@
       de: ['Über uns', 'Schutz', 'DualCure-Technologie', 'Kontakt'],
       fr: ['À propos', 'Protection', 'Technologie DualCure', 'Contact'],
       es: ['Sobre nosotros', 'Protección', 'Tecnología DualCure', 'Contacto'],
-      it: ['Chi siamo', 'Protezione', 'Tecnologia DualCure', 'Contatto'] }],
+      it: ['Chi siamo', 'Protezione', 'Tecnologia DualCure', 'Contatto'],
+      tr: ['Hakkımızda', 'Koruma', 'DualCure teknolojisi', 'İletişim'] }],
     ['.foot-bottom span', {
       nl: ["© Baril Coatings · 's-Hertogenbosch NL · onderdeel van Baril Group", 'Minder coating. Langere levensduur. Lagere impact.'],
       pl: ["© Baril Coatings · 's-Hertogenbosch NL · część Baril Group", 'Mniej powłoki. Dłuższa żywotność. Mniejszy wpływ.'],
@@ -530,13 +594,14 @@
       de: ["© Baril Coatings · 's-Hertogenbosch NL · Teil der Baril Group", 'Weniger Beschichtung. Längere Lebensdauer. Geringere Auswirkung.'],
       fr: ["© Baril Coatings · 's-Hertogenbosch NL · fait partie du groupe Baril", 'Moins de revêtement. Une durée de vie plus longue. Un impact moindre.'],
       es: ["© Baril Coatings · 's-Hertogenbosch NL · parte de Baril Group", 'Menos recubrimiento. Mayor vida útil. Menor impacto.'],
-      it: ["© Baril Coatings · 's-Hertogenbosch NL · parte di Baril Group", 'Meno rivestimento. Vita più lunga. Minore impatto.'] }]
+      it: ["© Baril Coatings · 's-Hertogenbosch NL · parte di Baril Group", 'Meno rivestimento. Vita più lunga. Minore impatto.'],
+      tr: ['© Baril Coatings · \'s-Hertogenbosch NL · Baril Group\'un bir parçası', 'Daha az kaplama. Daha uzun ömür. Daha az etki.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');
   let lang = 'en';
   try { lang = localStorage.getItem('baril-coatings-lang') || 'en'; } catch (e) {}
-  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it'].includes(lang)) lang = 'en';
+  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
 
   function apply(l) {
     for (const [sel, dict] of MAP) {
@@ -557,7 +622,7 @@
   }
 
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
-    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it'].includes(lang)) lang = 'en';
+    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
     apply(lang);
   }));
 

@@ -11,7 +11,8 @@
       de: ['Warum Fortis','Produkte','Leistung','Anwendungen','Kontakt'],
       fr: ['Pourquoi Fortis','Produits','Performance','Applications','Contact'],
       es: ['Por qué Fortis','Productos','Rendimiento','Aplicaciones','Contacto'],
-      it: ['Perché Fortis','Prodotti','Prestazioni','Applicazioni','Contatto'] }],
+      it: ['Perché Fortis','Prodotti','Prestazioni','Applicazioni','Contatto'],
+      tr: ['Neden Fortis','Ürünler','Performans','Uygulamalar','İletişim'] }],
     ['header .eyebrow', {
       nl: 'Fortis — Industriële metaalcoatings · Een merk van Baril Group',
       pl: 'Fortis — Przemysłowe powłoki do metalu · Marka Baril Group',
@@ -19,7 +20,8 @@
       de: 'Fortis — Industrielle Metallbeschichtungen · Eine Marke der Baril Group',
       fr: 'Fortis — Revêtements industriels pour métal · Une marque du groupe Baril',
       es: 'Fortis — Recubrimientos industriales para metal · Una marca de Baril Group',
-      it: 'Fortis — Rivestimenti industriali per metallo · Un marchio di Baril Group' }],
+      it: 'Fortis — Rivestimenti industriali per metallo · Un marchio di Baril Group',
+      tr: 'Fortis — Metal için endüstriyel kaplamalar · Bir Baril Group markası' }],
     ['header h1', {
       nl: 'IJzersterke<br><span class="acc">bescherming</span><br>voor metaal',
       pl: 'Żelazna<br><span class="acc">ochrona</span><br>metalu',
@@ -27,7 +29,8 @@
       de: 'Eisenstarker<br><span class="acc">Schutz</span><br>für Metall',
       fr: 'Une protection<br><span class="acc">à toute épreuve</span><br>pour le métal',
       es: 'Protección<br><span class="acc">a toda prueba</span><br>para el metal',
-      it: 'Protezione<br><span class="acc">a tutta prova</span><br>per il metallo' }],
+      it: 'Protezione<br><span class="acc">a tutta prova</span><br>per il metallo',
+      tr: 'Metal için<br><span class="acc">çelik gibi</span><br>koruma' }],
     ['.hero-sub', {
       nl: 'Industriële primers en toplagen die <strong>maximale oppervlaktebescherming</strong> bieden onder alle atmosferische omstandigheden — gemaakt voor de metaalverwerkende industrie en snelle industriële verwerking.',
       pl: 'Przemysłowe podkłady i powłoki nawierzchniowe zapewniające <strong>maksymalną ochronę powierzchni</strong> w każdych warunkach atmosferycznych — stworzone dla przemysłu metalowego i szybkiej aplikacji przemysłowej.',
@@ -35,9 +38,10 @@
       de: 'Industrielle Grundierungen und Decklacke, die <strong>maximalen Oberflächenschutz</strong> unter allen atmosphärischen Bedingungen bieten — entwickelt für die metallverarbeitende Industrie und schnelle industrielle Verarbeitung.',
       fr: 'Primaires et couches de finition industriels offrant une <strong>protection maximale des surfaces</strong> dans toutes les conditions atmosphériques — conçus pour l\'industrie de transformation des métaux et une application industrielle rapide.',
       es: 'Imprimaciones y capas de acabado industriales que ofrecen <strong>máxima protección de la superficie</strong> en cualquier condición atmosférica — creadas para la industria del metal y una aplicación industrial rápida.',
-      it: 'Primer e strati di finitura industriali che offrono <strong>massima protezione della superficie</strong> in ogni condizione atmosferica — pensati per l\'industria della lavorazione dei metalli e per un\'applicazione industriale rapida.' }],
-    ['header .hero-cta .btn-solid', { nl: 'Bekijk de producten', pl: 'Zobacz produkty', ro: 'Vezi produsele', de: 'Produkte entdecken', fr: 'Découvrir les produits', es: 'Ver los productos', it: 'Scopri i prodotti' }],
-    ['header .hero-cta .btn-ghost', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi' }],
+      it: 'Primer e strati di finitura industriali che offrono <strong>massima protezione della superficie</strong> in ogni condizione atmosferica — pensati per l\'industria della lavorazione dei metalli e per un\'applicazione industriale rapida.',
+      tr: 'Her türlü atmosferik koşulda <strong>maksimum yüzey koruması</strong> sağlayan endüstriyel astarlar ve son katlar — metal işleme endüstrisi ve hızlı endüstriyel uygulama için tasarlandı.' }],
+    ['header .hero-cta .btn-solid', { nl: 'Bekijk de producten', pl: 'Zobacz produkty', ro: 'Vezi produsele', de: 'Produkte entdecken', fr: 'Découvrir les produits', es: 'Ver los productos', it: 'Scopri i prodotti', tr: 'Ürünleri keşfedin' }],
+    ['header .hero-cta .btn-ghost', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi', tr: 'İletişim &amp; lokasyonlar' }],
     ['.hero-foot span:first-child', {
       nl: 'Alkyd · Watergedragen · Epoxy · Polyurethaan',
       pl: 'Alkid · Wodorozcieńczalne · Epoksyd · Poliuretan',
@@ -45,10 +49,11 @@
       de: 'Alkyd · Wasserbasiert · Epoxid · Polyurethan',
       fr: 'Alkyde · Hydrodiluable · Époxy · Polyuréthane',
       es: 'Alquídico · Al agua · Epoxi · Poliuretano',
-      it: 'Alchidico · A base acqua · Epossidico · Poliuretano' }],
-    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri' }],
+      it: 'Alchidico · A base acqua · Epossidico · Poliuretano',
+      tr: 'Alkid · Su bazlı · Epoksi · Poliüretan' }],
+    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır' }],
 
-    ['#mission .eyebrow', { nl: 'Waarom Fortis', pl: 'Dlaczego Fortis', ro: 'De ce Fortis', de: 'Warum Fortis', fr: 'Pourquoi Fortis', es: 'Por qué Fortis', it: 'Perché Fortis' }],
+    ['#mission .eyebrow', { nl: 'Waarom Fortis', pl: 'Dlaczego Fortis', ro: 'De ce Fortis', de: 'Warum Fortis', fr: 'Pourquoi Fortis', es: 'Por qué Fortis', it: 'Perché Fortis', tr: 'Neden Fortis' }],
     ['.mission-quote', {
       nl: 'Metaal verdient bescherming die blijft. Fortis levert <em>ijzersterke</em> primers en toplagen — ontwikkeld voor maximale oppervlaktebescherming onder alle atmosferische omstandigheden, en klaar voor snelle industriële verwerking.',
       pl: 'Metal zasługuje na ochronę, która trwa. Fortis dostarcza <em>żelazne</em> podkłady i powłoki nawierzchniowe — opracowane dla maksymalnej ochrony powierzchni w każdych warunkach atmosferycznych i gotowe do szybkiej aplikacji przemysłowej.',
@@ -56,7 +61,8 @@
       de: 'Metall verdient Schutz, der hält. Fortis liefert <em>eisenstarke</em> Grundierungen und Decklacke — entwickelt für maximalen Oberflächenschutz unter allen atmosphärischen Bedingungen und bereit für die schnelle industrielle Verarbeitung.',
       fr: 'Le métal mérite une protection qui dure. Fortis propose des primaires et des couches de finition <em>ultra-résistants</em> — conçus pour une protection maximale des surfaces dans toutes les conditions atmosphériques et prêts pour une application industrielle rapide.',
       es: 'El metal merece una protección que perdure. Fortis ofrece imprimaciones y capas de acabado <em>ultrarresistentes</em> — diseñadas para una protección máxima de la superficie en cualquier condición atmosférica y listas para una aplicación industrial rápida.',
-      it: 'Il metallo merita una protezione che dura. Fortis offre primer e strati di finitura <em>ultraresistenti</em> — sviluppati per la massima protezione della superficie in ogni condizione atmosferica e pronti per un\'applicazione industriale rapida.' }],
+      it: 'Il metallo merita una protezione che dura. Fortis offre primer e strati di finitura <em>ultraresistenti</em> — sviluppati per la massima protezione della superficie in ogni condizione atmosferica e pronti per un\'applicazione industriale rapida.',
+      tr: 'Metal, kalıcı bir koruma hak eder. Fortis <em>çelik gibi</em> astarlar ve son katlar sunar — her türlü atmosferik koşulda maksimum yüzey koruması için geliştirildi ve hızlı endüstriyel uygulamaya hazır.' }],
     ['#mission .mm b', {
       nl: ['Maximale bescherming','Gemaakt voor de lakstraat','Elke kleur, elke glansgraad'],
       pl: ['Maksymalna ochrona','Stworzony na linię','Każdy kolor, każdy połysk'],
@@ -64,7 +70,8 @@
       de: ['Maximaler Schutz','Für die Lackierstraße gemacht','Jede Farbe, jeder Glanzgrad'],
       fr: ['Protection maximale','Conçu pour la ligne','Toute couleur, tout brillant'],
       es: ['Protección máxima','Creado para la línea','Todo color, todo brillo'],
-      it: ['Protezione massima','Creato per la linea','Ogni colore, ogni grado di brillantezza'] }],
+      it: ['Protezione massima','Creato per la linea','Ogni colore, ogni grado di brillantezza'],
+      tr: ['Maksimum koruma','Boya hattı için tasarlandı','Her renk, her parlaklık derecesi'] }],
     ['#mission .mm span', {
       nl: ['Industriële primers en toplagen die metaal maximale oppervlaktebescherming geven onder alle atmosferische omstandigheden.','Geschikt voor automatische lakstraten en conventionele spuittechnieken — perfect voor snelle elektrostatische nat-in-nat applicatie.','In te kleuren met de universele hoog geconcentreerde Baril kleurpasta\'s; alkyd- en PU-systemen in glansgraden 10, 30, 60 en full gloss.'],
       pl: ['Przemysłowe podkłady i powłoki nawierzchniowe zapewniające metalowi maksymalną ochronę powierzchni w każdych warunkach atmosferycznych.','Nadają się do automatycznych linii lakierniczych i konwencjonalnych technik natryskowych — idealne do szybkiej aplikacji elektrostatycznej mokro-na-mokro.','Barwione uniwersalnymi, wysoko skoncentrowanymi pastami Baril; systemy alkidowe i PU w połyskach 10, 30, 60 i full gloss.'],
@@ -72,9 +79,10 @@
       de: ['Industrielle Grundierungen und Decklacke, die Metall maximalen Oberflächenschutz unter allen atmosphärischen Bedingungen bieten.','Geeignet für automatische Lackierstraßen und konventionelle Spritzverfahren — perfekt für die schnelle elektrostatische Nass-in-Nass-Applikation.','Einfärbbar mit den universellen, hochkonzentrierten Baril-Farbpasten; Alkyd- und PU-Systeme in den Glanzgraden 10, 30, 60 und Vollglanz.'],
       fr: ['Des primaires et couches de finition industriels qui offrent au métal une protection maximale des surfaces dans toutes les conditions atmosphériques.','Adaptés aux lignes de peinture automatiques et aux techniques de pulvérisation conventionnelles — parfaits pour l\'application électrostatique humide-sur-humide rapide.','Teintables avec les pâtes colorantes universelles hautement concentrées de Baril ; systèmes alkyde et PU en brillances 10, 30, 60 et brillant intégral.'],
       es: ['Imprimaciones y capas de acabado industriales que dan al metal la máxima protección de la superficie en cualquier condición atmosférica.','Aptos para líneas de pintado automáticas y técnicas de pulverización convencionales — perfectos para la aplicación electrostática húmedo-sobre-húmedo rápida.','Tintables con las pastas de color universales altamente concentradas de Baril; sistemas alquídicos y PU en brillos 10, 30, 60 y brillo total.'],
-      it: ['Primer e strati di finitura industriali che danno al metallo la massima protezione della superficie in ogni condizione atmosferica.','Adatti a linee di verniciatura automatiche e tecniche di spruzzatura convenzionali — perfetti per l\'applicazione elettrostatica bagnato-su-bagnato rapida.','Colorabili con le paste coloranti universali ad alta concentrazione Baril; sistemi alchidici e PU nelle brillantezze 10, 30, 60 e brillante pieno.'] }],
+      it: ['Primer e strati di finitura industriali che danno al metallo la massima protezione della superficie in ogni condizione atmosferica.','Adatti a linee di verniciatura automatiche e tecniche di spruzzatura convenzionali — perfetti per l\'applicazione elettrostatica bagnato-su-bagnato rapida.','Colorabili con le paste coloranti universali ad alta concentrazione Baril; sistemi alchidici e PU nelle brillantezze 10, 30, 60 e brillante pieno.'],
+      tr: ['Metale her türlü atmosferik koşulda maksimum yüzey koruması sağlayan endüstriyel astarlar ve son katlar.','Otomatik boya hatları ve geleneksel püskürtme teknikleri için uygun — hızlı elektrostatik ıslak-üstüne-ıslak uygulama için mükemmel.','Baril\'in evrensel, yüksek konsantrasyonlu renk pastalarıyla renklendirilebilir; 10, 30, 60 ve tam parlaklık derecelerinde alkid ve PU sistemleri.'] }],
 
-    ['#products .eyebrow', { nl: 'Producten', pl: 'Produkty', ro: 'Produse', de: 'Produkte', fr: 'Produits', es: 'Productos', it: 'Prodotti' }],
+    ['#products .eyebrow', { nl: 'Producten', pl: 'Produkty', ro: 'Produse', de: 'Produkte', fr: 'Produits', es: 'Productos', it: 'Prodotti', tr: 'Ürünler' }],
     ['#products h2', {
       nl: 'Vier systemen, <span class="acc">één standaard</span>',
       pl: 'Cztery systemy, <span class="acc">jeden standard</span>',
@@ -82,7 +90,8 @@
       de: 'Vier Systeme, <span class="acc">ein Standard</span>',
       fr: 'Quatre systèmes, <span class="acc">une référence</span>',
       es: 'Cuatro sistemas, <span class="acc">un estándar</span>',
-      it: 'Quattro sistemi, <span class="acc">uno standard</span>' }],
+      it: 'Quattro sistemi, <span class="acc">uno standard</span>',
+      tr: 'Dört sistem, <span class="acc">tek standart</span>' }],
     ['#products .lead', {
       nl: 'Het Fortis-assortiment dekt elke stap van industriële metaalafwerking — primers en toplagen, solventgedragen en watergedragen, afgestemd op de eisen van de lakstraat.',
       pl: 'Asortyment Fortis obejmuje każdy etap przemysłowego wykańczania metalu — podkłady i powłoki nawierzchniowe, rozpuszczalnikowe i wodorozcieńczalne, dopasowane do wymagań linii.',
@@ -90,7 +99,8 @@
       de: 'Das Fortis-Sortiment deckt jeden Schritt der industriellen Metallveredelung ab — Grundierungen und Decklacke, lösemittel- und wasserbasiert, abgestimmt auf die Anforderungen der Lackierstraße.',
       fr: 'La gamme Fortis couvre chaque étape de la finition industrielle du métal — primaires et couches de finition, à base de solvant et d\'eau, adaptés aux exigences de la ligne.',
       es: 'La gama Fortis cubre cada paso del acabado industrial del metal — imprimaciones y capas de acabado, con base disolvente y al agua, ajustadas a las exigencias de la línea.',
-      it: 'La gamma Fortis copre ogni fase della finitura industriale del metallo — primer e strati di finitura, a base solvente e a base acqua, su misura per le esigenze della linea.' }],
+      it: 'La gamma Fortis copre ogni fase della finitura industriale del metallo — primer e strati di finitura, a base solvente e a base acqua, su misura per le esigenze della linea.',
+      tr: 'Fortis ürün yelpazesi, endüstriyel metal son işlemlerinin her adımını kapsar — astarlar ve son katlar, solvent bazlı ve su bazlı, boya hattının gereksinimlerine göre ayarlanmış.' }],
     ['#products .feat .prod-tag', {
       nl: ['Alkyd · 1K','Watergedragen','Epoxy primer','Polyurethaan · 2K'],
       pl: ['Alkid · 1K','Wodorozcieńczalny','Podkład epoksydowy','Poliuretan · 2K'],
@@ -98,7 +108,8 @@
       de: ['Alkyd · 1K','Wasserbasiert','Epoxid-Grundierung','Polyurethan · 2K'],
       fr: ['Alkyde · 1K','Hydrodiluable','Primaire époxy','Polyuréthane · 2K'],
       es: ['Alquídico · 1K','Al agua','Imprimación epoxi','Poliuretano · 2K'],
-      it: ['Alchidico · 1K','A base acqua','Primer epossidico','Poliuretano · 2K'] }],
+      it: ['Alchidico · 1K','A base acqua','Primer epossidico','Poliuretano · 2K'],
+      tr: ['Alkid · 1K','Su bazlı','Epoksi astar','Poliüretan · 2K'] }],
     ['#products .feat span:last-child', {
       nl: ['Snelle, eencomponenten alkyd-toplagen voor efficiënte industriële afwerking van uiteenlopende objecten.','Watergedragen coatings met lage emissie voor duurzame industriële bescherming, zonder in te boeten op duurzaamheid.','Hechtsterke epoxy-primers die een duurzame basis leggen op ferro- en non-ferrometalen.','Tweecomponenten polyurethaan-toplagen voor maximale duurzaamheid, glansbehoud en chemische bestendigheid.'],
       pl: ['Szybkie, jednoskładnikowe powłoki alkidowe do wydajnego wykańczania przemysłowego szerokiej gamy obiektów.','Niskoemisyjne powłoki wodorozcieńczalne do zrównoważonej ochrony przemysłowej, bez kompromisów w trwałości.','Podkłady epoksydowe o wysokiej przyczepności, tworzące trwałą bazę na metalach żelaznych i nieżelaznych.','Dwuskładnikowe powłoki poliuretanowe dla maksymalnej trwałości, zachowania połysku i odporności chemicznej.'],
@@ -106,9 +117,10 @@
       de: ['Schnelle, einkomponentige Alkyd-Decklacke für die effiziente industrielle Veredelung unterschiedlichster Objekte.','Emissionsarme wasserbasierte Beschichtungen für nachhaltigen industriellen Schutz, ohne Abstriche bei der Beständigkeit.','Haftstarke Epoxid-Grundierungen, die eine dauerhafte Basis auf Eisen- und Nichteisenmetallen schaffen.','Zweikomponentige Polyurethan-Decklacke für maximale Beständigkeit, Glanzerhalt und Chemikalienbeständigkeit.'],
       fr: ['Couches de finition alkyde monocomposantes et rapides pour une finition industrielle efficace d\'une large gamme d\'objets.','Revêtements hydrodiluables à faibles émissions pour une protection industrielle durable, sans compromis sur la résistance.','Primaires époxy à forte adhérence qui créent une base durable sur les métaux ferreux et non ferreux.','Couches de finition polyuréthane bicomposantes pour une durabilité, une tenue du brillant et une résistance chimique maximales.'],
       es: ['Capas de acabado alquídicas monocomponente y rápidas para un acabado industrial eficiente de objetos muy diversos.','Recubrimientos al agua de bajas emisiones para una protección industrial sostenible, sin renunciar a la durabilidad.','Imprimaciones epoxi de alta adherencia que crean una base duradera sobre metales férreos y no férreos.','Capas de acabado de poliuretano bicomponente para máxima durabilidad, retención del brillo y resistencia química.'],
-      it: ['Strati di finitura alchidici monocomponente e rapidi per una finitura industriale efficiente di oggetti molto diversi.','Rivestimenti a base acqua a basse emissioni per una protezione industriale sostenibile, senza rinunce sulla durabilità.','Primer epossidici ad alta adesione che creano una base duratura su metalli ferrosi e non ferrosi.','Strati di finitura poliuretanici bicomponente per massima durabilità, mantenimento della brillantezza e resistenza chimica.'] }],
+      it: ['Strati di finitura alchidici monocomponente e rapidi per una finitura industriale efficiente di oggetti molto diversi.','Rivestimenti a base acqua a basse emissioni per una protezione industriale sostenibile, senza rinunce sulla durabilità.','Primer epossidici ad alta adesione che creano una base duratura su metalli ferrosi e non ferrosi.','Strati di finitura poliuretanici bicomponente per massima durabilità, mantenimento della brillantezza e resistenza chimica.'],
+      tr: ['Çok çeşitli nesnelerin verimli endüstriyel son işlemi için hızlı, tek bileşenli alkid son katları.','Dayanıklılıktan ödün vermeden sürdürülebilir endüstriyel koruma sağlayan düşük emisyonlu su bazlı kaplamalar.','Demir ve demir dışı metaller üzerinde dayanıklı bir temel oluşturan yüksek yapışmalı epoksi astarlar.','Maksimum dayanıklılık, parlaklık korunumu ve kimyasal direnç için iki bileşenli poliüretan son katları.'] }],
 
-    ['#performance .eyebrow', { nl: 'Prestaties', pl: 'Wydajność', ro: 'Performanță', de: 'Leistung', fr: 'Performance', es: 'Rendimiento', it: 'Prestazioni' }],
+    ['#performance .eyebrow', { nl: 'Prestaties', pl: 'Wydajność', ro: 'Performanță', de: 'Leistung', fr: 'Performance', es: 'Rendimiento', it: 'Prestazioni', tr: 'Performans' }],
     ['#performance h2', {
       nl: 'Gemaakt voor <span class="acc">de lakstraat</span>',
       pl: 'Stworzony na <span class="acc">linię</span>',
@@ -116,7 +128,8 @@
       de: 'Gemacht für <span class="acc">die Lackierstraße</span>',
       fr: 'Conçu pour <span class="acc">la ligne</span>',
       es: 'Creado para <span class="acc">la línea</span>',
-      it: 'Creato per <span class="acc">la linea</span>' }],
+      it: 'Creato per <span class="acc">la linea</span>',
+      tr: '<span class="acc">Boya hattı</span> için tasarlandı' }],
     ['#performance .lead', {
       nl: 'De industriële primers en toplagen van Fortis bieden maximale oppervlaktebescherming onder alle atmosferische omstandigheden — gebouwd om te draaien op moderne productielijnen.',
       pl: 'Przemysłowe podkłady i powłoki nawierzchniowe Fortis zapewniają maksymalną ochronę powierzchni w każdych warunkach atmosferycznych — zbudowane do pracy na nowoczesnych liniach produkcyjnych.',
@@ -124,7 +137,8 @@
       de: 'Die industriellen Grundierungen und Decklacke von Fortis bieten maximalen Oberflächenschutz unter allen atmosphärischen Bedingungen — gebaut für den Einsatz auf modernen Produktionslinien.',
       fr: 'Les primaires et couches de finition industriels de Fortis offrent une protection maximale des surfaces dans toutes les conditions atmosphériques — conçus pour fonctionner sur les lignes de production modernes.',
       es: 'Las imprimaciones y capas de acabado industriales de Fortis ofrecen la máxima protección de la superficie en cualquier condición atmosférica — diseñadas para funcionar en líneas de producción modernas.',
-      it: 'I primer e gli strati di finitura industriali Fortis offrono la massima protezione della superficie in ogni condizione atmosferica — costruiti per funzionare su moderne linee di produzione.' }],
+      it: 'I primer e gli strati di finitura industriali Fortis offrono la massima protezione della superficie in ogni condizione atmosferica — costruiti per funzionare su moderne linee di produzione.',
+      tr: 'Fortis\'in endüstriyel astarları ve son katları, her türlü atmosferik koşulda maksimum yüzey koruması sunar — modern üretim hatlarında çalışmak için tasarlandı.' }],
     ['#performance .pills span', {
       nl: ['Ferro &amp; non-ferro','Glans 10 / 30 / 60 / Full','Elektrostatisch','Nat-in-nat'],
       pl: ['Żelazne i nieżelazne','Połysk 10 / 30 / 60 / Full','Elektrostatyczny','Mokro-na-mokro'],
@@ -132,7 +146,8 @@
       de: ['Eisen &amp; Nichteisen','Glanz 10 / 30 / 60 / Voll','Elektrostatisch','Nass-in-Nass'],
       fr: ['Ferreux et non ferreux','Brillance 10 / 30 / 60 / Intégral','Électrostatique','Humide-sur-humide'],
       es: ['Férreos y no férreos','Brillo 10 / 30 / 60 / Total','Electrostático','Húmedo-sobre-húmedo'],
-      it: ['Ferrosi e non ferrosi','Brillantezza 10 / 30 / 60 / Piena','Elettrostatico','Bagnato-su-bagnato'] }],
+      it: ['Ferrosi e non ferrosi','Brillantezza 10 / 30 / 60 / Piena','Elettrostatico','Bagnato-su-bagnato'],
+      tr: ['Demir &amp; demir dışı','Parlaklık 10 / 30 / 60 / Tam','Elektrostatik','Islak-üstüne-ıslak'] }],
     ['#performance .feat b', {
       nl: ['Atmosferische bestendigheid','Elektrostatisch nat-in-nat','Lakstraat &amp; conventioneel','Elke kleur','Glans op maat','Duurzaam ontworpen'],
       pl: ['Odporność atmosferyczna','Elektrostatyczny mokro-na-mokro','Linia i konwencjonalnie','Każdy kolor','Połysk na zamówienie','Trwały z założenia'],
@@ -140,7 +155,8 @@
       de: ['Witterungsbeständigkeit','Elektrostatisch nass-in-nass','Straße &amp; konventionell','Jede Farbe','Glanz nach Wunsch','Dauerhaft konzipiert'],
       fr: ['Résistance atmosphérique','Électrostatique humide-sur-humide','Ligne et conventionnel','Toute couleur','Brillance sur mesure','Durable par conception'],
       es: ['Resistencia atmosférica','Electrostático húmedo-sobre-húmedo','Línea y convencional','Todo color','Brillo a medida','Duradero por diseño'],
-      it: ['Resistenza atmosferica','Elettrostatico bagnato-su-bagnato','Linea e convenzionale','Ogni colore','Brillantezza su misura','Durevole per progettazione'] }],
+      it: ['Resistenza atmosferica','Elettrostatico bagnato-su-bagnato','Linea e convenzionale','Ogni colore','Brillantezza su misura','Durevole per progettazione'],
+      tr: ['Atmosferik dayanıklılık','Elektrostatik ıslak-üstüne-ıslak','Boya hattı &amp; geleneksel','Her renk','Özel parlaklık','Sürdürülebilir tasarım'] }],
     ['#performance .feat span', {
       nl: ['Maximale oppervlaktebescherming onder alle atmosferische omstandigheden, binnen en buiten.','Perfect geschikt voor snelle elektrostatische nat-in-nat applicatie voor een hoge doorvoer.','Gemaakt voor automatische lakstraten, en net zo goed thuis met conventionele spuittechnieken.','Spuit uw objecten in iedere gewenste kleur met de universele hoog geconcentreerde Baril kleurpasta\'s.','Alkyd- en polyurethaan laksystemen, verkrijgbaar in glans 10, 30, 60 en full gloss.','Primers en toplagen die metalen objecten duurzaam beschermen en hun footprint verkleinen.'],
       pl: ['Maksymalna ochrona powierzchni w każdych warunkach atmosferycznych, wewnątrz i na zewnątrz.','Idealnie nadaje się do szybkiej aplikacji elektrostatycznej mokro-na-mokro przy wysokiej przepustowości.','Stworzony do automatycznych linii lakierniczych, równie dobry przy konwencjonalnym natrysku.','Maluj swoje obiekty w dowolnym kolorze uniwersalnymi, wysoko skoncentrowanymi pastami Baril.','Systemy lakiernicze alkidowe i poliuretanowe dostępne w połysku 10, 30, 60 i full gloss.','Podkłady i powłoki, które trwale chronią metalowe obiekty i zmniejszają ich ślad środowiskowy.'],
@@ -148,9 +164,10 @@
       de: ['Maximaler Oberflächenschutz unter allen atmosphärischen Bedingungen, innen und außen.','Perfekt geeignet für die schnelle elektrostatische Nass-in-Nass-Applikation bei hohem Durchsatz.','Gemacht für automatische Lackierstraßen und ebenso zu Hause bei konventionellen Spritzverfahren.','Lackieren Sie Ihre Objekte in jeder gewünschten Farbe mit den universellen, hochkonzentrierten Baril-Farbpasten.','Alkyd- und Polyurethan-Lacksysteme, erhältlich in Glanz 10, 30, 60 und Vollglanz.','Grundierungen und Decklacke, die Metallobjekte dauerhaft schützen und ihren Fußabdruck verringern.'],
       fr: ['Protection maximale des surfaces dans toutes les conditions atmosphériques, à l\'intérieur comme à l\'extérieur.','Parfaitement adapté à l\'application électrostatique humide-sur-humide rapide pour un débit élevé.','Conçu pour les lignes de peinture automatiques, et tout aussi à l\'aise avec les techniques de pulvérisation conventionnelles.','Peignez vos objets dans n\'importe quelle couleur grâce aux pâtes colorantes universelles hautement concentrées de Baril.','Systèmes de laque alkyde et polyuréthane, disponibles en brillance 10, 30, 60 et brillant intégral.','Des primaires et des couches de finition qui protègent durablement les objets métalliques et réduisent leur empreinte.'],
       es: ['Máxima protección de la superficie en cualquier condición atmosférica, en interior y exterior.','Perfectamente apto para la aplicación electrostática húmedo-sobre-húmedo rápida y un alto rendimiento.','Creado para líneas de pintado automáticas, e igual de cómodo con técnicas de pulverización convencionales.','Pinta tus objetos en cualquier color con las pastas de color universales altamente concentradas de Baril.','Sistemas de laca alquídica y poliuretano, disponibles en brillo 10, 30, 60 y brillo total.','Imprimaciones y capas de acabado que protegen los objetos metálicos de forma duradera y reducen su huella.'],
-      it: ['Massima protezione della superficie in ogni condizione atmosferica, all\'interno e all\'esterno.','Perfettamente adatto all\'applicazione elettrostatica bagnato-su-bagnato rapida per un\'elevata produttività.','Creato per linee di verniciatura automatiche e altrettanto a suo agio con tecniche di spruzzatura convenzionali.','Verniciate i vostri oggetti in qualsiasi colore con le paste coloranti universali ad alta concentrazione Baril.','Sistemi di vernice alchidica e poliuretanica, disponibili in brillantezza 10, 30, 60 e brillante pieno.','Primer e strati di finitura che proteggono durevolmente gli oggetti metallici e ne riducono l\'impronta.'] }],
+      it: ['Massima protezione della superficie in ogni condizione atmosferica, all\'interno e all\'esterno.','Perfettamente adatto all\'applicazione elettrostatica bagnato-su-bagnato rapida per un\'elevata produttività.','Creato per linee di verniciatura automatiche e altrettanto a suo agio con tecniche di spruzzatura convenzionali.','Verniciate i vostri oggetti in qualsiasi colore con le paste coloranti universali ad alta concentrazione Baril.','Sistemi di vernice alchidica e poliuretanica, disponibili in brillantezza 10, 30, 60 e brillante pieno.','Primer e strati di finitura che proteggono durevolmente gli oggetti metallici e ne riducono l\'impronta.'],
+      tr: ['Her türlü atmosferik koşulda, iç ve dış mekanda maksimum yüzey koruması.','Yüksek verim için hızlı elektrostatik ıslak-üstüne-ıslak uygulamaya mükemmel uyum.','Otomatik boya hatları için tasarlandı ve geleneksel püskürtme teknikleriyle de aynı derecede uyumlu.','Baril\'in evrensel, yüksek konsantrasyonlu renk pastalarıyla nesnelerinizi istediğiniz her renge boyayın.','10, 30, 60 ve tam parlaklıkta sunulan alkid ve poliüretan boya sistemleri.','Metal nesneleri kalıcı olarak koruyan ve karbon ayak izlerini azaltan astarlar ve son katlar.'] }],
 
-    ['#apply .eyebrow', { nl: 'Toepassingen', pl: 'Zastosowania', ro: 'Aplicații', de: 'Anwendungen', fr: 'Applications', es: 'Aplicaciones', it: 'Applicazioni' }],
+    ['#apply .eyebrow', { nl: 'Toepassingen', pl: 'Zastosowania', ro: 'Aplicații', de: 'Anwendungen', fr: 'Applications', es: 'Aplicaciones', it: 'Applicazioni', tr: 'Uygulamalar' }],
     ['#apply h2', {
       nl: 'Coatings voor de<br><span class="acc">metaalverwerkende industrie</span>',
       pl: 'Powłoki dla<br><span class="acc">przemysłu metalowego</span>',
@@ -158,7 +175,8 @@
       de: 'Beschichtungen für die<br><span class="acc">metallverarbeitende Industrie</span>',
       fr: 'Des revêtements pour<br><span class="acc">l\'industrie du métal</span>',
       es: 'Recubrimientos para<br><span class="acc">la industria del metal</span>',
-      it: 'Rivestimenti per<br><span class="acc">l\'industria del metallo</span>' }],
+      it: 'Rivestimenti per<br><span class="acc">l\'industria del metallo</span>',
+      tr: '<span class="acc">Metal işleme endüstrisi</span><br>için kaplamalar' }],
     ['#apply .lead', {
       nl: 'We leveren Fortis-coatings via het Fortis-dealernetwerk aan de metaalverwerkende industrie — ijzersterke verfsystemen voor elk metalen object.',
       pl: 'Dostarczamy powłoki Fortis przez sieć dealerów Fortis do przemysłu metalowego — żelazne systemy lakiernicze do każdego metalowego obiektu.',
@@ -166,7 +184,8 @@
       de: 'Wir liefern Fortis-Beschichtungen über das Fortis-Händlernetz an die metallverarbeitende Industrie — eisenstarke Lacksysteme für jedes Metallobjekt.',
       fr: 'Nous livrons les revêtements Fortis à l\'industrie de transformation des métaux via le réseau de distributeurs Fortis — des systèmes de peinture ultra-résistants pour tout objet métallique.',
       es: 'Suministramos los recubrimientos Fortis a la industria del metal a través de la red de distribuidores Fortis — sistemas de pintura ultrarresistentes para cualquier objeto metálico.',
-      it: 'Forniamo i rivestimenti Fortis all\'industria della lavorazione dei metalli tramite la rete di rivenditori Fortis — sistemi di verniciatura ultraresistenti per ogni oggetto metallico.' }],
+      it: 'Forniamo i rivestimenti Fortis all\'industria della lavorazione dei metalli tramite la rete di rivenditori Fortis — sistemi di verniciatura ultraresistenti per ogni oggetto metallico.',
+      tr: 'Fortis kaplamalarını Fortis bayi ağı aracılığıyla metal işleme endüstrisine sunuyoruz — her metal nesne için çelik gibi boya sistemleri.' }],
     ['#apply .sheet-row b', {
       nl: ['Metaalbewerking','Machinebouw','Mobiele machines','Kraan &amp; lift','Containers &amp; hekwerk','Meubilair &amp; kunststof'],
       pl: ['Obróbka metali','Budowa maszyn','Maszyny mobilne','Dźwigi i windy','Kontenery i ogrodzenia','Meble i tworzywa'],
@@ -174,7 +193,8 @@
       de: ['Metallverarbeitung','Maschinenbau','Mobile Maschinen','Kran &amp; Aufzug','Container &amp; Zäune','Möbel &amp; Kunststoff'],
       fr: ['Travail des métaux','Construction de machines','Engins mobiles','Grues et levage','Conteneurs et clôtures','Mobilier et plastiques'],
       es: ['Metalurgia','Construcción de maquinaria','Maquinaria móvil','Grúas y elevación','Contenedores y vallado','Mobiliario y plásticos'],
-      it: ['Lavorazione metalli','Costruzione di macchine','Macchine mobili','Gru e sollevamento','Container e recinzioni','Arredo e plastica'] }],
+      it: ['Lavorazione metalli','Costruzione di macchine','Macchine mobili','Gru e sollevamento','Container e recinzioni','Arredo e plastica'],
+      tr: ['Metal işleme','Makine yapımı','Mobil makineler','Vinç &amp; asansör','Konteyner &amp; çit','Mobilya &amp; plastik'] }],
     ['#apply .sheet-row span', {
       nl: ['Coatings voor de metaalverwerkende industrie en algemene industriële afwerking.','Coatings voor machine- en apparatenbouw.','Coatings voor landbouwmechanisatie en grondverzetmachines.','Coatings voor kraan- en liftbouw.','Coatings voor containerbouw en hekwerk.','Coatings voor straat- en parkmeubilair en kunststofverwerking.'],
       pl: ['Powłoki dla przemysłu metalowego i ogólnego wykańczania przemysłowego.','Powłoki do budowy maszyn i urządzeń.','Powłoki do maszyn rolniczych i sprzętu do robót ziemnych.','Powłoki do budowy dźwigów i wind.','Powłoki do budowy kontenerów i ogrodzeń.','Powłoki do mebli miejskich i parkowych oraz przetwórstwa tworzyw.'],
@@ -182,10 +202,11 @@
       de: ['Beschichtungen für die metallverarbeitende Industrie und die allgemeine industrielle Veredelung.','Beschichtungen für den Maschinen- und Apparatebau.','Beschichtungen für Landmaschinen und Erdbewegungsgeräte.','Beschichtungen für den Kran- und Aufzugbau.','Beschichtungen für den Containerbau und Zäune.','Beschichtungen für Stadt- und Parkmobiliar und die Kunststoffverarbeitung.'],
       fr: ['Revêtements pour l\'industrie de transformation des métaux et la finition industrielle générale.','Revêtements pour la construction de machines et d\'équipements.','Revêtements pour les machines agricoles et les engins de terrassement.','Revêtements pour la construction de grues et d\'ascenseurs.','Revêtements pour la construction de conteneurs et les clôtures.','Revêtements pour le mobilier urbain et de parc et la transformation des plastiques.'],
       es: ['Recubrimientos para la industria del metal y el acabado industrial general.','Recubrimientos para la construcción de maquinaria y equipos.','Recubrimientos para maquinaria agrícola y de movimiento de tierras.','Recubrimientos para la construcción de grúas y ascensores.','Recubrimientos para la construcción de contenedores y vallados.','Recubrimientos para mobiliario urbano y de parque y la transformación de plásticos.'],
-      it: ['Rivestimenti per l\'industria della lavorazione dei metalli e la finitura industriale generale.','Rivestimenti per la costruzione di macchine e apparecchiature.','Rivestimenti per macchine agricole e mezzi movimento terra.','Rivestimenti per la costruzione di gru e ascensori.','Rivestimenti per la costruzione di container e recinzioni.','Rivestimenti per arredo urbano e da parco e la lavorazione della plastica.'] }],
+      it: ['Rivestimenti per l\'industria della lavorazione dei metalli e la finitura industriale generale.','Rivestimenti per la costruzione di macchine e apparecchiature.','Rivestimenti per macchine agricole e mezzi movimento terra.','Rivestimenti per la costruzione di gru e ascensori.','Rivestimenti per la costruzione di container e recinzioni.','Rivestimenti per arredo urbano e da parco e la lavorazione della plastica.'],
+      tr: ['Metal işleme endüstrisi ve genel endüstriyel son işlemler için kaplamalar.','Makine ve ekipman yapımı için kaplamalar.','Tarım makineleri ve hafriyat makineleri için kaplamalar.','Vinç ve asansör yapımı için kaplamalar.','Konteyner yapımı ve çitler için kaplamalar.','Kent ve park mobilyaları ve plastik işleme için kaplamalar.'] }],
 
-    ['#contact .eyebrow', { nl: 'Aan de slag', pl: 'Zacznij', ro: 'Începe', de: 'Loslegen', fr: 'Commencer', es: 'Empezar', it: 'Inizia' }],
-    ['#contact h2', { nl: 'Vind een Fortis-dealer', pl: 'Znajdź dealera Fortis', ro: 'Găsește un dealer Fortis', de: 'Einen Fortis-Händler finden', fr: 'Trouver un distributeur Fortis', es: 'Encuentra un distribuidor Fortis', it: 'Trova un rivenditore Fortis' }],
+    ['#contact .eyebrow', { nl: 'Aan de slag', pl: 'Zacznij', ro: 'Începe', de: 'Loslegen', fr: 'Commencer', es: 'Empezar', it: 'Inizia', tr: 'Başlayın' }],
+    ['#contact h2', { nl: 'Vind een Fortis-dealer', pl: 'Znajdź dealera Fortis', ro: 'Găsește un dealer Fortis', de: 'Einen Fortis-Händler finden', fr: 'Trouver un distributeur Fortis', es: 'Encuentra un distribuidor Fortis', it: 'Trova un rivenditore Fortis', tr: 'Bir Fortis bayisi bulun' }],
     ['#contact p', {
       nl: 'Ontdek de ijzersterke verfsystemen van het Fortis-pakket en zoek een dealer in uw regio — of overleg met onze coatingspecialisten over uw lakstraat.',
       pl: 'Odkryj żelazne systemy lakiernicze z oferty Fortis i znajdź dealera w swoim regionie — lub porozmawiaj z naszymi specjalistami o swojej linii.',
@@ -193,9 +214,10 @@
       de: 'Entdecken Sie die eisenstarken Lacksysteme des Fortis-Sortiments und finden Sie einen Händler in Ihrer Region — oder sprechen Sie mit unseren Beschichtungsexperten über Ihre Lackierstraße.',
       fr: 'Découvrez les systèmes de peinture ultra-résistants de la gamme Fortis et trouvez un distributeur dans votre région — ou échangez avec nos experts en revêtements à propos de votre ligne.',
       es: 'Descubre los sistemas de pintura ultrarresistentes de la gama Fortis y encuentra un distribuidor en tu región — o habla con nuestros especialistas en recubrimientos sobre tu línea.',
-      it: 'Scopri i sistemi di verniciatura ultraresistenti della gamma Fortis e trova un rivenditore nella tua zona — o parla con i nostri specialisti dei rivestimenti della tua linea.' }],
-    ['#contact .hero-cta .btn-solid', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi' }],
-    ['#contact .hero-cta .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group' }],
+      it: 'Scopri i sistemi di verniciatura ultraresistenti della gamma Fortis e trova un rivenditore nella tua zona — o parla con i nostri specialisti dei rivestimenti della tua linea.',
+      tr: 'Fortis serisinin çelik gibi boya sistemlerini keşfedin ve bölgenizdeki bir bayiyi bulun — ya da boya hattınız hakkında kaplama uzmanlarımıza danışın.' }],
+    ['#contact .hero-cta .btn-solid', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi', tr: 'İletişim &amp; lokasyonlar' }],
+    ['#contact .hero-cta .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfedin' }],
 
     ['.foot-claim', {
       nl: 'IJzersterke industriële coatings voor metaal.',
@@ -204,7 +226,8 @@
       de: 'Eisenstarke Industriebeschichtungen für Metall.',
       fr: 'Des revêtements industriels ultra-résistants pour le métal.',
       es: 'Recubrimientos industriales ultrarresistentes para el metal.',
-      it: 'Rivestimenti industriali ultraresistenti per il metallo.' }],
+      it: 'Rivestimenti industriali ultraresistenti per il metallo.',
+      tr: 'Metal için çelik gibi endüstriyel kaplamalar.' }],
     ['footer h5', {
       nl: ['Producten','Baril Group'],
       pl: ['Produkty','Baril Group'],
@@ -212,7 +235,8 @@
       de: ['Produkte','Baril Group'],
       fr: ['Produits','Baril Group'],
       es: ['Productos','Baril Group'],
-      it: ['Prodotti','Baril Group'] }],
+      it: ['Prodotti','Baril Group'],
+      tr: ['Ürünler','Baril Group'] }],
     ['.foot-bottom span', {
       nl: ["© Fortis · een merk van Baril Group · 's-Hertogenbosch NL",'IJzersterke bescherming voor metaal.'],
       pl: ["© Fortis · marka Baril Group · 's-Hertogenbosch NL",'Żelazna ochrona metalu.'],
@@ -220,13 +244,14 @@
       de: ["© Fortis · eine Marke der Baril Group · 's-Hertogenbosch NL",'Eisenstarker Schutz für Metall.'],
       fr: ["© Fortis · une marque du groupe Baril · 's-Hertogenbosch NL",'Une protection à toute épreuve pour le métal.'],
       es: ["© Fortis · una marca de Baril Group · 's-Hertogenbosch NL",'Protección a toda prueba para el metal.'],
-      it: ["© Fortis · un marchio di Baril Group · 's-Hertogenbosch NL",'Protezione a tutta prova per il metallo.'] }]
+      it: ["© Fortis · un marchio di Baril Group · 's-Hertogenbosch NL",'Protezione a tutta prova per il metallo.'],
+      tr: ["© Fortis · bir Baril Group markası · 's-Hertogenbosch NL",'Metal için çelik gibi koruma.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');
   let lang = 'en';
   try { lang = localStorage.getItem('fortis-lang') || 'en'; } catch (e) {}
-  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it'].includes(lang)) lang = 'en';
+  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
 
   function apply(l) {
     for (const [sel, dict] of MAP) {
@@ -247,7 +272,7 @@
   }
 
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
-    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it'].includes(lang)) lang = 'en';
+    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
     apply(lang);
   }));
 
