@@ -240,6 +240,10 @@ h2{
 .brand.sun{--accent:#E89A3C}
 .brand.red{--accent:#F0473A}
 .brand.steel{--accent:#4A86C9}
+.brand.agri{--accent:#2FB6A4}
+.brand.resin{--accent:#27C2E6}
+.brand.fleet{--accent:#FF7A1A}
+.brand.auto{--accent:#E23A45}
 
 /* contact / locations */
 .loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
