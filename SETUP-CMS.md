@@ -42,7 +42,7 @@ Collaborators) and their own token.
 - **English (base) text** is edited in the page's HTML (the **Teksten** list,
   badge *Bewerkbaar*). Editing the English here does **not** touch the
   translations — those are separate (see below).
-- **Translations** for all seven languages — **NL, DE, FR, ES, IT, PL, RO** —
+- **Translations** for all eight languages — **NL, DE, FR, ES, IT, PL, RO, TR** —
   live in each page's `js/i18n.js` and are edited in the **Vertaalbare teksten**
   list (filter *Vertaalbaar*). Each entry shows the English source plus an
   *Andere talen* panel with one field per language, a **Vertaal met Claude**
