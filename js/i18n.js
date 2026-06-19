@@ -151,7 +151,7 @@
         'Biobased grondstoffen als kernwaarde aangenomen · biobased schilderverven · overname door Baril Group', 'DCC gepatenteerd in de EU, VS en Canada · Best Managed Company',
         'Eerste USDA- & EU Ecolabel-gecertificeerde biobased decoratieve verven', "Geert Duijghuisen opgevolgd door zijn zoons Teun en Jeroen Duijghuisen als DGA's · nieuw laboratorium in 's-Hertogenbosch · zonnedaken in Etten-Leur en 's-Hertogenbosch",
         'Start Baril Academy · SGA Innovation Award voor TiO₂-vrije muurverf', 'Start van de transitie naar 100% hernieuwbare grondstoffen · winnaar Golden Circle Award',
-        '802 BIO & 803 BIO — de eerste biobased epoxycoatings van industriële kwaliteit', 'Winnaar Brabantse Innovatie Award',
+        '802 BIO & 803 BIO — de eerste biobased epoxycoatings van industriële kwaliteit', 'Winnaar Brabantse Innovatie Award · gastheer van het Barinewables-event — de hele internationale keten van conculega\'s samengebracht om de transitie naar hernieuwbare grondstoffen te versnellen<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Bekijk de aftermovie ↗</em></a>',
         'B Corp-gecertificeerd — een van de eerste protective-coatingsbedrijven ter wereld · KVK Circulaire Innovatie Award (Chemie) · Groene Pluim'],
       pl: [
         'Założona 12 listopada w Moerkapelle', "Przeprowadzka do nowego zakładu w 's-Hertogenbosch", 'Wykup menedżerski przez Geerta Duijghuisena i Hansa Broedersa †',
@@ -160,7 +160,7 @@
         'Surowce biobazowe przyjęte jako wartość podstawowa · biobazowe farby malarskie · przejęcie przez Baril Group', 'DCC opatentowane w UE, USA i Kanadzie · Best Managed Company',
         'Pierwsze biobazowe farby budowlane z certyfikatem USDA i EU Ecolabel', "Geerta Duijghuisena zastąpili synowie Teun i Jeroen Duijghuisen jako właściciele-zarządzający · nowe laboratorium w 's-Hertogenbosch · dachy słoneczne w Etten-Leur i 's-Hertogenbosch",
         'Start Baril Academy · SGA Innovation Award za farbę ścienną bez TiO₂', 'Start transformacji w kierunku 100% surowców odnawialnych · zwycięzca Golden Circle Award',
-        '802 BIO i 803 BIO — pierwsze biobazowe powłoki epoksydowe o jakości przemysłowej', 'Zwycięzca Brabant Innovation Award',
+        '802 BIO i 803 BIO — pierwsze biobazowe powłoki epoksydowe o jakości przemysłowej', 'Zwycięzca Brabant Innovation Award · gospodarz wydarzenia Barinewables — zgromadzenie całego międzynarodowego łańcucha branżowych partnerów, aby przyspieszyć przejście na surowce odnawialne<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Zobacz aftermovie ↗</em></a>',
         'Certyfikat B Corp — jeden z pierwszych producentów powłok ochronnych na świecie · KVK Circular Innovation Award (chemia) · nagroda Groene Pluim'],
       ro: [
         'Înființată pe 12 noiembrie în Moerkapelle', "Mutare într-o clădire nouă în 's-Hertogenbosch", 'Preluare prin management de către Geert Duijghuisen și Hans Broeders †',
@@ -169,7 +169,7 @@
         'Materiile prime biobazate adoptate ca valoare centrală · vopsele biobazate de larg consum · preluare de către Baril Group', 'DCC brevetată în UE, SUA și Canada · Best Managed Company',
         'Primele vopsele decorative biobazate certificate USDA și EU Ecolabel', "Geert Duijghuisen succedat de fiii săi Teun și Jeroen Duijghuisen ca proprietari-administratori · laborator nou în 's-Hertogenbosch · acoperișuri solare în Etten-Leur și 's-Hertogenbosch",
         'Lansarea Baril Academy · SGA Innovation Award pentru vopsea de perete fără TiO₂', 'Începutul tranziției către 100% materii prime regenerabile · câștigător Golden Circle Award',
-        '802 BIO și 803 BIO — primele acoperiri epoxidice biobazate de calitate industrială', 'Câștigător, Brabant Innovation Award',
+        '802 BIO și 803 BIO — primele acoperiri epoxidice biobazate de calitate industrială', 'Câștigător, Brabant Innovation Award · gazdă a evenimentului Barinewables — reunirea întregului lanț internațional de parteneri din industrie pentru a accelera tranziția către materii prime regenerabile<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Vezi aftermovie-ul ↗</em></a>',
         'Certificat B Corp — printre primii producători de acoperiri de protecție din lume · KVK Circular Innovation Award (Chimie) · premiul Groene Pluim'],
       de: [
         'Gegründet am 12. November in Moerkapelle', "Umzug in einen Neubau in 's-Hertogenbosch", 'Management-Buy-out durch Geert Duijghuisen und Hans Broeders †',
@@ -178,7 +178,7 @@
         'Biobasierte Rohstoffe als Kernwert verankert · biobasierte Anstrichfarben · Übernahme durch Baril Group', 'DCC patentiert in der EU, USA und Kanada · Best Managed Company',
         'Erste USDA- und EU-Ecolabel-zertifizierte biobasierte Bautenfarben', "Geert Duijghuisen von seinen Söhnen Teun und Jeroen Duijghuisen als Eigentümer-Geschäftsführer abgelöst · neues Labor in 's-Hertogenbosch · Solardächer in Etten-Leur und 's-Hertogenbosch",
         'Start der Baril Academy · SGA Innovation Award für TiO₂-freie Wandfarbe', 'Beginn des Übergangs zu 100% erneuerbaren Rohstoffen · Gewinner des Golden Circle Award',
-        '802 BIO & 803 BIO — die ersten biobasierten Epoxidbeschichtungen in Industriequalität', 'Gewinner des Brabant Innovation Award',
+        '802 BIO & 803 BIO — die ersten biobasierten Epoxidbeschichtungen in Industriequalität', 'Gewinner des Brabant Innovation Award · Gastgeber des Barinewables-Events — die gesamte internationale Wertschöpfungskette von Branchenkollegen zusammengebracht, um den Übergang zu erneuerbaren Rohstoffen zu beschleunigen<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Aftermovie ansehen ↗</em></a>',
         'B-Corp-zertifiziert — einer der ersten Hersteller von Schutzbeschichtungen weltweit · KVK Circular Innovation Award (Chemie) · Groene-Pluim-Award'],
       fr: [
         'Fondée le 12 novembre à Moerkapelle', "Déménagement vers un nouveau site à 's-Hertogenbosch", 'Rachat par les cadres par Geert Duijghuisen et Hans Broeders †',
@@ -187,7 +187,7 @@
         'Matières premières biosourcées adoptées comme valeur centrale · peintures biosourcées pour le bâtiment · reprise par Baril Group', 'DCC brevetée dans l\'UE, aux USA et au Canada · Best Managed Company',
         'Premières peintures décoratives biosourcées certifiées USDA et Écolabel UE', "Geert Duijghuisen remplacé par ses fils Teun et Jeroen Duijghuisen comme dirigeants-propriétaires · nouveau laboratoire à 's-Hertogenbosch · toitures solaires à Etten-Leur et 's-Hertogenbosch",
         'Lancement de la Baril Academy · SGA Innovation Award pour une peinture murale sans TiO₂', 'Début de la transition vers 100% de matières premières renouvelables · lauréat du Golden Circle Award',
-        '802 BIO & 803 BIO — les premiers revêtements époxy biosourcés de qualité industrielle', 'Lauréat du Brabant Innovation Award',
+        '802 BIO & 803 BIO — les premiers revêtements époxy biosourcés de qualité industrielle', 'Lauréat du Brabant Innovation Award · hôte de l\'événement Barinewables — réunir toute la chaîne internationale de pairs du secteur pour accélérer la transition vers les matières premières renouvelables<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Voir l\'aftermovie ↗</em></a>',
         'Certifiée B Corp — l\'un des premiers fabricants de revêtements de protection au monde · KVK Circular Innovation Award (Chimie) · prix Groene Pluim'],
       es: [
         'Fundada el 12 de noviembre en Moerkapelle', "Traslado a una nueva planta en 's-Hertogenbosch", 'Compra por la dirección por Geert Duijghuisen y Hans Broeders †',
@@ -196,7 +196,7 @@
         'Materias primas biobasadas adoptadas como valor central · pinturas biobasadas para construcción · adquisición por Baril Group', 'DCC patentada en la UE, EE. UU. y Canadá · Best Managed Company',
         'Primeras pinturas decorativas biobasadas certificadas USDA y Ecolabel UE', "Geert Duijghuisen sucedido por sus hijos Teun y Jeroen Duijghuisen como propietarios-directores · nuevo laboratorio en 's-Hertogenbosch · cubiertas solares en Etten-Leur y 's-Hertogenbosch",
         'Lanzamiento de Baril Academy · SGA Innovation Award a la pintura mural sin TiO₂', 'Inicio de la transición al 100% de materias primas renovables · ganador del Golden Circle Award',
-        '802 BIO y 803 BIO — los primeros recubrimientos epoxi biobasados de calidad industrial', 'Ganador del Brabant Innovation Award',
+        '802 BIO y 803 BIO — los primeros recubrimientos epoxi biobasados de calidad industrial', 'Ganador del Brabant Innovation Award · anfitrión del evento Barinewables — reunir a toda la cadena internacional de colegas del sector para acelerar la transición a las materias primas renovables<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Ver el aftermovie ↗</em></a>',
         'Certificada B Corp — uno de los primeros fabricantes de recubrimientos de protección del mundo · KVK Circular Innovation Award (Química) · premio Groene Pluim'],
       it: [
         'Fondata il 12 novembre a Moerkapelle', "Trasferimento in un nuovo stabilimento a 's-Hertogenbosch", 'Management buy-out da parte di Geert Duijghuisen e Hans Broeders †',
@@ -205,7 +205,7 @@
         'Materie prime biobased adottate come valore centrale · pitture biobased per l\'edilizia · acquisizione da parte di Baril Group', 'DCC brevettata in UE, USA e Canada · Best Managed Company',
         'Prime pitture decorative biobased certificate USDA ed Ecolabel UE', "Geert Duijghuisen succeduto dai figli Teun e Jeroen Duijghuisen come proprietari-amministratori · nuovo laboratorio a 's-Hertogenbosch · tetti solari a Etten-Leur e 's-Hertogenbosch",
         'Lancio della Baril Academy · SGA Innovation Award per la pittura murale senza TiO₂', 'Inizio della transizione verso il 100% di materie prime rinnovabili · vincitore del Golden Circle Award',
-        '802 BIO e 803 BIO — i primi rivestimenti epossidici biobased di qualità industriale', 'Vincitore del Brabant Innovation Award',
+        '802 BIO e 803 BIO — i primi rivestimenti epossidici biobased di qualità industriale', 'Vincitore del Brabant Innovation Award · ospite dell\'evento Barinewables — riunire l\'intera catena internazionale di colleghi del settore per accelerare la transizione verso le materie prime rinnovabili<a class="tl-aftermovie" href="https://youtube.com/shorts/198imbcPDU0" target="_blank" rel="noopener"><span class="tl-thumb"><img src="assets/img/barinewables-aftermovie.jpg" alt="Barinewables aftermovie" loading="lazy"></span><em>Guarda l\'aftermovie ↗</em></a>',
         'Certificata B Corp — tra i primi produttori di rivestimenti protettivi al mondo · KVK Circular Innovation Award (Chimica) · premio Groene Pluim'] }],
     ['.vm-k', { nl: ['Missie', 'Visie', 'Hoe'], pl: ['Misja', 'Wizja', 'Jak'], ro: ['Misiune', 'Viziune', 'Cum'], de: ['Mission', 'Vision', 'Wie'], fr: ['Mission', 'Vision', 'Comment'], es: ['Misión', 'Visión', 'Cómo'], it: ['Missione', 'Visione', 'Come'] }],
     ['.vm p:not(.vm-k)', {
