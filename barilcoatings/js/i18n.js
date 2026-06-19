@@ -6,13 +6,13 @@
   'use strict';
   const MAP = [
     ['.navlinks a', {
-      nl: ['Producten', 'Verfsystemen', 'Markten', 'Cases', 'Technologie', 'Contact'],
-      pl: ['Produkty', 'Systemy malarskie', 'Rynki', 'Realizacje', 'Technologia', 'Kontakt'],
-      ro: ['Produse', 'Sisteme de vopsire', 'Piețe', 'Studii de caz', 'Tehnologie', 'Contact'],
-      de: ['Produkte', 'Lacksysteme', 'Märkte', 'Referenzen', 'Technologie', 'Kontakt'],
-      fr: ['Produits', 'Systèmes de peinture', 'Marchés', 'Études de cas', 'Technologie', 'Contact'],
-      es: ['Productos', 'Sistemas de pintura', 'Mercados', 'Casos', 'Tecnología', 'Contacto'],
-      it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Tecnologia', 'Contatto'] }],
+      nl: ['Producten', 'Verfsystemen', 'Markten', 'Cases', 'Highlights', 'Technologie', 'Contact'],
+      pl: ['Produkty', 'Systemy malarskie', 'Rynki', 'Realizacje', 'Highlights', 'Technologia', 'Kontakt'],
+      ro: ['Produse', 'Sisteme de vopsire', 'Piețe', 'Studii de caz', 'Highlights', 'Tehnologie', 'Contact'],
+      de: ['Produkte', 'Lacksysteme', 'Märkte', 'Referenzen', 'Highlights', 'Technologie', 'Kontakt'],
+      fr: ['Produits', 'Systèmes de peinture', 'Marchés', 'Études de cas', 'Highlights', 'Technologie', 'Contact'],
+      es: ['Productos', 'Sistemas de pintura', 'Mercados', 'Casos', 'Highlights', 'Tecnología', 'Contacto'],
+      it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Highlights', 'Tecnologia', 'Contatto'] }],
     ['header .eyebrow', {
       nl: "Baril Coatings — Industriële & beschermende coatings · Sinds 1987",
       pl: "Baril Coatings — Powłoki przemysłowe i ochronne · Od 1987",
