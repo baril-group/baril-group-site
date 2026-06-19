@@ -513,15 +513,19 @@ footer{
   color:var(--muted);display:block;margin-top:8px;
 }
 @media(max-width:840px){
+  /* top-align the scene so the meter sits high and frees room for the text below */
+  .scene[data-scene="liter"] .scene-pin{align-items:flex-start;padding-top:7svh}
   /* liter and cycle side by side: fills the phone screen */
-  .liter-grid{grid-template-columns:36% 1fr;gap:6px 12px;align-items:center;padding-top:0}
+  .liter-grid{grid-template-columns:40% 1fr;gap:6px 14px;align-items:start;padding-top:0}
   .liter-fig{grid-row:1}
-  .liter-fig svg{max-height:46svh}
+  .liter-fig svg{max-height:50svh}
+  .bl{font-size:12px}
+  .liter-cap{font-size:11px}
   .cycle-fig svg{width:100%;margin:0 auto}
-  .liter-grid .counters{grid-column:1/-1;gap:14px 22px;margin-top:18px;justify-content:space-between}
-  .cn text{font-size:19px}
-  .ctr b{font-size:23px}
-  .ctr .cl{margin-top:4px;font-size:9.5px;letter-spacing:.1em}
+  .cn text{font-size:22px}
+  .liter-grid .counters{grid-column:1/-1;gap:16px 22px;margin-top:24px;justify-content:space-between}
+  .ctr b{font-size:25px}
+  .ctr .cl{margin-top:5px;font-size:10.5px;letter-spacing:.1em}
 }
 
 /* ---------- Chapter B — The Paint Pool ---------- */
