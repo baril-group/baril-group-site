@@ -123,25 +123,25 @@
       it: ['Azienda familiare, per convinzione', 'Attore globale, vicino a casa'] }],
     ['.story-col p', {
       nl: [
-        'De familie Duijghuisen & Harmon durft andere keuzes te maken — en waar het financieel verantwoord is, kiezen we voor duurzaam: schonere fabrieken, veilige werkplekken, een elektrisch en hybride wagenpark. Ons grootste kapitaal is een betrokken, gedreven team — toegankelijk, eerlijk en betrokken.',
+        'De families Duijghuisen & Harmon durven anders te kiezen — en waar het financieel verantwoord is, kiest het duurzaam: schonere fabrieken, veiligere werkplekken, een elektrisch en hybride wagenpark. Ons grootste kapitaal is een betrokken, gedreven team — toegankelijk, eerlijk en betrokken.',
         'Van één schuurtje naar productie in Nederland en de VS — wereldwijd uitgedragen door lokale distributeurs in Europa en Noord-Amerika. We helpen klanten hun objecten duurzaam te beschermen én hun global footprint te verkleinen.'],
       pl: [
-        'Rodzina Duijghuisen & Harmon ma odwagę dokonywać innych wyborów — a tam, gdzie jest to finansowo uzasadnione, wybiera zrównoważoność: czystsze fabryki, bezpieczniejsze miejsca pracy, elektryczna i hybrydowa flota. Naszym największym kapitałem jest zaangażowany, zmotywowany zespół — dostępny, uczciwy i zaangażowany.',
+        'Rodziny Duijghuisen & Harmon odważają się wybierać inaczej — i tam, gdzie jest to finansowo uzasadnione, wybierają zrównoważone rozwiązania: czystsze fabryki, bezpieczniejsze miejsca pracy, elektryczną i hybrydową flotę pojazdów. Naszym największym kapitałem jest zaangażowany, pełen determinacji zespół — otwarty, uczciwy i oddany.',
         'Od jednej szopy do produkcji w Holandii i USA — niesiona na cały świat przez lokalnych dystrybutorów w Europie i Ameryce Północnej. Pomagamy klientom trwale chronić ich obiekty, jednocześnie zmniejszając ich globalny ślad.'],
       ro: [
-        'Familia Duijghuisen & Harmon are curajul de a face alegeri diferite — iar acolo unde este justificat financiar, alege sustenabilitatea: fabrici mai curate, locuri de muncă mai sigure, o flotă electrică și hibridă. Cel mai mare capital al nostru este o echipă dedicată și motivată — accesibilă, onestă și implicată.',
+        'Familiile Duijghuisen & Harmon îndrăznesc să aleagă altfel — și acolo unde este justificat din punct de vedere financiar, aleg sustenabilul: fabrici mai curate, locuri de muncă mai sigure, o flotă electrică și hibridă. Cel mai mare capital al nostru este o echipă implicată și motivată — accesibilă, onestă și dedicată.',
         'De la o singură magazie la producție în Țările de Jos și SUA — dusă în întreaga lume de distribuitori locali din Europa și America de Nord. Ne ajutăm clienții să-și protejeze durabil obiectele, reducându-le în același timp amprenta globală.'],
       de: [
-        'Die Familie Duijghuisen & Harmon traut sich, andere Entscheidungen zu treffen — und wo es finanziell vertretbar ist, wählen wir nachhaltig: sauberere Fabriken, sichere Arbeitsplätze, ein elektrischer und hybrider Fuhrpark. Unser größtes Kapital ist ein engagiertes, motiviertes Team — zugänglich, ehrlich und engagiert.',
+        'Die Familien Duijghuisen & Harmon wagen es, anders zu wählen — und wo es finanziell sinnvoll ist, wählen sie nachhaltig: sauberere Fabriken, sicherere Arbeitsplätze, eine Elektro- und Hybridflotte. Unser größtes Kapital ist ein engagiertes, motiviertes Team — zugänglich, ehrlich und verbunden.',
         'Von einem Schuppen zur Produktion in den Niederlanden und den USA — weltweit getragen von lokalen Distributoren in Europa und Nordamerika. Wir helfen Kunden, ihre Objekte dauerhaft zu schützen und ihren globalen Fußabdruck zu verkleinern.'],
       fr: [
-        'La famille Duijghuisen & Harmon ose faire des choix différents — et là où c\'est financièrement responsable, nous choisissons la durabilité : des usines plus propres, des lieux de travail sûrs, une flotte électrique et hybride. Notre plus grand capital est une équipe engagée et motivée — accessible, honnête et impliquée.',
+        'Les familles Duijghuisen & Harmon osent faire des choix différents — et là où c\'est financièrement judicieux, elles choisissent le durable : des usines plus propres, des lieux de travail plus sûrs, une flotte électrique et hybride. Notre plus grand capital est une équipe engagée et déterminée — accessible, honnête et impliquée.',
         'D\'une simple remise à une production aux Pays-Bas et aux États-Unis — portée dans le monde entier par des distributeurs locaux en Europe et en Amérique du Nord. Nous aidons les clients à protéger durablement leurs objets tout en réduisant leur empreinte mondiale.'],
       es: [
-        'La familia Duijghuisen & Harmon se atreve a tomar decisiones distintas — y donde es financieramente responsable, optamos por lo sostenible: fábricas más limpias, lugares de trabajo seguros, una flota eléctrica e híbrida. Nuestro mayor capital es un equipo comprometido y motivado — accesible, honesto e implicado.',
+        'Las familias Duijghuisen & Harmon se atreven a elegir de manera diferente — y donde es financieramente viable, eligen lo sostenible: fábricas más limpias, lugares de trabajo más seguros, una flota eléctrica e híbrida. Nuestro mayor capital es un equipo comprometido y motivado — accesible, honesto e involucrado.',
         'De un simple cobertizo a la producción en los Países Bajos y EE. UU. — llevada por todo el mundo por distribuidores locales en Europa y Norteamérica. Ayudamos a los clientes a proteger sus objetos de forma duradera y a reducir su huella global.'],
       it: [
-        'La famiglia Duijghuisen & Harmon osa fare scelte diverse — e dove è finanziariamente responsabile, scegliamo la sostenibilità: fabbriche più pulite, luoghi di lavoro sicuri, una flotta elettrica e ibrida. Il nostro capitale più grande è un team dedito e motivato — accessibile, onesto e partecipe.',
+        'Le famiglie Duijghuisen & Harmon osano scegliere diversamente — e dove è finanziariamente sensato, scelgono il sostenibile: fabbriche più pulite, luoghi di lavoro più sicuri, una flotta elettrica e ibrida. Il nostro capitale più grande è un team impegnato e motivato — accessibile, onesto e coinvolto.',
         'Da un semplice capanno alla produzione nei Paesi Bassi e negli USA — portata in tutto il mondo da distributori locali in Europa e Nord America. Aiutiamo i clienti a proteggere durevolmente i loro oggetti e a ridurre la loro impronta globale.'] }],
     ['.timeline li span', {
       nl: [
