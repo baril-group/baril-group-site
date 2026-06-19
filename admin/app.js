@@ -144,7 +144,7 @@
         <textarea ${has?'':'data-empty="1"'} placeholder="(nog geen ${name} — vertaal of vul aan)">${has?esc(fld[code]):''}</textarea></div>`;
     }).join('');
     const enField=fld.enEditable?`<textarea class="enbox">${esc(fld.en)}</textarea>`:`<div class="val">${esc(fld.en)}</div>`;
-    const enNote=fld.enEditable?'':`<span class="ennote">Engels-bron (in lijst/array — inline bewerken volgt; wijzig via Teksten)</span>`;
+    const enNote=fld.enEditable?'':`<span class="ennote">Engels-bron — bewerk via Teksten</span>`;
     return `<div class="item field" data-id="${id}" data-sel="${escAttr(fld.selector)}" data-idx="${fld.idx}">
       <div class="thumb" style="display:flex;align-items:center;justify-content:center;color:var(--muted);font-family:var(--mono);font-size:10px">EN</div>
       <div class="body">
@@ -198,9 +198,11 @@
       for(let j=0;j<count;j++){
         const enFromDict=e.langs.en?(e.langs.en.items[j]?e.langs.en.items[j].value:null):null;
         const enFromDom=domEls[j]?domEls[j].innerHTML:null;
-        const f={ cat:'fld', idx:idx++, selector:e.selector, jdx:j, isArray,
+        const enSrc = enFromDict!=null ? 'dict' : (enFromDom!=null ? 'dom' : 'none');
+        const f={ cat:'fld', idx:idx++, selector:e.selector, jdx:j, isArray, enSource:enSrc,
           en: (enFromDict!=null?enFromDict:(enFromDom!=null?enFromDom:'')),
-          enEditable: !isArray,  // inline EN editing only for single-value fields in v1
+          // EN editable when it lives in the page HTML (any field, incl. arrays) or in a single-value i18n dict
+          enEditable: enSrc==='dom' ? true : (enSrc==='dict' && !isArray),
           external:false };
         for(const c of langKeys){ f[c]= e.langs[c]&&e.langs[c].items[j]?e.langs[c].items[j].value:null; }
         fields.push(f);
@@ -224,6 +226,26 @@
       const t=L.items[jdx]; updated=text.slice(0,t.start)+escFor(newVal,text[t.start-1])+text.slice(t.end);
     }
     await putText(file, updated, sha, `CMS: ${page.key} — ${selector} [${lang}] bijgewerkt`);
+  }
+
+  // EN that lives in the page HTML (incl. list/array fields). Pure-text elements only —
+  // fails closed with a clear message so the HTML can never be corrupted.
+  async function saveDomEn(page, selector, jdx, newVal){
+    if(!page.path) throw new Error('Geen HTML-bron voor deze pagina.');
+    const {sha,text}=await ghGet(page.path);
+    let els=[]; try{ els=[...new DOMParser().parseFromString(text,'text/html').querySelectorAll(selector)]; }
+    catch(err){ throw new Error('Selector ongeldig — bewerk via Teksten.'); }
+    const el=els[jdx];
+    if(!el) throw new Error('Element niet gevonden — herlaad.');
+    if(el.children.length) throw new Error('Deze tekst bevat opmaak (bijv. <br> of <em>) — bewerk via Teksten.');
+    const dec=s=>{ const t=document.createElement('textarea'); t.innerHTML=s; return t.value; };
+    const target=el.textContent.trim();
+    const toks=tokenizeHTML(text,page).filter(t=>t.cat==='text' && dec(t.value).trim()===target);
+    if(toks.length===0) throw new Error('Engelse bron niet teruggevonden — herlaad.');
+    if(toks.length>1) throw new Error('Deze tekst komt meerdere keren voor — bewerk via Teksten.');
+    const tok=toks[0];
+    const updated=text.slice(0,tok.start)+newVal+text.slice(tok.end);
+    await putText(page.path, updated, sha, `CMS: ${page.key} — EN ${selector}#${jdx} bijgewerkt`);
   }
 
   // ---------- events ----------
@@ -259,7 +281,11 @@
       if(e.target.classList.contains('saveen')){
         const msg=item.querySelector('.row-msg')||item.querySelector('.langpanel .row-msg'); const box=item.querySelector('.enbox');
         e.target.disabled=true;
-        try{ if(box.value!==fld.en){ await saveLang(fld.page, sel, fld.jdx, 'en', box.value); fld.en=box.value; } item.classList.remove('editing'); e.target.hidden=true; item.querySelector('.edit-en').hidden=false; }
+        try{ if(box.value!==fld.en){
+            if(fld.enSource==='dom') await saveDomEn(fld.page, fld.selector, fld.jdx, box.value);
+            else await saveLang(fld.page, sel, fld.jdx, 'en', box.value);
+            fld.en=box.value;
+          } item.classList.remove('editing'); e.target.hidden=true; item.querySelector('.edit-en').hidden=false; }
         catch(err){ alert(err.message); }
         e.target.disabled=false; return;
       }
