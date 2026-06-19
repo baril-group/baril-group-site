@@ -13,7 +13,7 @@
       es: ['Por qué Fortis','Productos','Rendimiento','Aplicaciones','Contacto'],
       it: ['Perché Fortis','Prodotti','Prestazioni','Applicazioni','Contatto'],
       tr: ['Neden Fortis','Ürünler','Performans','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'Fortis — Industriële metaalcoatings · Een merk van Baril Group',
       pl: 'Fortis — Przemysłowe powłoki do metalu · Marka Baril Group',
       ro: 'Fortis — Vopsele industriale pentru metal · O marcă Baril Group',

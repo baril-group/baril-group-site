@@ -12,7 +12,7 @@
       es: ['Por qué TintLab','RedLike','Rendimiento','Pastas de color','Aplicaciones','Contacto'],
       it: ['Perché TintLab','RedLike','Prestazioni','Paste coloranti','Applicazioni','Contatto'],
       tr: ['Neden TintLab','RedLike','Performans','Renk pastaları','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'TintLab — Industrieel inkleursysteem · Een merk van Baril Group',
       pl: 'TintLab — Przemysłowy system barwienia · Marka Baril Group',
       ro: 'TintLab — Sistem industrial de nuanțare · O marcă Baril Group',

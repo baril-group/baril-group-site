@@ -12,7 +12,7 @@
       es: ['Por qué Copperant','La gama','Sostenibilidad','Para profesionales','copperant.com ↗'],
       it: ['Perché Copperant','La gamma','Sostenibilità','Per i professionisti','copperant.com ↗'],
       tr: ['Neden Copperant','Ürün gamı','Sürdürülebilirlik','Profesyoneller için','copperant.com ↗'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'Copperant — De groenste verf · Een merk van Baril Group',
       pl: 'Copperant — Najbardziej zielona farba · Marka Baril Group',
       ro: 'Copperant — Cea mai verde vopsea · O marcă Baril Group',

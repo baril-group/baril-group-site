@@ -181,3 +181,6 @@ footer a:hover{opacity:1;color:var(--accent)}
 .hero-logo .wm{font-size:46px}
 .foot-logo .wm{font-size:20px}
 @media(max-width:768px){.hero-logo .wm{font-size:34px}}
+
+/* region flag in hero eyebrow */
+.eyebrow .hero-flag{height:13px;width:auto;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.22);opacity:.92}

@@ -14,7 +14,7 @@
       es: ['Por qué AgriGuard','Productos','Rendimiento','Aplicaciones','Contacto'],
       it: ['Perché AgriGuard','Prodotti','Prestazioni','Applicazioni','Contatto'],
       tr: ['Neden AgriGuard','Ürünler','Performans','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'AgriGuard — Roestwerende coatings · Een merk van Baril Group',
       pl: 'AgriGuard — Powłoki antykorozyjne · Marka Baril Group',
       ro: 'AgriGuard — Vopsele anticorozive · O marcă Baril Group',

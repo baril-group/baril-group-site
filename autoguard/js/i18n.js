@@ -14,7 +14,7 @@
       es: ['Por qué AutoGuard','Productos','Rendimiento','Aplicaciones','Contacto'],
       it: ['Perché AutoGuard','Prodotti','Prestazioni','Applicazioni','Contatto'],
       tr: ['Neden AutoGuard','Ürünler','Performans','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'AutoGuard — Autoschadeherstel &amp; reparatie · Een merk van Baril Group',
       pl: 'AutoGuard — Lakiernictwo &amp; naprawa pojazdów · Marka Baril Group',
       ro: 'AutoGuard — Revopsire &amp; reparații auto · O marcă Baril Group',

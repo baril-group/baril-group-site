@@ -14,7 +14,7 @@
       es: ['Por qué FleetSpec','Productos','Rendimiento','Aplicaciones','Contacto'],
       it: ['Perché FleetSpec','Prodotti','Prestazioni','Applicazioni','Contatto'],
       tr: ['Neden FleetSpec','Ürünler','Performans','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'FleetSpec — Refinish voor wagenpark &amp; transport · Een merk van Baril Group',
       pl: 'FleetSpec — Renowacja flot i transportu · Marka Baril Group',
       ro: 'FleetSpec — Refinisare pentru flote &amp; transport · O marcă Baril Group',

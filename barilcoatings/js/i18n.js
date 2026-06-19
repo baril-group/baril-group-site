@@ -14,7 +14,7 @@
       es: ['Productos', 'Sistemas de pintura', 'Mercados', 'Casos', 'Tecnología', 'Contacto'],
       it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Tecnologia', 'Contatto'],
       tr: ['Ürünler', 'Boya sistemleri', 'Pazarlar', 'Vaka çalışmaları', 'Teknoloji', 'İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: "Baril Coatings — Industriële & beschermende coatings · Sinds 1987",
       pl: "Baril Coatings — Powłoki przemysłowe i ochronne · Od 1987",
       ro: "Baril Coatings — Acoperiri industriale și de protecție · Din 1987",

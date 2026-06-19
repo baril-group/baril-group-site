@@ -13,7 +13,7 @@
       es: ['Por qué Nixol','Cómo funciona','Características','Sostenibilidad','Aplicaciones','Contacto'],
       it: ['Perché Nixol','Come funziona','Caratteristiche','Sostenibilità','Applicazioni','Contatto'],
       tr: ['Neden Nixol','Nasıl çalışır','Özellikler','Sürdürülebilirlik','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'Nixol — Tijdelijke kasschaduw · Een merk van Baril Group',
       pl: 'Nixol — Tymczasowe cieniowanie szklarni · Marka Baril Group',
       ro: 'Nixol — Umbrire temporară pentru sere · O marcă Baril Group',

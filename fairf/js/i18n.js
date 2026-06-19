@@ -12,7 +12,7 @@
       es: ['Por qué Fairf','Productos','Colores','Puntos de venta','fairf.eu ↗'],
       it: ['Perché Fairf','Prodotti','Colori','Punti vendita','fairf.eu ↗'],
       tr: ['Neden Fairf','Ürünler','Renkler','Satış Noktaları','fairf.eu ↗'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'Fairf — Plantaardige verf met een missie · Een merk van Baril Group',
       pl: 'Fairf — Roślinna farba z misją · Marka Baril Group',
       ro: 'Fairf — Vopsea vegetală cu o misiune · O marcă Baril Group',

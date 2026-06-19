@@ -14,7 +14,7 @@
       es: ['Por qué Resinwerks','Productos','Rendimiento','Aplicaciones','Contacto'],
       it: ['Perché Resinwerks','Prodotti','Prestazioni','Applicazioni','Contatto'],
       tr: ['Neden Resinwerks','Ürünler','Performans','Uygulamalar','İletişim'] }],
-    ['header .eyebrow', {
+    ['header .eyebrow .eb-txt', {
       nl: 'Resinwerks — Harsvloercoatings · Een merk van Baril Group',
       pl: 'Resinwerks — Żywiczne powłoki posadzkowe · Marka Baril Group',
       ro: 'Resinwerks — Pardoseli rășinoase · O marcă Baril Group',

@@ -192,3 +192,6 @@ footer a:hover{opacity:1;color:var(--copper)}
 .langflags .lang-menu button:hover{background:rgba(255,255,255,.08);opacity:1;transform:none}
 .langflags .lang-menu button.active{background:rgba(255,255,255,.12);opacity:1;font-weight:600}
 @media(max-width:900px){.langflags .lang-menu{right:auto;left:0}}
+
+/* region flag in hero eyebrow */
+.eyebrow .hero-flag{height:13px;width:auto;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.22);opacity:.92}

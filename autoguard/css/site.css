@@ -194,3 +194,6 @@ footer a:hover{opacity:1;color:var(--accent)}
   .navlinks a{color:#1b1f27;opacity:.78}
   .navlinks a:hover{opacity:1;color:var(--accent)}
 }
+
+/* region flag in hero eyebrow */
+.eyebrow .hero-flag{height:13px;width:auto;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.22);opacity:.92}
