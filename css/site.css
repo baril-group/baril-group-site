@@ -838,6 +838,8 @@ footer{
 .map-site.on circle{fill:var(--green);stroke:var(--ink)}
 .map-site.on text{opacity:1;fill:var(--ink)}
 .map-site.on .pulse-ring{opacity:1;animation:pulse 2.4s cubic-bezier(.22,.8,.26,1) infinite;transform-box:fill-box;transform-origin:center}
+.map-site{transition:opacity .5s}
+.map-site.gone{opacity:0;pointer-events:none}
 .map-tl{
   list-style:none;display:flex;gap:10px 26px;flex-wrap:wrap;margin-top:20px;
 }

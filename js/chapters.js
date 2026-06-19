@@ -58,7 +58,7 @@
   }
   // Baril sites: [name, lon, lat, t-activation, labelDx, labelDy, anchor]
   const SITES = [
-    ["Moerkapelle · 1982", 4.62, 52.06, 0.05, 12, -24, 'start'],
+    ["Moerkapelle · 1982", 4.62, 52.06, 0.05, 12, -24, 'start', 0.22],
     ["'s-Hertogenbosch · 1989", 5.3, 51.7, 0.22, 12, 32, 'start'],
     ["Gliwice · 2005", 18.7, 50.3, 0.38, 16, 2, 'start'],
     ["Baril Coatings USA · 2006", -85.0, 41.6, 0.46, 0, 34, 'middle'],
@@ -116,10 +116,11 @@
     // site markers
     const sg = document.getElementById('mapSites');
     SITES.forEach(s => {
-      const [name, lon, lat, t0, dx, dy, anchor] = s;
+      const [name, lon, lat, t0, dx, dy, anchor, until] = s;
       const x = lonX(lon), y = latY(lat);
       const g = document.createElementNS(NS, 'g');
       g.setAttribute('class', 'map-site'); g.dataset.at = t0;
+      if (until != null) g.dataset.until = until;
       g.innerHTML = `<circle cx="${x}" cy="${y}" r="6"/><circle cx="${x}" cy="${y}" r="6" class="pulse-ring"/>` +
         `<text x="${x + dx}" y="${y + dy}" text-anchor="${anchor}">${name}</text>`;
       sg.appendChild(g);
@@ -132,7 +133,11 @@
     // activate / deactivate dots around the moving pointer (dots sorted by tA)
     while (mapPtr < mapDots.length && mapDots[mapPtr].tA <= t) { mapDots[mapPtr].el.classList.add('on'); mapPtr++; }
     while (mapPtr > 0 && mapDots[mapPtr - 1].tA > t) { mapPtr--; mapDots[mapPtr].el.classList.remove('on'); }
-    for (const g of siteEls) g.classList.toggle('on', t >= +g.dataset.at);
+    for (const g of siteEls) {
+      const hasUntil = g.dataset.until != null;
+      g.classList.toggle('on', t >= +g.dataset.at && (!hasUntil || t < +g.dataset.until));
+      g.classList.toggle('gone', hasUntil && t >= +g.dataset.until);
+    }
     for (const li of tlEls) li.classList.toggle('on', t >= +li.dataset.at);
     if (yearEl) {
       const y = String(yearAt(t));
