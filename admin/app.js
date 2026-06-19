@@ -228,6 +228,27 @@
     await putText(file, updated, sha, `CMS: ${page.key} — ${selector} [${lang}] bijgewerkt`);
   }
 
+  // Retry an operation that re-fetches the SHA itself, to survive GitHub's brief
+  // read-after-write SHA lag (PUT ... does not match ...).
+  async function withRetry(fn, tries=4){
+    for(let i=0;i<tries;i++){
+      try{ return await fn(); }
+      catch(err){ if(i<tries-1 && /does not match|\b409\b/i.test(String(err&&err.message))){ await new Promise(r=>setTimeout(r,400*(i+1))); continue; } throw err; }
+    }
+  }
+
+  // Save several language values of one field (same jdx) in a SINGLE commit —
+  // avoids the multi-commit SHA race of saving each language separately.
+  async function saveLangs(page, selector, jdx, changes){
+    const codes=Object.keys(changes); if(!codes.length) return;
+    const file=page.i18n; const {sha,text}=await ghGet(file);
+    const entries=parseEntries(text); const e=entries.find(x=>x.selector===selector); if(!e) throw new Error('Veld niet gevonden (herlaad).');
+    const edits=codes.map(lang=>{ const L=e.langs[lang]; if(!L||!L.items[jdx]) throw new Error('Taalwaarde ontbreekt (herlaad).'); const t=L.items[jdx]; return {start:t.start,end:t.end,val:escFor(changes[lang],text[t.start-1])}; });
+    edits.sort((a,b)=>b.start-a.start); // apply right-to-left so offsets stay valid
+    let updated=text; for(const ed of edits) updated=updated.slice(0,ed.start)+ed.val+updated.slice(ed.end);
+    await putText(file, updated, sha, `CMS: ${page.key} — ${selector} vertalingen bijgewerkt`);
+  }
+
   // EN that lives in the page HTML (incl. list/array fields). Pure-text elements only —
   // fails closed with a clear message so the HTML can never be corrupted.
   async function saveDomEn(page, selector, jdx, newVal){
@@ -271,9 +292,9 @@
       if(e.target.classList.contains('savefield')){
         const msg=item.querySelector('.row-msg'); if(!get(ghKey)){ openModal('Log in om op te slaan.'); return; }
         e.target.disabled=true; msg.textContent='Opslaan…'; msg.className='row-msg';
-        try{ for(const [code] of LANGS){ const ta=item.querySelector(`.langrow[data-lang="${code}"] textarea`); const has=fld[code]!=null;
-              if(!has) continue; // v1: only update existing language values
-              if(ta.value!==fld[code]){ await saveLang(fld.page, sel, fld.jdx, code, ta.value); fld[code]=ta.value; } }
+        try{ const changes={};
+          for(const [code] of LANGS){ const ta=item.querySelector(`.langrow[data-lang="${code}"] textarea`); if(fld[code]==null) continue; if(ta.value!==fld[code]) changes[code]=ta.value; }
+          if(Object.keys(changes).length){ await withRetry(()=>saveLangs(fld.page, sel, fld.jdx, changes)); for(const c in changes) fld[c]=changes[c]; }
           msg.textContent='Opgeslagen ✓ — live over ~1–2 min.'; msg.className='row-msg ok';
         }catch(err){ msg.textContent=err.message; msg.className='row-msg err'; }
         e.target.disabled=false; return;
@@ -282,8 +303,8 @@
         const msg=item.querySelector('.row-msg')||item.querySelector('.langpanel .row-msg'); const box=item.querySelector('.enbox');
         e.target.disabled=true;
         try{ if(box.value!==fld.en){
-            if(fld.enSource==='dom') await saveDomEn(fld.page, fld.selector, fld.jdx, box.value);
-            else await saveLang(fld.page, sel, fld.jdx, 'en', box.value);
+            if(fld.enSource==='dom') await withRetry(()=>saveDomEn(fld.page, fld.selector, fld.jdx, box.value));
+            else await withRetry(()=>saveLang(fld.page, sel, fld.jdx, 'en', box.value));
             fld.en=box.value;
           } item.classList.remove('editing'); e.target.hidden=true; item.querySelector('.edit-en').hidden=false; }
         catch(err){ alert(err.message); }
@@ -327,7 +348,7 @@
     const todo=store[pkey].fields.filter(f=>LANGS.some(([c])=>f[c]===''));
     e.target.disabled=true; const orig=e.target.textContent;
     let done=0;
-    for(const f of todo){ try{ const out=await claudeTranslate(f.en); for(const [c] of LANGS){ if(f[c]===''&&out[c]!=null){ await saveLang(f.page,f.selector,f.jdx,c,out[c]); f[c]=out[c]; } } done++; e.target.textContent=`Vertalen… ${done}/${todo.length}`; }catch(err){ console.warn(err); } }
+    for(const f of todo){ try{ const out=await claudeTranslate(f.en); const ch={}; for(const [c] of LANGS){ if(f[c]===''&&out[c]!=null) ch[c]=out[c]; } if(Object.keys(ch).length){ await withRetry(()=>saveLangs(f.page,f.selector,f.jdx,ch)); for(const c in ch) f[c]=ch[c]; } done++; e.target.textContent=`Vertalen… ${done}/${todo.length}`; }catch(err){ console.warn(err); } }
     e.target.textContent=`Klaar — ${done} velden`; setTimeout(()=>{ e.target.textContent=orig; e.target.disabled=false; render(); },1500);
   });
 
