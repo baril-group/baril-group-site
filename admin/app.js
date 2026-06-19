@@ -70,6 +70,11 @@
   const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   const escAttr=s=>esc(s).replace(/"/g,'&quot;');
   const jsLit=s=>"'"+String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\r/g,'').replace(/\n/g,'\\n')+"'";
+  // JS string-literal inner: unescape on read (so editors see natural text),
+  // and escape for the actual delimiter quote on write (so apostrophes etc.
+  // never break the source string).
+  function jsUnescape(s){ return String(s).replace(/\\(u[0-9a-fA-F]{4}|x[0-9a-fA-F]{2}|.)/g,(m,g)=>{ if(g==='n')return '\n'; if(g==='t')return '\t'; if(g==='r')return ''; if(g[0]==='u')return String.fromCharCode(parseInt(g.slice(1),16)); if(g[0]==='x')return String.fromCharCode(parseInt(g.slice(1),16)); return g; }); }
+  function escFor(s,quote){ return String(s).replace(/\\/g,'\\\\').replace(/\r/g,'').replace(/\n/g,'\\n').split(quote).join('\\'+quote); }
 
   // ---------- HTML tokenizer (text/image/link) ----------
   function tokenizeHTML(html,page){
@@ -96,8 +101,8 @@
         if(depth===1){
           const km=/^([a-zA-Z_]+)\s*:\s*/.exec(js.slice(i,i+30));
           if(km && /^(en|nl|de|fr|es|it|pl|ro)$/.test(km[1])){ const key=km[1]; i+=km[0].length;
-            if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); if(r){ langs[key]={kind:'string',items:[{value:r.value,start:r.innerStart,end:r.innerEnd}]}; i=r.end; continue; } }
-            else if(js[i]==='['){ i++; const its=[]; while(i<js.length){ while(i<js.length&&/[\s,]/.test(js[i])) i++; if(js[i]===']'){ i++; break; } if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); its.push({value:r.value,start:r.innerStart,end:r.innerEnd}); i=r.end; } else i++; } langs[key]={kind:'array',items:its}; continue; }
+            if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); if(r){ langs[key]={kind:'string',items:[{value:jsUnescape(r.value),start:r.innerStart,end:r.innerEnd}]}; i=r.end; continue; } }
+            else if(js[i]==='['){ i++; const its=[]; while(i<js.length){ while(i<js.length&&/[\s,]/.test(js[i])) i++; if(js[i]===']'){ i++; break; } if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); its.push({value:jsUnescape(r.value),start:r.innerStart,end:r.innerEnd}); i=r.end; } else i++; } langs[key]={kind:'array',items:its}; continue; }
           }
         }
         i++;
@@ -211,17 +216,15 @@
     const entries=parseEntries(text); const e=entries.find(x=>x.selector===selector); if(!e) throw new Error('Veld niet gevonden (herlaad).');
     let updated;
     if(lang==='en'){
-      if(e.langs.en && e.langs.en.items[jdx]){ const t=e.langs.en.items[jdx]; updated=text.slice(0,t.start)+escInner(newVal)+text.slice(t.end); }
+      if(e.langs.en && e.langs.en.items[jdx]){ const t=e.langs.en.items[jdx]; updated=text.slice(0,t.start)+escFor(newVal,text[t.start-1])+text.slice(t.end); }
       else if(!e.langs.en){ const ins=` en: ${jsLit(newVal)},`; updated=text.slice(0,e.dictOpen)+ins+text.slice(e.dictOpen); }
       else throw new Error('EN-array bewerken nog niet ondersteund.');
     } else {
       const L=e.langs[lang]; if(!L||!L.items[jdx]) throw new Error('Taalwaarde ontbreekt (herlaad).');
-      const t=L.items[jdx]; updated=text.slice(0,t.start)+escInner(newVal)+text.slice(t.end);
+      const t=L.items[jdx]; updated=text.slice(0,t.start)+escFor(newVal,text[t.start-1])+text.slice(t.end);
     }
     await putText(file, updated, sha, `CMS: ${page.key} — ${selector} [${lang}] bijgewerkt`);
   }
-  // escape only what breaks the existing quote style: backslash + the quote isn't known here, so escape backslash and both quotes minimally via \u? Keep simple: escape backslash and newline; quotes inside are preserved because readString captured raw inner (already valid for its quote).
-  function escInner(s){ return String(s).replace(/\r/g,'').replace(/\n/g,'\\n'); }
 
   // ---------- events ----------
   content.addEventListener('click', async e=>{
@@ -229,7 +232,9 @@
     // translation field interactions
     if(item.classList.contains('field')){
       const sel=item.dataset.sel, idx=+item.dataset.idx;
-      const fld=fieldByIdx(idx);
+      const pkey=(item.dataset.id||'').split('|')[0];
+      const fld=((store[pkey]&&store[pkey].fields)||[]).find(x=>x.idx===idx);
+      if(!fld) return;
       if(e.target.classList.contains('xpand')){ const p=item.querySelector('.langpanel'); const open=p.hidden; p.hidden=!open; e.target.textContent=open?'Andere talen ▾':'Andere talen ▸'; return; }
       if(e.target.classList.contains('edit-en')){ if(!get(ghKey)){ openModal('Log in om te bewerken.'); return; } item.classList.add('editing'); item.querySelector('.saveen').hidden=false; e.target.hidden=true; return; }
       if(e.target.classList.contains('translate')){
@@ -276,7 +281,6 @@
       e.target.disabled=false;
     }
   });
-  function fieldByIdx(idx){ for(const k in store){ const fs=store[k].fields; if(fs){ const f=fs.find(x=>x.idx===idx); if(f) return f; } } return null; }
   function closeEdit(item){ item.classList.remove('editing'); const et=item.querySelector('.edit-toggle'); if(et) et.hidden=false; const s=item.querySelector('.save'); if(s) s.hidden=true; const c=item.querySelector('.cancel'); if(c) c.hidden=true; const up=item.querySelector('.upload'); if(up) up.hidden=true; const f=item.querySelector('.editrow textarea,.editrow input'); if(f) f.value=item.querySelector('.val').textContent; const m=item.querySelector('.row-msg'); if(m) m.textContent=''; }
 
   function fileToB64(file){ return new Promise((res,rej)=>{ const r=new FileReader(); r.onload=()=>res(String(r.result).split(',')[1]); r.onerror=rej; r.readAsDataURL(file); }); }
