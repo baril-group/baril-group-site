@@ -38,11 +38,17 @@ Collaborators) and their own token.
 3. Save commits straight to the source file on `main`; GitHub Pages republishes
    in ~1–2 minutes.
 
-### What v1 edits
-- **Text** is edited in the page's **base (English)** HTML. The Dutch / Polish /
-  Romanian variants live in each page's `js/i18n.js` and are not yet exposed
-  here — so a base-text change shows in English; translations are managed in the
-  i18n files (next iteration).
+### What the tool edits
+- **English (base) text** is edited in the page's HTML (the **Teksten** list,
+  badge *Bewerkbaar*). Editing the English here does **not** touch the
+  translations — those are separate (see below).
+- **Translations** for all seven languages — **NL, DE, FR, ES, IT, PL, RO** —
+  live in each page's `js/i18n.js` and are edited in the **Vertaalbare teksten**
+  list (filter *Vertaalbaar*). Each entry shows the English source plus an
+  *Andere talen* panel with one field per language, a **Vertaal met Claude**
+  button (needs an Anthropic key), and **Opslaan**. So an English change in the
+  *Teksten* list and the matching translations in the *Vertaalbare teksten* list
+  are two separate edits — update both when you change wording.
 - **Images** are edited as a **path/URL** (point to another asset or URL).
   Uploading a brand-new image file from the tool is a planned next step.
 - The product **catalogue** items come from `barilcoatings/products/products.json`
