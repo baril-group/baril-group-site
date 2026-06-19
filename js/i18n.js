@@ -637,14 +637,14 @@
     ['.foot-grid h5', { nl: ['Merken', 'Groep'], pl: ['Marki', 'Grupa'], ro: ['Mărci', 'Grup'], de: ['Marken', 'Gruppe'], fr: ['Marques', 'Groupe'], es: ['Marcas', 'Grupo'], it: ['Marchi', 'Gruppo'], tr: ['Markalar', 'Grup'] }],
     ['.foot-grid div:nth-child(3) a', { nl: ['Missie', 'Technologie', 'Werken bij ↗', 'Contact ↗'], pl: ['Misja', 'Technologia', 'Kariera ↗', 'Kontakt ↗'], ro: ['Misiune', 'Tehnologie', 'Cariere ↗', 'Contact ↗'], de: ['Mission', 'Technologie', 'Karriere ↗', 'Kontakt ↗'], fr: ['Mission', 'Technologie', 'Carrières ↗', 'Contact ↗'], es: ['Misión', 'Tecnología', 'Empleo ↗', 'Contacto ↗'], it: ['Missione', 'Tecnologia', 'Lavora con noi ↗', 'Contatto ↗'], tr: ['Misyon', 'Teknoloji', 'Kariyer ↗', 'İletişim ↗'] }],
     ['.foot-bottom span', {
-      nl: ["© Baril Group · 's-Hertogenbosch NL", 'Minder verf. Langere levensduur. Lagere impact.'],
-      pl: ["© Baril Group · 's-Hertogenbosch NL", 'Mniej farby. Dłuższa żywotność. Mniejszy wpływ.'],
-      ro: ["© Baril Group · 's-Hertogenbosch NL", 'Mai puțină vopsea. Viață mai lungă. Impact mai mic.'],
-      de: ["© Baril Group · 's-Hertogenbosch NL", 'Weniger Farbe. Längere Lebensdauer. Geringere Auswirkung.'],
-      fr: ["© Baril Group · 's-Hertogenbosch NL", 'Moins de peinture. Une durée de vie plus longue. Un impact moindre.'],
-      es: ["© Baril Group · 's-Hertogenbosch NL", 'Menos pintura. Mayor vida útil. Menor impacto.'],
-      it: ["© Baril Group · 's-Hertogenbosch NL", 'Meno vernice. Vita più lunga. Minore impatto.'],
-      tr: ["© Baril Group · 's-Hertogenbosch NL", 'Daha az boya. Daha uzun ömür. Daha az etki.'] }]
+      nl: ["© Baril Group", 'Minder verf. Langere levensduur. Lagere impact.'],
+      pl: ["© Baril Group", 'Mniej farby. Dłuższa żywotność. Mniejszy wpływ.'],
+      ro: ["© Baril Group", 'Mai puțină vopsea. Viață mai lungă. Impact mai mic.'],
+      de: ["© Baril Group", 'Weniger Farbe. Längere Lebensdauer. Geringere Auswirkung.'],
+      fr: ["© Baril Group", 'Moins de peinture. Une durée de vie plus longue. Un impact moindre.'],
+      es: ["© Baril Group", 'Menos pintura. Mayor vida útil. Menor impacto.'],
+      it: ["© Baril Group", 'Meno vernice. Vita più lunga. Minore impatto.'],
+      tr: ["© Baril Group", 'Daha az boya. Daha uzun ömür. Daha az etki.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');

@@ -589,13 +589,13 @@
       it: ['Chi siamo', 'Protezione', 'Tecnologia DualCure', 'Contatto'],
       tr: ['Hakkımızda', 'Koruma', 'DualCure teknolojisi', 'İletişim'] }],
     ['.foot-bottom span', {
-      nl: ["© Baril Coatings · 's-Hertogenbosch NL · onderdeel van Baril Group", 'Minder coating. Langere levensduur. Lagere impact.'],
-      pl: ["© Baril Coatings · 's-Hertogenbosch NL · część Baril Group", 'Mniej powłoki. Dłuższa żywotność. Mniejszy wpływ.'],
-      ro: ["© Baril Coatings · 's-Hertogenbosch NL · parte din Baril Group", 'Mai puțină acoperire. Viață mai lungă. Impact mai mic.'],
-      de: ["© Baril Coatings · 's-Hertogenbosch NL · Teil der Baril Group", 'Weniger Beschichtung. Längere Lebensdauer. Geringere Auswirkung.'],
-      fr: ["© Baril Coatings · 's-Hertogenbosch NL · fait partie du groupe Baril", 'Moins de revêtement. Une durée de vie plus longue. Un impact moindre.'],
-      es: ["© Baril Coatings · 's-Hertogenbosch NL · parte de Baril Group", 'Menos recubrimiento. Mayor vida útil. Menor impacto.'],
-      it: ["© Baril Coatings · 's-Hertogenbosch NL · parte di Baril Group", 'Meno rivestimento. Vita più lunga. Minore impatto.'],
+      nl: ["© Baril Coatings · onderdeel van Baril Group", 'Minder coating. Langere levensduur. Lagere impact.'],
+      pl: ["© Baril Coatings · część Baril Group", 'Mniej powłoki. Dłuższa żywotność. Mniejszy wpływ.'],
+      ro: ["© Baril Coatings · parte din Baril Group", 'Mai puțină acoperire. Viață mai lungă. Impact mai mic.'],
+      de: ["© Baril Coatings · Teil der Baril Group", 'Weniger Beschichtung. Längere Lebensdauer. Geringere Auswirkung.'],
+      fr: ["© Baril Coatings · fait partie du groupe Baril", 'Moins de revêtement. Une durée de vie plus longue. Un impact moindre.'],
+      es: ["© Baril Coatings · parte de Baril Group", 'Menos recubrimiento. Mayor vida útil. Menor impacto.'],
+      it: ["© Baril Coatings · parte di Baril Group", 'Meno rivestimento. Vita più lunga. Minore impatto.'],
       tr: ['© Baril Coatings · \'s-Hertogenbosch NL · Baril Group\'un bir parçası', 'Daha az kaplama. Daha uzun ömür. Daha az etki.'] }]
   ];
 

@@ -212,14 +212,14 @@
       it: ['Prodotti','Colori','fairf.eu ↗'],
       tr: ['Ürünler','Renkler','fairf.eu ↗'] }],
     ['.foot-bottom span', {
-      nl: ["© Fairf · een merk van Baril Group · 's-Hertogenbosch NL", 'Vriendelijk voor jou en de planeet.'],
-      pl: ["© Fairf · marka Baril Group · 's-Hertogenbosch NL", 'Przyjazna dla Ciebie i planety.'],
-      ro: ["© Fairf · o marcă Baril Group · 's-Hertogenbosch NL", 'Blândă cu tine și cu planeta.'],
-      de: ["© Fairf · eine Marke der Baril Group · 's-Hertogenbosch NL", 'Freundlich zu dir und zum Planeten.'],
-      fr: ["© Fairf · une marque du groupe Baril · 's-Hertogenbosch NL", 'Douce pour vous et pour la planète.'],
-      es: ["© Fairf · una marca de Baril Group · 's-Hertogenbosch NL", 'Amable contigo y con el planeta.'],
-      it: ["© Fairf · un marchio di Baril Group · 's-Hertogenbosch NL", 'Gentile con te e con il pianeta.'],
-      tr: ["© Fairf · bir Baril Group markası · 's-Hertogenbosch NL", 'Sana ve gezegene dost.'] }]
+      nl: ["© Fairf · een merk van Baril Group", 'Vriendelijk voor jou en de planeet.'],
+      pl: ["© Fairf · marka Baril Group", 'Przyjazna dla Ciebie i planety.'],
+      ro: ["© Fairf · o marcă Baril Group", 'Blândă cu tine și cu planeta.'],
+      de: ["© Fairf · eine Marke der Baril Group", 'Freundlich zu dir und zum Planeten.'],
+      fr: ["© Fairf · une marque du groupe Baril", 'Douce pour vous et pour la planète.'],
+      es: ["© Fairf · una marca de Baril Group", 'Amable contigo y con el planeta.'],
+      it: ["© Fairf · un marchio di Baril Group", 'Gentile con te e con il pianeta.'],
+      tr: ["© Fairf · bir Baril Group markası", 'Sana ve gezegene dost.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');

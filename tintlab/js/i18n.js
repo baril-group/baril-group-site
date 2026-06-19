@@ -241,14 +241,14 @@
       it: ['RedLike™','Prestazioni','Paste coloranti','Applicazioni'],
       tr: ['RedLike™','Performans','Renk pastaları','Uygulamalar'] }],
     ['.foot-bottom span', {
-      nl: ["© TintLab · een merk van Baril Group · 's-Hertogenbosch NL",'Betrouwbare kleur. Industriële prestaties.'],
-      pl: ["© TintLab · marka Baril Group · 's-Hertogenbosch NL",'Niezawodny kolor. Przemysłowa wydajność.'],
-      ro: ["© TintLab · o marcă Baril Group · 's-Hertogenbosch NL",'Culoare fiabilă. Performanță industrială.'],
-      de: ["© TintLab · eine Marke der Baril Group · 's-Hertogenbosch NL",'Zuverlässige Farbe. Industrielle Leistung.'],
-      fr: ["© TintLab · une marque du groupe Baril · 's-Hertogenbosch NL",'Une couleur fiable. Une performance industrielle.'],
-      es: ["© TintLab · una marca de Baril Group · 's-Hertogenbosch NL",'Color fiable. Rendimiento industrial.'],
-      it: ["© TintLab · un marchio di Baril Group · 's-Hertogenbosch NL",'Colore affidabile. Prestazioni industriali.'],
-      tr: ["© TintLab · bir Baril Group markası · 's-Hertogenbosch NL",'Güvenilir renk. Endüstriyel performans.'] }]
+      nl: ["© TintLab · een merk van Baril Group",'Betrouwbare kleur. Industriële prestaties.'],
+      pl: ["© TintLab · marka Baril Group",'Niezawodny kolor. Przemysłowa wydajność.'],
+      ro: ["© TintLab · o marcă Baril Group",'Culoare fiabilă. Performanță industrială.'],
+      de: ["© TintLab · eine Marke der Baril Group",'Zuverlässige Farbe. Industrielle Leistung.'],
+      fr: ["© TintLab · une marque du groupe Baril",'Une couleur fiable. Une performance industrielle.'],
+      es: ["© TintLab · una marca de Baril Group",'Color fiable. Rendimiento industrial.'],
+      it: ["© TintLab · un marchio di Baril Group",'Colore affidabile. Prestazioni industriali.'],
+      tr: ["© TintLab · bir Baril Group markası",'Güvenilir renk. Endüstriyel performans.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');

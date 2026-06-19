@@ -203,14 +203,14 @@
       it: ['La gamma','Sostenibilità','copperant.com ↗'],
       tr: ['Ürün gamı','Sürdürülebilirlik','copperant.com ↗'] }],
     ['.foot-bottom span', {
-      nl: ["© Copperant · een merk van Baril Group · 's-Hertogenbosch NL", 'De groenste verf, zonder compromis.'],
-      pl: ["© Copperant · marka Baril Group · 's-Hertogenbosch NL", 'Najbardziej zielona farba, bez kompromisów.'],
-      ro: ["© Copperant · o marcă Baril Group · 's-Hertogenbosch NL", 'Cea mai verde vopsea, fără compromisuri.'],
-      de: ["© Copperant · eine Marke der Baril Group · 's-Hertogenbosch NL", 'Die grünste Farbe, ohne Kompromisse.'],
-      fr: ["© Copperant · une marque du groupe Baril · 's-Hertogenbosch NL", 'La peinture la plus verte, sans compromis.'],
-      es: ["© Copperant · una marca de Baril Group · 's-Hertogenbosch NL", 'La pintura más verde, sin concesiones.'],
-      it: ["© Copperant · un marchio di Baril Group · 's-Hertogenbosch NL", 'La vernice più verde, senza compromessi.'],
-      tr: ["© Copperant · bir Baril Group markası · 's-Hertogenbosch NL", 'En yeşil boya, ödün vermeden.'] }]
+      nl: ["© Copperant · een merk van Baril Group", 'De groenste verf, zonder compromis.'],
+      pl: ["© Copperant · marka Baril Group", 'Najbardziej zielona farba, bez kompromisów.'],
+      ro: ["© Copperant · o marcă Baril Group", 'Cea mai verde vopsea, fără compromisuri.'],
+      de: ["© Copperant · eine Marke der Baril Group", 'Die grünste Farbe, ohne Kompromisse.'],
+      fr: ["© Copperant · une marque du groupe Baril", 'La peinture la plus verte, sans compromis.'],
+      es: ["© Copperant · una marca de Baril Group", 'La pintura más verde, sin concesiones.'],
+      it: ["© Copperant · un marchio di Baril Group", 'La vernice più verde, senza compromessi.'],
+      tr: ["© Copperant · bir Baril Group markası", 'En yeşil boya, ödün vermeden.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');

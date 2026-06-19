@@ -274,14 +274,14 @@
       it: ['Come funziona','Caratteristiche','Applicazioni','Richiedi un campione'],
       tr: ['Nasıl çalışır','Özellikler','Uygulamalar','Numune talep edin'] }],
     ['.foot-bottom span', {
-      nl: ["© Nixol · een merk van Baril Group · 's-Hertogenbosch NL",'Heldere resultaten, seizoen na seizoen.'],
-      pl: ["© Nixol · marka Baril Group · 's-Hertogenbosch NL",'Czyste efekty, sezon po sezonie.'],
-      ro: ["© Nixol · o marcă Baril Group · 's-Hertogenbosch NL",'Rezultate clare, sezon după sezon.'],
-      de: ["© Nixol · eine Marke der Baril Group · 's-Hertogenbosch NL",'Klare Ergebnisse, Saison für Saison.'],
-      fr: ["© Nixol · une marque du groupe Baril · 's-Hertogenbosch NL",'Des résultats nets, saison après saison.'],
-      es: ["© Nixol · una marca de Baril Group · 's-Hertogenbosch NL",'Resultados claros, temporada tras temporada.'],
-      it: ["© Nixol · un marchio di Baril Group · 's-Hertogenbosch NL",'Risultati limpidi, stagione dopo stagione.'],
-      tr: ["© Nixol · bir Baril Group markası · 's-Hertogenbosch NL",'Berrak sonuçlar, sezon sezon üstüne.'] }]
+      nl: ["© Nixol · een merk van Baril Group",'Heldere resultaten, seizoen na seizoen.'],
+      pl: ["© Nixol · marka Baril Group",'Czyste efekty, sezon po sezonie.'],
+      ro: ["© Nixol · o marcă Baril Group",'Rezultate clare, sezon după sezon.'],
+      de: ["© Nixol · eine Marke der Baril Group",'Klare Ergebnisse, Saison für Saison.'],
+      fr: ["© Nixol · une marque du groupe Baril",'Des résultats nets, saison après saison.'],
+      es: ["© Nixol · una marca de Baril Group",'Resultados claros, temporada tras temporada.'],
+      it: ["© Nixol · un marchio di Baril Group",'Risultati limpidi, stagione dopo stagione.'],
+      tr: ["© Nixol · bir Baril Group markası",'Berrak sonuçlar, sezon sezon üstüne.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');

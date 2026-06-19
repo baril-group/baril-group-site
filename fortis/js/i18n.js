@@ -239,14 +239,14 @@
       it: ['Prodotti','Baril Group'],
       tr: ['Ürünler','Baril Group'] }],
     ['.foot-bottom span', {
-      nl: ["© Fortis · een merk van Baril Group · 's-Hertogenbosch NL",'IJzersterke bescherming voor metaal.'],
-      pl: ["© Fortis · marka Baril Group · 's-Hertogenbosch NL",'Żelazna ochrona metalu.'],
-      ro: ["© Fortis · o marcă Baril Group · 's-Hertogenbosch NL",'Protecție puternică pentru metal.'],
-      de: ["© Fortis · eine Marke der Baril Group · 's-Hertogenbosch NL",'Eisenstarker Schutz für Metall.'],
-      fr: ["© Fortis · une marque du groupe Baril · 's-Hertogenbosch NL",'Une protection à toute épreuve pour le métal.'],
-      es: ["© Fortis · una marca de Baril Group · 's-Hertogenbosch NL",'Protección a toda prueba para el metal.'],
-      it: ["© Fortis · un marchio di Baril Group · 's-Hertogenbosch NL",'Protezione a tutta prova per il metallo.'],
-      tr: ["© Fortis · bir Baril Group markası · 's-Hertogenbosch NL",'Metal için çelik gibi koruma.'] }]
+      nl: ["© Fortis · een merk van Baril Group",'IJzersterke bescherming voor metaal.'],
+      pl: ["© Fortis · marka Baril Group",'Żelazna ochrona metalu.'],
+      ro: ["© Fortis · o marcă Baril Group",'Protecție puternică pentru metal.'],
+      de: ["© Fortis · eine Marke der Baril Group",'Eisenstarker Schutz für Metall.'],
+      fr: ["© Fortis · une marque du groupe Baril",'Une protection à toute épreuve pour le métal.'],
+      es: ["© Fortis · una marca de Baril Group",'Protección a toda prueba para el metal.'],
+      it: ["© Fortis · un marchio di Baril Group",'Protezione a tutta prova per il metallo.'],
+      tr: ["© Fortis · bir Baril Group markası",'Metal için çelik gibi koruma.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');
