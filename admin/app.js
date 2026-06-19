@@ -11,7 +11,7 @@
   const BRANCH = 'main';
   const SITE_BASE = location.href.replace(/\/admin\/[^/]*$/, '/');
   const MEDIA = /\.(jpe?g|png|webp|gif|svg|mp4|webm|avif)(\?.*)?$/i;
-  const CLAUDE_MODEL = 'claude-opus-4-8';
+  const CLAUDE_MODEL = 'claude-sonnet-4-6';
   const LANGS = [['nl','Nederlands'],['de','Deutsch'],['fr','Français'],['es','Español'],['it','Italiano'],['pl','Polski'],['ro','Română']];
   const LANG_EN_NAME = {nl:'Dutch',de:'German',fr:'French',es:'Spanish',it:'Italian',pl:'Polish',ro:'Romanian'};
 
