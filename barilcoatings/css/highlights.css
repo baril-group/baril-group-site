@@ -45,7 +45,7 @@
   border:1px solid transparent;transition:.2s}
 .hl-rail a img{width:20px;height:13px;border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
 .hl-rail a:hover{color:var(--ink)}
-.hl-rail a.active{color:var(--ink);border-color:var(--orange);background:rgba(241,138,0,.12)}
+.hl-rail a.active{color:var(--green-950);border-color:var(--orange);background:var(--orange);font-weight:600}
 
 /* ---------- country section ---------- */
 .country{scroll-margin-top:60px}
@@ -72,11 +72,11 @@
   display:flex;align-items:flex-end;padding:0 24px clamp(34px,5vw,64px)}
 .project.flip .proj-inner{justify-content:flex-end;text-align:right}
 .proj-panel{max-width:560px}
-.proj-loc{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);
-  display:flex;align-items:center;gap:9px}
+.proj-loc{font-family:var(--mono);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);
+  display:flex;align-items:center;gap:11px}
+.proj-loc .loc-flag{width:26px;height:17px;border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,.3);flex:none}
 .project.flip .proj-loc{justify-content:flex-end}
-.proj-loc::before{content:"";width:26px;height:1px;background:currentColor;opacity:.7}
-.project.flip .proj-loc::before{order:2}
+.project.flip .proj-loc .loc-flag{order:2}
 .proj-panel h3{font-family:var(--display);font-weight:900;text-transform:uppercase;letter-spacing:.005em;
   font-size:clamp(26px,4.6vw,56px);line-height:1.02;margin:12px 0 14px}
 .proj-panel .desc{color:var(--ink);font-size:clamp(15px,1.7vw,18px);line-height:1.6;font-weight:400;
@@ -89,9 +89,10 @@
 .proj-systems .chips span{font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;color:var(--ink);
   border:1px solid var(--hairline);border-radius:99px;padding:6px 13px;
   background:rgba(3,21,15,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
-.proj-index{position:absolute;z-index:2;top:clamp(18px,3vw,34px);right:clamp(18px,3vw,34px);
-  font-family:var(--display);font-weight:900;font-size:clamp(40px,6vw,86px);line-height:1;color:rgba(234,246,240,.1)}
-.project.flip .proj-index{right:auto;left:clamp(18px,3vw,34px)}
+.proj-index{position:absolute;z-index:2;top:clamp(16px,2.6vw,30px);right:clamp(18px,3vw,40px);
+  font-family:var(--display);font-weight:900;text-transform:uppercase;letter-spacing:.01em;
+  font-size:clamp(22px,3.4vw,52px);line-height:1;color:rgba(234,246,240,.13)}
+.project.flip .proj-index{right:auto;left:clamp(18px,3vw,40px)}
 
 /* sound/mute toggle removed: loops are silent background */
 .proj-tag{position:absolute;z-index:2;top:clamp(18px,3vw,34px);left:clamp(18px,3vw,34px);
@@ -108,7 +109,7 @@
   .project.flip .proj-loc,.project.flip .proj-systems .chips{justify-content:flex-start}
   .project .proj-scrim,.project.flip .proj-scrim{background:
     linear-gradient(0deg,rgba(3,21,15,.94) 8%,rgba(3,21,15,.45) 55%,rgba(3,21,15,.15) 100%)}
-  .proj-index{display:none}
+  .proj-index,.project.flip .proj-index{font-size:18px;top:74px;right:20px;left:auto}
 }
 
 /* ---------- coming-soon teaser ---------- */
