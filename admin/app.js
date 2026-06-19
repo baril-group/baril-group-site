@@ -12,7 +12,8 @@
   const SITE_BASE = location.href.replace(/\/admin\/[^/]*$/, '/');
   const MEDIA = /\.(jpe?g|png|webp|gif|svg|mp4|webm|avif)(\?.*)?$/i;
   const CLAUDE_MODEL = 'claude-haiku-4-5-20251001';
-  const LANGS = [['nl','Nederlands'],['pl','Polski'],['ro','Română']];
+  const LANGS = [['nl','Nederlands'],['de','Deutsch'],['fr','Français'],['es','Español'],['it','Italiano'],['pl','Polski'],['ro','Română']];
+  const LANG_EN_NAME = {nl:'Dutch',de:'German',fr:'French',es:'Spanish',it:'Italian',pl:'Polish',ro:'Romanian'};
 
   const PAGES = [
     { key:'group',     label:'Baril Group (home)',          path:'index.html',                         dir:'',                     i18n:'js/i18n.js' },
@@ -54,9 +55,10 @@
   // ---------- Claude ----------
   async function claudeTranslate(en){
     const key=get(clKey); if(!key) throw new Error('Geen Anthropic-sleutel — log in.');
-    const sys="You translate short UI strings for the Baril Group brand websites. Keep ALL HTML tags and entities (e.g. <strong>, <br>, <em>, <span class=\"...\">, &amp;) exactly as in the source and translate only the human-readable text. Keep brand/product names (Baril, Copperant, Fairf, Nixol, TintLab, RedLike, Pura, ISO/RAL codes, ↗ arrows) unchanged. Match a concise, premium marketing tone. Output ONLY a JSON object with keys nl, pl, ro.";
-    const user="Translate to Dutch (nl), Polish (pl) and Romanian (ro):\n"+JSON.stringify(en);
-    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},body:JSON.stringify({model:CLAUDE_MODEL,max_tokens:1500,system:sys,messages:[{role:'user',content:user}]})});
+    const keys=LANGS.map(([c])=>c);
+    const sys="You translate short UI strings for the Baril Group brand websites. Keep ALL HTML tags and entities (e.g. <strong>, <br>, <em>, <span class=\"...\">, &amp;) exactly as in the source and translate only the human-readable text. Keep brand/product names (Baril, Copperant, Fairf, Nixol, TintLab, RedLike, Pura, ISO/RAL codes, award names, ↗ arrows) unchanged. Match a concise, premium marketing tone. Output ONLY a JSON object with keys "+keys.join(", ")+".";
+    const user="Translate to "+LANGS.map(([c])=>LANG_EN_NAME[c]+" ("+c+")").join(", ")+":\n"+JSON.stringify(en);
+    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},body:JSON.stringify({model:CLAUDE_MODEL,max_tokens:3000,system:sys,messages:[{role:'user',content:user}]})});
     if(!r.ok) throw new Error('Claude '+r.status+' '+(await r.text()).slice(0,160));
     const j=await r.json(); const txt=(j.content||[]).map(c=>c.text||'').join(''); const mm=txt.match(/\{[\s\S]*\}/); if(!mm) throw new Error('Geen JSON van Claude'); return JSON.parse(mm[0]);
   }
@@ -93,7 +95,7 @@
         if(c==='{'){ depth++; i++; continue; }
         if(depth===1){
           const km=/^([a-zA-Z_]+)\s*:\s*/.exec(js.slice(i,i+30));
-          if(km && /^(en|nl|pl|ro)$/.test(km[1])){ const key=km[1]; i+=km[0].length;
+          if(km && /^(en|nl|de|fr|es|it|pl|ro)$/.test(km[1])){ const key=km[1]; i+=km[0].length;
             if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); if(r){ langs[key]={kind:'string',items:[{value:r.value,start:r.innerStart,end:r.innerEnd}]}; i=r.end; continue; } }
             else if(js[i]==='['){ i++; const its=[]; while(i<js.length){ while(i<js.length&&/[\s,]/.test(js[i])) i++; if(js[i]===']'){ i++; break; } if(js[i]==='"'||js[i]==="'"){ const r=readString(js,i); its.push({value:r.value,start:r.innerStart,end:r.innerEnd}); i=r.end; } else i++; } langs[key]={kind:'array',items:its}; continue; }
           }
@@ -154,7 +156,7 @@
   function matches(it){
     if(filterCat!=='all'){ if(filterCat==='fld'){ if(it.cat!=='fld') return false; } else if(it.cat!==filterCat) return false; }
     if(extOnly && !it.external) return false;
-    if(q){ const hay=(it.cat==='fld')?[it.en,it.nl,it.pl,it.ro].join(' '):String(it.value); if(!hay.toLowerCase().includes(q)&&!String(it.source||'').toLowerCase().includes(q)) return false; }
+    if(q){ const hay=(it.cat==='fld')?[it.en,...LANGS.map(([c])=>it[c])].join(' '):String(it.value); if(!hay.toLowerCase().includes(q)&&!String(it.source||'').toLowerCase().includes(q)) return false; }
     return true;
   }
 
@@ -163,7 +165,7 @@
     const secs=PAGES.map(p=>{ const st=store[p.key]; if(!st) return '';
       if(st.error) return `<section class="pagesec" id="sec-${p.key}"><h2>${p.label}</h2><p class="pgnote" style="color:var(--red)">Kon niet laden: ${esc(st.error)}</p></section>`;
       let body='';
-      const groups=[['text','Teksten',st.items.filter(i=>i.cat==='text')],['image','Afbeeldingen',st.items.filter(i=>i.cat==='image')],['link','Links',st.items.filter(i=>i.cat==='link')],['fld','Vertaalbare teksten (EN + NL/PL/RO)',st.fields||[]]];
+      const groups=[['text','Teksten',st.items.filter(i=>i.cat==='text')],['image','Afbeeldingen',st.items.filter(i=>i.cat==='image')],['link','Links',st.items.filter(i=>i.cat==='link')],['fld','Vertaalbare teksten (EN + '+LANGS.map(([c])=>c.toUpperCase()).join('/')+')',st.fields||[]]];
       for(const [cat,glabel,list] of groups){ const vis=list.filter(matches); total+=list.length; shown+=vis.length; if(!vis.length) continue;
         body+=`<div class="grp">${glabel} · ${vis.length}</div>`+vis.map(it=>cat==='fld'?fieldHTML(p.key,it):htmlItemHTML(p.key,it)).join(''); }
       if(!body) return '';
@@ -184,18 +186,18 @@
     const fields=[]; let idx=0;
     for(const e of entries){
       let domEls=[]; if(doc){ try{ domEls=[...doc.querySelectorAll(e.selector)]; }catch(err){} }
-      const count=Math.max(e.langs.nl?e.langs.nl.items.length:0, e.langs.pl?e.langs.pl.items.length:0, e.langs.ro?e.langs.ro.items.length:0, e.langs.en?e.langs.en.items.length:0, 1);
-      const isArray=(e.langs.nl&&e.langs.nl.kind==='array');
+      const langKeys=LANGS.map(([c])=>c);
+      const count=Math.max(...langKeys.map(c=>e.langs[c]?e.langs[c].items.length:0), e.langs.en?e.langs.en.items.length:0, 1);
+      const firstLang=langKeys.find(c=>e.langs[c]);
+      const isArray=!!(firstLang && e.langs[firstLang].kind==='array');
       for(let j=0;j<count;j++){
         const enFromDict=e.langs.en?(e.langs.en.items[j]?e.langs.en.items[j].value:null):null;
         const enFromDom=domEls[j]?domEls[j].innerHTML:null;
         const f={ idx:idx++, selector:e.selector, jdx:j, isArray,
           en: (enFromDict!=null?enFromDict:(enFromDom!=null?enFromDom:'')),
           enEditable: !isArray,  // inline EN editing only for single-value fields in v1
-          nl: e.langs.nl&&e.langs.nl.items[j]?e.langs.nl.items[j].value:null,
-          pl: e.langs.pl&&e.langs.pl.items[j]?e.langs.pl.items[j].value:null,
-          ro: e.langs.ro&&e.langs.ro.items[j]?e.langs.ro.items[j].value:null,
           external:false };
+        for(const c of langKeys){ f[c]= e.langs[c]&&e.langs[c].items[j]?e.langs[c].items[j].value:null; }
         fields.push(f);
       }
     }
