@@ -11,7 +11,7 @@
   const BRANCH = 'main';
   const SITE_BASE = location.href.replace(/\/admin\/[^/]*$/, '/');
   const MEDIA = /\.(jpe?g|png|webp|gif|svg|mp4|webm|avif)(\?.*)?$/i;
-  const CLAUDE_MODEL = 'claude-haiku-4-5-20251001';
+  const CLAUDE_MODEL = 'claude-opus-4-8';
   const LANGS = [['nl','Nederlands'],['de','Deutsch'],['fr','Français'],['es','Español'],['it','Italiano'],['pl','Polski'],['ro','Română']];
   const LANG_EN_NAME = {nl:'Dutch',de:'German',fr:'French',es:'Spanish',it:'Italian',pl:'Polish',ro:'Romanian'};
 
@@ -193,7 +193,7 @@
       for(let j=0;j<count;j++){
         const enFromDict=e.langs.en?(e.langs.en.items[j]?e.langs.en.items[j].value:null):null;
         const enFromDom=domEls[j]?domEls[j].innerHTML:null;
-        const f={ idx:idx++, selector:e.selector, jdx:j, isArray,
+        const f={ cat:'fld', idx:idx++, selector:e.selector, jdx:j, isArray,
           en: (enFromDict!=null?enFromDict:(enFromDom!=null?enFromDom:'')),
           enEditable: !isArray,  // inline EN editing only for single-value fields in v1
           external:false };
