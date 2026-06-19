@@ -72,10 +72,7 @@ a{color:inherit}
 
 /* hero */
 header#top{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;padding:140px 0 70px;overflow:hidden}
-.hero-photo{position:absolute;inset:0;z-index:0;background:
-  radial-gradient(120% 95% at 82% 8%, rgba(231,163,58,.22), transparent 52%),
-  radial-gradient(90% 80% at 12% 100%, rgba(47,182,164,.20), transparent 60%),
-  linear-gradient(155deg,#103a35 0%, #0E2A28 38%, #0B1413 78%)}
+.hero-photo{position:absolute;inset:0;z-index:0;background:url('../assets/img/hero.jpg') center/cover no-repeat}
 .hero-logo{display:flex;align-items:center;gap:14px;margin:0 0 22px}
 .hero-logo img{height:58px;width:auto;display:block}
 @media(max-width:768px){.hero-logo{margin-bottom:16px}.hero-logo img{height:44px}}
