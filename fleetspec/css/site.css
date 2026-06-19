@@ -184,3 +184,16 @@ footer a:hover{opacity:1;color:var(--accent)}
 .hero-logo .wm{font-size:46px}
 .foot-logo .wm{font-size:20px}
 @media(max-width:768px){.hero-logo .wm{font-size:34px}}
+
+/* Light header bar — the official fleetspec logo needs a light background to read */
+#nav{background:#fff;box-shadow:0 1px 0 rgba(16,20,28,.10)}
+#nav.scrolled{background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 8px 24px -16px rgba(16,20,28,.55)}
+.logo img{height:30px}
+.grouplink{color:#5a6270}
+.navtoggle{color:#1b1f27}
+.langflags .lang-toggle .lang-caret{color:#1b1f27}
+.langflags .lang-toggle .flag-current{box-shadow:0 0 0 1px rgba(0,0,0,.16)}
+@media(min-width:901px){
+  .navlinks a{color:#1b1f27;opacity:.78}
+  .navlinks a:hover{opacity:1;color:var(--accent)}
+}
