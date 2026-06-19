@@ -1007,3 +1007,5 @@ footer{
 .langflags .lang-menu button:hover{background:rgba(255,255,255,.08);opacity:1;transform:none}
 .langflags .lang-menu button.active{background:rgba(255,255,255,.12);opacity:1;font-weight:600}
 @media(max-width:900px){.langflags .lang-menu{right:auto;left:0}}
+
+.foot-disclaimer{margin-top:18px;font-size:12px;line-height:1.6;color:var(--muted);opacity:.85;max-width:72ch}
