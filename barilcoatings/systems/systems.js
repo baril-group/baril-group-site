@@ -43,7 +43,7 @@
     const set = (id, html) => { const e = document.getElementById(id); if (e) e.innerHTML = html; };
     set('t-eyebrow', t.eyebrow); set('t-h1', t.h1); set('t-lead', t.lead);
     if (searchEl) searchEl.placeholder = t.search;
-    if (flagBox) [...flagBox.children].forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    if (flagBox) { flagBox.querySelectorAll('button[data-lang]').forEach(b => b.classList.toggle('active', b.dataset.lang === lang)); const cur = flagBox.querySelector('.flag-current'), src = flagBox.querySelector('button[data-lang="' + lang + '"] .flag'); if (cur && src) cur.src = src.getAttribute('src'); }
   }
 
   function sysCard(s, color) {
@@ -134,6 +134,8 @@
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
     lang = b.dataset.lang; if (!T[lang]) lang = 'en';
     try { localStorage.setItem('baril-coatings-lang', lang); } catch (e) {}
+    const lm = document.getElementById('langMenu'), lt = document.getElementById('langToggle');
+    if (lm) lm.classList.remove('open'); if (lt) lt.setAttribute('aria-expanded', 'false');
     applyChrome(); if (DATA) { buildChips(); render(); }
   }));
 

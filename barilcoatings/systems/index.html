@@ -27,10 +27,13 @@
     <a href="../cases/">Cases</a>
   </div>
   <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
-    <button type="button" data-lang="nl" title="Nederlands" aria-label="Nederlands"><img class="flag" src="../assets/img/flags/nl.svg" alt="" width="22" height="15"></button>
-    <button type="button" data-lang="en" title="English" aria-label="English"><img class="flag" src="../assets/img/flags/en.svg" alt="" width="22" height="15"></button>
-    <button type="button" data-lang="pl" title="Polski" aria-label="Polski"><img class="flag" src="../assets/img/flags/pl.svg" alt="" width="22" height="15"></button>
-    <button type="button" data-lang="ro" title="Română" aria-label="Română"><img class="flag" src="../assets/img/flags/ro.svg" alt="" width="22" height="15"></button>
+    <button type="button" class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false" aria-label="Taal / Language"><img class="flag flag-current" src="../assets/img/flags/en.svg" alt="" width="24" height="16"><span class="lang-caret" aria-hidden="true">▾</span></button>
+    <div class="lang-menu" id="langMenu" role="menu">
+      <button type="button" data-lang="nl" role="menuitem"><img class="flag" src="../assets/img/flags/nl.svg" alt="" width="22" height="15"><span>Nederlands</span></button>
+      <button type="button" data-lang="en" role="menuitem"><img class="flag" src="../assets/img/flags/en.svg" alt="" width="22" height="15"><span>English</span></button>
+      <button type="button" data-lang="pl" role="menuitem"><img class="flag" src="../assets/img/flags/pl.svg" alt="" width="22" height="15"><span>Polski</span></button>
+      <button type="button" data-lang="ro" role="menuitem"><img class="flag" src="../assets/img/flags/ro.svg" alt="" width="22" height="15"><span>Română</span></button>
+    </div>
   </div>
   <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
