@@ -27,7 +27,7 @@
 
   "bioH2": { "en": "From barrel<br>to bio", "nl": "Van vat<br>naar bio" },
   "bioIntro": {
-    "en": "Every liter of paint is chemistry: binder, solvent, pigment, additives. For a century that chemistry was crude-oil based — the binder, and more often than not the solvent too. We are converting both to renewable and circular raw materials: from less than 10% in 2022 to 55% today, on our way to 100% in 2030.",
+    "en": "Every liter of paint is chemistry: binder, solvent, pigment, additives. For a century that chemistry was crude-oil based — the binder, and more often than not the solvent too. We are converting both to renewable and circular raw materials: from less than 10% in 2022 to 55% today, on our way to 100% by 2030.",
     "nl": "Elke liter verf is chemie: bindmiddel, oplosmiddel, pigment, additieven. Een eeuw lang was die chemie gebaseerd op ruwe olie — het bindmiddel, en vaak ook het oplosmiddel. Wij zetten beide om naar hernieuwbare en circulaire grondstoffen: van minder dan 10% in 2022 naar 55% vandaag, op weg naar 100% in 2030."
   },
 
@@ -45,8 +45,8 @@
 
   "localH2": { "en": "Made close<br>to home", "nl": "Dichtbij huis<br>gemaakt" },
   "localIntro": {
-    "en": "Crude-derived chemistry crosses the planet before it reaches a paint can. Plant-based and residual-stream feedstocks shorten the chain: grown, processed and applied in the same region. We produce close to our markets — 's-Hertogenbosch and the United States — on our own solar and wind power, with a fully electric fleet and inclusive hiring as policy, not project.",
-    "nl": "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch en de Verenigde Staten — op eigen zonne- en windenergie, met een volledig elektrisch wagenpark en inclusief werkgeverschap als beleid, niet als project."
+    "en": "Crude-derived chemistry crosses the planet before it reaches a paint can. Plant-based and residual-stream feedstocks shorten the chain: grown, processed and applied in the same region. We produce close to our markets — 's-Hertogenbosch and the United States — on our own solar and wind power, with an electric and hybrid fleet and inclusive hiring as policy, not project.",
+    "nl": "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch en de Verenigde Staten — op eigen zonne- en windenergie, met een elektrisch en hybride wagenpark en inclusief werkgeverschap als beleid, niet als project."
   },
 
   "worldH2": { "en": "Growing greener,<br>worldwide", "nl": "Steeds groener,<br>wereldwijd" },

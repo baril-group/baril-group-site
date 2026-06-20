@@ -219,7 +219,27 @@
       fr: ["© Fairf · une marque du groupe Baril", 'Douce pour vous et pour la planète.'],
       es: ["© Fairf · una marca de Baril Group", 'Amable contigo y con el planeta.'],
       it: ["© Fairf · un marchio di Baril Group", 'Gentile con te e con il pianeta.'],
-      tr: ["© Fairf · bir Baril Group markası", 'Sana ve gezegene dost.'] }]
+      tr: ["© Fairf · bir Baril Group markası", 'Sana ve gezegene dost.'] }],
+
+    ['#certs .eyebrow', { nl: 'Certificeringen &amp; testen', pl: 'Certyfikaty i testy', ro: 'Certificări și teste', de: 'Zertifizierungen &amp; Tests', fr: 'Certifications et tests', es: 'Certificaciones y pruebas', it: 'Certificazioni e test', tr: 'Sertifikalar &amp; testler' }],
+    ['#certs h2', {
+      nl: 'Getest, <span class="rain">gecertificeerd</span>, veilig',
+      pl: 'Przetestowana, <span class="rain">certyfikowana</span>, bezpieczna',
+      ro: 'Testată, <span class="rain">certificată</span>, sigură',
+      de: 'Getestet, <span class="rain">zertifiziert</span>, sicher',
+      fr: 'Testée, <span class="rain">certifiée</span>, sûre',
+      es: 'Probada, <span class="rain">certificada</span>, segura',
+      it: 'Testata, <span class="rain">certificata</span>, sicura',
+      tr: 'Test edildi, <span class="rain">sertifikalı</span>, güvenli' }],
+    ['#certs .lead', {
+      nl: 'Onafhankelijk getest en gecertificeerd — zo is "vrij van schadelijke stoffen" meer dan een belofte. EU Ecolabel-gecertificeerd, een A+ lage-emissieklasse, en getest als veilig voor gebruik op kinderspeelgoed en meubels.',
+      pl: 'Niezależnie przetestowana i certyfikowana — dzięki temu „wolna od szkodliwych substancji" to coś więcej niż obietnica. Certyfikat EU Ecolabel, klasa niskiej emisji A+ oraz przetestowana jako bezpieczna do stosowania na zabawkach i meblach dziecięcych.',
+      ro: 'Testată și certificată independent — astfel "fără substanțe nocive" înseamnă mai mult decât o promisiune. Certificată EU Ecolabel, o clasă de emisii reduse A+ și testată ca sigură pentru utilizarea pe jucării și mobilier pentru copii.',
+      de: 'Unabhängig getestet und zertifiziert — so ist "frei von schädlichen Stoffen" mehr als ein Versprechen. EU-Ecolabel-zertifiziert, eine A+-Klasse für niedrige Emissionen und getestet als sicher für die Anwendung auf Kinderspielzeug und Möbeln.',
+      fr: 'Testée et certifiée de manière indépendante — ainsi « sans substances nocives » est plus qu\'une promesse. Certifiée EU Ecolabel, classe A+ à faibles émissions et testée sûre pour une utilisation sur les jouets et meubles pour enfants.',
+      es: 'Probada y certificada de forma independiente — así "libre de sustancias nocivas" es más que una promesa. Certificada con EU Ecolabel, una clase A+ de bajas emisiones y probada como segura para su uso en juguetes y muebles infantiles.',
+      it: 'Testata e certificata in modo indipendente — così "priva di sostanze nocive" è più di una promessa. Certificata EU Ecolabel, una classe A+ a basse emissioni e testata come sicura per l\'uso su giocattoli e mobili per bambini.',
+      tr: 'Bağımsız olarak test edildi ve sertifikalandı — böylece "zararlı maddelerden arındırılmış" bir vaatten daha fazlası. EU Ecolabel sertifikalı, A+ düşük emisyon sınıfı ve çocuk oyuncakları ile mobilyalarda kullanım için güvenli olduğu test edildi.' }]
   ];
 
   const flagBox = document.getElementById('langflags');

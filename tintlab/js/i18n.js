@@ -93,14 +93,14 @@
       it: 'Ogni formula, <span class="red">a peso</span>',
       tr: 'Her formül, <span class="red">ağırlıkça</span>' }],
     ['#system .lead', {
-      nl: 'TintLab wordt ondersteund door RedLike™ — gebruiksvriendelijke online software om kleurformules op te zoeken, met toegang tot duizenden kleuren uit Fleetowner-, NCS-, RAL- en OEM-standaarden wereldwijd.',
-      pl: 'TintLab jest wspierany przez RedLike™ — przyjazne oprogramowanie online do wyszukiwania receptur kolorów, z dostępem do tysięcy kolorów ze standardów Fleetowner, NCS, RAL i OEM na całym świecie.',
-      ro: 'TintLab este susținut de RedLike™ — software online ușor de utilizat pentru căutarea formulelor de culoare, cu acces la mii de culori din standardele Fleetowner, NCS, RAL și OEM din întreaga lume.',
-      de: 'TintLab wird durch RedLike™ unterstützt — benutzerfreundliche Online-Software zum Nachschlagen von Farbformeln, mit Zugriff auf tausende Farben aus Fleetowner-, NCS-, RAL- und OEM-Standards weltweit.',
-      fr: 'TintLab est soutenu par RedLike™ — un logiciel en ligne convivial pour rechercher des formules de couleur, avec accès à des milliers de couleurs des standards Fleetowner, NCS, RAL et OEM dans le monde entier.',
-      es: 'TintLab cuenta con el respaldo de RedLike™ — un software online fácil de usar para buscar fórmulas de color, con acceso a miles de colores de los estándares Fleetowner, NCS, RAL y OEM de todo el mundo.',
-      it: 'TintLab è supportato da RedLike™ — un software online intuitivo per cercare le formule colore, con accesso a migliaia di colori degli standard Fleetowner, NCS, RAL e OEM di tutto il mondo.',
-      tr: 'TintLab, RedLike™ tarafından desteklenir — dünya genelindeki Fleetowner, NCS, RAL ve OEM standartlarından binlerce renge erişimle, renk formüllerini aramak için kullanıcı dostu çevrimiçi yazılım.' }],
+      nl: 'TintLab wordt ondersteund door RedLike™ — gebruiksvriendelijke online software om kleurformules op te zoeken, met toegang tot duizenden kleuren uit NCS-, RAL- en OEM-standaarden wereldwijd.',
+      pl: 'TintLab jest wspierany przez RedLike™ — przyjazne oprogramowanie online do wyszukiwania receptur kolorów, z dostępem do tysięcy kolorów ze standardów NCS, RAL i OEM na całym świecie.',
+      ro: 'TintLab este susținut de RedLike™ — software online ușor de utilizat pentru căutarea formulelor de culoare, cu acces la mii de culori din standardele NCS, RAL și OEM din întreaga lume.',
+      de: 'TintLab wird durch RedLike™ unterstützt — benutzerfreundliche Online-Software zum Nachschlagen von Farbformeln, mit Zugriff auf tausende Farben aus NCS-, RAL- und OEM-Standards weltweit.',
+      fr: 'TintLab est soutenu par RedLike™ — un logiciel en ligne convivial pour rechercher des formules de couleur, avec accès à des milliers de couleurs des standards NCS, RAL et OEM dans le monde entier.',
+      es: 'TintLab cuenta con el respaldo de RedLike™ — un software online fácil de usar para buscar fórmulas de color, con acceso a miles de colores de los estándares NCS, RAL y OEM de todo el mundo.',
+      it: 'TintLab è supportato da RedLike™ — un software online intuitivo per cercare le formule colore, con accesso a migliaia di colori degli standard NCS, RAL e OEM di tutto il mondo.',
+      tr: 'TintLab, RedLike™ tarafından desteklenir — dünya genelindeki NCS, RAL ve OEM standartlarından binlerce renge erişimle, renk formüllerini aramak için kullanıcı dostu çevrimiçi yazılım.' }],
     ['#system .badge', { nl: 'Handmatig &amp; automatisch mengen', pl: 'Mieszanie ręczne i automatyczne', ro: 'Amestecare manuală și automată', de: 'Manuelles &amp; automatisches Mischen', fr: 'Mélange manuel et automatique', es: 'Mezcla manual y automática', it: 'Miscelazione manuale e automatica', tr: 'Manuel &amp; otomatik karıştırma' }],
     ['#system .split-list span', {
       nl: ['Zoek en match kleuren op je computer, tablet of telefoon.','Kleuren worden nauwkeurig op gewicht gemengd, voor strakke toleranties.','Sla klantspecifieke formules op; ontvang regelmatig database-updates.'],
@@ -248,7 +248,27 @@
       fr: ["© TintLab · une marque du groupe Baril",'Une couleur fiable. Une performance industrielle.'],
       es: ["© TintLab · una marca de Baril Group",'Color fiable. Rendimiento industrial.'],
       it: ["© TintLab · un marchio di Baril Group",'Colore affidabile. Prestazioni industriali.'],
-      tr: ["© TintLab · bir Baril Group markası",'Güvenilir renk. Endüstriyel performans.'] }]
+      tr: ["© TintLab · bir Baril Group markası",'Güvenilir renk. Endüstriyel performans.'] }],
+
+    ['#certs .eyebrow', { nl: 'Certificeringen &amp; keurmerken', pl: 'Certyfikaty i znaki jakości', ro: 'Certificări și mărci de calitate', de: 'Zertifizierungen &amp; Gütesiegel', fr: 'Certifications et labels', es: 'Certificaciones y sellos', it: 'Certificazioni e marchi', tr: 'Sertifikalar &amp; kalite işaretleri' }],
+    ['#certs h2', {
+      nl: 'Kwaliteit, milieu <span class="red">&amp; veiligheid</span>',
+      pl: 'Jakość, środowisko <span class="red">i bezpieczeństwo</span>',
+      ro: 'Calitate, mediu <span class="red">și siguranță</span>',
+      de: 'Qualität, Umwelt <span class="red">&amp; Sicherheit</span>',
+      fr: 'Qualité, environnement <span class="red">et sécurité</span>',
+      es: 'Calidad, medio ambiente <span class="red">y seguridad</span>',
+      it: 'Qualità, ambiente <span class="red">e sicurezza</span>',
+      tr: 'Kalite, çevre <span class="red">&amp; güvenlik</span>' }],
+    ['#certs .lead', {
+      nl: 'Ontwikkeld en geproduceerd binnen de gecertificeerde managementsystemen van Baril Group.',
+      pl: 'Opracowana i produkowana w certyfikowanych systemach zarządzania Baril Group.',
+      ro: 'Dezvoltată și produsă în cadrul sistemelor de management certificate ale Baril Group.',
+      de: 'Entwickelt und produziert innerhalb der zertifizierten Managementsysteme der Baril Group.',
+      fr: 'Développé et produit dans le cadre des systèmes de management certifiés du groupe Baril.',
+      es: 'Desarrollado y producido dentro de los sistemas de gestión certificados de Baril Group.',
+      it: 'Sviluppato e prodotto nell\'ambito dei sistemi di gestione certificati di Baril Group.',
+      tr: 'Baril Group\'un sertifikalı yönetim sistemleri kapsamında geliştirildi ve üretildi.' }]
   ];
 
   const flagBox = document.getElementById('langflags');
