@@ -131,10 +131,25 @@ function parsePaintsystems(html) {
 }
 async function syncPaintsystems() {
   const out = {};
+  const EXTRA = ['en', 'pl', 'ro'];
   for (const line of PS_LINES) {
-    try { const html = await get(`${DATA_BASE}/nl/paintsystems/baril/${line}-paintsystems`); const s = parsePaintsystems(html); if (s.length) { out[line] = s; console.log('  paintsystems', line + ':', s.length); } }
-    catch (e) { /* none */ }
-    await sleep(120);
+    let base;
+    try { base = parsePaintsystems(await get(`${DATA_BASE}/nl/paintsystems/baril/${line}-paintsystems`)); }
+    catch (e) { await sleep(120); continue; }
+    if (!base.length) { await sleep(120); continue; }
+    const byId = Object.fromEntries(base.map(s => [s.id, s]));
+    for (const lang of EXTRA) {
+      try {
+        for (const s of parsePaintsystems(await get(`${DATA_BASE}/${lang}/paintsystems/baril/${line}-paintsystems`))) {
+          const b = byId[s.id]; if (!b) continue;
+          if (s.name) b['name_' + lang] = s.name;
+          if (s.durability) b['durability_' + lang] = s.durability;
+          (s.steps || []).forEach((st, i) => { if (b.steps[i]) { if (st.layer) b.steps[i]['layer_' + lang] = st.layer; if (st.product) b.steps[i]['product_' + lang] = st.product; } });
+        }
+      } catch (e) { /* language variant missing */ }
+      await sleep(120);
+    }
+    out[line] = base; console.log('  paintsystems', line + ':', base.length, '· EN:', base.filter(s => s.durability_en || s.name_en).length);
   }
   return out;
 }

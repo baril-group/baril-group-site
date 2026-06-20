@@ -12,7 +12,13 @@
             "layer": "Laag 1",
             "product": "171i2 DualCure SX DTM Finish 60",
             "thickness": "80μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 1",
+            "product_en": "171i2 DualCure SX DTM Finish 60",
+            "layer_pl": "Layer 1",
+            "product_pl": "171i2 DualCure SX DTM Finish 60",
+            "layer_ro": "Layer 1",
+            "product_ro": "171i2 DualCure SX DTM Finish 60"
           }
         ],
         "totalThickness": "80μm",
@@ -78,7 +84,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/48"
           }
-        ]
+        ],
+        "name_en": "DualCure C1/C2 VH High Speed 60 171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C1/C2 VH High Speed 60 171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C1/C2 VH High Speed 60 171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "198",
@@ -89,7 +101,13 @@
             "layer": "Laag 1",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 1",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 1",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "80μm",
@@ -155,7 +173,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/198"
           }
-        ]
+        ],
+        "name_en": "DualCure C1/C2 VH High Speed 60 173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C1/C2 VH High Speed 60 173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C1/C2 VH High Speed 60 173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "50",
@@ -166,7 +190,13 @@
             "layer": "Laag 1",
             "product": "174i2 DualCure SX Finish 90",
             "thickness": "100μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 1",
+            "product_en": "174i2 DualCure SX Finish 90",
+            "layer_pl": "Layer 1",
+            "product_pl": "174i2 DualCure SX Finish 90",
+            "layer_ro": "Layer 1",
+            "product_ro": "174i2 DualCure SX Finish 90"
           }
         ],
         "totalThickness": "100μm",
@@ -232,7 +262,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/50"
           }
-        ]
+        ],
+        "name_en": "DualCure C1/C2 VH High Speed 90 174i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C1/C2 VH High Speed 90 174i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C1/C2 VH High Speed 90 174i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "15",
@@ -243,7 +279,13 @@
             "layer": "Laag 1",
             "product": "178i2DTM DualCure DTM Finish 60",
             "thickness": "80μm",
-            "drytime": "00:20"
+            "drytime": "00:20",
+            "layer_en": "Layer 1",
+            "product_en": "178i2DTM DualCure DTM Finish 60",
+            "layer_pl": "Layer 1",
+            "product_pl": "178i2DTM DualCure DTM Finish 60",
+            "layer_ro": "Layer 1",
+            "product_ro": "178i2DTM DualCure DTM Finish 60"
           }
         ],
         "totalThickness": "80μm",
@@ -309,7 +351,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/15"
           }
-        ]
+        ],
+        "name_en": "DualCure C1/C2 VH Ultra High Speed 30 178i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C1/C2 VH Ultra High Speed 30 178i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C1/C2 VH Ultra High Speed 30 178i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "58",
@@ -320,7 +368,13 @@
             "layer": "Laag 1",
             "product": "171i2 DualCure SX DTM Finish 60",
             "thickness": "90μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 1",
+            "product_en": "171i2 DualCure SX DTM Finish 60",
+            "layer_pl": "Layer 1",
+            "product_pl": "171i2 DualCure SX DTM Finish 60",
+            "layer_ro": "Layer 1",
+            "product_ro": "171i2 DualCure SX DTM Finish 60"
           }
         ],
         "totalThickness": "90μm",
@@ -386,7 +440,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/58"
           }
-        ]
+        ],
+        "name_en": "DualCure C3 VH High Speed 60 171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C3 VH High Speed 60 171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C3 VH High Speed 60 171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "59",
@@ -397,7 +457,13 @@
             "layer": "Laag 1",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "90μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 1",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 1",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "90μm",
@@ -463,7 +529,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/59"
           }
-        ]
+        ],
+        "name_en": "DualCure C3 VH 60 173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C3 VH 60 173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C3 VH 60 173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "57",
@@ -474,7 +546,13 @@
             "layer": "Laag 1",
             "product": "178i2DTM DualCure DTM Finish 60",
             "thickness": "90μm",
-            "drytime": "00:20"
+            "drytime": "00:20",
+            "layer_en": "Layer 1",
+            "product_en": "178i2DTM DualCure DTM Finish 60",
+            "layer_pl": "Layer 1",
+            "product_pl": "178i2DTM DualCure DTM Finish 60",
+            "layer_ro": "Layer 1",
+            "product_ro": "178i2DTM DualCure DTM Finish 60"
           }
         ],
         "totalThickness": "90μm",
@@ -540,7 +618,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/57"
           }
-        ]
+        ],
+        "name_en": "DualCure C3 VH Ultra High Speed 30 178i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C3 VH Ultra High Speed 30 178i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C3 VH Ultra High Speed 30 178i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "60",
@@ -551,13 +635,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "174i2 DualCure SX Finish 90",
             "thickness": "60μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "174i2 DualCure SX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "174i2 DualCure SX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "174i2 DualCure SX Finish 90"
           }
         ],
         "totalThickness": "120μm",
@@ -623,7 +719,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/60"
           }
-        ]
+        ],
+        "name_en": "DualCure C3 VH High Speed 90 306X-174i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C3 VH High Speed 90 306X-174i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C3 VH High Speed 90 306X-174i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "61",
@@ -634,13 +736,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "180i2 DualCure LX Finish 90",
             "thickness": "60μm",
-            "drytime": "06:00"
+            "drytime": "06:00",
+            "layer_en": "Layer 2",
+            "product_en": "180i2 DualCure LX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "180i2 DualCure LX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "180i2 DualCure LX Finish 90"
           }
         ],
         "totalThickness": "120μm",
@@ -706,7 +820,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/61"
           }
-        ]
+        ],
+        "name_en": "DualCure C3 VH 90 306X-180i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C3 VH 90 306X-180i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C3 VH 90 306X-180i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "63",
@@ -717,13 +837,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "171i2 DualCure SX DTM Finish 60",
             "thickness": "60μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "171i2 DualCure SX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "171i2 DualCure SX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "171i2 DualCure SX DTM Finish 60"
           }
         ],
         "totalThickness": "120μm",
@@ -789,7 +921,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/63"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH High Speed 60 306X-171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH High Speed 60 306X-171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH High Speed 60 306X-171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "502",
@@ -800,13 +938,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "178i2DTM DualCure DTM Finish 60",
             "thickness": "60μm",
-            "drytime": "00:15"
+            "drytime": "00:15",
+            "layer_en": "Layer 2",
+            "product_en": "178i2DTM DualCure DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "178i2DTM DualCure DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "178i2DTM DualCure DTM Finish 60"
           }
         ],
         "totalThickness": "120μm",
@@ -872,7 +1022,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/502"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH High Speed 60 306X-178i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH High Speed 60 306X-178i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH High Speed 60 306X-178i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "65",
@@ -883,13 +1039,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "120μm",
@@ -955,7 +1123,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/65"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH 60 306X-173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH 60 306X-173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH 60 306X-173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "67",
@@ -966,13 +1140,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "174i2 DualCure SX Finish 90",
             "thickness": "60μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "174i2 DualCure SX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "174i2 DualCure SX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "174i2 DualCure SX Finish 90"
           }
         ],
         "totalThickness": "120μm",
@@ -1038,7 +1224,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/67"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH High Speed 90 306X-174i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH High Speed 90 306X-174i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH High Speed 90 306X-174i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "69",
@@ -1049,13 +1241,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "60μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "180i2 DualCure LX Finish 90",
             "thickness": "60μm",
-            "drytime": "12:00"
+            "drytime": "12:00",
+            "layer_en": "Layer 2",
+            "product_en": "180i2 DualCure LX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "180i2 DualCure LX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "180i2 DualCure LX Finish 90"
           }
         ],
         "totalThickness": "120μm",
@@ -1121,7 +1325,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/69"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH 90 306X-180i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH 90 306X-180i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH 90 306X-180i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "62",
@@ -1132,13 +1342,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "60μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "171i2 DualCure SX DTM Finish 60",
             "thickness": "60μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "171i2 DualCure SX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "171i2 DualCure SX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "171i2 DualCure SX DTM Finish 60"
           }
         ],
         "totalThickness": "120μm",
@@ -1204,7 +1426,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/62"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH Galvanized High Speed 60 604-171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH Galvanized High Speed 60 604-171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH Galvanized High Speed 60 604-171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "64",
@@ -1215,13 +1443,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "60μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "120μm",
@@ -1287,7 +1527,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/64"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH Galvanized 60 604-173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH Galvanized 60 604-173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH Galvanized 60 604-173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "66",
@@ -1298,13 +1544,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "60μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "174i2 DualCure SX Finish 90",
             "thickness": "60μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "174i2 DualCure SX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "174i2 DualCure SX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "174i2 DualCure SX Finish 90"
           }
         ],
         "totalThickness": "120μm",
@@ -1370,7 +1628,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/66"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH Galvanized 90 604-174i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH Galvanized 90 604-174i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH Galvanized 90 604-174i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "68",
@@ -1381,13 +1645,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "60μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "180i2 DualCure LX Finish 90",
             "thickness": "60μm",
-            "drytime": "12:00"
+            "drytime": "12:00",
+            "layer_en": "Layer 2",
+            "product_en": "180i2 DualCure LX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "180i2 DualCure LX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "180i2 DualCure LX Finish 90"
           }
         ],
         "totalThickness": "120μm",
@@ -1453,7 +1729,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/68"
           }
-        ]
+        ],
+        "name_en": "DualCure C4 VH Galvanized 90 604-180i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C4 VH Galvanized 90 604-180i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C4 VH Galvanized 90 604-180i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "148",
@@ -1464,13 +1746,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "100μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "171i2 DualCure SX DTM Finish 60",
             "thickness": "100μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "171i2 DualCure SX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "171i2 DualCure SX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "171i2 DualCure SX DTM Finish 60"
           }
         ],
         "totalThickness": "200μm",
@@ -1536,7 +1830,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/148"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH High Speed 60 306X-171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH High Speed 60 306X-171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH High Speed 60 306X-171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "197",
@@ -1547,13 +1847,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "100μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "200μm",
@@ -1619,7 +1931,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/197"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH 60 306X-173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH 60 306X-173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH 60 306X-173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "150",
@@ -1630,13 +1948,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "100μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "174i2 DualCure SX Finish 90",
             "thickness": "100μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "174i2 DualCure SX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "174i2 DualCure SX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "174i2 DualCure SX Finish 90"
           }
         ],
         "totalThickness": "200μm",
@@ -1702,7 +2032,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/150"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH High Speed 90 306X-174i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH High Speed 90 306X-174i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH High Speed 90 306X-174i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "151",
@@ -1713,13 +2049,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "100μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "180i2 DualCure LX Finish 90",
             "thickness": "100μm",
-            "drytime": "12:00"
+            "drytime": "12:00",
+            "layer_en": "Layer 2",
+            "product_en": "180i2 DualCure LX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "180i2 DualCure LX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "180i2 DualCure LX Finish 90"
           }
         ],
         "totalThickness": "200μm",
@@ -1785,7 +2133,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/151"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH 90 306X-180i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH 90 306X-180i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH 90 306X-180i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "152",
@@ -1796,13 +2150,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "100μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "171i2 DualCure SX DTM Finish 60",
             "thickness": "100μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "171i2 DualCure SX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "171i2 DualCure SX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "171i2 DualCure SX DTM Finish 60"
           }
         ],
         "totalThickness": "200μm",
@@ -1868,7 +2234,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/152"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH Galvanized High Speed 60 604-171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH Galvanized High Speed 60 604-171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH Galvanized High Speed 60 604-171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "153",
@@ -1879,13 +2251,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "100μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "200μm",
@@ -1951,7 +2335,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/153"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH Galvanized 60 604-173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH Galvanized 60 604-173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH Galvanized 60 604-173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "154",
@@ -1962,13 +2352,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "100μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "174i2 DualCure SX Finish 90",
             "thickness": "100μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "174i2 DualCure SX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "174i2 DualCure SX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "174i2 DualCure SX Finish 90"
           }
         ],
         "totalThickness": "200μm",
@@ -2034,7 +2436,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/154"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH Galvanized High Speed 90 604-174i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH Galvanized High Speed 90 604-174i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH Galvanized High Speed 90 604-174i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "155",
@@ -2045,13 +2453,25 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "100μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "180i2 DualCure LX Finish 90",
             "thickness": "100μm",
-            "drytime": "12:00"
+            "drytime": "12:00",
+            "layer_en": "Layer 2",
+            "product_en": "180i2 DualCure LX Finish 90",
+            "layer_pl": "Layer 2",
+            "product_pl": "180i2 DualCure LX Finish 90",
+            "layer_ro": "Layer 2",
+            "product_ro": "180i2 DualCure LX Finish 90"
           }
         ],
         "totalThickness": "200μm",
@@ -2117,7 +2537,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/155"
           }
-        ]
+        ],
+        "name_en": "DualCure C5 VH Galvanized 90 604-180i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure C5 VH Galvanized 90 604-180i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure C5 VH Galvanized 90 604-180i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "156",
@@ -2128,13 +2554,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "100μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "171i2RWS Dualcure Monocoat RWS",
             "thickness": "100μm",
-            "drytime": "01:00"
+            "drytime": "01:00",
+            "layer_en": "Layer 2",
+            "product_en": "171i2RWS Dualcure Monocoat RWS",
+            "layer_pl": "Layer 2",
+            "product_pl": "171i2RWS Dualcure Monocoat RWS",
+            "layer_ro": "Layer 2",
+            "product_ro": "171i2RWS Dualcure Monocoat RWS"
           }
         ],
         "totalThickness": "200μm",
@@ -2200,7 +2638,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/156"
           }
-        ]
+        ],
+        "name_en": "DualCure CX VH NORSOK 60 306X-171i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure CX VH NORSOK 60 306X-171i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure CX VH NORSOK 60 306X-171i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "196",
@@ -2211,13 +2655,25 @@
             "layer": "Laag 1",
             "product": "306X Dualcure ZRU Primer",
             "thickness": "100μm",
-            "drytime": "00:30"
+            "drytime": "00:30",
+            "layer_en": "Layer 1",
+            "product_en": "306X Dualcure ZRU Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "306X Dualcure ZRU Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "306X Dualcure ZRU Primer"
           },
           {
             "layer": "Laag 2",
             "product": "173i2 DualCure LX DTM Finish 60",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "173i2 DualCure LX DTM Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "173i2 DualCure LX DTM Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "173i2 DualCure LX DTM Finish 60"
           }
         ],
         "totalThickness": "200μm",
@@ -2283,7 +2739,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/196"
           }
-        ]
+        ],
+        "name_en": "DualCure CX VH NORSOK 60 306X-173i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure CX VH NORSOK 60 306X-173i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure CX VH NORSOK 60 306X-173i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "157",
@@ -2294,13 +2756,25 @@
             "layer": "Laag 1",
             "product": "348 DualCure RX Primer",
             "thickness": "100μm",
-            "drytime": "00:45"
+            "drytime": "00:45",
+            "layer_en": "Layer 1",
+            "product_en": "348 DualCure RX Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "348 DualCure RX Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "348 DualCure RX Primer"
           },
           {
             "layer": "Laag 2",
             "product": "172i2 Dualcure RX Finish 60",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "172i2 Dualcure RX Finish 60",
+            "layer_pl": "Layer 2",
+            "product_pl": "172i2 Dualcure RX Finish 60",
+            "layer_ro": "Layer 2",
+            "product_ro": "172i2 Dualcure RX Finish 60"
           }
         ],
         "totalThickness": "200μm",
@@ -2366,7 +2840,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/157"
           }
-        ]
+        ],
+        "name_en": "DualCure Maintenance 60 348-172i2",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "DualCure Maintenance 60 348-172i2",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "DualCure Maintenance 60 348-172i2",
+        "durability_ro": "Foarte mare > 25 de ani"
       }
     ],
     "steelkote": [
@@ -2379,7 +2859,13 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "90μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           }
         ],
         "totalThickness": "90μm",
@@ -2445,7 +2931,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/203"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 L 802BIO",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C1/C2 L 802BIO",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C1/C2 L 802BIO",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "199",
@@ -2456,7 +2948,13 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "80μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           }
         ],
         "totalThickness": "80μm",
@@ -2522,7 +3020,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/199"
           }
-        ]
+        ],
+        "name_en": "SteelKote BIO C1/C2 L 803BIO",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote BIO C1/C2 L 803BIO",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote BIO C1/C2 L 803BIO",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "204",
@@ -2533,7 +3037,13 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "90μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           }
         ],
         "totalThickness": "90μm",
@@ -2599,7 +3109,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/204"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 M 802BIO",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C1/C2 M 802BIO",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C1/C2 M 802BIO",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "200",
@@ -2610,7 +3126,13 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "80μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           }
         ],
         "totalThickness": "80μm",
@@ -2676,7 +3198,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/200"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 M 803BIO",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C1/C2 M 803BIO",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C1/C2 M 803BIO",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "205",
@@ -2687,7 +3215,13 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "120μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           }
         ],
         "totalThickness": "120μm",
@@ -2753,7 +3287,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/205"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 H 802BIO",
+        "durability_en": "High 15 – 25 years",
+        "name_pl": "SteelKote C1/C2 H 802BIO",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C1/C2 H 802BIO",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "201",
@@ -2764,7 +3304,13 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           }
         ],
         "totalThickness": "100μm",
@@ -2830,7 +3376,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/201"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 H 803BIO",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote C1/C2 H 803BIO",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C1/C2 H 803BIO",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "206",
@@ -2841,7 +3393,13 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "140μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           }
         ],
         "totalThickness": "140μm",
@@ -2907,7 +3465,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/206"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 VH 802BIO",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C1/C2 VH 802BIO",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C1/C2 VH 802BIO",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "202",
@@ -2918,7 +3482,13 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "120μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           }
         ],
         "totalThickness": "120μm",
@@ -2984,7 +3554,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/202"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 VH 803BIO",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C1/C2 VH 803BIO",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C1/C2 VH 803BIO",
+        "durability_ro": "Foarte mare >25 ani"
       },
       {
         "id": "208",
@@ -2995,13 +3571,25 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "90μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "150μm",
@@ -3067,7 +3655,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/208"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 L 802BIO-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C3 L 802BIO-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C3 L 802BIO-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "207",
@@ -3078,13 +3672,25 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "80μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "140μm",
@@ -3150,7 +3756,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/207"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 L 803BIO-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C3 L 803BIO-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C3 L 803BIO-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "209",
@@ -3161,13 +3773,25 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "90μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "150μm",
@@ -3233,7 +3857,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/209"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 M 802BIO-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C3 M 802BIO-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C3 M 802BIO-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "210",
@@ -3244,13 +3874,25 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "80μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "140μm",
@@ -3316,7 +3958,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/210"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 M 803BIO-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C3 M 803BIO-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C3 M 803BIO-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "211",
@@ -3327,13 +3975,25 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "120μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "180μm",
@@ -3399,7 +4059,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/211"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 H 802BIO-808",
+        "durability_en": "High 15 – 25 years",
+        "name_pl": "SteelKote C3 H 802BIO-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C3 H 802BIO-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "212",
@@ -3410,13 +4076,25 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "160μm",
@@ -3482,7 +4160,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/212"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 H 803BIO-808",
+        "durability_en": "High 15 – 25 years",
+        "name_pl": "SteelKote C3 H 803BIO-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C3 H 803BIO-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "213",
@@ -3493,13 +4177,25 @@
             "layer": "Laag 1",
             "product": "802BIO SteelKote EP",
             "thickness": "140μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "802BIO SteelKote EP",
+            "layer_pl": "Layer 1",
+            "product_pl": "802BIO SteelKote EP",
+            "layer_ro": "Layer 1",
+            "product_ro": "802BIO SteelKote EP"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "220μm",
@@ -3565,7 +4261,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/213"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 VH 802BIO-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C3 VH 802BIO-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C3 VH 802BIO-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "214",
@@ -3576,13 +4278,25 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "120μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "200μm",
@@ -3648,7 +4362,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/214"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 VH 803BIO-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C3 VH 803BIO-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C3 VH 803BIO-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "216",
@@ -3659,13 +4379,25 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "120μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "200μm",
@@ -3731,7 +4463,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/216"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 L 803BIO-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C4 L 803BIO-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C4 L 803BIO-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "218",
@@ -3742,13 +4480,25 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "120μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "200μm",
@@ -3814,7 +4564,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/218"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 M 803BIO-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C4 M 803BIO-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C4 M 803BIO-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "220",
@@ -3825,19 +4581,37 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "80μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "80μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 2",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 2",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 2",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "220μm",
@@ -3903,7 +4677,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/220"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 H 803BIO-803BIO-808",
+        "durability_en": "High 15 – 25 years",
+        "name_pl": "SteelKote C4 H 803BIO-803BIO-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C4 H 803BIO-803BIO-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "222",
@@ -3914,19 +4694,37 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 2",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 2",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 2",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "280μm",
@@ -3992,7 +4790,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/222"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 VH 803BIO-803BIO-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C4 VH 803BIO-803BIO-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C4 VH 803BIO-803BIO-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "224",
@@ -4003,19 +4807,37 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 2",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 2",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 2",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "260μm",
@@ -4081,7 +4903,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/224"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 L 803BIO-803BIO-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C5 L 803BIO-803BIO-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C5 L 803BIO-803BIO-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "226",
@@ -4092,19 +4920,37 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 2",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 2",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 2",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "260μm",
@@ -4170,7 +5016,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/226"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 M 803BIO-803BIO-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C5 M 803BIO-803BIO-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C5 M 803BIO-803BIO-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "228",
@@ -4181,19 +5033,37 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "100μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 2",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 2",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 2",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "280μm",
@@ -4259,7 +5129,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/228"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 H 803BIO-803BIO-808",
+        "durability_en": "High 15 – 25 years",
+        "name_pl": "SteelKote C5 H 803BIO-803BIO-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C5 H 803BIO-803BIO-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "230",
@@ -4270,19 +5146,37 @@
             "layer": "Laag 1",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "120μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 1",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 1",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 1",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 2",
             "product": "803BIO SteelKote EP AC+",
             "thickness": "120μm",
-            "drytime": "04:00"
+            "drytime": "04:00",
+            "layer_en": "Layer 2",
+            "product_en": "803BIO SteelKote EP AC+",
+            "layer_pl": "Layer 2",
+            "product_pl": "803BIO SteelKote EP AC+",
+            "layer_ro": "Layer 2",
+            "product_ro": "803BIO SteelKote EP AC+"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "340μm",
@@ -4348,7 +5242,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/230"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 VH 803BIO-803BIO-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C5 VH 803BIO-803BIO-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C5 VH 803BIO-803BIO-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "190",
@@ -4359,7 +5259,13 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           }
         ],
         "totalThickness": "60μm",
@@ -4425,7 +5331,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/190"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 L 804",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C1/C2 L 804",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C1/C2 L 804",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "109",
@@ -4436,7 +5348,13 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           }
         ],
         "totalThickness": "60μm",
@@ -4502,7 +5420,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/109"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 M 804",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C1/C2 M 804",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C1/C2 M 804",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "110",
@@ -4513,7 +5437,13 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           }
         ],
         "totalThickness": "80μm",
@@ -4579,7 +5509,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/110"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 H 804",
+        "durability_en": "High 15 – 25 years",
+        "name_pl": "SteelKote C1/C2 H 804",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C1/C2 H 804",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "111",
@@ -4590,7 +5526,13 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           }
         ],
         "totalThickness": "100μm",
@@ -4656,7 +5598,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/111"
           }
-        ]
+        ],
+        "name_en": "SteelKote C1/C2 VH 804",
+        "durability_en": "Very high >25 years",
+        "name_pl": "SteelKote C1/C2 VH 804",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C1/C2 VH 804",
+        "durability_ro": "Foarte mare >25 ani"
       },
       {
         "id": "191",
@@ -4667,13 +5615,25 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "120μm",
@@ -4739,7 +5699,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/191"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 L 804-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C3 L 804-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C3 L 804-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "121",
@@ -4750,13 +5716,25 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "120μm",
@@ -4822,7 +5800,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/121"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 M 804-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C3 M 804-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C3 M 804-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "122",
@@ -4833,13 +5817,25 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "140μm",
@@ -4905,7 +5901,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/122"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 H 804-808",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote C3 H 804-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C3 H 804-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "123",
@@ -4916,13 +5918,25 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "180μm",
@@ -4988,7 +6002,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/123"
           }
-        ]
+        ],
+        "name_en": "SteelKote C3 VH 804-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C3 VH 804-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C3 VH 804-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "192",
@@ -4999,13 +6019,25 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "180μm",
@@ -5071,7 +6103,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/192"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 L 804-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C4 L 804-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C4 L 804-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "193",
@@ -5082,7 +6120,13 @@
             "layer": "Laag 1",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 1",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 1",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "80μm",
@@ -5148,7 +6192,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/193"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 L 808 Galvanized",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C4 L 808 Galvanized",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C4 L 808 Galvanized",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "130",
@@ -5159,13 +6209,25 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "180μm",
@@ -5231,7 +6293,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/130"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 M 804-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C4 M 804-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C4 M 804-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "139",
@@ -5242,13 +6310,25 @@
             "layer": "Laag 1",
             "product": "806 SteelKote EP Miox",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 1",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 1",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "140μm",
@@ -5314,7 +6394,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/139"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 M 806-808 Galvanized",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C4 M 806-808 Galvanized",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C4 M 806-808 Galvanized",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "131",
@@ -5325,19 +6411,37 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 2",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 2",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "200μm",
@@ -5403,7 +6507,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/131"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 H 804-804-808",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote C4 H 804-804-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C4 H 804-804-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "140",
@@ -5414,13 +6524,25 @@
             "layer": "Laag 1",
             "product": "806 SteelKote EP Miox",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 1",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 1",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "160μm",
@@ -5486,7 +6608,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/140"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 H 806-808 Galvanized",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote C4 H 806-808 Galvanized",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C4 H 806-808 Galvanized",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "132",
@@ -5497,19 +6625,37 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 2",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 2",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "260μm",
@@ -5575,7 +6721,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/132"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 VH 804-804-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C4 VH 804-804-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C4 VH 804-804-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "141",
@@ -5586,13 +6738,25 @@
             "layer": "Laag 1",
             "product": "806 SteelKote EP Miox",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 1",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 1",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "200μm",
@@ -5658,7 +6822,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/141"
           }
-        ]
+        ],
+        "name_en": "SteelKote C4 VH 806-808 Galvanized",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C4 VH 806-808 Galvanized",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C4 VH 806-808 Galvanized",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "194",
@@ -5669,19 +6839,37 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 2",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 2",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "220μm",
@@ -5747,7 +6935,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/194"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 L 804-804-808",
+        "durability_en": "Low < 7 years",
+        "name_pl": "SteelKote C5 L 804-804-808",
+        "durability_pl": "Niska < 7 lat",
+        "name_ro": "SteelKote C5 L 804-804-808",
+        "durability_ro": "Scăzut < 7 ani"
       },
       {
         "id": "158",
@@ -5758,19 +6952,37 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 2",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 2",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "220μm",
@@ -5836,7 +7048,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/158"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 M 804-804-808",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C5 M 804-804-808",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C5 M 804-804-808",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "161",
@@ -5847,13 +7065,25 @@
             "layer": "Laag 1",
             "product": "806 SteelKote EP Miox",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 1",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 1",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "60μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "160μm",
@@ -5919,7 +7149,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/161"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 M 806-808 Galvanized",
+        "durability_en": "Medium 7-15 years",
+        "name_pl": "SteelKote C5 M 806-808 Galvanized",
+        "durability_pl": "Średnia 7 - 15 lat",
+        "name_ro": "SteelKote C5 M 806-808 Galvanized",
+        "durability_ro": "Mediu 7-15 ani"
       },
       {
         "id": "159",
@@ -5930,19 +7166,37 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 2",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 2",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "260μm",
@@ -6008,7 +7262,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/159"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 H 804-804-808",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote C5 H 804-804-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C5 H 804-804-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "162",
@@ -6019,13 +7279,25 @@
             "layer": "Laag 1",
             "product": "806 SteelKote EP Miox",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 1",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 1",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "180μm",
@@ -6091,7 +7363,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/162"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 H 806-808 Galvanized",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote C5 H 806-808 Galvanized",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote C5 H 806-808 Galvanized",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "160",
@@ -6102,19 +7380,37 @@
             "layer": "Laag 1",
             "product": "804 SteelKote EP Universal",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 1",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 1",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 2",
             "product": "804 SteelKote EP Universal",
             "thickness": "120μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "804 SteelKote EP Universal",
+            "layer_pl": "Layer 2",
+            "product_pl": "804 SteelKote EP Universal",
+            "layer_ro": "Layer 2",
+            "product_ro": "804 SteelKote EP Universal"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "320μm",
@@ -6180,7 +7476,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/160"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 VH 804-804-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C5 VH 804-804-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C5 VH 804-804-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "163",
@@ -6191,13 +7493,25 @@
             "layer": "Laag 1",
             "product": "806 SteelKote EP Miox",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 1",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 1",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 2",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 2",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 2",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "200μm",
@@ -6263,7 +7577,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/163"
           }
-        ]
+        ],
+        "name_en": "SteelKote C5 VH 806-808 Galvanized",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote C5 VH 806-808 Galvanized",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote C5 VH 806-808 Galvanized",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "168",
@@ -6274,19 +7594,37 @@
             "layer": "Laag 1",
             "product": "805 SteelKote EP ZN HS",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "805 SteelKote EP ZN HS",
+            "layer_pl": "Layer 1",
+            "product_pl": "805 SteelKote EP ZN HS",
+            "layer_ro": "Layer 1",
+            "product_ro": "805 SteelKote EP ZN HS"
           },
           {
             "layer": "Laag 2",
             "product": "806 SteelKote EP Miox",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 2",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 2",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "80μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "260μm",
@@ -6352,7 +7690,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/168"
           }
-        ]
+        ],
+        "name_en": "SteelKote CX H 805-806-808",
+        "durability_en": "High 15 - 25 years",
+        "name_pl": "SteelKote CX H 805-806-808",
+        "durability_pl": "Wysoka 15 - 25 lat",
+        "name_ro": "SteelKote CX H 805-806-808",
+        "durability_ro": "Mare 15 - 25 de ani"
       },
       {
         "id": "169",
@@ -6363,19 +7707,37 @@
             "layer": "Laag 1",
             "product": "805 SteelKote EP ZN HS",
             "thickness": "100μm",
-            "drytime": "03:00"
+            "drytime": "03:00",
+            "layer_en": "Layer 1",
+            "product_en": "805 SteelKote EP ZN HS",
+            "layer_pl": "Layer 1",
+            "product_pl": "805 SteelKote EP ZN HS",
+            "layer_ro": "Layer 1",
+            "product_ro": "805 SteelKote EP ZN HS"
           },
           {
             "layer": "Laag 2",
             "product": "806 SteelKote EP Miox",
             "thickness": "120μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "806 SteelKote EP Miox",
+            "layer_pl": "Layer 2",
+            "product_pl": "806 SteelKote EP Miox",
+            "layer_ro": "Layer 2",
+            "product_ro": "806 SteelKote EP Miox"
           },
           {
             "layer": "Laag 3",
             "product": "808 SteelKote PC HS UV+",
             "thickness": "100μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "808 SteelKote PC HS UV+",
+            "layer_pl": "Layer 3",
+            "product_pl": "808 SteelKote PC HS UV+",
+            "layer_ro": "Layer 3",
+            "product_ro": "808 SteelKote PC HS UV+"
           }
         ],
         "totalThickness": "320μm",
@@ -6441,7 +7803,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/169"
           }
-        ]
+        ],
+        "name_en": "SteelKote CX VH 805-806-808",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote CX VH 805-806-808",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote CX VH 805-806-808",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "173",
@@ -6452,13 +7820,25 @@
             "layer": "Laag 1",
             "product": "815 SteelKote IM Mastic AL",
             "thickness": "225μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 1",
+            "product_en": "815 SteelKote IM Mastic AL",
+            "layer_pl": "Layer 1",
+            "product_pl": "815 SteelKote IM Mastic AL",
+            "layer_ro": "Layer 1",
+            "product_ro": "815 SteelKote IM Mastic AL"
           },
           {
             "layer": "Laag 2",
             "product": "816 SteelKote IM Mastic Miox",
             "thickness": "225μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "816 SteelKote IM Mastic Miox",
+            "layer_pl": "Layer 2",
+            "product_pl": "816 SteelKote IM Mastic Miox",
+            "layer_ro": "Layer 2",
+            "product_ro": "816 SteelKote IM Mastic Miox"
           }
         ],
         "totalThickness": "450μm",
@@ -6524,7 +7904,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/173"
           }
-        ]
+        ],
+        "name_en": "SteelKote IM VH NORSOK M501 7B 815-816",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote IM VH NORSOK M501 7B 815-816",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote IM VH NORSOK M501 7B 815-816",
+        "durability_ro": "Foarte mare > 25 de ani"
       },
       {
         "id": "174",
@@ -6535,19 +7921,37 @@
             "layer": "Laag 1",
             "product": "604 DualCure Iso Primer",
             "thickness": "80μm",
-            "drytime": "00:40"
+            "drytime": "00:40",
+            "layer_en": "Layer 1",
+            "product_en": "604 DualCure Iso Primer",
+            "layer_pl": "Layer 1",
+            "product_pl": "604 DualCure Iso Primer",
+            "layer_ro": "Layer 1",
+            "product_ro": "604 DualCure Iso Primer"
           },
           {
             "layer": "Laag 2",
             "product": "814 SteelKote IM TR",
             "thickness": "175μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 2",
+            "product_en": "814 SteelKote IM TR",
+            "layer_pl": "Layer 2",
+            "product_pl": "814 SteelKote IM TR",
+            "layer_ro": "Layer 2",
+            "product_ro": "814 SteelKote IM TR"
           },
           {
             "layer": "Laag 3",
             "product": "814 SteelKote IM TR",
             "thickness": "175μm",
-            "drytime": "08:00"
+            "drytime": "08:00",
+            "layer_en": "Layer 3",
+            "product_en": "814 SteelKote IM TR",
+            "layer_pl": "Layer 3",
+            "product_pl": "814 SteelKote IM TR",
+            "layer_ro": "Layer 3",
+            "product_ro": "814 SteelKote IM TR"
           }
         ],
         "totalThickness": "430μm",
@@ -6613,7 +8017,13 @@
             "label": "Zweeds",
             "url": "https://data.barilcoatings.com/sv/paintsystems/datasheet/174"
           }
-        ]
+        ],
+        "name_en": "SteelKote IM VH NORSOK M501 7B 604-814-814",
+        "durability_en": "Very high > 25 years",
+        "name_pl": "SteelKote IM VH NORSOK M501 7B 604-814-814",
+        "durability_pl": "Bardzo wysoka > 25 lat",
+        "name_ro": "SteelKote IM VH NORSOK M501 7B 604-814-814",
+        "durability_ro": "Foarte mare > 25 de ani"
       }
     ]
   }

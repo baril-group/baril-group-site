@@ -42,8 +42,8 @@
   const flagBox = document.getElementById('langflags');
   let DATA = null, activeBrand = 'all';
   const activeAttr = {};
-  let lang; try { lang = localStorage.getItem('baril-coatings-lang') || 'nl'; } catch (e) { lang = 'nl'; }
-  if (!T[lang]) lang = 'nl';
+  let lang; try { lang = localStorage.getItem('baril-coatings-lang') || 'en'; } catch (e) { lang = 'nl'; }
+  if (!T[lang]) lang = 'en';
 
   const el = (tag, cls, txt) => { const n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; };
   const nm = p => lang === 'nl' ? p.name : (p['name_' + lang] || p.name);
@@ -207,7 +207,7 @@
   }
 
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
-    lang = b.dataset.lang; if (!T[lang]) lang = 'nl';
+    lang = b.dataset.lang; if (!T[lang]) lang = 'en';
     try { localStorage.setItem('baril-coatings-lang', lang); } catch (e) {}
     applyChrome(); buildChips(); render();
   }));

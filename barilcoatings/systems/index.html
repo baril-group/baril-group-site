@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baril Coatings — Verfsystemen</title>
+<title>Baril Coatings — Coating systems</title>
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
-<meta name="description" content="Verfsystemen van Baril Coatings: complete opbouw per toepassing (lagen, laagdikte, droogtijd, duurzaamheid) met datasheets in meerdere talen.">
+<meta name="description" content="Coating systems from Baril Coatings: complete build-up per application (layers, film thickness, drying time, durability) with datasheets in multiple languages.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Open+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
@@ -21,10 +21,16 @@
   <a class="logo" href="../" aria-label="Baril Coatings"><img src="../assets/img/logo-baril-coatings.svg" alt="Baril Coatings"></a>
   <a class="grouplink" href="../../" style="margin-left:14px;margin-right:auto;font-family:var(--mono),monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.6;text-decoration:none">Part of Baril Group ↗</a>
   <div class="navlinks">
-    <a href="../products/">Producten</a>
-    <a href="./" class="active">Verfsystemen</a>
-    <a href="../markten/">Markten</a>
+    <a href="../products/">Products</a>
+    <a href="./" class="active">Coating systems</a>
+    <a href="../markten/">Markets</a>
     <a href="../cases/">Cases</a>
+  </div>
+  <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
+    <button type="button" data-lang="nl" title="Nederlands" aria-label="Nederlands"><img class="flag" src="../assets/img/flags/nl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="en" title="English" aria-label="English"><img class="flag" src="../assets/img/flags/en.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="pl" title="Polski" aria-label="Polski"><img class="flag" src="../assets/img/flags/pl.svg" alt="" width="22" height="15"></button>
+    <button type="button" data-lang="ro" title="Română" aria-label="Română"><img class="flag" src="../assets/img/flags/ro.svg" alt="" width="22" height="15"></button>
   </div>
   <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
@@ -34,20 +40,20 @@
     <div class="cat-hero-bg" style="background-image:url('../assets/img/OWN-lab.jpg')"></div>
     <div class="cat-hero-tint"></div>
     <div class="cat-hero-inner">
-      <p class="eyebrow">Verfsystemen · Baril Coatings</p>
-      <h1>Complete <span class="paint">opbouw</span></h1>
-      <p class="pcat-lead">Beproefde verfsystemen per toepassing — laag voor laag, met laagdikte, droogtijd en duurzaamheidsklasse, plus de systeem-datasheet in meerdere talen.</p>
+      <p class="eyebrow" id="t-eyebrow">Coating systems · Baril Coatings</p>
+      <h1 id="t-h1">Complete <span class="paint">build-up</span></h1>
+      <p class="pcat-lead" id="t-lead">Proven coating systems per application — layer by layer, with film thickness, drying time and durability class, plus the system datasheet in multiple languages.</p>
       <div class="pcat-meta">
-        <span><strong id="genDate">—</strong> · bijgewerkt</span>
+        <span><strong id="genDate">—</strong> · updated</span>
         <span class="dot"></span>
-        <span>Datasheets in meerdere talen</span>
+        <span>Datasheets in multiple languages</span>
       </div>
     </div>
   </header>
 
   <div class="wrap">
     <div class="pcontrols">
-      <input type="search" id="ssearch" class="psearch" placeholder="Zoek een systeem (naam, product, klasse)…" aria-label="Zoek systemen">
+      <input type="search" id="ssearch" class="psearch" placeholder="Search a system (name, product, class)…" aria-label="Search systems">
       <div class="pchips" id="schips"></div>
     </div>
     <p class="pcount" id="scount"></p>
@@ -55,7 +61,7 @@
   </div>
 
   <div class="cat-foot wrap">
-    <p>Systeeminformatie © Baril Coatings. Datasheets openen rechtstreeks vanuit de Baril-database in de gekozen taal.</p>
+    <p>System information © Baril Coatings. Datasheets open directly from the Baril database in the chosen language.</p>
   </div>
 </main>
 
