@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baril Coatings — Markten</title>
+<title>Baril Coatings — Markets</title>
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
-<meta name="description" content="De marktsegmenten van Baril Coatings: constructie & infra, gebouwen & onderhoud, industrie & machinebouw, marine & offshore.">
+<meta name="description" content="The market segments of Baril Coatings: construction & infrastructure, buildings & maintenance, industry & engineering, marine & offshore.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Open+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
@@ -21,10 +21,19 @@
   <a class="logo" href="../" aria-label="Baril Coatings"><img src="../assets/img/logo-baril-coatings.svg" alt="Baril Coatings"></a>
   <a class="grouplink" href="../../" style="margin-left:14px;margin-right:auto;font-family:var(--mono),monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.6;text-decoration:none">Part of Baril Group ↗</a>
   <div class="navlinks">
-    <a href="../products/">Producten</a>
-    <a href="../systems/">Verfsystemen</a>
-    <a href="./" class="active">Markten</a>
+    <a href="../products/">Products</a>
+    <a href="../systems/">Coating systems</a>
+    <a href="./" class="active">Markets</a>
     <a href="../cases/">Cases</a>
+  </div>
+  <div class="langflags" id="langflags" role="group" aria-label="Taal / Language">
+    <button type="button" class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false" aria-label="Taal / Language"><img class="flag flag-current" src="../assets/img/flags/en.svg" alt="" width="24" height="16"><span class="lang-caret" aria-hidden="true">▾</span></button>
+    <div class="lang-menu" id="langMenu" role="menu">
+      <button type="button" data-lang="nl" role="menuitem"><img class="flag" src="../assets/img/flags/nl.svg" alt="" width="22" height="15"><span>Nederlands</span></button>
+      <button type="button" data-lang="en" role="menuitem"><img class="flag" src="../assets/img/flags/en.svg" alt="" width="22" height="15"><span>English</span></button>
+      <button type="button" data-lang="pl" role="menuitem"><img class="flag" src="../assets/img/flags/pl.svg" alt="" width="22" height="15"><span>Polski</span></button>
+      <button type="button" data-lang="ro" role="menuitem"><img class="flag" src="../assets/img/flags/ro.svg" alt="" width="22" height="15"><span>Română</span></button>
+    </div>
   </div>
   <button class="navtoggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
 </nav>
@@ -34,11 +43,11 @@
     <div class="cat-hero-bg" style="background-image:url('../assets/img/OWN-painter.jpg')"></div>
     <div class="cat-hero-tint"></div>
     <div class="cat-hero-inner">
-      <p class="eyebrow">Markten · Baril Coatings</p>
-      <h1>Onze <span class="paint">markten</span></h1>
-      <p class="pcat-lead">Voor elk segment de juiste bescherming — met de toepassingsgebieden, eigenschappen en praktijkcases die erbij horen.</p>
+      <p class="eyebrow" id="t-eyebrow">Markets · Baril Coatings</p>
+      <h1 id="t-h1">Our <span class="paint">markets</span></h1>
+      <p class="pcat-lead" id="t-lead">The right protection for every segment — with the application areas, properties and case studies that go with it.</p>
       <div class="pcat-meta">
-        <span><strong id="genDate">—</strong> · bijgewerkt</span>
+        <span><strong id="genDate">—</strong> · <span id="t-updated">updated</span></span>
       </div>
     </div>
   </header>
@@ -46,7 +55,7 @@
   <div class="wrap" id="markets" aria-live="polite"></div>
 
   <div class="cat-foot wrap">
-    <p>Marktteksten en praktijkcases © Baril Coatings.</p>
+    <p>Market texts and case studies © Baril Coatings.</p>
   </div>
 </main>
 

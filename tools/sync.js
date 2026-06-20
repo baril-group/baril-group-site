@@ -16,11 +16,19 @@ const LINES = ['dualcure', 'steelkote', 'aquaran', 'bariline', 'biobased'];
 const PROD_LANGS = ['nl', 'en', 'pl', 'ro'];
 const PS_LINES = ['dualcure', 'steelkote', 'aquaran', 'bariline', 'biobased', 'marine', 'onderhoud'];
 const SEGMENTS = [
-  { slug: 'constructie-infra', caseSlug: 'constructie-infra', label: 'Constructie & Infra' },
-  { slug: 'gebouwen-onderhoud', caseSlug: 'gebouw-onderhoud', label: 'Gebouwen & Onderhoud' },
-  { slug: 'industrie-machinebouw', caseSlug: 'industrie-machinebouw', label: 'Industrie & Machinebouw' },
-  { slug: 'marine-offshore', caseSlug: 'marine-offshore', label: 'Marine & Offshore' }
+  { slug: 'constructie-infra', caseSlug: 'constructie-infra', label: 'Constructie & Infra', enSlug: 'construction-infrastructure' },
+  { slug: 'gebouwen-onderhoud', caseSlug: 'gebouw-onderhoud', label: 'Gebouwen & Onderhoud', enSlug: 'building-maintenance' },
+  { slug: 'industrie-machinebouw', caseSlug: 'industrie-machinebouw', label: 'Industrie & Machinebouw', enSlug: 'industry-engineering' },
+  { slug: 'marine-offshore', caseSlug: 'marine-offshore', label: 'Marine & Offshore', enSlug: 'marine-offshore' }
 ];
+// The English market pages have no meta description; these curated EN intros
+// mirror the NL descriptions and are re-applied on every sync.
+const MARKET_DESC_EN = {
+  'constructie-infra': 'For construction and infrastructure steelwork, Baril offers the DualCure, SteelKote & Bariline coatings — durable, with excellent adhesion and corrosion resistance.',
+  'gebouwen-onderhoud': "For buildings & maintenance, Baril offers the environmentally friendly biobased painter's paint Copperant and the solvent-free, water-based Roboton floor coatings.",
+  'industrie-machinebouw': 'For industry and engineering, Baril offers the DualCure, SteelKote & Aquaran coatings — for a durable finish and optimal protection.',
+  'marine-offshore': 'For Marine & Offshore, Baril offers a broad range of high-solids and solvent-free coatings for the durable protection of steel under heavy loads.'
+};
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function get(url, opts) {
@@ -165,8 +173,19 @@ async function syncMarkets() {
       const image = (html.match(/<meta property="og:image" content="([^"]*)"/) || [])[1] || '';
       const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(m => stripTags(m[1])).filter(t => t.length > 50);
       const seen = new Set(); const body = paras.filter(t => !seen.has(t) && seen.add(t)).slice(0, 8);
-      markets.push({ slug: seg.slug, label: seg.label, title, description, image: image.startsWith('http') ? image : (image ? SITE + image : ''), body, url: `${SITE}/nl/markten/${seg.slug}` });
-      console.log('  market', seg.slug + ':', body.length, 'paragrafen');
+      const mk = { slug: seg.slug, label: seg.label, title, description, image: image.startsWith('http') ? image : (image ? SITE + image : ''), body, url: `${SITE}/nl/markten/${seg.slug}` };
+      // English copy (separate slug on the live site); pl/ro fall back to this.
+      if (seg.enSlug) {
+        try {
+          const enHtml = await get(`${SITE}/en/markets/${seg.enSlug}`);
+          mk.title_en = dec((enHtml.match(/<title>([^<]+)<\/title>/) || [])[1] || title).replace(/\s*[|–-]\s*Baril.*$/i, '');
+          mk.description_en = MARKET_DESC_EN[seg.slug] || '';
+          const enParas = [...enHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(m => stripTags(m[1])).filter(t => t.length > 50);
+          const enSeen = new Set(); mk.body_en = enParas.filter(t => !enSeen.has(t) && enSeen.add(t)).slice(0, 8);
+        } catch (e) { console.warn('  market EN', seg.enSlug, e.message); }
+      }
+      markets.push(mk);
+      console.log('  market', seg.slug + ':', body.length, 'paragrafen', mk.body_en ? '(+EN ' + mk.body_en.length + ')' : '');
     } catch (e) { console.warn('  market', seg.slug, e.message); }
     await sleep(120);
   }
