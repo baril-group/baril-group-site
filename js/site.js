@@ -11,6 +11,7 @@ const svg=document.getElementById('ribbonSvg');
 const pPath=document.getElementById('paintPath');
 const gPath=document.getElementById('ghostPath');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let ribbonLen=0,ribbonSamples=[];
 
 function buildRibbon(){
   const H=document.documentElement.scrollHeight;
@@ -37,15 +38,29 @@ function buildRibbon(){
   const yF=elF?elF.offsetTop:prevY;
   d+=` S ${x(.3)} ${(prevY+yF)/2+120}, ${x(.5)} ${yF+200}`;
   pPath.setAttribute('d',d);gPath.setAttribute('d',d);
-  pPath.setAttribute('pathLength','1');
-  pPath.style.strokeDasharray='1';
+  pPath.removeAttribute('pathLength');
+  ribbonLen=pPath.getTotalLength();
+  pPath.style.strokeDasharray=ribbonLen;
+  // sample the y-position along the path so the reveal can track real scroll depth
+  ribbonSamples=[];
+  const N=240;
+  for(let i=0;i<=N;i++){const L=ribbonLen*i/N;const pt=pPath.getPointAtLength(L);ribbonSamples.push([pt.y,L]);}
   drawRibbon();
 }
-function drawRibbon(){
-  const prog=Math.min(1,(scrollY+innerHeight*.6)/document.documentElement.scrollHeight);
-  pPath.style.strokeDashoffset=reduced?0:String(1-prog);
+// path length at which the line has reached vertical position y (path runs top→bottom)
+function lenAtY(y){
+  const s=ribbonSamples;
+  if(!s.length)return 0;
+  for(let i=0;i<s.length;i++){if(s[i][0]>=y)return s[i][1];}
+  return ribbonLen;
 }
-addEventListener('scroll',drawRibbon,{passive:true});
+function drawRibbon(){
+  if(reduced){pPath.style.strokeDashoffset=0;return;}
+  const len=lenAtY(scrollY+innerHeight*.6);
+  pPath.style.strokeDashoffset=String(ribbonLen-len);
+}
+let ribbonTick=false;
+addEventListener('scroll',()=>{if(ribbonTick)return;ribbonTick=true;requestAnimationFrame(()=>{drawRibbon();ribbonTick=false;});},{passive:true});
 addEventListener('resize',()=>requestAnimationFrame(buildRibbon));
 addEventListener('load',buildRibbon);
 buildRibbon();
