@@ -11,8 +11,12 @@
     ro: { eyebrow: 'Piețe · Baril Coatings', h1: 'Piețele <span class="paint">noastre</span>', lead: 'Protecția potrivită pentru fiecare segment — cu domeniile de aplicare, proprietățile și studiile de caz aferente.', updated: 'actualizat', cases: n => n + (n === 1 ? ' studiu de caz' : ' studii de caz') + ' în acest segment', none: 'Nicio piață găsită.', fail: 'Nu s-au putut încărca piețele.' }
   };
 
+  // Market copy only exists in nl/en, so only those are offered here. A stored
+  // pl/ro preference (set on products/systems) is shown as EN without being
+  // overwritten, so those pages keep the visitor's chosen language.
+  const AVAIL = ['nl', 'en'];
   let lang; try { lang = localStorage.getItem('baril-coatings-lang') || 'en'; } catch (e) { lang = 'en'; }
-  if (!T[lang]) lang = 'en';
+  if (!AVAIL.includes(lang)) lang = 'en';
   // Market copy exists in nl/en only; everything non-nl uses the English field
   // (falling back to nl if absent), so pl/ro show the English content.
   const L = (o, k) => lang === 'nl' ? o[k] : (o[k + '_en'] != null ? o[k + '_en'] : o[k]);
