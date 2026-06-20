@@ -47,11 +47,19 @@ function buildRibbon(){
   for(let i=0;i<=N;i++){const L=ribbonLen*i/N;const pt=pPath.getPointAtLength(L);ribbonSamples.push([pt.y,L]);}
   drawRibbon();
 }
-// path length at which the line has reached vertical position y (path runs top→bottom)
+// path length at which the line has reached vertical position y (path runs top→bottom),
+// linearly interpolated between samples so the reveal moves smoothly rather than in steps
 function lenAtY(y){
   const s=ribbonSamples;
   if(!s.length)return 0;
-  for(let i=0;i<s.length;i++){if(s[i][0]>=y)return s[i][1];}
+  if(y<=s[0][0])return s[0][1];
+  for(let i=1;i<s.length;i++){
+    if(s[i][0]>=y){
+      const y0=s[i-1][0],l0=s[i-1][1],y1=s[i][0],l1=s[i][1];
+      const t=(y-y0)/((y1-y0)||1);
+      return l0+(l1-l0)*t;
+    }
+  }
   return ribbonLen;
 }
 function drawRibbon(){
