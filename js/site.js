@@ -19,9 +19,10 @@ function buildRibbon(){
   svg.setAttribute('width',W);svg.setAttribute('height',H);
   svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
   const x=f=>W*f;
-  // weave the paint line through every section, chapters A–D included
+  // weave the paint line through these sections, in their actual vertical order
+  // (sorted by offsetTop so the ribbon stays correct regardless of section order)
   const ids=['mission','story','bio','globe','safety','local','world','brands','proof','renew'];
-  const pts=ids.map(id=>document.getElementById(id)).filter(Boolean).map(el=>el.offsetTop);
+  const pts=ids.map(id=>document.getElementById(id)).filter(Boolean).map(el=>el.offsetTop).sort((a,b)=>a-b);
   let d=`M ${x(.82)} ${innerHeight*.18}`;
   let prevY=innerHeight*.18;
   pts.forEach((yy,i)=>{
