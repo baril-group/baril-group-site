@@ -256,15 +256,7 @@
       es: ['Productos','Baril Group'],
       it: ['Prodotti','Baril Group'],
       tr: ['Ürünler','Baril Group'] }],
-    ['.foot-bottom span', {
-      nl: ['© FleetSpec · een merk van Baril Coatings USA · Angola, IN','Houd het wagenpark in beweging.'],
-      pl: ['© FleetSpec · marka Baril Coatings USA · Angola, IN','Utrzymaj flotę w ruchu.'],
-      ro: ['© FleetSpec · o marcă Baril Coatings USA · Angola, IN','Menține flota în mișcare.'],
-      de: ['© FleetSpec · eine Marke von Baril Coatings USA · Angola, IN','Halten Sie die Flotte in Bewegung.'],
-      fr: ['© FleetSpec · une marque de Baril Coatings USA · Angola, IN','Gardez la flotte en mouvement.'],
-      es: ['© FleetSpec · una marca de Baril Coatings USA · Angola, IN','Mantén la flota en movimiento.'],
-      it: ['© FleetSpec · un marchio di Baril Coatings USA · Angola, IN','Mantieni la flotta in movimento.'],
-      tr: ['© FleetSpec · bir Baril Coatings USA markası · Angola, IN','Filoyu hareket halinde tutun.'] }]
+    ['.foot-bottom span', {"nl":["© FleetSpec · een merk van Baril Group · Angola, IN","Houd het wagenpark in beweging."],"pl":["© FleetSpec · marka Baril Group · Angola, IN","Utrzymaj flotę w ruchu."],"ro":["© FleetSpec · o marcă Baril Group · Angola, IN","Menține flota în mișcare."],"de":["© FleetSpec · eine Marke von Baril Group · Angola, IN","Halten Sie die Flotte in Bewegung."],"fr":["© FleetSpec · une marque de Baril Group · Angola, IN","Gardez la flotte en mouvement."],"es":["© FleetSpec · una marca de Baril Group · Angola, IN","Mantén la flota en movimiento."],"it":["© FleetSpec · un marchio di Baril Group · Angola, IN","Mantieni la flotta in movimento."],"tr":["© FleetSpec · bir Baril Group markası · Angola, IN","Filoyu hareket halinde tutun."]}]
   ];
 
   const flagBox = document.getElementById('langflags');

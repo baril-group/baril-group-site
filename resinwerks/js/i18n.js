@@ -256,15 +256,7 @@
       es: ['Productos','Baril Group'],
       it: ['Prodotti','Baril Group'],
       tr: ['Ürünler','Baril Group'] }],
-    ['.foot-bottom span', {
-      nl: ['© Resinwerks · een merk van Baril Coatings USA · Angola, IN','Vloeren die presteren.'],
-      pl: ['© Resinwerks · marka Baril Coatings USA · Angola, IN','Posadzki, które dają radę.'],
-      ro: ['© Resinwerks · o marcă Baril Coatings USA · Angola, IN','Pardoseli care performează.'],
-      de: ['© Resinwerks · eine Marke von Baril Coatings USA · Angola, IN','Böden, die Leistung bringen.'],
-      fr: ['© Resinwerks · une marque de Baril Coatings USA · Angola, IN','Des sols qui performent.'],
-      es: ['© Resinwerks · una marca de Baril Coatings USA · Angola, IN','Suelos que rinden.'],
-      it: ['© Resinwerks · un marchio di Baril Coatings USA · Angola, IN','Pavimenti che rendono.'],
-      tr: ['© Resinwerks · bir Baril Coatings USA markası · Angola, IN','Performans gösteren zeminler.'] }]
+    ['.foot-bottom span', {"nl":["© Resinwerks · een merk van Baril Group · Angola, IN","Vloeren die presteren."],"pl":["© Resinwerks · marka Baril Group · Angola, IN","Posadzki, które dają radę."],"ro":["© Resinwerks · o marcă Baril Group · Angola, IN","Pardoseli care performează."],"de":["© Resinwerks · eine Marke von Baril Group · Angola, IN","Böden, die Leistung bringen."],"fr":["© Resinwerks · une marque de Baril Group · Angola, IN","Des sols qui performent."],"es":["© Resinwerks · una marca de Baril Group · Angola, IN","Suelos que rinden."],"it":["© Resinwerks · un marchio di Baril Group · Angola, IN","Pavimenti che rendono."],"tr":["© Resinwerks · bir Baril Group markası · Angola, IN","Performans gösteren zeminler."]}]
   ];
 
   const flagBox = document.getElementById('langflags');

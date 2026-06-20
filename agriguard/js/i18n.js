@@ -256,15 +256,7 @@
       es: ['Productos','Baril Group'],
       it: ['Prodotti','Baril Group'],
       tr: ['Ürünler','Baril Group'] }],
-    ['.foot-bottom span', {
-      nl: ['© AgriGuard · een merk van Baril Coatings USA · Angola, IN','Stop roest in zijn spoor.'],
-      pl: ['© AgriGuard · marka Baril Coatings USA · Angola, IN','Zatrzymaj rdzę w miejscu.'],
-      ro: ['© AgriGuard · o marcă Baril Coatings USA · Angola, IN','Oprește rugina pe loc.'],
-      de: ['© AgriGuard · eine Marke von Baril Coatings USA · Angola, IN','Stoppen Sie Rost auf der Stelle.'],
-      fr: ['© AgriGuard · une marque de Baril Coatings USA · Angola, IN','Stoppez la rouille net.'],
-      es: ['© AgriGuard · una marca de Baril Coatings USA · Angola, IN','Detén el óxido en seco.'],
-      it: ['© AgriGuard · un marchio di Baril Coatings USA · Angola, IN','Ferma la ruggine sul nascere.'],
-      tr: ['© AgriGuard · bir Baril Coatings USA markası · Angola, IN','Pası olduğu yerde durdurun.'] }]
+    ['.foot-bottom span', {"nl":["© AgriGuard · een merk van Baril Group · Angola, IN","Stop roest in zijn spoor."],"pl":["© AgriGuard · marka Baril Group · Angola, IN","Zatrzymaj rdzę w miejscu."],"ro":["© AgriGuard · o marcă Baril Group · Angola, IN","Oprește rugina pe loc."],"de":["© AgriGuard · eine Marke von Baril Group · Angola, IN","Stoppen Sie Rost auf der Stelle."],"fr":["© AgriGuard · une marque de Baril Group · Angola, IN","Stoppez la rouille net."],"es":["© AgriGuard · una marca de Baril Group · Angola, IN","Detén el óxido en seco."],"it":["© AgriGuard · un marchio di Baril Group · Angola, IN","Ferma la ruggine sul nascere."],"tr":["© AgriGuard · bir Baril Group markası · Angola, IN","Pası olduğu yerde durdurun."]}]
   ];
 
   const flagBox = document.getElementById('langflags');

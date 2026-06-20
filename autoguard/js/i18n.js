@@ -256,15 +256,7 @@
       es: ['Productos','Baril Group'],
       it: ['Prodotti','Baril Group'],
       tr: ['Ürünler','Baril Group'] }],
-    ['.foot-bottom span', {
-      nl: ['© AutoGuard · een merk van Baril Coatings USA · Angola, IN','Een vlekkeloze afwerking.'],
-      pl: ['© AutoGuard · marka Baril Coatings USA · Angola, IN','Nieskazitelne wykończenie.'],
-      ro: ['© AutoGuard · o marcă Baril Coatings USA · Angola, IN','O finisare impecabilă.'],
-      de: ['© AutoGuard · eine Marke von Baril Coatings USA · Angola, IN','Ein makelloses Finish.'],
-      fr: ['© AutoGuard · une marque de Baril Coatings USA · Angola, IN','Une finition impeccable.'],
-      es: ['© AutoGuard · una marca de Baril Coatings USA · Angola, IN','Un acabado impecable.'],
-      it: ['© AutoGuard · un marchio di Baril Coatings USA · Angola, IN','Una finitura impeccabile.'],
-      tr: ['© AutoGuard · bir Baril Coatings USA markası · Angola, IN','Kusursuz bir finiş.'] }]
+    ['.foot-bottom span', {"nl":["© AutoGuard · een merk van Baril Group · Angola, IN","Een vlekkeloze afwerking."],"pl":["© AutoGuard · marka Baril Group · Angola, IN","Nieskazitelne wykończenie."],"ro":["© AutoGuard · o marcă Baril Group · Angola, IN","O finisare impecabilă."],"de":["© AutoGuard · eine Marke von Baril Group · Angola, IN","Ein makelloses Finish."],"fr":["© AutoGuard · une marque de Baril Group · Angola, IN","Une finition impeccable."],"es":["© AutoGuard · una marca de Baril Group · Angola, IN","Un acabado impecable."],"it":["© AutoGuard · un marchio di Baril Group · Angola, IN","Una finitura impeccabile."],"tr":["© AutoGuard · bir Baril Group markası · Angola, IN","Kusursuz bir finiş."]}]
   ];
 
   const flagBox = document.getElementById('langflags');
