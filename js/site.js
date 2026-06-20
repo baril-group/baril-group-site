@@ -67,3 +67,13 @@ buildRibbon();
     bleed.appendChild(ifr);
   });
 })();
+
+/* collapsible history timeline */
+(function(){
+  const btn=document.getElementById('histBtn'),tl=document.getElementById('histTimeline');
+  if(!btn||!tl)return;
+  btn.addEventListener('click',()=>{
+    const open=tl.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+  });
+})();
