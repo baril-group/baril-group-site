@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   const MAP = [
-    ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.' }],
+    ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.', no: 'Vi ønsker å gjøre informasjonen vår så bredt tilgjengelig som mulig; derfor er noen tekster oversatt med Anthropic Claude AI. Skulle du oppdage en feil, setter vi stor pris på at du gir oss beskjed.', sv: 'Vi vill göra vår information så brett tillgänglig som möjligt; därför har vissa texter översatts med Anthropic Claude AI. Om du upptäcker ett fel får du gärna meddela oss.' }],
     ['.navlinks a', {
       nl: ['Waarom Fairf','Producten','Kleuren','Verkooppunten','fairf.eu ↗'],
       pl: ['Dlaczego Fairf','Produkty','Kolory','Gdzie kupić','fairf.eu ↗'],
@@ -12,7 +12,7 @@
       fr: ['Pourquoi Fairf','Produits','Couleurs','Points de vente','fairf.eu ↗'],
       es: ['Por qué Fairf','Productos','Colores','Puntos de venta','fairf.eu ↗'],
       it: ['Perché Fairf','Prodotti','Colori','Punti vendita','fairf.eu ↗'],
-      tr: ['Neden Fairf','Ürünler','Renkler','Satış Noktaları','fairf.eu ↗'] }],
+      tr: ['Neden Fairf','Ürünler','Renkler','Satış Noktaları','fairf.eu ↗'], no: ['Hvorfor Fairf','Produkter','Farger','Utsalgssteder','fairf.eu ↗'], sv: ['Varför Fairf','Produkter','Färger','Återförsäljare','fairf.eu ↗'] }],
     ['header .eyebrow .eb-txt', {
       nl: 'Fairf — Plantaardige verf met een missie · Een merk van Baril Group',
       pl: 'Fairf — Roślinna farba z misją · Marka Baril Group',
@@ -21,7 +21,7 @@
       fr: 'Fairf — Une peinture végétale avec une mission · Une marque du groupe Baril',
       es: 'Fairf — Pintura vegetal con una misión · Una marca de Baril Group',
       it: 'Fairf — Pittura vegetale con una missione · Un marchio di Baril Group',
-      tr: 'Fairf — Misyon sahibi bitkisel boya · Bir Baril Group markası' }],
+      tr: 'Fairf — Misyon sahibi bitkisel boya · Bir Baril Group markası', no: 'Fairf — Plantebasert maling med en misjon · Et merke fra Baril Group', sv: 'Fairf — Växtbaserad färg med ett uppdrag · Ett varumärke från Baril Group' }],
     ['header h1', {
       nl: 'Verf met<br><span class="rain">een missie</span>',
       pl: 'Farba z<br><span class="rain">misją</span>',
@@ -30,7 +30,7 @@
       fr: 'Une peinture avec<br><span class="rain">une mission</span>',
       es: 'Pintura con<br><span class="rain">una misión</span>',
       it: 'Pittura con<br><span class="rain">una missione</span>',
-      tr: 'Misyon sahibi<br><span class="rain">boya</span>' }],
+      tr: 'Misyon sahibi<br><span class="rain">boya</span>', no: 'Maling med<br><span class="rain">en misjon</span>', sv: 'Färg med<br><span class="rain">ett uppdrag</span>' }],
     ['.hero-sub', {
       nl: 'Plantaardige muur- en lakverf die <strong>vriendelijk is voor jou en de planeet</strong> — vrij van de schadelijke stoffen van traditionele verf, in elke kleur die je kunt bedenken.',
       pl: 'Roślinna farba ścienna i lakierowa, która jest <strong>przyjazna dla Ciebie i planety</strong> — bez szkodliwych substancji obecnych w tradycyjnych farbach, w każdym kolorze, jaki sobie wymarzysz.',
@@ -39,9 +39,9 @@
       fr: 'Peinture murale et laque végétales, <strong>douces pour vous et pour la planète</strong> — sans les substances nocives des peintures traditionnelles, dans toutes les couleurs imaginables.',
       es: 'Pintura mural y laca vegetales, <strong>amables contigo y con el planeta</strong> — sin las sustancias nocivas de la pintura tradicional, en todos los colores que puedas imaginar.',
       it: 'Pittura murale e smalto vegetali, <strong>gentili con te e con il pianeta</strong> — senza le sostanze nocive delle pitture tradizionali, in ogni colore che puoi immaginare.',
-      tr: 'Hem sana hem de gezegene <strong>dost olan</strong> bitkisel duvar ve vernik boyası — geleneksel boyalardaki zararlı maddelerden arınmış, hayal edebileceğin her renkte.' }],
-    ['header .hero-cta .btn-solid', { nl: 'Bezoek fairf.eu ↗', pl: 'Odwiedź fairf.eu ↗', ro: 'Vizitează fairf.eu ↗', de: 'fairf.eu besuchen ↗', fr: 'Visiter fairf.eu ↗', es: 'Visitar fairf.eu ↗', it: 'Visita fairf.eu ↗', tr: 'fairf.eu\'yu ziyaret et ↗' }],
-    ['header .hero-cta .btn-ghost', { nl: 'Bekijk de kleuren', pl: 'Zobacz kolory', ro: 'Vezi culorile', de: 'Farben ansehen', fr: 'Voir les couleurs', es: 'Ver los colores', it: 'Scopri i colori', tr: 'Renkleri keşfet' }],
+      tr: 'Hem sana hem de gezegene <strong>dost olan</strong> bitkisel duvar ve vernik boyası — geleneksel boyalardaki zararlı maddelerden arınmış, hayal edebileceğin her renkte.', no: 'Plantebasert vegg- og lakkmaling som er <strong>snill mot deg og planeten</strong> — fri for de skadelige stoffene i tradisjonell maling, i enhver farge du kan drømme om.', sv: 'Växtbaserad vägg- och lackfärg som är <strong>snäll mot dig och planeten</strong> — fri från de skadliga ämnena i traditionell färg, i varje färg du kan drömma om.' }],
+    ['header .hero-cta .btn-solid', { nl: 'Bezoek fairf.eu ↗', pl: 'Odwiedź fairf.eu ↗', ro: 'Vizitează fairf.eu ↗', de: 'fairf.eu besuchen ↗', fr: 'Visiter fairf.eu ↗', es: 'Visitar fairf.eu ↗', it: 'Visita fairf.eu ↗', tr: 'fairf.eu\'yu ziyaret et ↗', no: 'Besøk fairf.eu ↗', sv: 'Besök fairf.eu ↗' }],
+    ['header .hero-cta .btn-ghost', { nl: 'Bekijk de kleuren', pl: 'Zobacz kolory', ro: 'Vezi culorile', de: 'Farben ansehen', fr: 'Voir les couleurs', es: 'Ver los colores', it: 'Scopri i colori', tr: 'Renkleri keşfet', no: 'Se fargene', sv: 'Se färgerna' }],
     ['.hero-foot span:first-child', {
       nl: 'Plantaardig · Kindvriendelijk · Elke kleur · Bij Karwei',
       pl: 'Roślinna · Przyjazna dzieciom · Każdy kolor · W Karwei',
@@ -50,10 +50,10 @@
       fr: 'Végétale · Adaptée aux enfants · Toute couleur · Chez Karwei',
       es: 'Vegetal · Apta para niños · Todo color · En Karwei',
       it: 'Vegetale · Adatta ai bambini · Ogni colore · Da Karwei',
-      tr: 'Bitkisel · Çocuk dostu · Her renk · Karwei\'de' }],
-    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır' }],
+      tr: 'Bitkisel · Çocuk dostu · Her renk · Karwei\'de', no: 'Plantebasert · Barnevennlig · Enhver farge · Hos Karwei', sv: 'Växtbaserad · Barnvänlig · Varje färg · Hos Karwei' }],
+    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır', no: 'Bla', sv: 'Skrolla' }],
 
-    ['#mission .eyebrow', { nl: 'Waarom Fairf', pl: 'Dlaczego Fairf', ro: 'De ce Fairf', de: 'Warum Fairf', fr: 'Pourquoi Fairf', es: 'Por qué Fairf', it: 'Perché Fairf', tr: 'Neden Fairf' }],
+    ['#mission .eyebrow', { nl: 'Waarom Fairf', pl: 'Dlaczego Fairf', ro: 'De ce Fairf', de: 'Warum Fairf', fr: 'Pourquoi Fairf', es: 'Por qué Fairf', it: 'Perché Fairf', tr: 'Neden Fairf', no: 'Hvorfor Fairf', sv: 'Varför Fairf' }],
     ['.mission-quote', {
       nl: 'Verf mag vriendelijk zijn — voor de mensen in de kamer én de planeet daarbuiten. Fairf is plantaardig en vrij van de schadelijke stoffen van traditionele verf, <em>zonder ook maar één kleur in te leveren</em>.',
       pl: 'Farba może być przyjazna — dla ludzi w pokoju i dla planety na zewnątrz. Fairf jest roślinna i wolna od szkodliwych substancji, <em>bez rezygnacji z choćby jednego koloru</em>.',
@@ -62,7 +62,7 @@
       fr: 'La peinture peut être bienveillante — pour les personnes dans la pièce et pour la planète au-dehors. Fairf est végétale et sans les substances nocives des peintures traditionnelles, <em>sans renoncer à la moindre couleur</em>.',
       es: 'La pintura puede ser amable — con las personas de la sala y con el planeta de fuera. Fairf es vegetal y libre de sustancias nocivas, <em>sin renunciar a un solo color</em>.',
       it: 'La pittura può essere gentile — con le persone nella stanza e con il pianeta fuori. Fairf è vegetale e priva di sostanze nocive, <em>senza rinunciare a un solo colore</em>.',
-      tr: 'Boya dost olabilir — odadaki insanlara ve dışarıdaki gezegene. Fairf bitkiseldir ve geleneksel boyalardaki zararlı maddelerden arınmıştır, <em>üstelik tek bir renkten bile ödün vermeden</em>.' }],
+      tr: 'Boya dost olabilir — odadaki insanlara ve dışarıdaki gezegene. Fairf bitkiseldir ve geleneksel boyalardaki zararlı maddelerden arınmıştır, <em>üstelik tek bir renkten bile ödün vermeden</em>.', no: 'Maling bør være snill — mot menneskene i rommet og planeten utenfor. Fairf er plantebasert og fri for de skadelige stoffene i tradisjonell maling, <em>uten å gi avkall på en eneste farge</em>.', sv: 'Färg bör vara snäll — mot människorna i rummet och planeten utanför. Fairf är växtbaserad och fri från de skadliga ämnena i traditionell färg, <em>utan att ge avkall på en enda färg</em>.' }],
     ['#mission .mm b', {
       nl: ['Plantaardige formule','Vriendelijk &amp; kindvriendelijk','Elke kleur die je kunt bedenken'],
       pl: ['Roślinna receptura','Przyjazna i bezpieczna dla dzieci','Każdy kolor, jaki wymarzysz'],
@@ -71,7 +71,7 @@
       fr: ['Formule végétale','Douce et adaptée aux enfants','Toutes les couleurs imaginables'],
       es: ['Fórmula vegetal','Amable y apta para niños','Todos los colores imaginables'],
       it: ['Formula vegetale','Gentile e adatta ai bambini','Ogni colore immaginabile'],
-      tr: ['Bitkisel formül','Dost &amp; çocuk dostu','Hayal edebileceğin her renk'] }],
+      tr: ['Bitkisel formül','Dost &amp; çocuk dostu','Hayal edebileceğin her renk'], no: ['Plantebasert formel','Snill &amp; barnevennlig','Enhver farge du kan drømme om'], sv: ['Växtbaserad formel','Snäll &amp; barnvänlig','Varje färg du kan drömma om'] }],
     ['#mission .mm span', {
       nl: ['Gemaakt van plantaardige grondstoffen — de schadelijke stoffen van traditionele verf eruit ontworpen.','Vrij van schadelijke stoffen — veiliger voor je gezin, je huis en de planeet.','Samengestelde collecties door kleurexperts — en elke kleur op maat, op bestelling gemengd.'],
       pl: ['Wykonana z roślinnych surowców — szkodliwe składniki tradycyjnej farby wyeliminowane.','Bez szkodliwych substancji — bezpieczniejsza dla rodziny, domu i planety.','Kolekcje tworzone przez ekspertów od koloru — i każdy kolor na zamówienie.'],
@@ -80,9 +80,9 @@
       fr: ['Fabriquée à partir de matières premières végétales — les substances nocives de la peinture traditionnelle éliminées.','Sans substances nocives — plus sûre pour votre famille, votre maison et la planète.','Des collections composées par des experts en couleur — et toute couleur sur mesure, mélangée à la commande.'],
       es: ['Fabricada con materias primas vegetales — las sustancias nocivas de la pintura tradicional eliminadas.','Sin sustancias nocivas — más segura para tu familia, tu hogar y el planeta.','Colecciones compuestas por expertos en color — y cualquier color a medida, mezclado bajo pedido.'],
       it: ['Prodotta con materie prime vegetali — le sostanze nocive della pittura tradizionale eliminate.','Priva di sostanze nocive — più sicura per la tua famiglia, la tua casa e il pianeta.','Collezioni curate da esperti del colore — e ogni colore su misura, miscelato su ordinazione.'],
-      tr: ['Bitkisel hammaddelerden üretilir — geleneksel boyanın zararlı maddeleri tasarımla devre dışı bırakılmıştır.','Zararlı maddelerden arınmış — ailen, evin ve gezegen için daha güvenli.','Renk uzmanlarınca oluşturulan koleksiyonlar — ve her renk özel olarak, siparişe göre karıştırılır.'] }],
+      tr: ['Bitkisel hammaddelerden üretilir — geleneksel boyanın zararlı maddeleri tasarımla devre dışı bırakılmıştır.','Zararlı maddelerden arınmış — ailen, evin ve gezegen için daha güvenli.','Renk uzmanlarınca oluşturulan koleksiyonlar — ve her renk özel olarak, siparişe göre karıştırılır.'], no: ['Laget av plantebaserte råvarer — de skadelige stoffene i tradisjonell maling er designet bort.','Fri for de skadelige stoffene i tradisjonell maling — tryggere for familien, hjemmet og planeten.','Kuraterte kolleksjoner av fargeeksperter — og enhver tilpasset farge, blandet på bestilling.'], sv: ['Tillverkad av växtbaserade råvaror — de skadliga ämnena i traditionell färg är bortdesignade.','Fri från de skadliga ämnena i traditionell färg — säkrare för familjen, hemmet och planeten.','Kuraterade kollektioner av färgexperter — och vilken anpassad färg som helst, blandad på beställning.'] }],
 
-    ['#products .eyebrow', { nl: 'Producten', pl: 'Produkty', ro: 'Produse', de: 'Produkte', fr: 'Produits', es: 'Productos', it: 'Prodotti', tr: 'Ürünler' }],
+    ['#products .eyebrow', { nl: 'Producten', pl: 'Produkty', ro: 'Produse', de: 'Produkte', fr: 'Produits', es: 'Productos', it: 'Prodotti', tr: 'Ürünler', no: 'Produkter', sv: 'Produkter' }],
     ['#products h2', {
       nl: 'Alles voor een <span class="rain">mooie</span> kamer',
       pl: 'Wszystko do <span class="rain">pięknego</span> wnętrza',
@@ -91,7 +91,7 @@
       fr: 'Tout pour une <span class="rain">belle</span> pièce',
       es: 'Todo para una <span class="rain">bonita</span> habitación',
       it: 'Tutto per una <span class="rain">bella</span> stanza',
-      tr: '<span class="rain">Güzel</span> bir oda için her şey' }],
+      tr: '<span class="rain">Güzel</span> bir oda için her şey', no: 'Alt for et <span class="rain">vakkert</span> rom', sv: 'Allt för ett <span class="rain">vackert</span> rum' }],
     ['#products .lead', {
       nl: 'Een eenvoudig, plantaardig assortiment voor muren en houtwerk — makkelijk te kiezen, makkelijk aan te brengen.',
       pl: 'Prosty, roślinny asortyment do ścian i drewna — łatwy w wyborze, łatwy w aplikacji.',
@@ -100,7 +100,7 @@
       fr: 'Une gamme simple et végétale pour les murs et les boiseries — facile à choisir, facile à appliquer.',
       es: 'Una gama sencilla y vegetal para paredes y madera — fácil de elegir, fácil de aplicar.',
       it: 'Una gamma semplice e vegetale per pareti e legno — facile da scegliere, facile da applicare.',
-      tr: 'Duvarlar ve ahşap için sade, bitkisel bir ürün gamı — seçmesi kolay, uygulaması kolay.' }],
+      tr: 'Duvarlar ve ahşap için sade, bitkisel bir ürün gamı — seçmesi kolay, uygulaması kolay.', no: 'Et enkelt, plantebasert sortiment for vegger og treverk — lett å velge, lett å påføre.', sv: 'Ett enkelt, växtbaserat sortiment för väggar och träverk — lätt att välja, lätt att applicera.' }],
     ['#products .feat b', {
       nl: ['Muurverf','Lakverf','Multiprimer','Onzichtbare lak'],
       pl: ['Farba ścienna','Lakier','Multiprimer','Niewidoczny lakier'],
@@ -109,7 +109,7 @@
       fr: ['Peinture murale','Laque','Multiprimaire','Laque invisible'],
       es: ['Pintura mural','Laca','Multiimprimación','Laca invisible'],
       it: ['Pittura murale','Smalto','Multiprimer','Smalto invisibile'],
-      tr: ['Duvar boyası','Vernik boyası','Multiprimer','Görünmez vernik'] }],
+      tr: ['Duvar boyası','Vernik boyası','Multiprimer','Görünmez vernik'], no: ['Veggmaling','Lakk','Multiprimer','Usynlig lakk'], sv: ['Väggfärg','Lack','Multiprimer','Osynlig lack'] }],
     ['#products .feat span', {
       nl: ['Plantaardige muurverf met een mooie extra-matte afwerking.','Duurzame lak voor houtwerk, met een gladde, hogere glans.','Eén primer voor vrijwel elke ondergrond — een simpele basis voor een perfect resultaat.','Beschermt houtwerk met behoud van de natuurlijke uitstraling — helder en subtiel.'],
       pl: ['Roślinna farba ścienna z pięknym, ekstramatowym wykończeniem.','Trwały lakier do drewna, z gładkim, wyższym połyskiem.','Jeden podkład do niemal każdej powierzchni — prosta baza dla idealnego efektu.','Chroni drewno, zachowując jego naturalny wygląd — przezroczysty i subtelny.'],
@@ -118,9 +118,9 @@
       fr: ['Peinture murale végétale avec une belle finition extra-mate.','Laque durable pour boiseries, avec une finition lisse et plus brillante.','Un seul primaire pour presque tous les supports — une base simple pour un résultat parfait.','Protège les boiseries en préservant leur aspect naturel — clair et discret.'],
       es: ['Pintura mural vegetal con un bonito acabado extra-mate.','Laca duradera para madera, con un acabado liso y más brillante.','Una sola imprimación para casi cualquier soporte — una base sencilla para un resultado perfecto.','Protege la madera conservando su aspecto natural — transparente y sutil.'],
       it: ['Pittura murale vegetale con una bella finitura extra-opaca.','Smalto durevole per il legno, con una finitura liscia e più brillante.','Un solo primer per quasi ogni superficie — una base semplice per un risultato perfetto.','Protegge il legno mantenendone l\'aspetto naturale — trasparente e discreto.'],
-      tr: ['Güzel, ekstra mat bir bitişe sahip bitkisel duvar boyası.','Ahşap için dayanıklı vernik; pürüzsüz, daha parlak bir bitiş.','Neredeyse her yüzey için tek astar — kusursuz bir sonuç için sade bir temel.','Doğal görünümünü koruyarak ahşabı korur — berrak ve ince.'] }],
+      tr: ['Güzel, ekstra mat bir bitişe sahip bitkisel duvar boyası.','Ahşap için dayanıklı vernik; pürüzsüz, daha parlak bir bitiş.','Neredeyse her yüzey için tek astar — kusursuz bir sonuç için sade bir temel.','Doğal görünümünü koruyarak ahşabı korur — berrak ve ince.'], no: ['Plantebasert veggmaling med en vakker ekstra-matt finish.','Slitesterk lakk for treverk, med en glatt, høyere glans.','Én primer for nesten ethvert underlag — et enkelt grunnlag for et perfekt resultat.','Beskytter treverk og bevarer det naturlige uttrykket — klar og subtil.'], sv: ['Växtbaserad väggfärg med en vacker extra-matt finish.','Slitstark lack för träverk, med en slät, högre glans.','En primer för nästan alla underlag — en enkel grund för ett perfekt resultat.','Skyddar träverk och bevarar dess naturliga uttryck — klar och subtil.'] }],
 
-    ['#colour .eyebrow', { nl: 'Kleuren', pl: 'Kolory', ro: 'Culori', de: 'Farben', fr: 'Couleurs', es: 'Colores', it: 'Colori', tr: 'Renkler' }],
+    ['#colour .eyebrow', { nl: 'Kleuren', pl: 'Kolory', ro: 'Culori', de: 'Farben', fr: 'Couleurs', es: 'Colores', it: 'Colori', tr: 'Renkler', no: 'Farger', sv: 'Färger' }],
     ['#colour h2', {
       nl: 'Elke kleur van de <span class="rain">regenboog</span>',
       pl: 'Każdy kolor <span class="rain">tęczy</span>',
@@ -129,7 +129,7 @@
       fr: 'Toutes les couleurs de <span class="rain">l\'arc-en-ciel</span>',
       es: 'Todos los colores del <span class="rain">arcoíris</span>',
       it: 'Tutti i colori dell\'<span class="rain">arcobaleno</span>',
-      tr: '<span class="rain">Gökkuşağının</span> her rengi' }],
+      tr: '<span class="rain">Gökkuşağının</span> her rengi', no: 'Hver farge i <span class="rain">regnbuen</span>', sv: 'Varje färg i <span class="rain">regnbågen</span>' }],
     ['#colour .lead', {
       nl: 'Kleurcollecties samengesteld door experts — en elke kleur die je kunt bedenken, op bestelling gemengd, online of bij Karwei.',
       pl: 'Kolekcje kolorów tworzone przez ekspertów — i każdy kolor, jaki sobie wyobrazisz, mieszany na zamówienie, online lub w Karwei.',
@@ -138,9 +138,9 @@
       fr: 'Des collections de couleurs composées par des experts — et toute couleur imaginable, mélangée à la commande, en ligne ou chez Karwei.',
       es: 'Colecciones de color compuestas por expertos — y cualquier color que imagines, mezclado bajo pedido, online o en Karwei.',
       it: 'Collezioni di colori curate da esperti — e ogni colore immaginabile, miscelato su ordinazione, online o da Karwei.',
-      tr: 'Uzmanlarca oluşturulan renk koleksiyonları — ve hayal edebileceğin her renk, online ya da Karwei\'de siparişe göre karıştırılır.' }],
+      tr: 'Uzmanlarca oluşturulan renk koleksiyonları — ve hayal edebileceğin her renk, online ya da Karwei\'de siparişe göre karıştırılır.', no: 'Fargekolleksjoner kuratert av eksperter — og enhver farge du kan drømme om, blandet på bestilling, på nett eller hos Karwei.', sv: 'Färgkollektioner kuraterade av experter — och vilken färg du än kan drömma om, blandad på beställning, online eller hos Karwei.' }],
 
-    ['#buy .eyebrow', { nl: 'Verkooppunten', pl: 'Gdzie kupić', ro: 'Unde cumperi', de: 'Verkaufsstellen', fr: 'Points de vente', es: 'Puntos de venta', it: 'Punti vendita', tr: 'Satış Noktaları' }],
+    ['#buy .eyebrow', { nl: 'Verkooppunten', pl: 'Gdzie kupić', ro: 'Unde cumperi', de: 'Verkaufsstellen', fr: 'Points de vente', es: 'Puntos de venta', it: 'Punti vendita', tr: 'Satış Noktaları', no: 'Utsalgssteder', sv: 'Återförsäljare' }],
     ['#buy h2', {
       nl: 'Haal het in <span class="rain">huis</span>',
       pl: 'Weź to do <span class="rain">domu</span>',
@@ -149,7 +149,7 @@
       fr: 'Faites-la entrer <span class="rain">chez vous</span>',
       es: 'Llévatelo a <span class="rain">casa</span>',
       it: 'Portalo a <span class="rain">casa</span>',
-      tr: '<span class="rain">Eve</span> getir' }],
+      tr: '<span class="rain">Eve</span> getir', no: 'Ta det med <span class="rain">hjem</span>', sv: 'Ta hem <span class="rain">det</span>' }],
     ['#buy .lead', {
       nl: 'Bestel online, haal het bij Karwei, of kom de kleuren in het echt bekijken.',
       pl: 'Zamów online, odbierz w Karwei lub przyjdź zobaczyć kolory na żywo.',
@@ -158,8 +158,8 @@
       fr: 'Commandez en ligne, retirez chez Karwei, ou venez voir les couleurs en vrai.',
       es: 'Pide online, recoge en Karwei o ven a ver los colores en persona.',
       it: 'Ordina online, ritira da Karwei o vieni a vedere i colori dal vivo.',
-      tr: 'Online sipariş ver, Karwei\'den teslim al ya da gelip renkleri canlı gör.' }],
-    ['#buy .buy b', { nl: ['Online','Bij Karwei','Fairfspots'], pl: ['Online','W Karwei','Fairfspots'], ro: ['Online','La Karwei','Fairfspots'], de: ['Online','Bei Karwei','Fairfspots'], fr: ['En ligne','Chez Karwei','Fairfspots'], es: ['Online','En Karwei','Fairfspots'], it: ['Online','Da Karwei','Fairfspots'], tr: ['Online','Karwei\'de','Fairfspots'] }],
+      tr: 'Online sipariş ver, Karwei\'den teslim al ya da gelip renkleri canlı gör.', no: 'Bestill på nett, hent det hos Karwei, eller kom og se fargene i virkeligheten.', sv: 'Beställ online, hämta det hos Karwei, eller kom och se färgerna på riktigt.' }],
+    ['#buy .buy b', { nl: ['Online','Bij Karwei','Fairfspots'], pl: ['Online','W Karwei','Fairfspots'], ro: ['Online','La Karwei','Fairfspots'], de: ['Online','Bei Karwei','Fairfspots'], fr: ['En ligne','Chez Karwei','Fairfspots'], es: ['Online','En Karwei','Fairfspots'], it: ['Online','Da Karwei','Fairfspots'], tr: ['Online','Karwei\'de','Fairfspots'], no: ['På nett','Hos Karwei','Fairfspots'], sv: ['Online','Hos Karwei','Fairfspots'] }],
     ['#buy .buy span', {
       nl: ['Bestel plantaardige verf en stalen rechtstreeks in de Fairf-webshop, thuisbezorgd.','Vind Fairf in het schap bij Karwei-winkels door heel Nederland.','Bezoek een Fairfspot — een eigen plek om inspiratie op te doen en de kleuren toegepast te zien.'],
       pl: ['Zamów roślinną farbę i próbki bezpośrednio w sklepie Fairf, z dostawą do domu.','Znajdź Fairf na półce w sklepach Karwei w całej Holandii.','Odwiedź Fairfspot — miejsce, gdzie zainspirujesz się i zobaczysz kolory na ścianie.'],
@@ -168,7 +168,7 @@
       fr: ['Commandez peinture végétale et échantillons directement sur la boutique Fairf, livrés chez vous.','Trouvez Fairf en rayon dans les magasins Karwei partout aux Pays-Bas.','Visitez un Fairfspot — un lieu dédié pour vous inspirer et voir les couleurs appliquées.'],
       es: ['Pide pintura vegetal y muestras directamente en la tienda online de Fairf, con entrega a domicilio.','Encuentra Fairf en el lineal de las tiendas Karwei por todos los Países Bajos.','Visita un Fairfspot — un espacio propio para inspirarte y ver los colores aplicados.'],
       it: ['Ordina pittura vegetale e campioni direttamente nello shop online Fairf, con consegna a casa.','Trova Fairf a scaffale nei negozi Karwei in tutti i Paesi Bassi.','Visita un Fairfspot — uno spazio dedicato per ispirarti e vedere i colori applicati.'],
-      tr: ['Bitkisel boya ve numuneleri doğrudan Fairf online mağazasından sipariş et, eve teslim.','Fairf\'i tüm Hollanda\'daki Karwei mağazalarının rafında bul.','Bir Fairfspot\'u ziyaret et — ilham almak ve renkleri uygulanmış görmek için kendine ait bir alan.'] }],
+      tr: ['Bitkisel boya ve numuneleri doğrudan Fairf online mağazasından sipariş et, eve teslim.','Fairf\'i tüm Hollanda\'daki Karwei mağazalarının rafında bul.','Bir Fairfspot\'u ziyaret et — ilham almak ve renkleri uygulanmış görmek için kendine ait bir alan.'], no: ['Bestill plantebasert maling og prøver direkte i Fairf-nettbutikken, levert på døren.','Finn Fairf i hyllene hos Karwei-butikker over hele Nederland.','Besøk en Fairfspot — et eget sted for å bli inspirert og se fargene påført.'], sv: ['Beställ växtbaserad färg och prover direkt i Fairf-webbshoppen, levererat till dörren.','Hitta Fairf på hyllan i Karwei-butiker över hela Nederländerna.','Besök en Fairfspot — en egen plats för att bli inspirerad och se färgerna applicerade.'] }],
     ['#buy .buy a', {
       nl: ['Shop op fairf.eu ↗','Vind een winkel ↗','Ontdek Fairfspots ↗'],
       pl: ['Kup na fairf.eu ↗','Znajdź sklep ↗','Odkryj Fairfspots ↗'],
@@ -177,10 +177,10 @@
       fr: ['Acheter sur fairf.eu ↗','Trouver un magasin ↗','Découvrir les Fairfspots ↗'],
       es: ['Comprar en fairf.eu ↗','Encontrar una tienda ↗','Descubrir los Fairfspots ↗'],
       it: ['Acquista su fairf.eu ↗','Trova un negozio ↗','Scopri i Fairfspots ↗'],
-      tr: ['fairf.eu\'da alışveriş et ↗','Mağaza bul ↗','Fairfspots\'u keşfet ↗'] }],
+      tr: ['fairf.eu\'da alışveriş et ↗','Mağaza bul ↗','Fairfspots\'u keşfet ↗'], no: ['Handle på fairf.eu ↗','Finn en butikk ↗','Oppdag Fairfspots ↗'], sv: ['Handla på fairf.eu ↗','Hitta en butik ↗','Upptäck Fairfspots ↗'] }],
 
-    ['.cta-card .eyebrow', { nl: 'De officiële site', pl: 'Oficjalna strona', ro: 'Site-ul oficial', de: 'Die offizielle Website', fr: 'Le site officiel', es: 'El sitio oficial', it: 'Il sito ufficiale', tr: 'Resmî site' }],
-    ['.cta-card h2', { nl: 'Haal kleur in huis met Fairf', pl: 'Wnieś kolor do domu z Fairf', ro: 'Adu culoare acasă cu Fairf', de: 'Hol dir Farbe ins Haus mit Fairf', fr: 'Apportez de la couleur chez vous avec Fairf', es: 'Lleva color a casa con Fairf', it: 'Porta colore a casa con Fairf', tr: 'Fairf ile eve renk getir' }],
+    ['.cta-card .eyebrow', { nl: 'De officiële site', pl: 'Oficjalna strona', ro: 'Site-ul oficial', de: 'Die offizielle Website', fr: 'Le site officiel', es: 'El sitio oficial', it: 'Il sito ufficiale', tr: 'Resmî site', no: 'Den offisielle siden', sv: 'Den officiella sidan' }],
+    ['.cta-card h2', { nl: 'Haal kleur in huis met Fairf', pl: 'Wnieś kolor do domu z Fairf', ro: 'Adu culoare acasă cu Fairf', de: 'Hol dir Farbe ins Haus mit Fairf', fr: 'Apportez de la couleur chez vous avec Fairf', es: 'Lleva color a casa con Fairf', it: 'Porta colore a casa con Fairf', tr: 'Fairf ile eve renk getir', no: 'Ta farge med hjem med Fairf', sv: 'Ta hem färg med Fairf' }],
     ['.cta-card p', {
       nl: 'Bekijk alle kleurcollecties, bestel stalen en vind je dichtstbijzijnde verkooppunt op de officiële Fairf-website.',
       pl: 'Przeglądaj wszystkie kolekcje kolorów, zamów próbki i znajdź najbliższy punkt sprzedaży na oficjalnej stronie Fairf.',
@@ -189,9 +189,9 @@
       fr: 'Parcourez toutes les collections de couleurs, commandez des échantillons et trouvez votre point de vente le plus proche sur le site officiel Fairf.',
       es: 'Explora todas las colecciones de color, pide muestras y encuentra tu punto de venta más cercano en el sitio oficial de Fairf.',
       it: 'Sfoglia tutte le collezioni di colori, ordina campioni e trova il punto vendita più vicino sul sito ufficiale Fairf.',
-      tr: 'Tüm renk koleksiyonlarını incele, numune sipariş et ve sana en yakın satış noktasını resmî Fairf web sitesinde bul.' }],
-    ['.cta-card .btn-solid', { nl: 'Naar fairf.eu ↗', pl: 'Przejdź do fairf.eu ↗', ro: 'Mergi la fairf.eu ↗', de: 'Zu fairf.eu ↗', fr: 'Aller sur fairf.eu ↗', es: 'Ir a fairf.eu ↗', it: 'Vai su fairf.eu ↗', tr: 'fairf.eu\'ya git ↗' }],
-    ['.cta-card .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfet' }],
+      tr: 'Tüm renk koleksiyonlarını incele, numune sipariş et ve sana en yakın satış noktasını resmî Fairf web sitesinde bul.', no: 'Bla gjennom alle fargekolleksjonene, bestill prøver og finn nærmeste forhandler på den offisielle Fairf-nettsiden.', sv: 'Bläddra bland alla färgkollektioner, beställ prover och hitta din närmaste återförsäljare på den officiella Fairf-webbplatsen.' }],
+    ['.cta-card .btn-solid', { nl: 'Naar fairf.eu ↗', pl: 'Przejdź do fairf.eu ↗', ro: 'Mergi la fairf.eu ↗', de: 'Zu fairf.eu ↗', fr: 'Aller sur fairf.eu ↗', es: 'Ir a fairf.eu ↗', it: 'Vai su fairf.eu ↗', tr: 'fairf.eu\'ya git ↗', no: 'Til fairf.eu ↗', sv: 'Till fairf.eu ↗' }],
+    ['.cta-card .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfet', no: 'Oppdag Baril Group', sv: 'Upptäck Baril Group' }],
 
     ['.foot-claim', {
       nl: 'Plantaardige verf met een missie — vriendelijk voor jou en de planeet.',
@@ -201,7 +201,7 @@
       fr: 'Une peinture végétale avec une mission — douce pour vous et pour la planète.',
       es: 'Pintura vegetal con una misión — amable contigo y con el planeta.',
       it: 'Pittura vegetale con una missione — gentile con te e con il pianeta.',
-      tr: 'Misyon sahibi bitkisel boya — sana ve gezegene dost.' }],
+      tr: 'Misyon sahibi bitkisel boya — sana ve gezegene dost.', no: 'Plantebasert maling med en misjon — snill mot deg og planeten.', sv: 'Växtbaserad färg med ett uppdrag — snäll mot dig och planeten.' }],
     ['.foot-grid div:nth-child(2) a', {
       nl: ['Producten','Kleuren','fairf.eu ↗'],
       pl: ['Produkty','Kolory','fairf.eu ↗'],
@@ -210,7 +210,7 @@
       fr: ['Produits','Couleurs','fairf.eu ↗'],
       es: ['Productos','Colores','fairf.eu ↗'],
       it: ['Prodotti','Colori','fairf.eu ↗'],
-      tr: ['Ürünler','Renkler','fairf.eu ↗'] }],
+      tr: ['Ürünler','Renkler','fairf.eu ↗'], no: ['Produkter','Farger','fairf.eu ↗'], sv: ['Produkter','Färger','fairf.eu ↗'] }],
     ['.foot-bottom span', {
       nl: ["© Fairf · een merk van Baril Group", 'Vriendelijk voor jou en de planeet.'],
       pl: ["© Fairf · marka Baril Group", 'Przyjazna dla Ciebie i planety.'],
@@ -219,9 +219,9 @@
       fr: ["© Fairf · une marque du groupe Baril", 'Douce pour vous et pour la planète.'],
       es: ["© Fairf · una marca de Baril Group", 'Amable contigo y con el planeta.'],
       it: ["© Fairf · un marchio di Baril Group", 'Gentile con te e con il pianeta.'],
-      tr: ["© Fairf · bir Baril Group markası", 'Sana ve gezegene dost.'] }],
+      tr: ["© Fairf · bir Baril Group markası", 'Sana ve gezegene dost.'], no: ['© Fairf · et merke fra Baril Group','Snill mot deg, snill mot planeten.'], sv: ['© Fairf · ett varumärke från Baril Group','Snäll mot dig, snäll mot planeten.'] }],
 
-    ['#certs .eyebrow', { nl: 'Certificeringen &amp; testen', pl: 'Certyfikaty i testy', ro: 'Certificări și teste', de: 'Zertifizierungen &amp; Tests', fr: 'Certifications et tests', es: 'Certificaciones y pruebas', it: 'Certificazioni e test', tr: 'Sertifikalar &amp; testler' }],
+    ['#certs .eyebrow', { nl: 'Certificeringen &amp; testen', pl: 'Certyfikaty i testy', ro: 'Certificări și teste', de: 'Zertifizierungen &amp; Tests', fr: 'Certifications et tests', es: 'Certificaciones y pruebas', it: 'Certificazioni e test', tr: 'Sertifikalar &amp; testler', no: 'Sertifiseringer &amp; tester', sv: 'Certifieringar &amp; tester' }],
     ['#certs h2', {
       nl: 'Getest, <span class="rain">gecertificeerd</span>, veilig',
       pl: 'Przetestowana, <span class="rain">certyfikowana</span>, bezpieczna',
@@ -230,7 +230,7 @@
       fr: 'Testée, <span class="rain">certifiée</span>, sûre',
       es: 'Probada, <span class="rain">certificada</span>, segura',
       it: 'Testata, <span class="rain">certificata</span>, sicura',
-      tr: 'Test edildi, <span class="rain">sertifikalı</span>, güvenli' }],
+      tr: 'Test edildi, <span class="rain">sertifikalı</span>, güvenli', no: 'Testet, <span class="rain">sertifisert</span>, trygt', sv: 'Testad, <span class="rain">certifierad</span>, säker' }],
     ['#certs .lead', {
       nl: 'Onafhankelijk getest en gecertificeerd — zo is "vrij van de schadelijke stoffen van traditionele verf" meer dan een belofte. EU Ecolabel-gecertificeerd, een A+ lage-emissieklasse, en getest als veilig voor gebruik op kinderspeelgoed en meubels.',
       pl: 'Niezależnie przetestowana i certyfikowana — dzięki temu „wolna od szkodliwych substancji" to coś więcej niż obietnica. Certyfikat EU Ecolabel, klasa niskiej emisji A+ oraz przetestowana jako bezpieczna do stosowania na zabawkach i meblach dziecięcych.',
@@ -239,7 +239,7 @@
       fr: 'Testée et certifiée de manière indépendante — ainsi « sans les substances nocives des peintures traditionnelles » est plus qu\'une promesse. Certifiée EU Ecolabel, classe A+ à faibles émissions et testée sûre pour une utilisation sur les jouets et meubles pour enfants.',
       es: 'Probada y certificada de forma independiente — así "libre de sustancias nocivas" es más que una promesa. Certificada con EU Ecolabel, una clase A+ de bajas emisiones y probada como segura para su uso en juguetes y muebles infantiles.',
       it: 'Testata e certificata in modo indipendente — così "priva di sostanze nocive" è più di una promessa. Certificata EU Ecolabel, una classe A+ a basse emissioni e testata come sicura per l\'uso su giocattoli e mobili per bambini.',
-      tr: 'Bağımsız olarak test edildi ve sertifikalandı — böylece "zararlı maddelerden arındırılmış" bir vaatten daha fazlası. EU Ecolabel sertifikalı, A+ düşük emisyon sınıfı ve çocuk oyuncakları ile mobilyalarda kullanım için güvenli olduğu test edildi.' }]
+      tr: 'Bağımsız olarak test edildi ve sertifikalandı — böylece "zararlı maddelerden arındırılmış" bir vaatten daha fazlası. EU Ecolabel sertifikalı, A+ düşük emisyon sınıfı ve çocuk oyuncakları ile mobilyalarda kullanım için güvenli olduğu test edildi.', no: 'Uavhengig testet og sertifisert, så snill-mot-deg er mer enn et løfte: EU Ecolabel-sertifisert, en A+ lavutslippsklasse, og testet trygt for bruk på barneleker og møbler.', sv: 'Oberoende testad och certifierad, så snäll-mot-dig är mer än ett löfte: EU Ecolabel-certifierad, en A+ lågemissionsklass, och testad som säker för användning på barnleksaker och möbler.' }]
   ];
 
   const flagBox = document.getElementById('langflags');

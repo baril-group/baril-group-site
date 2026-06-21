@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   const MAP = [
-    ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.' }],
+    ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.', no: 'Vi ønsker å gjøre informasjonen vår så bredt tilgjengelig som mulig; derfor er noen tekster oversatt med Anthropic Claude AI. Skulle du oppdage en feil, setter vi stor pris på at du gir oss beskjed.', sv: 'Vi vill göra vår information så brett tillgänglig som möjligt; därför har vissa texter översatts med Anthropic Claude AI. Om du upptäcker ett fel får du gärna meddela oss.' }],
     ['.navlinks a', {
       nl: ['Waarom Copperant','Het assortiment','Duurzaamheid','Voor professionals','copperant.com ↗'],
       pl: ['Dlaczego Copperant','Asortyment','Zrównoważoność','Dla profesjonalistów','copperant.com ↗'],
@@ -12,7 +12,7 @@
       fr: ['Pourquoi Copperant','La gamme','Durabilité','Pour les pros','copperant.com ↗'],
       es: ['Por qué Copperant','La gama','Sostenibilidad','Para profesionales','copperant.com ↗'],
       it: ['Perché Copperant','La gamma','Sostenibilità','Per i professionisti','copperant.com ↗'],
-      tr: ['Neden Copperant','Ürün gamı','Sürdürülebilirlik','Profesyoneller için','copperant.com ↗'] }],
+      tr: ['Neden Copperant','Ürün gamı','Sürdürülebilirlik','Profesyoneller için','copperant.com ↗'], no: ['Hvorfor Copperant','Sortimentet','Bærekraft','For profesjonelle','copperant.com ↗'], sv: ['Varför Copperant','Sortimentet','Hållbarhet','För proffs','copperant.com ↗'] }],
     ['header .eyebrow .eb-txt', {
       nl: 'Copperant — De groenste verf · Een merk van Baril Group',
       pl: 'Copperant — Najbardziej zielona farba · Marka Baril Group',
@@ -21,7 +21,7 @@
       fr: 'Copperant — La peinture la plus verte · Une marque du groupe Baril',
       es: 'Copperant — La pintura más verde · Una marca de Baril Group',
       it: 'Copperant — La vernice più verde · Un marchio di Baril Group',
-      tr: 'Copperant — En yeşil boya · Bir Baril Group markası' }],
+      tr: 'Copperant — En yeşil boya · Bir Baril Group markası', no: 'Copperant — Den grønneste malingen · Et merke fra Baril Group', sv: 'Copperant — Den grönaste färgen · Ett varumärke från Baril Group' }],
     ['header h1', {
       nl: 'Professionele resultaten,<br><span class="green">groenste</span> verf',
       pl: 'Profesjonalne efekty,<br><span class="green">najbardziej zielona</span> farba',
@@ -30,7 +30,7 @@
       fr: 'Des résultats pros,<br>la peinture la plus <span class="green">verte</span>',
       es: 'Resultados profesionales,<br>la pintura más <span class="green">verde</span>',
       it: 'Risultati professionali,<br>la vernice più <span class="green">verde</span>',
-      tr: 'Profesyonel sonuçlar,<br><span class="green">en yeşil</span> boya' }],
+      tr: 'Profesyonel sonuçlar,<br><span class="green">en yeşil</span> boya', no: 'Profesjonelle resultater,<br><span class="green">grønneste</span> maling', sv: 'Professionella resultat,<br><span class="green">grönaste</span> färg' }],
     ['.hero-sub', {
       nl: 'Een compleet biobased verfsysteem voor professionals — <strong>plantaardige chemie en productie op hernieuwbare energie</strong>, met de prestaties die je verwacht en elke kleur die je kunt bedenken.',
       pl: 'Kompletny biobazowy system malarski dla profesjonalistów — <strong>chemia roślinna i produkcja na energii odnawialnej</strong>, z oczekiwaną wydajnością i każdym kolorem, jaki sobie wyobrazisz.',
@@ -39,9 +39,9 @@
       fr: 'Un système de peinture biosourcé complet pour les professionnels — <strong>chimie végétale et production à l\'énergie renouvelable</strong>, avec les performances attendues et toutes les couleurs imaginables.',
       es: 'Un sistema de pintura biobasado completo para profesionales — <strong>química vegetal y producción con energía renovable</strong>, con el rendimiento que esperas y todos los colores que puedas imaginar.',
       it: 'Un sistema di pittura biobased completo per i professionisti — <strong>chimica vegetale e produzione con energia rinnovabile</strong>, con le prestazioni che ti aspetti e ogni colore che puoi immaginare.',
-      tr: 'Profesyoneller için eksiksiz, biyobazlı bir boya sistemi — <strong>bitkisel kimya ve yenilenebilir enerjiyle üretim</strong>, beklediğiniz performansla ve hayal edebileceğiniz her renkle.' }],
-    ['header .hero-cta .btn-copper', { nl: 'Bezoek copperant.com ↗', pl: 'Odwiedź copperant.com ↗', ro: 'Vizitează copperant.com ↗', de: 'copperant.com besuchen ↗', fr: 'Visiter copperant.com ↗', es: 'Visitar copperant.com ↗', it: 'Visita copperant.com ↗', tr: 'copperant.com\'u ziyaret edin ↗' }],
-    ['header .hero-cta .btn-ghost', { nl: 'Bekijk het assortiment', pl: 'Zobacz asortyment', ro: 'Explorează gama', de: 'Das Sortiment ansehen', fr: 'Voir la gamme', es: 'Ver la gama', it: 'Scopri la gamma', tr: 'Ürün gamını keşfedin' }],
+      tr: 'Profesyoneller için eksiksiz, biyobazlı bir boya sistemi — <strong>bitkisel kimya ve yenilenebilir enerjiyle üretim</strong>, beklediğiniz performansla ve hayal edebileceğiniz her renkle.', no: 'Et komplett biobasert malingssystem for profesjonelle — <strong>plantebasert kjemi og produksjon på fornybar energi</strong>, med ytelsen du forventer og enhver farge du kan tenke deg.', sv: 'Ett komplett biobaserat färgsystem för proffs — <strong>växtbaserad kemi och produktion på förnybar energi</strong>, med prestandan du förväntar dig och vilken färg du än kan tänka dig.' }],
+    ['header .hero-cta .btn-copper', { nl: 'Bezoek copperant.com ↗', pl: 'Odwiedź copperant.com ↗', ro: 'Vizitează copperant.com ↗', de: 'copperant.com besuchen ↗', fr: 'Visiter copperant.com ↗', es: 'Visitar copperant.com ↗', it: 'Visita copperant.com ↗', tr: 'copperant.com\'u ziyaret edin ↗', no: 'Besøk copperant.com ↗', sv: 'Besök copperant.com ↗' }],
+    ['header .hero-cta .btn-ghost', { nl: 'Bekijk het assortiment', pl: 'Zobacz asortyment', ro: 'Explorează gama', de: 'Das Sortiment ansehen', fr: 'Voir la gamme', es: 'Ver la gama', it: 'Scopri la gamma', tr: 'Ürün gamını keşfedin', no: 'Se sortimentet', sv: 'Se sortimentet' }],
     ['.hero-foot span:first-child', {
       nl: 'Biobased · EU Ecolabel · Cradle to Cradle · Hernieuwbare energie',
       pl: 'Biobazowa · EU Ecolabel · Cradle to Cradle · Energia odnawialna',
@@ -50,10 +50,10 @@
       fr: 'Biosourcée · EU Ecolabel · Cradle to Cradle · Énergie renouvelable',
       es: 'Biobasada · EU Ecolabel · Cradle to Cradle · Energía renovable',
       it: 'Biobased · EU Ecolabel · Cradle to Cradle · Energia rinnovabile',
-      tr: 'Biyobazlı · EU Ecolabel · Cradle to Cradle · Yenilenebilir enerji' }],
-    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır' }],
+      tr: 'Biyobazlı · EU Ecolabel · Cradle to Cradle · Yenilenebilir enerji', no: 'Biobasert · EU Ecolabel · Cradle to Cradle · Fornybar energi', sv: 'Biobaserad · EU Ecolabel · Cradle to Cradle · Förnybar energi' }],
+    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır', no: 'Bla', sv: 'Skrolla' }],
 
-    ['#mission .eyebrow', { nl: 'Waarom Copperant', pl: 'Dlaczego Copperant', ro: 'De ce Copperant', de: 'Warum Copperant', fr: 'Pourquoi Copperant', es: 'Por qué Copperant', it: 'Perché Copperant', tr: 'Neden Copperant' }],
+    ['#mission .eyebrow', { nl: 'Waarom Copperant', pl: 'Dlaczego Copperant', ro: 'De ce Copperant', de: 'Warum Copperant', fr: 'Pourquoi Copperant', es: 'Por qué Copperant', it: 'Perché Copperant', tr: 'Neden Copperant', no: 'Hvorfor Copperant', sv: 'Varför Copperant' }],
     ['.mission-quote', {
       nl: 'Professionals zouden niet hoeven kiezen tussen prestaties en de planeet. Copperant is gebouwd op natuurlijke grondstoffen en productie op hernieuwbare energie — <em>de groenste verf, zonder compromis</em>.',
       pl: 'Profesjonaliści nie powinni wybierać między wydajnością a planetą. Copperant powstaje z naturalnych surowców i w produkcji na energii odnawialnej — <em>najbardziej zielona farba, bez kompromisów</em>.',
@@ -62,7 +62,7 @@
       fr: 'Les professionnels ne devraient pas avoir à choisir entre performance et planète. Copperant repose sur des matières premières naturelles et une production à l\'énergie renouvelable — <em>la peinture la plus verte, sans compromis</em>.',
       es: 'Los profesionales no deberían tener que elegir entre rendimiento y planeta. Copperant se basa en materias primas naturales y una producción con energía renovable — <em>la pintura más verde, sin concesiones</em>.',
       it: 'I professionisti non dovrebbero dover scegliere tra prestazioni e pianeta. Copperant nasce da materie prime naturali e da una produzione con energia rinnovabile — <em>la vernice più verde, senza compromessi</em>.',
-      tr: 'Profesyoneller performans ile gezegen arasında seçim yapmak zorunda kalmamalı. Copperant doğal hammaddeler ve yenilenebilir enerjiyle üretim üzerine kuruludur — <em>ödün vermeden en yeşil boya</em>.' }],
+      tr: 'Profesyoneller performans ile gezegen arasında seçim yapmak zorunda kalmamalı. Copperant doğal hammaddeler ve yenilenebilir enerjiyle üretim üzerine kuruludur — <em>ödün vermeden en yeşil boya</em>.', no: 'Profesjonelle skal ikke måtte velge mellom ytelse og planeten. Copperant er bygget på naturlige råvarer og produksjon på fornybar energi — <em>den grønneste malingen, uten kompromiss</em>.', sv: 'Proffs ska inte behöva välja mellan prestanda och planeten. Copperant är byggd på naturliga råvaror och produktion på förnybar energi — <em>den grönaste färgen, utan kompromiss</em>.' }],
     ['#mission .mm b', {
       nl: ['Plantaardig &amp; natuurlijk','productie op hernieuwbare energie','Elke kleur, onbeperkt'],
       pl: ['Roślinna i naturalna','Produkcja na energii odnawialnej','Każdy kolor, bez limitu'],
@@ -71,7 +71,7 @@
       fr: ['Végétale et naturelle','Production à l\'énergie renouvelable','Toute couleur, sans limite'],
       es: ['Vegetal y natural','Producción con energía renovable','Todo color, sin límite'],
       it: ['Vegetale e naturale','Produzione con energia rinnovabile','Ogni colore, senza limiti'],
-      tr: ['Bitkisel &amp; doğal','Yenilenebilir enerjiyle üretim','Her renk, sınırsız'] }],
+      tr: ['Bitkisel &amp; doğal','Yenilenebilir enerjiyle üretim','Her renk, sınırsız'], no: ['Plantebasert &amp; naturlig','Produksjon på fornybar energi','Enhver farge, ubegrenset'], sv: ['Växtbaserad &amp; naturlig','Produktion på förnybar energi','Varje färg, obegränsat'] }],
     ['#mission .mm span', {
       nl: ['Samengesteld uit natuurlijke, plantaardige grondstoffen — fossiele chemie teruggebracht.','Gemaakt op eigen hernieuwbare energie, met plantaardige grondstoffen die biogene koolstof vastleggen.','Optimale professionele prestaties, in onbeperkt veel kleuren op maat.'],
       pl: ['Opracowana z naturalnych, roślinnych surowców — chemia kopalna ograniczona.','Wytwarzana na własnej energii odnawialnej, z roślinnych surowców, które magazynują węgiel biogeniczny.','Optymalna profesjonalna wydajność, w nieograniczonej liczbie kolorów na zamówienie.'],
@@ -80,9 +80,9 @@
       fr: ['Composée de matières premières naturelles et végétales — la chimie fossile réduite.','Fabriquée avec notre propre énergie renouvelable, à partir de matières premières végétales qui stockent du carbone biogénique.','Des performances professionnelles optimales, dans un nombre illimité de couleurs sur mesure.'],
       es: ['Formulada con materias primas naturales y vegetales — química fósil reducida.','Fabricada con nuestra propia energía renovable, a partir de materias primas vegetales que almacenan carbono biogénico.','Rendimiento profesional óptimo, en un número ilimitado de colores a medida.'],
       it: ['Composta da materie prime naturali e vegetali — chimica fossile ridotta.','Prodotta con la nostra energia rinnovabile, da materie prime vegetali che immagazzinano carbonio biogenico.','Prestazioni professionali ottimali, in un numero illimitato di colori su misura.'],
-      tr: ['Doğal, bitkisel hammaddelerden formüle edilmiştir — fosil kimya en aza indirilmiştir.','Kendi yenilenebilir enerjimizle, biyojenik karbonu depolayan bitkisel hammaddelerle üretilir.','Sınırsız sayıda özel renkte, optimum profesyonel performans.'] }],
+      tr: ['Doğal, bitkisel hammaddelerden formüle edilmiştir — fosil kimya en aza indirilmiştir.','Kendi yenilenebilir enerjimizle, biyojenik karbonu depolayan bitkisel hammaddelerle üretilir.','Sınırsız sayıda özel renkte, optimum profesyonel performans.'], no: ['Sammensatt av naturlige, plantebaserte råvarer — fossil kjemi redusert.','Laget på egen fornybar energi, med plantebaserte råvarer som lagrer biogent karbon.','Optimal profesjonell ytelse, i ubegrenset antall tilpassede farger.'], sv: ['Sammansatt av naturliga, växtbaserade råvaror — fossil kemi reducerad.','Tillverkad med egen förnybar energi, av växtbaserade råvaror som lagrar biogent kol.','Optimal professionell prestanda, i obegränsat antal anpassade färger.'] }],
 
-    ['#range .eyebrow', { nl: 'Het assortiment', pl: 'Asortyment', ro: 'Gama', de: 'Das Sortiment', fr: 'La gamme', es: 'La gama', it: 'La gamma', tr: 'Ürün gamı' }],
+    ['#range .eyebrow', { nl: 'Het assortiment', pl: 'Asortyment', ro: 'Gama', de: 'Das Sortiment', fr: 'La gamme', es: 'La gama', it: 'La gamma', tr: 'Ürün gamı', no: 'Sortimentet', sv: 'Sortimentet' }],
     ['#range h2', {
       nl: 'Eén systeem, <span class="copper">vijf lijnen</span>',
       pl: 'Jeden system, <span class="copper">pięć linii</span>',
@@ -91,7 +91,7 @@
       fr: 'Un système, <span class="copper">cinq lignes</span>',
       es: 'Un sistema, <span class="copper">cinco líneas</span>',
       it: 'Un sistema, <span class="copper">cinque linee</span>',
-      tr: 'Tek sistem, <span class="copper">beş seri</span>' }],
+      tr: 'Tek sistem, <span class="copper">beş seri</span>', no: 'Ett system, <span class="copper">fem serier</span>', sv: 'Ett system, <span class="copper">fem serier</span>' }],
     ['#range .lead', {
       nl: 'Een compleet, gespecialiseerd systeem voor elke ondergrond en klus — hout, steen, metaal en meer.',
       pl: 'Kompletny, wyspecjalizowany system do każdego podłoża i zadania — drewno, kamień, metal i więcej.',
@@ -100,7 +100,7 @@
       fr: 'Un système complet et spécialisé pour tout support et tout chantier — bois, pierre, métal et plus encore.',
       es: 'Un sistema completo y especializado para cualquier soporte y trabajo — madera, piedra, metal y más.',
       it: 'Un sistema completo e specializzato per ogni supporto e lavoro — legno, pietra, metallo e altro.',
-      tr: 'Her yüzey ve iş için eksiksiz, uzmanlaşmış bir sistem — ahşap, taş, metal ve daha fazlası.' }],
+      tr: 'Her yüzey ve iş için eksiksiz, uzmanlaşmış bir sistem — ahşap, taş, metal ve daha fazlası.', no: 'Et komplett, spesialisert system for ethvert underlag og enhver jobb — tre, stein, metall og mer.', sv: 'Ett komplett, specialiserat system för varje underlag och jobb — trä, sten, metall och mer.' }],
     ['#range .feat span', {
       nl: ['Muurverven, primers, lakken, beitsen en reinigers — de dagelijkse kern van het systeem.','Het UV+-systeem: grondlagen, systeemverven, lakken en metallic-afwerkingen.','Hout- en vloerlakken met UV+-technologie voor blijvende, natuurlijke bescherming.','Minerale muurprimers en -verven voor een diepe, ademende matte afwerking.','Grondlagen en afwerkverven die het professionele systeem compleet maken.'],
       pl: ['Farby ścienne, podkłady, lakiery, bejce i środki czyszczące — codzienny rdzeń systemu.','System UV+: podkłady, farby systemowe, lakiery i wykończenia metaliczne.','Lakiery do drewna i podłóg z technologią UV+ dla trwałej, naturalnej ochrony.','Mineralne podkłady i farby ścienne dla głębokiego, oddychającego matu.','Podkłady i farby wykończeniowe, które dopełniają profesjonalny system.'],
@@ -109,9 +109,9 @@
       fr: ['Peintures murales, primaires, laques, lasures et nettoyants — le cœur quotidien du système.','Le système UV+ : couches de fond, peintures de système, laques et finitions métallisées.','Laques pour bois et sols avec technologie UV+ pour une protection naturelle durable.','Primaires et peintures murales minéraux pour un mat profond et respirant.','Couches de fond et peintures de finition qui complètent le système professionnel.'],
       es: ['Pinturas murales, imprimaciones, lacas, tintes y limpiadores — el núcleo diario del sistema.','El sistema UV+: capas de fondo, pinturas de sistema, lacas y acabados metalizados.','Lacas para madera y suelos con tecnología UV+ para una protección natural duradera.','Imprimaciones y pinturas murales minerales para un mate profundo y transpirable.','Capas de fondo y pinturas de acabado que completan el sistema profesional.'],
       it: ['Pitture murali, primer, smalti, impregnanti e detergenti — il cuore quotidiano del sistema.','Il sistema UV+: fondi, pitture di sistema, smalti e finiture metallizzate.','Vernici per legno e pavimenti con tecnologia UV+ per una protezione naturale duratura.','Primer e pitture murali minerali per un opaco profondo e traspirante.','Fondi e pitture di finitura che completano il sistema professionale.'],
-      tr: ['Duvar boyaları, astarlar, vernikler, ahşap koruyucular ve temizleyiciler — sistemin günlük çekirdeği.','UV+ sistemi: astar katları, sistem boyaları, vernikler ve metalik son katlar.','Kalıcı, doğal koruma için UV+ teknolojili ahşap ve zemin vernikleri.','Derin, nefes alan mat bir görünüm için mineral duvar astarları ve boyaları.','Profesyonel sistemi tamamlayan astar katları ve son kat boyalar.'] }],
+      tr: ['Duvar boyaları, astarlar, vernikler, ahşap koruyucular ve temizleyiciler — sistemin günlük çekirdeği.','UV+ sistemi: astar katları, sistem boyaları, vernikler ve metalik son katlar.','Kalıcı, doğal koruma için UV+ teknolojili ahşap ve zemin vernikleri.','Derin, nefes alan mat bir görünüm için mineral duvar astarları ve boyaları.','Profesyonel sistemi tamamlayan astar katları ve son kat boyalar.'], no: ['Veggmalinger, primere, lakker, beis og rensemidler — den daglige kjernen i systemet.','UV+-systemet: grunnlag, systemmalinger, lakker og metallic-finisher.','Tre- og gulvlakker med UV+-teknologi for varig, naturlig beskyttelse.','Mineralske veggprimere og -malinger for en dyp, pustende matt finish.','Grunnlag og avsluttende malinger som fullfører det profesjonelle systemet.'], sv: ['Väggfärger, primers, lacker, betser och rengöringsmedel — systemets dagliga kärna.','UV+-systemet: grundfärger, systemfärger, lacker och metallic-finisher.','Trä- och golvlacker med UV+-teknik för varaktigt, naturligt skydd.','Mineraliska väggprimers och -färger för en djup, andande matt finish.','Grundfärger och avslutande färger som fullbordar det professionella systemet.'] }],
 
-    ['#green .eyebrow', { nl: 'Duurzaamheid', pl: 'Zrównoważoność', ro: 'Sustenabilitate', de: 'Nachhaltigkeit', fr: 'Durabilité', es: 'Sostenibilidad', it: 'Sostenibilità', tr: 'Sürdürülebilirlik' }],
+    ['#green .eyebrow', { nl: 'Duurzaamheid', pl: 'Zrównoważoność', ro: 'Sustenabilitate', de: 'Nachhaltigkeit', fr: 'Durabilité', es: 'Sostenibilidad', it: 'Sostenibilità', tr: 'Sürdürülebilirlik', no: 'Bærekraft', sv: 'Hållbarhet' }],
     ['#green h2', {
       nl: 'De <span class="green">groenste</span> verf, bewezen',
       pl: 'Najbardziej <span class="green">zielona</span> farba, potwierdzona',
@@ -120,7 +120,7 @@
       fr: 'La peinture la plus <span class="green">verte</span>, prouvée',
       es: 'La pintura más <span class="green">verde</span>, demostrado',
       it: 'La vernice più <span class="green">verde</span>, dimostrato',
-      tr: 'En <span class="green">yeşil</span> boya, kanıtlanmış' }],
+      tr: 'En <span class="green">yeşil</span> boya, kanıtlanmış', no: 'Den <span class="green">grønneste</span> malingen, bevist', sv: 'Den <span class="green">grönaste</span> färgen, bevisad' }],
     ['#green .lead', {
       nl: 'Copperant combineert professionele prestaties met enkele van de sterkste eco-credentials in de branche — onafhankelijk getest en gecertificeerd.',
       pl: 'Copperant łączy profesjonalną wydajność z jednymi z najmocniejszych eko-certyfikatów w branży — niezależnie przetestowane i certyfikowane.',
@@ -129,8 +129,8 @@
       fr: 'Copperant allie performance professionnelle et certains des meilleurs labels écologiques du secteur — testés et certifiés de façon indépendante.',
       es: 'Copperant combina rendimiento profesional con algunas de las credenciales ecológicas más sólidas del sector — probadas y certificadas de forma independiente.',
       it: 'Copperant unisce prestazioni professionali ad alcune delle credenziali ecologiche più solide del settore — testate e certificate in modo indipendente.',
-      tr: 'Copperant, profesyonel performansı sektördeki en güçlü ekolojik kanıtlardan bazılarıyla birleştirir — bağımsız olarak test edilmiş ve sertifikalandırılmıştır.' }],
-    ['#green .stat .n', { nl: ['Hernieuwbare energie','Plantaardig','Onbeperkt'], pl: ['Energia odnawialna','Roślinna','Bez limitu'], ro: ['Energie regenerabilă','Vegetală','Nelimitat'], de: ['Erneuerbare Energie','Pflanzlich','Unbegrenzt'], fr: ['Énergie renouvelable','Végétale','Illimité'], es: ['Energía renovable','Vegetal','Ilimitado'], it: ['Energia rinnovabile','Vegetale','Illimitato'], tr: ['Yenilenebilir enerji','Bitkisel','Sınırsız'] }],
+      tr: 'Copperant, profesyonel performansı sektördeki en güçlü ekolojik kanıtlardan bazılarıyla birleştirir — bağımsız olarak test edilmiş ve sertifikalandırılmıştır.', no: 'Copperant kombinerer profesjonell ytelse med noen av bransjens sterkeste miljøkvalifikasjoner — uavhengig testet og sertifisert.', sv: 'Copperant kombinerar professionell prestanda med några av branschens starkaste miljömeriter — oberoende testad och certifierad.' }],
+    ['#green .stat .n', { nl: ['Hernieuwbare energie','Plantaardig','Onbeperkt'], pl: ['Energia odnawialna','Roślinna','Bez limitu'], ro: ['Energie regenerabilă','Vegetală','Nelimitat'], de: ['Erneuerbare Energie','Pflanzlich','Unbegrenzt'], fr: ['Énergie renouvelable','Végétale','Illimité'], es: ['Energía renovable','Vegetal','Ilimitado'], it: ['Energia rinnovabile','Vegetale','Illimitato'], tr: ['Yenilenebilir enerji','Bitkisel','Sınırsız'], no: ['Fornybar energi','Plantebasert','Ubegrenset'], sv: ['Förnybar energi','Växtbaserad','Obegränsat'] }],
     ['#green .stat .l', {
       nl: ['Geproduceerd op eigen hernieuwbare energie.','Natuurlijke, plantaardige grondstoffen als basis.','Kleuren op maat, zonder limiet.'],
       pl: ['Wytwarzane na własnej energii odnawialnej.','Naturalne, roślinne surowce w rdzeniu.','Kolory na zamówienie, bez ograniczeń.'],
@@ -139,9 +139,9 @@
       fr: ['Fabriqué avec notre propre énergie renouvelable.','Matières premières naturelles et végétales à la base.','Couleurs sur mesure, sans limite.'],
       es: ['Fabricado con nuestra propia energía renovable.','Materias primas naturales y vegetales como base.','Colores a medida, sin límite.'],
       it: ['Prodotto con la nostra energia rinnovabile.','Materie prime naturali e vegetali alla base.','Colori su misura, senza limiti.'],
-      tr: ['Kendi yenilenebilir enerjimizle üretilir.','Temelinde doğal, bitkisel hammaddeler.','Sınırsız, özel renkler.'] }],
+      tr: ['Kendi yenilenebilir enerjimizle üretilir.','Temelinde doğal, bitkisel hammaddeler.','Sınırsız, özel renkler.'], no: ['Produsert på egen fornybar energi.','Naturlige, plantebaserte råvarer i kjernen.','Tilpassede farger, uten grenser.'], sv: ['Producerad med egen förnybar energi.','Naturliga, växtbaserade råvaror i kärnan.','Anpassade färger, utan gränser.'] }],
 
-    ['#pros .eyebrow', { nl: 'Voor professionals', pl: 'Dla profesjonalistów', ro: 'Pentru profesioniști', de: 'Für Profis', fr: 'Pour les pros', es: 'Para profesionales', it: 'Per i professionisti', tr: 'Profesyoneller için' }],
+    ['#pros .eyebrow', { nl: 'Voor professionals', pl: 'Dla profesjonalistów', ro: 'Pentru profesioniști', de: 'Für Profis', fr: 'Pour les pros', es: 'Para profesionales', it: 'Per i professionisti', tr: 'Profesyoneller için', no: 'For profesjonelle', sv: 'För proffs' }],
     ['#pros h2', {
       nl: 'Gemaakt voor de<br>mensen die <span class="copper">schilderen</span>',
       pl: 'Stworzona dla<br>tych, którzy <span class="copper">malują</span>',
@@ -150,7 +150,7 @@
       fr: 'Conçue pour<br>ceux qui <span class="copper">peignent</span>',
       es: 'Creada para<br>quienes <span class="copper">pintan</span>',
       it: 'Creata per<br>chi <span class="copper">dipinge</span>',
-      tr: '<span class="copper">Boya yapan</span><br>insanlar için tasarlandı' }],
+      tr: '<span class="copper">Boya yapan</span><br>insanlar için tasarlandı', no: 'Laget for<br>dem som <span class="copper">maler</span>', sv: 'Gjord för<br>dem som <span class="copper">målar</span>' }],
     ['#pros .lead', {
       nl: 'In de eerste plaats gebouwd voor de vakschilder — en ver daarbuiten vertrouwd.',
       pl: 'Stworzona przede wszystkim dla profesjonalnego malarza — i ceniona daleko poza branżą.',
@@ -159,7 +159,7 @@
       fr: 'Conçue avant tout pour le peintre professionnel — et appréciée bien au-delà.',
       es: 'Creada ante todo para el pintor profesional — y apreciada mucho más allá.',
       it: 'Creata prima di tutto per l\'imbianchino professionista — e apprezzata ben oltre.',
-      tr: 'Her şeyden önce profesyonel boyacı için tasarlandı — ve çok daha ötesinde güveniliyor.' }],
+      tr: 'Her şeyden önce profesyonel boyacı için tasarlandı — ve çok daha ötesinde güveniliyor.', no: 'Først og fremst bygget for den profesjonelle maleren — og betrodd langt utover det.', sv: 'Främst byggd för den professionella målaren — och betrodd långt därutöver.' }],
     ['#pros .split-list span', {
       nl: ['Vakschilders en doe-het-zelvers die groen willen zonder in te leveren op kwaliteit.','Aannemers en architecten die voorschrijven voor kantoren, zorg, scholen en horeca.','Vastgoedbeheerders die gezondere, emissiearme interieurs willen.'],
       pl: ['Profesjonalni malarze i majsterkowicze, którzy chcą ekologii bez utraty jakości.','Wykonawcy i architekci specyfikujący dla biur, opieki, szkół i hotelarstwa.','Zarządcy nieruchomości, którzy chcą zdrowszych wnętrz o niskiej emisji.'],
@@ -168,10 +168,10 @@
       fr: ['Peintres professionnels et bricoleurs qui veulent du vert sans renoncer à la qualité.','Entrepreneurs et architectes qui prescrivent pour bureaux, santé, écoles et hôtellerie.','Gestionnaires immobiliers qui veulent des intérieurs plus sains et à faibles émissions.'],
       es: ['Pintores profesionales y aficionados al bricolaje que quieren ser ecológicos sin renunciar a la calidad.','Contratistas y arquitectos que prescriben para oficinas, sanidad, escuelas y hostelería.','Administradores de fincas que buscan interiores más sanos y de bajas emisiones.'],
       it: ['Imbianchini professionisti e appassionati del fai-da-te che vogliono il verde senza rinunciare alla qualità.','Imprese e architetti che prescrivono per uffici, sanità, scuole e ospitalità.','Gestori immobiliari che vogliono interni più sani e a basse emissioni.'],
-      tr: ['Kaliteden ödün vermeden yeşili tercih eden profesyonel boyacılar ve kendin-yap meraklıları.','Ofisler, sağlık, okullar ve konaklama için şartname hazırlayan müteahhitler ve mimarlar.','Daha sağlıklı, düşük emisyonlu iç mekânlar isteyen mülk yöneticileri.'] }],
+      tr: ['Kaliteden ödün vermeden yeşili tercih eden profesyonel boyacılar ve kendin-yap meraklıları.','Ofisler, sağlık, okullar ve konaklama için şartname hazırlayan müteahhitler ve mimarlar.','Daha sağlıklı, düşük emisyonlu iç mekânlar isteyen mülk yöneticileri.'], no: ['Profesjonelle malere og gjør-det-selvere som vil ha grønt uten å gå på akkord med kvaliteten.','Entreprenører og arkitekter som foreskriver for kontorer, helse, skoler og servering.','Eiendomsforvaltere som ønsker sunnere interiører med lave utslipp.'], sv: ['Professionella målare och gör-det-självare som vill ha grönt utan att tumma på kvaliteten.','Entreprenörer och arkitekter som föreskriver för kontor, vård, skolor och restaurang.','Fastighetsförvaltare som vill ha hälsosammare interiörer med låga utsläpp.'] }],
 
-    ['.cta-card .eyebrow', { nl: 'De officiële site', pl: 'Oficjalna strona', ro: 'Site-ul oficial', de: 'Die offizielle Website', fr: 'Le site officiel', es: 'El sitio oficial', it: 'Il sito ufficiale', tr: 'Resmî site' }],
-    ['.cta-card h2', { nl: 'Bekijk het volledige Copperant-systeem', pl: 'Zobacz pełny system Copperant', ro: 'Vezi întregul sistem Copperant', de: 'Das komplette Copperant-System ansehen', fr: 'Découvrir tout le système Copperant', es: 'Descubre todo el sistema Copperant', it: 'Scopri l\'intero sistema Copperant', tr: 'Eksiksiz Copperant sistemini keşfedin' }],
+    ['.cta-card .eyebrow', { nl: 'De officiële site', pl: 'Oficjalna strona', ro: 'Site-ul oficial', de: 'Die offizielle Website', fr: 'Le site officiel', es: 'El sitio oficial', it: 'Il sito ufficiale', tr: 'Resmî site', no: 'Den offisielle siden', sv: 'Den officiella sidan' }],
+    ['.cta-card h2', { nl: 'Bekijk het volledige Copperant-systeem', pl: 'Zobacz pełny system Copperant', ro: 'Vezi întregul sistem Copperant', de: 'Das komplette Copperant-System ansehen', fr: 'Découvrir tout le système Copperant', es: 'Descubre todo el sistema Copperant', it: 'Scopri l\'intero sistema Copperant', tr: 'Eksiksiz Copperant sistemini keşfedin', no: 'Se hele Copperant-systemet', sv: 'Se hela Copperant-systemet' }],
     ['.cta-card p', {
       nl: 'Kleuren, productlijnen, datasheets en verkooppunten — ontdek alles op de officiële Copperant-website.',
       pl: 'Kolory, linie produktów, karty techniczne i punkty sprzedaży — odkryj wszystko na oficjalnej stronie Copperant.',
@@ -180,9 +180,9 @@
       fr: 'Couleurs, lignes de produits, fiches techniques et points de vente — découvrez tout sur le site officiel Copperant.',
       es: 'Colores, líneas de productos, fichas técnicas y puntos de venta — descúbrelo todo en el sitio oficial de Copperant.',
       it: 'Colori, linee di prodotto, schede tecniche e punti vendita — scopri tutto sul sito ufficiale Copperant.',
-      tr: 'Renkler, ürün serileri, teknik föyler ve satış noktaları — hepsini resmî Copperant web sitesinde keşfedin.' }],
-    ['.cta-card .btn-copper', { nl: 'Naar copperant.com ↗', pl: 'Przejdź do copperant.com ↗', ro: 'Mergi la copperant.com ↗', de: 'Zu copperant.com ↗', fr: 'Aller sur copperant.com ↗', es: 'Ir a copperant.com ↗', it: 'Vai su copperant.com ↗', tr: 'copperant.com\'a git ↗' }],
-    ['.cta-card .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfedin' }],
+      tr: 'Renkler, ürün serileri, teknik föyler ve satış noktaları — hepsini resmî Copperant web sitesinde keşfedin.', no: 'Farger, produktlinjer, datablad og utsalgssteder — oppdag alt på den offisielle Copperant-nettsiden.', sv: 'Färger, produktlinjer, datablad och försäljningsställen — upptäck allt på den officiella Copperant-webbplatsen.' }],
+    ['.cta-card .btn-copper', { nl: 'Naar copperant.com ↗', pl: 'Przejdź do copperant.com ↗', ro: 'Mergi la copperant.com ↗', de: 'Zu copperant.com ↗', fr: 'Aller sur copperant.com ↗', es: 'Ir a copperant.com ↗', it: 'Vai su copperant.com ↗', tr: 'copperant.com\'a git ↗', no: 'Til copperant.com ↗', sv: 'Till copperant.com ↗' }],
+    ['.cta-card .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfedin', no: 'Oppdag Baril Group', sv: 'Upptäck Baril Group' }],
 
     ['.foot-claim', {
       nl: 'Professionele resultaten met de groenste verf.',
@@ -192,7 +192,7 @@
       fr: 'Des résultats professionnels avec la peinture la plus verte.',
       es: 'Resultados profesionales con la pintura más verde.',
       it: 'Risultati professionali con la vernice più verde.',
-      tr: 'En yeşil boyayla profesyonel sonuçlar.' }],
+      tr: 'En yeşil boyayla profesyonel sonuçlar.', no: 'Profesjonelle resultater med den grønneste malingen.', sv: 'Professionella resultat med den grönaste färgen.' }],
     ['.foot-grid div:nth-child(2) a', {
       nl: ['Het assortiment','Duurzaamheid','copperant.com ↗'],
       pl: ['Asortyment','Zrównoważoność','copperant.com ↗'],
@@ -201,7 +201,7 @@
       fr: ['La gamme','Durabilité','copperant.com ↗'],
       es: ['La gama','Sostenibilidad','copperant.com ↗'],
       it: ['La gamma','Sostenibilità','copperant.com ↗'],
-      tr: ['Ürün gamı','Sürdürülebilirlik','copperant.com ↗'] }],
+      tr: ['Ürün gamı','Sürdürülebilirlik','copperant.com ↗'], no: ['Sortimentet','Bærekraft','copperant.com ↗'], sv: ['Sortimentet','Hållbarhet','copperant.com ↗'] }],
     ['.foot-bottom span', {
       nl: ["© Copperant · een merk van Baril Group", 'De groenste verf, zonder compromis.'],
       pl: ["© Copperant · marka Baril Group", 'Najbardziej zielona farba, bez kompromisów.'],
@@ -210,7 +210,7 @@
       fr: ["© Copperant · une marque du groupe Baril", 'La peinture la plus verte, sans compromis.'],
       es: ["© Copperant · una marca de Baril Group", 'La pintura más verde, sin concesiones.'],
       it: ["© Copperant · un marchio di Baril Group", 'La vernice più verde, senza compromessi.'],
-      tr: ["© Copperant · bir Baril Group markası", 'En yeşil boya, ödün vermeden.'] }]
+      tr: ["© Copperant · bir Baril Group markası", 'En yeşil boya, ödün vermeden.'], no: ['© Copperant · et merke fra Baril Group','Den grønneste malingen, uten kompromiss.'], sv: ['© Copperant · ett varumärke från Baril Group','Den grönaste färgen, utan kompromiss.'] }]
   ];
 
   const flagBox = document.getElementById('langflags');
