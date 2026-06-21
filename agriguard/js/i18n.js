@@ -5,7 +5,7 @@
 (() => {
   'use strict';
   const MAP = [
-    ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.' }],
+    ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.', no: 'Vi ønsker å gjøre informasjonen vår så bredt tilgjengelig som mulig; derfor er noen tekster oversatt med Anthropic Claude AI. Skulle du oppdage en feil, setter vi stor pris på at du gir oss beskjed.', sv: 'Vi vill göra vår information så brett tillgänglig som möjligt; därför har vissa texter översatts med Anthropic Claude AI. Om du upptäcker ett fel får du gärna meddela oss.' }],
     ['.navlinks a', {
       nl: ['Waarom AgriGuard','Producten','Prestaties','Toepassingen','Contact'],
       pl: ['Dlaczego AgriGuard','Produkty','Wydajność','Zastosowania','Kontakt'],
@@ -14,7 +14,7 @@
       fr: ['Pourquoi AgriGuard','Produits','Performance','Applications','Contact'],
       es: ['Por qué AgriGuard','Productos','Rendimiento','Aplicaciones','Contacto'],
       it: ['Perché AgriGuard','Prodotti','Prestazioni','Applicazioni','Contatto'],
-      tr: ['Neden AgriGuard','Ürünler','Performans','Uygulamalar','İletişim'] }],
+      tr: ['Neden AgriGuard','Ürünler','Performans','Uygulamalar','İletişim'], no: ['Hvorfor AgriGuard','Produkter','Ytelse','Bruksområder','Kontakt'], sv: ['Varför AgriGuard','Produkter','Prestanda','Användningsområden','Kontakt'] }],
     ['header .eyebrow .eb-txt', {
       nl: 'AgriGuard — Roestwerende coatings · Een merk van Baril Group',
       pl: 'AgriGuard — Powłoki antykorozyjne · Marka Baril Group',
@@ -23,7 +23,7 @@
       fr: 'AgriGuard — Revêtements antirouille · Une marque du groupe Baril',
       es: 'AgriGuard — Recubrimientos antioxidantes · Una marca de Baril Group',
       it: 'AgriGuard — Rivestimenti antiruggine · Un marchio di Baril Group',
-      tr: 'AgriGuard — Pas önleyici kaplamalar · Bir Baril Group markası' }],
+      tr: 'AgriGuard — Pas önleyici kaplamalar · Bir Baril Group markası', no: 'AgriGuard — Rusthindrende belegg · Et merke fra Baril Group', sv: 'AgriGuard — Rostskyddande beläggningar · Ett varumärke från Baril Group' }],
     ['header h1', {
       nl: 'Stop roest<br><span class="acc">in zijn spoor</span>',
       pl: 'Zatrzymaj rdzę<br><span class="acc">w miejscu</span>',
@@ -32,7 +32,7 @@
       fr: 'Stoppez la rouille<br><span class="acc">net</span>',
       es: 'Detén el óxido<br><span class="acc">en seco</span>',
       it: 'Ferma la ruggine<br><span class="acc">sul nascere</span>',
-      tr: 'Pası<br><span class="acc">olduğu yerde durdurun</span>' }],
+      tr: 'Pası<br><span class="acc">olduğu yerde durdurun</span>', no: 'Stopp rust<br><span class="acc">på stedet</span>', sv: 'Stoppa rost<br><span class="acc">på fläcken</span>' }],
     ['.hero-sub', {
       nl: 'Een roest-inkapselende coating die u <strong>direct over bestaande roest</strong> aanbrengt — geen stralen, geen kaal metaal. AgriGuard legt corrosie vast en beschermt uw materieel voor de lange termijn.',
       pl: 'Powłoka kapsułkująca rdzę, którą nakładasz <strong>bezpośrednio na istniejącą rdzę</strong> — bez piaskowania, bez gołego metalu. AgriGuard blokuje korozję i chroni Twój sprzęt na długie lata.',
@@ -41,9 +41,9 @@
       fr: 'Un revêtement encapsulant la rouille, appliqué <strong>directement sur la rouille existante</strong> — sans sablage, sans métal nu. AgriGuard verrouille la corrosion et protège votre matériel sur le long terme.',
       es: 'Un recubrimiento que encapsula el óxido y se aplica <strong>directamente sobre el óxido existente</strong> — sin chorreado, sin metal desnudo. AgriGuard bloquea la corrosión y protege tu equipo a largo plazo.',
       it: 'Un rivestimento che incapsula la ruggine, da applicare <strong>direttamente sulla ruggine esistente</strong> — senza sabbiatura, senza metallo nudo. AgriGuard blocca la corrosione e protegge le tue attrezzature a lungo termine.',
-      tr: '<strong>Mevcut pasın doğrudan üzerine</strong> uyguladığınız, pası kapsülleyen bir kaplama — kumlama yok, çıplak metal yok. AgriGuard korozyonu hapseder ve ekipmanınızı uzun vadede korur.' }],
-    ['header .hero-cta .btn-solid', { nl: 'Bekijk de producten', pl: 'Zobacz produkty', ro: 'Vezi produsele', de: 'Produkte entdecken', fr: 'Découvrir les produits', es: 'Ver los productos', it: 'Scopri i prodotti', tr: 'Ürünleri keşfedin' }],
-    ['header .hero-cta .btn-ghost', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi', tr: 'İletişim &amp; lokasyonlar' }],
+      tr: '<strong>Mevcut pasın doğrudan üzerine</strong> uyguladığınız, pası kapsülleyen bir kaplama — kumlama yok, çıplak metal yok. AgriGuard korozyonu hapseder ve ekipmanınızı uzun vadede korur.', no: 'Et rustinnkapslende belegg du påfører <strong>rett over eksisterende rust</strong> — ingen blåsing, intet bart metall. AgriGuard låser fast korrosjonen og beskytter utstyret ditt på lang sikt.', sv: 'En rostinkapslande beläggning som du applicerar <strong>direkt över befintlig rost</strong> — ingen blästring, ingen bar metall. AgriGuard låser fast korrosionen och skyddar din utrustning på lång sikt.' }],
+    ['header .hero-cta .btn-solid', { nl: 'Bekijk de producten', pl: 'Zobacz produkty', ro: 'Vezi produsele', de: 'Produkte entdecken', fr: 'Découvrir les produits', es: 'Ver los productos', it: 'Scopri i prodotti', tr: 'Ürünleri keşfedin', no: 'Se produktene', sv: 'Se produkterna' }],
+    ['header .hero-cta .btn-ghost', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi', tr: 'İletişim &amp; lokasyonlar', no: 'Kontakt &amp; kontorer', sv: 'Kontakt &amp; kontor' }],
     ['.hero-foot span:first-child', {
       nl: 'Over roest · Eén laag · Kwast · Roller · Spuit',
       pl: 'Na rdzę · Jedna warstwa · Pędzel · Wałek · Natrysk',
@@ -52,10 +52,10 @@
       fr: 'Sur la rouille · Une couche · Pinceau · Rouleau · Pulvérisation',
       es: 'Sobre el óxido · Una capa · Brocha · Rodillo · Pistola',
       it: 'Sulla ruggine · Una mano · Pennello · Rullo · Spruzzo',
-      tr: 'Pasın üzerine · Tek kat · Fırça · Rulo · Püskürtme' }],
-    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır' }],
+      tr: 'Pasın üzerine · Tek kat · Fırça · Rulo · Püskürtme', no: 'Over rust · Ett strøk · Pensel · Rull · Sprøyte', sv: 'Över rost · Ett lager · Pensel · Rulle · Spruta' }],
+    ['.scroll-hint', { nl: 'Scroll', pl: 'Przewiń', ro: 'Derulează', de: 'Scrollen', fr: 'Défiler', es: 'Desliza', it: 'Scorri', tr: 'Kaydır', no: 'Bla', sv: 'Skrolla' }],
 
-    ['#mission .eyebrow', { nl: 'Waarom AgriGuard', pl: 'Dlaczego AgriGuard', ro: 'De ce AgriGuard', de: 'Warum AgriGuard', fr: 'Pourquoi AgriGuard', es: 'Por qué AgriGuard', it: 'Perché AgriGuard', tr: 'Neden AgriGuard' }],
+    ['#mission .eyebrow', { nl: 'Waarom AgriGuard', pl: 'Dlaczego AgriGuard', ro: 'De ce AgriGuard', de: 'Warum AgriGuard', fr: 'Pourquoi AgriGuard', es: 'Por qué AgriGuard', it: 'Perché AgriGuard', tr: 'Neden AgriGuard', no: 'Hvorfor AgriGuard', sv: 'Varför AgriGuard' }],
     ['.mission-quote', {
       nl: 'Roest slaapt nooit. AgriGuard <em>kapselt</em> bestaande roest in en sluit hem af van vocht en zuurstof — zodat u materieel beschermt waar het staat, zonder het terug te brengen tot kaal metaal.',
       pl: 'Rdza nigdy nie śpi. AgriGuard <em>kapsułkuje</em> istniejącą rdzę i odcina ją od wilgoci i tlenu — dzięki czemu chronisz sprzęt tam, gdzie stoi, bez sprowadzania go do gołego metalu.',
@@ -64,7 +64,7 @@
       fr: 'La rouille ne dort jamais. AgriGuard <em>encapsule</em> la rouille existante et l\'isole de l\'humidité et de l\'oxygène — pour protéger votre matériel là où il se trouve, sans le ramener au métal nu.',
       es: 'El óxido nunca descansa. AgriGuard <em>encapsula</em> el óxido existente y lo aísla de la humedad y el oxígeno — para que protejas el equipo donde está, sin dejarlo en metal desnudo.',
       it: 'La ruggine non dorme mai. AgriGuard <em>incapsula</em> la ruggine esistente e la isola da umidità e ossigeno — così proteggi le attrezzature dove si trovano, senza riportarle al metallo nudo.',
-      tr: 'Pas asla uyumaz. AgriGuard mevcut pası <em>kapsüller</em> ve onu nemden ve oksijenden yalıtır — böylece ekipmanınızı çıplak metale indirmeden, olduğu yerde korursunuz.' }],
+      tr: 'Pas asla uyumaz. AgriGuard mevcut pası <em>kapsüller</em> ve onu nemden ve oksijenden yalıtır — böylece ekipmanınızı çıplak metale indirmeden, olduğu yerde korursunuz.', no: 'Rust sover aldri. AgriGuard <em>kapsler inn</em> eksisterende rust og stenger den ute fra fukt og oksygen — slik at du beskytter utstyret der det står, uten å føre det tilbake til bart metall.', sv: 'Rost sover aldrig. AgriGuard <em>kapslar in</em> befintlig rost och stänger ute fukt och syre — så att du skyddar utrustningen där den står, utan att ta den tillbaka till bar metall.' }],
     ['#mission .mm b', {
       nl: ['Direct over roest aanbrengen','Bescherming in één laag','Snel &amp; flexibel'],
       pl: ['Nakładaj wprost na rdzę','Ochrona w jednej warstwie','Szybko i elastycznie'],
@@ -73,7 +73,7 @@
       fr: ['Appliquer directement sur la rouille','Protection en une couche','Rapide et flexible'],
       es: ['Aplica directamente sobre el óxido','Protección en una sola capa','Rápido y flexible'],
       it: ['Applica direttamente sulla ruggine','Protezione in una sola mano','Veloce e flessibile'],
-      tr: ['Doğrudan pasın üzerine uygulayın','Tek katta koruma','Hızlı ve esnek'] }],
+      tr: ['Doğrudan pasın üzerine uygulayın','Tek katta koruma','Hızlı ve esnek'], no: ['Påfør rett over rust','Beskyttelse i ett strøk','Rask &amp; fleksibel'], sv: ['Applicera direkt över rost','Skydd i ett lager','Snabb &amp; flexibel'] }],
     ['#mission .mm span', {
       nl: ['Breng het direct aan op geroeste oppervlakken — geen stralen, geen dure voorbehandeling. AgriGuard hecht aan de roest en kapselt hem in.','Eén duurzame laag sluit vocht en zuurstof buiten — minder verf, minder werk, meer dekking per liter.','Snel drogend en eenvoudig aan te brengen met kwast, roller of spuit — materieel weer snel aan het werk, zonder onnodige stilstand.'],
       pl: ['Nakładaj bezpośrednio na zardzewiałe powierzchnie — bez piaskowania, bez drogiego przygotowania. AgriGuard wiąże się z rdzą i ją kapsułkuje.','Jedna trwała warstwa odcina wilgoć i tlen — mniej farby, mniej pracy, większe krycie na litr.','Szybkoschnący i łatwy w aplikacji pędzlem, wałkiem lub natryskiem — sprzęt szybko wraca do pracy, bez zbędnych przestojów.'],
@@ -82,9 +82,9 @@
       fr: ['Appliquez-le directement sur les surfaces rouillées — sans sablage, sans préparation coûteuse. AgriGuard adhère à la rouille et l\'encapsule.','Une seule couche durable bloque l\'humidité et l\'oxygène — moins de peinture, moins de travail, plus de couvrance par litre.','Séchage rapide et application facile au pinceau, au rouleau ou au pistolet — le matériel reprend vite le travail, sans temps d\'arrêt inutile.'],
       es: ['Aplícalo directamente sobre superficies oxidadas — sin chorreado, sin preparación costosa. AgriGuard se adhiere al óxido y lo encapsula.','Una sola capa duradera bloquea la humedad y el oxígeno — menos pintura, menos trabajo, más cobertura por litro.','De secado rápido y fácil de aplicar con brocha, rodillo o pistola — el equipo vuelve pronto al trabajo, sin tiempos muertos innecesarios.'],
       it: ['Applicalo direttamente sulle superfici arrugginite — senza sabbiatura, senza costose preparazioni. AgriGuard aderisce alla ruggine e la incapsula.','Una sola mano duratura blocca umidità e ossigeno — meno vernice, meno lavoro, maggiore copertura per litro.','Asciuga in fretta e si applica facilmente a pennello, rullo o spruzzo — le attrezzature tornano presto al lavoro, senza fermi inutili.'],
-      tr: ['Doğrudan paslı yüzeylere uygulayın — kumlama yok, pahalı hazırlık yok. AgriGuard pasa yapışır ve onu kapsüller.','Tek dayanıklı kat nemi ve oksijeni dışarıda tutar — daha az boya, daha az işçilik, litre başına daha fazla kapatma.','Hızlı kuruyan ve fırça, rulo veya püskürtmeyle kolay uygulanan — ekipman gereksiz duruş olmadan hızla işe döner.'] }],
+      tr: ['Doğrudan paslı yüzeylere uygulayın — kumlama yok, pahalı hazırlık yok. AgriGuard pasa yapışır ve onu kapsüller.','Tek dayanıklı kat nemi ve oksijeni dışarıda tutar — daha az boya, daha az işçilik, litre başına daha fazla kapatma.','Hızlı kuruyan ve fırça, rulo veya püskürtmeyle kolay uygulanan — ekipman gereksiz duruş olmadan hızla işe döner.'], no: ['Påfør det rett på rustne overflater — ingen blåsing, ingen kostbar forbehandling. AgriGuard binder seg til rusten og kapsler den inn.','Ett slitesterkt strøk stenger ute fukt og oksygen — mindre maling, mindre arbeid, større dekkevne per liter.','Hurtigtørkende og enkelt å påføre med pensel, rull eller sprøyte — utstyret er raskt tilbake i arbeid, uten unødvendig stillstand.'], sv: ['Applicera det direkt på rostiga ytor — ingen blästring, ingen dyr förbehandling. AgriGuard binder till rosten och kapslar in den.','Ett slitstarkt lager stänger ute fukt och syre — mindre färg, mindre arbete, större täckning per liter.','Snabbtorkande och enkelt att applicera med pensel, rulle eller spruta — utrustningen är snabbt tillbaka i arbete, utan onödiga stillestånd.'] }],
 
-    ['#products .eyebrow', { nl: 'Producten', pl: 'Produkty', ro: 'Produse', de: 'Produkte', fr: 'Produits', es: 'Productos', it: 'Prodotti', tr: 'Ürünler' }],
+    ['#products .eyebrow', { nl: 'Producten', pl: 'Produkty', ro: 'Produse', de: 'Produkte', fr: 'Produits', es: 'Productos', it: 'Prodotti', tr: 'Ürünler', no: 'Produkter', sv: 'Produkter' }],
     ['#products h2', {
       nl: 'Eén coater, <span class="acc">gemaakt om te blijven</span>',
       pl: 'Jedna powłoka, <span class="acc">stworzona, by trwać</span>',
@@ -93,7 +93,7 @@
       fr: 'Un seul revêtement, <span class="acc">fait pour durer</span>',
       es: 'Un solo recubrimiento, <span class="acc">hecho para durar</span>',
       it: 'Un solo rivestimento, <span class="acc">fatto per durare</span>',
-      tr: 'Tek kaplama, <span class="acc">kalıcı olmak için yapıldı</span>' }],
+      tr: 'Tek kaplama, <span class="acc">kalıcı olmak için yapıldı</span>', no: 'Ett belegg, <span class="acc">laget for å bli</span>', sv: 'En beläggning, <span class="acc">gjord för att stanna</span>' }],
     ['#products .lead', {
       nl: 'AgriGuard is een roest-inkapselende coating, onderbouwd door tientallen jaren coatingsonderzoek — ontwikkeld om over roest te gaan en daar te blijven.',
       pl: 'AgriGuard to powłoka kapsułkująca rdzę, oparta na dziesięcioleciach badań nad powłokami — stworzona, by nakładać się na rdzę i tam pozostać.',
@@ -102,7 +102,7 @@
       fr: 'AgriGuard est un revêtement encapsulant la rouille, fort de décennies de recherche en revêtements — conçu pour recouvrir la rouille et y rester.',
       es: 'AgriGuard es un recubrimiento que encapsula el óxido, respaldado por décadas de investigación en recubrimientos — diseñado para cubrir el óxido y quedarse ahí.',
       it: 'AgriGuard è un rivestimento che incapsula la ruggine, frutto di decenni di ricerca sui rivestimenti — progettato per coprire la ruggine e restare al suo posto.',
-      tr: 'AgriGuard, onlarca yıllık kaplama araştırmasıyla desteklenen, pası kapsülleyen bir kaplamadır — pasın üzerine gidip orada kalmak için tasarlandı.' }],
+      tr: 'AgriGuard, onlarca yıllık kaplama araştırmasıyla desteklenen, pası kapsülleyen bir kaplamadır — pasın üzerine gidip orada kalmak için tasarlandı.', no: 'AgriGuard er et rustinnkapslende belegg, tuftet på flere tiår med beleggsforskning — laget for å gå over rust og bli værende.', sv: 'AgriGuard är en rostinkapslande beläggning, byggd på decennier av beläggningsforskning — gjord för att gå över rost och stanna kvar.' }],
     ['#products .feat .prod-tag', {
       nl: ['Roestcoater','Kleuren','Dekking','Erfgoed'],
       pl: ['Powłoka na rdzę','Kolory','Krycie','Dziedzictwo'],
@@ -111,7 +111,7 @@
       fr: ['Anti-rouille','Couleurs','Couvrance','Héritage'],
       es: ['Anti-óxido','Colores','Cobertura','Legado'],
       it: ['Anti-ruggine','Colori','Copertura','Heritage'],
-      tr: ['Pas kaplaması','Renkler','Kapatma','Miras'] }],
+      tr: ['Pas kaplaması','Renkler','Kapatma','Miras'], no: ['Rustbelegg','Farger','Dekkevne','Arv'], sv: ['Rostbeläggning','Färger','Täckning','Arv'] }],
     ['#products .feat span:last-child', {
       nl: ['Een roest-inkapselende coating die direct hecht aan gecorrodeerd staal en het afsluit tegen verdere aantasting.','Verkrijgbaar in duurzame aluminium- en zwarte afwerkingen die opgaan in materieel, constructies en trailers.','Hoogbouwende eenlaagsformule die verder reikt — meer oppervlak met minder liters en minder werk.','Onderbouwd door tientallen jaren industriële coatingsexpertise van Baril, afgestemd op Noord-Amerikaanse omstandigheden.'],
       pl: ['Powłoka kapsułkująca rdzę, która wiąże się bezpośrednio ze skorodowaną stalą i odcina ją od dalszych uszkodzeń.','Dostępna w trwałych wykończeniach aluminiowym i czarnym, które wtapiają się w sprzęt, konstrukcje i przyczepy.','Wysokowydajna jednowarstwowa formuła, która starcza na dłużej — większe pokrycie przy mniejszej liczbie litrów i mniejszym nakładzie pracy.','Oparta na dziesięcioleciach przemysłowej wiedzy Baril o powłokach, dopasowana do warunków północnoamerykańskich.'],
@@ -120,9 +120,9 @@
       fr: ['Un revêtement encapsulant la rouille qui adhère directement à l\'acier corrodé et le scelle contre toute attaque ultérieure.','Disponible en finitions aluminium et noir durables qui se fondent sur le matériel, les structures et les remorques.','Formule monocouche à fort pouvoir garnissant qui s\'étend davantage — plus de surface avec moins de litres et moins de travail.','Forte de décennies d\'expertise Baril en revêtements industriels, adaptée aux conditions nord-américaines.'],
       es: ['Un recubrimiento que encapsula el óxido y se adhiere directamente al acero corroído, sellándolo contra nuevos ataques.','Disponible en acabados duraderos de aluminio y negro que se integran en equipos, estructuras y remolques.','Fórmula monocapa de alto espesor que rinde más — más superficie con menos litros y menos trabajo.','Respaldado por décadas de experiencia de Baril en recubrimientos industriales, ajustado a las condiciones norteamericanas.'],
       it: ['Un rivestimento che incapsula la ruggine, aderisce direttamente all\'acciaio corroso e lo sigilla contro ulteriori attacchi.','Disponibile in finiture durevoli alluminio e nero che si integrano su attrezzature, strutture e rimorchi.','Formula monostrato ad alto spessore che rende di più — più superficie con meno litri e meno lavoro.','Frutto di decenni di esperienza Baril nei rivestimenti industriali, calibrato sulle condizioni nordamericane.'],
-      tr: ['Korozyona uğramış çeliğe doğrudan yapışan ve onu daha fazla aşınmaya karşı kapatan, pası kapsülleyen bir kaplama.','Ekipman, yapı ve römorklara uyum sağlayan dayanıklı alüminyum ve siyah son katlarda mevcut.','Daha ileri giden yüksek dolgulu tek kat formülü — daha az litreyle ve daha az işçilikle daha fazla yüzey.','Baril\'in onlarca yıllık endüstriyel kaplama uzmanlığıyla desteklenir ve Kuzey Amerika koşullarına göre ayarlanmıştır.'] }],
+      tr: ['Korozyona uğramış çeliğe doğrudan yapışan ve onu daha fazla aşınmaya karşı kapatan, pası kapsülleyen bir kaplama.','Ekipman, yapı ve römorklara uyum sağlayan dayanıklı alüminyum ve siyah son katlarda mevcut.','Daha ileri giden yüksek dolgulu tek kat formülü — daha az litreyle ve daha az işçilikle daha fazla yüzey.','Baril\'in onlarca yıllık endüstriyel kaplama uzmanlığıyla desteklenir ve Kuzey Amerika koşullarına göre ayarlanmıştır.'], no: ['Et rustinnkapslende belegg som binder seg rett til korrodert stål og forsegler det mot videre angrep.','Fås i slitesterke aluminiums- og svarte finisher som glir inn på utstyr, konstruksjoner og tilhengere.','Høybyggende ettstrøksformel som rekker lenger — mer overflate med færre liter og mindre arbeid.','Tuftet på Barils flere tiår med industriell beleggskompetanse, tilpasset nordamerikanske forhold.'], sv: ['En rostinkapslande beläggning som binder direkt till korroderat stål och förseglar det mot fortsatt angrepp.','Finns i slitstarka aluminium- och svarta finisher som smälter in på utrustning, konstruktioner och släp.','Högbyggande enskiktsformel som räcker längre — mer yta med färre liter och mindre arbete.','Byggd på Barils decennier av industriell beläggningsexpertis, anpassad för nordamerikanska förhållanden.'] }],
 
-    ['#performance .eyebrow', { nl: 'Prestaties', pl: 'Wydajność', ro: 'Performanță', de: 'Leistung', fr: 'Performance', es: 'Rendimiento', it: 'Prestazioni', tr: 'Performans' }],
+    ['#performance .eyebrow', { nl: 'Prestaties', pl: 'Wydajność', ro: 'Performanță', de: 'Leistung', fr: 'Performance', es: 'Rendimiento', it: 'Prestazioni', tr: 'Performans', no: 'Ytelse', sv: 'Prestanda' }],
     ['#performance h2', {
       nl: 'Ontwikkeld om <span class="acc">corrosie te verslaan</span>',
       pl: 'Stworzony, by <span class="acc">pokonać korozję</span>',
@@ -131,7 +131,7 @@
       fr: 'Conçu pour <span class="acc">vaincre la corrosion</span>',
       es: 'Diseñado para <span class="acc">vencer la corrosión</span>',
       it: 'Progettato per <span class="acc">battere la corrosione</span>',
-      tr: '<span class="acc">Korozyonu yenmek</span> için tasarlandı' }],
+      tr: '<span class="acc">Korozyonu yenmek</span> için tasarlandı', no: 'Utviklet for å <span class="acc">slå korrosjon</span>', sv: 'Utvecklad för att <span class="acc">besegra korrosion</span>' }],
     ['#performance .lead', {
       nl: 'AgriGuard stopt roest waar hij zit — kapselt corrosie in en sluit oppervlakken af tegen vocht, zuurstof en de elementen.',
       pl: 'AgriGuard zatrzymuje rdzę tam, gdzie się znajduje — kapsułkuje korozję i odcina powierzchnie od wilgoci, tlenu i żywiołów.',
@@ -140,7 +140,7 @@
       fr: 'AgriGuard stoppe la rouille là où elle se trouve — encapsule la corrosion et isole les surfaces de l\'humidité, de l\'oxygène et des intempéries.',
       es: 'AgriGuard detiene el óxido donde está — encapsula la corrosión y aísla las superficies de la humedad, el oxígeno y las inclemencias.',
       it: 'AgriGuard ferma la ruggine dove si trova — incapsula la corrosione e isola le superfici da umidità, ossigeno e intemperie.',
-      tr: 'AgriGuard pası olduğu yerde durdurur — korozyonu kapsüller ve yüzeyleri neme, oksijene ve hava koşullarına karşı yalıtır.' }],
+      tr: 'AgriGuard pası olduğu yerde durdurur — korozyonu kapsüller ve yüzeyleri neme, oksijene ve hava koşullarına karşı yalıtır.', no: 'AgriGuard stopper rust der den sitter — kapsler inn korrosjon og forsegler overflater mot fukt, oksygen og vær og vind.', sv: 'AgriGuard stoppar rost där den sitter — kapslar in korrosion och förseglar ytor mot fukt, syre och väder och vind.' }],
     ['#performance .pills span', {
       nl: ['Kapselt roest in','Geen stralen','Kwast / Roller / Spuit','Snel drogend'],
       pl: ['Kapsułkuje rdzę','Bez piaskowania','Pędzel / Wałek / Natrysk','Szybkoschnący'],
@@ -149,7 +149,7 @@
       fr: ['Encapsule la rouille','Sans sablage','Pinceau / Rouleau / Pistolet','Séchage rapide'],
       es: ['Encapsula el óxido','Sin chorreado','Brocha / Rodillo / Pistola','Secado rápido'],
       it: ['Incapsula la ruggine','Senza sabbiatura','Pennello / Rullo / Spruzzo','Asciugatura rapida'],
-      tr: ['Pası kapsüller','Kumlama yok','Fırça / Rulo / Püskürtme','Hızlı kuruma'] }],
+      tr: ['Pası kapsüller','Kumlama yok','Fırça / Rulo / Püskürtme','Hızlı kuruma'], no: ['Kapsler inn rust','Ingen blåsing','Pensel / Rull / Sprøyte','Hurtigtørkende'], sv: ['Kapslar in rost','Ingen blästring','Pensel / Rulle / Spruta','Snabbtorkande'] }],
     ['#performance .feat b', {
       nl: ['Kapselt roest in','Geen stralen','Snel drogend','Chemische bestendigheid','Kwast, roller of spuit','Duurzaam op lange termijn'],
       pl: ['Kapsułkuje rdzę','Bez piaskowania','Szybkoschnący','Odporność chemiczna','Pędzel, wałek lub natrysk','Trwałość na lata'],
@@ -158,7 +158,7 @@
       fr: ['Encapsule la rouille','Sans sablage','Séchage rapide','Résistance chimique','Pinceau, rouleau ou pistolet','Durabilité à long terme'],
       es: ['Encapsula el óxido','Sin chorreado','Secado rápido','Resistencia química','Brocha, rodillo o pistola','Durabilidad a largo plazo'],
       it: ['Incapsula la ruggine','Senza sabbiatura','Asciugatura rapida','Resistenza chimica','Pennello, rullo o spruzzo','Durabilità a lungo termine'],
-      tr: ['Pası kapsüller','Kumlama yok','Hızlı kuruma','Kimyasal direnç','Fırça, rulo veya püskürtme','Uzun ömürlü dayanıklılık'] }],
+      tr: ['Pası kapsüller','Kumlama yok','Hızlı kuruma','Kimyasal direnç','Fırça, rulo veya püskürtme','Uzun ömürlü dayanıklılık'], no: ['Kapsler inn rust','Ingen blåsing','Hurtigtørkende','Kjemikaliebestandighet','Pensel, rull eller sprøyte','Slitesterk på lang sikt'], sv: ['Kapslar in rost','Ingen blästring','Snabbtorkande','Kemikalieresistens','Pensel, rulle eller spruta','Slitstark på lång sikt'] }],
     ['#performance .feat span', {
       nl: ['Hecht aan en sluit bestaande roest af, en houdt het vocht en de zuurstof buiten die corrosie laten doorwoekeren.','Sla de dure voorbehandeling over — breng direct aan op geroeste oppervlakken en bespaar tijd, werk en geld.','Droogt snel, zodat materieel sneller weer aan het werk gaat met minder stilstand tussen lagen.','Bestand tegen de meststoffen, brandstoffen en agressieve chemicaliën die landbouw- en wagenparkmaterieel zwaar belasten.','Breng het aan zoals de klus vraagt — flexibele applicatie voor in het veld, de werkplaats of de lijn.','Een taaie, weerbestendige film die seizoen na seizoen blijft beschermen bij zwaar buitengebruik.'],
       pl: ['Wiąże się z istniejącą rdzą i ją odcina, blokując wilgoć i tlen, które podtrzymują rozprzestrzenianie się korozji.','Pomiń kosztowne przygotowanie — nakładaj wprost na zardzewiałe powierzchnie i oszczędzaj czas, pracę i pieniądze.','Szybko schnie, więc sprzęt szybciej wraca do pracy, z mniejszymi przerwami między warstwami.','Odporny na nawozy, paliwa i agresywne chemikalia, które niszczą sprzęt rolniczy i flotowy.','Nakładaj tak, jak wymaga tego zadanie — elastyczna aplikacja w terenie, w warsztacie lub na linii.','Twarda, odporna na warunki atmosferyczne powłoka, która chroni sezon po sezonie przy intensywnym użytkowaniu na zewnątrz.'],
@@ -167,9 +167,9 @@
       fr: ['Adhère à la rouille existante et la scelle, bloquant l\'humidité et l\'oxygène qui entretiennent la propagation de la corrosion.','Évitez la préparation coûteuse — appliquez directement sur les surfaces rouillées et gagnez du temps, du travail et de l\'argent.','Séchage rapide pour que le matériel reprenne le travail plus vite, avec moins d\'arrêts entre les couches.','Résiste aux engrais, carburants et produits chimiques agressifs qui malmènent le matériel agricole et de flotte.','Appliquez-le selon les besoins du chantier — application flexible au champ, à l\'atelier ou sur la ligne.','Un film résistant et tenace face aux intempéries, qui protège saison après saison en usage extérieur intensif.'],
       es: ['Se adhiere al óxido existente y lo sella, bloqueando la humedad y el oxígeno que mantienen la propagación de la corrosión.','Sáltate la costosa preparación — aplica directamente sobre superficies oxidadas y ahorra tiempo, trabajo y dinero.','Seca rápido, para que el equipo vuelva antes al trabajo con menos paradas entre capas.','Resiste los fertilizantes, combustibles y productos químicos agresivos que castigan los equipos agrícolas y de flota.','Aplícalo según lo exija el trabajo — aplicación flexible en el campo, el taller o la línea.','Una película dura y resistente a la intemperie que sigue protegiendo temporada tras temporada en uso exterior intensivo.'],
       it: ['Aderisce alla ruggine esistente e la sigilla, bloccando umidità e ossigeno che alimentano la diffusione della corrosione.','Salta la costosa preparazione — applica direttamente sulle superfici arrugginite e risparmia tempo, lavoro e denaro.','Asciuga in fretta, così le attrezzature tornano prima al lavoro, con meno fermi tra le mani.','Resiste a fertilizzanti, carburanti e prodotti chimici aggressivi che mettono a dura prova mezzi agricoli e di flotta.','Applicalo come richiede il lavoro — applicazione flessibile sul campo, in officina o sulla linea.','Una pellicola tenace e resistente alle intemperie che continua a proteggere stagione dopo stagione, nell\'uso esterno intensivo.'],
-      tr: ['Mevcut pasa yapışır ve onu kapatır; korozyonun yayılmasını sürdüren nemi ve oksijeni dışarıda tutar.','Pahalı hazırlığı atlayın — doğrudan paslı yüzeylere uygulayın ve zaman, işçilik ve para tasarrufu sağlayın.','Hızlı kurur, böylece ekipman katlar arasında daha az duruşla işe daha çabuk döner.','Tarım ve filo ekipmanlarını zorlayan gübrelere, yakıtlara ve agresif kimyasallara karşı dayanıklıdır.','İşin gerektirdiği şekilde uygulayın — sahada, atölyede veya hatta esnek uygulama.','Yoğun dış mekan kullanımında sezon sezon korumaya devam eden sağlam, hava koşullarına dayanıklı bir film.'] }],
+      tr: ['Mevcut pasa yapışır ve onu kapatır; korozyonun yayılmasını sürdüren nemi ve oksijeni dışarıda tutar.','Pahalı hazırlığı atlayın — doğrudan paslı yüzeylere uygulayın ve zaman, işçilik ve para tasarrufu sağlayın.','Hızlı kurur, böylece ekipman katlar arasında daha az duruşla işe daha çabuk döner.','Tarım ve filo ekipmanlarını zorlayan gübrelere, yakıtlara ve agresif kimyasallara karşı dayanıklıdır.','İşin gerektirdiği şekilde uygulayın — sahada, atölyede veya hatta esnek uygulama.','Yoğun dış mekan kullanımında sezon sezon korumaya devam eden sağlam, hava koşullarına dayanıklı bir film.'], no: ['Binder seg til og forsegler eksisterende rust, og stenger ute fukten og oksygenet som lar korrosjon spre seg videre.','Hopp over den kostbare forbehandlingen — påfør rett på rustne overflater og spar tid, arbeid og penger.','Tørker raskt, så utstyret er raskere tilbake i arbeid med mindre stillstand mellom strøk.','Bestandig mot gjødsel, drivstoff og aggressive kjemikalier som tærer hardt på landbruks- og flåteutstyr.','Påfør det slik jobben krever — fleksibel påføring i felt, på verkstedet eller på linjen.','En seig, værbestandig film som fortsetter å beskytte sesong etter sesong ved tøff utendørs bruk.'], sv: ['Binder till och förseglar befintlig rost och stänger ute fukten och syret som låter korrosionen sprida sig vidare.','Hoppa över den dyra förbehandlingen — applicera direkt på rostiga ytor och spara tid, arbete och pengar.','Torkar snabbt, så att utrustningen är snabbare tillbaka i arbete med mindre stillestånd mellan lager.','Tål gödsel, bränslen och aggressiva kemikalier som sliter hårt på lantbruks- och flottutrustning.','Applicera det som jobbet kräver — flexibel applicering i fält, i verkstaden eller på linjen.','En tålig, väderbeständig film som fortsätter att skydda säsong efter säsong vid tuff utomhusanvändning.'] }],
 
-    ['#apply .eyebrow', { nl: 'Toepassingen', pl: 'Zastosowania', ro: 'Aplicații', de: 'Anwendungen', fr: 'Applications', es: 'Aplicaciones', it: 'Applicazioni', tr: 'Uygulamalar' }],
+    ['#apply .eyebrow', { nl: 'Toepassingen', pl: 'Zastosowania', ro: 'Aplicații', de: 'Anwendungen', fr: 'Applications', es: 'Aplicaciones', it: 'Applicazioni', tr: 'Uygulamalar', no: 'Bruksområder', sv: 'Användningsområden' }],
     ['#apply h2', {
       nl: 'Bescherming voor<br><span class="acc">materieel dat hard werkt</span>',
       pl: 'Ochrona dla<br><span class="acc">sprzętu, który ciężko pracuje</span>',
@@ -178,7 +178,7 @@
       fr: 'Une protection pour<br><span class="acc">le matériel qui travaille dur</span>',
       es: 'Protección para<br><span class="acc">equipos que trabajan duro</span>',
       it: 'Protezione per<br><span class="acc">attrezzature che lavorano duro</span>',
-      tr: '<span class="acc">Çok çalışan ekipmanlar</span><br>için koruma' }],
+      tr: '<span class="acc">Çok çalışan ekipmanlar</span><br>için koruma', no: 'Beskyttelse for<br><span class="acc">utstyr som jobber hardt</span>', sv: 'Skydd för<br><span class="acc">utrustning som arbetar hårt</span>' }],
     ['#apply .lead', {
       nl: 'Waar staal weer, chemicaliën en slijtage tegenkomt, houdt AgriGuard roest de baas — in het veld, op de weg en op de bouwplaats.',
       pl: 'Wszędzie tam, gdzie stal styka się z pogodą, chemikaliami i zużyciem, AgriGuard nie pozwala rdzy przejąć kontroli — w terenie, na drodze i na budowie.',
@@ -187,7 +187,7 @@
       fr: 'Partout où l\'acier affronte les intempéries, les produits chimiques et l\'usure, AgriGuard empêche la rouille de prendre le dessus — au champ, sur la route et sur le chantier.',
       es: 'Allá donde el acero se enfrenta al clima, los productos químicos y el desgaste, AgriGuard impide que el óxido tome el control — en el campo, en la carretera y en la obra.',
       it: 'Ovunque l\'acciaio affronti intemperie, sostanze chimiche e usura, AgriGuard impedisce alla ruggine di prendere il sopravvento — sul campo, su strada e in cantiere.',
-      tr: 'Çeliğin hava koşulları, kimyasallar ve aşınmayla buluştuğu her yerde AgriGuard pasın kontrolü ele geçirmesine izin vermez — tarlada, yolda ve şantiyede.' }],
+      tr: 'Çeliğin hava koşulları, kimyasallar ve aşınmayla buluştuğu her yerde AgriGuard pasın kontrolü ele geçirmesine izin vermez — tarlada, yolda ve şantiyede.', no: 'Der stål møter vær, kjemikalier og slitasje, holder AgriGuard rusten i sjakk — i felt, på veien og på byggeplassen.', sv: 'Där stål möter väder, kemikalier och slitage håller AgriGuard rosten i schack — i fält, på vägen och på byggarbetsplatsen.' }],
     ['#apply .sheet-row b', {
       nl: ['Landbouwmaterieel','Bouw &amp; grondverzet','Vrachtwagens &amp; trailers','Constructies &amp; staal','Verhuur- &amp; veilingvloten','Professionele schilders'],
       pl: ['Sprzęt rolniczy','Budownictwo i roboty ziemne','Ciężarówki i przyczepy','Konstrukcje i stal','Flot wynajmu i aukcji','Malarze profesjonalni'],
@@ -196,7 +196,7 @@
       fr: ['Matériel agricole','Construction et terrassement','Camions et remorques','Structures et acier','Flottes de location et d\'enchères','Peintres professionnels'],
       es: ['Equipo agrícola','Construcción y movimiento de tierras','Camiones y remolques','Estructuras y acero','Flotas de alquiler y subasta','Pintores profesionales'],
       it: ['Attrezzature agricole','Edilizia e movimento terra','Camion e rimorchi','Strutture e acciaio','Flotte di noleggio e asta','Verniciatori professionali'],
-      tr: ['Tarım ekipmanları','İnşaat &amp; hafriyat','Kamyon &amp; römork','Yapılar &amp; çelik','Kiralama &amp; mezat filoları','Profesyonel boyacılar'] }],
+      tr: ['Tarım ekipmanları','İnşaat &amp; hafriyat','Kamyon &amp; römork','Yapılar &amp; çelik','Kiralama &amp; mezat filoları','Profesyonel boyacılar'], no: ['Landbruksutstyr','Bygg &amp; gravearbeid','Lastebiler &amp; tilhengere','Konstruksjoner &amp; stål','Utleie- &amp; auksjonsflåter','Profesjonelle malere'], sv: ['Lantbruksutrustning','Bygg &amp; markarbete','Lastbilar &amp; släp','Konstruktioner &amp; stål','Uthyrnings- &amp; auktionsflottor','Professionella målare'] }],
     ['#apply .sheet-row span', {
       nl: ['Tractoren, werktuigen, silo\'s en machines die blootstaan aan weer en meststoffen.','Graafmachines, laders en zwaar materieel dat het zwaar te verduren krijgt op de bouwplaats.','Chassis, laadbakken en onderstellen die strijd leveren met strooizout, vocht en corrosie.','Hekwerk, poorten, leuningen en constructiestaal dat het hele jaar blootstaat aan de elementen.','Verfris en bescherm verouderend materieel om levensduur en restwaarde te verlengen.','Een betrouwbare roestcoater voor professionals die minder lagen en snellere doorlooptijden willen.'],
       pl: ['Ciągniki, maszyny, silosy i sprzęt narażone na pogodę i nawozy.','Koparki, ładowarki i ciężki sprzęt, który dostaje w kość na budowie.','Ramy, skrzynie ładunkowe i podwozia walczące z solą drogową, wilgocią i korozją.','Ogrodzenia, bramy, balustrady i stal konstrukcyjna wystawione na żywioły przez cały rok.','Odśwież i zabezpiecz starzejący się sprzęt, by wydłużyć żywotność i wartość odsprzedaży.','Niezawodna powłoka antykorozyjna dla profesjonalistów, którzy potrzebują mniej warstw i szybszej pracy.'],
@@ -205,9 +205,9 @@
       fr: ['Tracteurs, outils, silos et machines exposés aux intempéries et aux engrais.','Pelles, chargeuses et engins lourds qui en voient de toutes les couleurs sur le chantier.','Châssis, bennes et trains roulants qui luttent contre le sel de déneigement, l\'humidité et la corrosion.','Clôtures, portails, garde-corps et acier de structure exposés aux intempéries toute l\'année.','Rénovez et protégez le matériel vieillissant pour prolonger sa durée de vie et sa valeur de revente.','Un anti-rouille fiable pour les pros qui veulent moins de couches et des délais plus courts.'],
       es: ['Tractores, aperos, silos y máquinas expuestos al clima y los fertilizantes.','Excavadoras, cargadoras y equipo pesado que se lleva una paliza en la obra.','Chasis, cajas y bajos que luchan contra la sal de carretera, la humedad y la corrosión.','Vallas, portones, barandillas y acero estructural expuestos a la intemperie todo el año.','Renueva y protege equipos envejecidos para alargar su vida útil y su valor de reventa.','Un anti-óxido fiable para profesionales que quieren menos capas y plazos más rápidos.'],
       it: ['Trattori, attrezzi, sili e macchine esposti a intemperie e fertilizzanti.','Escavatori, pale e mezzi pesanti che ne vedono di tutti i colori in cantiere.','Telai, cassoni e sottoscocche che combattono contro sale stradale, umidità e corrosione.','Recinzioni, cancelli, ringhiere e acciaio strutturale esposti alle intemperie tutto l\'anno.','Rinnova e proteggi le attrezzature datate per prolungarne vita utile e valore di rivendita.','Un anti-ruggine affidabile per i professionisti che vogliono meno mani e tempi più rapidi.'],
-      tr: ['Hava koşullarına ve gübrelere maruz kalan traktörler, ekipmanlar, silolar ve makineler.','Şantiyede zorlu koşullara dayanan ekskavatörler, yükleyiciler ve ağır ekipmanlar.','Yol tuzu, nem ve korozyonla mücadele eden şasiler, kasalar ve alt takımlar.','Yıl boyu hava koşullarına maruz kalan çitler, kapılar, korkuluklar ve yapısal çelik.','Hizmet ömrünü ve ikinci el değerini uzatmak için yaşlanan ekipmanı yenileyin ve koruyun.','Daha az kat ve daha hızlı teslim isteyen profesyoneller için güvenilir bir pas kaplaması.'] }],
+      tr: ['Hava koşullarına ve gübrelere maruz kalan traktörler, ekipmanlar, silolar ve makineler.','Şantiyede zorlu koşullara dayanan ekskavatörler, yükleyiciler ve ağır ekipmanlar.','Yol tuzu, nem ve korozyonla mücadele eden şasiler, kasalar ve alt takımlar.','Yıl boyu hava koşullarına maruz kalan çitler, kapılar, korkuluklar ve yapısal çelik.','Hizmet ömrünü ve ikinci el değerini uzatmak için yaşlanan ekipmanı yenileyin ve koruyun.','Daha az kat ve daha hızlı teslim isteyen profesyoneller için güvenilir bir pas kaplaması.'], no: ['Traktorer, redskap, siloer og maskiner som er utsatt for vær og gjødsel.','Gravemaskiner, lastere og tungt utstyr som får hard medfart på byggeplassen.','Rammer, lasteplan og understell som kjemper mot veisalt, fukt og korrosjon.','Gjerder, porter, rekkverk og konstruksjonsstål som er utsatt for vær og vind hele året.','Frisk opp og beskytt aldrende utstyr for å forlenge levetid og bruktverdi.','Et pålitelig rustbelegg for proffer som vil ha færre strøk og raskere gjennomføring.'], sv: ['Traktorer, redskap, silos och maskiner som utsätts för väder och gödsel.','Grävmaskiner, lastare och tung utrustning som får hård medfart på byggarbetsplatsen.','Ramar, flak och underreden som kämpar mot vägsalt, fukt och korrosion.','Staket, grindar, räcken och konstruktionsstål som utsätts för väder och vind året runt.','Fräscha upp och skydda åldrande utrustning för att förlänga livslängd och andrahandsvärde.','En pålitlig rostbeläggning för proffs som vill ha färre lager och snabbare genomloppstider.'] }],
 
-    ['#contact .eyebrow', { nl: 'Aan de slag', pl: 'Zacznij', ro: 'Începe', de: 'Loslegen', fr: 'Commencer', es: 'Empezar', it: 'Inizia', tr: 'Başlayın' }],
+    ['#contact .eyebrow', { nl: 'Aan de slag', pl: 'Zacznij', ro: 'Începe', de: 'Loslegen', fr: 'Commencer', es: 'Empezar', it: 'Inizia', tr: 'Başlayın', no: 'Kom i gang', sv: 'Kom igång' }],
     ['#contact h2', {
       nl: 'Stop roest op uw materieel',
       pl: 'Zatrzymaj rdzę na swoim sprzęcie',
@@ -216,7 +216,7 @@
       fr: 'Stoppez la rouille sur votre matériel',
       es: 'Detén el óxido en tu equipo',
       it: 'Ferma la ruggine sulle tue attrezzature',
-      tr: 'Ekipmanınızdaki pası durdurun' }],
+      tr: 'Ekipmanınızdaki pası durdurun', no: 'Stopp rust på utstyret ditt', sv: 'Stoppa rost på din utrustning' }],
     ['#contact p', {
       nl: 'Ontdek hoe AgriGuard over roest gaat en blijft beschermen — overleg met onze coatingspecialisten over uw materieel, uw wagenpark of uw volgende klus.',
       pl: 'Odkryj, jak AgriGuard nakłada się na rdzę i nadal chroni — porozmawiaj z naszymi specjalistami o swoim sprzęcie, flocie lub kolejnym zadaniu.',
@@ -225,9 +225,9 @@
       fr: 'Découvrez comment AgriGuard recouvre la rouille et continue de protéger — échangez avec nos experts en revêtements sur votre matériel, votre flotte ou votre prochain chantier.',
       es: 'Descubre cómo AgriGuard cubre el óxido y sigue protegiendo — habla con nuestros especialistas en recubrimientos sobre tu equipo, tu flota o tu próximo trabajo.',
       it: 'Scopri come AgriGuard copre la ruggine e continua a proteggere — parla con i nostri specialisti dei rivestimenti delle tue attrezzature, della tua flotta o del tuo prossimo lavoro.',
-      tr: 'AgriGuard\'ın pasın üzerine nasıl gidip korumaya devam ettiğini keşfedin — ekipmanınız, filonuz veya bir sonraki işiniz hakkında kaplama uzmanlarımıza danışın.' }],
-    ['#contact .hero-cta .btn-solid', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi', tr: 'İletişim &amp; lokasyonlar' }],
-    ['#contact .hero-cta .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfedin' }],
+      tr: 'AgriGuard\'ın pasın üzerine nasıl gidip korumaya devam ettiğini keşfedin — ekipmanınız, filonuz veya bir sonraki işiniz hakkında kaplama uzmanlarımıza danışın.', no: 'Oppdag hvordan AgriGuard går over rust og fortsetter å beskytte — snakk med beleggsspesialistene våre om utstyret ditt, flåten din eller neste jobb.', sv: 'Upptäck hur AgriGuard går över rost och fortsätter att skydda — prata med våra beläggningsspecialister om din utrustning, din flotta eller ditt nästa jobb.' }],
+    ['#contact .hero-cta .btn-solid', { nl: 'Contact &amp; vestigingen', pl: 'Kontakt i biura', ro: 'Contact și birouri', de: 'Kontakt &amp; Standorte', fr: 'Contact et sites', es: 'Contacto y sedes', it: 'Contatto e sedi', tr: 'İletişim &amp; lokasyonlar', no: 'Kontakt &amp; kontorer', sv: 'Kontakt &amp; kontor' }],
+    ['#contact .hero-cta .btn-ghost', { nl: 'Ontdek Baril Group', pl: 'Poznaj Baril Group', ro: 'Descoperă Baril Group', de: 'Baril Group entdecken', fr: 'Découvrir le groupe Baril', es: 'Descubrir Baril Group', it: 'Scopri Baril Group', tr: 'Baril Group\'u keşfedin', no: 'Oppdag Baril Group', sv: 'Upptäck Baril Group' }],
 
     ['.foot-claim', {
       nl: 'Roestwerende coatings die roest in zijn spoor stoppen.',
@@ -237,7 +237,7 @@
       fr: 'Des revêtements antirouille qui stoppent la rouille net.',
       es: 'Recubrimientos antioxidantes que detienen el óxido en seco.',
       it: 'Rivestimenti antiruggine che fermano la ruggine sul nascere.',
-      tr: 'Pası olduğu yerde durduran pas önleyici kaplamalar.' }],
+      tr: 'Pası olduğu yerde durduran pas önleyici kaplamalar.', no: 'Rusthindrende belegg som stopper rust på stedet.', sv: 'Rostskyddande beläggningar som stoppar rost på fläcken.' }],
     ['footer .foot-grid div:nth-child(2) a', {
       nl: ['AgriGuard Rust Coater','Aluminium &amp; Zwart','Prestaties','Toepassingen'],
       pl: ['AgriGuard Rust Coater','Aluminium i czerń','Wydajność','Zastosowania'],
@@ -246,7 +246,7 @@
       fr: ['AgriGuard Rust Coater','Aluminium et noir','Performance','Applications'],
       es: ['AgriGuard Rust Coater','Aluminio y negro','Rendimiento','Aplicaciones'],
       it: ['AgriGuard Rust Coater','Alluminio e nero','Prestazioni','Applicazioni'],
-      tr: ['AgriGuard Rust Coater','Alüminyum &amp; Siyah','Performans','Uygulamalar'] }],
+      tr: ['AgriGuard Rust Coater','Alüminyum &amp; Siyah','Performans','Uygulamalar'], no: ['AgriGuard Rust Coater','Aluminium &amp; svart','Ytelse','Bruksområder'], sv: ['AgriGuard Rust Coater','Aluminium &amp; svart','Prestanda','Användningsområden'] }],
     ['footer h3', {
       nl: ['Producten','Baril Group'],
       pl: ['Produkty','Baril Group'],
@@ -255,8 +255,8 @@
       fr: ['Produits','Baril Group'],
       es: ['Productos','Baril Group'],
       it: ['Prodotti','Baril Group'],
-      tr: ['Ürünler','Baril Group'] }],
-    ['.foot-bottom span', {"nl":["© AgriGuard · een merk van Baril Group · Angola, IN","Stop roest in zijn spoor."],"pl":["© AgriGuard · marka Baril Group · Angola, IN","Zatrzymaj rdzę w miejscu."],"ro":["© AgriGuard · o marcă Baril Group · Angola, IN","Oprește rugina pe loc."],"de":["© AgriGuard · eine Marke von Baril Group · Angola, IN","Stoppen Sie Rost auf der Stelle."],"fr":["© AgriGuard · une marque de Baril Group · Angola, IN","Stoppez la rouille net."],"es":["© AgriGuard · una marca de Baril Group · Angola, IN","Detén el óxido en seco."],"it":["© AgriGuard · un marchio di Baril Group · Angola, IN","Ferma la ruggine sul nascere."],"tr":["© AgriGuard · bir Baril Group markası · Angola, IN","Pası olduğu yerde durdurun."]}]
+      tr: ['Ürünler','Baril Group'], no: ['Produkter','Baril Group'], sv: ['Produkter','Baril Group'] }],
+    ['.foot-bottom span', {"nl":["© AgriGuard · een merk van Baril Group · Angola, IN","Stop roest in zijn spoor."],"pl":["© AgriGuard · marka Baril Group · Angola, IN","Zatrzymaj rdzę w miejscu."],"ro":["© AgriGuard · o marcă Baril Group · Angola, IN","Oprește rugina pe loc."],"de":["© AgriGuard · eine Marke von Baril Group · Angola, IN","Stoppen Sie Rost auf der Stelle."],"fr":["© AgriGuard · une marque de Baril Group · Angola, IN","Stoppez la rouille net."],"es":["© AgriGuard · una marca de Baril Group · Angola, IN","Detén el óxido en seco."],"it":["© AgriGuard · un marchio di Baril Group · Angola, IN","Ferma la ruggine sul nascere."],"tr":["© AgriGuard · bir Baril Group markası · Angola, IN","Pası olduğu yerde durdurun."], "no": ["© AgriGuard · et merke fra Baril Group · Angola, IN","Stopp rust på stedet."], "sv": ["© AgriGuard · ett varumärke från Baril Group · Angola, IN","Stoppa rost på fläcken."]}]
   ];
 
   const flagBox = document.getElementById('langflags');
