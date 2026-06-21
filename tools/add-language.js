@@ -94,9 +94,6 @@ for (const f of htmlPages) {
 
 /* ---- 3. allow-list in every i18n bundle (appears twice each) ---- */
 log('\n3) i18n allow-lists');
-const allowOld = "'it', 'tr']";
-const allowNew = `'it', 'tr', '${code}']`;
-for (const f of htmlPages) { /* noop */ }
 const jsFiles = [];
 (function walk(dir) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -106,11 +103,16 @@ const jsFiles = [];
     else if (/i18n\.js$/.test(e.name)) jsFiles.push(full);
   }
 })(ROOT);
+// Match the language allow-list array that precedes `.includes(` — robust to
+// however many codes are already present (so sequential adds keep working).
+const allowRe = /\[('en'[^\]]*?)\](\.includes\()/g;
 for (const f of jsFiles) {
-  let s = fs.readFileSync(f, 'utf8');
-  if (!s.includes(allowOld)) { log('   ! skip (allow-list not found) ', rel(f)); continue; }
-  if (s.includes(`'${code}']`) || s.includes(`, '${code}']`)) { log('   = exists ', rel(f)); continue; }
-  s = s.split(allowOld).join(allowNew);
+  let s = fs.readFileSync(f, 'utf8'); let touched = false, already = false;
+  s = s.replace(allowRe, (m, body, tail) => {
+    if (new RegExp("'" + code + "'").test(body)) { already = true; return m; }
+    touched = true; return `[${body}, '${code}']${tail}`;
+  });
+  if (!touched) { log(already ? '   = exists ' : '   ! skip (allow-list not found) ', rel(f)); continue; }
   write(f, s); log('   + allow  ', rel(f));
 }
 

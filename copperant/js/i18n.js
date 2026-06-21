@@ -216,7 +216,7 @@
   const flagBox = document.getElementById('langflags');
   let lang = 'en';
   try { lang = localStorage.getItem('copperant-lang') || 'en'; } catch (e) {}
-  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
+  if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr', 'no', 'sv'].includes(lang)) lang = 'en';
 
   function apply(l) {
     for (const [sel, dict] of MAP) {
@@ -235,7 +235,7 @@
     if (typeof window.buildRibbon === 'function') requestAnimationFrame(window.buildRibbon);
   }
   if (flagBox) flagBox.querySelectorAll('button[data-lang]').forEach(b => b.addEventListener('click', () => {
-    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr'].includes(lang)) lang = 'en';
+    lang = b.dataset.lang; if (!['en', 'nl', 'pl', 'ro', 'de', 'fr', 'es', 'it', 'tr', 'no', 'sv'].includes(lang)) lang = 'en';
     apply(lang);
   }));
   apply(lang);
