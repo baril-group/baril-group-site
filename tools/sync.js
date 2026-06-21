@@ -36,7 +36,17 @@ async function get(url, opts) {
   if (!res.ok) { const e = new Error('HTTP ' + res.status + ' ' + url); e.status = res.status; throw e; }
   return res.text();
 }
-const dec = s => (s || '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&euml;/g, 'ë').replace(/&eacute;/g, 'é').replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', mdash: '—', ndash: '–', hellip: '…',
+  eacute: 'é', egrave: 'è', euml: 'ë', ecirc: 'ê', aacute: 'á', agrave: 'à', auml: 'ä', acirc: 'â', aring: 'å',
+  oacute: 'ó', ograve: 'ò', ouml: 'ö', ocirc: 'ô', uacute: 'ú', ugrave: 'ù', uuml: 'ü', ucirc: 'û',
+  iacute: 'í', iuml: 'ï', icirc: 'î', ccedil: 'ç', ntilde: 'ñ', szlig: 'ß',
+  reg: '®', copy: '©', trade: '™', deg: '°', times: '×', middot: '·', bull: '•', euro: '€' };
+const dec = s => (s || '')
+  .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+  .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))
+  .replace(/&([a-zA-Z]+);/g, (m, n) => Object.prototype.hasOwnProperty.call(ENTITIES, n) ? ENTITIES[n] : m)
+  .trim();
 function stripTags(html) {
   return (html || '')
     .replace(/<div class="product-related[\s\S]*?<\/div>/gi, '')
