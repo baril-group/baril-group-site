@@ -425,7 +425,7 @@
         'Döngüsel hammadde durumu (bugün %55, 2022\'de &lt;%10, hedef 2030\'da %100): Baril Group, 2026.',
         'Kaplama ve kuru katman kalınlığı rakamları örnek niteliğindedir; gerçek değerler ürüne, zemine, yönteme ve şartnameye bağlıdır.'] }],
     ['.foot-claim', { nl: 'Duurzame coatingoplossingen.', pl: 'Zrównoważone rozwiązania powłokowe.', ro: 'Soluții de acoperire durabile.', de: 'Nachhaltige Beschichtungslösungen.', fr: 'Des solutions de revêtement durables.', es: 'Soluciones de recubrimiento sostenibles.', it: 'Soluzioni di rivestimento sostenibili.', tr: 'Sürdürülebilir kaplama çözümleri.' }],
-    ['.foot-grid h5', { nl: ['Catalogus', 'Baril Coatings'], pl: ['Katalog', 'Baril Coatings'], ro: ['Catalog', 'Baril Coatings'], de: ['Katalog', 'Baril Coatings'], fr: ['Catalogue', 'Baril Coatings'], es: ['Catálogo', 'Baril Coatings'], it: ['Catalogo', 'Baril Coatings'], tr: ['Katalog', 'Baril Coatings'] }],
+    ['.foot-grid h3', { nl: ['Catalogus', 'Baril Coatings'], pl: ['Katalog', 'Baril Coatings'], ro: ['Catalog', 'Baril Coatings'], de: ['Katalog', 'Baril Coatings'], fr: ['Catalogue', 'Baril Coatings'], es: ['Catálogo', 'Baril Coatings'], it: ['Catalogo', 'Baril Coatings'], tr: ['Katalog', 'Baril Coatings'] }],
     ['.foot-grid div:nth-child(2) a', {
       nl: ['Alle producten →', 'Verfsystemen →', 'Markten →', 'Cases →'],
       pl: ['Wszystkie produkty →', 'Systemy malarskie →', 'Rynki →', 'Realizacje →'],

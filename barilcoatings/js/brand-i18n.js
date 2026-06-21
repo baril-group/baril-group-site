@@ -20,7 +20,7 @@
     ['.bp-hero .btn-ghost', { nl: 'Praat met een expert', pl: 'Porozmawiaj z ekspertem', ro: 'Discută cu un expert', de: 'Mit einem Experten sprechen', fr: 'Parler à un expert', es: 'Hablar con un experto', it: 'Parla con un esperto', tr: 'Bir uzmanla konuşun' }],
     ['.bp-band .btn-accent', { nl: 'Bekijk de catalogus', pl: 'Przeglądaj katalog', ro: 'Răsfoiește catalogul', de: 'Katalog durchstöbern', fr: 'Parcourir le catalogue', es: 'Explorar el catálogo', it: 'Sfoglia il catalogo', tr: 'Kataloğa göz atın' }],
     ['.bp-band .btn-ghost', { nl: 'Praat met een expert', pl: 'Porozmawiaj z ekspertem', ro: 'Discută cu un expert', de: 'Mit einem Experten sprechen', fr: 'Parler à un expert', es: 'Hablar con un experto', it: 'Parla con un esperto', tr: 'Bir uzmanla konuşun' }],
-    ['.foot-grid h5', { nl: ['Productlijnen','Baril Coatings'], pl: ['Linie produktów','Baril Coatings'], ro: ['Linii de produse','Baril Coatings'], de: ['Produktlinien','Baril Coatings'], fr: ['Gammes de produits','Baril Coatings'], es: ['Líneas de producto','Baril Coatings'], it: ['Linee di prodotto','Baril Coatings'], tr: ['Ürün hatları','Baril Coatings'] }],
+    ['.foot-grid h3', { nl: ['Productlijnen','Baril Coatings'], pl: ['Linie produktów','Baril Coatings'], ro: ['Linii de produse','Baril Coatings'], de: ['Produktlinien','Baril Coatings'], fr: ['Gammes de produits','Baril Coatings'], es: ['Líneas de producto','Baril Coatings'], it: ['Linee di prodotto','Baril Coatings'], tr: ['Ürün hatları','Baril Coatings'] }],
     ['.foot-grid div:nth-child(3) a', {
       nl: ['Home','Alle producten','Contact','Baril Group →'],
       pl: ['Strona główna','Wszystkie produkty','Kontakt','Baril Group →'],

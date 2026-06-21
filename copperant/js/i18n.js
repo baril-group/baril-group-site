@@ -32,7 +32,7 @@
       it: 'Risultati professionali,<br>la vernice più <span class="green">verde</span>',
       tr: 'Profesyonel sonuçlar,<br><span class="green">en yeşil</span> boya' }],
     ['.hero-sub', {
-      nl: 'Een compleet biobased verfsysteem voor professionals — <strong>plantaardige chemie en CO₂-neutrale productie</strong>, met de prestaties die je verwacht en elke kleur die je kunt bedenken.',
+      nl: 'Een compleet biobased verfsysteem voor professionals — <strong>plantaardige chemie en productie op hernieuwbare energie</strong>, met de prestaties die je verwacht en elke kleur die je kunt bedenken.',
       pl: 'Kompletny biobazowy system malarski dla profesjonalistów — <strong>chemia roślinna i produkcja neutralna pod względem CO₂</strong>, z oczekiwaną wydajnością i każdym kolorem, jaki sobie wyobrazisz.',
       ro: 'Un sistem complet de vopsea biobazată pentru profesioniști — <strong>chimie vegetală și producție neutră de CO₂</strong>, cu performanța așteptată și orice culoare îți poți imagina.',
       de: 'Ein komplettes biobasiertes Farbsystem für Profis — <strong>pflanzliche Chemie und CO₂-neutrale Produktion</strong>, mit der Leistung, die Sie erwarten, und jeder erdenklichen Farbe.',
@@ -43,7 +43,7 @@
     ['header .hero-cta .btn-copper', { nl: 'Bezoek copperant.com ↗', pl: 'Odwiedź copperant.com ↗', ro: 'Vizitează copperant.com ↗', de: 'copperant.com besuchen ↗', fr: 'Visiter copperant.com ↗', es: 'Visitar copperant.com ↗', it: 'Visita copperant.com ↗', tr: 'copperant.com\'u ziyaret edin ↗' }],
     ['header .hero-cta .btn-ghost', { nl: 'Bekijk het assortiment', pl: 'Zobacz asortyment', ro: 'Explorează gama', de: 'Das Sortiment ansehen', fr: 'Voir la gamme', es: 'Ver la gama', it: 'Scopri la gamma', tr: 'Ürün gamını keşfedin' }],
     ['.hero-foot span:first-child', {
-      nl: 'Biobased · EU Ecolabel · Cradle to Cradle · CO₂-neutraal',
+      nl: 'Biobased · EU Ecolabel · Cradle to Cradle · Hernieuwbare energie',
       pl: 'Biobazowa · EU Ecolabel · Cradle to Cradle · Neutralna CO₂',
       ro: 'Biobazată · EU Ecolabel · Cradle to Cradle · Neutră CO₂',
       de: 'Biobasiert · EU Ecolabel · Cradle to Cradle · CO₂-neutral',
@@ -55,7 +55,7 @@
 
     ['#mission .eyebrow', { nl: 'Waarom Copperant', pl: 'Dlaczego Copperant', ro: 'De ce Copperant', de: 'Warum Copperant', fr: 'Pourquoi Copperant', es: 'Por qué Copperant', it: 'Perché Copperant', tr: 'Neden Copperant' }],
     ['.mission-quote', {
-      nl: 'Professionals zouden niet hoeven kiezen tussen prestaties en de planeet. Copperant is gebouwd op natuurlijke grondstoffen en CO₂-neutrale productie — <em>de groenste verf, zonder compromis</em>.',
+      nl: 'Professionals zouden niet hoeven kiezen tussen prestaties en de planeet. Copperant is gebouwd op natuurlijke grondstoffen en productie op hernieuwbare energie — <em>de groenste verf, zonder compromis</em>.',
       pl: 'Profesjonaliści nie powinni wybierać między wydajnością a planetą. Copperant powstaje z naturalnych surowców i w produkcji neutralnej pod względem CO₂ — <em>najbardziej zielona farba, bez kompromisów</em>.',
       ro: 'Profesioniștii nu ar trebui să aleagă între performanță și planetă. Copperant este construit pe materii prime naturale și producție neutră de CO₂ — <em>cea mai verde vopsea, fără compromisuri</em>.',
       de: 'Profis sollten nicht zwischen Leistung und Planet wählen müssen. Copperant basiert auf natürlichen Rohstoffen und CO₂-neutraler Produktion — <em>die grünste Farbe, ohne Kompromisse</em>.',
@@ -64,7 +64,7 @@
       it: 'I professionisti non dovrebbero dover scegliere tra prestazioni e pianeta. Copperant nasce da materie prime naturali e da una produzione a zero CO₂ — <em>la vernice più verde, senza compromessi</em>.',
       tr: 'Profesyoneller performans ile gezegen arasında seçim yapmak zorunda kalmamalı. Copperant doğal hammaddeler ve CO₂-nötr üretim üzerine kuruludur — <em>ödün vermeden en yeşil boya</em>.' }],
     ['#mission .mm b', {
-      nl: ['Plantaardig &amp; natuurlijk','CO₂-neutrale productie','Elke kleur, onbeperkt'],
+      nl: ['Plantaardig &amp; natuurlijk','productie op hernieuwbare energie','Elke kleur, onbeperkt'],
       pl: ['Roślinna i naturalna','Produkcja neutralna CO₂','Każdy kolor, bez limitu'],
       ro: ['Vegetală și naturală','Producție neutră CO₂','Orice culoare, nelimitat'],
       de: ['Pflanzlich &amp; natürlich','CO₂-neutrale Produktion','Jede Farbe, unbegrenzt'],
@@ -73,7 +73,7 @@
       it: ['Vegetale e naturale','Produzione a zero CO₂','Ogni colore, senza limiti'],
       tr: ['Bitkisel &amp; doğal','CO₂-nötr üretim','Her renk, sınırsız'] }],
     ['#mission .mm span', {
-      nl: ['Samengesteld uit natuurlijke, plantaardige grondstoffen — fossiele chemie teruggebracht.','Gemaakt in een volledig CO₂-neutraal proces, met plantaardige chemie die atmosferische CO₂ helpt verlagen.','Optimale professionele prestaties, in onbeperkt veel kleuren op maat.'],
+      nl: ['Samengesteld uit natuurlijke, plantaardige grondstoffen — fossiele chemie teruggebracht.','Gemaakt op eigen hernieuwbare energie, met plantaardige grondstoffen die biogene koolstof vastleggen.','Optimale professionele prestaties, in onbeperkt veel kleuren op maat.'],
       pl: ['Opracowana z naturalnych, roślinnych surowców — chemia kopalna ograniczona.','Wytwarzana w pełni neutralnym procesie CO₂, z chemią roślinną pomagającą obniżać CO₂ w atmosferze.','Optymalna profesjonalna wydajność, w nieograniczonej liczbie kolorów na zamówienie.'],
       ro: ['Formulată din materii prime naturale, vegetale — chimia fosilă redusă.','Produsă într-un proces complet neutru de CO₂, cu chimie vegetală care ajută la reducerea carbonului din atmosferă.','Performanță profesională optimă, în culori personalizate nelimitate.'],
       de: ['Zusammengesetzt aus natürlichen, pflanzlichen Rohstoffen — fossile Chemie reduziert.','Hergestellt in einem vollständig CO₂-neutralen Prozess, mit pflanzlicher Chemie, die atmosphärisches CO₂ senken hilft.','Optimale professionelle Leistung, in unbegrenzt vielen Farben nach Maß.'],
@@ -130,9 +130,9 @@
       es: 'Copperant combina rendimiento profesional con algunas de las credenciales ecológicas más sólidas del sector — probadas y certificadas de forma independiente.',
       it: 'Copperant unisce prestazioni professionali ad alcune delle credenziali ecologiche più solide del settore — testate e certificate in modo indipendente.',
       tr: 'Copperant, profesyonel performansı sektördeki en güçlü ekolojik kanıtlardan bazılarıyla birleştirir — bağımsız olarak test edilmiş ve sertifikalandırılmıştır.' }],
-    ['#green .stat .n', { nl: ['CO₂-neutraal','Plantaardig','Onbeperkt'], pl: ['Neutralna CO₂','Roślinna','Bez limitu'], ro: ['Neutră CO₂','Vegetală','Nelimitat'], de: ['CO₂-neutral','Pflanzlich','Unbegrenzt'], fr: ['Neutre en CO₂','Végétale','Illimité'], es: ['Neutra en CO₂','Vegetal','Ilimitado'], it: ['Neutra in CO₂','Vegetale','Illimitato'], tr: ['CO₂-nötr','Bitkisel','Sınırsız'] }],
+    ['#green .stat .n', { nl: ['Hernieuwbare energie','Plantaardig','Onbeperkt'], pl: ['Neutralna CO₂','Roślinna','Bez limitu'], ro: ['Neutră CO₂','Vegetală','Nelimitat'], de: ['CO₂-neutral','Pflanzlich','Unbegrenzt'], fr: ['Neutre en CO₂','Végétale','Illimité'], es: ['Neutra en CO₂','Vegetal','Ilimitado'], it: ['Neutra in CO₂','Vegetale','Illimitato'], tr: ['CO₂-nötr','Bitkisel','Sınırsız'] }],
     ['#green .stat .l', {
-      nl: ['Volledig CO₂-neutraal productieproces.','Natuurlijke, plantaardige grondstoffen als basis.','Kleuren op maat, zonder limiet.'],
+      nl: ['Geproduceerd op eigen hernieuwbare energie.','Natuurlijke, plantaardige grondstoffen als basis.','Kleuren op maat, zonder limiet.'],
       pl: ['W pełni neutralny pod względem CO₂ proces produkcji.','Naturalne, roślinne surowce w rdzeniu.','Kolory na zamówienie, bez ograniczeń.'],
       ro: ['Proces de producție complet neutru de CO₂.','Materii prime naturale, vegetale la bază.','Culori personalizate, fără limite.'],
       de: ['Vollständig CO₂-neutraler Produktionsprozess.','Natürliche, pflanzliche Rohstoffe als Basis.','Farben nach Maß, ohne Limit.'],

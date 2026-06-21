@@ -247,7 +247,7 @@
       es: ['AgriGuard Rust Coater','Aluminio y negro','Rendimiento','Aplicaciones'],
       it: ['AgriGuard Rust Coater','Alluminio e nero','Prestazioni','Applicazioni'],
       tr: ['AgriGuard Rust Coater','Alüminyum &amp; Siyah','Performans','Uygulamalar'] }],
-    ['footer h5', {
+    ['footer h3', {
       nl: ['Producten','Baril Group'],
       pl: ['Produkty','Baril Group'],
       ro: ['Produse','Baril Group'],

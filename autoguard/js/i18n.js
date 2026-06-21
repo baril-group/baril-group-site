@@ -247,7 +247,7 @@
       es: ['Barnices','Imprimaciones &amp; selladores','Colores de fábrica','Protección antioxidante'],
       it: ['Trasparenti','Primer &amp; sigillanti','Colori di fabbrica','Protezione antiruggine'],
       tr: ['Vernikler','Astarlar &amp; dolgu astarları','Fabrika renkleri','Pas koruması'] }],
-    ['footer h5', {
+    ['footer h3', {
       nl: ['Producten','Baril Group'],
       pl: ['Produkty','Baril Group'],
       ro: ['Produse','Baril Group'],

@@ -222,14 +222,14 @@
     ['#globe .eyebrow', { nl: 'Hoofdstuk 03 · Een wat-als-scenario', pl: 'Rozdział 03 · Scenariusz „co gdyby”', ro: 'Capitolul 03 · Un scenariu „ce-ar fi dacă”', de: 'Kapitel 03 · Ein Was-wäre-wenn-Szenario', fr: 'Chapitre 03 · Un scénario hypothétique', es: 'Capítulo 03 · Un escenario hipotético', it: 'Capitolo 03 · Uno scenario ipotetico', tr: 'Bölüm 03 · Bir ya-olsaydı senaryosu' }],
     ['#globe h2', { nl: 'Als de verf van de wereld<br>met ons meeging', pl: 'Gdyby farba świata<br>poszła z nami', ro: 'Dacă vopseaua lumii<br>ar merge cu noi', de: 'Wenn die Farbe der Welt<br>mit uns ginge', fr: 'Si la peinture du monde<br>nous suivait', es: 'Si la pintura del mundo<br>nos siguiera', it: 'Se la vernice del mondo<br>venisse con noi', tr: 'Dünyanın boyası<br>bizimle gelseydi' }],
     ['#globe .sec-head p:last-child', {
-      nl: 'De wereld produceert ≈ 50+ miljoen ton verf en coatings per jaar — nog altijd overwegend fossiele chemie. Dit verandert er van richting wanneer dat volume overgaat op hernieuwbare grondstoffen en dunne-laag-applicatie, zoals wij dat doen.',
-      pl: 'Świat produkuje ≈ 50+ milionów ton farb i powłok rocznie — wciąż w przeważającej mierze chemia kopalna. Oto co zmienia kierunek, gdy ta ilość przechodzi na surowce odnawialne i aplikację cienkowarstwową, tak jak robimy to my.',
-      ro: 'Lumea produce ≈ 50+ milioane de tone de vopsele și acoperiri pe an — încă majoritar chimie fosilă. Iată ce își schimbă direcția când acel volum trece la materii prime regenerabile și aplicare în strat subțire, așa cum facem noi.',
-      de: 'Die Welt produziert ≈ 50+ Millionen Tonnen Farben und Beschichtungen pro Jahr — noch immer überwiegend fossile Chemie. Das ändert die Richtung, wenn dieses Volumen auf erneuerbare Rohstoffe und Dünnschicht-Applikation umgestellt wird, so wie wir es tun.',
-      fr: 'Le monde produit ≈ 50+ millions de tonnes de peintures et de revêtements par an — toujours majoritairement de la chimie fossile. Voilà ce qui change de cap lorsque ce volume passe aux matières premières renouvelables et à l\'application en couche mince, comme nous le faisons.',
-      es: 'El mundo produce ≈ 50+ millones de toneladas de pinturas y recubrimientos al año — todavía mayoritariamente química fósil. Esto cambia de rumbo cuando ese volumen pasa a materias primas renovables y a la aplicación en capa fina, como hacemos nosotros.',
-      it: 'Il mondo produce ≈ 50+ milioni di tonnellate di vernici e rivestimenti all\'anno — ancora in gran parte chimica fossile. Ecco cosa cambia direzione quando quel volume passa a materie prime rinnovabili e all\'applicazione a strato sottile, come facciamo noi.',
-      tr: 'Dünya yılda ≈ 50+ milyon ton boya ve kaplama üretiyor — hâlâ ağırlıklı olarak fosil kimya. Bu hacim, bizim yaptığımız gibi yenilenebilir hammaddelere ve ince katman uygulamasına geçtiğinde yön işte böyle değişiyor.' }],
+      nl: 'De wereld produceert 45–65 miljoen ton verf en coatings per jaar — nog altijd overwegend fossiele chemie. Dit verandert er van richting wanneer dat volume overgaat op hernieuwbare grondstoffen en dunne-laag-applicatie, zoals wij dat doen.',
+      pl: 'Świat produkuje 45–65 milionów ton farb i powłok rocznie — wciąż w przeważającej mierze chemia kopalna. Oto co zmienia kierunek, gdy ta ilość przechodzi na surowce odnawialne i aplikację cienkowarstwową, tak jak robimy to my.',
+      ro: 'Lumea produce 45–65 milioane de tone de vopsele și acoperiri pe an — încă majoritar chimie fosilă. Iată ce își schimbă direcția când acel volum trece la materii prime regenerabile și aplicare în strat subțire, așa cum facem noi.',
+      de: 'Die Welt produziert 45–65 Millionen Tonnen Farben und Beschichtungen pro Jahr — noch immer überwiegend fossile Chemie. Das ändert die Richtung, wenn dieses Volumen auf erneuerbare Rohstoffe und Dünnschicht-Applikation umgestellt wird, so wie wir es tun.',
+      fr: 'Le monde produit 45–65 millions de tonnes de peintures et de revêtements par an — toujours majoritairement de la chimie fossile. Voilà ce qui change de cap lorsque ce volume passe aux matières premières renouvelables et à l\'application en couche mince, comme nous le faisons.',
+      es: 'El mundo produce 45–65 millones de toneladas de pinturas y recubrimientos al año — todavía mayoritariamente química fósil. Esto cambia de rumbo cuando ese volumen pasa a materias primas renovables y a la aplicación en capa fina, como hacemos nosotros.',
+      it: 'Il mondo produce 45–65 milioni di tonnellate di vernici e rivestimenti all\'anno — ancora in gran parte chimica fossile. Ecco cosa cambia direzione quando quel volume passa a materie prime rinnovabili e all\'applicazione a strato sottile, come facciamo noi.',
+      tr: 'Dünya yılda 45–65 milyon ton boya ve kaplama üretiyor — hâlâ ağırlıklı olarak fosil kimya. Bu hacim, bizim yaptığımız gibi yenilenebilir hammaddelere ve ince katman uygulamasına geçtiğinde yön işte böyle değişiyor.' }],
     ['.fr-slider span', { nl: ['Fossiel', null, 'Hernieuwbaar'], pl: ['Kopalne', null, 'Odnawialne'], ro: ['Fosil', null, 'Regenerabil'], de: ['Fossil', null, 'Erneuerbar'], fr: ['Fossile', null, 'Renouvelable'], es: ['Fósil', null, 'Renovable'], it: ['Fossile', null, 'Rinnovabile'], tr: ['Fosil', null, 'Yenilenebilir'] }],
     ['.dial b', { nl: ['Grondstof', 'CO₂-richting', 'Materiaallevensduur'], pl: ['Surowiec', 'Kierunek CO₂', 'Żywotność materiału'], ro: ['Materie primă', 'Direcția CO₂', 'Durata de viață a materialului'], de: ['Rohstoff', 'CO₂-Richtung', 'Materiallebensdauer'], fr: ['Matière première', 'Direction CO₂', 'Durée de vie du matériau'], es: ['Materia prima', 'Dirección CO₂', 'Vida útil del material'], it: ['Materia prima', 'Direzione CO₂', 'Durata del materiale'], tr: ['Hammadde', 'CO₂ yönü', 'Malzeme ömrü'] }],
     ['.dial b + span', {
@@ -278,7 +278,7 @@
     ['.safety-services .ss span', {
       nl: [
         'Actuele veiligheidsbladen en productveiligheidsdocumentatie — voor elk product, elke revisie.',
-        'Praktijkgerichte training voor professionele applicateurs via Baril Academy: veilig werken, slim aanbrengen.',
+        'Praktijkgerichte training voor professionele applicateurs via Baril Academy — Barils interne opleidingsprogramma — over veilig werken en slim aanbrengen.',
         'Praktisch advies over persoonlijke bescherming — op de klus, op de steiger, aan de werkbank.'],
       pl: [
         'Aktualne karty charakterystyki i dokumentacja bezpieczeństwa produktu — dla każdego produktu, każdej rewizji.',
@@ -452,43 +452,43 @@
     ['#sources .eyebrow', { nl: 'Bronnen & onderbouwing', pl: 'Źródła i uzasadnienie', ro: 'Surse și fundamentare', de: 'Quellen & Belege', fr: 'Sources et justification', es: 'Fuentes y justificación', it: 'Fonti e riferimenti', tr: 'Kaynaklar ve dayanak' }],
     ['.src li', {
       nl: [
-        'Wereldvolume verf & coatings — marktramingen 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Getoond als "≈ 50+ miljoen ton per jaar".',
+        'Wereldvolume verf & coatings — marktramingen 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Getoond als "45–65 miljoen ton per jaar".',
         'EU-verfrichtlijn 2004/42/EG — VOS-grenswaarden voor decoratieve verf en autoschadeherstel (EUR-Lex).',
         'CSE/OPS (schildersziekte), erkende beroepsziekte, NL: ≈ 50 nieuwe gevallen/jr rond 2000 → &lt; 10/jr in 2014, daling toegeschreven aan substitutie, o.a. watergedragen verf — ops-loket.nl · beroepsziekten.nl.',
         'Baril Groups transitie-, energie- en mensenprogramma — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Status circulaire grondstoffen (55% vandaag, &lt; 10% in 2022, doel 100% in 2030): Baril Group, 2026.',
         'Het hoofdstuk "Als de verf van de wereld met ons meeging" is een illustratief scenario op basis van Barils eigen producttransitie — geen gemeten mondiale projectie.'],
       pl: [
-        'Wolumen światowy farb i powłok — szacunki rynkowe 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Pokazano jako „≈ 50+ milionów ton rocznie”.',
+        'Wolumen światowy farb i powłok — szacunki rynkowe 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Pokazano jako „45–65 milionów ton rocznie”.',
         'Dyrektywa UE 2004/42/WE — limity LZO dla farb dekoracyjnych i renowacji pojazdów (EUR-Lex).',
         'CSE/OPS (choroba malarzy), uznana choroba zawodowa, NL: ≈ 50 nowych przypadków/rok ok. 2000 → &lt; 10/rok w 2014, spadek przypisywany substytucji, m.in. farbom wodorozcieńczalnym — ops-loket.nl · beroepsziekten.nl.',
         'Programy transformacji, energii i ludzi Baril Group — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Status surowców w obiegu zamkniętym (55% dziś, &lt; 10% w 2022, cel 100% w 2030): Baril Group, 2026.',
         'Rozdział „Gdyby farba świata poszła z nami” to scenariusz ilustracyjny oparty na własnej transformacji produktów Baril — nie zmierzona projekcja globalna.'],
       ro: [
-        'Volum global de vopsele și acoperiri — estimări de piață 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Afișat ca „≈ 50+ milioane de tone pe an”.',
+        'Volum global de vopsele și acoperiri — estimări de piață 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Afișat ca „45–65 milioane de tone pe an”.',
         'Directiva UE 2004/42/CE — limite COV pentru vopsele decorative și refinisarea vehiculelor (EUR-Lex).',
         'CSE/OPS (boala zugravului), boală profesională recunoscută, NL: ≈ 50 cazuri noi/an în jurul lui 2000 → &lt; 10/an în 2014, scădere atribuită substituției, inclusiv vopselei pe bază de apă — ops-loket.nl · beroepsziekten.nl.',
         'Programele de tranziție, energie și oameni ale Baril Group — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Statutul materiilor prime circulare (55% astăzi, &lt; 10% în 2022, obiectiv 100% în 2030): Baril Group, 2026.',
         'Capitolul „Dacă vopseaua lumii ar merge cu noi” este un scenariu ilustrativ bazat pe propria tranziție a produselor Baril — nu o proiecție globală măsurată.'],
       de: [
-        'Weltvolumen Farben & Beschichtungen — Marktschätzungen 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Dargestellt als „≈ 50+ Millionen Tonnen pro Jahr“.',
+        'Weltvolumen Farben & Beschichtungen — Marktschätzungen 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Dargestellt als „45–65 Millionen Tonnen pro Jahr“.',
         'EU-Farbrichtlinie 2004/42/EG — VOC-Grenzwerte für dekorative Farben und Fahrzeugreparaturlackierung (EUR-Lex).',
         'CSE/OPS (Malerkrankheit), anerkannte Berufskrankheit, NL: ≈ 50 neue Fälle/Jahr um 2000 → &lt; 10/Jahr im Jahr 2014, Rückgang zugeschrieben der Substitution, u.a. wasserbasierte Farbe — ops-loket.nl · beroepsziekten.nl.',
         'Transitions-, Energie- und Menschenprogramm der Baril Group — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Status zirkulärer Rohstoffe (55% heute, &lt; 10% im Jahr 2022, Ziel 100% bis 2030): Baril Group, 2026.',
         'Das Kapitel „Wenn die Farbe der Welt mit uns ginge“ ist ein illustratives Szenario auf Basis der eigenen Produkttransition von Baril — keine gemessene globale Projektion.'],
       fr: [
-        'Volume mondial peintures & revêtements — estimations de marché 2022–2024 : Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Présenté comme « ≈ 50+ millions de tonnes par an ».',
+        'Volume mondial peintures & revêtements — estimations de marché 2022–2024 : Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Présenté comme « 45–65 millions de tonnes par an ».',
         'Directive UE 2004/42/CE — limites de COV pour les peintures décoratives et la réparation automobile (EUR-Lex).',
         'CSE/OPS (maladie du peintre), maladie professionnelle reconnue, NL : ≈ 50 nouveaux cas/an vers 2000 → &lt; 10/an en 2014, baisse attribuée à la substitution, notamment les peintures hydrodiluables — ops-loket.nl · beroepsziekten.nl.',
         'Programmes de transition, d\'énergie et humains du groupe Baril — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Statut des matières premières circulaires (55% aujourd\'hui, &lt; 10% en 2022, objectif 100% en 2030) : Baril Group, 2026.',
         'Le chapitre « Si la peinture du monde nous suivait » est un scénario illustratif basé sur la propre transition produits de Baril — pas une projection mondiale mesurée.'],
       es: [
-        'Volumen mundial de pinturas y recubrimientos — estimaciones de mercado 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Mostrado como «≈ 50+ millones de toneladas al año».',
+        'Volumen mundial de pinturas y recubrimientos — estimaciones de mercado 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Mostrado como «45–65 millones de toneladas al año».',
         'Directiva UE 2004/42/CE — límites de COV para pinturas decorativas y reparación de vehículos (EUR-Lex).',
         'CSE/OPS (enfermedad del pintor), enfermedad profesional reconocida, NL: ≈ 50 casos nuevos/año hacia 2000 → &lt; 10/año en 2014, descenso atribuido a la sustitución, entre otras la pintura al agua — ops-loket.nl · beroepsziekten.nl.',
         'Programas de transición, energía y personas de Baril Group — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Estado de las materias primas circulares (55% hoy, &lt; 10% en 2022, objetivo 100% en 2030): Baril Group, 2026.',
         'El capítulo «Si la pintura del mundo nos siguiera» es un escenario ilustrativo basado en la propia transición de productos de Baril — no una proyección mundial medida.'],
       it: [
-        'Volume mondiale vernici e rivestimenti — stime di mercato 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Mostrato come «≈ 50+ milioni di tonnellate all\'anno».',
+        'Volume mondiale vernici e rivestimenti — stime di mercato 2022–2024: Ceresana (≈ 44,5 Mt, 2022) · Freedonia (≈ 63,7 Mt, 2024). Mostrato come «45–65 milioni di tonnellate all\'anno».',
         'Direttiva UE 2004/42/CE — limiti di COV per pitture decorative e riparazione di veicoli (EUR-Lex).',
         'CSE/OPS (malattia dell\'imbianchino), malattia professionale riconosciuta, NL: ≈ 50 nuovi casi/anno verso il 2000 → &lt; 10/anno nel 2014, calo attribuito alla sostituzione, tra cui la vernice a base acqua — ops-loket.nl · beroepsziekten.nl.',
         'Programmi di transizione, energia e persone di Baril Group — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Stato delle materie prime circolari (55% oggi, &lt; 10% nel 2022, obiettivo 100% nel 2030): Baril Group, 2026.',
@@ -500,7 +500,7 @@
         'Baril Group\'un dönüşüm, enerji ve insan programı — barilcoatings.com/duurzaamheid · copperant.com/certificaten. Döngüsel hammadde durumu (bugün %55, 2022\'de &lt; %10, hedef 2030\'da %100): Baril Group, 2026.',
         '"Dünyanın boyası bizimle gelseydi" bölümü, Baril\'in kendi ürün dönüşümüne dayalı açıklayıcı bir senaryodur — ölçülmüş bir küresel projeksiyon değildir.'] }],
     ['.foot-claim', { nl: 'Wij verven een hernieuwbare toekomst.', pl: 'Malujemy odnawialną przyszłość.', ro: 'Vopsim un viitor regenerabil.', de: 'Wir streichen eine erneuerbare Zukunft.', fr: 'Nous peignons un avenir renouvelable.', es: 'Pintamos un futuro renovable.', it: 'Dipingiamo un futuro rinnovabile.', tr: 'Yenilenebilir bir geleceği boyuyoruz.' }],
-    ['.foot-grid h5', { nl: ['Merken', 'Groep'], pl: ['Marki', 'Grupa'], ro: ['Mărci', 'Grup'], de: ['Marken', 'Gruppe'], fr: ['Marques', 'Groupe'], es: ['Marcas', 'Grupo'], it: ['Marchi', 'Gruppo'], tr: ['Markalar', 'Grup'] }],
+    ['.foot-grid h3', { nl: ['Merken', 'Groep'], pl: ['Marki', 'Grupa'], ro: ['Mărci', 'Grup'], de: ['Marken', 'Gruppe'], fr: ['Marques', 'Groupe'], es: ['Marcas', 'Grupo'], it: ['Marchi', 'Gruppo'], tr: ['Markalar', 'Grup'] }],
     ['.foot-grid div:nth-child(3) a', { nl: ['Missie', 'Technologie', 'Werken bij ↗', 'Contact ↗'], pl: ['Misja', 'Technologia', 'Kariera ↗', 'Kontakt ↗'], ro: ['Misiune', 'Tehnologie', 'Cariere ↗', 'Contact ↗'], de: ['Mission', 'Technologie', 'Karriere ↗', 'Kontakt ↗'], fr: ['Mission', 'Technologie', 'Carrières ↗', 'Contact ↗'], es: ['Misión', 'Tecnología', 'Empleo ↗', 'Contacto ↗'], it: ['Missione', 'Tecnologia', 'Lavora con noi ↗', 'Contatto ↗'], tr: ['Misyon', 'Teknoloji', 'Kariyer ↗', 'İletişim ↗'] }],
     ['.foot-bottom span', {
       nl: ["© Baril Group", 'Minder verf. Langere levensduur. Lagere impact.'],

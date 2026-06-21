@@ -32,7 +32,7 @@
       it: 'Pittura con<br><span class="rain">una missione</span>',
       tr: 'Misyon sahibi<br><span class="rain">boya</span>' }],
     ['.hero-sub', {
-      nl: 'Plantaardige muur- en lakverf die <strong>vriendelijk is voor jou en de planeet</strong> — vrij van schadelijke stoffen, in elke kleur die je kunt bedenken.',
+      nl: 'Plantaardige muur- en lakverf die <strong>vriendelijk is voor jou en de planeet</strong> — vrij van de schadelijke stoffen van traditionele verf, in elke kleur die je kunt bedenken.',
       pl: 'Roślinna farba ścienna i lakierowa, która jest <strong>przyjazna dla Ciebie i planety</strong> — bez szkodliwych substancji, w każdym kolorze, jaki sobie wymarzysz.',
       ro: 'Vopsea vegetală pentru pereți și lac, <strong>blândă cu tine și cu planeta</strong> — fără substanțe nocive, în orice culoare îți poți imagina.',
       de: 'Pflanzliche Wand- und Lackfarbe, die <strong>freundlich zu dir und zum Planeten</strong> ist — frei von Schadstoffen, in jeder erdenklichen Farbe.',
@@ -55,7 +55,7 @@
 
     ['#mission .eyebrow', { nl: 'Waarom Fairf', pl: 'Dlaczego Fairf', ro: 'De ce Fairf', de: 'Warum Fairf', fr: 'Pourquoi Fairf', es: 'Por qué Fairf', it: 'Perché Fairf', tr: 'Neden Fairf' }],
     ['.mission-quote', {
-      nl: 'Verf mag vriendelijk zijn — voor de mensen in de kamer én de planeet daarbuiten. Fairf is plantaardig en vrij van schadelijke stoffen, <em>zonder ook maar één kleur in te leveren</em>.',
+      nl: 'Verf mag vriendelijk zijn — voor de mensen in de kamer én de planeet daarbuiten. Fairf is plantaardig en vrij van de schadelijke stoffen van traditionele verf, <em>zonder ook maar één kleur in te leveren</em>.',
       pl: 'Farba może być przyjazna — dla ludzi w pokoju i dla planety na zewnątrz. Fairf jest roślinna i wolna od szkodliwych substancji, <em>bez rezygnacji z choćby jednego koloru</em>.',
       ro: 'Vopseaua poate fi blândă — cu oamenii din cameră și cu planeta de afară. Fairf este vegetală și fără substanțe nocive, <em>fără a renunța la nicio culoare</em>.',
       de: 'Farbe darf freundlich sein — zu den Menschen im Raum und zum Planeten draußen. Fairf ist pflanzlich und frei von Schadstoffen, <em>ohne auch nur eine Farbe aufzugeben</em>.',
@@ -232,7 +232,7 @@
       it: 'Testata, <span class="rain">certificata</span>, sicura',
       tr: 'Test edildi, <span class="rain">sertifikalı</span>, güvenli' }],
     ['#certs .lead', {
-      nl: 'Onafhankelijk getest en gecertificeerd — zo is "vrij van schadelijke stoffen" meer dan een belofte. EU Ecolabel-gecertificeerd, een A+ lage-emissieklasse, en getest als veilig voor gebruik op kinderspeelgoed en meubels.',
+      nl: 'Onafhankelijk getest en gecertificeerd — zo is "vrij van de schadelijke stoffen van traditionele verf" meer dan een belofte. EU Ecolabel-gecertificeerd, een A+ lage-emissieklasse, en getest als veilig voor gebruik op kinderspeelgoed en meubels.',
       pl: 'Niezależnie przetestowana i certyfikowana — dzięki temu „wolna od szkodliwych substancji" to coś więcej niż obietnica. Certyfikat EU Ecolabel, klasa niskiej emisji A+ oraz przetestowana jako bezpieczna do stosowania na zabawkach i meblach dziecięcych.',
       ro: 'Testată și certificată independent — astfel "fără substanțe nocive" înseamnă mai mult decât o promisiune. Certificată EU Ecolabel, o clasă de emisii reduse A+ și testată ca sigură pentru utilizarea pe jucării și mobilier pentru copii.',
       de: 'Unabhängig getestet und zertifiziert — so ist "frei von schädlichen Stoffen" mehr als ein Versprechen. EU-Ecolabel-zertifiziert, eine A+-Klasse für niedrige Emissionen und getestet als sicher für die Anwendung auf Kinderspielzeug und Möbeln.',

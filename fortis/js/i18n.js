@@ -229,7 +229,7 @@
       es: 'Recubrimientos industriales ultrarresistentes para el metal.',
       it: 'Rivestimenti industriali ultraresistenti per il metallo.',
       tr: 'Metal için çelik gibi endüstriyel kaplamalar.' }],
-    ['footer h5', {
+    ['footer h3', {
       nl: ['Producten','Baril Group'],
       pl: ['Produkty','Baril Group'],
       ro: ['Produse','Baril Group'],

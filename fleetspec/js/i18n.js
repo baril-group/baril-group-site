@@ -247,7 +247,7 @@
       es: ['Imprimación de uretano','Acabados de uretano','Base','Color intermix'],
       it: ['Primer uretanico','Finiture uretaniche','Base','Colore intermix'],
       tr: ['Üretan astar','Üretan son katlar','Baz kat','Intermix renk'] }],
-    ['footer h5', {
+    ['footer h3', {
       nl: ['Producten','Baril Group'],
       pl: ['Produkty','Baril Group'],
       ro: ['Produse','Baril Group'],
