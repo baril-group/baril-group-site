@@ -110,36 +110,36 @@
     ['.scenario-note', {
       nl: [
         'Indicatieve duurzaamheid. De haalbare bescherming hangt af van systeem, ondergrondvoorbehandeling en corrosiviteitsklasse volgens ISO 12944 / ISO 12944-9 (offshore).',
-        'De droge-laagdikte is illustratief; werkelijke dekking en DLD hangen af van product, methode en specificatie.',
+        'De droge-laagdikte is illustratief; de reductie ten opzichte van conventionele coatings is productspecifiek — tot 60% voor DualCure, circa 40% voor SteelKote — en hangt af van product, methode en specificatie.',
         'Gepatenteerde DualCure (DCC). Prestatiecijfers volgens technische data van Baril Coatings; de haalbare bescherming hangt af van systeem, ondergrond en specificatie.'],
       pl: [
         'Trwałość orientacyjna. Osiągalna ochrona zależy od systemu, przygotowania podłoża i klasy korozyjności wg ISO 12944 / ISO 12944-9 (offshore).',
-        'Grubość suchej powłoki jest poglądowa; rzeczywista wydajność i DFT zależą od produktu, metody i specyfikacji.',
+        'Grubość suchej powłoki jest poglądowa; redukcja względem powłok konwencjonalnych zależy od produktu — do 60% dla DualCure, około 40% dla SteelKote — i zależy od produktu, metody i specyfikacji.',
         'Opatentowana DualCure (DCC). Dane wydajności wg danych technicznych Baril Coatings; osiągalna ochrona zależy od systemu, podłoża i specyfikacji.'],
       ro: [
         'Durabilitate orientativă. Protecția realizabilă depinde de sistem, pregătirea suportului și clasa de corozivitate conform ISO 12944 / ISO 12944-9 (offshore).',
-        'Grosimea peliculei uscate este ilustrativă; acoperirea reală și DFT depind de produs, metodă și specificație.',
+        'Grosimea peliculei uscate este ilustrativă; reducerea față de acoperirile convenționale este specifică produsului — până la 60% pentru DualCure, circa 40% pentru SteelKote — și depinde de produs, metodă și specificație.',
         'DualCure (DCC) brevetat. Cifrele de performanță conform datelor tehnice Baril Coatings; protecția realizabilă depinde de sistem, suport și specificație.'],
       de: [
         'Indikative Dauerhaftigkeit. Der erreichbare Schutz hängt von System, Untergrundvorbehandlung und Korrosivitätsklasse nach ISO 12944 / ISO 12944-9 (Offshore) ab.',
-        'Die Trockenschichtdicke ist illustrativ; tatsächliche Deckung und TSD hängen von Produkt, Methode und Spezifikation ab.',
+        'Die Trockenschichtdicke ist illustrativ; die Reduktion gegenüber konventionellen Beschichtungen ist produktspezifisch — bis zu 60% bei DualCure, rund 40% bei SteelKote — und hängt von Produkt, Methode und Spezifikation ab.',
         'Patentiertes DualCure (DCC). Leistungswerte gemäß technischen Daten von Baril Coatings; der erreichbare Schutz hängt von System, Untergrund und Spezifikation ab.'],
       fr: [
         'Durabilité indicative. La protection atteignable dépend du système, de la préparation du support et de la classe de corrosivité selon ISO 12944 / ISO 12944-9 (offshore).',
-        'L\'épaisseur de film sec est illustrative ; la couverture réelle et l\'EFS dépendent du produit, de la méthode et de la spécification.',
+        'L\'épaisseur de film sec est illustrative ; la réduction par rapport aux revêtements conventionnels est spécifique au produit — jusqu\'à 60% pour DualCure, environ 40% pour SteelKote — et dépend du produit, de la méthode et de la spécification.',
         'DualCure (DCC) breveté. Chiffres de performance selon les données techniques de Baril Coatings ; la protection atteignable dépend du système, du support et de la spécification.'],
       es: [
         'Durabilidad orientativa. La protección alcanzable depende del sistema, la preparación del soporte y la clase de corrosividad según ISO 12944 / ISO 12944-9 (offshore).',
-        'El espesor de película seca es ilustrativo; la cobertura real y el EPS dependen del producto, el método y la especificación.',
+        'El espesor de película seca es ilustrativo; la reducción frente a los recubrimientos convencionales es específica de cada producto — hasta un 60% para DualCure, alrededor del 40% para SteelKote — y depende del producto, el método y la especificación.',
         'DualCure (DCC) patentado. Cifras de rendimiento según los datos técnicos de Baril Coatings; la protección alcanzable depende del sistema, el soporte y la especificación.'],
       it: [
         'Durabilità indicativa. La protezione ottenibile dipende dal sistema, dalla preparazione del supporto e dalla classe di corrosività secondo ISO 12944 / ISO 12944-9 (offshore).',
-        'Lo spessore del film secco è illustrativo; la copertura reale e lo SFS dipendono da prodotto, metodo e specifica.',
+        'Lo spessore del film secco è illustrativo; la riduzione rispetto ai rivestimenti convenzionali è specifica del prodotto — fino al 60% per DualCure, circa il 40% per SteelKote — e dipende da prodotto, metodo e specifica.',
         'DualCure (DCC) brevettato. Dati di performance secondo i dati tecnici di Baril Coatings; la protezione ottenibile dipende da sistema, supporto e specifica.'],
       tr: [
         'Gösterge niteliğinde dayanıklılık. Ulaşılabilir koruma; sisteme, zemin ön hazırlığına ve ISO 12944 / ISO 12944-9 (açık deniz) korozyon sınıfına bağlıdır.',
-        'Kuru katman kalınlığı örnek niteliğindedir; gerçek kaplama ve KKK ürüne, yönteme ve şartnameye bağlıdır.',
-        'Patentli DualCure (DCC). Performans değerleri Baril Coatings teknik verilerine göredir; ulaşılabilir koruma sisteme, zemine ve şartnameye bağlıdır.'], no: ['Indikativ holdbarhet. Oppnåelig beskyttelse avhenger av system, forbehandling av underlag og korrosivitetsklasse iht. ISO 12944 / ISO 12944-9 (offshore).','Den tørre filmtykkelsen er illustrativ; faktisk dekning og TFT avhenger av produkt, metode og spesifikasjon.','Patentert DualCure (DCC). Ytelsestall iht. tekniske data fra Baril Coatings; oppnåelig beskyttelse avhenger av system, underlag og spesifikasjon.'], sv: ['Indikativ hållbarhet. Uppnåeligt skydd beror på system, förbehandling av underlag och korrosivitetsklass enligt ISO 12944 / ISO 12944-9 (offshore).','Den torra filmtjockleken är illustrativ; faktisk täckning och TFT beror på produkt, metod och specifikation.','Patenterad DualCure (DCC). Prestandasiffror enligt tekniska data från Baril Coatings; uppnåeligt skydd beror på system, underlag och specifikation.'] }],
+        'Kuru katman kalınlığı örnek niteliğindedir; konvansiyonel kaplamalara kıyasla azalma ürüne özeldir — DualCure için %60\'a kadar, SteelKote için yaklaşık %40 — ve ürüne, yönteme ve şartnameye bağlıdır.',
+        'Patentli DualCure (DCC). Performans değerleri Baril Coatings teknik verilerine göredir; ulaşılabilir koruma sisteme, zemine ve şartnameye bağlıdır.'], no: ['Indikativ holdbarhet. Oppnåelig beskyttelse avhenger av system, forbehandling av underlag og korrosivitetsklasse iht. ISO 12944 / ISO 12944-9 (offshore).','Den tørre filmtykkelsen er illustrativ; reduksjonen sammenlignet med konvensjonelle coatinger er produktspesifikk — opptil 60% for DualCure, rundt 40% for SteelKote — og avhenger av produkt, metode og spesifikasjon.','Patentert DualCure (DCC). Ytelsestall iht. tekniske data fra Baril Coatings; oppnåelig beskyttelse avhenger av system, underlag og spesifikasjon.'], sv: ['Indikativ hållbarhet. Uppnåeligt skydd beror på system, förbehandling av underlag och korrosivitetsklass enligt ISO 12944 / ISO 12944-9 (offshore).','Den torra filmtjockleken är illustrativ; minskningen jämfört med konventionella beläggningar är produktspecifik — upp till 60% för DualCure, cirka 40% för SteelKote — och beror på produkt, metod och specifikation.','Patenterad DualCure (DCC). Prestandasiffror enligt tekniska data från Baril Coatings; uppnåeligt skydd beror på system, underlag och specifikation.'] }],
     ['#bio .eyebrow', { nl: 'Hoofdstuk 03 · Hernieuwbare chemie', pl: 'Rozdział 03 · Odnawialna chemia', ro: 'Capitolul 03 · Chimie regenerabilă', de: 'Kapitel 03 · Erneuerbare Chemie', fr: 'Chapitre 03 · Chimie renouvelable', es: 'Capítulo 03 · Química renovable', it: 'Capitolo 03 · Chimica rinnovabile', tr: 'Bölüm 03 · Yenilenebilir kimya', no: 'Kapittel 03 · Fornybar kjemi', sv: 'Kapitel 03 · Förnybar kemi' }],
     ['#bio h2', { nl: 'Van vat<br>naar bio', pl: 'Z beczki<br>do bio', ro: 'De la baril<br>la bio', de: 'Vom Fass<br>zu Bio', fr: 'Du baril<br>au bio', es: 'Del barril<br>al bio', it: 'Dal barile<br>al bio', tr: 'Varilden<br>biyoya', no: 'Fra fat<br>til bio', sv: 'Från fat<br>till bio' }],
     ['#bio .sec-head p:last-child', {
