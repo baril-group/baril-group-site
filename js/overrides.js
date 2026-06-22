@@ -78,8 +78,13 @@
       }
 
       const en = (v.en != null && v.en !== '') ? v.en : null;
-      const nl = (v.nl != null && v.nl !== '') ? v.nl : en;
-      const next = l === 'nl' ? (nl != null ? nl : en) : en;
+      const cur = (v[l] != null && v[l] !== '') ? v[l] : null;
+      // EN/NL are CMS-controlled; other languages use a CMS value when present,
+      // otherwise keep the i18n translation already applied to the DOM.
+      let next;
+      if (cur != null) next = cur;
+      else if (l === 'en' || l === 'nl') next = en;
+      else next = null;
       if (next != null && node.innerHTML !== next) node.innerHTML = next;
     }
   }
