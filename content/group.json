@@ -6,8 +6,8 @@
     "nl": "Baril Group — 's-Hertogenbosch, NL · Productie NL & VS"
   },
   "heroTitle": {
-    "en": "Painting a<br><span class=\"paint\">renewable</span><br>future",
-    "nl": "Verf voor een<br><span class=\"paint\">hernieuwbare</span><br>toekomst"
+    "en": "Repainting<br>the <span class=\"paint\">future</span>",
+    "nl": "Repainting<br>the <span class=\"paint\">future</span>"
   },
   "heroSub": {
     "en": "One group, one philosophy, multiple brands. A single mission: <strong>protect more, with less</strong> — renewing the coatings and paint industry from the chemistry up.",
@@ -21,8 +21,8 @@
   },
 
   "missionQuote": {
-    "en": "We believe nobody should have to choose between <em>sustainable, price and quality</em>. So we are converting every product line, phase by phase, to renewable raw materials — and proving along the way that thinner, cleaner coatings protect longer.",
-    "nl": "Wij vinden dat niemand hoeft te kiezen tussen <em>duurzaam, prijs en kwaliteit</em>. Daarom zetten we elke productlijn, stap voor stap, om naar hernieuwbare grondstoffen — en bewijzen we onderweg dat dunnere, schonere coatings langer beschermen."
+    "en": "We believe nobody should have to choose between <em>quality, price and sustainability</em>. So we make coatings that perform first — proven, certified and built to last — and convert every product line, phase by phase, to renewable raw materials. Better protection, lower impact.",
+    "nl": "Wij vinden dat niemand hoeft te kiezen tussen <em>kwaliteit, prijs en duurzaamheid</em>. Daarom maken we coatings die eerst presteren — bewezen, gecertificeerd en gemaakt om te blijven — en zetten we elke productlijn, stap voor stap, om naar hernieuwbare grondstoffen. Betere bescherming, lagere impact."
   },
 
   "bioH2": { "en": "From barrel<br>to bio", "nl": "Van vat<br>naar bio" },
@@ -45,8 +45,8 @@
 
   "localH2": { "en": "Made close<br>to home", "nl": "Dichtbij huis<br>gemaakt" },
   "localIntro": {
-    "en": "Crude-derived chemistry crosses the planet before it reaches a paint can. Plant-based and residual-stream feedstocks shorten the chain: grown, processed and applied in the same region. We produce close to our markets — 's-Hertogenbosch and the United States — on our own solar and wind power, with an electric and hybrid fleet and inclusive hiring as policy, not project.",
-    "nl": "Fossiele chemie reist de halve wereld over voordat ze in een verfblik zit. Plantaardige en reststroom-grondstoffen maken de keten kort: geteeld, verwerkt en toegepast in dezelfde regio. Wij produceren dicht bij onze markten — 's-Hertogenbosch en de Verenigde Staten — op eigen zonne- en windenergie, met een elektrisch en hybride wagenpark en inclusief werkgeverschap als beleid, niet als project."
+    "en": "Coatings made close to the markets they serve. We produce in 's-Hertogenbosch - The Netherlands and in Angola, Indiana - USA, keeping supply lines short and dependable instead of chemistry that crosses the planet before it reaches the can. Producing regionally also shrinks the footprint: plant-based and residual-stream feedstocks, grown, processed and applied in the same region, on our own solar and wind power, with an electric and hybrid fleet and inclusive hiring as policy, not project.",
+    "nl": "Coatings gemaakt dicht bij de markten die ze beschermen. Wij produceren in 's-Hertogenbosch - Nederland en in Angola, Indiana - VS, met korte, betrouwbare leverlijnen in plaats van chemie die de halve wereld over reist voordat ze in het blik zit. Regionaal produceren verkleint ook de footprint: plantaardige en reststroom-grondstoffen, geteeld, verwerkt en toegepast in dezelfde regio, op eigen zonne- en windenergie, met een elektrisch en hybride wagenpark en inclusief werkgeverschap als beleid, niet als project."
   },
 
   "worldH2": { "en": "Growing greener,<br>worldwide", "nl": "Steeds groener,<br>wereldwijd" },
@@ -85,7 +85,7 @@
   "renewH2": { "en": "How we renew<br>an old industry", "nl": "Hoe we een oude<br>industrie vernieuwen" },
   "dataH2": { "en": "The group<br>in numbers", "nl": "De groep<br>in cijfers" },
 
-  "footClaim": { "en": "Painting a renewable future.", "nl": "Wij verven een hernieuwbare toekomst." },
+  "footClaim": { "en": "Repainting the future.", "nl": "Repainting the future." },
 
   "imgHero": "assets/img/IMG-01-hero.jpg",
   "imgPaintBand": "assets/img/OWN-paint-wide.jpg",
