@@ -5,13 +5,13 @@
   'use strict';
   const MAP = [
     ['.navlinks a', {
-      nl: ['Missie', 'Ons verhaal', 'Impact', 'Merken', 'In de praktijk', 'Hoe we vernieuwen', 'Contact'],
-      pl: ['Misja', 'Nasza historia', 'Wpływ', 'Marki', 'W praktyce', 'Jak odnawiamy', 'Kontakt'],
-      ro: ['Misiune', 'Povestea noastră', 'Impact', 'Mărci', 'În practică', 'Cum reînnoim', 'Contact'],
-      de: ['Mission', 'Unsere Geschichte', 'Wirkung', 'Marken', 'In der Praxis', 'Wie wir erneuern', 'Kontakt'],
-      fr: ['Mission', 'Notre histoire', 'Impact', 'Marques', 'Sur le terrain', 'Comment nous renouvelons', 'Contact'],
-      es: ['Misión', 'Nuestra historia', 'Impacto', 'Marcas', 'Sobre el terreno', 'Cómo renovamos', 'Contacto'],
-      it: ['Missione', 'La nostra storia', 'Impatto', 'Marchi', 'Sul campo', 'Come rinnoviamo', 'Contatto'] }],
+      nl: ['Missie', 'Ons verhaal', 'Impact', 'Merken', 'In de praktijk', 'Highlights', 'Hoe we vernieuwen', 'Contact'],
+      pl: ['Misja', 'Nasza historia', 'Wpływ', 'Marki', 'W praktyce', 'Highlights', 'Jak odnawiamy', 'Kontakt'],
+      ro: ['Misiune', 'Povestea noastră', 'Impact', 'Mărci', 'În practică', 'Highlights', 'Cum reînnoim', 'Contact'],
+      de: ['Mission', 'Unsere Geschichte', 'Wirkung', 'Marken', 'In der Praxis', 'Highlights', 'Wie wir erneuern', 'Kontakt'],
+      fr: ['Mission', 'Notre histoire', 'Impact', 'Marques', 'Sur le terrain', 'Highlights', 'Comment nous renouvelons', 'Contact'],
+      es: ['Misión', 'Nuestra historia', 'Impacto', 'Marcas', 'Sobre el terreno', 'Highlights', 'Cómo renovamos', 'Contacto'],
+      it: ['Missione', 'La nostra storia', 'Impatto', 'Marchi', 'Sul campo', 'Highlights', 'Come rinnoviamo', 'Contatto'] }],
     ['header .eyebrow', {
       nl: "Baril Group — 's-Hertogenbosch, NL · Productie NL & VS",
       pl: "Baril Group — 's-Hertogenbosch, NL · Produkcja NL i USA",
