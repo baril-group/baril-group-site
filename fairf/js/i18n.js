@@ -109,13 +109,13 @@
 
     ['#colour .eyebrow', { nl: 'Kleuren', pl: 'Kolory', ro: 'Culori', de: 'Farben', fr: 'Couleurs', es: 'Colores', it: 'Colori' }],
     ['#colour h2', {
-      nl: 'Elke kleur van de <span class="rain">regenboog</span>',
-      pl: 'Każdy kolor <span class="rain">tęczy</span>',
-      ro: 'Toate culorile <span class="rain">curcubeului</span>',
-      de: 'Jede Farbe des <span class="rain">Regenbogens</span>',
-      fr: 'Toutes les couleurs de <span class="rain">l\'arc-en-ciel</span>',
-      es: 'Todos los colores del <span class="rain">arcoíris</span>',
-      it: 'Tutti i colori dell\'<span class="rain">arcobaleno</span>' }],
+      nl: 'Elke kleur die je kunt <span class="rain">bedenken</span>',
+      pl: 'Każdy kolor, jaki sobie <span class="rain">wymarzysz</span>',
+      ro: 'Orice culoare îți poți <span class="rain">imagina</span>',
+      de: 'Jede Farbe, die du dir <span class="rain">erträumst</span>',
+      fr: 'Toutes les couleurs <span class="rain">imaginables</span>',
+      es: 'Todos los colores que puedas <span class="rain">imaginar</span>',
+      it: 'Ogni colore che puoi <span class="rain">immaginare</span>' }],
     ['#colour .lead', {
       nl: 'Kleurcollecties samengesteld door experts — en elke kleur die je kunt bedenken, op bestelling gemengd, online of bij Karwei.',
       pl: 'Kolekcje kolorów tworzone przez ekspertów — i każdy kolor, jaki sobie wyobrazisz, mieszany na zamówienie, online lub w Karwei.',

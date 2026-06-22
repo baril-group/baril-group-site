@@ -27,8 +27,9 @@
   --ink-soft:#5E6E89;     /* softened Fairf Blue */
   --line:rgba(37,59,100,.14);
   --line-2:rgba(37,59,100,.07);
-  /* the fairf colour waaier (rainbow), in brand order */
-  --rainbow:linear-gradient(90deg,#E45933,#F29151,#F8C44E,#559D7A,#53BCBE,#9C6DAB);
+  /* fairf is green-led and restrained — no rainbow in the UI.
+     This single accent drives eyebrows, emphasis words and dividers. */
+  --rainbow:#559D7A;
   --shadow:0 22px 60px -28px rgba(37,59,100,.38);
   --shadow-sm:0 10px 30px -18px rgba(37,59,100,.26);
   --max:1240px;
@@ -78,11 +79,8 @@ a{color:inherit}
 .ribbon-ghost{fill:none;stroke:var(--line-2);stroke-width:14;stroke-linecap:round}
 .ribbon{fill:none;stroke:url(#faGrad);stroke-width:4;stroke-linecap:round;opacity:.7}
 
-/* ---- fairf eye / lens motif ---- */
-.eye-emblem{position:absolute;z-index:1;pointer-events:none}
-.eye-lens-outer{fill:none}
-.lens-band{display:block;width:100%;height:clamp(70px,9vw,128px);overflow:hidden}
-.lens-band svg{display:block;width:100%;height:100%}
+/* ---- green divider band ---- */
+.lens-band{display:block;width:100%;height:64px;background:var(--green)}
 
 /* hero */
 header#top{min-height:92svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;padding:150px 0 70px;overflow:hidden;
@@ -91,12 +89,12 @@ header#top{min-height:92svh;display:flex;flex-direction:column;justify-content:f
 .hero-video{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 28%}
 @media(prefers-reduced-motion:reduce){.hero-video{display:none}}
 .hero-tint{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(255,253,247,.05) 0%,rgba(255,253,247,0) 22%,rgba(255,253,247,.62) 56%,rgba(255,253,247,.95) 82%,var(--paper) 100%)}
-/* big eye emblem, top-right of hero */
-.hero-eye{top:7%;right:4%;width:min(40vw,520px);opacity:.92;animation:floaty 16s ease-in-out infinite}
-@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
-@media(max-width:900px){.hero-eye{width:62vw;right:-6%;top:11%;opacity:.5}}
-.hero-logo{display:block;height:auto;max-height:84px;width:auto;max-width:min(100%,520px);margin:0 0 22px;align-self:flex-start}
-@media(max-width:768px){.hero-logo{max-height:62px;margin-bottom:16px}}
+/* hero wordmark — Fairf green, masked from the logo art (never red) */
+.hero-logo{display:block;height:clamp(72px,11vw,104px);aspect-ratio:451/303;width:auto;margin:0 0 22px;align-self:flex-start;
+  background:var(--green);
+  -webkit-mask:url('../assets/img/fairf-white.png') no-repeat left center/contain;
+          mask:url('../assets/img/fairf-white.png') no-repeat left center/contain}
+@media(max-width:768px){.hero-logo{height:62px;margin-bottom:16px}}
 header#top .wrap{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
 h1{font-family:var(--head);font-weight:700;letter-spacing:-.02em;line-height:.96;font-size:clamp(50px,9.5vw,120px);margin:6px 0 0;color:var(--navy)}
 h1 .rain{background:var(--rainbow);-webkit-background-clip:text;background-clip:text;color:transparent}
