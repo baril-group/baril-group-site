@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15",
+  "generated": "2026-06-22",
   "source": "data.barilcoatings.com",
   "languages": [
     "nl",
@@ -532,7 +532,6 @@
       "name": "DualCure SX Finish 90",
       "desc": "Een high solids tweecomponenten heavy duty coating op basis van Dual Cure Chemistry met extreme mechanische prestaties en een verhoogde bestendigheid tegen weersinvloeden. 174i2 DualCure SX Finish 90 is ontwikkeld als snel hardende coating voor industriële toepassing waarvoor geen verwarming nodig is. De extreme mechanische eigenschappen en bestendigheid tegen weersinvloeden bieden een breed scala aan toepassingen en zorgen ervoor dat deze coating de kwaliteit van poedercoatings overstijgt.\n\nMengverhouding:\n\n174i2 DualCure SX Finish 90 basiscomponent, 2 volumedelen.\n\r\nActivator 902V, 1 volumedeel.\n\nThinner\nActivator",
       "sds": [
-        "en_EU",
         "nl_BE",
         "en_GB",
         "nl_NL",
@@ -560,7 +559,9 @@
         "en_MT",
         "es_ES",
         "de_AT",
-        "ru_RU"
+        "ru_RU",
+        "lt_LT",
+        "no_NO"
       ],
       "name_en": "DualCure SX Finish 90",
       "desc_en": "DualCure products are unique patented high performance finishes, engineered to provide excellent exterior durability, flexibility and superior adhesion to blasted, primed or e-coated surfaces. This fast curing coating system is designed to provide superior performance and enhanced productivity without the need for heat for drying. 174i2 offers excellent long term protection in moderate to severe environments. Resistant to fresh water, salt water, most chemicals, fumes and spills of mild acids and alkalies. Abrasion and moisture resistant, DualCure finishes are our longest lasting most durable topcoats.\n\nMixture:\n\n174i2 DualCure SX Finish 90, 2 parts by volume.\n\r\nActivator 902V, 1 parts by volume.\n\nThinner PU 5801\nActivator 902",
@@ -3442,23 +3443,21 @@
       }
     },
     {
-      "code": "37411",
+      "code": "37443",
       "brand": "aquaran",
-      "related": [
-        "Activator 885"
-      ],
+      "related": [],
       "cats": [
         "aquaran"
       ],
       "name": "Aquaran PU DTM",
-      "desc": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nMengverhouding:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.\n\nActivator 885",
+      "desc": "Hoogwaardige watergedragen 2-componenten semi-glanzende polyurethaan DTM-coating ontworpen voor industriële omgevingen. Deze coating is ontwikkeld voor uitstekende kleur- en glansbehoud, uitzonderlijke chemische bestendigheid en superieure mechanische duurzaamheid en is de ideale DTM/afwerkingslaag voor epoxy/polyurethaansystemen.\n\nMengverhouding:\n\n37443 Aquaran PU Primer Basiscomponent, 4 volumedelen.\n\r\n885V Aquaran PU Part B, 1 volumedeel.",
       "sds": [],
       "name_en": "Aquaran PU DTM",
-      "desc_en": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nMixture:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.\n\nActivator 885",
+      "desc_en": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nMixture:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.",
       "name_pl": "Aquaran PU DTM",
-      "desc_pl": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nMieszanina:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.\n\nActivator 885",
+      "desc_pl": "Wysokiej jakości dwuskładnikowa, półmatowa powłoka poliuretanowa DTM na bazie wody, przeznaczona do stosowania w środowiskach przemysłowych. Powłoka ta, zaprojektowana z myślą o doskonałym zachowaniu koloru i połysku, wyjątkowej odporności chemicznej i doskonałej trwałości mechanicznej, stanowi idealną warstwę DTM/wykończeniową dla systemów epoksydowych/poliuretanowych.\n\nMieszanina:\n\n37443 AquaRan PU DTM Składnik bazowy, 4 części objętościowe.\n\r\n885V AquaRan PU Część B, 1 część objętościowa.",
       "name_ro": "Aquaran PU DTM",
-      "desc_ro": "Premium Water-Based 2‑Component Semi‑Gloss Polyurethane DTM Coating designed for industrial environments. Engineered for outstanding colour and gloss retention, exceptional chemical resistance, and superior mechanical durability, this coating is the ideal DTM/finishing layer for epoxy/polyurethane systems.\n\nAmestec:\n\n37443 AquaRan PU DTM Base component, 4 parts by volume.\n\r\n885V AquaRan PU Part B, 1 part by volume.\n\nActivator 885",
+      "desc_ro": "Acoperire DTM poliuretanică semi-lucioasă, pe bază de apă, cu două componente, de calitate superioară, concepută pentru medii industriale. Proiectată pentru o retenție excepțională a culorii și a luciului, o rezistență chimică excepțională și o durabilitate mecanică superioară, această acoperire este stratul DTM/de finisare ideal pentru sistemele epoxidice/poliuretanice.\n\nAmestec:\n\n37443 AquaRan PU DTM Componentă de bază, 4 părți în volum.\n\r\n885V AquaRan PU Partea B, 1 parte în volum.",
       "attrs": {
         "Ondergrond": [
           "Onbehandeld staal"
