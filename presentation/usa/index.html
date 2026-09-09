@@ -1,0 +1,569 @@
+<!doctype html>
+<!--
+  Baril Group — "Repainting the future" · inspiration deck for Baril USA (17 slides, 16:9).
+  Source of the PDF in this folder. Each <section class="s"> is one 1920×1080 slide.
+  Regenerate the PDF with headless Chromium from the repo root:
+    chrome --headless=new --no-pdf-header-footer --print-to-pdf=presentation/usa/Baril-Group-Repainting-the-future-USA.pdf presentation/usa/index.html
+  QA a single slide: open index.html#s6 (shows only slide 6).
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Baril Group — Repainting the future · Inspiration deck for Baril USA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-950:#050D18;--navy-900:#081424;--navy-800:#0D1E33;--navy-700:#14294A;
+  --ink:#EAF1FB;--muted:#8CA1BE;--hair:rgba(140,161,190,.18);
+  --green:#5FC98F;--teal:#2FB7CE;--pink:#FF5CA8;--fossil:#6B7686;
+  --display:'Montserrat',system-ui,sans-serif;--body:'Open Sans',system-ui,sans-serif;--mono:'Space Grotesk','Open Sans',sans-serif;
+}
+@page{size:1920px 1080px;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--navy-950);color:var(--ink);font-family:var(--body);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+section.s{position:relative;width:1920px;height:1080px;overflow:hidden;break-after:page;page-break-after:always;padding:96px 120px 90px;display:flex;flex-direction:column;background:var(--navy-950)}
+section.s:last-child{break-after:auto;page-break-after:auto}
+.bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center}
+.bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,13,24,.94) 0%,rgba(5,13,24,.86) 45%,rgba(5,13,24,.45) 100%)}
+.bg.top::after{background:linear-gradient(180deg,rgba(5,13,24,.35) 0%,rgba(5,13,24,.92) 70%)}
+.bg.soft::after{background:rgba(5,13,24,.82)}
+.fg{position:relative;z-index:1;display:flex;flex-direction:column;flex:1}
+.eyebrow{font-family:var(--mono);font-weight:500;font-size:22px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:0 0 22px}
+h1{font-family:var(--display);font-weight:800;font-size:112px;line-height:.98;letter-spacing:-.02em;margin:0}
+h2{font-family:var(--display);font-weight:800;font-size:64px;line-height:1.04;letter-spacing:-.015em;margin:0 0 26px}
+h3{font-family:var(--display);font-weight:700;font-size:30px;margin:0 0 10px}
+p{font-size:26px;line-height:1.5;color:var(--ink);margin:0}
+p.lead{font-size:31px;line-height:1.45;max-width:1300px}
+.muted{color:var(--muted)}
+.paint{color:var(--green)}
+.teal{color:var(--teal)}
+.foot{position:absolute;left:120px;right:120px;bottom:44px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:18px;letter-spacing:.06em;color:var(--muted);z-index:2}
+.foot b{color:var(--ink);font-weight:500}
+.logo{height:64px}
+.grid{display:grid;gap:28px}
+.card{background:rgba(13,30,51,.82);border:1px solid var(--hair);border-radius:22px;padding:34px 36px;backdrop-filter:blur(2px)}
+.card.solid{background:var(--navy-800)}
+.card .k{font-family:var(--mono);font-size:19px;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:12px}
+.card p{font-size:23px;line-height:1.45;color:var(--ink)}
+.stat{display:flex;flex-direction:column;gap:6px}
+.stat .n{font-family:var(--display);font-weight:900;font-size:84px;line-height:1;letter-spacing:-.03em;color:var(--green)}
+.stat .n.teal{color:var(--teal)}
+.stat .n.ink{color:var(--ink)}
+.stat .l{font-family:var(--mono);font-size:21px;letter-spacing:.06em;color:var(--muted)}
+.tile{background:#F4F7FB;border-radius:16px;display:flex;align-items:center;justify-content:center;padding:14px 22px;min-height:96px}
+.tile img{max-height:62px;max-width:100%;object-fit:contain}
+.tile .word{font-family:var(--display);font-weight:800;font-size:38px;color:#0D1E33;letter-spacing:-.01em}
+.flag{height:18px;width:27px;border-radius:3px;object-fit:cover;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
+.flags{display:flex;gap:8px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:10px;background:rgba(95,201,143,.14);border:1px solid rgba(95,201,143,.4);color:var(--green);border-radius:999px;padding:10px 20px;font-family:var(--mono);font-size:20px;letter-spacing:.04em}
+.pill.teal{background:rgba(47,183,206,.14);border-color:rgba(47,183,206,.45);color:var(--teal)}
+.pill.ink{background:rgba(234,241,251,.08);border-color:var(--hair);color:var(--ink)}
+ul.list{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:16px}
+ul.list li{font-size:25px;line-height:1.4;padding-left:38px;position:relative}
+ul.list li::before{content:"";position:absolute;left:0;top:14px;width:18px;height:18px;border-radius:50%;background:var(--green)}
+ul.list.teal li::before{background:var(--teal)}
+.split{display:grid;grid-template-columns:1fr 150px 1fr;gap:0;flex:1;align-items:stretch}
+.half{padding:44px 48px;border-radius:26px;background:rgba(13,30,51,.78);border:1px solid var(--hair);display:flex;flex-direction:column;gap:22px}
+.half .hd{display:flex;align-items:center;gap:18px;font-family:var(--display);font-weight:800;font-size:44px}
+.half .hd .flag{height:30px;width:45px;border-radius:5px}
+.spine{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px}
+.spine .bar{width:6px;flex:1;background:linear-gradient(180deg,var(--teal),var(--green));border-radius:6px}
+.spine .lbl{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--mono);font-size:22px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);white-space:nowrap}
+.road{position:relative;height:150px;margin:40px 0 20px}
+.road .track{position:absolute;left:0;right:0;top:64px;height:14px;border-radius:14px;background:linear-gradient(90deg,var(--fossil) 0%,var(--teal) 55%,var(--green) 100%)}
+.road .pt{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px}
+.road .pt .dot{width:34px;height:34px;border-radius:50%;background:var(--navy-950);border:6px solid var(--green);margin-top:44px}
+.road .pt.f .dot{border-color:var(--fossil)}.road .pt.t .dot{border-color:var(--teal)}
+.road .pt .v{font-family:var(--display);font-weight:900;font-size:56px;line-height:1;position:absolute;top:-70px;white-space:nowrap}
+.road .pt .y{font-family:var(--mono);font-size:22px;color:var(--muted);letter-spacing:.06em;margin-top:6px;white-space:nowrap}
+.cols3{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;flex:1}
+.num{font-family:var(--display);font-weight:900;font-size:120px;line-height:1;color:rgba(95,201,143,.18);letter-spacing:-.04em;margin-bottom:-20px}
+.photo{border-radius:26px;background-size:cover;background-position:center;min-height:420px}
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;flex:1;align-items:center}
+.hair{height:1px;background:var(--hair);margin:26px 0}
+.certs{display:flex;flex-wrap:wrap;gap:16px}
+.cert{background:rgba(234,241,251,.06);border:1px solid var(--hair);border-radius:14px;padding:18px 26px;font-family:var(--mono);font-size:24px;letter-spacing:.04em}
+.cert b{color:var(--green);font-weight:600;margin-right:10px}
+.mkt{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;flex:1}
+.mkt .card{display:flex;flex-direction:column;gap:16px;padding:28px 30px}
+.mkt .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.mkt .brand{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.mkt .brand .tile{width:100%;min-height:86px}
+.mkt .brand .tile img{max-height:52px}
+.arrow{font-family:var(--mono);color:var(--green);font-size:64px;line-height:1}
+.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:40px}
+.contact{background:rgba(13,30,51,.82);border:1px solid var(--hair);border-radius:22px;padding:34px 40px}
+.contact .k{font-family:var(--mono);font-size:19px;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:12px}
+.contact p{font-size:24px;line-height:1.5}
+.tag{font-family:var(--mono);font-size:19px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.fq{position:relative;display:inline-flex}
+.fq .flag{opacity:.7}
+.fq b{position:absolute;right:-11px;top:-12px;width:21px;height:21px;border-radius:50%;background:var(--green);color:#052a17;font:700 14px/21px var(--mono);text-align:center;box-shadow:0 0 0 2px var(--navy-800)}
+.tracklabel{font-family:var(--mono);font-size:19px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:12px 0 0}
+.road.q{height:82px;margin:46px 0 0}
+.road.q .track{background:var(--green)}
+.road .pt .v.small{font-size:34px;top:-46px;color:var(--green)}
+.road .pt .v.aim{font-size:40px;top:-58px;white-space:nowrap}
+.road .pt.end{transform:translateX(-100%);align-items:flex-end}
+.road .pt.end .v{right:0;text-align:right}
+.road .pt.end .y{text-align:right}
+#s6 .split{flex:0 0 auto}
+#s6 .half{padding:30px 40px;gap:16px}
+#s6 .half .hd{font-size:40px}
+#s6 ul.list li{font-size:22px;line-height:1.35}
+#s6 ul.list li::before{top:11px;width:15px;height:15px}
+#s6 .pill{font-size:17px;padding:7px 14px}
+#s6 .spine .lbl{font-size:17px;letter-spacing:.14em}
+#s6 .spine{gap:12px}
+body.only section.s{display:none}
+body.only section.s.show{display:flex}
+</style>
+</head>
+<body>
+
+<!-- 1 · COVER -->
+<section class="s" id="s1">
+  <div class="bg" style="background-image:url('../../assets/img/IMG-01-hero.jpg')"></div>
+  <div class="fg" style="justify-content:flex-end">
+    <img class="logo" style="height:78px;align-self:flex-start;margin-bottom:auto" src="../../assets/img/logo-baril-group.png" alt="Baril Group">
+    <p class="eyebrow">Baril Group · Netherlands · United States</p>
+    <h1>Repainting<br>the <span class="paint">future</span></h1>
+    <p class="lead" style="margin-top:34px;max-width:1150px">One group. Two continents. One philosophy: <b>protect more, with less.</b></p>
+    <div style="display:flex;gap:14px;margin-top:38px">
+      <span class="pill">Thin layers</span><span class="pill">High solids</span><span class="pill">Yield</span><span class="pill">Quality</span><span class="pill teal">Renewable, step by step</span>
+    </div>
+  </div>
+  <div class="foot"><span>Inspiration deck for Baril USA · September 2026</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 2 · WHY THIS DECK -->
+<section class="s" id="s2">
+  <div class="fg">
+    <p class="eyebrow">Why this deck</p>
+    <div class="two" style="align-items:start">
+      <div>
+        <h2>How we see Baril Group:<br>one international company in which the <span class="paint">Netherlands and the USA</span> pull together.</h2>
+        <p class="lead muted">Not a Dutch company with an American branch, and not two companies sharing a name — but one group, one chemistry platform and one story, told with a local accent on each continent.</p>
+      </div>
+      <div class="grid" style="grid-template-columns:1fr">
+        <div class="card"><div class="k">01 · One shared core</div><p>Thin layers, high solids, yield and quality. That is what we sell — in Angola, Indiana and in 's-Hertogenbosch alike.</p></div>
+        <div class="card"><div class="k">02 · One message, two accents</div><p>In the US we lead with quality and yield. In Europe we add the sustainability story on top of the very same core.</p></div>
+        <div class="card"><div class="k">03 · One direction</div><p>A gradual, performance-first transition to renewable and circular chemistry. Europe first — the US whenever its market asks for it.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>02</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 3 · AT A GLANCE -->
+<section class="s" id="s3">
+  <div class="fg">
+    <p class="eyebrow">One group at a glance</p>
+    <div class="two">
+      <div>
+        <h2>Family-run, by conviction.<br>Producing on <span class="paint">two continents.</span></h2>
+        <p class="lead muted" style="margin-bottom:38px">Founded in a shed in Moerkapelle in 1982; a coatings group with plants in the Netherlands and the United States today — still led by the Duijghuisen &amp; Harmon families.</p>
+        <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:30px 40px">
+          <div class="stat"><span class="n ink">1982</span><span class="l">Founded · Netherlands</span></div>
+          <div class="stat"><span class="n ink">2006</span><span class="l">Baril USA · Angola, IN</span></div>
+          <div class="stat"><span class="n">2</span><span class="l">Continents of production</span></div>
+          <div class="stat"><span class="n">20+</span><span class="l">Countries served</span></div>
+          <div class="stat"><span class="n">10</span><span class="l">Brands, one philosophy</span></div>
+          <div class="stat"><span class="n teal" style="font-size:64px;white-space:nowrap;padding-top:14px">B Corp</span><span class="l">Certified · 2025</span></div>
+        </div>
+      </div>
+      <div class="photo" style="min-height:720px;background-image:url('../../assets/img/IMG-09-factory.jpg')"></div>
+    </div>
+  </div>
+  <div class="foot"><span>03</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 4 · THE SHARED CORE -->
+<section class="s" id="s4">
+  <div class="bg soft" style="background-image:url('../../assets/img/IMG-02-binder-macro.jpg')"></div>
+  <div class="fg">
+    <p class="eyebrow">The shared core</p>
+    <h2>Protect more, <span class="paint">with less.</span><br><span class="muted" style="font-weight:700">Whatever the market, whatever the continent — this is the engine.</span></h2>
+    <div class="grid" style="grid-template-columns:repeat(4,1fr);margin-top:26px">
+      <div class="card solid"><div class="k">Thin layers</div><h3>Less coating on the structure</h3><p>Lower dry-film thickness with the same or better protection — less material, fewer cans, faster jobs.</p></div>
+      <div class="card solid"><div class="k">High solids</div><h3>More paint, less solvent</h3><p>Higher solids per gallon: better coverage, lower emissions, more protection out of every can.</p></div>
+      <div class="card solid"><div class="k">Yield</div><h3>Coverage you can calculate</h3><p>More square metres per litre, fewer maintenance cycles — a lower cost per protected m², not per can.</p></div>
+      <div class="card solid"><div class="k">Quality</div><h3>Proven, certified, durable</h3><p>Engineered to the toughest specifications and qualified against them — up to the highest ISO 12944 classes.</p></div>
+    </div>
+    <div style="display:flex;gap:16px;margin-top:auto;align-items:center">
+      <span class="tag">Our three promises</span>
+      <span class="pill ink">Protect longer</span><span class="pill ink">Pollute less</span><span class="pill ink">Prove it</span>
+    </div>
+  </div>
+  <div class="foot"><span>04</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 5 · THIN LAYER NUMBERS -->
+<section class="s" id="s5">
+  <div class="fg">
+    <p class="eyebrow">Thin-layer technology · the numbers</p>
+    <div class="two">
+      <div>
+        <h2>Same protection.<br><span class="paint">A lot less coating.</span></h2>
+        <div class="grid" style="grid-template-columns:1fr 1fr;gap:34px 40px;margin:30px 0 36px">
+          <div class="stat"><span class="n">up to 60%</span><span class="l">less coating · DualCure</span></div>
+          <div class="stat"><span class="n teal">~40%</span><span class="l">less coating · SteelKote</span></div>
+        </div>
+        <ul class="list">
+          <li>Higher coverage per gallon at a lower dry-film thickness</li>
+          <li>Fewer maintenance cycles over the life of the asset</li>
+          <li>Less material on the structure, fewer cans on the truck</li>
+          <li>Same or better performance — a smaller footprint per protected m²</li>
+        </ul>
+        <p class="muted" style="font-size:19px;margin-top:30px">Reductions versus conventional coatings are illustrative and product-specific; actual values depend on product, method and specification.</p>
+      </div>
+      <div class="photo" style="min-height:720px;background-image:url('../../assets/img/IMG-10-offshore.jpg')"></div>
+    </div>
+  </div>
+  <div class="foot"><span>05</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 6 · TWO FLAGSHIPS -->
+<section class="s" id="s6">
+  <div class="bg soft" style="background-image:url('../../assets/img/IMG-12-liquid.jpg')"></div>
+  <div class="fg">
+    <p class="eyebrow">Sub-brands of Baril Coatings · developed together, made on both continents</p>
+    <h2 style="margin-bottom:24px">Two flagships. <span class="paint">One philosophy.</span></h2>
+    <div class="split" style="grid-template-columns:1fr 150px 1fr">
+      <div class="half" style="gap:18px">
+        <div class="hd">DualCure <span class="pill ink" style="font-size:18px;padding:6px 14px">DCC</span></div>
+        <p class="muted" style="font-size:21px">Patented dual-curing technology: the 2K reaction of A and B <b>plus</b> a moisture cure from the air — two networks interlaced into one exceptionally dense mesh. Tighter bond, lasting flexibility.</p>
+        <ul class="list" style="gap:12px">
+          <li><b>Up to 60% thinner</b> — protection in a fraction of conventional film thickness</li>
+          <li><b>Two coats in one day</b> — cold cure, no added heat or energy</li>
+          <li><b>25-year+ protection in C5</b> at 200 μm total · NORSOK-certified systems</li>
+          <li><b>Lower CO₂ &amp; VOC</b> — less coating, partly biobased</li>
+        </ul>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:14px"><span class="pill ink">OEM &amp; metal</span><span class="pill ink">Marine &amp; offshore</span><span class="pill ink">Fleet &amp; equipment</span></div>
+      </div>
+      <div class="spine"><div class="bar"></div><div class="lbl">Thin layers · High solids · Yield · Quality</div><div class="bar"></div></div>
+      <div class="half" style="gap:18px">
+        <div class="hd">SteelKote</div>
+        <p class="muted" style="font-size:21px">Three decades of heavy-duty steel protection: epoxy primers and urethane topcoats proven in the harshest atmospheres — dense, watertight, wear-resistant.</p>
+        <ul class="list teal" style="gap:12px">
+          <li><b>ISO 12944</b> performance across all atmospheric corrosivity classes</li>
+          <li><b>Up to 25-year maintenance intervals</b> — large maintenance cycles kept to a minimum</li>
+          <li><b>40% thinner</b> — lower cost per m² through higher solids</li>
+          <li><b>Immersion resistant</b> (fresh, salt, brackish) · NORSOK-certified · on a renewable path</li>
+        </ul>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:14px"><span class="pill ink">Steel &amp; infrastructure</span><span class="pill ink">Bridges, locks, plants</span><span class="pill ink">Marine &amp; offshore</span></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:auto;display:flex;align-items:center;gap:22px;padding:18px 34px">
+      <div style="display:flex;gap:8px;flex:0 0 auto"><img class="flag" src="../../assets/img/flags/nl.svg" style="height:24px;width:36px"><img class="flag" src="../../assets/img/flags/us.svg" style="height:24px;width:36px"></div>
+      <p style="font-size:22px"><b class="paint">Developed together by 's-Hertogenbosch and Angola, Indiana — and produced on both continents.</b> The workhorses of Baril Coatings on both sides of the Atlantic, and the clearest proof that thin layers, high solids and quality belong in one can.</p>
+    </div>
+  </div>
+  <div class="foot"><span>06</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 7 · REPAINTING THE FUTURE — THREE MEANINGS -->
+<section class="s" id="s7">
+  <div class="fg">
+    <p class="eyebrow">Repainting the future · in the broadest sense</p>
+    <h2>One phrase, three meanings —<br><span class="paint">all true on both sides of the Atlantic.</span></h2>
+    <div class="cols3" style="margin-top:20px">
+      <div class="card solid" style="display:flex;flex-direction:column">
+        <div class="num">01</div>
+        <h3>Re-<span class="paint">paint</span> — literally</h3>
+        <p>Refinish, restore, protect again. Coating over rust with AgriGuard. A flawless refinish with AutoGuard and FleetSpec. Steel that lasts another cycle with SteelKote.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:28px"><span class="pill ink">AgriGuard</span><span class="pill ink">AutoGuard</span><span class="pill ink">FleetSpec</span><span class="pill ink">SteelKote</span></div>
+      </div>
+      <div class="card solid" style="display:flex;flex-direction:column">
+        <div class="num">02</div>
+        <h3>Re-<span class="paint">new</span> — the industry</h3>
+        <p>Rebuilding coatings from the chemistry up: renewable and circular raw materials replacing fossil chemistry, phase by phase — without giving up an inch of performance.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:28px"><span class="pill teal">Biobased range</span><span class="pill teal">Bariline</span><span class="pill teal">Copperant</span><span class="pill teal">Fairf</span></div>
+      </div>
+      <div class="card solid" style="display:flex;flex-direction:column">
+        <div class="num">03</div>
+        <h3>Re-<span class="paint">imagine</span> — protection itself</h3>
+        <p>Longer life, less material, lower impact — for the object and for the planet. The future of protection is thinner, smarter and cleaner. We are painting it now.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:28px"><span class="pill">DualCure</span><span class="pill">Thin layers</span><span class="pill">Renewable, step by step</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>07</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 8 · ONE MESSAGE, TWO ACCENTS -->
+<section class="s" id="s8">
+  <div class="fg">
+    <p class="eyebrow">One message, two accents</p>
+    <h2 style="margin-bottom:34px">Same core. <span class="paint">Local accent.</span></h2>
+    <div class="split">
+      <div class="half">
+        <div class="hd"><img class="flag" src="../../assets/img/flags/us.svg" alt="USA">United States</div>
+        <p class="muted" style="font-size:24px">Lead with what the buyer buys on.</p>
+        <ul class="list">
+          <li><b>Quality first</b> — proven, certified, built to last</li>
+          <li><b>Yield per gallon</b> — high solids, thin layers, fewer coats</li>
+          <li><b>Efficiency</b> — faster throughput, less downtime, lower cost per m²</li>
+          <li><b>Dependable domestic supply</b> — made in Angola, Indiana, formulated for North American conditions</li>
+          <li>Sustainability as <b>proof</b>, not as headline</li>
+        </ul>
+      </div>
+      <div class="spine"><div class="bar"></div><div class="lbl">Thin layers · High solids · Yield · Quality</div><div class="bar"></div></div>
+      <div class="half">
+        <div class="hd"><img class="flag" src="../../assets/img/flags/eu.svg" alt="EU">Europe</div>
+        <p class="muted" style="font-size:24px">The same performance core — plus the story the market asks for.</p>
+        <ul class="list teal">
+          <li><b>Quality first</b> — the same proven, certified performance</li>
+          <li><b>Yield &amp; thin layers</b> — the same high-solids engine</li>
+          <li><b>Renewable raw materials</b> — from &lt;10% in 2022 to 55% today</li>
+          <li><b>Gradual transition to circular</b> — the European goal of 100% by 2030, performance intact</li>
+          <li>Sustainability as a <b>buying criterion</b> — EU Ecolabel · Cradle to Cradle · B Corp</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>08</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 9 · THE TRANSITION, PACED -->
+<section class="s" id="s9">
+  <div class="bg soft" style="background-image:url('../../assets/img/IMG-05-renewed-world.jpg')"></div>
+  <div class="fg">
+    <p class="eyebrow">The transition, paced</p>
+    <h2>Quality first.<br><span class="paint">Transition gradual.</span></h2>
+    <p class="lead muted" style="font-size:27px;max-width:1560px">Every litre of paint is chemistry — for a century crude-oil based. We are converting it to renewable and circular raw materials, one product line at a time, without ever touching quality. Same protection. Lower impact.</p>
+    <div class="tracklabel">Quality · the constant — never traded</div>
+    <div class="road q">
+      <div class="track"></div>
+      <div class="pt" style="left:6%"><span class="v small">100%</span><div class="dot"></div></div>
+      <div class="pt" style="left:50%"><span class="v small">100%</span><div class="dot"></div></div>
+      <div class="pt end" style="left:94%"><span class="v small">100%</span><div class="dot"></div></div>
+    </div>
+    <div class="tracklabel">Renewable &amp; circular raw materials · the journey</div>
+    <div class="road" style="margin:62px 0 0;height:136px">
+      <div class="track"></div>
+      <div class="pt f" style="left:6%"><span class="v" style="color:var(--fossil)">&lt;10%</span><div class="dot"></div><span class="y">2022 · start</span></div>
+      <div class="pt t" style="left:50%"><span class="v" style="color:var(--teal)">55%</span><div class="dot"></div><span class="y">today</span></div>
+      <div class="pt end" style="left:94%"><span class="v aim" style="color:var(--green)">Aim for the best</span><div class="dot"></div><span class="y">the road ahead</span></div>
+    </div>
+    <div class="grid" style="grid-template-columns:1fr 1fr;margin-top:auto">
+      <div class="card"><div class="k">Europe · today</div><p>A buying criterion: CSRD reporting, EU Ecolabel, Cradle to Cradle, B Corp. The transition is part of the offer.</p></div>
+      <div class="card"><div class="k">United States · an option we hold</div><p>Ready the moment customers or regulators ask — proven in Europe first, and never at the expense of performance or yield.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>09</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 10 · MARKETS & BRANDS -->
+<section class="s" id="s10">
+  <div class="fg">
+    <p class="eyebrow">Markets &amp; brands · one portfolio</p>
+    <h2 style="margin-bottom:10px">Six markets. Ten brands. <span class="paint">One philosophy.</span></h2>
+    <p class="muted" style="font-size:20px;margin:0 0 14px;display:flex;align-items:center;gap:12px"><span class="fq"><img class="flag" src="../../assets/img/flags/eu.svg"><b>?</b></span> = market option to explore</p>
+    <div class="mkt">
+      <div class="card solid"><div class="k">Protective &amp; industrial coatings</div>
+        <div class="row">
+          <div class="brand"><div class="tile"><img src="../../barilcoatings/assets/img/logo-baril-coatings.svg" style="filter:invert(1) brightness(.2)" alt="Baril Coatings"></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"><img class="flag" src="../../assets/img/flags/us.svg"></div><span class="tag" style="font-size:15px;letter-spacing:.08em">DualCure · SteelKote</span></div>
+          <div class="brand"><div class="tile"><img src="../../fortis/assets/img/fortis-logo-color.svg" alt="Fortis"></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"><span class="fq"><img class="flag" src="../../assets/img/flags/us.svg"><b>?</b></span></div></div>
+        </div>
+        <p class="muted" style="font-size:21px;line-height:1.45">Steel &amp; infrastructure, OEM &amp; metal, marine &amp; offshore — thin-layer corrosion protection up to the highest ISO 12944 classes.</p></div>
+      <div class="card solid"><div class="k">Agriculture &amp; horticulture</div>
+        <div class="row">
+          <div class="brand"><div class="tile"><img src="../../agriguard/assets/img/logo.png" style="filter:invert(1) hue-rotate(180deg)" alt="AgriGuard"></div><div class="flags"><img class="flag" src="../../assets/img/flags/us.svg"><span class="fq"><img class="flag" src="../../assets/img/flags/eu.svg"><b>?</b></span></div></div>
+          <div class="brand"><div class="tile"><img src="../../nixol/assets/img/logo.svg" alt="Nixol"></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"></div></div>
+        </div>
+        <p class="muted" style="font-size:21px;line-height:1.45">Rust encapsulation straight over corroded farm and fleet equipment; temporary, fully removable shading for glass and polycarbonate greenhouses.</p></div>
+      <div class="card solid"><div class="k">Automotive &amp; fleet refinish</div>
+        <div class="row">
+          <div class="brand"><div class="tile"><img src="../../autoguard/assets/img/logo.png" alt="AutoGuard"></div><div class="flags"><img class="flag" src="../../assets/img/flags/us.svg"></div></div>
+          <div class="brand"><div class="tile"><img src="../../fleetspec/assets/img/logo.png" alt="FleetSpec"></div><div class="flags"><img class="flag" src="../../assets/img/flags/us.svg"></div></div>
+        </div>
+        <p class="muted" style="font-size:21px;line-height:1.45">Complete refinish lines for autobody, truck and commercial transport — faster cure, no added heat, lasting gloss and precise colour matches.</p></div>
+      <div class="card solid"><div class="k">Trade &amp; home paints</div>
+        <div class="row">
+          <div class="brand"><div class="tile"><img src="../../copperant/assets/img/hero-logo.png" alt="Copperant"></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"><span class="fq"><img class="flag" src="../../assets/img/flags/us.svg"><b>?</b></span></div></div>
+          <div class="brand"><div class="tile"><img src="../../fairf/assets/img/hero-logo.png" alt="Fairf"></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"></div></div>
+        </div>
+        <p class="muted" style="font-size:21px;line-height:1.45">Biobased trade paint with EU Ecolabel and Cradle to Cradle for the professional; plant-based wall and lacquer paint for the home.</p></div>
+      <div class="card solid"><div class="k">Floor coatings</div>
+        <div class="row">
+          <div class="brand"><div class="tile"><img src="../../resinwerks/assets/img/logo.png" alt="Resinwerks"></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"><img class="flag" src="../../assets/img/flags/us.svg"></div></div>
+        </div>
+        <p class="muted" style="font-size:21px;line-height:1.45">Epoxy, polyaspartic and urethane systems — 100% solids, 0-VOC — for garages, showrooms and the toughest industrial floors.</p></div>
+      <div class="card solid"><div class="k">Industrial tinting</div>
+        <div class="row">
+          <div class="brand"><div class="tile"><span class="word">TintLab</span></div><div class="flags"><img class="flag" src="../../assets/img/flags/eu.svg"><span class="fq"><img class="flag" src="../../assets/img/flags/us.svg"><b>?</b></span></div></div>
+        </div>
+        <p class="muted" style="font-size:21px;line-height:1.45">Consistent, reproducible colour pastes for industrial lines — without compromising the final coating's performance.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>10</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 11 · BARIL USA -->
+<section class="s" id="s11">
+  <div class="bg" style="background-image:url('../../assets/img/IMG-08-field.jpg')"></div>
+  <div class="fg">
+    <p class="eyebrow"><img class="flag" style="vertical-align:-2px;margin-right:12px" src="../../assets/img/flags/us.svg">Baril USA · Angola, Indiana</p>
+    <h2>Proven quality,<br>made <span class="paint">close to the customer.</span></h2>
+    <p class="lead muted" style="max-width:1000px">Founded in 2006 together with the Harmon family — today run by Dave Harmon and his children. Formulated for North American conditions, produced in Indiana, delivered on short and dependable supply lines.</p>
+    <div class="grid" style="grid-template-columns:repeat(5,1fr);gap:22px;margin-top:40px;max-width:1500px">
+      <div class="tile"><img src="../../barilcoatings/assets/img/logo-baril-coatings.svg" style="filter:invert(1) brightness(.2)" alt="Baril Coatings"></div>
+      <div class="tile"><img src="../../agriguard/assets/img/logo.png" style="filter:invert(1) hue-rotate(180deg)" alt="AgriGuard"></div>
+      <div class="tile"><img src="../../autoguard/assets/img/logo.png" alt="AutoGuard"></div>
+      <div class="tile"><img src="../../fleetspec/assets/img/logo.png" alt="FleetSpec"></div>
+      <div class="tile"><img src="../../resinwerks/assets/img/logo.png" alt="Resinwerks"></div>
+    </div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:44px;max-width:1300px">
+      <span class="pill">Quality first</span><span class="pill">Yield per gallon</span><span class="pill">High solids</span><span class="pill">Faster throughput</span><span class="pill">Dependable domestic supply</span><span class="pill ink">DualCure (DCC)</span><span class="pill ink">SteelKote</span><span class="pill ink">Baril Coatings USA · protective &amp; industrial</span>
+    </div>
+  </div>
+  <div class="foot"><span>11</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 12 · BARIL EUROPE -->
+<section class="s" id="s12">
+  <div class="bg" style="background-image:url('../../assets/img/OWN-lab.jpg')"></div>
+  <div class="fg">
+    <p class="eyebrow"><img class="flag" style="vertical-align:-2px;margin-right:12px" src="../../assets/img/flags/eu.svg">Baril Europe · 's-Hertogenbosch and beyond</p>
+    <h2>The same performance —<br>on a <span class="paint">renewable path.</span></h2>
+    <p class="lead muted" style="max-width:1000px">Headquarters and R&amp;D in 's-Hertogenbosch, production in Etten-Leur, partners in Gliwice, Bucharest and Tbilisi. Renewable chemistry developed in-house and proven in the harshest European specifications.</p>
+    <div class="grid" style="grid-template-columns:repeat(6,1fr);gap:20px;margin-top:40px;max-width:1600px">
+      <div class="tile"><img src="../../barilcoatings/assets/img/logo-baril-coatings.svg" style="filter:invert(1) brightness(.2)" alt="Baril Coatings"></div>
+      <div class="tile"><img src="../../fortis/assets/img/fortis-logo-color.svg" alt="Fortis"></div>
+      <div class="tile"><img src="../../copperant/assets/img/hero-logo.png" alt="Copperant"></div>
+      <div class="tile"><img src="../../fairf/assets/img/hero-logo.png" alt="Fairf"></div>
+      <div class="tile"><img src="../../nixol/assets/img/logo.svg" alt="Nixol"></div>
+      <div class="tile"><span class="word" style="font-size:32px">TintLab</span></div>
+    </div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:44px;max-width:1300px">
+      <span class="pill teal">Renewable raw materials</span><span class="pill teal">EU goal · 55% → 100% by 2030</span><span class="pill teal">EU Ecolabel</span><span class="pill teal">Cradle to Cradle</span><span class="pill teal">B Corp · 2025</span>
+    </div>
+  </div>
+  <div class="foot"><span>12</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 13 · MADE CLOSE TO HOME -->
+<section class="s" id="s13">
+  <div class="fg">
+    <p class="eyebrow">Close to your market</p>
+    <div class="two">
+      <div class="photo" style="min-height:720px;background-image:url('../../assets/img/OWN-solar.jpg')"></div>
+      <div>
+        <h2>Made <span class="paint">close to home</span> —<br>on both continents.</h2>
+        <p class="lead muted" style="margin-bottom:34px">Coatings made close to the markets they serve: 's-Hertogenbosch for Europe, Angola, Indiana for North America. Short, dependable supply lines instead of chemistry that crosses the planet before it reaches the can.</p>
+        <ul class="list">
+          <li>Production on our own solar and wind power</li>
+          <li>An electric and hybrid fleet</li>
+          <li>Inclusive hiring as policy, not project · Baril Academy</li>
+          <li>Regional feedstocks that shrink the footprint — grown, processed and applied in the same region</li>
+        </ul>
+        <div class="hair"></div>
+        <p style="font-size:24px"><b class="paint">For the US this is more than a green story:</b> it is a hedge against long supply chains and a promise of availability — the same promise we make in Europe.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>13</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 14 · PROOF -->
+<section class="s" id="s14">
+  <div class="bg" style="background-image:url('../../assets/img/OWN-airmix.jpg')"></div>
+  <div class="fg">
+    <p class="eyebrow">Proof</p>
+    <h2>Technically at the top,<br><span class="paint">in every market.</span></h2>
+    <p class="lead muted" style="max-width:1050px">Renewable chemistry is only half of it. The other half is performance — engineered to the most demanding standards, qualified and tested against the toughest specifications. Backed by 45+ years of coatings R&amp;D.</p>
+    <div class="certs" style="margin-top:40px;max-width:1250px">
+      <div class="cert"><b>B Corp</b>Certified 2025</div>
+      <div class="cert"><b>ISO 9001</b>Quality</div>
+      <div class="cert"><b>ISO 14001</b>Environment</div>
+      <div class="cert"><b>ISO 45001</b>Safety</div>
+      <div class="cert"><b>NORSOK M-501</b>Offshore systems</div>
+      <div class="cert"><b>KOT · COT</b>Certified paint systems</div>
+      <div class="cert"><b>ISO 12944</b>Up to the highest corrosivity classes</div>
+    </div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:44px;max-width:1300px">
+      <span class="tag" style="align-self:center;margin-right:8px">Markets served</span>
+      <span class="pill ink">Steel &amp; infrastructure</span><span class="pill ink">OEM &amp; metal</span><span class="pill ink">Marine &amp; offshore</span><span class="pill ink">Agriculture &amp; fleet</span><span class="pill ink">Professional painting</span><span class="pill ink">Consumer</span>
+    </div>
+  </div>
+  <div class="foot"><span>14</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 15 · HOW NL AND USA PULL TOGETHER -->
+<section class="s" id="s15">
+  <div class="fg">
+    <p class="eyebrow">How the Netherlands and the USA pull together</p>
+    <h2 style="margin-bottom:34px">Two continents, <span class="paint">one engine.</span></h2>
+    <div class="split" style="grid-template-columns:1fr 120px 1fr">
+      <div class="half">
+        <div class="hd"><img class="flag" src="../../assets/img/flags/nl.svg" alt="NL">The Netherlands brings</div>
+        <ul class="list teal">
+          <li>Renewable and circular chemistry, developed in-house</li>
+          <li>Thin-layer R&amp;D — DualCure, SteelKote, Aquaran, Bariline</li>
+          <li>European certification and specification know-how</li>
+          <li>The group story, brand family and portal website</li>
+        </ul>
+      </div>
+      <div class="spine"><div class="bar"></div><div class="arrow">⇄</div><div class="bar"></div></div>
+      <div class="half">
+        <div class="hd"><img class="flag" src="../../assets/img/flags/us.svg" alt="US">The USA brings</div>
+        <ul class="list">
+          <li>Formulation for North American conditions and applicators</li>
+          <li>Refinish, fleet and agricultural market expertise</li>
+          <li>A second production base — supply security for the group</li>
+          <li>Market access and a proving ground for the next step</li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid" style="grid-template-columns:repeat(4,1fr);margin-top:30px">
+      <div class="card"><div class="k">Shared</div><p>One chemistry platform</p></div>
+      <div class="card"><div class="k">Shared</div><p>One brand family &amp; story</p></div>
+      <div class="card"><div class="k">Shared</div><p>One website portal, local brand sites</p></div>
+      <div class="card"><div class="k">Shared</div><p>One roadmap — paced per market</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>15</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 16 · WHAT THIS COULD MEAN FOR BARIL USA -->
+<section class="s" id="s16">
+  <div class="fg">
+    <p class="eyebrow">For discussion · what this could mean for Baril USA</p>
+    <h2>Inspiration, <span class="paint">not instruction.</span></h2>
+    <div class="grid" style="grid-template-columns:repeat(3,1fr);margin-top:20px">
+      <div class="card solid"><div class="k">Lead with quality &amp; yield</div><p>Proven performance, high solids, thin layers and cost per m² are the story. Sustainability sits underneath as proof — visible, never loud.</p></div>
+      <div class="card solid"><div class="k">"Made in Angola, Indiana" — quietly</div><p>Dependable domestic supply is a strength in today's market. State it as a fact of proximity and reliability, not as a flag.</p></div>
+      <div class="card solid"><div class="k">Keep the option open</div><p>Europe proves the renewable path first. When US customers or regulators ask, the answer is already on the shelf — tested, certified, in use.</p></div>
+      <div class="card solid"><div class="k">One portal, strong local brands</div><p>barilgroup.com routes visitors to markets and brand sites; every brand site carries a Baril Group button. Same story, local voice.</p></div>
+      <div class="card solid"><div class="k">Cross-Atlantic exchange</div><p>DualCure and SteelKote as thin-layer heroes on both continents; AgriGuard know-how for European agri; Nixol horticulture know-how for North America.</p></div>
+      <div class="card solid"><div class="k">One phrase, everywhere</div><p><b>Repainting the future</b> — refinish, renew, re-imagine. Broad enough for a body shop in Indiana and an offshore spec in Rotterdam.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>16</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<!-- 17 · CLOSING -->
+<section class="s" id="s17">
+  <div class="bg top" style="background-image:url('../../assets/img/IMG-01-hero.jpg')"></div>
+  <div class="fg" style="justify-content:flex-end">
+    <img class="logo" style="height:78px;align-self:flex-start;margin-bottom:auto" src="../../assets/img/logo-baril-group.png" alt="Baril Group">
+    <h1 style="font-size:96px">Repainting the future.<br><span class="paint">Together.</span></h1>
+    <div class="contactgrid">
+      <div class="contact"><div class="k">Baril Group NL · EU Headquarters, R&amp;D &amp; Production</div><p>Zilverenberg 9 · 5234 GL 's-Hertogenbosch · The Netherlands<br>+31 (0)73 641 98 90 · verkoop@baril.nl</p></div>
+      <div class="contact"><div class="k">Baril Group USA · US Headquarters, Production &amp; R&amp;D</div><p>401 Growth Parkway · Angola, IN 46703 · United States<br>+1 260-665-8431 · digitalsales@barilcoatings.us</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>17 · www.barilgroup.com</span><span><b>Baril Group</b> · Repainting the future</span></div>
+</section>
+
+<script>
+// Screenshot helper: open deck.html#s7 to render only slide 7 (used for QA renders, not for PDF).
+(function(){var m=location.hash.match(/^#(s\d+)$/);if(!m)return;document.body.classList.add('only');var el=document.getElementById(m[1]);if(el)el.classList.add('show');})();
+</script>
+</body>
+</html>
