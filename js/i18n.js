@@ -53,36 +53,36 @@
     ['#mission .mm span', {
       nl: [
         'Dunne-laag-technologie verlengt de levensduur van materialen met aanzienlijk minder verf per vierkante meter.',
-        'Plantaardige grondstoffen en minder gevaarlijke stoffen, ontworpen op formuleringsniveau.',
+        'Het beste van twee werelden: hernieuwbare grondstoffen waar ze presteren, chemical engineering op het hoogste niveau waar dat niet kan — in beide gevallen minder gevaarlijke stoffen.',
         'Gecertificeerd kwaliteits-, milieu- en veiligheidsmanagement — en productcertificeringen per merk.'],
       pl: [
         'Technologia cienkowarstwowa wydłuża żywotność materiałów przy znacznie mniejszej ilości farby na metr kwadratowy.',
-        'Surowce roślinne i mniej substancji niebezpiecznych, zaprojektowane na poziomie receptury.',
+        'Najlepsze z obu światów: surowce odnawialne tam, gdzie się sprawdzają, i inżynieria chemiczna na najwyższym poziomie tam, gdzie nie — w obu przypadkach mniej substancji niebezpiecznych.',
         'Certyfikowane zarządzanie jakością, środowiskiem i bezpieczeństwem — oraz certyfikaty produktowe dla każdej marki.'],
       ro: [
         'Tehnologia în strat subțire prelungește durata de viață a materialelor cu mult mai puțină vopsea pe metru pătrat.',
-        'Materii prime vegetale și mai puține substanțe periculoase, concepute la nivel de rețetă.',
+        'Ce e mai bun din ambele lumi: materii prime regenerabile acolo unde performează, inginerie chimică la cel mai înalt nivel acolo unde nu — mai puține substanțe periculoase în ambele cazuri.',
         'Management certificat al calității, mediului și siguranței — plus certificări de produs pentru fiecare marcă.'],
       de: [
         'Dünnschicht-Technologie verlängert die Lebensdauer von Materialien mit deutlich weniger Farbe pro Quadratmeter.',
-        'Pflanzliche Rohstoffe und weniger Gefahrstoffe, auf Rezepturebene konzipiert.',
+        'Das Beste aus beiden Welten: erneuerbare Rohstoffe, wo sie leisten, Verfahrenstechnik auf höchstem Niveau, wo sie es nicht tun — in beiden Fällen weniger Gefahrstoffe.',
         'Zertifiziertes Qualitäts-, Umwelt- und Sicherheitsmanagement — und Produktzertifizierungen je Marke.'],
       fr: [
         'La technologie en couche mince prolonge la durée de vie des matériaux avec nettement moins de peinture par mètre carré.',
-        'Des matières premières végétales et moins de substances dangereuses, pensées au niveau de la formulation.',
+        'Le meilleur des deux mondes : des matières premières renouvelables là où elles performent, une ingénierie chimique au plus haut niveau là où elles ne le font pas — moins de substances dangereuses dans les deux cas.',
         'Un management qualité, environnement et sécurité certifié — et des certifications produit par marque.'],
       es: [
         'La tecnología de capa fina prolonga la vida de los materiales con mucha menos pintura por metro cuadrado.',
-        'Materias primas vegetales y menos sustancias peligrosas, pensadas a nivel de formulación.',
+        'Lo mejor de ambos mundos: materias primas renovables donde rinden, ingeniería química del más alto nivel donde no — menos sustancias peligrosas en ambos casos.',
         'Gestión certificada de calidad, medio ambiente y seguridad — y certificaciones de producto por marca.'],
       it: [
         'La tecnologia a strato sottile prolunga la vita dei materiali con molta meno vernice per metro quadro.',
-        'Materie prime vegetali e meno sostanze pericolose, progettate a livello di formulazione.',
+        'Il meglio dei due mondi: materie prime rinnovabili dove rendono, ingegneria chimica ai massimi livelli dove non lo fanno — in entrambi i casi meno sostanze pericolose.',
         'Gestione certificata di qualità, ambiente e sicurezza — e certificazioni di prodotto per ogni marchio.'],
       tr: [
         'İnce katman teknolojisi, metrekare başına çok daha az boya ile malzemelerin ömrünü uzatır.',
-        'Formülasyon düzeyinde tasarlanan bitkisel hammaddeler ve daha az tehlikeli madde.',
-        'Sertifikalı kalite, çevre ve güvenlik yönetimi — ve her marka için ürün sertifikaları.'], no: ['Tynnsjikt-teknologi forlenger materialenes levetid med betydelig mindre maling per kvadratmeter.','Plantebaserte råvarer og færre farlige stoffer, designet inn på formuleringsnivå.','Sertifisert kvalitets-, miljø- og sikkerhetsstyring — og produktsertifiseringer per merke.'], sv: ['Tunnskiktsteknik förlänger materialens livslängd med betydligt mindre färg per kvadratmeter.','Växtbaserade råvaror och färre farliga ämnen, indesignade på formuleringsnivå.','Certifierad kvalitets-, miljö- och säkerhetsstyrning — och produktcertifieringar per varumärke.'] }],
+        'İki dünyanın en iyisi: performans gösterdiği yerde yenilenebilir hammaddeler, göstermediği yerde en üst düzeyde kimya mühendisliği — her iki durumda da daha az tehlikeli madde.',
+        'Sertifikalı kalite, çevre ve güvenlik yönetimi — ve her marka için ürün sertifikaları.'], no: ['Tynnsjikt-teknologi forlenger materialenes levetid med betydelig mindre maling per kvadratmeter.','Det beste fra to verdener: fornybare råvarer der de yter, kjemisk ingeniørkunst på høyeste nivå der de ikke gjør det — færre farlige stoffer i begge tilfeller.','Sertifisert kvalitets-, miljø- og sikkerhetsstyring — og produktsertifiseringer per merke.'], sv: ['Tunnskiktsteknik förlänger materialens livslängd med betydligt mindre färg per kvadratmeter.','Det bästa av två världar: förnybara råvaror där de presterar, kemiteknik på högsta nivå där de inte gör det — färre farliga ämnen i båda fallen.','Certifierad kvalitets-, miljö- och säkerhetsstyrning — och produktcertifieringar per varumärke.'] }],
     ['.film-cap .wrap-cap', {
       nl: 'De film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">bekijk met geluid ↗</a>',
       pl: 'Film — To sustain our future, rich in colour · <a href="https://youtu.be/CYG3N-b-Dzk" target="_blank" rel="noopener">obejrzyj z dźwiękiem ↗</a>',
