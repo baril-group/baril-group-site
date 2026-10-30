@@ -7,9 +7,8 @@ the other languages are swapped in at runtime.
 ## Two translation systems
 
 **1. Brand / Group pages** — `index.html`, `barilcoatings/` hub + product-line
-pages (DualCure, SteelKote, Aquaran, Bariline) and the 9 brand sites
-(Copperant, Fairf, Fortis, Nixol, TintLab, AgriGuard, AutoGuard, FleetSpec,
-Resinwerks).
+pages (DualCure, SteelKote, Aquaran, Bariline) and the 8 brand sites
+(Copperant, Fairf, Fortis, Nixol, TintLab, AgriGuard, AutoGuard, FleetSpec).
 
 - English lives in the DOM. Each page loads an i18n bundle (`js/i18n.js`, plus
   `barilcoatings/js/brand-i18n.js` for the product-line pages) containing a

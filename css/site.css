@@ -265,7 +265,6 @@ h2{
 .brand.red{--accent:#F0473A}
 .brand.steel{--accent:#4A86C9}
 .brand.agri{--accent:#2FB6A4}
-.brand.resin{--accent:#27C2E6}
 .brand.fleet{--accent:#FF7A1A}
 .brand.auto{--accent:#E23A45}
 .region-flags{position:absolute;top:20px;right:22px;z-index:2;display:flex;gap:6px}
