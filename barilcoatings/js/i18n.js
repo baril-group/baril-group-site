@@ -7,13 +7,13 @@
   const MAP = [
     ['.foot-disclaimer', { nl: 'We willen onze informatie zo breed mogelijk beschikbaar maken; daarom zijn sommige teksten vertaald met Anthropic Claude AI. Komt u onverhoopt een fout tegen, laat het ons dan vooral weten.', pl: 'Chcemy udostępniać nasze informacje możliwie jak najszerzej, dlatego niektóre teksty przetłumaczyliśmy za pomocą Anthropic Claude AI. Jeśli zauważą Państwo błąd, prosimy o informację.', ro: 'Dorim să facem informațiile noastre cât mai larg disponibile; de aceea, unele texte au fost traduse cu Anthropic Claude AI. Dacă întâlniți o eroare, vă rugăm să ne anunțați.', de: 'Wir möchten unsere Informationen so breit wie möglich verfügbar machen; daher wurden einige Texte mit Anthropic Claude AI übersetzt. Sollte Ihnen ein Fehler auffallen, lassen Sie es uns bitte wissen.', fr: 'Nous souhaitons rendre nos informations aussi largement accessibles que possible ; c\'est pourquoi certains textes ont été traduits avec Anthropic Claude AI. Si vous constatez une erreur, n\'hésitez pas à nous le signaler.', es: 'Queremos que nuestra información esté disponible de la forma más amplia posible; por eso, algunos textos se han traducido con Anthropic Claude AI. Si detecta algún error, le rogamos que nos lo comunique.', it: 'Vogliamo rendere le nostre informazioni il più ampiamente disponibili possibile; per questo alcuni testi sono stati tradotti con Anthropic Claude AI. Se dovesse notare un errore, vi preghiamo di segnalarcelo.', tr: 'Bilgilerimizi mümkün olduğunca geniş kitlelere ulaştırmak istiyoruz; bu nedenle bazı metinler Anthropic Claude AI ile çevrildi. Bir hata fark ederseniz lütfen bize bildirin.', no: 'Vi ønsker å gjøre informasjonen vår så bredt tilgjengelig som mulig; derfor er noen tekster oversatt med Anthropic Claude AI. Skulle du oppdage en feil, setter vi stor pris på at du gir oss beskjed.', sv: 'Vi vill göra vår information så brett tillgänglig som möjligt; därför har vissa texter översatts med Anthropic Claude AI. Om du upptäcker ett fel får du gärna meddela oss.' }],
     ['.navlinks a', {
-      nl: ['Producten', 'Verfsystemen', 'Markten', 'Cases', 'Technologie', 'Contact'],
-      pl: ['Produkty', 'Systemy malarskie', 'Rynki', 'Realizacje', 'Technologia', 'Kontakt'],
-      ro: ['Produse', 'Sisteme de vopsire', 'Piețe', 'Studii de caz', 'Tehnologie', 'Contact'],
-      de: ['Produkte', 'Lacksysteme', 'Märkte', 'Referenzen', 'Technologie', 'Kontakt'],
-      fr: ['Produits', 'Systèmes de peinture', 'Marchés', 'Études de cas', 'Technologie', 'Contact'],
-      es: ['Productos', 'Sistemas de pintura', 'Mercados', 'Casos', 'Tecnología', 'Contacto'],
-      it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Tecnologia', 'Contatto'],
+      nl: ['Producten', 'Verfsystemen', 'Markten', 'Cases', 'Highlights', 'Technologie', 'Contact'],
+      pl: ['Produkty', 'Systemy malarskie', 'Rynki', 'Realizacje', 'Highlights', 'Technologia', 'Kontakt'],
+      ro: ['Produse', 'Sisteme de vopsire', 'Piețe', 'Studii de caz', 'Highlights', 'Tehnologie', 'Contact'],
+      de: ['Produkte', 'Lacksysteme', 'Märkte', 'Referenzen', 'Highlights', 'Technologie', 'Kontakt'],
+      fr: ['Produits', 'Systèmes de peinture', 'Marchés', 'Études de cas', 'Highlights', 'Technologie', 'Contact'],
+      es: ['Productos', 'Sistemas de pintura', 'Mercados', 'Casos', 'Highlights', 'Tecnología', 'Contacto'],
+      it: ['Prodotti', 'Sistemi di verniciatura', 'Mercati', 'Case study', 'Highlights', 'Tecnologia', 'Contatto'],
       tr: ['Ürünler', 'Boya sistemleri', 'Pazarlar', 'Vaka çalışmaları', 'Teknoloji', 'İletişim'], no: ['Produkter','Beleggsystemer','Markeder','Cases','Teknologi','Kontakt'], sv: ['Produkter','Beläggningssystem','Marknader','Cases','Teknik','Kontakt'] }],
     ['header .eyebrow .eb-txt', {
       nl: "Baril Coatings — Industriële & beschermende coatings · Sinds 1982",
@@ -182,7 +182,7 @@
       fr: ['Durcissement chimique 2K (A+B)', 'Durcissement par l\'humidité de l\'air'],
       es: ['Curado químico 2K (A+B)', 'Curado por humedad del aire'],
       it: ['Indurimento chimico 2K (A+B)', 'Indurimento con l\'umidità dell\'aria'],
-      tr: ['Kimyasal 2K kürlenme (A+B)', 'Havadaki nemle kürlenme'], no: ['Kjemisk 2K-herding (A+B)','Fuktherding fra lufta'], sv: ['Kemisk 2K-härdning (A+B)','Fukthärdning från luften'] }],
+      tr: ['Kimyasal 2K kürlenme (A+B)', 'Havadaki nemle kürlenme', 'Kjemisk 2K-herding (A+B)', 'Fuktherding fra lufta', 'Highlights', 'Kemisk 2K-härdning (A+B)', 'Fukthärdning från luften'],
     ['#dualcure .cr .cl', {
       nl: ['Dunner dan conventioneel — bij gelijke bescherming', 'Bij 200 µm totaal · NORSOK-gecertificeerd voor offshore', 'Procestijd · uithardt in ~30 min, zonder warmte, low-VOC'],
       pl: ['Cieńsza niż konwencjonalna — przy tej samej ochronie', 'Przy 200 µm łącznie · certyfikat NORSOK dla offshore', 'Czas procesu · utwardza w ~30 min, bez ciepła, niska LZO'],
